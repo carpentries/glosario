@@ -1,0 +1,13 @@
+title: "Glossary"
+repository: <USERNAME>/<PROJECT>
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: "page"
+kramdown:
+  toc_levels: "2"
+exclude:
+- "Makefile"
+- "README.md"
+- "bin/*"

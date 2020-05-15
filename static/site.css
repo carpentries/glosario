@@ -1,0 +1,10 @@
+body {
+    font-family: "Helvetica Neue", Helvetica;
+    width: 70em;
+    padding-left: 1em;
+    font-size: 12pt;
+}
+
+dt {
+    font-weight: bold;
+}

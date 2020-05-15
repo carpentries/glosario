@@ -1,0 +1,8 @@
+<dl>
+{% for item in site.data.glossary %}
+  <dt id="{{item.slug}}">{{item.term}}</dt>
+  <dd>
+    {{item.en | mardownify}}
+  </dd>
+{% endfor %}
+</dl>
