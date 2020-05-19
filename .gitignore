@@ -12,3 +12,4 @@ _site
 dist
 glossary/glossary.yml
 man
+/Gemfile.lock
