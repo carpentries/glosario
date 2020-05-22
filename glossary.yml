@@ -1,948 +1,1183 @@
-- term: "+1"
-  slug: plus_one
-  en: >
-    A vote in favor of something.
+- slug: plus_one
+  en:
+    term: "+1"
+    def: >
+      A vote in favor of something.
 
-- term: Absolute path
-  slug: absolute_path
-  en: >
-    A path that points to the same location in the filesystem regardless of where
-    it's evaluated. An absolute path is the equivalent of latitude and longitude
-    in geography.
-  see:
+- slug: absolute_path
+  en:
+    term: "absolute path"
+    def: >
+      A path that points to the same location in the filesystem regardless of where
+      it's evaluated. An absolute path is the equivalent of latitude and longitude
+      in geography.
+  ref:
     - relative_path
 
-- term: Absolute row number
-  slug: absolute_row_number
-  en: >
-    The sequential index of a row in a table, regardless of what sections of the
-    table is being displayed.
+- slug: absolute_row_number
+  en:
+    term: "absolute row number"
+    def: >
+      The sequential index of a row in a table, regardless of what sections of the
+      table is being displayed.
 
-- term: Aggregation
-  slug: aggregation
-  en: >
-    To combine many values into one, e.g., by summing a set of numbers or
-    concatenating a set of strings.
+- slug: aggregation
+  en:
+    term: "aggregation"
+    def: >
+      To combine many values into one, e.g., by summing a set of numbers or
+      concatenating a set of strings.
 
-- term: Aggregation function
-  slug: aggregation_function
-  en: >
-    A function that combines many values into one, such as `sum` or `max`.
+- slug: aggregation_function
+  en:
+    term: "aggregation function"
+    def: >
+      A function that combines many values into one, such as `sum` or `max`.
 
-- term: Aliasing
-  slug: aliasing
-  en: >
-    To have two or more references to the same thing, such as a data structure
-    in memory or a file on disk.
+- slug: aliasing
+  en:
+    term: "aliasing"
+    def: >
+      To have two or more references to the same thing, such as a data structure
+      in memory or a file on disk.
 
-- term: Anonymous function
-  slug: anonymous_function
-  en: >
-    A function that has not been assigned a name.  Anonymous functions are usually
-    quite short, and are usually defined where they are used, e.g., as
-    callbacks.
+- slug: anonymous_function
+  en:
+    term: "anonymous function"
+    def: >
+      A function that has not been assigned a name.  Anonymous functions are usually
+      quite short, and are usually defined where they are used, e.g., as
+      callbacks.
 
-- term: Application Programming Interface
-  slug: api
-  acronym: API
-  en: >
-    A set of functions and procedures provided by one software library or web service
-    through which another application can communicate with it.
-    An API is not the code, the database, or the server:
-    it's the access point.
+- slug: api
+  en:
+    term: "Application Programming Interface"
+    acronym: API
+    def: >
+      A set of functions and procedures provided by one software library or web service
+      through which another application can communicate with it.
+      An API is not the code, the database, or the server:
+      it's the access point.
 
-- term: Argument
-  slug: argument
-  en: >
-    A value passed into a function. Some authors use the term as a synonym for
-    [parameter](#parameter) and some do not; it's all very confusing.
+- slug: argument
+  en:
+    term: "argument"
+    def: >
+      A value passed into a function. Some authors use the term as a synonym for
+      [parameter](#parameter) and some do not; it's all very confusing.
 
-- term: ASCII
-  slug: ascii
-  en: >
-    A standard way to represent the characters commonly used in the Western
-    European languages as 7- or 8-bit integers, now superceded by [Unicode](#unicode).
+- slug: ascii
+  en:
+    term: "ASCII"
+    def: >
+      A standard way to represent the characters commonly used in the Western
+      European languages as 7- or 8-bit integers, now superceded by [Unicode](#unicode).
 
-- term: Attribute
-  slug: attribute
-  en: >
-    A name-value pair associated with an object, used to store metadata about the
-    object such as an array's dimensions.
+- slug: attribute
+  en:
+    term: "attribute"
+    def: >
+      A name-value pair associated with an object, used to store metadata about the
+      object such as an array's dimensions.
 
-- term: Backward-compatible
-  slug: backward_compatible
-  en: >
-    Software which is able to be used the same way as earlier versions of itself
-    without problems.
+- slug: backward_compatible
+  en:
+    term: "backward-compatible"
+    def: >
+      Software which is able to be used the same way as earlier versions of itself
+      without problems.
 
-- term: Base R
-  slug: base_r
-  en: >
-    The basic functions making up the R language.
-    The base packages can be found in `src/library` and are not updated outside of R;
-    their version numbers follow R version numbering.
-    Base packages are installed and loaded with R,
-    while priority packages are installed with base R but must be loaded prior to use.
-  see:
+- slug: base_r
+  en:
+    term: "base R"
+    def: >
+      The basic functions making up the R language.
+      The base packages can be found in `src/library` and are not updated outside of R;
+      their version numbers follow R version numbering.
+      Base packages are installed and loaded with R,
+      while priority packages are installed with base R but must be loaded prior to use.
+  ref:
     - tidyverse
 
-- term: Branch
-  slug: branch
-  en: >
-    A snapshot of a version of a Git repository. Multiple branches can capture
-    multiple versions of the same repository.
-  see:
+- slug: branch
+  en:
+    term: "branch"
+    def: >
+      A snapshot of a version of a Git repository. Multiple branches can capture
+      multiple versions of the same repository.
+  ref:
     - feature_branch
     - fork
     - master_branch
 
-- term: Breadcrumbs
-  slug: breadcrumbs
-  en: >
-    A set of supplementary navigational links included in many websites, usually placed at the top of the page.
-    Breadcrumbs show the users where the current page lies in the website;
-    the term comes from a fairy tale in which children left a trail of breadcrumbs behind themselves
-    so that they could find their way home.
+- slug: breadcrumbs
+  en:
+    term: "breadcrumbs"
+    def: >
+      A set of supplementary navigational links included in many websites, usually placed at the top of the page.
+      Breadcrumbs show the users where the current page lies in the website;
+      the term comes from a fairy tale in which children left a trail of breadcrumbs behind themselves
+      so that they could find their way home.
 
-- term: Call stack
-  slug: call_stack
-  en: >
-    A data structure that stores information about the active subroutines
-    executed. `cst()` is a useful function provided in the `lobstr` package to
-    visualize a call stack.
+- slug: call_stack
+  en:
+    term: "call stack"
+    def: >
+      A data structure that stores information about the active subroutines
+      executed. `cst()` is a useful function provided in the `lobstr` package to
+      visualize a call stack.
 
-- term: Cascading Style Sheets
-  slug: css
-  acronym: CSS
-  en: >
-    A way to control the appearance of HTML.  CSS is typically used to specify
-    fonts, colors, and layout.
+- slug: css
+  en:
+    term: "Cascading Style Sheets"
+    acronym: "CSS"
+    def: >
+      A way to control the appearance of HTML.  CSS is typically used to specify
+      fonts, colors, and layout.
 
-- term: Catch (exception)
-  slug: catch_exception
-  en: >
-    To accept responsibility for handling an error or other unexpected event.  R
-    prefers "handling a condition" to "catching an exception".
-  see:
+- slug: catch_exception
+  en:
+    term: "catch (exception)"
+    def: >
+      To accept responsibility for handling an error or other unexpected event.  R
+      prefers "handling a condition" to "catching an exception".
+  ref:
     - condition
     - handle_condition
 
-- term: Character encoding
-  slug: character_encoding
-  en: >
-    A specification of how characters are stored as bytes. The most commonly-used
-    encoding today is [UTF-8](#utf_8).
+- slug: character_encoding
+  en:
+    term: "character encoding"
+    def: >
+      A specification of how characters are stored as bytes. The most commonly-used
+      encoding today is [UTF-8](#utf_8).
 
-- term: Closure
-  slug: closure
-  en: >
-    A set of variables defined in the same [scope](#scope) whose existence has been
-    preserved after that scope has ended. Closures are one of the trickiest
-    ideas in programming.
+- slug: class
+  en:
+    term: "class"
+    def: >
+      FIXME
 
-- term: Coercion
-  slug: coercion
-  en: >
-    see [type coercion](#type_coercion).
+- slug: closure
+  en:
+    term: "closure"
+    def: >
+      A set of variables defined in the same [scope](#scope) whose existence has been
+      preserved after that scope has ended. Closures are one of the trickiest
+      ideas in programming.
 
-- term: Comma-Separated Values
-  slug: csv
-  acronym: CSV
-  en: >
-    A text format for tabular data in which each record is one row and fields are
-    separated by commas. There are many minor variations, particularly around
-    quoting of strings.
+- slug: coercion
+  en:
+    term: "coercion"
+    def: >
+      see [type coercion](#type_coercion).
 
-- term: Condition
-  slug: condition
-  en: >
-    An error or other unexpected event that disrupts the normal flow of control.
-  see:
+- slug: constant
+  en:
+    term: "constant"
+    def: >
+      FIXME
+
+- slug: csv
+  en:
+    term: "comma-separated values"
+    acronym: "CSV"
+    def: >
+      A text format for tabular data in which each record is one row and fields are
+      separated by commas. There are many minor variations, particularly around
+      quoting of strings.
+
+- slug: condition
+  en:
+    term: "condition"
+    def: >
+      An error or other unexpected event that disrupts the normal flow of control.
+  ref:
     - handle_condition
 
-- term: Constructor
-  slug: constructor
-  en: >
-    A function that creates an object of a particular class.  In the
-    [S3](#s3) object system, constructors are a convention rather than a
-    requirement.
+- slug: constructor
+  en:
+    term: "constructor"
+    def: >
+      A function that creates an object of a particular class.  In the
+      [S3](#s3) object system, constructors are a convention rather than a
+      requirement.
 
-- term: Copy-on-modify
-  slug: copy_on_modify
-  en: >
-    The practice of creating a new copy of aliased data whenever there is an
-    attempt to modify it so that each reference will believe theirs is the only
-    one.
-  see:
+- slug: copy_on_modify
+  en:
+    term: "copy-on-modify"
+    def: >
+      The practice of creating a new copy of aliased data whenever there is an
+      attempt to modify it so that each reference will believe theirs is the only
+      one.
+  ref:
     - aliasing
 
-- term: CRAN
-  slug: cran
-  en: >
-    The Comprehensive R Archive Network is a public repository of R packages.
-  see:
+- slug: cran
+  en:
+    term: "Comprehensive R Archive Network"
+    acronym: "CRAN"
+    def: >
+      A public repository of R packages.
+  ref:
     - base_r
     - tidyverse
 
-- term: Creative Commons licenses
-  slug: cc_license
-  en: >
-    A set of licenses that can be applied to published work.
-    Each license is formed by concatenating one or more of
-    `-BY` (Attribution): users must cite the original source;
-    `-SA` (ShareAlike): users must share their own work under a similar license;
-    `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission;
-    `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission.
-    Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission
-    The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions", i.e., the work is in the public domain.
+- slug: cc_license
+  en:
+    term: "creative Commons licenses"
+    def: >
+      A set of licenses that can be applied to published work.
+      Each license is formed by concatenating one or more of
+      `-BY` (Attribution): users must cite the original source;
+      `-SA` (ShareAlike): users must share their own work under a similar license;
+      `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission;
+      `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission.
+      Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission
+      The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions", i.e., the work is in the public domain.
 
-- term: Data frame
-  slug: data_frame
-  en: >
-    A two-dimensional data structure for storing tabular data in memory.
-    Rows represent [records](#record) and columns represent [variables](variable_data).
-  see:
+- slug: data_frame
+  en:
+    term: "data frame"
+    def: >
+      A two-dimensional data structure for storing tabular data in memory.
+      Rows represent [records](#record) and columns represent [variables](variable_data).
+  ref:
     - tidy_data
 
-- term: Double
-  slug: double
-  en: >
-    Short for "double-precision floating-point number", meaning a 64-bit numeric
-    value with a fractional part and an exponent.
+- slug: double
+  en:
+    term: "double"
+    def: >
+      Short for "double-precision floating-point number", meaning a 64-bit numeric
+      value with a fractional part and an exponent.
 
-- term: Double square brackets
-  slug: double_square_brackets
-  en: >
-    An index enclosed in `[[...]]`, used to return a single value of the
-    underlying type.  
-  see:
+- slug: double_square_brackets
+  en:
+    term: "double square brackets"
+    def: >
+      An index enclosed in `[[...]]`, used to return a single value of the
+      underlying type.  
+  ref:
     - single_square_brackets
 
-- term: Empty vector
-  slug: empty_vector
-  en: >
-    A vector that contains no elements.  Empty vectors have a type such as logical
-    or character, and are *not* the same as [null](#null).
+- slug: empty_vector
+  en:
+    term: "empty vector"
+    def: >
+      A vector that contains no elements.  Empty vectors have a type such as logical
+      or character, and are *not* the same as [null](#null).
 
-- term: Environment
-  slug: environment
-  en: >
-    A structure that stores a set of variable names and the values they refer to.
+- slug: environment
+  en:
+    term: "environment"
+    def: >
+      A structure that stores a set of variable names and the values they refer to.
 
-- term: Error handling
-  slug: error_handling
-  en: >
-    What a program does to detect and correct for errors.
-    Examples include printing a message and
-    using a default configuration if the user-specified configuration can't be found.
+- slug: error_handling
+  en:
+    term: "error handling"
+    def: >
+      What a program does to detect and correct for errors.
+      Examples include printing a message and
+      using a default configuration if the user-specified configuration can't be found.
 
-- term: Escape sequence
-  slug: escape_sequence
-  en: >
-    A sequence of characters used to represent some other character that would
-    otherwise have a special meaning. For example, the escape sequence `\"` is
-    used to represent a double-quote character inside a double-quoted string.
+- slug: escape_sequence
+  en:
+    term: "escape sequence"
+    def: >
+      A sequence of characters used to represent some other character that would
+      otherwise have a special meaning. For example, the escape sequence `\"` is
+      used to represent a double-quote character inside a double-quoted string.
 
-- term: Evaluation
-  slug: evaluation
-  en: >
-    The process of taking an expression such as `1+2*3/4` and turning it
-    into a single irreducible value.
+- slug: evaluation
+  en:
+    term: "evaluation"
+    def: >
+      The process of taking an expression such as `1+2*3/4` and turning it
+      into a single irreducible value.
 
-- term: Exception
-  slug: exception
-  en: >
-    An object that stores information about an error or other unusual event in a
-    program. One part of a program will create and [raise](#raise) an exception to
-    signal that something unexpected has happened; another part will [catch](#catch_exception)
-    it.
+- slug: exception
+  en:
+    term: "exception"
+    def: >
+      An object that stores information about an error or other unusual event in a
+      program. One part of a program will create and [raise](#raise) an exception to
+      signal that something unexpected has happened; another part will [catch](#catch_exception)
+      it.
 
-- term: Falsy
-  slug: falsy
-  en: >
-    A horrible neologism meaning "equivalent to false". 
-  see:
+- slug: falsy
+  en:
+    term: "falsy"
+    def: >
+      A horrible neologism meaning "equivalent to false". 
+  ref:
     - truthy
 
-- term: Feature branch
-  slug: feature_branch
-  en: >
-    A branch within a Git repository containing commits dedicated to a specific feature,
-    e.g., a bug fix or a new function.
-    This branch can be merged into another branch.
-  see:
+- slug: feature_branch
+  en:
+    term: "feature branch"
+    def: >
+      A branch within a Git repository containing commits dedicated to a specific feature,
+      e.g., a bug fix or a new function.
+      This branch can be merged into another branch.
+  ref:
     - master_branch
 
-- term: Filter
-  slug: filter
-  en: >
-    To choose a set of [records](#record) (i.e., rows of a table) based
-    on the values they contain.
+- slug: field
+  en:
+    term: "field"
+    def: >
+      FIXME
 
-- term: Fork
-  slug: fork
-  en: >
-    A copy of one person's Git repository that lives in another person's GitHub
-    account. Changes to the content of a fork can be submitted to the [upstream
-    repository](#upstream_repository) via a [pull request](#pull_request).
-  see:
+- slug: filter
+  en:
+    term: "filter"
+    def: >
+      To choose a set of [records](#record) (i.e., rows of a table) based
+      on the values they contain.
+
+- slug: fork
+  en:
+    term: "fork"
+    def: >
+      A copy of one person's Git repository that lives in another person's GitHub
+      account. Changes to the content of a fork can be submitted to the [upstream
+      repository](#upstream_repository) via a [pull request](#pull_request).
+  ref:
     - branch
 
-- term: Fully-qualified name
-  slug: fully_qualified_name
-  en: >
-    An unambiguous name of the form `package::thing`.
+- slug: fully_qualified_name
+  en:
+    term: "fully-qualified name"
+    def: >
+      An unambiguous name of the form `package::thing`.
 
-- term: Functional programming
-  slug: functional_programming
-  en: >
-    A style of programming in which data is transformed through successive
-    application of functions, rather than by using control structures such as
-    loops.  
-  see:
+- slug: functional_programming
+  en:
+    term: "functional programming"
+    def: >
+      A style of programming in which data is transformed through successive
+      application of functions, rather than by using control structures such as
+      loops.  
+  ref:
     - higher_order_function
     - object_oriented_programming
 
-- term: Generic function
-  slug: generic_function
-  en: >
-    A collection of functions with similar purpose, each operating on a different
-    class of data.
+- slug: generic_function
+  en:
+    term: "generic function"
+    def: >
+      A collection of functions with similar purpose, each operating on a different
+      class of data.
 
-- term: Git
-  slug: git
-  en: >
-    a version control tool to record and manage changes to a project.
+- slug: git
+  en:
+    term: "Git"
+    def: >
+      a version control tool to record and manage changes to a project.
 
-- term: GitHub
-  slug: github
-  en: >
-    A cloud-based platform built around [Git](#git) that allows you to save versions
-    of your project online and collaborate with other Git users.
+- slug: github
+  en:
+    term: "GitHub"
+    def: >
+      A cloud-based platform built around [Git](#git) that allows you to save versions
+      of your project online and collaborate with other Git users.
 
-- term: Global environment
-  slug: global_environment
-  en: >
-    The [environment](#environment) that holds top-level definitions in R,
-    e.g., those written directly in the interpreter.
+- slug: global_environment
+  en:
+    term: "global environment"
+    def: >
+      The [environment](#environment) that holds top-level definitions in R,
+      e.g., those written directly in the interpreter.
 
-- term: Global installation
-  slug: global_installation
-  en: >
-    Installing a package in a location where it can be accessed by all users and
-    projects. 
-  see:
+- slug: global_installation
+  en:
+    term: "global installation"
+    def: >
+      Installing a package in a location where it can be accessed by all users and
+      projects. 
+  ref:
     - local_installation
 
-- term: Global variable
-  slug: global_variable
-  en: >
-    A variable defined outside any particular function, which is therefore visible
-    to all functions. 
-  see:
+- slug: global_variable
+  en:
+    term: "global variable"
+    def: >
+      A variable defined outside any particular function, which is therefore visible
+      to all functions. 
+  ref:
     - local_variable
 
-- term: GNU Public License
-  slug: gpl
-  acronym: GPL
-  en: >
-    A license that allows people to re-use software as long as they distribute the
-    source of their changes.
+- slug: gpl
+  en:
+    term: "GNU Public License"
+    acronym: "GPL"
+    def: >
+      A license that allows people to re-use software as long as they distribute the
+      source of their changes.
 
-- term: Group
-  slug: group
-  en: >
-    To divide data into subsets according to some criteria while leaving records
-    in a single structure.
+- slug: group
+  en:
+    term: "group"
+    def: >
+      To divide data into subsets according to some criteria while leaving records
+      in a single structure.
 
-- term: Handle (condition)
-  slug: handle_condition
-  en: >
-    To accept responsibility for handling an error or other
-    unexpected event.  R prefers "handling a condition" to "catching an
-    exception".  
-  see:
+- slug: handle_condition
+  en:
+    term: "handle (condition)"
+    def: >
+      To accept responsibility for handling an error or other
+      unexpected event.  R prefers "handling a condition" to "catching an
+      exception".  
+  ref:
     - condition
     - exception
 
-- term: Header row
-  slug: header_row
-  en: >
-    If present, the first row of a CSV file that defines column names (but
-    tragically, not their data types or units).  
-  see:
+- slug: header_row
+  en:
+    term: "header row"
+    def: >
+      If present, the first row of a CSV file that defines column names (but
+      tragically, not their data types or units).  
+  ref:
     - csv
 
-- term: Heterogeneous
-  slug: heterogeneous
-  en: >
-    Having mixed type. For example, an list can contain a mix of numbers,
-    character strings, and values of other types. 
-  see:
+- slug: heterogeneous
+  en:
+    term: "heterogeneous"
+    def: >
+      Having mixed type. For example, an list can contain a mix of numbers,
+      character strings, and values of other types. 
+  ref:
     - homogeneous
 
-- term: Higher-order function
-  slug: higher_order_function
-  en: >
-    A function that operates on other functions. For example, the higher-order
-    function `map` executes a given function once on each value in an
-    [list](#list). Higher-order functions are heavily used in [functional
-    programming](#functional_programming).
+- slug: higher_order_function
+  en:
+    term: "higher-order function"
+    def: >
+      A function that operates on other functions. For example, the higher-order
+      function `map` executes a given function once on each value in an
+      [list](#list). Higher-order functions are heavily used in [functional
+      programming](#functional_programming).
 
-- term: Homogeneous
-  slug: homogeneous
-  en: >
-    Having a single type. For example, a [vector](#vector) must be homogeneous: its
-    values must all be numeric, logical, etc.
+- slug: homogeneous
+  en:
+    term: "homogeneous"
+    def: >
+      Having a single type. For example, a [vector](#vector) must be homogeneous: its
+      values must all be numeric, logical, etc.
 
-- term: Integrated Development Environment
-  slug: ide
-  acronym: IDE
-  en: >
-    An application that helps programmers develop software.
-    IDEs typically have a built-in editor, a console to execute code immediately,
-    and browsers for exploring data structures in memory and files on disk.
-  see:
+- slug: ide
+  en:
+    term: "Integrated Development Environment"
+    acronym: IDE
+    def: >
+      An application that helps programmers develop software.
+      IDEs typically have a built-in editor, a console to execute code immediately,
+      and browsers for exploring data structures in memory and files on disk.
+  ref:
     - repl
 
-- term: JSON
-  slug: json
-  en: >
-    A way to represent data by combining basic values like numbers and character
-    strings in lists and name/value structures. The acronym stands for
-    "JavaScript Object Notation"; unlike better-defined standards like [XML](#xml),
-    it is unencumbered by a syntax for comments or ways to define a [schema](#schema).
+- slug: instance
+  en:
+    term: "instance"
+    def: >
+      FIXME
 
-- term: Lazy evaluation
-  slug: lazy_evaluation
-  en: >
-    Delaying evaluation of an expression until the value is actually needed (or at
-    least until after the point where it is first encountered).
+- slug: json
+  en:
+    term: "JavaScript Object Notation"
+    acronym: "JSON"
+    def: >
+      A way to represent data by combining basic values like numbers and character
+      strings in lists and name/value structures. The acronym stands for
+      "JavaScript Object Notation"; unlike better-defined standards like [XML](#xml),
+      it is unencumbered by a syntax for comments or ways to define a [schema](#schema).
 
-- term: List
-  slug: list
-  en: >
-    A [vector](#vector) that can contain values of many different types.
+- slug: lazy_evaluation
+  en:
+    term: "lazy evaluation"
+    def: >
+      Delaying evaluation of an expression until the value is actually needed (or at
+      least until after the point where it is first encountered).
 
-- term: Literate programming
-  slug: literate_programming
-  en: >
-    A programming paradigm that mixes prose and code.  
-  see:
+- slug: library
+  en:
+    term: "library"
+    def: >
+      FIXME
+
+- slug: list
+  en:
+    term: "list"
+    def: >
+      A [vector](#vector) that can contain values of many different types.
+
+- slug: literate_programming
+  en:
+    term: "literate programming"
+    def: >
+      A programming paradigm that mixes prose and code.  
+  ref:
     - r_markdown
 
-- term: Local installation
-  slug: local_installation
-  en: >
-    Placing a package inside a particular project so that it is only accessible
-    within that project. 
-  see:
+- slug: local_installation
+  en:
+    term: "local installation"
+    def: >
+      Placing a package inside a particular project so that it is only accessible
+      within that project. 
+  ref:
     - global_installation
 
-- term: Local variable
-  slug: local_variable
-  en: >
-    A variable defined inside a function which is only visible within that
-    function. 
-  see:
+- slug: local_variable
+  en:
+    term: "local variable"
+    def: >
+      A variable defined inside a function which is only visible within that
+      function. 
+  ref:
     - closure
     - global_variable
 
-- term: Logical indexing
-  slug: logical_indexing
-  en: >
-    To index a vector or other structure with a vector of Booleans, keeping only
-    the values that correspond to true values.  Also referred to as [masking](#masking).
+- slug: logical_indexing
+  en:
+    term: "logical indexing"
+    def: >
+      To index a vector or other structure with a vector of Booleans, keeping only
+      the values that correspond to true values.  Also referred to as [masking](#masking).
 
-- term: Markdown
-  slug: markdown
-  en: >
-    A markup language with a simple syntax intended as a replacement for HTML.
-    Markdown is often used for README files,
-    and is the basis for [R markdown](r_markdown).
+- slug: markdown
+  en:
+    term: "Markdown"
+    def: >
+      A markup language with a simple syntax intended as a replacement for HTML.
+      Markdown is often used for README files,
+      and is the basis for [R markdown](r_markdown).
 
-- term: Master branch
-  slug: master_branch
-  en: >
-    A dedicated, permanent, central branch which should contain a "ready product".
-    As a new feature is developed on a separate branch to avoid breaking the main code,
-    it can be merged into the master branch.
-  see:
+- slug: masking
+  en:
+    term: "masking"
+    def: >
+      FIXME
+
+- slug: master_branch
+  en:
+    term: "master branch"
+    def: >
+      A dedicated, permanent, central branch which should contain a "ready product".
+      As a new feature is developed on a separate branch to avoid breaking the main code,
+      it can be merged into the master branch.
+  ref:
     - feature_branch
 
-- term: Merge (Git)
-  slug: merge_git
-  en: >
-    Merging branches in Git incorporates development histories of two branches in one.
-    If changes are made to similar parts of the branches on both branches
-    a commit will occur and this must be resolved before the merge will be completed.
+- slug: merge_git
+  en:
+    term: "merge (Git)"
+    def: >
+      Merging branches in Git incorporates development histories of two branches in one.
+      If changes are made to similar parts of the branches on both branches
+      a commit will occur and this must be resolved before the merge will be completed.
 
-- term: Method
-  slug: method
-  en: >
-    An implementation of a [generic function](#generic_function) that handles objects of a specific class.
+- slug: method
+  en:
+    term: Method
+    def: >
+      An implementation of a [generic function](#generic_function) that handles objects of a specific class.
 
-- term: MIT License
-  slug: mit_License
-  en: >
-    A license that allows people to re-use software with no restrictions.
+- slug: mit_License
+  en:
+    term: "MIT License"
+    def: >
+      A license that allows people to re-use software with no restrictions.
 
-- term: Mutation
-  slug: mutation
-  en: >
-    Changing data in place, such as modifying an element of an array or adding a
-    record to a database.
+- slug: module
+  en:
+    term: "module"
+    def: >
+      FIXME
 
-- term: NA
-  slug: na
-  en: >
-    A special value used to represent data that is not available.  
-  see:
+- slug: mutation
+  en:
+    term: "mutation"
+    def: >
+      Changing data in place, such as modifying an element of an array or adding a
+      record to a database.
+
+- slug: na
+  en:
+    term: "NA"
+    def: >
+      A special value used to represent data that is not available.  
+  ref:
     - "null"
 
-- term: Name collision
-  slug: name_collision
-  en: >
-    The ambiguity that arises when two or more things in a program that have the
-    same name are active at the same time. 
-  see:
+- slug: name_collision
+  en:
+    term: "name collision"
+    def: >
+      The ambiguity that arises when two or more things in a program that have the
+      same name are active at the same time. 
+  ref:
     - call_stack
     - fully_qualified_name
     - namespace
 
-- term: Negative selection
-  slug: negative_selection
-  en: >
-    To specify the elements of a vector or other data structure that aren't
-    desired by negating their indices.
+- slug: namespace
+  en:
+    term: "namespace"
+    def: >
+      FIXME
 
-- term: NoSQL database
-  slug: nosql_database
-  en: >
-    Any database that doesn't use the relational model.  The awkward name comes
-    from the fact that such databases don't use [SQL](#sql) as a query language.
-  see:
+- slug: negative_selection
+  en:
+    term: "negative selection"
+    def: >
+      To specify the elements of a vector or other data structure that aren't
+      desired by negating their indices.
+
+- slug: nosql_database
+  en:
+    term: "NoSQL database"
+    def: >
+      Any database that doesn't use the relational model.  The awkward name comes
+      from the fact that such databases don't use [SQL](#sql) as a query language.
+  ref:
     - relational_database
 
-- term: "Null"
-  slug: "null"
-  en: >
-    A special value used to represent a missing object.  Null is not the same as
-    NA, and neither is the same as an [empty vector](#empty_vector).
+- slug: "null"
+  en:
+    term: "null"
+    def: >
+      A special value used to represent a missing object.  Null is not the same as
+      NA, and neither is the same as an [empty vector](#empty_vector).
 
-- term: Package
-  slug: package
-  en: >
-    A collection of code, data, and documentation that can be distributed and
-    re-used.  Also referred to in some languages as a [library](#library) or
-    [module](#module).
+- slug: "object_oriented_programming"
+  en:
+    term: "object-oriented programming"
+    acronym: "OOP"
+    def: >
+      FIXME
 
-- term: Package manager
-  slug: package_manager
-  en: >
-    A program that does its best to keep track of the bits and bobs of software
-    installed on a computer and their dependencies on one another.
+- slug: "observation"
+  en:
+    term: "observation"
+    def: >
+      FIXME
 
-- term: Parameter
-  slug: parameter
-  en: >
-    A variable whose value is passed into a function when the function is
-    called. Some writers distinguish parameters (the variables) from
-    [arguments](#argument) (the values passed in), but others use the terms in the
-    opposite sense. It's all very confusing.
+- slug: package
+  en:
+    term: "package"
+    def: >
+      A collection of code, data, and documentation that can be distributed and
+      re-used.  Also referred to in some languages as a [library](#library) or
+      [module](#module).
 
-- term: Parse
-  slug: parse
-  en: >
-    To translate the text of a program or web page into a data structure in memory
-    that the program can then manipulate.
+- slug: package_manager
+  en:
+    term: "package manager"
+    def: >
+      A program that does its best to keep track of the bits and bobs of software
+      installed on a computer and their dependencies on one another.
 
-- term: Peanuts
-  slug: peanuts
-  en: >
-    An American comic strip by Charles M. Schulz which has inspired the names of R versions. 
+- slug: parameter
+  en:
+    term: "parameter"
+    def: >
+      A variable whose value is passed into a function when the function is
+      called. Some writers distinguish parameters (the variables) from
+      [arguments](#argument) (the values passed in), but others use the terms in the
+      opposite sense. It's all very confusing.
 
-- term: Permalink
-  slug: permalink
-  en: >
-    Short for "permanent link", the full URL that you see and use for a post, page, or a site's content.
-    An example could be `https://www.mysite.com/category/post-name`.
+- slug: parse
+  en:
+    term: "parse"
+    def: >
+      To translate the text of a program or web page into a data structure in memory
+      that the program can then manipulate.
 
-- term: Pipe operator
-  slug: pipe_operator
-  en: >
-    The `%>%` used to make the output of one function the input of the next.
+- slug: peanuts
+  en:
+    term: "Peanuts"
+    def: >
+      An American comic strip by Charles M. Schulz which has inspired the names of R versions. 
 
-- term: Production code
-  slug: production_code
-  en: >
-    Software that is delivered to an end user. The term is used to distinguish
-    such code from test code, deployment infrastructure, and everything else
-    that programmers write along the way.
+- slug: permalink
+  en:
+    term: "permalink"
+    def: >
+      Short for "permanent link", the full URL that you see and use for a post, page, or a site's content.
+      An example could be `https://www.mysite.com/category/post-name`.
 
-- term: Pseudo-random number
-  slug: pseudo_random_number
-  en: >
-    A value generated in a repeatable way that resemble the true randomness of
-    the universe well enough to fool merely mortal observers.
+- slug: pipe_operator
+  en:
+    term: "pipe operator"
+    def: >
+      The `%>%` used to make the output of one function the input of the next.
 
-- term: Pseudo-random number generator
-  slug: prng
-  acronym: PRNG
-  en: >
-    A function that can generate [pseudo-random numbers](#pseudo_random_number).
-  see:
+- slug: production_code
+  en:
+    term: "production code"
+    def: >
+      Software that is delivered to an end user. The term is used to distinguish
+      such code from test code, deployment infrastructure, and everything else
+      that programmers write along the way.
+
+- slug: pseudo_random_number
+  en:
+    term: "pseudo-random number"
+    def: >
+      A value generated in a repeatable way that resemble the true randomness of
+      the universe well enough to fool merely mortal observers.
+
+- slug: prng
+  en:
+    term: "pseudo-random number generator"
+    acronym: "PRNG"
+    def: >
+      A function that can generate [pseudo-random numbers](#pseudo_random_number).
+  ref:
     - seed
-    
-- term: Pull indexing
-  slug: pull_indexing
-  en: >
-    Vectorized indexing in which the value at location `i` in the index vector
-    specifies which element of the source vector is being pulled into that
-    location in the result vector, i.e., `result[i] = source[index[i]]`.
-  see:
+      
+- slug: pull_indexing
+  en:
+    term: "pull indexing"
+    def: >
+      Vectorized indexing in which the value at location `i` in the index vector
+      specifies which element of the source vector is being pulled into that
+      location in the result vector, i.e., `result[i] = source[index[i]]`.
+  ref:
     - push_indexing
 
-- term: Pull request
-  slug: pull_request
-  en: >
-    The request to merge a new feature or correction created on a user's fork of a
-    [Git](#git) repository into the [upstream repository](#upstream_repository). The
-    developer will be notified of the change, review it, make or suggest
-    changes, and potentially merge it. 
-  see:
+- slug: pull_request
+  en:
+    term: "pull request"
+    def: >
+      The request to merge a new feature or correction created on a user's fork of a
+      [Git](#git) repository into the [upstream repository](#upstream_repository). The
+      developer will be notified of the change, review it, make or suggest
+      changes, and potentially merge it. 
+  ref:
     - fork
 
-- term: Push indexing
-  slug: push_indexing
-  en: >
-    Vectorized indexing in which the value at location `i` in the index vector
-    specifies an element of the result vector that gets the corresponding
-    element of the source vector, i.e., `result[index[i]] = source[i]`.  Push
-    indexing can easily produce gaps and collisions.  
-  see:
+- slug: push_indexing
+  en:
+    term: "push indexing"
+    def: >
+      Vectorized indexing in which the value at location `i` in the index vector
+      specifies an element of the result vector that gets the corresponding
+      element of the source vector, i.e., `result[index[i]] = source[i]`.  Push
+      indexing can easily produce gaps and collisions.  
+  ref:
     - pull_indexing
 
-- term: Quosure
-  slug: quosure
-  en: >
-    A data structure containing an unevaluated expression and its environment.
+- slug: quosure
+  en:
+    term: "quosure"
+    def: >
+      A data structure containing an unevaluated expression and its environment.
 
-- term: Quoting function
-  slug: quoting_function
-  en: >
-    A function that is passed expressions rather than the values of those
-    expressions.
+- slug: quoting_function
+  en:
+    term: "quoting function"
+    def: >
+      A function that is passed expressions rather than the values of those
+      expressions.
 
-- term: R Foundation
-  slug: r_foundation
-  en: >
-    A non-profit founded by the R development core team providing support for R.
-    It is a member of the [R Consortium](#r_consortium).
+- slug: "r_consortium"
+  en:
+    term: "R Consortium"
+    def: >
+      FIXME
 
-- term: R hub
-  slug: r_hub
-  en: >
-    A free platform available to check a `R` package on several different
-    platforms in preparation for the CRAN submission process.
+- slug: r_foundation
+  en:
+    term: "R Foundation"
+    def: >
+      A non-profit founded by the R development core team providing support for R.
+      It is a member of the [R Consortium](#r_consortium).
 
-- term: R Markdown
-  slug: r_markdown
-  en: >
-    A dialect of [Markdown](#markdown) that allows authors to mix prose
-    and code (usually written in R) in a single document.  Cf.
-    [literate programming](#literate_programming).
+- slug: r_hub
+  en:
+    term: "R Hub"
+    def: >
+      A free platform available to check a `R` package on several different
+      platforms in preparation for the CRAN submission process.
 
-- term: Raise
-  slug: raise
-  en: >
-    To signal that something unexpected or unusual has happened in a program by
-    creating an [exception](#exception) and handing it to the error-handling system, which
-    then tries to find a point in the program that will [catch](#catch_exception) it.
+- slug: r_markdown
+  en:
+    term: "R Markdown"
+    def: >
+      A dialect of [Markdown](#markdown) that allows authors to mix prose
+      and code (usually written in R) in a single document.  Cf.
+      [literate programming](#literate_programming).
 
-- term: Reactive programming
-  slug: reactive_programming
-  en: >
-    A style of programming in which actions are triggered by external events.
+- slug: raise
+  en:
+    term: "raise"
+    def: >
+      To signal that something unexpected or unusual has happened in a program by
+      creating an [exception](#exception) and handing it to the error-handling system, which
+      then tries to find a point in the program that will [catch](#catch_exception) it.
 
-- term: Reactive variable
-  slug: reactive_variable
-  en: >
-    A variable whose value is automatically updated when some other value or
-    values change.  Reactive variables are used extensively in [Shiny](#shiny).
+- slug: reactive_programming
+  en:
+    term: "reactive programming"
+    def: >
+      A style of programming in which actions are triggered by external events.
 
-- term: Read-eval-print loop
-  slug: repl
-  acronym: repl
-  en: >
-    An interactive program that reads a command typed in by a user,
-    executes it, prints the result, and then waits patiently for the next
-    command. REPLs are often used to explore new ideas or for debugging.
-  see:
+- slug: reactive_variable
+  en:
+    term: "reactive variable"
+    def: >
+      A variable whose value is automatically updated when some other value or
+      values change.  Reactive variables are used extensively in [Shiny](#shiny).
+
+- slug: "record"
+  en:
+    term: "record"
+    def: >
+      FIXME
+
+- slug: repl
+  en:
+    term: "read-eval-print loop"
+    acronym: "REPL"
+    def: >
+      An interactive program that reads a command typed in by a user,
+      executes it, prints the result, and then waits patiently for the next
+      command. REPLs are often used to explore new ideas or for debugging.
+  ref:
     - ide
 
-- term: Recycle
-  slug: recycle
-  en: >
-    To re-use values from a shorter vector in order to generate a sequence of
-    the same length as a longer one.
+- slug: recycle
+  en:
+    term: "recycle"
+    def: >
+      To re-use values from a shorter vector in order to generate a sequence of
+      the same length as a longer one.
 
-- term: Regular expression
-  slug: regular_expression
-  en: >
-    A pattern for matching text, written as text itself. Regular expressions are
-    sometimes called "regexp", "regex", or "RE", and are as powerful as they are
-    cryptic.  
+- slug: regular_expression
+  en:
+    term: "regular expression"
+    def: >
+      A pattern for matching text, written as text itself. Regular expressions are
+      sometimes called "regexp", "regex", or "RE", and are as powerful as they are
+      cryptic.  
 
-- term: Relational database
-  slug: relational_database
-  en: >
-    A database that organizes information into tables, each of which has a fixed
-    set of named fields (shown as columns) and a variable number of records
-    (shown as rows). 
-  see:
+- slug: relational_database
+  en:
+    term: "relational database"
+    def: >
+      A database that organizes information into tables, each of which has a fixed
+      set of named fields (shown as columns) and a variable number of records
+      (shown as rows). 
+  ref:
     - sql
     - table
 
-- term: Relative path
-  slug: relative_path
-  en: >
-    A path whose destination is interpreted relative to some other location, such
-    as the current directory. A relative path is the equivalent of giving
-    directions using terms like "straight" and "left". 
-  see:
+- slug: relative_path
+  en:
+    term: "relative path"
+    def: >
+      A path whose destination is interpreted relative to some other location, such
+      as the current directory. A relative path is the equivalent of giving
+      directions using terms like "straight" and "left". 
+  ref:
     - absolute_path
-    
-- term: Relative row number
-  slug: relative_row_number
-  en: >
-    The index of a row in a displayed portion of a table, which may or may not be
-    the same as the [absolute row number](#absolute_row_number) within the table.
+      
+- slug: relative_row_number
+  en:
+    term: "relative row number"
+    def: >
+      The index of a row in a displayed portion of a table, which may or may not be
+      the same as the [absolute row number](#absolute_row_number) within the table.
 
-- term: Repository
-  slug: repository
-  en: >
-    A place where a [version control system](#version_control_system) stores
-    the files that make up a project and the metadata that describes their history.
-  see:
+- slug: repository
+  en:
+    term: "repository"
+    def: >
+      A place where a [version control system](#version_control_system) stores
+      the files that make up a project and the metadata that describes their history.
+  ref:
     - git
     - github
 
-- term: Reprex
-  slug: reprex
-  en: >
-    A reproducible example. When asking questions about coding problems online
-    or filing issues on GitHub, you should always include a reprex so others can
-    reproduce your problem and help. The
-    [reprex](https://github.com/tidyverse/reprex) package can help!
+- slug: reprex
+  en:
+    term: "reprex"
+    def: >
+      A reproducible example. When asking questions about coding problems online
+      or filing issues on GitHub, you should always include a reprex so others can
+      reproduce your problem and help. The
+      [reprex](https://github.com/tidyverse/reprex) package can help!
 
-- term: Root directory
-  slug: root_directory
-  en: >
-    The directory that contains everything else, directly or indirectly. The root
-    directory is written `/` (a bare forward slash).
+- slug: root_directory
+  en:
+    term: "root directory"
+    def: >
+      The directory that contains everything else, directly or indirectly. The root
+      directory is written `/` (a bare forward slash).
 
-- term: S
-  slug: s_language
-  en: >
-    A language originally developed in Bell Labs for data analysis, statistical
-    modeling, and graphics. R is a dialect of S.
+- slug: s_language
+  en:
+    term: "S"
+    def: >
+      A language originally developed in Bell Labs for data analysis, statistical
+      modeling, and graphics. R is a dialect of S.
 
-- term: S3
-  slug: s3
-  en: >
-    A framework for object-oriented programming in R.
+- slug: s3
+  en:
+    term: "S3"
+    def: >
+      A framework for object-oriented programming in R.
 
-- term: S4
-  slug: s4
-  en: >
-    A framework for object-oriented programming in R.
+- slug: s4
+  en:
+    term: "S4"
+    def: >
+      A framework for object-oriented programming in R.
 
-- term: Scalar
-  slug: scalar
-  en: >
-    A single value of a particular type, such as 1 or "a".  Scalars don't really
-    exist in R; values that appear to be scalars are actually vectors of unit
-    length.
+- slug: scalar
+  en:
+    term: "scalar"
+    def: >
+      A single value of a particular type, such as 1 or "a".  Scalars don't really
+      exist in R; values that appear to be scalars are actually vectors of unit
+      length.
 
-- term: Schema
-  slug: schema
-  en: >
-    A specification of the format of a dataset, including the name, format, and
-    content of each [table](#table).
+- slug: schema
+  en:
+    term: "schema"
+    def: >
+      A specification of the format of a dataset, including the name, format, and
+      content of each [table](#table).
 
-- term: Scope
-  slug: scope
-  en: >
-    The portion of a program within which a definition can be seen and used. Cf.
-    [closure](#closure), [global variable](#global_variable), and [local variable](#local_variable).
+- slug: scope
+  en:
+    term: "scope"
+    def: >
+      The portion of a program within which a definition can be seen and used. Cf.
+      [closure](#closure), [global variable](#global_variable), and [local variable](#local_variable).
 
-- term: Script
-  slug: script
-  en: >
-    Originally, a program written in a language too usable for "real" programmers
-    to take seriously; the term is now synonymous with program.
+- slug: script
+  en:
+    term: "script"
+    def: >
+      Originally, a program written in a language too usable for "real" programmers
+      to take seriously; the term is now synonymous with program.
 
-- term: Seed
-  slug: seed
-  en: >
-    A value used to initialize a [pseudo-random number generator](#prng).
+- slug: seed
+  en:
+    term: "seed"
+    def: >
+      A value used to initialize a [pseudo-random number generator](#prng).
 
-- term: Select
-  slug: select
-  en: >
-    To choose entire columns from a table by name or location.
+- slug: select
+  en:
+    term: "select"
+    def: >
+      To choose entire columns from a table by name or location.
 
-- term: Signal (a condition)
-  slug: signal
-  en: >
-    A way of indicating that something has gone wrong in a program, or that some
-    other unexpected event has occurred.  R prefers "signalling a condition" to
-    "raising an exception".
+- slug: shiny
+  en:
+    term: "Shiny"
+    def: >
+      FIXME
 
-- term: Single square brackets
-  slug: single_square_brackets
-  en: >
-    An index enclosed in `[...]`, used to select a structure from another
-    structure.  
-  see:
+- slug: signal
+  en:
+    term: "signal (a condition)"
+    def: >
+      A way of indicating that something has gone wrong in a program, or that some
+      other unexpected event has occurred.  R prefers "signalling a condition" to
+      "raising an exception".
+
+- slug: single_square_brackets
+  en:
+    term: "single square brackets"
+    def: >
+      An index enclosed in `[...]`, used to select a structure from another
+      structure.  
+  ref:
     - double_square_brackets
 
-- term: Singleton
-  slug: singleton
-  en: >
-    A set with only one element, or a [class](#class) with only one [instance](#instance).
+- slug: singleton
+  en:
+    term: "singleton"
+    def: >
+      A set with only one element, or a [class](#class) with only one [instance](#instance).
 
-- term: Slug
-  slug: slug
-  en: >
-    An abbreviated portion of a page's URL that uniquely identifies it.
-    In the example `https://www.mysite.com/category/post-name`, the slug is `post-name`.
+- slug: slug
+  en:
+    term: "slug"
+    def: >
+      An abbreviated portion of a page's URL that uniquely identifies it.
+      In the example `https://www.mysite.com/category/post-name`, the slug is `post-name`.
 
-- term: SQL
-  slug: sql
-  en: >
-    The language used for writing queries for a [relational database](#relational_database). The term
-    was originally an acronym for Structured Query Language.
+- slug: sql
+  en:
+    term: "SQL"
+    def: >
+      The language used for writing queries for a [relational database](#relational_database).
+      The term was originally an acronym for Structured Query Language.
 
-- term: String
-  slug: string
-  en: >
-    A block of text in a program. The term is short for "character string".
+- slug: string
+  en:
+    term: "string"
+    def: >
+      A block of text in a program. The term is short for "character string".
 
-- term: String interpolation
-  slug: string_interpolation
-  en: >
-    The process of inserting text corresponding to specified values into a string,
-    usually to make output human-readable.
+- slug: string_interpolation
+  en:
+    term: "string interpolation"
+    def: >
+      The process of inserting text corresponding to specified values into a string,
+      usually to make output human-readable.
 
-- term: Table
-  slug: table
-  en: >
-    A set of records in a [relational database](#relational_database) or
-    observations in a [data frame](#data_frame).  Tables are usually displayed
-    as rows (each of which represents one [record](#record) or
-    [observation](#observation)) and columns (each of which represents a
-    [field](#field) or [variable](#variable_data)).
+- slug: table
+  en:
+    term: "table"
+    def: >
+      A set of records in a [relational database](#relational_database) or
+      observations in a [data frame](#data_frame).  Tables are usually displayed
+      as rows (each of which represents one [record](#record) or
+      [observation](#observation)) and columns (each of which represents a
+      [field](#field) or [variable](#variable_data)).
 
-- term: Tibble
-  slug: tibble
-  en: >
-    A modern replacement for R's data frame, which stores tabular data in columns
-    and rows, defined and used in the [tidyverse](#tidyverse).
+- slug: tibble
+  en:
+    term: "tibble"
+    def: >
+      A modern replacement for R's data frame, which stores tabular data in columns
+      and rows, defined and used in the [tidyverse](#tidyverse).
 
-- term: Tidy data
-  slug: tidy_data
-  en: >
-    Tabular data that satisfies [three
-    conditions](https://vita.had.co.nz/papers/tidy-data.pdf) that facilitate
-    initial cleaning, and later exploration and analysis: (1) each variable
-    forms a column, (2) each observation forms a row, and (3) each type of
-    observation unit forms a table.
-  see:
+- slug: tidy_data
+  en:
+    term: "tidy data"
+    def: >
+      Tabular data that satisfies [three
+      conditions](https://vita.had.co.nz/papers/tidy-data.pdf) that facilitate
+      initial cleaning, and later exploration and analysis: (1) each variable
+      forms a column, (2) each observation forms a row, and (3) each type of
+      observation unit forms a table.
+  ref:
     - table
 
-- term: tidymodels
-  slug: tidymodels
-  en: >
-    A collection of R packages for modeling and statistical analysis designed with
-    a [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
+- slug: tidymodels
+  en:
+    term: "Tidymodels"
+    def: >
+      A collection of R packages for modeling and statistical analysis designed with
+      a [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
 
-- term: Tidyverse
-  slug: tidyverse
-  en: >
-    A collection of R packages for operating on tabular data in consistent ways.
+- slug: tidyverse
+  en:
+    term: "Tidyverse"
+    def: >
+      A collection of R packages for operating on tabular data in consistent ways.
 
-- term: Truthy
-  slug: truthy
-  en: >
-    A truly Orwellian neologism meaning "not equivalent to false". Cf.
-    [falsy](#falsy), but only if you are able to set aside your respect for the
-    English language.
+- slug: truthy
+  en:
+    term: "truthy"
+    def: >
+      A truly Orwellian neologism meaning "not equivalent to false". Cf.
+      [falsy](#falsy), but only if you are able to set aside your respect for the
+      English language.
 
-- term: Unicode
-  slug: unicode
-  en: >
-    A standard that defines numeric codes for many thousands of characters and
-    symbols. Unicode does not define how those numbers are stored; that is done
-    by standards like [UTF-8](#utf_8).
+- slug: type_coercion
+  en:
+    term: "type coercion"
+    def: >
+      FIXME
 
-- term: UTF-8
-  slug: utf_8
-  en: >
-    A way to store the numeric codes representing Unicode characters in memory
-    that is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
+- slug: unicode
+  en:
+    term: "Unicode"
+    def: >
+      A standard that defines numeric codes for many thousands of characters and
+      symbols. Unicode does not define how those numbers are stored; that is done
+      by standards like [UTF-8](#utf_8).
 
-- term: Variable (program)
-  slug: variable_program
-  en: >
-    A name in a program that has some data associated with it. A variable's value
-    can be changed after definition. 
-  see:
+- slug: upstream_repository
+  en:
+    term: "upstream repository"
+    def: >
+      FIXME
+
+- slug: utf_8
+  en:
+    term: UTF-8
+    def: >
+      A way to store the numeric codes representing Unicode characters in memory
+      that is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
+
+- slug: variable_data
+  en:
+    term: "variable (data)"
+    def: >
+      FIXME
+
+- slug: variable_program
+  en:
+    term: "variable (program)"
+    def: >
+      A name in a program that has some data associated with it. A variable's value
+      can be changed after definition. 
+  ref:
     - constant
 
-- term: Variable arguments
-  slug: variable_arguments
-  en: >
-    In a function, the ability to take any number of arguments.  R uses `...` to
-    capture the "extra" arguments.
+- slug: variable_arguments
+  en:
+    term: "variable arguments"
+    def: >
+      In a function, the ability to take any number of arguments.  R uses `...` to
+      capture the "extra" arguments.
 
-- term: Vector
-  slug: vector
-  en: >
-    A sequence of values, usually of [homogeneous](#homogeneous) type.  Vectors are the
-    fundamental data structure in R; a [scalar](#scalar) is just a vector with exactly
-    one element.
+- slug: vector
+  en:
+    term: "vector"
+    def: >
+      A sequence of values, usually of [homogeneous](#homogeneous) type.  Vectors are the
+      fundamental data structure in R; a [scalar](#scalar) is just a vector with exactly
+      one element.
 
-- term: Vectorize
-  slug: vectorize
-  en: >
-    To write code so that operations are performed on entire vectors, rather than
-    element-by-element within loops.
+- slug: vectorize
+  en:
+    term: "vectorize"
+    def: >
+      To write code so that operations are performed on entire vectors, rather than
+      element-by-element within loops.
 
-- term: Version control system
-  slug: version_control_system
-  en: >
-    A system for managing changes made to software during its development. 
-  see:
+- slug: version_control_system
+  en:
+    term: "version control system"
+    def: >
+      A system for managing changes made to software during its development. 
+  ref:
     - git
 
-- term: Vignette
-  slug: vignette
-  en: >
-    A long-form guide used to provide details of a package beyond the README.md or
-    function documentation.
+- slug: vignette
+  en:
+    term: "vignette"
+    def: >
+      A long-form guide used to provide details of a package beyond the README.md or
+      function documentation.
 
-- term: Whitespace
-  slug: whitespace
-  en: >
-    The space, newline, carriage return, and horizontal and vertical tab
-    characters that take up space but don't create a visible mark.  The name
-    comes from their appearance on a printed page in the era of typewriters.
+- slug: whitespace
+  en:
+    term: "whitespace"
+    def: >
+      The space, newline, carriage return, and horizontal and vertical tab
+      characters that take up space but don't create a visible mark.  The name
+      comes from their appearance on a printed page in the era of typewriters.
 
-- term: XML
-  slug: xml
-  en: >
-    A set of rules for defining HTML-like tags and using them to format documents
-    (typically data). XML achieved license plate popularity in the early 2000s,
-    but its complexity led many programmers to adopt [JSON](#json) instead.
+- slug: xml
+  en:
+    term: "XML"
+    def: >
+      A set of rules for defining HTML-like tags and using them to format documents
+      (typically data). XML achieved license plate popularity in the early 2000s,
+      but its complexity led many programmers to adopt [JSON](#json) instead.
