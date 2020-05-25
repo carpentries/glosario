@@ -173,8 +173,8 @@ Glossary <- R6::R6Class("Glossary",
               function(lang_entry, lang) {
                 res$add_entry(
                   slug = slug,
-                  term = l$term,
-                  defn = l$def,
+                  term = lang_entry$term,
+                  defn = lang_entry$def,
                   lang = lang
                 )
               }
