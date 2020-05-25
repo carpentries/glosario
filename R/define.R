@@ -7,6 +7,6 @@
 #' @return string containing definition
 #'
 #' @export
-define <- function(key, lang = "en", glossary) {
-  glossary$define(key, lang)
+define <- function(key, lang = "en", glossary, show_lang = FALSE) {
+  glossary$define(key, lang, show_lang = show_lang)
 }

@@ -233,7 +233,7 @@ Glossary <- R6::R6Class("Glossary",
       self
     },
 
-    define = function(key, lang = NULL) {
+    define = function(key, lang = NULL, show_lang = FALSE) {
       entry <- private$.entries
       idx <- match(key, extract_slugs(private$.entries))
       if (any(is.na(idx))) {
@@ -246,7 +246,7 @@ Glossary <- R6::R6Class("Glossary",
       purrr::walk(
         entry[idx],
         function(e) {
-          e$print(lang, show_lang = FALSE)
+          e$print(lang, show_lang = show_lang)
         })
     },
 
