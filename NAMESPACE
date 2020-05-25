@@ -2,3 +2,4 @@
 
 export(define)
 export(get_glossary)
+importFrom(tibble,`%>%`)
