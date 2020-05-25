@@ -120,6 +120,8 @@ GlossaryEntry <- R6::R6Class("GlossaryEntry",
           "   {.emph See also:} ", cli::bg_cyan("{private$.ref}")
         )
       }
+
+      cli::cli_text() ## final empty line
     }
   ),
   active = list(
