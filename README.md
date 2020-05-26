@@ -122,10 +122,10 @@ A glossary entry is structured like this:
 
 ## FAQ
 
-Why not just link to Wikipedia?
-:   We expect that many glossary definitions will do so,
+-   **Why not just link to Wikipedia?**
+    We expect that many glossary definitions will do so,
     but Wikipedia articles are explanations, not definitions.
 
-YAML is hard for people to edit—why not use something else for the glossary file?
-:   Because other formats are just as hard to edit (e.g., JSON)
+-   **YAML is hard for people to edit—why not use something else for the glossary file?**
+    Because other formats are just as hard to edit (e.g., JSON)
     or make one-to-many relationships hard to express (e.g., CSV).
