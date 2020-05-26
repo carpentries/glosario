@@ -3,6 +3,10 @@
     term: "+1"
     def: >
       A vote in favor of something.
+  fr:
+    term: "+1"
+    def: >
+      Un vote en faveur de quelque chose.
 
 - slug: absolute_path
   en:
