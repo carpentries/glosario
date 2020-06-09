@@ -10,8 +10,8 @@ langs <- c("en", "fr", "es")
 ##' @param url the path for the glossary
 ##' @return a list
 ##' @export
-get_glossary <- function(url = "https://raw.githubusercontent.com/gvwilson/glossary/master/glossary.yml") {
+get_glossary <- function(url = "https://raw.githubusercontent.com/gvwilson/glossary/master/glossary.yml", cache = tempdir()) {
 
-  Glossary$new(url)
+  Glossary$new(url, cache_path = cache)
 
 }

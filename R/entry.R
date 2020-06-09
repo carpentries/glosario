@@ -139,20 +139,31 @@ GlossaryEntry <- R6::R6Class("GlossaryEntry",
 Glossary <- R6::R6Class("Glossary",
   private = list(
     .uri = NA_character_,
-    .content = NULL, # list as direct output from read_yaml
-    .entries = NULL  # R6 classes as defined above
+    .entries = NULL,
+    .use_cache = NA
   ),
 
   public = list(
-    initialize = function(glossary_path) {
+    initialize = function(glossary_path,
+                          cache_path = tempdir()) {
 
-      private$.uri <- glossary_path
-      private$.content <- yaml::read_yaml(glossary_path)
+      validate_glossary_uri(glossary_path)
 
-      self$validate()
+      if (!is.null(cache_path)) {
+        raw_glossary <- use_cache(glossary_path, cache_path)
+      } else {
+        raw_glossary <- list(
+          uri = glossary_path,
+          entries = yaml::read_yaml(glossary_path)
+        )
+      }
+
+      private$.uri <- raw_glossary$uri
+
+      validate_raw_glossary(raw_glossary$entries)
 
       private$.entries <- purrr::map(
-        private$.content,
+        raw_glossary$entries,
         function(e) {
           slug <- e$slug
           ref <- e$ref
@@ -187,71 +198,30 @@ Glossary <- R6::R6Class("Glossary",
 
     },
 
-    validate = function() {
-      ## check all entries have slugs
-      has_slug <- purrr::map_lgl(private$.content, function(e) {
-        exists("slug", e)
-      })
-      if (!all(has_slug)) {
-        stop(
-          "Improperly formatted glossary. Some entries don't have a slug.",
-          call. = FALSE
-        )
-      }
-
-      ## all slugs are unique
-      slugs <- extract_slugs(private$.content)
-      if (any(duplicated(slugs))) {
-        stop(
-          "Some slugs are duplicated: ",
-          paste(slugs[duplicated(slugs)], collapse = ", "),
-          call. = FALSE
-        )
-      }
-
-      ## the "see also" (ref) are all valid slugs
-      refs <- purrr::map_df(private$.content, function(e) {
-        if (!exists("ref", e)) {
-          return(NULL)
-        }
-        list(
-          slug = rep(e$slug, length(e$ref)),
-          ref = e$ref
-        )
-      })
-      refs <- tibble::add_column(
-        refs,
-        is_in_glossary = purrr::map_lgl(
-          refs$ref,
-          ~ . %in% slugs
-        )
-      )
-      if (!all(refs$is_in_glossary)) {
-        ## FIXME: improve error message
-        stop("Some references are slugs that are not found.", call. = FALSE)
-      }
-      self
+    list_slugs = function() {
+      purrr::map_chr(private$.entries, "slug")
     },
 
     define = function(key, lang = NULL, show_lang = FALSE) {
-      entry <- private$.entries
-      idx <- match(key, extract_slugs(private$.entries))
+      idx <- match(key, self$list_slugs())
       if (any(is.na(idx))) {
-        warning("Some key are not found: ",
+        warning(
+          "Some key are not found: ",
           sQuote(paste(key[is.na(idx)], collapse = ", ")),
           ". They are being excluded.",
-          call. = FALSE)
+          call. = FALSE
+        )
       }
       idx <- idx[!is.na(idx)]
       purrr::walk(
-        entry[idx],
+        private$.entries[idx],
         function(e) {
           e$print(lang, show_lang = show_lang)
         })
     },
 
     print = function() {
-      n_slugs <- extract_slugs(private$.content) %>%
+      n_slugs <- self$list_slugs() %>%
         length()
 
       cli::cli_text("A glossary with {.strong {n_slugs}} entries.")

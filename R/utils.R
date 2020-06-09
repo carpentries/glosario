@@ -1,4 +1,8 @@
-glossary_default_path <- function(path = tempdir()) {
+validate_glossary_cache_path <- function(path) {
+
+  if (!rlang::is_scalar_character(path)) {
+    stop("invalid format for cache path provided.", call. = FALSE)
+  }
 
   if (!dir.exists(path)) {
     stop(
@@ -11,8 +15,4 @@ glossary_default_path <- function(path = tempdir()) {
 
   path
 
-}
-
-extract_slugs <- function(glossary) {
-  purrr::map_chr(glossary, "slug")
 }
