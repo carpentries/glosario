@@ -16,3 +16,6 @@
 ^index\.md$
 ^setup\.py$
 ^static$
+^Gemfile*
+^_data$
+^_site$
