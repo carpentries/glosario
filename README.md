@@ -19,8 +19,7 @@ We propose the following metadata (written as YAML):
 glossary:
   sources:
   - http://some_glossary.org/something/
-  language:
-  - fr
+  language: fr
   requires:
   - aggregation_function
   - call_stack
@@ -34,7 +33,7 @@ glossary:
     -   Those URLs must resolve to glossaries as described in the next section.
     -   Those glossaries are searched in order from first to last to find definitions.
 1.  The `language` key is required,
-    and must be an ISO 639 language code
+    and must be a single ISO 639 language code
     (e.g., `fr` for French).
 1.  The keys `requires` and `defines` are optional.
     -   Either may introduce an empty list.
