@@ -220,6 +220,37 @@ Glossary <- R6::R6Class("Glossary",
         })
     },
 
+    add_entry = function(slug, term, definition, ref = NULL, lang = "en") {
+      stopifnot(rlang::is_scalar_character(slug))
+      stopifnot(rlang::is_scalar_character(term))
+      stopifnot(rlang::is_scalar_character(definition))
+      stopifnot(rlang::is_scalar_character(lang))
+      stopifnot(lang %in% langs)
+
+      idx <- match(slug, self$list_slugs())
+      if (isTRUE(is.na(idx))) {
+        res <- GlossaryEntry$new(
+          slug = slug,
+          term = term,
+          defn = definition,
+          lang = lang,
+          ref = ref
+        )
+        private$.entries <- c(
+          private$.entries,
+          res
+        )
+      } else {
+        private$.entries[[idx]]$add_entry(
+          slug = slug,
+          term = term,
+          defn = definition,
+          lang = lang
+        )
+      }
+      self
+    },
+    
     print = function() {
       n_slugs <- self$list_slugs() %>%
         length()
