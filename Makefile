@@ -22,23 +22,25 @@ clean :
 	@rm -rf glossary/__pycache__
 	@rm -rf MANIFEST build dist py-installed-files.txt Glossary.egg-info
 	@rm -f _data/glossary.yml glossary/glossary.yml
-	@rm -f r/R/sysdata.rda
+	@rm -f r-package/R/sysdata.rda
 	@rm -f python/glossary/data/glossary.yml
 
 ## ---- : ----
 
 ## py-package : build Python package.
-##py-package : glossary/glossary.yml
-##	python setup.py sdist
-##	rm -rf Glossary.egg-info
+py-package : python/glossary/data/glossary.yml
+	cd python && poetry build
 
 ## py-install : install Python package.
-## py-install :
-##	python setup.py install --record py-installed-files.txt
+py-install :
+	cd python && poetry install
 
 ## py-uninstall : remove Python package using record of installed files.
-## py-uninstall : py-installed-files.txt
-##	cat py-installed-files.txt | xargs rm -rf
+py-uninstall : 
+	pip3 uninstall glossary
+
+py-publish :
+	cd python && poetry publish
 
 ## ---- : ----
 
