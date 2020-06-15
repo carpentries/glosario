@@ -22,28 +22,29 @@ clean :
 	@rm -rf glossary/__pycache__
 	@rm -rf MANIFEST build dist py-installed-files.txt Glossary.egg-info
 	@rm -f _data/glossary.yml glossary/glossary.yml
-	@rm -f R/sysdata.rda
+	@rm -f r/R/sysdata.rda
+	@rm -f python/glossary/data/glossary.yml
 
 ## ---- : ----
 
 ## py-package : build Python package.
-py-package : glossary/glossary.yml
-	python setup.py sdist
-	rm -rf Glossary.egg-info
+##py-package : glossary/glossary.yml
+##	python setup.py sdist
+##	rm -rf Glossary.egg-info
 
 ## py-install : install Python package.
-py-install :
-	python setup.py install --record py-installed-files.txt
+## py-install :
+##	python setup.py install --record py-installed-files.txt
 
 ## py-uninstall : remove Python package using record of installed files.
-py-uninstall : py-installed-files.txt
-	cat py-installed-files.txt | xargs rm -rf
+## py-uninstall : py-installed-files.txt
+##	cat py-installed-files.txt | xargs rm -rf
 
 ## ---- : ----
 
 ## r-package : build R package.
-r-package : R/sysdata.rda
-	cd .. && R CMD build glossary
+rpackage : r-package/R/sysdata.rda
+	R CMD build r-package
 
 #----------------------------------------------------------------------
 
@@ -57,5 +58,9 @@ glossary/glossary.yml : ./glossary.yml
 	@cp $< $@
 
 # Create R data version of glossary file for R package.
-R/sysdata.rda : ./glossary.yml
-	@Rscript bin/make-glossary.R $<
+r-package/R/sysdata.rda : ./glossary.yml
+	@Rscript r-package/utils/make-glossary.R $<
+
+# Create Python data version of glossary file for R package.
+python/glossary/data/glossary.yml : ./glossary.yml
+	@cp $< $@
