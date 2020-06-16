@@ -1,4 +1,4 @@
-# Glossary
+# glossario
 
 In order to make lessons easier to find and remix,
 we propose a simple standard for indicating
