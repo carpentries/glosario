@@ -1,8 +1,8 @@
 <dl>
 {% for item in site.data.glossary %}
-  <dt id="{{item.slug}}">{{item.term}}</dt>
+  <dt id="{{item.slug}}">{{item.en.term}}</dt>
   <dd>
-    {{item.en | mardownify}}
+    {{item.en.def | mardownify}}
   </dd>
 {% endfor %}
 </dl>
