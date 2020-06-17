@@ -1,14 +1,10 @@
 # glosario
 
 In order to make lessons easier to find and remix,
-we propose a simple standard for indicating
-the terms learners must know before starting
-and the terms that the lesson defines.
+we propose a simple standard for indicating the terms learners must know before starting and the terms that the lesson defines.
 Rather than embedding definitions in lessons,
-authors will link to a shared glossary
-that can be browsed online
-or loaded interactively in R and Python sessions,
-where it can be used like any other online help.
+authors will link to a shared glossary that can be browsed online
+or used interactively in R and Python sessions.
 
 ## Lessons
 
@@ -63,14 +59,8 @@ this project implements a glossary of terms used in data science and data engine
 1.  The master copy of the glossary lives in `glossary.yml`.
     Its format is described below.
 1.  This file is turned into a single-page GitHub Pages site using Jekyll.
-1.  It is also turned into a Python package called `glossary`
-    and an R package with the same name.
-    -   After installing it,
-        a Python user can `import glossary`.
-        Calling `glossary.define('something')` will then look up the definition of a term.
-    -   Similarly,
-        after `library(glossary)`,
-        an R user can call `define('something')` to display a term's definition.
+1.  It is also turned into a [Python package](https://github.com/carpentries/glosario-py) called `glosario`
+    and an [R package](https://github.com/carpentries/glosario-r) with the same name.
 
 A glossary entry is structured like this:
 
@@ -128,3 +118,6 @@ A glossary entry is structured like this:
 -   **YAML is hard for people to edit—why not use something else for the glossary file?**
     Because other formats are just as hard to edit (e.g., JSON)
     or make one-to-many relationships hard to express (e.g., CSV).
+
+-   **Why use Jekyll for the online version?**
+    It's the default for GitHub Pages.
