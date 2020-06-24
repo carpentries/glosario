@@ -109,6 +109,55 @@ A glossary entry is structured like this:
     should `define('something')` in RStudio put the definition in the help pane
     (and if so, should it hyperlink to terms that the definition depends on)?
 
+## Use Cases
+
+1.  **Linking to a definition.**
+    1.  *Amari* writes a lesson in R Markdown that introduces some new terms.
+    1.  She has defined the language to be Spanish using the `glossary/language` key
+        in the YAML header,
+        but has not changed any other settings.
+    1.  She adds an inline code block `` `r gdef('linear-model', 'Linear models')` ``
+        to her lesson.
+    1.  When she knits her document,
+        the inline code block produces the HTML
+        `<a href="http://carpentries.org/glossary/es/#linear-model" class="glossary-definition">Linear Models</a>`
+
+1.  **Checking a lesson.**
+    1.  *Beatriz* has made some changes to a lesson she inherited from *Amari*,
+        and wants to check that it is still consistent.
+    1.  She runs a command-line script that:
+        1.  Reads the R Markdown file.
+        1.  Extracts the terms under the `glossary/defines` key.
+        1.  Searches the body of the document for calls to `gdef(...)`.
+        1.  Checks that every term listed in `glossary/defines` is referenced in the document body,
+            and that every term referenced in the document body is mentioned in `glossary/defines`.
+
+1.  **Finding lessons.**
+    1.  *Amari* writes a lesson in R Markdown.
+        She adds the `glossary` key to its YAML metadata
+        and indicates that the lesson requires the term `correlation`
+        and defines the term `regression`.
+    1.  *Beatriz* is writing a lesson on linear models.
+        She adds YAML metadata indicating that
+        the lesson requires the term `regression`.
+    1.  To find prerequisite lessons she can recommend to her students,
+        Beatriz runs a command-line script that:
+        1.  Uses `rmarkdown::yaml_front_matter(filename)`
+            to reads metadata from all of the lessons she has archived.
+        1.  Lists all of the lessons that state they define the term `regression`.
+
+1.  **Summarizing a lesson.**
+    1.  *Amari* has written a lesson in R Markdown that includes YAML metadata
+        stating that it defines `correlation` and `causation`.
+    1.  She adds a code chunk to the end of her lesson that includes a call to
+        `glosario::summarize_terms()`.
+    1.  When she knits the document to HTML,
+        this code chunk inserts a definition list `dl` at that point.
+        Its entries are the definitions of
+        all of the terms listed under the `glossary/defines` key
+        in the page's YAML header
+        in alphabetical order by term according to the rules for `glossary/language`.
+
 ## FAQ
 
 -   **Why not just link to Wikipedia?**
