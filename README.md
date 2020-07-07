@@ -1,10 +1,14 @@
 # glosario
 
-In order to make lessons easier to find and remix,
-we propose a simple standard for indicating the terms learners must know before starting and the terms that the lesson defines.
-Rather than embedding definitions in lessons,
-authors will link to a shared glossary that can be browsed online
-or used interactively in R and Python sessions.
+`glosario` is an open source glossary of terms used in data science
+that is available online and also as a library in both R and Python.
+By adding glossary keys to a lesson's metadata,
+authors can indicate what the lesson teaches,
+what learners ought to know before they start,
+and where they can go to find that knowledge.
+Authors can also use the library's functions
+to insert consistent hyperlinks for terms and definitions in their lessons
+in any of several (human) languages.
 
 ## Lessons
 
