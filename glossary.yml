@@ -141,7 +141,7 @@
   en:
     term: "branch"
     def: >
-      See [Git branch](git_branch).
+      See [Git branch](#git_branch).
 
 - slug: branch_per_feature_workflow
   en:
