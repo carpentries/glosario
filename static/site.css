@@ -8,3 +8,12 @@ body {
 dt {
     font-weight: bold;
 }
+
+img.flag {
+    width: 1.5em;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+}
