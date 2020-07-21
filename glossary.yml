@@ -645,7 +645,6 @@
     - feature_branch
     - fork
     - master_branch
-      See [branch](#branch)
 
 - slug: git_clone
   en:
