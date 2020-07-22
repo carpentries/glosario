@@ -11,3 +11,13 @@ exclude:
 - "Makefile"
 - "README.md"
 - "bin/*"
+languages:
+- key: en
+  name: English
+  flag: united-kingdom
+- key: es
+  name: Español
+  flag: spain
+- key: fr
+  name: Français
+  flag: france

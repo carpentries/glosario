@@ -25,6 +25,7 @@ Cross-references are displayed in __bold__ if that term is missing.
   <dd>
     {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
     {% if item.ref %}
+    <br/>
     <em>
     See also:
     {% for other_key in item.ref %}
@@ -37,6 +38,21 @@ Cross-references are displayed in __bold__ if that term is missing.
       {% endif %}
     </a>
     {% endfor %}
+    </em>
+    {% endif %}
+    {% assign others = '' | split: ',' %}
+    {% for lang in site.languages %}
+      {% if lang.key != language and item[lang.key] %}
+        {% assign others = others | push: lang %}
+      {% endif %}
+    {% endfor %}
+    {% if others %}
+    <br/>
+    <em>
+      &rarr;
+      {% for lang in others %}
+      <a href="../{{lang.key}}/#{{slug}}">{{lang.name}}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
     </em>
     {% endif %}
   </dd>

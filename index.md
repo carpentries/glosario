@@ -16,15 +16,13 @@ permalink: /
   to insert consistent hyperlinks for terms and definitions in their lessons in
   any of several (human) languages.  </p>
 
-<p>
-  <a href="{{'/en/' | relative_url}}"><img class="flag" src="{{'/static/flags/united-kingdom.svg' | relative_url}}" alt="English"></a>
-  <a href="{{'/en/' | relative_url}}">English</a>
-</p>
-<p>
-  <a href="{{'/es/' | relative_url}}"><img class="flag" src="{{'/static/flags/spain.svg' | relative_url}}" alt="Español"></a>
-  <a href="{{'/es/' | relative_url}}">Español</a>
-</p>
-<p>
-  <a href="{{'/fr/' | relative_url}}"><img class="flag" src="{{'/static/flags/france.svg' | relative_url}}" alt="Français"></a>
-  <a href="{{'/fr/' | relative_url}}">Français</a>
-</p>
+{% for lang in site.languages %}
+  {% assign link = lang.key | prepend: './' | append: '/' | relative_url %}
+  {% assign flag = './static/flags/' | append: lang.flag | append: '.svg' | relative_url %}
+  <p>
+    <a href="{{link}}">
+      <img class="flag" src="{{flag}}" alt="{{lang.name}}">
+    </a>
+    <a href="{{link}}">{{lang.name}}</a>
+  </p>
+{% endfor %}
