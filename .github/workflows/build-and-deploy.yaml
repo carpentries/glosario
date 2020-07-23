@@ -22,9 +22,7 @@ jobs:
 
     - name: Deploy
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
-      uses: JamesIves/github-pages-deploy-action@3.5.7
-      with:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT_DEPLOY }}
-        BRANCH: gh-pages
-        FOLDER: _gh-site
-        SINGLE_COMMIT: true
+      uses: maxheld83/ghpages@v0.3.0
+      env:
+        BUILD_DIR: _gh-site/
+        GH_PAT: ${{ secrets.GH_PAT_DEPLOY }}
