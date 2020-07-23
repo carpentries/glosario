@@ -11,14 +11,8 @@ jobs:
       with:
           persist-credentials: false
 
-    - name: Setup Ruby and Bundler
-      uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
-        ruby-version: 2.6 # Not needed with a .ruby-version file
-
     - name: Build site
-      run: bundle install && make site
+      run: make gh-site
 
     - name: Deploy
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
@@ -26,4 +20,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GH_PAT_DEPLOY }}
         BRANCH: gh-pages
-        FOLDER: _site
+        FOLDER: .

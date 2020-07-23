@@ -10,6 +10,9 @@ site : _data/glossary.yml
 	rm -rf .jekyll-cache .jekyll-metadata _site
 	bundle exec jekyll build
 
+## gh-site : builds the website for GitHub pages (part of the GH Actions workflow)
+gh-site : _data/glossary.yml
+
 ## serve : serve GitHub Pages site locally.
 serve : _data/glossary.yml
 	rm -rf _site
