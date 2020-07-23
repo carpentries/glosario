@@ -24,6 +24,6 @@ jobs:
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
       uses: JamesIves/github-pages-deploy-action@3.5.7
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT_DEPLOY }}
         BRANCH: gh-pages
         FOLDER: _site
