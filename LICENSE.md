@@ -1,3 +1,6 @@
+---
+permalink: /license/
+---
 # License
 
 > *This is a human-readable summary of (and not a substitute for) the license.
