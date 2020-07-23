@@ -17,6 +17,12 @@
       A path that points to the same location in the filesystem regardless of where
       it's evaluated. An absolute path is the equivalent of latitude and longitude
       in geography.
+  fr:
+    term: "chemin d'accès absolu"
+     def: >
+       Un chemin d'accès absolu indique la même position dans le système de fichier
+       quelque soit l'emplacement où il est evalué. Un chemin d'accès absolu est
+       l'équivalent de la latitude et longitude en géographie.
   ref:
     - relative_path
 
@@ -118,6 +124,11 @@
     def: >
       Software which is able to be used the same way as earlier versions of itself
       without problems.
+  fr:
+    term: "compatibilité descendante" 
+    def: >
+      Ce dit d'un logiciel qui est capable d'être utilisé de la même manière que ses
+      versions précédentes sans difficulté.
 
 - slug: base_r
   en:
