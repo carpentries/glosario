@@ -21,3 +21,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_PAT_DEPLOY }}
         BRANCH: gh-pages
         FOLDER: .
+        SINGLE_COMMIT: true
