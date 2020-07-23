@@ -15,7 +15,7 @@ jobs:
       run: make gh-site
 
     - name: Remove _data fromm .gitignore
-      run: "cat .gitignore | grep -v '_data' > .gitignore"
+      run: "grep -v '_data' .gitignore > tmpfile && mv tmpfile .gitignore"
 
     - name: inspect content of folder
       run: ls -alh _gh-site && ls -alh _gh-site/_data
