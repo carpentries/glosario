@@ -21,7 +21,7 @@ jobs:
       run: bundle install && make site
 
     - name: Deploy
-      if: ${{ github.event_name == 'push' }}
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
       uses: JamesIves/github-pages-deploy-action@3.5.7
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
