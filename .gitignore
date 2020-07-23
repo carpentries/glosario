@@ -13,3 +13,4 @@ dist
 glossary/glossary.yml
 man
 /Gemfile.lock
+/_gh-site/

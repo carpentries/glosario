@@ -12,6 +12,11 @@ site : _data/glossary.yml
 
 ## gh-site : builds the website for GitHub pages (part of the GH Actions workflow)
 gh-site : _data/glossary.yml
+	@rm -rf _gh-site
+	@mkdir -p _gh-site
+	@cp -r `ls -A | grep -v '.git' | grep -v '_gh-site' | grep -v '_site'` _gh-site
+	@mkdir -p _gh-site/_data
+	@cp $< _gh-site/$<
 
 ## serve : serve GitHub Pages site locally.
 serve : _data/glossary.yml

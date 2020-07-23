@@ -12,7 +12,7 @@ jobs:
           persist-credentials: false
 
     - name: Build site
-      run: mkdir -p _data && cp glossary.yml _data/glossary.yml
+      run: make gh-site
 
     - name: Deploy
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
@@ -20,5 +20,5 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GH_PAT_DEPLOY }}
         BRANCH: gh-pages
-        FOLDER: .
+        FOLDER: _gh-site
         SINGLE_COMMIT: true
