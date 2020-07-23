@@ -12,11 +12,7 @@ jobs:
           persist-credentials: false
 
     - name: Build site
-      run: |
-        make gh-site
-        cat .gitignore | grep -v '_data' > .gitignore
-        ls -alh _gh-site
-        ls -alh _gh-site/_data
+      run: make gh-site && cat .gitignore | grep -v '_data' > .gitignore && ls -alh _gh-site && ls -alh _gh-site/_data
 
     - name: Deploy
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
