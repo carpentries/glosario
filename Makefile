@@ -9,8 +9,6 @@ commands :
 site : _data/glossary.yml
 	rm -rf .jekyll-cache .jekyll-metadata _site
 	bundle exec jekyll build
-	@mkdir -p _site/_data
-	@cp $< _site/$<
 
 ## serve : serve GitHub Pages site locally.
 serve : _data/glossary.yml
