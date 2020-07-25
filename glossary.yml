@@ -19,7 +19,7 @@
       in geography.
   fr:
     term: "chemin d'accès absolu"
-     def: >
+    def: >
        Un chemin d'accès absolu indique la même position dans le système de fichier
        quelque soit l'emplacement où il est evalué. Un chemin d'accès absolu est
        l'équivalent de la latitude et longitude en géographie.
