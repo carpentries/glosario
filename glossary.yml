@@ -309,6 +309,13 @@
       Text written in a script that is not treated as code to be run, but rather
       as text that describes what the code is doing. These are usually short notes,
       often beginning with a `#` (in many programming languages).
+  fr:
+    term: "commentaire"
+    def: >
+      Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il est utilisé pour décrir
+      ce qui se passe lorsque le code est évalué. Les commentaires sont en général des notes breves, qui
+      commencent après un `#` (dans plusieurs langages de programmation)
+
 
 - slug: commit
   en:
