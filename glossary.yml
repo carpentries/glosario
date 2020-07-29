@@ -39,6 +39,11 @@
     def: >
       To combine many values into one, e.g., by summing a set of numbers or
       concatenating a set of strings.
+  fr:
+    term: "agrégation"
+    def: >
+       Synthétiser plusieurs valeurs en une seule, example, en sommant plusieurs nombres ou
+       en concaténant un ensemble de caractères.
 
 - slug: aggregation_function
   en:
@@ -109,6 +114,12 @@
     def: >
       A name-value pair associated with an object, used to store metadata about the
       object such as an array's dimensions.
+  fr:
+    term: "attribut"
+    def: >
+       Un couple nom-valeur associé à un objet et utilisé pour stocker des
+       Métadonnées concernant ce dernier, example, les dimensions d'un tableau.
+
 
 - slug: auto_completion
   en:
@@ -117,6 +128,12 @@
       A feature that allows the user to finish a word or code quickly through
       the use of hitting the TAB key to list possible words or code that the user can
       select from.
+  fr:
+    term: "auto-complétion"
+    def: >
+      Une fonctionnalité permettant à l'utilisateur de finir rapidement un mot ou du code
+      à travers l'utilisation de la touche TAB qui liste le mot ou le code susceptible
+      d'être choisi par l'utilisateur.
 
 - slug: backward_compatible
   en:
@@ -125,7 +142,7 @@
       Software which is able to be used the same way as earlier versions of itself
       without problems.
   fr:
-    term: "compatibilité descendante" 
+    term: "compatibilité descendante"
     def: >
       Ce dit d'un logiciel qui est capable d'être utilisé de la même manière que ses
       versions précédentes sans difficulté.
@@ -469,7 +486,7 @@
     term: "double square brackets"
     def: >
       An index enclosed in `[[...]]`, used to return a single value of the
-      underlying type.  
+      underlying type.
   ref:
     - single_square_brackets
 
@@ -534,7 +551,7 @@
   en:
     term: "falsy"
     def: >
-      A horrible neologism meaning "equivalent to false". 
+      A horrible neologism meaning "equivalent to false".
   ref:
     - truthy
 
@@ -559,7 +576,7 @@
   en:
     term: "feature request"
     def: >
-      A request to the maintainers or developers of a software program to add 
+      A request to the maintainers or developers of a software program to add
       a specific functionality (a feature) to that program.
 
 - slug: field
@@ -628,7 +645,7 @@
     def: >
       A style of programming in which data is transformed through successive
       application of functions, rather than by using control structures such as
-      loops.  
+      loops.
   ref:
     - higher_order_function
     - object_oriented_programming
@@ -717,7 +734,7 @@
     term: "global installation"
     def: >
       Installing a package in a location where it can be accessed by all users and
-      projects. 
+      projects.
   ref:
     - local_installation
 
@@ -726,7 +743,7 @@
     term: "global variable"
     def: >
       A variable defined outside any particular function, which is therefore visible
-      to all functions. 
+      to all functions.
   ref:
     - local_variable
 
@@ -758,7 +775,7 @@
     def: >
       To accept responsibility for handling an error or other
       unexpected event.  R prefers "handling a condition" to "catching an
-      exception".  
+      exception".
   ref:
     - condition
     - exception
@@ -768,7 +785,7 @@
     term: "header row"
     def: >
       If present, the first row of a CSV file that defines column names (but
-      tragically, not their data types or units).  
+      tragically, not their data types or units).
   ref:
     - csv
 
@@ -777,7 +794,7 @@
     term: "heterogeneous"
     def: >
       Having mixed type. For example, an list can contain a mix of numbers,
-      character strings, and values of other types. 
+      character strings, and values of other types.
   ref:
     - homogeneous
 
@@ -945,7 +962,7 @@
   en:
     term: "literate programming"
     def: >
-      A programming paradigm that mixes prose and code.  
+      A programming paradigm that mixes prose and code.
   ref:
     - r_markdown
 
@@ -954,7 +971,7 @@
     term: "local installation"
     def: >
       Placing a package inside a particular project so that it is only accessible
-      within that project. 
+      within that project.
   ref:
     - global_installation
 
@@ -963,7 +980,7 @@
     term: "local variable"
     def: >
       A variable defined inside a function which is only visible within that
-      function. 
+      function.
   ref:
     - closure
     - global_variable
@@ -1070,7 +1087,7 @@
   en:
     term: "NA"
     def: >
-      A special value used to represent data that is not available.  
+      A special value used to represent data that is not available.
   ref:
     - "null"
 
@@ -1079,7 +1096,7 @@
     term: "name collision"
     def: >
       The ambiguity that arises when two or more things in a program that have the
-      same name are active at the same time. 
+      same name are active at the same time.
   ref:
     - call_stack
     - fully_qualified_name
@@ -1210,7 +1227,7 @@
   en:
     term: "Peanuts"
     def: >
-      An American comic strip by Charles M. Schulz which has inspired the names of R versions. 
+      An American comic strip by Charles M. Schulz which has inspired the names of R versions.
 
 - slug: permalink
   en:
@@ -1265,7 +1282,7 @@
       A function that can generate [pseudo-random numbers](#pseudo_random_number).
   ref:
     - seed
-      
+
 - slug: procedural_programming
   en:
     term: "procedural programming"
@@ -1334,7 +1351,7 @@
       The request to merge a new feature or correction created on a user's fork of a
       [Git](#git) repository into the [upstream repository](#upstream_repository). The
       developer will be notified of the change, review it, make or suggest
-      changes, and potentially merge it. 
+      changes, and potentially merge it.
   ref:
     - fork
 
@@ -1345,7 +1362,7 @@
       Vectorized indexing in which the value at location `i` in the index vector
       specifies an element of the result vector that gets the corresponding
       element of the source vector, i.e., `result[index[i]] = source[i]`.  Push
-      indexing can easily produce gaps and collisions.  
+      indexing can easily produce gaps and collisions.
   ref:
     - pull_indexing
 
@@ -1454,7 +1471,7 @@
     def: >
       A pattern for matching text, written as text itself. Regular expressions are
       sometimes called "regexp", "regex", or "RE", and are as powerful as they are
-      cryptic.  
+      cryptic.
 
 - slug: relational_database
   en:
@@ -1462,7 +1479,7 @@
     def: >
       A database that organizes information into tables, each of which has a fixed
       set of named fields (shown as columns) and a variable number of records
-      (shown as rows). 
+      (shown as rows).
   ref:
     - sql
     - table
@@ -1482,7 +1499,7 @@
       directory](#current_working_directory). A relative path is the
       equivalent of giving directions using terms like "straight" and
       "left".  ref: - absolute_path
-      
+
 - slug: relative_row_number
   en:
     term: "relative row number"
@@ -1694,7 +1711,7 @@
     term: "single square brackets"
     def: >
       An index enclosed in `[...]`, used to select a structure from another
-      structure.  
+      structure.
   ref:
     - double_square_brackets
 
@@ -1941,7 +1958,7 @@
     term: "variable (program)"
     def: >
       A name in a program that has some data associated with it. A variable's value
-      can be changed after definition. 
+      can be changed after definition.
   ref:
     - constant
 
@@ -1964,7 +1981,7 @@
   en:
     term: "version control system"
     def: >
-      A system for managing changes made to software during its development. 
+      A system for managing changes made to software during its development.
   ref:
     - git
 
