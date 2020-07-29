@@ -426,8 +426,6 @@
       Une manière de contrôler l'apparence du rendu HTML. Le CSS est généralement utilisé dans le but
       de spécifier la police, la couleur ainsi que la structure d'une page web.
 
-
-
 - slug: csv
   en:
     term: "comma-separated values"
