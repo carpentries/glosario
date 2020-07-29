@@ -42,7 +42,7 @@
   fr:
     term: "agrégation"
     def: >
-       Synthétiser plusieurs valeurs en une seule, example, en sommant plusieurs nombres ou
+       Synthétise plusieurs valeurs en une seule, example, en sommant plusieurs nombres ou
        en concaténant un ensemble de caractères.
 
 - slug: aggregation_function
