@@ -50,7 +50,10 @@
     term: "aggregation function"
     def: >
       A function that combines many values into one, such as `sum` or `max`.
-
+  fr:
+    term: "fonction d'agrégation"
+    def: >
+      Une fonction qui permet de synthétiser plusieurs valeurs en une seule, example, 'sum' ou 'max'.
 - slug: agile
   en:
     term: "agile development"
