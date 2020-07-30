@@ -420,7 +420,7 @@
     def: >
       A way to control the appearance of HTML.  CSS is typically used to specify
       fonts, colors, and layout.
-   fr:
+  fr:
     term: "Feuilles de Style en Cascade"
     def: >
       Une manière de contrôler l'apparence du rendu HTML. Le CSS est généralement utilisé dans le but
