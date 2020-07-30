@@ -312,7 +312,7 @@
   fr:
     term: "commentaire"
     def: >
-      Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il est utilisé pour décrir
+      Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il est utilisé pour décrire
       ce qui se passe lorsque le code est évalué. Les commentaires sont en général des notes breves, qui
       commencent après un `#` (dans plusieurs langages de programmation)
 
