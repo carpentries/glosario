@@ -1852,7 +1852,12 @@
     def: >
       A modern replacement for R's data frame, which stores tabular data in columns
       and rows, defined and used in the [tidyverse](#tidyverse).
-
+  fr:
+    term: "tibble"
+    def: >
+      Une alternative moderne du "data frame" en R permettant de matérialiser des données tabulaires
+      en colonnes et en lignes, le "tibble" a été défini et est utilisé dans le [tidyverse](#tidyverse).
+      
 - slug: ticket
   en:
     term: "ticket"
@@ -1883,13 +1888,21 @@
     def: >
       A collection of R packages for modeling and statistical analysis designed with
       a [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
+  fr:
+    term: "Tidymodels"
+    def: >
+      Une collection de packages R pour la modélisation et l'analyse statistique élaborés en prenant en considération
+      une [philosophie partagée](https://tidymodels.github.io/model-implementation-principles/index.html)
 
 - slug: tidyverse
   en:
     term: "Tidyverse"
     def: >
       A collection of R packages for operating on tabular data in consistent ways.
-
+  fr:
+    term: "Tidyverse"
+    def: >
+      Une collection de packages R permettant le traitement des données tabulaire d'une manière cohérente. 
 - slug: timestamp
   en:
     term: "timestamp"
@@ -1961,6 +1974,11 @@
     def: >
       In a function, the ability to take any number of arguments.  R uses `...` to
       capture the "extra" arguments.
+  fr:
+    term: "arguments d'une variable"
+    def: >
+      La possibilité d'intégrer n'importe quel nombre d'arguments dans une fonction. R utilise `...` afin 
+      de capturer les arguments "additionnels".
 
 - slug: variable_data
   en:
@@ -1974,6 +1992,11 @@
     def: >
       A name in a program that has some data associated with it. A variable's value
       can be changed after definition.
+  fr:
+    term: "variable (programme)"
+    def: >
+       Un nom associé à des données au niveau d'un programme. La valeur d'une variable 
+       peut être modifiée après l'avoir définie. 
   ref:
     - constant
 
@@ -1997,6 +2020,12 @@
     term: "version control system"
     def: >
       A system for managing changes made to software during its development.
+  ref:
+    - git
+  fr:
+    term: "système de contrôle de version"
+    def: >
+       Un système qui permet de gérer les modifications effectuées sur un programme durant son développement.  
   ref:
     - git
 
