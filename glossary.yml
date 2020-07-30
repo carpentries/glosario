@@ -424,7 +424,7 @@
     term: "Feuilles de Style en Cascade"
     def: >
       Une manière de contrôler l'apparence du rendu HTML. Le CSS est généralement utilisé dans le but
-      de spécifier la police, la couleur ainsi que la structure d'une page web.
+      de spécifier les polices, les couleurs ainsi que la structure d'une page web.
 
 - slug: csv
   en:
