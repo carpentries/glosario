@@ -680,7 +680,7 @@
   fr:
     term: "Git"
     def: >
-      Un outil de contrôle de version qui permet d'enregistrer et de piloter les modifications effectuées au niveau d'un projet.
+      Un outil de gestion des versions qui permet d'enregistrer et de piloter les modifications effectuées au niveau d'un projet.
 
 - slug: git_branch
   en:
@@ -691,7 +691,7 @@
   fr:
     term: "Git branch"
     def: >
-      Une photographie d'une version d'un répertoire Git. Plusieurs branches peuvent capturer
+      Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
       plusieurs versions au niveau d'un même répertoire.
   
   ref:
@@ -708,8 +708,8 @@
   fr:
     term: "Git clone"
     def: >
-      Permet de copier (et générallement de télécharger) un [répertoire éloigné](#remote_repository) Git au niveau
-      du PC local. 
+      Permet de copier (et générallement de télécharger) un [dépôt éloigné](#remote_repository) Git au niveau
+      de l'ordinateur local. 
 
 - slug: git_conflict
   en:
@@ -740,8 +740,8 @@
   fr:
     term: "Git pull"
     def: >
-      Télécharge et synchronise des modifications entre le [répertoire éloigné](#remote_repository) 
-      et le [répertoire](#repository) local.
+      Télécharge et synchronise des modifications entre le [dépôt éloigné](#remote_repository) 
+      et le [dépôt](#repository) local.
 
 - slug: git_push
   en:
@@ -752,8 +752,8 @@
   fr:
     term: "Git push"
     def: >
-      Charge et synchronise des modifications entre le [répertoire](#repository) local et 
-      le [répertoire éloigné](#remote_repository).
+      Charge et synchronise des modifications entre le [dépôt](#repository) local et 
+      le [dépôt éloigné](#remote_repository).
 
 - slug: github
   en:
@@ -764,7 +764,7 @@
   fr:
     term: "Github"
     def: >
-      Une platefome basée sur le Cloud, construite autour de [Git](#git) qui permet de sauvegarder en ligne les versions
+      Une platefome dans le Cloud, construite autour de [Git](#git) qui permet de sauvegarder en ligne les versions
       d'un projet et de collaborer avec d'autres utilisateurs Git.
 
 - slug: global_environment
