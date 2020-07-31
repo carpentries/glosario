@@ -692,7 +692,7 @@
     term: "Git branch"
     def: >
       Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
-      plusieurs versions au niveau d'un même répertoire.
+      plusieurs versions au niveau d'un même dépôt.
   
   ref:
     - feature_branch
