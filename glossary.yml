@@ -2023,7 +2023,7 @@
   ref:
     - git
   fr:
-    term: "système de contrôle de version"
+    term: "système de gestion des versions"
     def: >
        Un système qui permet de gérer les modifications effectuées sur un programme durant son développement.  
   ref:
