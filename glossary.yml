@@ -521,7 +521,7 @@
     term: "vecteur vide"
     def: >
        Un vecteur qui ne contient aucun élément. Les vecteurs vides peuvent être de type
-       logique ou caractère, et sont *differents* des vecteurs [null](#null)
+       logique ou caractère, et sont *differents* des vecteurs [null](#null).
 
 - slug: environment
   en:
@@ -633,7 +633,7 @@
   fr:
     term: "filtrer"
     def: >
-      Le fait de sélectionner un ensemble [d'observations](#record) (example, certaines lignes d'une table) en se 
+      Le fait de sélectionner un ensemble d'[observations](#record) (example, certaines lignes d'une table) en se 
       basant sur leurs valeurs.
 
 - slug: fixture
@@ -761,7 +761,7 @@
    fr:
     term: "environnement global"
     def: >
-      [L'environnement](#environment) qui contient des définitions de premier niveau dans R, 
+      L'[environnement](#environment) qui contient des définitions de premier niveau dans R, 
       example, celles écrites directement dans l'intérpreteur.
 
 - slug: global_installation
