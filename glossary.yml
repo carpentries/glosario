@@ -517,6 +517,11 @@
     def: >
       A vector that contains no elements.  Empty vectors have a type such as logical
       or character, and are *not* the same as [null](#null).
+  fr:
+    term: "vecteur vide"
+    def: >
+       Un vecteur qui ne contient aucun élément. Les vecteurs vides peuvent être de type
+       logique ou caractère, et sont *differents* des vecteurs [null](#null).
 
 - slug: environment
   en:
@@ -625,6 +630,11 @@
     def: >
       To choose a set of [records](#record) (i.e., rows of a table) based
       on the values they contain.
+  fr:
+    term: "filtrer"
+    def: >
+      Le fait de sélectionner un ensemble d'[observations](#record) (example, certaines lignes d'une table) en se 
+      basant sur leurs valeurs.
 
 - slug: fixture
   en:
@@ -671,6 +681,11 @@
     def: >
       A collection of functions with similar purpose, each operating on a different
       class of data.
+  fr:
+    term: "fonction générique"
+    def: >
+      Une collection de fonctions ayant un objectif similaire, chacune opérant sur une classe 
+      de données différente.
 
 - slug: git
   en:
@@ -743,6 +758,11 @@
     def: >
       The [environment](#environment) that holds top-level definitions in R,
       e.g., those written directly in the interpreter.
+   fr:
+    term: "environnement global"
+    def: >
+      L'[environnement](#environment) qui contient des définitions de premier niveau dans R, 
+      example, celles écrites directement dans l'intérpreteur.
 
 - slug: global_installation
   en:
@@ -750,6 +770,11 @@
     def: >
       Installing a package in a location where it can be accessed by all users and
       projects.
+  fr:
+    term: "installation globale"
+    def: >
+      Le fait d'installer un package dans un emplacement où il peut être accessible par tous les utilisateurs ainsi que 
+      tous les projets.
   ref:
     - local_installation
 
@@ -759,6 +784,11 @@
     def: >
       A variable defined outside any particular function, which is therefore visible
       to all functions.
+  fr:
+    term: "variable globale"
+    def: >
+      Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour 
+      toutes les fonctions.
   ref:
     - local_variable
 
