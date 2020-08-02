@@ -1,4 +1,4 @@
 ---
-permalink: /en/
+permalink: /zu/
 ---
 {% include glossary.html %}
