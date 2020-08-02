@@ -1,4 +1,4 @@
 ---
 permalink: /fr/
 ---
-{% include glossary.html language="fr" %}
+{% include glossary.html %}

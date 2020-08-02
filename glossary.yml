@@ -19,7 +19,7 @@
       in geography.
   fr:
     term: "chemin d'accès absolu"
-     def: >
+    def: >
        Un chemin d'accès absolu indique la même position dans le système de fichier
        quelque soit l'emplacement où il est evalué. Un chemin d'accès absolu est
        l'équivalent de la latitude et longitude en géographie.
@@ -39,13 +39,21 @@
     def: >
       To combine many values into one, e.g., by summing a set of numbers or
       concatenating a set of strings.
+  fr:
+    term: "agrégation"
+    def: >
+       Synthétise plusieurs valeurs en une seule, example, en sommant plusieurs nombres ou
+       en concaténant un ensemble de caractères.
 
 - slug: aggregation_function
   en:
     term: "aggregation function"
     def: >
       A function that combines many values into one, such as `sum` or `max`.
-
+  fr:
+    term: "fonction d'agrégation"
+    def: >
+      Une fonction qui permet de synthétiser plusieurs valeurs en une seule, example, 'sum' ou 'max'.
 - slug: agile
   en:
     term: "agile development"
@@ -109,6 +117,12 @@
     def: >
       A name-value pair associated with an object, used to store metadata about the
       object such as an array's dimensions.
+  fr:
+    term: "attribut"
+    def: >
+       Un couple nom-valeur associé à un objet et utilisé pour stocker des
+       Métadonnées concernant ce dernier, example, les dimensions d'un tableau.
+
 
 - slug: auto_completion
   en:
@@ -117,6 +131,12 @@
       A feature that allows the user to finish a word or code quickly through
       the use of hitting the TAB key to list possible words or code that the user can
       select from.
+  fr:
+    term: "auto-complétion"
+    def: >
+      Une fonctionnalité permettant à l'utilisateur de finir rapidement un mot ou du code
+      à travers l'utilisation de la touche TAB qui liste le mot ou le code susceptible
+      d'être choisi par l'utilisateur.
 
 - slug: backward_compatible
   en:
@@ -125,7 +145,7 @@
       Software which is able to be used the same way as earlier versions of itself
       without problems.
   fr:
-    term: "compatibilité descendante" 
+    term: "compatibilité descendante"
     def: >
       Ce dit d'un logiciel qui est capable d'être utilisé de la même manière que ses
       versions précédentes sans difficulté.
@@ -289,6 +309,13 @@
       Text written in a script that is not treated as code to be run, but rather
       as text that describes what the code is doing. These are usually short notes,
       often beginning with a `#` (in many programming languages).
+  fr:
+    term: "commentaire"
+    def: >
+      Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il est utilisé pour décrire
+      ce qui se passe lorsque le code est évalué. Les commentaires sont en général des notes brèves, qui
+      commencent après un `#` (dans plusieurs langages de programmation)
+
 
 - slug: commit
   en:
@@ -393,6 +420,11 @@
     def: >
       A way to control the appearance of HTML.  CSS is typically used to specify
       fonts, colors, and layout.
+  fr:
+    term: "Feuilles de Style en Cascade"
+    def: >
+      Une manière de contrôler l'apparence du rendu HTML. Le CSS est généralement utilisé dans le but
+      de spécifier les polices, les couleurs ainsi que la structure d'une page web.
 
 - slug: csv
   en:
@@ -469,7 +501,7 @@
     term: "double square brackets"
     def: >
       An index enclosed in `[[...]]`, used to return a single value of the
-      underlying type.  
+      underlying type.
   ref:
     - single_square_brackets
 
@@ -485,6 +517,11 @@
     def: >
       A vector that contains no elements.  Empty vectors have a type such as logical
       or character, and are *not* the same as [null](#null).
+  fr:
+    term: "vecteur vide"
+    def: >
+       Un vecteur qui ne contient aucun élément. Les vecteurs vides peuvent être de type
+       logique ou caractère, et sont *differents* des vecteurs [null](#null).
 
 - slug: environment
   en:
@@ -534,7 +571,7 @@
   en:
     term: "falsy"
     def: >
-      A horrible neologism meaning "equivalent to false". 
+      A horrible neologism meaning "equivalent to false".
   ref:
     - truthy
 
@@ -559,7 +596,7 @@
   en:
     term: "feature request"
     def: >
-      A request to the maintainers or developers of a software program to add 
+      A request to the maintainers or developers of a software program to add
       a specific functionality (a feature) to that program.
 
 - slug: field
@@ -593,6 +630,11 @@
     def: >
       To choose a set of [records](#record) (i.e., rows of a table) based
       on the values they contain.
+  fr:
+    term: "filtrer"
+    def: >
+      Le fait de sélectionner un ensemble d'[observations](#record) (example, certaines lignes d'une table) en se 
+      basant sur leurs valeurs.
 
 - slug: fixture
   en:
@@ -628,7 +670,7 @@
     def: >
       A style of programming in which data is transformed through successive
       application of functions, rather than by using control structures such as
-      loops.  
+      loops.
   ref:
     - higher_order_function
     - object_oriented_programming
@@ -639,6 +681,11 @@
     def: >
       A collection of functions with similar purpose, each operating on a different
       class of data.
+  fr:
+    term: "fonction générique"
+    def: >
+      Une collection de fonctions ayant un objectif similaire, chacune opérant sur une classe 
+      de données différente.
 
 - slug: git
   en:
@@ -711,13 +758,23 @@
     def: >
       The [environment](#environment) that holds top-level definitions in R,
       e.g., those written directly in the interpreter.
+  fr:
+    term: "environnement global"
+    def: >
+      L'[environnement](#environment) qui contient des définitions de premier niveau dans R, 
+      example, celles écrites directement dans l'intérpreteur.
 
 - slug: global_installation
   en:
     term: "global installation"
     def: >
       Installing a package in a location where it can be accessed by all users and
-      projects. 
+      projects.
+  fr:
+    term: "installation globale"
+    def: >
+      Le fait d'installer un package dans un emplacement où il peut être accessible par tous les utilisateurs ainsi que 
+      tous les projets.
   ref:
     - local_installation
 
@@ -726,7 +783,17 @@
     term: "global variable"
     def: >
       A variable defined outside any particular function, which is therefore visible
-      to all functions. 
+      to all functions.
+  es:
+    term: "variable global"
+    def: >
+      Una variable definida fuera de alguna función en particular, por lo que es visible
+      para todas las funciones.
+  fr:
+    term: "variable globale"
+    def: >
+      Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour 
+      toutes les fonctions.
   ref:
     - local_variable
 
@@ -758,7 +825,7 @@
     def: >
       To accept responsibility for handling an error or other
       unexpected event.  R prefers "handling a condition" to "catching an
-      exception".  
+      exception".
   ref:
     - condition
     - exception
@@ -768,7 +835,7 @@
     term: "header row"
     def: >
       If present, the first row of a CSV file that defines column names (but
-      tragically, not their data types or units).  
+      tragically, not their data types or units).
   ref:
     - csv
 
@@ -777,7 +844,7 @@
     term: "heterogeneous"
     def: >
       Having mixed type. For example, an list can contain a mix of numbers,
-      character strings, and values of other types. 
+      character strings, and values of other types.
   ref:
     - homogeneous
 
@@ -817,6 +884,13 @@
       An application that helps programmers develop software.
       IDEs typically have a built-in editor, a console to execute code immediately,
       and browsers for exploring data structures in memory and files on disk.
+  es:
+    term: "Entorno de Desarrollo Integrado"
+    acronym: EDI
+    def: >
+      Una aplicación que ayuda a programadores a desarrollar software. Los EDI usualmente
+      tiene un editor incorporado, una consola que ejecuta el código inmediatamente y
+      navegadores para explorar estructuras de datos en la memoria y archivos en el disco.
   ref:
     - repl
 
@@ -945,7 +1019,7 @@
   en:
     term: "literate programming"
     def: >
-      A programming paradigm that mixes prose and code.  
+      A programming paradigm that mixes prose and code.
   ref:
     - r_markdown
 
@@ -954,7 +1028,7 @@
     term: "local installation"
     def: >
       Placing a package inside a particular project so that it is only accessible
-      within that project. 
+      within that project.
   ref:
     - global_installation
 
@@ -963,7 +1037,12 @@
     term: "local variable"
     def: >
       A variable defined inside a function which is only visible within that
-      function. 
+      function.
+  es:
+    term: "variable local"
+    def: >
+      Una variable definida dentro de una función, por lo que solo es visible
+      dentro de ella.
   ref:
     - closure
     - global_variable
@@ -1070,7 +1149,7 @@
   en:
     term: "NA"
     def: >
-      A special value used to represent data that is not available.  
+      A special value used to represent data that is not available.
   ref:
     - "null"
 
@@ -1079,7 +1158,7 @@
     term: "name collision"
     def: >
       The ambiguity that arises when two or more things in a program that have the
-      same name are active at the same time. 
+      same name are active at the same time.
   ref:
     - call_stack
     - fully_qualified_name
@@ -1210,7 +1289,7 @@
   en:
     term: "Peanuts"
     def: >
-      An American comic strip by Charles M. Schulz which has inspired the names of R versions. 
+      An American comic strip by Charles M. Schulz which has inspired the names of R versions.
 
 - slug: permalink
   en:
@@ -1265,7 +1344,7 @@
       A function that can generate [pseudo-random numbers](#pseudo_random_number).
   ref:
     - seed
-      
+
 - slug: procedural_programming
   en:
     term: "procedural programming"
@@ -1334,7 +1413,7 @@
       The request to merge a new feature or correction created on a user's fork of a
       [Git](#git) repository into the [upstream repository](#upstream_repository). The
       developer will be notified of the change, review it, make or suggest
-      changes, and potentially merge it. 
+      changes, and potentially merge it.
   ref:
     - fork
 
@@ -1345,7 +1424,7 @@
       Vectorized indexing in which the value at location `i` in the index vector
       specifies an element of the result vector that gets the corresponding
       element of the source vector, i.e., `result[index[i]] = source[i]`.  Push
-      indexing can easily produce gaps and collisions.  
+      indexing can easily produce gaps and collisions.
   ref:
     - pull_indexing
 
@@ -1389,6 +1468,12 @@
       A dialect of [Markdown](#markdown) that allows authors to mix prose
       and code (usually written in R) in a single document.  Cf.
       [literate programming](#literate_programming).
+  es:
+    term: "R Markdown"
+    def: >
+      Un dialecto de [Markdown](#markdown) que permite a sus autores mezclar
+      prosa y código (usualmente escrito en R) en un mismo documento. Cf.
+      [literate programming](#literate_programming).
 
 - slug: raise
   en:
@@ -1429,6 +1514,11 @@
     def: >
       To re-use values from a shorter vector in order to generate a sequence of
       the same length as a longer one.
+  es:
+    term: "reciclar"
+    def: >
+      Reutilizar valores de un vector más corto con el fin de generar una secuencia
+      del mismo largo que el vector más largo.
 
 - slug: redirection
   en:
@@ -1454,7 +1544,13 @@
     def: >
       A pattern for matching text, written as text itself. Regular expressions are
       sometimes called "regexp", "regex", or "RE", and are as powerful as they are
-      cryptic.  
+      cryptic.
+  es:
+    term: "expresión regular"
+    def: >
+      Un patrón para buscar coincidencias en texto, que están a su vez escritas como
+      texto. Las expresiones regulares a veces son llamadas "regexp", "regex" o "RE",
+      y son tan poderosas como crípticas.
 
 - slug: relational_database
   en:
@@ -1462,7 +1558,13 @@
     def: >
       A database that organizes information into tables, each of which has a fixed
       set of named fields (shown as columns) and a variable number of records
-      (shown as rows). 
+      (shown as rows).
+  es:
+    term: "base de datos relacional"
+    def: >
+      Una base de datos que organiza la información en tablas, cada una de las cuales
+      tiene un set fijo de campos con nombre (que se muestran como columnas) y un
+      número variable de registros (que se muestran como filas).
   ref:
     - sql
     - table
@@ -1482,7 +1584,7 @@
       directory](#current_working_directory). A relative path is the
       equivalent of giving directions using terms like "straight" and
       "left".  ref: - absolute_path
-      
+
 - slug: relative_row_number
   en:
     term: "relative row number"
@@ -1519,6 +1621,11 @@
     def: >
       A place where a [version control system](#version_control_system) stores
       the files that make up a project and the metadata that describes their history.
+  es:
+    term: "repositorio"
+    def: >
+      Lugar en el que un [sistema de control de versión](#version_control_system) guarda
+      los archivos que conforman un proyecto y los metadatos que describen su historia.
   ref:
     - git
     - github
@@ -1584,6 +1691,11 @@
     def: >
       A language originally developed in Bell Labs for data analysis, statistical
       modeling, and graphics. R is a dialect of S.
+  es:
+    term: "S"
+    def: >
+      Un lenguaje para análisis de datos, modelado estadístico y gráficos desarrollado
+      originalmente en los Laboratorios Bell. R es un dialecto de S.
 
 - slug: scalar
   en:
@@ -1592,6 +1704,12 @@
       A single value of a particular type, such as 1 or "a".  Scalars don't really
       exist in R; values that appear to be scalars are actually vectors of unit
       length.
+  es:
+    term: "escalar"
+    def: >
+      Un único valor de un tipo particular, como 1 o "a". Los escalares realmente
+      no existen en R; los valores que parecen ser escalares son en realidad vectores
+      de largo uno.
 
 - slug: schema
   en:
@@ -1694,7 +1812,7 @@
     term: "single square brackets"
     def: >
       An index enclosed in `[...]`, used to select a structure from another
-      structure.  
+      structure.
   ref:
     - double_square_brackets
 
@@ -1735,6 +1853,13 @@
     def: >
       The language used for writing queries for a [relational database](#relational_database).
       The term was originally an acronym for Structured Query Language.
+  es:
+    term: "SQL"
+    def: >
+      Lenguaje utilizado para escribir consultas para una
+      [base de datos relacional](#relational_database). El término era originalmente
+      un acrónimo del inglés Structured Query Language (Lenguage Estructurado de
+      Consulta).
 
 - slug: ssh_key
   en:
@@ -1765,6 +1890,10 @@
     term: "string"
     def: >
       A block of text in a program. The term is short for "character string".
+  es:
+    term: "secuencia de caracteres"
+    def: >
+      Bloque de texto en un programa.
 
 - slug: string_interpolation
   en:
@@ -1820,7 +1949,11 @@
     def: >
       A modern replacement for R's data frame, which stores tabular data in columns
       and rows, defined and used in the [tidyverse](#tidyverse).
-
+  es:
+    term: "tibble"
+    def: >
+      Un remplazo moderno para los data frames de R que guarda datos tabulares en
+      columnas y filas, definido y usado en el [tidyverse](#tidyverse).
 - slug: ticket
   en:
     term: "ticket"
@@ -1842,6 +1975,14 @@
       initial cleaning, and later exploration and analysis: (1) each variable
       forms a column, (2) each observation forms a row, and (3) each type of
       observation unit forms a table.
+  es:
+    term: "datos ordenados"
+    def: >
+      Datos tabulares que satisfacen [tres
+      condiciones](https://vita.had.co.nz/papers/tidy-data.pdf) que facilitan
+      su limpieza inicial y su posterior exploración y análisis: (1) cada variable
+      conforma una columna, (2) cada observación conforma una fila y (3) cada tipo de
+      unidad de observación conforma una tabla.
   ref:
     - table
 
@@ -1857,6 +1998,11 @@
     term: "Tidyverse"
     def: >
       A collection of R packages for operating on tabular data in consistent ways.
+  es:
+    term: "Tidyverse"
+    def: >
+      Una colección de paquetes de R para operar de maneras consistentes con datos
+      tabulares.
 
 - slug: timestamp
   en:
@@ -1941,7 +2087,7 @@
     term: "variable (program)"
     def: >
       A name in a program that has some data associated with it. A variable's value
-      can be changed after definition. 
+      can be changed after definition.
   ref:
     - constant
 
@@ -1959,12 +2105,21 @@
     def: >
       To write code so that operations are performed on entire vectors, rather than
       element-by-element within loops.
+  es:
+    term: "vectorizar"
+    def: >
+      Escribir código de modo que las operaciones se ejecuten en vectores
+      completos, más que elemento por elemento dentro de un bucle.
 
 - slug: version_control_system
   en:
     term: "version control system"
     def: >
-      A system for managing changes made to software during its development. 
+      A system for managing changes made to software during its development.
+  es:
+    term: "sistema de control de versión"
+    def: >
+      Un sistema para manejar los cambios hechos durante el desarollo de software.
   ref:
     - git
 
