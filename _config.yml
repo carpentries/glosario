@@ -15,10 +15,13 @@ exclude:
 languages:
 - key: en
   name: English
+  title: Glossary
   flag: united-kingdom
 - key: es
   name: Español
+  title: Glossaire
   flag: spain
 - key: fr
   name: Français
+  title: Glosario
   flag: france
