@@ -1,7 +1,7 @@
 ---
 name: Language Support Template
 about: Use this template for requesting language support.
-title: "[DATE]: [BUG NAME]"
+title: "[DATE]: [LANG NAME]"
 labels: bug
 ---
 
