@@ -1,8 +1,5 @@
 {% assign gloss = site.data.glossary %}
 {% assign language = page.permalink | replace: '/', '' %}
-{% assign language_info = site.languages | where: "key", language | first %}
-
-<h1>{{language_info.title}}</h1>
 
 {%- comment -%}
 Find terms defined in this language and sort alphabetically.

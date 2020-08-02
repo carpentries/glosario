@@ -1,0 +1,14 @@
+{%- if page.title -%}
+{%- assign the_title = page.title -%}
+{%- else -%}
+{%- assign language = page.permalink | replace: '/', '' %}
+{%- assign the_title = site.languages | where: "key", language | map: "title" | first -%}
+{%- endif -%}
+<div class="row">
+  <div class="left">
+    <a href="{{'/' | relative_url}}"><img src="{{'/static/parrot.svg' | relative_url}}" alt="Parrot logo" width="75%" /></a>
+  </div>
+  <div class="right">
+    <h1>{{the_title}}</h1>
+  </div>
+</div>
