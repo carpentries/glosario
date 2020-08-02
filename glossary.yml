@@ -23,6 +23,12 @@
        Un chemin d'accès absolu indique la même position dans le système de fichier
        quelque soit l'emplacement où il est evalué. Un chemin d'accès absolu est
        l'équivalent de la latitude et longitude en géographie.
+  es:
+    term: "ruta absoluta"
+    def: >
+      Una ruta que dirige a la misma ubicación en el sistema de archivos
+      independientemente del contexto donde sea evaluada. Una ruta absoluta es
+      el equivalente a la latitud y longitud en geografía.
   ref:
     - relative_path
 
@@ -32,6 +38,11 @@
     def: >
       The sequential index of a row in a table, regardless of what sections of the
       table is being displayed.
+  es:
+    term: "número de fila absoluto"
+    def: >
+      El índice secuencial que indentifica una fila en un tablero, sin importar
+      qué secciones se estén mostrando.
 
 - slug: aggregation
   en:
@@ -39,6 +50,11 @@
     def: >
       To combine many values into one, e.g., by summing a set of numbers or
       concatenating a set of strings.
+  es:
+    term: "agregación"
+    def: >
+      Combinar muchos valores en uno, por ejemplo, sumando una serie de números
+      o concatenando un conjunto de cadenas de caracteres.
   fr:
     term: "agrégation"
     def: >
@@ -50,10 +66,15 @@
     term: "aggregation function"
     def: >
       A function that combines many values into one, such as `sum` or `max`.
+  es:
+    term: "función de agregación"
+    def: >
+      Una función que combina varios valores en uno, como `sum` o `max`.
   fr:
     term: "fonction d'agrégation"
     def: >
       Une fonction qui permet de synthétiser plusieurs valeurs en une seule, example, 'sum' ou 'max'.
+
 - slug: agile
   en:
     term: "agile development"
