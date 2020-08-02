@@ -758,7 +758,7 @@
     def: >
       The [environment](#environment) that holds top-level definitions in R,
       e.g., those written directly in the interpreter.
-   fr:
+  fr:
     term: "environnement global"
     def: >
       L'[environnement](#environment) qui contient des définitions de premier niveau dans R, 
