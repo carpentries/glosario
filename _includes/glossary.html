@@ -27,11 +27,12 @@ Cross-references are displayed in __bold__ if that term is missing.
   <dt id="{{item.slug}}">{{item[language].term}}</dt>
   <dd>
     {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
+    {%- comment -%} Explicit cross-references {%- endcomment -%}
     {%- if item.ref -%}
     <br/>
     <em>
     &rarr;
-    {%- for other_key in item.ref -%}
+    {% for other_key in item.ref -%}
     {%- assign other = gloss | where: "slug", other_key | first -%}
     <a href="#{{other_key}}">
       {%- if other[language] -%}
@@ -43,17 +44,18 @@ Cross-references are displayed in __bold__ if that term is missing.
     {%- endfor -%}
     </em>
     {%- endif -%}
+    {%- comment -%} Translations {%- endcomment -%}
     {% assign others = '' | split: ',' %}
     {% for lang in site.languages %}
       {% if lang.key != language and item[lang.key] %}
         {% assign others = others | push: lang %}
       {% endif %}
     {% endfor %}
-    {%- if others -%}
+    {%- if others.size > 0 -%}
     <br/>
     <em>
-      &rarr;
-      {%- for lang in others -%}
+      &otimes;
+      {% for lang in others -%}
       <a href="../{{lang.key}}/#{{slug}}">{{lang.name}}</a>{%- unless forloop.last -%}, {% endunless -%}
       {%- endfor -%}
     </em>
