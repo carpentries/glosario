@@ -13,12 +13,23 @@ exclude:
 - "bin/*"
 - "vendor"
 languages:
+- key: af
+  name: Afrikaans
+  flag: south-africa
+  title: Woordelys
 - key: en
   name: English
   flag: united-kingdom
+  title: Glossary
 - key: es
   name: Español
   flag: spain
+  title: Glosario
 - key: fr
   name: Français
   flag: france
+  title: Glossaire
+- key: zu
+  name: IsiZulu
+  flag: south-africa
+  title: Uhlu Lwamagama
