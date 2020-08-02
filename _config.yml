@@ -15,24 +15,21 @@ exclude:
 languages:
 - key: af
   name: Afrikaans
-  flag: south-africa
   title: Woordelys
+  flag: south-africa
 - key: en
   name: English
   title: Glossary
   flag: united-kingdom
-  title: Glossary
 - key: es
   name: Español
   title: Glossaire
   flag: spain
-  title: Glosario
 - key: fr
   name: Français
   title: Glosario
   flag: france
-  title: Glossaire
 - key: zu
   name: IsiZulu
-  flag: south-africa
   title: Uhlu Lwamagama
+  flag: south-africa
