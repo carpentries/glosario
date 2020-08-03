@@ -712,7 +712,11 @@
   en:
     term: "Git"
     def: >
-      a version control tool to record and manage changes to a project.
+      A version control tool to record and manage changes to a project.
+  fr:
+    term: "Git"
+    def: >
+      Un outil de gestion des versions qui permet d'enregistrer et de piloter les modifications effectuées au niveau d'un projet.
 
 - slug: git_branch
   en:
@@ -720,6 +724,12 @@
     def: >
       A snapshot of a version of a Git repository. Multiple branches can capture
       multiple versions of the same repository.
+  fr:
+    term: "Git branch"
+    def: >
+      Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
+      plusieurs versions au niveau d'un même dépôt.
+  
   ref:
     - feature_branch
     - fork
@@ -731,6 +741,11 @@
     def: >
       Copies (and usually downloads) a Git [remote repository](#remote_repository)
       onto the local computer.
+  fr:
+    term: "Git clone"
+    def: >
+      Permet de copier (et générallement de télécharger) un [dépôt éloigné](#remote_repository) Git au niveau
+      de l'ordinateur local. 
 
 - slug: git_conflict
   en:
@@ -758,6 +773,11 @@
     def: >
       Downloads and synchronizes changes between a [remote repository](#remote_repository)
       and a local [repository](#repository).
+  fr:
+    term: "Git pull"
+    def: >
+      Télécharge et synchronise des modifications entre le [dépôt éloigné](#remote_repository) 
+      et le [dépôt](#repository) local.
 
 - slug: git_push
   en:
@@ -765,6 +785,11 @@
     def: >
       Uploads and synchronizes changes between a local [repository](#repository)
       and a [remote repository](#remote_repository).
+  fr:
+    term: "Git push"
+    def: >
+      Charge et synchronise des modifications entre le [dépôt](#repository) local et 
+      le [dépôt éloigné](#remote_repository).
 
 - slug: github
   en:
@@ -772,6 +797,11 @@
     def: >
       A cloud-based platform built around [Git](#git) that allows you to save versions
       of your project online and collaborate with other Git users.
+  fr:
+    term: "Github"
+    def: >
+      Une platefome dans le Cloud, construite autour de [Git](#git) qui permet de sauvegarder en ligne les versions
+      d'un projet et de collaborer avec d'autres utilisateurs Git.
 
 - slug: global_environment
   en:
