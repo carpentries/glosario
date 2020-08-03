@@ -5,6 +5,23 @@ body {
     font-size: 12pt;
 }
 
+.left {
+  float: left;
+  width: 15%;
+}
+
+.right {
+  float: left;
+  width: 85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 dt {
     font-weight: bold;
 }

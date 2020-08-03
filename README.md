@@ -174,3 +174,7 @@ A glossary entry is structured like this:
 
 -   **Why use Jekyll for the online version?**
     It's the default for GitHub Pages.
+
+## Credits
+
+-   Parrot logo by [restocktheshelves](https://www.deviantart.com/restocktheshelves).
