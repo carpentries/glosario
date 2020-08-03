@@ -654,7 +654,7 @@
   fr:
     term: "filtrer"
     def: >
-      Le fait de sélectionner un ensemble d'[observations](#record) (example, certaines lignes d'une table) en se 
+      Le fait de sélectionner un ensemble d'[observations](#record) (example, certaines lignes d'une table) en se
       basant sur leurs valeurs.
 
 - slug: fixture
@@ -705,7 +705,7 @@
   fr:
     term: "fonction générique"
     def: >
-      Une collection de fonctions ayant un objectif similaire, chacune opérant sur une classe 
+      Une collection de fonctions ayant un objectif similaire, chacune opérant sur une classe
       de données différente.
 
 - slug: git
@@ -812,7 +812,7 @@
   fr:
     term: "environnement global"
     def: >
-      L'[environnement](#environment) qui contient des définitions de premier niveau dans R, 
+      L'[environnement](#environment) qui contient des définitions de premier niveau dans R,
       example, celles écrites directement dans l'intérpreteur.
 
 - slug: global_installation
@@ -824,7 +824,7 @@
   fr:
     term: "installation globale"
     def: >
-      Le fait d'installer un package dans un emplacement où il peut être accessible par tous les utilisateurs ainsi que 
+      Le fait d'installer un package dans un emplacement où il peut être accessible par tous les utilisateurs ainsi que
       tous les projets.
   ref:
     - local_installation
@@ -843,7 +843,7 @@
   fr:
     term: "variable globale"
     def: >
-      Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour 
+      Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour
       toutes les fonctions.
   ref:
     - local_variable
