@@ -734,7 +734,6 @@
     def: >
       Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
       plusieurs versions au niveau d'un même dépôt.
-  
   ref:
     - feature_branch
     - fork
@@ -750,8 +749,8 @@
     term: "Git clone"
     def: >
       Permet de copier (et générallement de télécharger) un [dépôt éloigné](#remote_repository) Git au niveau
-      de l'ordinateur local. 
-
+      de l'ordinateur local.
+      
 - slug: git_conflict
   en:
     term: "Git conflict"
