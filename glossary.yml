@@ -197,7 +197,7 @@
   en:
     term: bit
     def: > 
-      A unit of information representing representing alternatives, yes/no, true/false. In computing a state of either 0 or 1. 
+      A unit of information representing representing alternatives, yes/no, [true](#true)/[false](#false). In computing a state of either 0 or 1. 
   ref:
     - binary
     - boolean
