@@ -122,7 +122,7 @@
     term: "argumento"
     def: >
       Un valor pasado a una función. Algunos autores usan el término como sinónimo de
-      [parámetro] (#parameter) y algunos no; Todo es muy confuso.
+      [parámetro](#parameter) y algunos no; Todo es muy confuso.
 
 - slug: ascii
   en:
