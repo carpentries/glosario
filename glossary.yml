@@ -592,7 +592,7 @@
   en:
     term: "falsy"
     def: >
-      A horrible neologism meaning "equivalent to false".
+      Evaluating to false in a Boolean context. 
   ref:
     - truthy
 
@@ -2086,10 +2086,10 @@
   en:
     term: "truthy"
     def: >
-      A truly Orwellian neologism meaning "not equivalent to false". Cf.
-      [falsy](#falsy), but only if you are able to set aside your respect for the
-      English language.
-
+      Evaluating to true in a Boolean context.
+  ref:
+    - falsy 
+    
 - slug: type_coercion
   en:
     term: "type coercion"
