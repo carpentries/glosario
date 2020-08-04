@@ -118,6 +118,11 @@
     def: >
       A value passed into a function. Some authors use the term as a synonym for
       [parameter](#parameter) and some do not; it's all very confusing.
+  es:
+    term: "argumento"
+    def: >
+      Un valor pasado a una función. Algunos autores usan el término como sinónimo de
+      [parámetro] (#parameter) y algunos no; Todo es muy confuso.
 
 - slug: ascii
   en:
