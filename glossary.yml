@@ -118,6 +118,11 @@
     def: >
       A value passed into a function. Some authors use the term as a synonym for
       [parameter](#parameter) and some do not; it's all very confusing.
+  es:
+    term: "argumento"
+    def: >
+      Un valor pasado a una función. Algunos autores usan el término como sinónimo de
+      [parámetro](#parameter) y algunos no; Todo es muy confuso.
 
 - slug: ascii
   en:
@@ -729,7 +734,6 @@
     def: >
       Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
       plusieurs versions au niveau d'un même dépôt.
-  
   ref:
     - feature_branch
     - fork
@@ -745,8 +749,8 @@
     term: "Git clone"
     def: >
       Permet de copier (et générallement de télécharger) un [dépôt éloigné](#remote_repository) Git au niveau
-      de l'ordinateur local. 
-
+      de l'ordinateur local.
+      
 - slug: git_conflict
   en:
     term: "Git conflict"
