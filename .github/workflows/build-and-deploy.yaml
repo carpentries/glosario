@@ -21,7 +21,7 @@ jobs:
       run: ls -alh _gh-site && ls -alh _gh-site/_data
 
     - name: Deploy
-      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && github.repository == 'carpentries/glosario' }}
       uses: maxheld83/ghpages@v0.3.0
       env:
         BUILD_DIR: _gh-site/
