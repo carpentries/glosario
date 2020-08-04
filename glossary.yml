@@ -2130,7 +2130,7 @@
   en: 
   term: "true" 
   def: >
-     The logical (Boolean) state opposite of "false". Used in logic and programming to represent binary state of something. 
+     The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in logic and programming to represent [binary](#binary) state of something. 
       Often fluidly represented as true/false, on/off, 1/0. 
   ref:
    - false
