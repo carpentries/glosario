@@ -189,6 +189,16 @@
     def: >
       FIXME
 
+- slug: boolean
+  en:
+    term: "Boolean"
+    def: > 
+       Relating to a variable or data type that can have either a value of true or a value of false. Named for George Boole, 
+       a mathemetician who lived in the 19th Century.
+    ref:
+       - truthy
+       - falsy
+     
 - slug: branch
   en:
     term: "branch"
@@ -595,6 +605,7 @@
       Evaluating to false in a Boolean context. 
   ref:
     - truthy
+    - boolean
 
 - slug: faq
   en:
@@ -2089,6 +2100,7 @@
       Evaluating to true in a Boolean context.
   ref:
     - falsy 
+    - boolean
     
 - slug: type_coercion
   en:
