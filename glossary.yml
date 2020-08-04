@@ -212,7 +212,7 @@
   en:
     term: "Boolean"
     def: > 
-       Relating to a variable or data type that can have either a logical value of true or a value of false. Named for George Boole, 
+       Relating to a variable or data type that can have either a logical value of [true](#true) or a value of [false](#false). Named for George Boole, 
        a mathemetician who lived in the 19th Century. Binary systems, like all computers are built on this foundation of systems of logical evaluations between
        states of true and false, 1 or 0. 
     ref:
