@@ -2200,8 +2200,6 @@
     term: "sistema de control de versión"
     def: >
       Un sistema para manejar los cambios hechos durante el desarollo de software.
-  ref:
-    - git
   fr:
     term: "système de gestion des versions"
     def: >
