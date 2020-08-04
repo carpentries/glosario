@@ -183,6 +183,25 @@
   ref:
     - tidyverse
 
+- slug: binary
+  en:
+    term: binary
+    def: > 
+      A system which can have one of two possible states. In computing often represented as being in the state 0 or 1.
+      Represented in Boolean logic as False (0) or True (1). Computers are built upon systems which store 0s and 1s as "bits"
+   ref:
+     - boolean
+     - bit
+
+- slug: bit
+  en:
+    term: bit
+    def: > 
+      A unit of information representing representing alternatives, yes/no, true/false. In computing a state of either 0 or 1. 
+  ref:
+    - binary
+    - boolean
+
 - slug: boilerplate
   en:
     term: "boilerplate"
@@ -193,11 +212,13 @@
   en:
     term: "Boolean"
     def: > 
-       Relating to a variable or data type that can have either a value of true or a value of false. Named for George Boole, 
-       a mathemetician who lived in the 19th Century.
+       Relating to a variable or data type that can have either a logical value of true or a value of false. Named for George Boole, 
+       a mathemetician who lived in the 19th Century. Binary systems, like all computers are built on this foundation of systems of logical evaluations between
+       states of true and false, 1 or 0. 
     ref:
        - truthy
        - falsy
+       - binary
      
 - slug: branch
   en:
@@ -598,11 +619,23 @@
     def: >
       FIXME
 
+- slug: "false"
+  en: 
+    term: "false"
+    def: > 
+       The logical (Boolean) state opposite of "true". Used in logic and programming to represent binary state of something. 
+       Often fluidly represented as true/false, on/off, 1/0. 
+    ref:
+     - boolean
+     - true
+     - truthy
+     - falsy 
+
 - slug: falsy
   en:
     term: "falsy"
     def: >
-      Evaluating to false in a Boolean context. 
+      Evaluating to a state of false in a Boolean context. 
   ref:
     - truthy
     - boolean
@@ -2092,6 +2125,19 @@
     term: "triage"
     def: >
       FIXME
+
+- slug: "true" 
+  en: 
+  term: "true" 
+  def: >
+     The logical (Boolean) state opposite of "false". Used in logic and programming to represent binary state of something. 
+      Often fluidly represented as true/false, on/off, 1/0. 
+  ref:
+   - false
+   - boolean
+   - truthy
+   - falsy
+
 
 - slug: truthy
   en:
