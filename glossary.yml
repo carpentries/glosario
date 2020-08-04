@@ -2143,7 +2143,7 @@
   en:
     term: "truthy"
     def: >
-      Evaluating to true in a Boolean context.
+      Evaluating to true in a [Boolean](#boolean) context.
   ref:
     - falsy 
     - boolean
