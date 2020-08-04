@@ -635,7 +635,7 @@
   en:
     term: "falsy"
     def: >
-      Evaluating to a state of false in a Boolean context. 
+      Evaluating to [false](#false) in a [Boolean](#boolean) context. 
   ref:
     - truthy
     - boolean
