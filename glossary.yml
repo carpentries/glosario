@@ -186,18 +186,18 @@
 - slug: binary
   en:
     term: binary
-    def: > 
+    def: >
       A system which can have one of two possible states. In computing often represented as being in the state 0 or 1.
       Represented in [Boolean](#boolean) logic as [False](#false) (0) or [True](#true) (1). Computers are built upon systems which store 0s and 1s as "[bits](#bit)"
-   ref:
-     - boolean
-     - bit
+    ref:
+      - boolean
+      - bit
 
 - slug: bit
   en:
     term: bit
-    def: > 
-      A unit of information representing representing alternatives, yes/no, [true](#true)/[false](#false). In computing a state of either 0 or 1. 
+    def: >
+      A unit of information representing representing alternatives, yes/no, [true](#true)/[false](#false). In computing a state of either 0 or 1.
   ref:
     - binary
     - boolean
@@ -211,15 +211,15 @@
 - slug: boolean
   en:
     term: "Boolean"
-    def: > 
-       Relating to a variable or data type that can have either a logical value of [true](#true) or a value of [false](#false). Named for George Boole, 
+    def: >
+       Relating to a variable or data type that can have either a logical value of [true](#true) or a value of [false](#false). Named for George Boole,
        a mathemetician who lived in the 19th Century. Binary systems, like all computers are built on this foundation of systems of logical evaluations between
-       states of true and false, 1 or 0. 
+       states of true and false, 1 or 0.
     ref:
-       - truthy
-       - falsy
-       - binary
-     
+      - truthy
+      - falsy
+      - binary
+
 - slug: branch
   en:
     term: "branch"
@@ -620,21 +620,21 @@
       FIXME
 
 - slug: "false"
-  en: 
+  en:
     term: "false"
-    def: > 
-       The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in logic and programming to represent [binary](#binary) state of something. 
+    def: >
+       The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in logic and programming to represent [binary](#binary) state of something.
     ref:
-     - boolean
-     - true
-     - truthy
-     - falsy 
+      - boolean
+      - true
+      - truthy
+      - falsy
 
 - slug: falsy
   en:
     term: "falsy"
     def: >
-      Evaluating to [false](#false) in a [Boolean](#boolean) context. 
+      Evaluating to [false](#false) in a [Boolean](#boolean) context.
   ref:
     - truthy
     - boolean
@@ -772,7 +772,7 @@
     def: >
       Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
       plusieurs versions au niveau d'un même dépôt.
-  
+
   ref:
     - feature_branch
     - fork
@@ -788,7 +788,7 @@
     term: "Git clone"
     def: >
       Permet de copier (et générallement de télécharger) un [dépôt éloigné](#remote_repository) Git au niveau
-      de l'ordinateur local. 
+      de l'ordinateur local.
 
 - slug: git_conflict
   en:
@@ -819,7 +819,7 @@
   fr:
     term: "Git pull"
     def: >
-      Télécharge et synchronise des modifications entre le [dépôt éloigné](#remote_repository) 
+      Télécharge et synchronise des modifications entre le [dépôt éloigné](#remote_repository)
       et le [dépôt](#repository) local.
 
 - slug: git_push
@@ -831,7 +831,7 @@
   fr:
     term: "Git push"
     def: >
-      Charge et synchronise des modifications entre le [dépôt](#repository) local et 
+      Charge et synchronise des modifications entre le [dépôt](#repository) local et
       le [dépôt éloigné](#remote_repository).
 
 - slug: github
@@ -2053,7 +2053,7 @@
     def: >
       Un remplazo moderno para los data frames de R que guarda datos tabulares en
       columnas y filas, definido y usado en el [tidyverse](#tidyverse).
-      
+
 - slug: ticket
   en:
     term: "ticket"
@@ -2125,16 +2125,16 @@
     def: >
       FIXME
 
-- slug: "true" 
-  en: 
-  term: "true" 
+- slug: "true"
+  en:
+  term: "true"
   def: >
-     The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in logic and programming to represent [binary](#binary) state of something. 
+     The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in logic and programming to represent [binary](#binary) state of something.
   ref:
-   - false
-   - boolean
-   - truthy
-   - falsy
+    - false
+    - boolean
+    - truthy
+    - falsy
 
 
 - slug: truthy
@@ -2143,9 +2143,9 @@
     def: >
       Evaluating to true in a [Boolean](#boolean) context.
   ref:
-    - falsy 
+    - falsy
     - boolean
-    
+
 - slug: type_coercion
   en:
     term: "type coercion"
@@ -2200,7 +2200,7 @@
   fr:
     term: "arguments d'une variable"
     def: >
-      La possibilité d'intégrer n'importe quel nombre d'arguments dans une fonction. R utilise `...` afin 
+      La possibilité d'intégrer n'importe quel nombre d'arguments dans une fonction. R utilise `...` afin
       de capturer les arguments "additionnels".
 
 - slug: variable_data
@@ -2218,8 +2218,8 @@
   fr:
     term: "variable (programme)"
     def: >
-       Un nom associé à des données au niveau d'un programme. La valeur d'une variable 
-       peut être modifiée après l'avoir définie. 
+       Un nom associé à des données au niveau d'un programme. La valeur d'une variable
+       peut être modifiée après l'avoir définie.
   ref:
     - constant
 
@@ -2252,12 +2252,10 @@
     term: "sistema de control de versión"
     def: >
       Un sistema para manejar los cambios hechos durante el desarollo de software.
-  ref:
-    - git
   fr:
     term: "système de gestion des versions"
     def: >
-       Un système qui permet de gérer les modifications effectuées sur un programme durant son développement.  
+       Un système qui permet de gérer les modifications effectuées sur un programme durant son développement.
   ref:
     - git
 
