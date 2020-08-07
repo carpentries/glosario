@@ -16,20 +16,34 @@ languages:
 - key: af
   name: Afrikaans
   title: Woordelys
-  flag: south-africa
+  blurb: >
+    In translation.
 - key: en
   name: English
   title: Glossary
   flag: united-kingdom
+  blurb: >
+    `glosario` is an open source glossary of terms used in data science that is
+    available online and also as a library in both
+    [R](https://github.com/carpentries/glosario-r/) and
+    [Python](https://github.com/carpentries/glosario-py/).  By adding glossary
+    keys to a lesson's metadata, authors can indicate what the lesson teaches,
+    what learners ought to know before they start, and where they can go to find
+    that knowledge.  Authors can also use the library's functions to insert
+    consistent hyperlinks for terms and definitions in their lessons in any of
+    several languages.
 - key: es
   name: Español
   title: Glosario
-  flag: spain
+  blurb: >
+    In translation.
 - key: fr
   name: Français
   title: Glossaire
-  flag: france
+  blurb: >
+    In translation.
 - key: zu
   name: IsiZulu
   title: Uhlu Lwamagama
-  flag: south-africa
+  blurb: >
+    In translation.
