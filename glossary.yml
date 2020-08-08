@@ -631,7 +631,7 @@
        The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in logic and programming to represent [binary](#binary) state of something.
     ref:
       - boolean
-      - true
+      - "true"
       - truthy
       - falsy
 
