@@ -190,7 +190,7 @@
 
 - slug: binary
   en:
-    term: binary
+    term: "binary"
     def: >
       A system which can have one of two possible states. In computing often represented as being in the state 0 or 1.
       Represented in [Boolean](#boolean) logic as [False](#false) (0) or [True](#true) (1). Computers are built upon systems which store 0s and 1s as "[bits](#bit)"
@@ -200,7 +200,7 @@
 
 - slug: bit
   en:
-    term: bit
+    term: "bit"
     def: >
       A unit of information representing representing alternatives, yes/no, [true](#true)/[false](#false). In computing a state of either 0 or 1.
   ref:
