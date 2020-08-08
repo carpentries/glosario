@@ -2135,7 +2135,7 @@
   def: >
      The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in logic and programming to represent [binary](#binary) state of something.
   ref:
-    - false
+    - "false"
     - boolean
     - truthy
     - falsy
