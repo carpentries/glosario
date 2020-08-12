@@ -1750,6 +1750,12 @@
       The practice of escribing and documenting research results in
       such a way that another researcher or person can re-run the
       analysis code on the exact data to obtain the same result.
+  pt:
+    term: "Pesquisa Reprodutível"
+    def: >
+      A prática de escrever e documentar resultados de pesquisa de forma
+      que outras pessoas pesquisadoras possam executar novamente o código
+      de análise com os mesmos dados para obter os mesmos resultados.
 
 - slug: root_directory
   en:
@@ -2116,6 +2122,10 @@
     def: >
       Una colección de paquetes de R para operar de maneras consistentes con datos
       tabulares.
+  pt:
+    term: "Tidyverse"
+    def: >
+      Uma coleção de pacotes de R para trabalhar de forma consistente com dados tabulares.
 
 - slug: timestamp
   en:
