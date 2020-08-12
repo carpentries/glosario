@@ -1,0 +1,9 @@
+---
+permalink: /
+title: Glosario
+---
+{% for lang in site.languages %}
+  {% assign link = lang.key | prepend: './' | append: '/' | relative_url %}
+  <h2><a href="{{link}}">{{lang.name}}</a></h2>
+  {{lang.blurb | markdownify}}
+{% endfor %}
