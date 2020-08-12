@@ -2125,7 +2125,8 @@
   pt:
     term: "Tidyverse"
     def: >
-      Uma coleção de pacotes de R para trabalhar de forma consistente com dados tabulares.
+      Uma coleção de pacotes de R para trabalhar de forma consistente com dados 
+      tabulares.
 
 - slug: timestamp
   en:
