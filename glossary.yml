@@ -194,9 +194,9 @@
     def: >
       A system which can have one of two possible states. In computing often represented as being in the state 0 or 1.
       Represented in [Boolean](#boolean) logic as [False](#false) (0) or [True](#true) (1). Computers are built upon systems which store 0s and 1s as "[bits](#bit)"
-    ref:
-      - boolean
-      - bit
+  ref:
+    - boolean
+    - bit
 
 - slug: bit
   en:
@@ -220,10 +220,10 @@
        Relating to a variable or data type that can have either a logical value of [true](#true) or a value of [false](#false). Named for George Boole,
        a mathemetician who lived in the 19th Century. Binary systems, like all computers are built on this foundation of systems of logical evaluations between
        states of true and false, 1 or 0.
-    ref:
-      - truthy
-      - falsy
-      - binary
+  ref:
+    - truthy
+    - falsy
+    - binary
 
 - slug: branch
   en:
@@ -629,11 +629,11 @@
     term: "false"
     def: >
        The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in logic and programming to represent [binary](#binary) state of something.
-    ref:
-      - boolean
-      - "true"
-      - truthy
-      - falsy
+  ref:
+    - boolean
+    - "true"
+    - truthy
+    - falsy
 
 - slug: falsy
   en:

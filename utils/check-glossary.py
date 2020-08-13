@@ -12,7 +12,7 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'en', 'es', 'fr'}
+ENTRY_LANGUAGE_KEYS = {'af', 'en', 'es', 'fr', 'pt', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
@@ -28,13 +28,27 @@ LINK_PAT = re.compile(r'\[.+?\]\(#(.+?)\)')
 def main():
     '''Main driver.'''
     with open(sys.argv[1], 'r') as reader:
+        config = yaml.load(reader, Loader=yaml.FullLoader)
+    with open(sys.argv[2], 'r') as reader:
         data = yaml.load(reader, Loader=yaml.FullLoader)
+
+    checkLanguages(config)
     for entry in data:
         checkEntry(entry)
     checkSlugs(data)
     checkDuplicates(data)
+
     forward = buildForward(data)
     backward = buildBackward(forward)
+
+
+def checkLanguages(config):
+    '''Compare configuration with this script's settings.'''
+    actual = set([c['key'] for c in config['languages']])
+    if actual - ENTRY_LANGUAGE_KEYS:
+        print(f'unexpected languages in configuration: {actual - ENTRY_LANGUAGE_KEYS}')
+    if ENTRY_LANGUAGE_KEYS - actual:
+        print(f'missing languages in configuration: {ENTRY_LANGUAGE_KEYS - actual}')
 
 
 def checkEntry(entry):
