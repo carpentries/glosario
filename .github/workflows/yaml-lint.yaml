@@ -26,4 +26,4 @@ jobs:
         yamllint -d "{extends: default, rules: {trailing-spaces: disable, line-length: disable}}" glossary.yml
     - name: Lint _config.yml with yamllint
       run: |
-        yamllint -d "{extends: default, rules: {trailing-spaces: disable, line-length: disable}}" _config.yml
+        yamllint -d "{extends: default, rules: {trailing-spaces: disable, line-length: disable, document-start: {present: false}}}" _config.yml
