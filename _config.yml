@@ -60,7 +60,15 @@ languages:
   name: Português
   title: Glossário
   blurb: >
-    In translation.
+    `glosario` é um glossário de código aberto (_open source_) de termos utilizados
+    em  ciência de dados (_data science_) que está disponível online, e também como 
+    um pacote de [R](https://github.com/carpentries/glosario-r/) e uma biblioteca
+    de [Python](https://github.com/carpentries/glosario-py/). Ao adicionar termos
+    do glossário nos metadados de uma lição, as pessoas autoras podem indicar o
+    conteúdo da lição, o que as pessoas alunas precisam saber antes de começar,
+    e onde podem procurar para encontrar estes conteúdos. As pessoas autoras também
+    podem utilizar as funções das bibliotecas para inserir _links_ consistentes 
+    para termos e definições em suas lições, em qualquer idioma disponível.
 - key: zu
   name: IsiZulu
   title: Uhlu Lwamagama
