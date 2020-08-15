@@ -34,7 +34,7 @@
     def: >
       Um caminho que leva ao mesmo local no sistema de arquivos
       independente do contexto em que é avaliado. Um caminho absoluto
-      pode ser comparado com a latitude e longitude em geografía.
+      pode ser comparado com a latitude e longitude em geografia.
   ref:
     - relative_path
 
