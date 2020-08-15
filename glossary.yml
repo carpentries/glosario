@@ -29,13 +29,13 @@
       Una ruta que dirige a la misma ubicación en el sistema de archivos
       independientemente del contexto donde sea evaluada. Una ruta absoluta es
       el equivalente a la latitud y longitud en geografía.
-   pt:
+  pt:
     term: "caminho absoluto"
     def: >
       Um caminho que leva ao mesmo local no sistema de arquivos
       independente do contexto em que é avaliado. Um caminho absoluto
       pode ser comparado com a latitude e longitude em geografía.
-  ref:
+    ref:
     - relative_path
 
 - slug: absolute_row_number
