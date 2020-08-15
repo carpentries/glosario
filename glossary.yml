@@ -29,6 +29,12 @@
       Una ruta que dirige a la misma ubicación en el sistema de archivos
       independientemente del contexto donde sea evaluada. Una ruta absoluta es
       el equivalente a la latitud y longitud en geografía.
+   pt:
+    term: "caminho absoluto"
+    def: >
+      Um caminho que leva ao mesmo local no sistema de arquivos
+      independente do contexto em que é avaliado. Um caminho absoluto
+      pode ser comparado com a latitude e longitude em geografía.
   ref:
     - relative_path
 
@@ -498,7 +504,12 @@
     def: >
       The folder or directory location that the program is operating in. Any action
       taken by the program occurs relative to this directory.
-
+  pt:
+    term: "diretório de trabalho"
+    def: >
+      O local, pasta ou diretório, em que o programa está operando. Qualquer ação do
+      programa acontece relativa a esse diretório.
+      
 - slug: data_frame
   en:
     term: "data frame"
@@ -1681,7 +1692,16 @@
       location, such as the [current working
       directory](#current_working_directory). A relative path is the
       equivalent of giving directions using terms like "straight" and
-      "left".  ref: - absolute_path
+      "left".
+    ref: - absolute_path
+  pt:
+    term: "caminho relativo"
+    def: >
+      Um caminho cujo destino é interpretado de maneira relativa a outro
+      local, como o [diretório de trabalho](#current_working_directory). Um caminho
+      relativo é o equivalente a indicar um destino com termos como "siga em frente" 
+      e "vire a esquerda".
+    ref: - absolute_path
 
 - slug: relative_row_number
   en:
