@@ -1693,7 +1693,6 @@
       directory](#current_working_directory). A relative path is the
       equivalent of giving directions using terms like "straight" and
       "left".
-    ref: - absolute_path
   pt:
     term: "caminho relativo"
     def: >
