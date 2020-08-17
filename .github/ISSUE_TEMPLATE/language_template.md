@@ -2,7 +2,7 @@
 name: Language Support Template
 about: Use this template for requesting language support.
 title: "[DATE]: [LANG NAME]"
-labels: bug
+labels: enhancement 
 ---
 
 This template is to request language support in the `glosario` repo and not in the R or Python packages. 
