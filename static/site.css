@@ -34,3 +34,9 @@ footer {
     text-align: center;
     border-top: 1px solid black;
 }
+
+.in-english {
+    font-weight: normal;
+    font-style: italic;
+    color: #666xx;
+}
