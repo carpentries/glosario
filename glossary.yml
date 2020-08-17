@@ -11,6 +11,8 @@
       FIXME
 
 - slug: absolute_path
+  ref:
+    - relative_path
   en:
     term: "absolute path"
     def: >
@@ -29,8 +31,6 @@
       Una ruta que dirige a la misma ubicación en el sistema de archivos
       independientemente del contexto donde sea evaluada. Una ruta absoluta es
       el equivalente a la latitud y longitud en geografía.
-  ref:
-    - relative_path
 
 - slug: absolute_row_number
   en:
@@ -177,6 +177,8 @@
       versions précédentes sans difficulté.
 
 - slug: base_r
+  ref:
+    - tidyverse
   en:
     term: "base R"
     def: >
@@ -185,27 +187,25 @@
       their version numbers follow R version numbering.
       Base packages are installed and loaded with R,
       while priority packages are installed with base R but must be loaded prior to use.
-  ref:
-    - tidyverse
 
 - slug: binary
+  ref:
+    - boolean
+    - bit
   en:
     term: "binary"
     def: >
       A system which can have one of two possible states. In computing often represented as being in the state 0 or 1.
       Represented in [Boolean](#boolean) logic as [False](#false) (0) or [True](#true) (1). Computers are built upon systems which store 0s and 1s as "[bits](#bit)"
-    ref:
-      - boolean
-      - bit
 
 - slug: bit
+  ref:
+    - binary
+    - boolean
   en:
     term: "bit"
     def: >
       A unit of information representing representing alternatives, yes/no, [true](#true)/[false](#false). In computing a state of either 0 or 1.
-  ref:
-    - binary
-    - boolean
 
 - slug: boilerplate
   en:
@@ -214,16 +214,16 @@
       FIXME
 
 - slug: boolean
+  ref:
+    - truthy
+    - falsy
+    - binary
   en:
     term: "Boolean"
     def: >
        Relating to a variable or data type that can have either a logical value of [true](#true) or a value of [false](#false). Named for George Boole,
        a mathemetician who lived in the 19th Century. Binary systems, like all computers are built on this foundation of systems of logical evaluations between
        states of true and false, 1 or 0.
-    ref:
-      - truthy
-      - falsy
-      - binary
 
 - slug: branch
   en:
@@ -291,14 +291,14 @@
       Some examples would be: `CalculateSum`, `findPattern`, `SearchFiles`, or `objectNumber`.
 
 - slug: catch_exception
+  ref:
+    - condition
+    - handle_condition
   en:
     term: "catch (an exception)"
     def: >
       To accept responsibility for handling an error or other unexpected event.  R
       prefers "handling a condition" to "catching an exception".
-  ref:
-    - condition
-    - handle_condition
 
 - slug: cc_license
   en:
@@ -405,12 +405,12 @@
       FIXME
 
 - slug: condition
+  ref:
+    - handle_condition
   en:
     term: "condition"
     def: >
       An error or other unexpected event that disrupts the normal flow of control.
-  ref:
-    - handle_condition
 
 - slug: conditional_expression
   en:
@@ -445,14 +445,14 @@
       FIXME
 
 - slug: copy_on_modify
+  ref:
+    - aliasing
   en:
     term: "copy-on-modify"
     def: >
       The practice of creating a new copy of aliased data whenever there is an
       attempt to modify it so that each reference will believe theirs is the only
       one.
-  ref:
-    - aliasing
 
 - slug: coverage
   en:
@@ -461,14 +461,14 @@
       FIXME
 
 - slug: cran
+  ref:
+    - base_r
+    - tidyverse
   en:
     term: "Comprehensive R Archive Network"
     acronym: "CRAN"
     def: >
       A public repository of R packages.
-  ref:
-    - base_r
-    - tidyverse
 
 - slug: css
   en:
@@ -500,13 +500,13 @@
       taken by the program occurs relative to this directory.
 
 - slug: data_frame
+  ref:
+    - tidy_data
   en:
     term: "data frame"
     def: >
       A two-dimensional data structure for storing tabular data in memory.
       Rows represent [records](#record) and columns represent [variables](variable_data).
-  ref:
-    - tidy_data
 
 - slug: data_package
   en:
@@ -554,13 +554,13 @@
       value with a fractional part and an exponent.
 
 - slug: double_square_brackets
+  ref:
+    - single_square_brackets
   en:
     term: "double square brackets"
     def: >
       An index enclosed in `[[...]]`, used to return a single value of the
       underlying type.
-  ref:
-    - single_square_brackets
 
 - slug: down_vote
   en:
@@ -625,24 +625,24 @@
       FIXME
 
 - slug: "false"
+  ref:
+    - boolean
+    - "true"
+    - truthy
+    - falsy
   en:
     term: "false"
     def: >
        The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in logic and programming to represent [binary](#binary) state of something.
-    ref:
-      - boolean
-      - "true"
-      - truthy
-      - falsy
 
 - slug: falsy
+  ref:
+    - truthy
+    - boolean
   en:
     term: "falsy"
     def: >
       Evaluating to [false](#false) in a [Boolean](#boolean) context.
-  ref:
-    - truthy
-    - boolean
 
 - slug: faq
   en:
@@ -652,14 +652,14 @@
       FIXME
 
 - slug: feature_branch
+  ref:
+    - master_branch
   en:
     term: "feature branch"
     def: >
       A branch within a Git repository containing commits dedicated to a specific feature,
       e.g., a bug fix or a new function.
       This branch can be merged into another branch.
-  ref:
-    - master_branch
 
 - slug: feature_request
   en:
@@ -712,14 +712,14 @@
       FIXME
 
 - slug: fork
+  ref:
+    - branch
   en:
     term: "fork"
     def: >
       A copy of one person's Git repository that lives in another person's GitHub
       account. Changes to the content of a fork can be submitted to the [upstream
       repository](#upstream_repository) via a [pull request](#pull_request).
-  ref:
-    - branch
 
 - slug: full_identifier_git
   en:
@@ -734,15 +734,15 @@
       An unambiguous name of the form `package::thing`.
 
 - slug: functional_programming
+  ref:
+    - higher_order_function
+    - object_oriented_programming
   en:
     term: "functional programming"
     def: >
       A style of programming in which data is transformed through successive
       application of functions, rather than by using control structures such as
       loops.
-  ref:
-    - higher_order_function
-    - object_oriented_programming
 
 - slug: generic_function
   en:
@@ -767,6 +767,10 @@
       Un outil de gestion des versions qui permet d'enregistrer et de piloter les modifications effectuées au niveau d'un projet.
 
 - slug: git_branch
+  ref:
+    - feature_branch
+    - fork
+    - master_branch
   en:
     term: "Git branch"
     def: >
@@ -777,10 +781,6 @@
     def: >
       Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
       plusieurs versions au niveau d'un même dépôt.
-  ref:
-    - feature_branch
-    - fork
-    - master_branch
 
 - slug: git_clone
   en:
@@ -863,6 +863,8 @@
       example, celles écrites directement dans l'intérpreteur.
 
 - slug: global_installation
+  ref:
+    - local_installation
   en:
     term: "global installation"
     def: >
@@ -873,10 +875,10 @@
     def: >
       Le fait d'installer un package dans un emplacement où il peut être accessible par tous les utilisateurs ainsi que
       tous les projets.
-  ref:
-    - local_installation
 
 - slug: global_variable
+  ref:
+    - local_variable
   en:
     term: "global variable"
     def: >
@@ -892,8 +894,6 @@
     def: >
       Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour
       toutes les fonctions.
-  ref:
-    - local_variable
 
 - slug: gpl
   en:
@@ -918,33 +918,33 @@
       FIXME
 
 - slug: handle_condition
+  ref:
+    - condition
+    - exception
   en:
     term: "handle (condition)"
     def: >
       To accept responsibility for handling an error or other
       unexpected event.  R prefers "handling a condition" to "catching an
       exception".
-  ref:
-    - condition
-    - exception
 
 - slug: header_row
+  ref:
+    - csv
   en:
     term: "header row"
     def: >
       If present, the first row of a CSV file that defines column names (but
       tragically, not their data types or units).
-  ref:
-    - csv
 
 - slug: heterogeneous
+  ref:
+    - homogeneous
   en:
     term: "heterogeneous"
     def: >
       Having mixed type. For example, an list can contain a mix of numbers,
       character strings, and values of other types.
-  ref:
-    - homogeneous
 
 - slug: higher_order_function
   en:
@@ -975,6 +975,8 @@
       values must all be numeric, logical, etc.
 
 - slug: ide
+  ref:
+    - repl
   en:
     term: "Integrated Development Environment"
     acronym: IDE
@@ -989,8 +991,6 @@
       Una aplicación que ayuda a programadores a desarrollar software. Los EDI usualmente
       tiene un editor incorporado, una consola que ejecuta el código inmediatamente y
       navegadores para explorar estructuras de datos en la memoria y archivos en el disco.
-  ref:
-    - repl
 
 - slug: impostor_syndrome
   en:
@@ -1114,23 +1114,26 @@
       FIXME
 
 - slug: literate_programming
+  ref:
+    - r_markdown
   en:
     term: "literate programming"
     def: >
       A programming paradigm that mixes prose and code.
-  ref:
-    - r_markdown
 
 - slug: local_installation
+  ref:
+    - global_installation
   en:
     term: "local installation"
     def: >
       Placing a package inside a particular project so that it is only accessible
       within that project.
-  ref:
-    - global_installation
 
 - slug: local_variable
+  ref:
+    - closure
+    - global_variable
   en:
     term: "local variable"
     def: >
@@ -1141,9 +1144,6 @@
     def: >
       Una variable definida dentro de una función, por lo que solo es visible
       dentro de ella.
-  ref:
-    - closure
-    - global_variable
 
 - slug: logging_framework
   en:
@@ -1197,14 +1197,14 @@
       FIXME
 
 - slug: master_branch
+  ref:
+    - feature_branch
   en:
     term: "master branch"
     def: >
       A dedicated, permanent, central branch which should contain a "ready product".
       As a new feature is developed on a separate branch to avoid breaking the main code,
       it can be merged into the master branch.
-  ref:
-    - feature_branch
 
 - slug: merge_git
   en:
@@ -1244,23 +1244,23 @@
       record to a database.
 
 - slug: na
+  ref:
+    - "null"
   en:
     term: "NA"
     def: >
       A special value used to represent data that is not available.
-  ref:
-    - "null"
 
 - slug: name_collision
+  ref:
+    - call_stack
+    - fully_qualified_name
+    - namespace
   en:
     term: "name collision"
     def: >
       The ambiguity that arises when two or more things in a program that have the
       same name are active at the same time.
-  ref:
-    - call_stack
-    - fully_qualified_name
-    - namespace
 
 - slug: namespace
   en:
@@ -1276,13 +1276,13 @@
       desired by negating their indices.
 
 - slug: nosql_database
+  ref:
+    - relational_database
   en:
     term: "NoSQL database"
     def: >
       Any database that doesn't use the relational model.  The awkward name comes
       from the fact that such databases don't use [SQL](#sql) as a query language.
-  ref:
-    - relational_database
 
 - slug: "null"
   en:
@@ -1435,13 +1435,13 @@
       FIXME
 
 - slug: prng
+  ref:
+    - seed
   en:
     term: "pseudo-random number generator"
     acronym: "PRNG"
     def: >
       A function that can generate [pseudo-random numbers](#pseudo_random_number).
-  ref:
-    - seed
 
 - slug: procedural_programming
   en:
@@ -1495,16 +1495,18 @@
       the universe well enough to fool merely mortal observers.
 
 - slug: pull_indexing
+  ref:
+    - push_indexing
   en:
     term: "pull indexing"
     def: >
       Vectorized indexing in which the value at location `i` in the index vector
       specifies which element of the source vector is being pulled into that
       location in the result vector, i.e., `result[i] = source[index[i]]`.
-  ref:
-    - push_indexing
 
 - slug: pull_request
+  ref:
+    - fork
   en:
     term: "pull request"
     def: >
@@ -1512,10 +1514,10 @@
       [Git](#git) repository into the [upstream repository](#upstream_repository). The
       developer will be notified of the change, review it, make or suggest
       changes, and potentially merge it.
-  ref:
-    - fork
 
 - slug: push_indexing
+  ref:
+    - pull_indexing
   en:
     term: "push indexing"
     def: >
@@ -1523,8 +1525,6 @@
       specifies an element of the result vector that gets the corresponding
       element of the source vector, i.e., `result[index[i]] = source[i]`.  Push
       indexing can easily produce gaps and collisions.
-  ref:
-    - pull_indexing
 
 - slug: quosure
   en:
@@ -1651,6 +1651,9 @@
       y son tan poderosas como crípticas.
 
 - slug: relational_database
+  ref:
+    - sql
+    - table
   en:
     term: "relational database"
     def: >
@@ -1663,9 +1666,6 @@
       Una base de datos que organiza la información en tablas, cada una de las cuales
       tiene un set fijo de campos con nombre (que se muestran como columnas) y un
       número variable de registros (que se muestran como filas).
-  ref:
-    - sql
-    - table
 
 - slug: relative_error
   en:
@@ -1674,6 +1674,8 @@
       FIXME
 
 - slug: relative_path
+  ref:
+    - absolute_path
   en:
     term: "relative path"
     def: >
@@ -1681,7 +1683,7 @@
       location, such as the [current working
       directory](#current_working_directory). A relative path is the
       equivalent of giving directions using terms like "straight" and
-      "left".  ref: - absolute_path
+      "left".
 
 - slug: relative_row_number
   en:
@@ -1703,6 +1705,8 @@
       FIXME
 
 - slug: repl
+  ref:
+    - ide
   en:
     term: "read-eval-print loop"
     acronym: "REPL"
@@ -1710,10 +1714,11 @@
       An interactive program that reads a command typed in by a user,
       executes it, prints the result, and then waits patiently for the next
       command. REPLs are often used to explore new ideas or for debugging.
-  ref:
-    - ide
 
 - slug: repository
+  ref:
+    - git
+    - github
   en:
     term: "repository"
     def: >
@@ -1724,9 +1729,6 @@
     def: >
       Lugar en el que un [sistema de control de versión](#version_control_system) guarda
       los archivos que conforman un proyecto y los metadatos que describen su historia.
-  ref:
-    - git
-    - github
 
 - slug: reprex
   en:
@@ -1912,13 +1914,13 @@
       "raising an exception".
 
 - slug: single_square_brackets
+  ref:
+    - double_square_brackets
   en:
     term: "single square brackets"
     def: >
       An index enclosed in `[...]`, used to select a structure from another
       structure.
-  ref:
-    - double_square_brackets
 
 - slug: singleton
   en:
@@ -2077,6 +2079,8 @@
       FIXME
 
 - slug: tidy_data
+  ref:
+    - table
   en:
     term: "tidy data"
     def: >
@@ -2093,8 +2097,6 @@
       su limpieza inicial y su posterior exploración y análisis: (1) cada variable
       conforma una columna, (2) cada observación conforma una fila y (3) cada tipo de
       unidad de observación conforma una tabla.
-  ref:
-    - table
 
 - slug: tidymodels
   en:
@@ -2141,25 +2143,25 @@
       FIXME
 
 - slug: "true"
-  en:
-    term: "true"
-    def: >
-       The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in logic and programming to represent [binary](#binary) state of something.
   ref:
     - "false"
     - boolean
     - truthy
     - falsy
-
+  en:
+    term: "true"
+    def: >
+      The logical ([Boolean](#boolean)) state opposite of "[false](#false)".
+      Used in logic and programming to represent [binary](#binary) state of something.
 
 - slug: truthy
+  ref:
+    - falsy
+    - boolean
   en:
     term: "truthy"
     def: >
       Evaluating to true in a [Boolean](#boolean) context.
-  ref:
-    - falsy
-    - boolean
 
 - slug: type_coercion
   en:
@@ -2225,6 +2227,8 @@
       FIXME
 
 - slug: variable_program
+  ref:
+    - constant
   en:
     term: "variable (program)"
     def: >
@@ -2235,8 +2239,6 @@
     def: >
        Un nom associé à des données au niveau d'un programme. La valeur d'une variable
        peut être modifiée après l'avoir définie.
-  ref:
-    - constant
 
 - slug: vector
   en:
@@ -2259,6 +2261,8 @@
       completos, más que elemento por elemento dentro de un bucle.
 
 - slug: version_control_system
+  ref:
+    - git
   en:
     term: "version control system"
     def: >
@@ -2271,8 +2275,6 @@
     term: "système de gestion des versions"
     def: >
        Un système qui permet de gérer les modifications effectuées sur un programme durant son développement.
-  ref:
-    - git
 
 - slug: vignette
   en:
