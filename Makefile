@@ -33,6 +33,10 @@ clean :
 check :
 	@python utils/check-glossary.py _config.yml glossary.yml
 
+## checkall : check glossary consistency including missing terms in all languages.
+checkall :
+	@python utils/check-glossary.py -A _config.yml glossary.yml
+
 # Create copy of glossary file for GitHub Pages site.
 _data/glossary.yml : ./glossary.yml
 	@mkdir -p _data
