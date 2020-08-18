@@ -765,6 +765,10 @@
     term: "Git"
     def: >
       Un outil de gestion des versions qui permet d'enregistrer et de piloter les modifications effectuées au niveau d'un projet.
+  pt:
+    term: "Git"
+    def: >
+      Uma ferramenta de controle de versão para registrar e gerenciar mudanças em um projeto.      
 
 - slug: git_branch
   ref:
@@ -1729,6 +1733,12 @@
     def: >
       Lugar en el que un [sistema de control de versión](#version_control_system) guarda
       los archivos que conforman un proyecto y los metadatos que describen su historia.
+  pt:
+    term: "repositório"
+    def: >
+      Um local onde um [sistema de controle de versão](#version_control_system)
+      armazena os arquivos que compõem um projeto e os metadados que descrevem
+      sua história.      
 
 - slug: reprex
   en:
@@ -2275,6 +2285,11 @@
     term: "système de gestion des versions"
     def: >
        Un système qui permet de gérer les modifications effectuées sur un programme durant son développement.
+  pt:
+    term: "sistema de controle de versão"
+    def: >
+      Um sistema para gerenciar as mudanças feitas em um software durante o
+      seu desenvolvimento.       
 
 - slug: vignette
   en:
