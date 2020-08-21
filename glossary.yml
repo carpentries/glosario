@@ -768,7 +768,7 @@
   pt:
     term: "Git"
     def: >
-      Uma ferramenta de controle de versão para registrar e gerenciar mudanças em um projeto.      
+      Uma ferramenta de controle de versão para registrar e gerenciar mudanças em um projeto.
 
 - slug: git_branch
   ref:
@@ -797,7 +797,7 @@
     def: >
       Permet de copier (et générallement de télécharger) un [dépôt éloigné](#remote_repository) Git au niveau
       de l'ordinateur local.
-      
+
 - slug: git_conflict
   en:
     term: "Git conflict"
@@ -1738,7 +1738,7 @@
     def: >
       Um local onde um [sistema de controle de versão](#version_control_system)
       armazena os arquivos que compõem um projeto e os metadados que descrevem
-      sua história.      
+      sua história.
 
 - slug: reprex
   en:
@@ -2137,7 +2137,7 @@
   pt:
     term: "Tidyverse"
     def: >
-      Uma coleção de pacotes de R para trabalhar de forma consistente com dados 
+      Uma coleção de pacotes de R para trabalhar de forma consistente com dados
       tabulares.
 
 - slug: timestamp
@@ -2289,7 +2289,7 @@
     term: "sistema de controle de versão"
     def: >
       Um sistema para gerenciar as mudanças feitas em um software durante o
-      seu desenvolvimento.       
+      seu desenvolvimento.
 
 - slug: vignette
   en:
