@@ -2333,7 +2333,7 @@
       but its complexity led many programmers to adopt [JSON](#json) instead.
   es:
     término: "XML"
-    def:>
+    def: >
       Un conjunto de reglas para definir etiquetas similares a HTML y usarlas para darle formato a documentos
       (normalmente datos). XML alcanzó popularidad a principios de la década de 2000,
       pero su complejidad llevó a muchos programadores a adoptar [JSON](#json) en su lugar.
