@@ -1357,6 +1357,7 @@
       different branches that are now being [merged](#git_merge).
 
 - slug: git_fork
+  ref:
     - git_clone
   en:
     term: "Git fork"
