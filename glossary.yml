@@ -104,7 +104,7 @@
     term: "agile development"
     def: >
       A software development methodology that emphasizes lots of small steps and
-      continuous feedback over up-front planning and long-term scheduling.
+      continuous feedback instead of up-front planning and long-term scheduling.
       [Exploratory programming](#exploratory_programming) is often agile.
 
 - slug: aliasing
