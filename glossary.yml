@@ -406,6 +406,7 @@
   ref:
     - build_rule
     - dependency
+    - makefile
   en:
     term: "build manager"
     def: >
