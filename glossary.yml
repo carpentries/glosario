@@ -785,6 +785,11 @@
     def: >
       Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent capturer
       plusieurs versions au niveau d'un même dépôt.
+  pt:
+    term: "Git branch"
+    def: >
+      Uma fotografia de uma versão de um repositório Git. Múltiplos branches
+      podem capturar múltiplas versões de um mesmo repositório.
 
 - slug: git_clone
   en:
@@ -853,6 +858,12 @@
     def: >
       Une platefome dans le Cloud, construite autour de [Git](#git) qui permet de sauvegarder en ligne les versions
       d'un projet et de collaborer avec d'autres utilisateurs Git.
+  pt:
+    term: "GitHub"
+    def: >
+      Uma plataforma baseada em nuvem construída em torno do [Git](#git) que
+      permite salvar versões do seu projeto online e colaborar com outras
+      pessoas usuárias do Git.
 
 - slug: global_environment
   en:
@@ -1763,7 +1774,7 @@
       such a way that another researcher or person can re-run the
       analysis code on the exact data to obtain the same result.
   pt:
-    term: "Pesquisa Reprodutível"
+    term: "pesquisa reprodutível"
     def: >
       A prática de escrever e documentar resultados de pesquisa de forma
       que outras pessoas pesquisadoras possam executar novamente o código
