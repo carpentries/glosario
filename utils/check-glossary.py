@@ -56,6 +56,7 @@ def main():
         checkEntry(entry)
     checkSlugs(gloss)
     checkDuplicates(gloss)
+    checkCrossRef(gloss)
 
     if checkLang == 'ALL':
         for lang in sorted(ENTRY_LANGUAGE_KEYS):
@@ -154,12 +155,26 @@ def checkDuplicates(gloss):
             print(f'duplicate definitions for {lang}: {dups}')
 
 
+def checkCrossRef(gloss):
+    '''Check that all explicit cross-references resolve.'''
+    known = {entry['slug'] for entry in gloss}
+    missing = {}
+    for entry in gloss:
+        if 'ref' in entry:
+            if not entry['ref']:
+                print(f'{entry["slug"]} has empty "ref" key')
+            else:
+                unknown = [slug for slug in entry['ref'] if slug not in known]
+                if unknown:
+                    print(f'{entry["slug"]} has unknown crossref(s) {", ".join(unknown)}')
+
+
 def checkMissingDefs(lang, gloss):
     '''Check for missing definitions in the given language.'''
     missing = []
     for entry in gloss:
         if lang not in entry:
-            print(f"{lang}: {entry['slug']}")
+            print(f'{lang}: {entry["slug"]}')
 
 
 def buildForward(gloss):
