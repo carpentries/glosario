@@ -425,6 +425,8 @@
       some files depend on others and what to do if those files are out of date.
 
 - slug: build_target
+  ref:
+    - makefile
   en:
     term: "build target"
     def: >
