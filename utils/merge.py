@@ -57,7 +57,7 @@ def readAndMerge(filenames):
             new = yaml.load(reader, Loader=yaml.FullLoader)
             for entry in new:
                 for key in entry:
-                    if 'def' in entry[key]:
+                    if (type(entry[key]) == dict) and ('def' in entry[key]):
                         entry[key]['def'] = entry[key]['def'].strip()
                 combined[entry['slug']] = entry
     return combined
