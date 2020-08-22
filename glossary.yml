@@ -3033,6 +3033,15 @@
       added to an existing version, and `patch` changes when small bugs are
       fixed.
 
+- slug: sense_vote
+  ref:
+    - marthas_rules
+  en:
+    term: "sense vote"
+    def: >
+      A preliminary vote used to determine whether further discussion is
+      needed in a meeting.
+
 - slug: shebang
   en:
     term: "shebang"
