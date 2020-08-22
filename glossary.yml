@@ -310,6 +310,16 @@
       (1). Computers are built upon systems which store 0s and 1s as
       [bits](#bit).
 
+- slug: binary_expression
+  ref:
+    - nullary_expression
+    - ternary_expression
+    - unary_expression
+  en:
+    term: "binary expression"
+    def: >
+      An expression with two arguments or parameters, such as `1 + 2`.
+
 - slug: binomial_distribution
   ref:
     - discrete_random_variable
@@ -417,6 +427,13 @@
       depend on result files, which in turn depend on raw data files or
       configuration files.
 
+- slug: build_recipe
+  en:
+    term: "build recipe"
+    def: >
+      The part of a [build rule](#build_rule) that describes how to update
+      something that has fallen out of date.
+
 - slug: build_rule
   en:
     term: "build rule"
@@ -437,7 +454,8 @@
   en:
     term: "byte code"
     def: >
-      FIXME
+      A set of instructions designed to be executed efficiently by an
+      [interpreter](#interpreter).
 
 - slug: call_stack
   en:
@@ -531,7 +549,8 @@
     term: "command-line interface"
     acronym: "CLI"
     def: >
-      FIXME
+      A user interface that relies solely on text for commands and output,
+      typically running in a [shell](#shell).
 
 - slug: closure
   en:
@@ -565,7 +584,7 @@
   en:
     term: "code review"
     def: >
-      FIXME
+      To check a program or a change to a program by inspecting its source code.
 
 - slug: coercion
   en:
@@ -577,13 +596,22 @@
   en:
     term: "cognitive load"
     def: >
-      FIXME
+      The amount of working memory needed to accomplish a set of simultaneous
+      tasks.
+
+- slug: command_history
+  en:
+    term: "command history"
+    def: >
+      An automatically-created list of previously-executed commands.  Most
+      [REPLs](#repl), including the [Unix shell](#shell), record history and
+      allow users to play back recent commands.
 
 - slug: command_line_argument
   en:
     term: "command-line argument"
     def: >
-      FIXME
+      A filename or control flag given to a command-line program when it is run.
 
 - slug: comment
   en:
@@ -603,13 +631,15 @@
   en:
     term: "commit"
     def: >
-      FIXME: define both noun and verb.
+      As a verb, the act of saving a set of changes to a database or version
+      control [repository](#repository). As a noun, the changes saved.
 
 - slug: commit_message
   en:
     term: "commit message"
     def: >
-      FIXME
+      A comment attached to a [commit](#commit) that explains what was done
+      and why.
 
 - slug: compile
   en:
@@ -621,13 +651,18 @@
   en:
     term: "compiled language"
     def: >
-      FIXME
+      Originally, a language such as C or Fortran that is translated into
+      machine instructions for execution. Languages such as Java are also
+      compiled before execution, but into [byte code](#byte_code) instead of
+      machine instructions, while languages like Python are compiled to
+      byte code on the fly.
 
 - slug: compiler
   en:
     term: "compiler"
     def: >
-      FIXME
+      An application that translates programs written in some languages into
+      machine instructions or [byte code](#byte_code).
 
 - slug: computational_linguistics
   ref:
@@ -643,7 +678,10 @@
   en:
     term: "computational notebook"
     def: >
-      FIXME
+      A combination of a document format that allows users to mix prose and code
+      in a single file, and an application that executes that code interactively
+      and in place. The Jupyter Notebook and R Markdown files are both examples
+      of computational notebooks.
 
 - slug: condition
   ref:
@@ -657,7 +695,10 @@
   en:
     term: "conditional expression"
     def: >
-      FIXME
+      A [ternary expression](#ternary_expression) that serves the role of an
+      if/else statement. For example, C and similar languages use the syntax
+      `test : ifTrue ? ifFalse` to mean "choose the value `ifTrue` if `test`
+      is true, or the value `ifFalse` if it is not".
 
 - slug: confidence_interval
   en:
@@ -1550,7 +1591,16 @@
   en:
     term: "interpreted language"
     def: >
-      FIXME
+      A high-level language that is not executed directly by the computer, but
+      instead is run by an [interpreter](#interpreter) that translates program
+      instructions into machine commands on the fly.
+
+- slug: interpreter
+  en:
+    term: "interpreter"
+    def: >
+      A program whose job it is to run programs written in a high-level
+      [interpreted language](#interpreted_language).
 
 - slug: invariant
   en:
@@ -2052,6 +2102,16 @@
       The claim that any patterns seen in data are entirely due to chance. Other
       claims (e.g., "X causes Y") must be much more likely than the null hypothesis
       in order to be substantiated.
+
+- slug: nullary_expression
+  ref:
+    - binary_expression
+    - ternary_expression
+    - unary_expression
+  en:
+    term: "nullary expression"
+    def: >
+      An "expression" with no arguments, such as the value 3.
 
 - slug: objective_function
   ref:
@@ -3087,10 +3147,15 @@
       FIXME
 
 - slug: ternary_expression
+    - binary_expression
+    - nullary_expression
+    - unary_expression
   en:
     term: "ternary expression"
     def: >
-      FIXME
+      An expression that has three parts.
+      [Conditional expressions](#conditional_expression) are the only ternary
+      expressions in most languages.
 
 - slug: test_data
   en:
@@ -3268,6 +3333,16 @@
     term: "type coercion"
     def: >
       FIXME
+
+- slug: unary_expression
+  ref:
+    - binary_expression
+    - nullary_expression
+    - ternary_expression
+  en:
+    term: "unary expression"
+    def: >
+      An expression with one argument, such as `log 5`.
 
 - slug: unicode
   en:
