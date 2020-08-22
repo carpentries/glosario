@@ -295,7 +295,7 @@
   en:
     term: "big data"
     def: >
-      Any data that until recently was too big for most people to work with.
+      Any data that until recently was too big for most people to work with on a single computer.
 
 - slug: binary
   ref:
