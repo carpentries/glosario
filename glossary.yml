@@ -3086,9 +3086,9 @@
     def: >
       FIXME
 
-- slug: ternary_operator
+- slug: ternary_expression
   en:
-    term: "ternary operator"
+    term: "ternary expression"
     def: >
       FIXME
 
