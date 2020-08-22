@@ -205,6 +205,8 @@
 - slug: automatic_variable
   en:
     term: "automatic variable"
+    ref: 
+      - makefile
     def: >
       A variable that is automatically given a value in a [build
       rule](#build_rule).  For example, Make automatically assigns the name of a
