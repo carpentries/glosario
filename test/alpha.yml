@@ -1,0 +1,27 @@
+- slug: A
+  en:
+    term: "word A"
+    def: >
+      definition A
+
+- slug: B
+  ref:
+    - A
+  en:
+    term: "word B"
+    def: >
+      definition B
+
+- slug: Q
+  en:
+    term: "word Q alpha"
+    def: >
+      definition Q alpha
+  fr:
+    term: "le mot Q alpha"
+    def: >
+      la définition Q alpha
+  es:
+    term: "la palabra Q alpha"
+    def: >
+      la definición Q alpha

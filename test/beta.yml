@@ -1,0 +1,23 @@
+- slug: Q
+  en:
+    term: "word Q beta"
+    def: >
+      definition Q beta
+  fr:
+    term: "le mot Q beta"
+    def: >
+      la définition Q beta
+
+- slug: Y
+  en:
+    term: "word Y"
+    def: >
+      definition Y
+
+- slug: Z
+  ref:
+    - Y
+  en:
+    term: "word Z"
+    def: >
+      definition Z
