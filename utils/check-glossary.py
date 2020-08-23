@@ -1,10 +1,28 @@
 #!/usr/bin/env python
 
 '''
-Check YAML file. Each _entry_ contains one or more _definitions_.
+Check glossary YAML file.
+
+Usage: check-glossary.py [-A] [-c LL] yaml-config-file glossary-file
+
+Flags:
+-   `-A`: report all missing definitions for all languages.
+-   `-c LL`: report missing definitions for language with code `LL` (e.g., 'fr').
+
+Checks always performed:
+-   Only languages listed in `_config.yml` appear in glossary.
+-   Entries have all required keys (`ENTRY_REQUIRED_KEYS`).
+-   Only known keys are present at the top level of each entry (`ENTRY_KEYS`).
+-   Entries are ordered by unique slugs.
+-   Every definition has the required keys (`DEFINITION_REQUIRED_KEYS`).
+-   Definitions only have allowed keys (`DEFINITION_KEYS`).
+-   No duplicate definitions.
+
+Checks performed 
 '''
 
 import sys
+import getopt
 import re
 import yaml
 from collections import Counter
@@ -12,7 +30,7 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'en', 'es', 'fr'}
+ENTRY_LANGUAGE_KEYS = {'af', 'en', 'es', 'fr', 'pt', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
@@ -27,14 +45,64 @@ LINK_PAT = re.compile(r'\[.+?\]\(#(.+?)\)')
 
 def main():
     '''Main driver.'''
-    with open(sys.argv[1], 'r') as reader:
-        data = yaml.load(reader, Loader=yaml.FullLoader)
-    for entry in data:
+    checkLang, configFile, glossaryFile = parseArgs()
+    with open(configFile, 'r') as reader:
+        config = yaml.load(reader, Loader=yaml.FullLoader)
+    with open(glossaryFile, 'r') as reader:
+        gloss = yaml.load(reader, Loader=yaml.FullLoader)
+
+    checkLanguages(config)
+    for entry in gloss:
         checkEntry(entry)
-    checkSlugs(data)
-    checkDuplicates(data)
-    forward = buildForward(data)
+    checkSlugs(gloss)
+    checkDuplicates(gloss)
+
+    if checkLang == 'ALL':
+        for lang in sorted(ENTRY_LANGUAGE_KEYS):
+            checkMissingDefs(lang, gloss)
+    elif checkLang:
+        checkMissingDefs(checkLang, gloss)
+
+    forward = buildForward(gloss)
     backward = buildBackward(forward)
+
+
+def parseArgs():
+    '''
+    Parse command-line arguments, returning language to check,
+    configuration file path, and glossary file path.  The language
+    to check may be 'ALL' (to check all), None (to check none), or
+    a known 2-letter language code.
+    '''
+    options, filenames = getopt.getopt(sys.argv[1:], 'Ac:')
+    if (len(filenames) != 2):
+        print(f'Usage: check [-A] [-c LL] configFile glossFile')
+        sys.exit(1)
+    configFile, glossFile = filenames
+
+    checkLang = None
+    for (opt, args) in options:
+        if opt == '-A':
+            checkLang = 'ALL'
+        elif opt == '-c':
+            checkLang = arg
+            if checkLang not in ENTRY_LANGUAGE_KEYS:
+                print(f'Unknown language {checkLang}', file=sys.stderr)
+                sys.exit(1)
+        else:
+            print(f'Unknown flag {opt}', file=sys.stderr)
+            sys.exit(1)
+
+    return checkLang, configFile, glossFile
+
+
+def checkLanguages(config):
+    '''Compare configuration with this script's settings.'''
+    actual = set([c['key'] for c in config['languages']])
+    if actual - ENTRY_LANGUAGE_KEYS:
+        print(f'unexpected languages in configuration: {actual - ENTRY_LANGUAGE_KEYS}')
+    if ENTRY_LANGUAGE_KEYS - actual:
+        print(f'missing languages in configuration: {ENTRY_LANGUAGE_KEYS - actual}')
 
 
 def checkEntry(entry):
@@ -63,9 +131,9 @@ def checkLanguage(slug, lang, definition):
         print(f'Unknown keys in {slug}/{lang}: {unknown_keys}')
 
 
-def checkSlugs(data):
+def checkSlugs(gloss):
     '''Check that entries have unique slugs and are ordered by slug.'''
-    slugs = [entry['slug'] for entry in data if 'slug' in entry]
+    slugs = [entry['slug'] for entry in gloss if 'slug' in entry]
     for (i, slug) in enumerate(slugs):
         if (i > 0) and (slug < slugs[i-1]):
             print(f'slug {slug} out of order')
@@ -75,10 +143,10 @@ def checkSlugs(data):
         print(f'duplicate keys: {dups}')
 
 
-def checkDuplicates(data):
+def checkDuplicates(gloss):
     '''Check for duplicate definitions in each language.'''
     for lang in ENTRY_LANGUAGE_KEYS:
-        terms = [entry[lang]['term'] for entry in data
+        terms = [entry[lang]['term'] for entry in gloss
                  if ((lang in entry) and 'term' in entry[lang])]
         counts = Counter(terms)
         dups = [s for s in counts.keys() if counts[s] > 1]
@@ -86,10 +154,18 @@ def checkDuplicates(data):
             print(f'duplicate definitions for {lang}: {dups}')
 
 
-def buildForward(data):
+def checkMissingDefs(lang, gloss):
+    '''Check for missing definitions in the given language.'''
+    missing = []
+    for entry in gloss:
+        if lang not in entry:
+            print(f"{lang}: {entry['slug']}")
+
+
+def buildForward(gloss):
     '''Build graph of forward references.'''
     result = {}
-    for entry in data:
+    for entry in gloss:
         record = set()
         if 'see' in entry:
             record.update(entry['see'])
