@@ -15,8 +15,6 @@
       Software that is no longer being maintained.
 
 - slug: absolute_error
-  ref:
-    - relative_error
   en:
     term: "absolute error"
     def: >
@@ -58,8 +56,6 @@
       qué secciones se estén mostrando.
 
 - slug: actual_result
-  ref:
-    - expected_result
   en:
     term: "actual result (of test)"
     def: >
@@ -222,8 +218,6 @@
       variables are frequently used when writing [pattern rules](#pattern_rule).
 
 - slug: backpropagation
-  ref:
-    - neural_network
   en:
     term: "backpropagation"
     def: >
@@ -306,9 +300,6 @@
       Any data that until recently was too big for most people to work with on a single computer.
 
 - slug: binary
-  ref:
-    - boolean
-    - bit
   en:
     term: "binary"
     def: >
@@ -1133,23 +1124,23 @@
   en:
     term: "fail (a test)"
     def: >
-      A test fails if the [actual result](#actual_result) does not match the [expected_result](#expected_result).
+      A test fails if the [actual result](#actual_result) does not match the
+      [expected_result](#expected_result).
 
 - slug: "false"
   ref:
-    - boolean
-    - "true"
     - truthy
     - falsy
   en:
     term: "false"
     def: >
-       The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in logic and programming to represent [binary](#binary) state of something.
+       The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used
+       in logic and programming to represent [binary](#binary) state of
+       something.
 
 - slug: falsy
   ref:
     - truthy
-    - boolean
   en:
     term: "falsy"
     def: >
@@ -1987,7 +1978,6 @@
 
 - slug: mean_squared_error
   ref:
-    - mean_absolute_error
     - root_mean_squared_error
   en:
     term: "mean squared error"
@@ -1999,7 +1989,6 @@
 
 - slug: median
   ref:
-    - mean
     - mode
   en:
     term: "median"
@@ -2096,15 +2085,12 @@
       A special value used to represent data that is not available.
 
 - slug: naive_bayes_classifier
-  ref:
-    - bayes_theorem
-    - classification
   en:
     term: "naive Bayes classifier"
     def: >
-      Any classification algorithm based on [Bayes' Theorem](#bayes_theorem)
-      that assumes every [feature](#feature_data) being classified is independent
-      of every other feature.
+      Any [classification](#classification) algorithm based on
+      [Bayes' Theorem](#bayes_theorem) that assumes every [feature](#feature_data)
+      being classified is independent of every other feature.
 
 - slug: name_collision
   ref:
@@ -2674,8 +2660,6 @@
       then tries to find a point in the program that will [catch](#catch_exception) it.
 
 - slug: random_forests
-  ref:
-    - decision_tree
   en:
     term: "random forests"
     def: >
@@ -2920,7 +2904,6 @@
 - slug: root_mean_squared_error
   ref:
     - mean_absolute_error
-    - mean_squared_error
   en:
     term: "root mean squared error"
     acronym: RMSE
@@ -3282,8 +3265,6 @@
       previously-classified values.
 
 - slug: svm
-  ref:
-    - supervised_learning
   en:
     term: "support vector machine"
     acronym: SVM
@@ -3506,8 +3487,6 @@
 
 - slug: "true"
   ref:
-    - "false"
-    - boolean
     - truthy
     - falsy
   en:
@@ -3519,7 +3498,6 @@
 - slug: truthy
   ref:
     - falsy
-    - boolean
   en:
     term: "truthy"
     def: >
