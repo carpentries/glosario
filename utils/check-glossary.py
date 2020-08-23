@@ -107,7 +107,10 @@ def checkLanguages(config):
 
 
 def checkEntry(entry):
-    '''Check structure of individual entries.'''
+    '''
+    Check structure of individual entries, returning a language-to-set
+    dictionary of terms references in the body.
+    '''
     keys = set(entry.keys())
     missing = [k for k in ENTRY_REQUIRED_KEYS if k not in keys]
     if missing:
@@ -116,20 +119,33 @@ def checkEntry(entry):
     unknown_keys = keys - ENTRY_KEYS
     if unknown_keys:
         print(f'Unknown keys in {slug}: {unknown_keys}')
+    result = {}
+    crossrefs = set(entry['ref']) if ('ref' in entry) else set()
     for lang in ENTRY_LANGUAGE_KEYS:
         if lang in entry:
-            checkLanguage(slug, lang, entry[lang])
+            label = f'{slug}/{lang}'
+            result[lang] = checkLanguageDef(label, crossrefs, entry[lang])
+    return result
 
 
-def checkLanguage(slug, lang, definition):
-    '''Check language-specific material in definition.'''
+def checkLanguageDef(label, crossrefs, definition):
+    '''
+    Check language-specific material in definition, returning slugs
+    of terms referenced in the body of the definition.
+    '''
     keys = set(definition.keys())
     missing = [k for k in DEFINITION_REQUIRED_KEYS if k not in keys]
     if missing:
-        print(f'Missing required keys for definition {slug}/{lang}: {missing}')
+        print(f'Missing required keys for definition {label}: {missing}')
     unknown_keys = keys - DEFINITION_KEYS
     if unknown_keys:
-        print(f'Unknown keys in {slug}/{lang}: {unknown_keys}')
+        print(f'Unknown keys in {label}: {unknown_keys}')
+    inBody = set(LINK_PAT.findall(definition['def']))
+    duplicate = crossrefs & inBody
+    if duplicate:
+        duplicate = ', '.join(sorted(duplicate))
+        print(f'Terms in both body and cross-references for {label}: {duplicate}')
+    return inBody
 
 
 def checkSlugs(gloss):
@@ -181,11 +197,7 @@ def buildForward(gloss):
     '''Build graph of forward references.'''
     result = {}
     for entry in gloss:
-        record = set()
-        if 'see' in entry:
-            record.update(entry['see'])
-        for link in LINK_PAT.findall(entry['en']['def']):
-            record.add(link)
+        record = set(LINK_PAT.findall(entry['en']['def']))
         result[entry['slug']] = record
     return result
 
