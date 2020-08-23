@@ -4,3 +4,6 @@ rules:
   document-start:
     present: false
   line-length: disable
+  empty-values:
+    forbid-in-block-mappings: true
+  trailing-spaces: disable
