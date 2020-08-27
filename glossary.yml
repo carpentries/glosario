@@ -3605,6 +3605,11 @@
     def: >
       A name in a program that has some data associated with it. A variable's value
       can be changed after definition.
+  es:
+    term: "variable (programa)"
+    def: >
+      Un nombre en un programa que tiene algunos datos asociados. El valor de una variable
+      se puede cambiar después de su definición.
   fr:
     term: "variable (programme)"
     def: >
@@ -3627,6 +3632,12 @@
       A sequence of values, usually of [homogeneous](#homogeneous) type.  Vectors are the
       fundamental data structure in R; a [scalar](#scalar) is just a vector with exactly
       one element.
+  es:
+    term: "vector"
+    def: >
+      Una secuencia de valores, normalmente de tipo [homogéneo](#homogéneo). Los vectores son la
+      estructura de datos fundamental en R; un [escalar](#escalar) es solo un vector con exactamente
+      un elemento.
 
 - slug: vectorize
   en:
@@ -3694,7 +3705,15 @@
       made inside the virtual machine are contained within that VM so
       we can install new packages or run a completely different
       operating system without affecting the underlying computer.
-
+  es:
+    term: "máquina virtual"
+    def: >
+      Un programa que pretende ser una computadora. Aunque puede parecer redundante, 
+      las máquinas virtuales (MV) se crean y se inician rápidamente, y los cambios
+      hechos dentro de la máquina virtual quedan contenidos dentro de esa VM, 
+      esto permite que podamos instalar nuevos paquetes o ejecutar un sistema 
+      operativo diferente sin afectar la computadora subyacente.
+      
 - slug: whitespace
   en:
     term: "whitespace"
@@ -3717,3 +3736,9 @@
       A set of rules for defining HTML-like tags and using them to format documents
       (typically data). XML achieved license plate popularity in the early 2000s,
       but its complexity led many programmers to adopt [JSON](#json) instead.
+  es:
+    término: "XML"
+    def: >
+      Un conjunto de reglas para definir etiquetas similares a HTML y usarlas para darle formato a documentos
+      (normalmente datos). XML alcanzó popularidad a principios de la década de 2000,
+      pero su complejidad llevó a muchos programadores a adoptar [JSON](#json) en su lugar.
