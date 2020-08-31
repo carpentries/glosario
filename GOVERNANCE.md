@@ -53,7 +53,7 @@ to date.
 ## Suffrage
 
 1.  The following people are currently voting members of this project:
-    -   [Ian Flores Siaca](https://audassimus.com/)
+    -   [Ian Flores Siaca](https://ianfs.dev/)
     -   [Zhian Kamvar](https://zkamvar.netlify.app/)
     -   [François Michonneau](https://francoismichonneau.net/)
     -   [Greg Wilson](http://third-bit.com/)
