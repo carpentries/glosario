@@ -42,13 +42,18 @@ to date.
 6.  If most of the group is uncomfortable with the proposal, it is postponed for
     further rework by the sponsor.
 
-7.  If any members are uncomfortable they can briefly state their objections.  A
-    timer is then set for a brief discussion moderated by the facilitator.
-    After 10 minutes or when no one has anything further to add (whichever comes
-    first), the facilitator calls for a yes-or-no vote on the question: "Should
-    we implement this decision over the stated objections?"  If a majority votes
-    "yes" the proposal is implemented.  Otherwise, the proposal is returned to
-    the sponsor for further work.
+7.  If any members are uncomfortable:
+    1.  They can briefly state their objections and tell the facilitator how
+        much time they reasonably require to make comments.
+    1.  The facilitator then sets a time limit for discussion at 10 minutes
+        plus whatever upward adjustment needed to meet any special needs
+        participants may have.
+    1.  After the allotted time or when no one has anything further to add
+        (whichever comes first), the facilitator calls for a yes-or-no vote on
+        the question: "Should we implement this decision over the stated
+        objections?"
+    1.  If a majority votes "yes" the proposal is implemented.  Otherwise, the
+        proposal is returned to the sponsor for further work.
 
 ## Suffrage
 
