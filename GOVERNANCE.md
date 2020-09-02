@@ -46,8 +46,8 @@ to date.
     1.  They can briefly state their objections and tell the facilitator how
         much time they reasonably require to make comments.
     1.  The facilitator then sets a time limit for discussion at 10 minutes
-        plus whatever upward adjustment needed to meet any special needs
-        participants may have.
+        plus whatever upward adjustment needed to account for any barriers to
+        participation people may have.
     1.  After the allotted time or when no one has anything further to add
         (whichever comes first), the facilitator calls for a yes-or-no vote on
         the question: "Should we implement this decision over the stated
