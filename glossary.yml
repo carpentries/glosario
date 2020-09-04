@@ -2262,7 +2262,7 @@
     term: "open license"
     def: >
       A license that permits general re-use, such as the [MIT License](#mit_license)
-      or [GPL](#gpl).
+      or [GPL](#gpl) for software and [CC-BY](#cc_by) or [CC-0](#cc_0) for data, prose, or other creative outputs.
 
 - slug: open_science
   en:
