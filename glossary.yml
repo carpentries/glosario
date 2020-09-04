@@ -1014,6 +1014,8 @@
       developer documentation.
 
 - slug: doi
+  ref:
+    - orcid
   en:
     term: "Digital Object Identifier"
     acronym: "DOI"
@@ -1720,6 +1722,8 @@
       [bug reports](#bug_report), or some other todo item.
 
 - slug: json
+  ref:
+    - yaml
   en:
     term: "JavaScript Object Notation"
     acronym: "JSON"
@@ -2284,6 +2288,14 @@
     term: "optional_parameter"
     def: >
       FIXME
+
+- slug: orcid
+  en:
+    term: "ORCID"
+    def: >
+      An Open Researcher and Contributor ID that uniquely and persistently
+      identifies an author of scholarly works. ORCIDs are for people what
+      [DOIs](#doi) are for documents.
 
 - slug: orthogonality
   en:
@@ -3802,3 +3814,12 @@
       Un conjunto de reglas para definir etiquetas similares a HTML y usarlas para darle formato a documentos
       (normalmente datos). XML alcanzó popularidad a principios de la década de 2000,
       pero su complejidad llevó a muchos programadores a adoptar [JSON](#json) en su lugar.
+
+- slug: yaml
+  en:
+    term: "YAML"
+    def: >
+      Short for "YAML Ain't Markup Language", a way to represent nested data
+      using indentation rather than the parentheses and commas of [JSON](#json).
+      YAML is often used in configuration files and to define parameters for
+      various flavors of [Markdown](#markdown) documents.
