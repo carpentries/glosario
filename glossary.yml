@@ -112,6 +112,15 @@
       To have two or more references to the same thing, such as a data structure
       in memory or a file on disk.
 
+- slug: anchor
+  en:
+    term: "anchor"
+    def: >
+      In a [regular expression](#regular_expression), a symbol that fixes a
+      position without matching characters. `^` matches the start of the line,
+      while `$` matches the end of the line and `\b` matches a break between
+      word and non-word characters.
+
 - slug: anonymous_function
   en:
     term: "anonymous function"
