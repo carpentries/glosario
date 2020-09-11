@@ -129,6 +129,13 @@
       usually quite short, and are usually defined where they are used, e.g., as
       callbacks.
 
+- slug: anti_join
+  en:
+    term: "anti-join"
+    def: >
+      A [join](#join) that keeps rows from table A whose keys do *not*
+      match keys in table B.
+
 - slug: api
   en:
     term: "Application Programming Interface"
@@ -817,6 +824,13 @@
     def: >
       A public repository of R packages.
 
+- slug: cross_join
+  en:
+    term: "cross join"
+    def: >
+      A [join](#join) that produces all possible combinations of rows
+      from two tables.
+
 - slug: cross_validation
   ref:
     - machine_learning
@@ -1235,7 +1249,8 @@
   en:
     term: "field"
     def: >
-      FIXME
+      A component of a [record](#record) containing a single value. Every record
+      in a [tibble](#tibble) or database [table](#table) has the same fields.
 
 - slug: filename_extension
   en:
@@ -1301,6 +1316,19 @@
       A unique 160-bit identifier for a [commit](#commit) in a Git
       [repository](#repository), usually written as a 20-character
       [hexadecimal](#hexadecimal) character string.
+
+- slug: full_join
+  ref:
+    - left_join
+    - right_join
+  en:
+    term: "full join"
+    def: >
+      A [join](#join) that returns all rows and all columns from
+      two tables A and B. Where the [keys](#key) of A and B match,
+      values are combined; where they do not, missing values from
+      either table are filled with [null](#null), [NA](#na), or
+      some other [missing value](#missing_value).
 
 - slug: fully_qualified_name
   en:
@@ -1672,6 +1700,13 @@
     def: >
       FIXME
 
+- slug: inner_join
+  en:
+    term: "inner join"
+    def: >
+      A [join](#join) that returns combinations of rows from two tables
+      A and B whose [keys](#key) match.
+
 - slug: instance
   en:
     term: "instance"
@@ -1741,9 +1776,24 @@
   en:
     term: "issue tracking system"
     def: >
-      Is similar to a [bug tracking system](#bug_tracker) in that it tracks "issues"
-      made to a [repository](#repository), usually in the form of [feature requests](#feature_request),
-      [bug reports](#bug_report), or some other todo item.
+      Is similar to a [bug tracking system](#bug_tracker) in that it tracks
+      "issues" made to a [repository](#repository), usually in the form of
+      [feature requests](#feature_request), [bug reports](#bug_report), or some
+      other todo item.
+
+- slug: join
+  ref:
+    - anti_join
+    - cross_join
+    - full_join
+    - inner_join
+    - left_join
+    - right_join
+    - self_join
+  en:
+    term: "join"
+    def: >
+      One of several operations that combine values from two [tables](#table).
 
 - slug: json
   ref:
@@ -1785,6 +1835,14 @@
       A naming convention in which the parts of a name are separated with
       dashes, as in `first-second-third`.
 
+- slug: key
+  en:
+    term: "key"
+    def: >
+      A [field](#field) or combination of fields whose value(s) uniquely
+      identify a [record](#record) within a [table](#table) or dataset.
+      Keys are often used to select specific record and in [joins](#join).
+
 - slug: keyword_arguments
   ref:
     - named_argument
@@ -1813,6 +1871,19 @@
     def: >
       Delaying evaluation of an expression until the value is actually needed (or at
       least until after the point where it is first encountered).
+
+- slug: left_join
+  ref:
+    - full_join
+    - right_join
+  en:
+    term: "left join"
+    def: >
+      A [join](#join) that combines data from two tables A and B.  Where keys in
+      table A match keys in table B, [fields](#field) are concatenated.  Where
+      a key in table A does *not* match a key in table B, columns from table B
+      are filled with [null](#null), [NA](#na), or some other
+      [missing value](#missing_value).
 
 - slug: library
   en:
@@ -2072,7 +2143,8 @@
   en:
     term: "method"
     def: >
-      An implementation of a [generic function](#generic_function) that handles objects of a specific class.
+      An implementation of a [generic function](#generic_function) that handles
+      objects of a specific class.
 
 - slug: milestone
   en:
@@ -2080,6 +2152,15 @@
     def: >
       A target that a project is trying to meet, often represented as a set of
       [issues](#issue) that all have to be resolved by a certain time.
+
+- slug: missing_value
+  en:
+    term: "missing value"
+    def: >
+      A special value such as [null](#null) or [NA](#na) used to indicate the
+      absence of data. Missing values can signal that data was not collected or
+      that the data didn't exist in the first place (e.g., the middle name of
+      someone who doesn't have one).
 
 - slug: mit_license
   en:
@@ -2270,7 +2351,7 @@
       A function of one or more variables used to measure or compare the
       goodness of different solutions in an optimization problem.
 
-- slug: "observation"
+- slug: observation
   en:
     term: "observation"
     def: >
@@ -2692,7 +2773,7 @@
       A function that is passed expressions rather than the values of those
       expressions.
 
-- slug: "r_consortium"
+- slug: r_consortium
   en:
     term: "R Consortium"
     def: >
@@ -2730,9 +2811,10 @@
   en:
     term: "raise (an exception)"
     def: >
-      To signal that something unexpected or unusual has happened in a program by
-      creating an [exception](#exception) and handing it to the error-handling system, which
-      then tries to find a point in the program that will [catch](#catch_exception) it.
+      To signal that something unexpected or unusual has happened in a program
+      by creating an [exception](#exception) and handing it to the
+      error-handling system, which then tries to find a point in the program
+      that will [catch](#catch_exception) it.
 
 - slug: random_forests
   en:
@@ -2762,13 +2844,15 @@
       A variable whose value is automatically updated when some other value or
       values change.  Reactive variables are used extensively in [Shiny](#shiny).
 
-- slug: "record"
+- slug: record
   en:
     term: "record"
     def: >
-      FIXME
+      A group of related values that are stored together. A record may be
+      represented as a [tuple](#tuple) or as a row in a [table](#table); in the
+      latter case, every record in the table has the same [fields](#field).
 
-- slug: "recursion"
+- slug: recursion
   en:
     term: "recursion"
     def: >
@@ -2969,6 +3053,19 @@
     def: >
       See [commit](#commit).
 
+- slug: right_join
+  ref:
+    - full_join
+    - left_join
+  en:
+    term: "right join"
+    def: >
+      A [join](#join) that combines data from two tables A and B.  Where keys in
+      table A match keys in table B, [fields](#field) are concatenated.  Where
+      a key in table A does *not* match a key in table B, columns from table A
+      are filled with [null](#null), [NA](#na), or some other
+      [missing value](#missing_value).
+
 - slug: root_directory
   en:
     term: "root directory"
@@ -3081,6 +3178,12 @@
     term: "select"
     def: >
       To choose entire columns from a table by name or location.
+
+- slug: self_join
+  en:
+    term: "self join"
+    def: >
+      A [join](#join) that combines a table with itself.
 
 - slug: semantic_versioning
   en:
