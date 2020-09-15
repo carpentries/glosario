@@ -78,7 +78,7 @@ guidance in mind:
   keep each separate new term or definition in a distinct branch (see below) and Pull Request.
   This makes it much easier for the Glosario maintainers/editors to review your contributions.
   When you open the Pull Request you can refer to the Issue you opened before (see step 2), 
-  e.g. if your Issue was number 49 you would should write "Closes \#49."
+  e.g. if your Issue was number 49 you should write "Closes \#49."
   GitHub will then automatically close the Issue if and when your Pull Request is merged.
 4. When making multiple contributions, please **[create a new branch][github-branches] for each term/definition.**
   Add the new term/definition on a separate branch,
