@@ -60,7 +60,28 @@ Once your term and definition(s) are complete, [make a Pull Request][pr-guide] b
 
 To add a new definition to an existing term in the glossary, please fork [the main Glosario repository][repo] and, on a new branch, find the term in [`glossary.yml`][glossary] and add the two-letter ISO 639 language code such as `en` or `fr` as a new top-level key. (Refer to [the "639-1" column of this table][iso639-table-en].)
 
-You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that term in your chosen language. See the section above for a full description of the required format for a language term.
+You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that term in your chosen language. The example below shows a term entry with definitions in English (`en`), Spanish (`es`), and French (`fr`):
+
+```
+- slug: global_variable
+  ref:
+    - local_variable
+  en:
+    term: "global variable"
+    def: >
+      A variable defined outside any particular function, which is therefore visible
+      to all functions.
+  es:
+    term: "variable global"
+    def: >
+      Una variable definida fuera de alguna función en particular, por lo que es visible
+      para todas las funciones.
+  fr:
+    term: "variable globale"
+    def: >
+      Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour
+      toutes les fonctions.
+```
 
 [forking-guide]: https://guides.github.com/activities/forking/
 [github-branches]: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches
