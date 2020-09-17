@@ -131,7 +131,7 @@
 
 - slug: anti_join
   en:
-    term: "anti-join"
+    term: "anti join"
     def: >
       A [join](#join) that keeps rows from table A whose keys do *not*
       match keys in table B.
