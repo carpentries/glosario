@@ -471,8 +471,7 @@
     term: "call stack"
     def: >
       A data structure that stores information about the active subroutines
-      executed. `cst()` is a useful function provided in the `lobstr` package to
-      visualize a call stack.
+      executed.
 
 - slug: camel_case
   ref:
@@ -3250,6 +3249,13 @@
       for [SSH](#ssh). Each SSH key has separate public and private parts; the
       public part can safely be shared, but if the private part becomes known,
       the key is compromised.
+
+- slug: stack_frame
+  en:
+    term: "stack frame"
+    def: >
+      A section of the [call stack](#call_stack) that records details of a
+      single call to a specific function.
 
 - slug: standard_deviation
   ref:
