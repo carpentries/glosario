@@ -57,7 +57,7 @@ and, on a new branch,
 find the term in [`glossary.yml`][glossary] and
 add the two-letter ISO 639 language code such as `en` or `fr`
 as a new top-level key.
-(Refer to the "639-1" column of [this table][iso639-table-en].)
+(Refer to [the "639-1" column of this table][iso639-table-en].)
 You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that term in your chosen language.
 See the section above for a full description of the required format for a language term.
 
