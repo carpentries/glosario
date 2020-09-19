@@ -12,10 +12,11 @@ USAGE = 'merge [-h] [-w wordlist | -] glossary [glossary...]'
 
 def main():
     '''Main driver.'''
-    wordList, glossaryFiles = parseArgs()
-    glossary = readAndMerge(glossaryFiles)
+    wordList, filenames = parseArgs()
+    glossary = readAndMerge(filenames)
     if wordList:
-        glossary = keepOnly(glossary, wordList)
+        keep = readWordList(wordList)
+        glossary = keepOnly(glossary, keep)
     glossary = listSort(glossary)
     yaml.dump(glossary, sys.stdout, encoding='utf-8')
 
@@ -39,13 +40,15 @@ def parseArgs():
         print(USAGE, sys.stderr)
         sys.exit(1)
 
-    if wordList == '-':
-        wordList = [x.strip() for x in sys.stdin]
-    elif wordList is not None:
-        with open(wordList, 'r') as reader:
-            wordList = [x.strip() for x in reader]
-
     return wordList, filenames
+
+
+def readWordList(filename):
+    '''Read a list of slugs defining terms to keep.'''
+    if wordList == '-':
+        return [x.strip() for x in sys.stdin]
+    with open(wordList, 'r') as reader:
+        return [x.strip() for x in reader]
 
 
 def readAndMerge(filenames):
