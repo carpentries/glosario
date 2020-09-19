@@ -112,6 +112,15 @@
       To have two or more references to the same thing, such as a data structure
       in memory or a file on disk.
 
+- slug: anchor
+  en:
+    term: "anchor"
+    def: >
+      In a [regular expression](#regular_expression), a symbol that fixes a
+      position without matching characters. `^` matches the start of the line,
+      while `$` matches the end of the line and `\b` matches a break between
+      word and non-word characters.
+
 - slug: anonymous_function
   en:
     term: "anonymous function"
@@ -119,6 +128,13 @@
       A function that has not been assigned a name.  Anonymous functions are
       usually quite short, and are usually defined where they are used, e.g., as
       callbacks.
+
+- slug: anti_join
+  en:
+    term: "anti join"
+    def: >
+      A [join](#join) that keeps rows from table A whose keys do *not*
+      match keys in table B.
 
 - slug: api
   en:
@@ -462,8 +478,7 @@
     term: "call stack"
     def: >
       A data structure that stores information about the active subroutines
-      executed. `cst()` is a useful function provided in the `lobstr` package to
-      visualize a call stack.
+      executed.
 
 - slug: camel_case
   ref:
@@ -491,6 +506,21 @@
     term: "causation"
     def: >
       FIXME
+
+- slug: cc_0
+  en:
+    term: "CC-0"
+    def: >
+      A [Creative Commons license](#cc_license) that imposes no restrictions
+      whatsover, thereby putting a work in the public domain.
+
+- slug: cc_by
+  en:
+    term: "CC-BY"
+    def: >
+      The [Creative Commons](#cc_license) - Attribution license that requires
+      people to give credit to the author of a work but imposes no other
+      restrictions.
 
 - slug: cc_license
   en:
@@ -793,6 +823,13 @@
     def: >
       A public repository of R packages.
 
+- slug: cross_join
+  en:
+    term: "cross join"
+    def: >
+      A [join](#join) that produces all possible combinations of rows
+      from two tables.
+
 - slug: cross_validation
   ref:
     - machine_learning
@@ -918,6 +955,13 @@
       The [build target](#build_target) that is used when none is specified
       explicitly.
 
+- slug: default_value
+  en:
+    term: "default value"
+    def: >
+      A value assigned to a function parameter when the caller does not specify a value.
+      Default values are specified as part of the function's definition.
+
 - slug: defensive_programming
   en:
     term: "defensive programming"
@@ -984,6 +1028,12 @@
       A variable whose value can take on only one of a fixed set of values,
       such as true or false.
 
+- slug: distro
+  en:
+    term: "distro"
+    def: >
+      See [software distribution](#software_distribution).
+
 - slug: docstring
   en:
     term: "docstring"
@@ -1001,6 +1051,8 @@
       developer documentation.
 
 - slug: doi
+  ref:
+    - orcid
   en:
     term: "Digital Object Identifier"
     acronym: "DOI"
@@ -1196,7 +1248,8 @@
   en:
     term: "field"
     def: >
-      FIXME
+      A component of a [record](#record) containing a single value. Every record
+      in a [tibble](#tibble) or database [table](#table) has the same fields.
 
 - slug: filename_extension
   en:
@@ -1262,6 +1315,19 @@
       A unique 160-bit identifier for a [commit](#commit) in a Git
       [repository](#repository), usually written as a 20-character
       [hexadecimal](#hexadecimal) character string.
+
+- slug: full_join
+  ref:
+    - left_join
+    - right_join
+  en:
+    term: "full join"
+    def: >
+      A [join](#join) that returns all rows and all columns from
+      two tables A and B. Where the [keys](#key) of A and B match,
+      values are combined; where they do not, missing values from
+      either table are filled with [null](#null), [NA](#na), or
+      some other [missing value](#missing_value).
 
 - slug: fully_qualified_name
   en:
@@ -1387,6 +1453,12 @@
     def: >
       Charge et synchronise des modifications entre le [dépôt](#repository) local et
       le [dépôt éloigné](#remote_repository).
+
+- slug: git_remote
+  en:
+    term: "Git remote"
+    def: >
+      A short name for a [remote repository](#remote_repository) (like a bookmark).
 
 - slug: github
   en:
@@ -1627,6 +1699,13 @@
     def: >
       FIXME
 
+- slug: inner_join
+  en:
+    term: "inner join"
+    def: >
+      A [join](#join) that returns combinations of rows from two tables
+      A and B whose [keys](#key) match.
+
 - slug: instance
   en:
     term: "instance"
@@ -1696,11 +1775,28 @@
   en:
     term: "issue tracking system"
     def: >
-      Is similar to a [bug tracking system](#bug_tracker) in that it tracks "issues"
-      made to a [repository](#repository), usually in the form of [feature requests](#feature_request),
-      [bug reports](#bug_report), or some other todo item.
+      Is similar to a [bug tracking system](#bug_tracker) in that it tracks
+      "issues" made to a [repository](#repository), usually in the form of
+      [feature requests](#feature_request), [bug reports](#bug_report), or some
+      other todo item.
+
+- slug: join
+  ref:
+    - anti_join
+    - cross_join
+    - full_join
+    - inner_join
+    - left_join
+    - right_join
+    - self_join
+  en:
+    term: "join"
+    def: >
+      One of several operations that combine values from two [tables](#table).
 
 - slug: json
+  ref:
+    - yaml
   en:
     term: "JavaScript Object Notation"
     acronym: "JSON"
@@ -1738,6 +1834,23 @@
       A naming convention in which the parts of a name are separated with
       dashes, as in `first-second-third`.
 
+- slug: key
+  en:
+    term: "key"
+    def: >
+      A [field](#field) or combination of fields whose value(s) uniquely
+      identify a [record](#record) within a [table](#table) or dataset.
+      Keys are often used to select specific record and in [joins](#join).
+
+- slug: keyword_arguments
+  ref:
+    - named_argument
+    - variable_arguments
+  en:
+    term: "keyword arguments"
+    def: >
+      Extra arguments given to a function as key-value pairs.
+
 - slug: latent_variable
   en:
     term: "latent variable"
@@ -1757,6 +1870,19 @@
     def: >
       Delaying evaluation of an expression until the value is actually needed (or at
       least until after the point where it is first encountered).
+
+- slug: left_join
+  ref:
+    - full_join
+    - right_join
+  en:
+    term: "left join"
+    def: >
+      A [join](#join) that combines data from two tables A and B.  Where keys in
+      table A match keys in table B, [fields](#field) are concatenated.  Where
+      a key in table A does *not* match a key in table B, columns from table B
+      are filled with [null](#null), [NA](#na), or some other
+      [missing value](#missing_value).
 
 - slug: library
   en:
@@ -1842,6 +1968,13 @@
     term: "logging framework"
     def: >
       A software library that managing internal reporting for programs.
+
+- slug: logging_level
+  en:
+    term: "logging level"
+    def: >
+      A setting that controls how much information is generated by a [logging framework](#logging_framework).
+      Typical logging levels include `DEBUG`, `WARNING`, and `ERROR`.
 
 - slug: logical_indexing
   en:
@@ -1954,7 +2087,8 @@
   en:
     term: "maximum likelihood estimation"
     def: >
-      FIXME
+      To choose the parameters for a [probability distribution](#probability_distribution)
+      in order to maximize the likelihood of obtaining observed data.
 
 - slug: mean
   ref:
@@ -2008,7 +2142,8 @@
   en:
     term: "method"
     def: >
-      An implementation of a [generic function](#generic_function) that handles objects of a specific class.
+      An implementation of a [generic function](#generic_function) that handles
+      objects of a specific class.
 
 - slug: milestone
   en:
@@ -2016,6 +2151,15 @@
     def: >
       A target that a project is trying to meet, often represented as a set of
       [issues](#issue) that all have to be resolved by a certain time.
+
+- slug: missing_value
+  en:
+    term: "missing value"
+    def: >
+      A special value such as [null](#null) or [NA](#na) used to indicate the
+      absence of data. Missing values can signal that data was not collected or
+      that the data didn't exist in the first place (e.g., the middle name of
+      someone who doesn't have one).
 
 - slug: mit_license
   en:
@@ -2104,6 +2248,9 @@
       same name are active at the same time.
 
 - slug: named_argument
+  ref:
+    - keyword_arguments
+    - variable_arguments
   en:
     term: "named argument"
     def: >
@@ -2203,7 +2350,7 @@
       A function of one or more variables used to measure or compare the
       goodness of different solutions in an optimization problem.
 
-- slug: "observation"
+- slug: observation
   en:
     term: "observation"
     def: >
@@ -2222,8 +2369,8 @@
   en:
     term: "open license"
     def: >
-      A license that permits general re-use, such as the [MIT
-      License][mit_license] or [GPL][gpl].
+      A license that permits general re-use, such as the [MIT License](#mit_license)
+      or [GPL](#gpl) for software and [CC-BY](#cc_by) or [CC-0](#cc_0) for data, prose, or other creative outputs.
 
 - slug: open_science
   en:
@@ -2245,6 +2392,14 @@
     term: "optional_parameter"
     def: >
       FIXME
+
+- slug: orcid
+  en:
+    term: "ORCID"
+    def: >
+      An Open Researcher and Contributor ID that uniquely and persistently
+      identifies an author of scholarly works. ORCIDs are for people what
+      [DOIs](#doi) are for documents.
 
 - slug: orthogonality
   en:
@@ -2617,7 +2772,7 @@
       A function that is passed expressions rather than the values of those
       expressions.
 
-- slug: "r_consortium"
+- slug: r_consortium
   en:
     term: "R Consortium"
     def: >
@@ -2655,9 +2810,10 @@
   en:
     term: "raise (an exception)"
     def: >
-      To signal that something unexpected or unusual has happened in a program by
-      creating an [exception](#exception) and handing it to the error-handling system, which
-      then tries to find a point in the program that will [catch](#catch_exception) it.
+      To signal that something unexpected or unusual has happened in a program
+      by creating an [exception](#exception) and handing it to the
+      error-handling system, which then tries to find a point in the program
+      that will [catch](#catch_exception) it.
 
 - slug: random_forests
   en:
@@ -2687,13 +2843,15 @@
       A variable whose value is automatically updated when some other value or
       values change.  Reactive variables are used extensively in [Shiny](#shiny).
 
-- slug: "record"
+- slug: record
   en:
     term: "record"
     def: >
-      FIXME
+      A group of related values that are stored together. A record may be
+      represented as a [tuple](#tuple) or as a row in a [table](#table); in the
+      latter case, every record in the table has the same [fields](#field).
 
-- slug: "recursion"
+- slug: recursion
   en:
     term: "recursion"
     def: >
@@ -2894,6 +3052,19 @@
     def: >
       See [commit](#commit).
 
+- slug: right_join
+  ref:
+    - full_join
+    - left_join
+  en:
+    term: "right join"
+    def: >
+      A [join](#join) that combines data from two tables A and B.  Where keys in
+      table A match keys in table B, [fields](#field) are concatenated.  Where
+      a key in table A does *not* match a key in table B, columns from table A
+      are filled with [null](#null), [NA](#na), or some other
+      [missing value](#missing_value).
+
 - slug: root_directory
   en:
     term: "root directory"
@@ -3007,6 +3178,12 @@
     def: >
       To choose entire columns from a table by name or location.
 
+- slug: self_join
+  en:
+    term: "self join"
+    def: >
+      A [join](#join) that combines a table with itself.
+
 - slug: semantic_versioning
   en:
     term: "semantic versioning"
@@ -3038,7 +3215,8 @@
   en:
     term: "shell"
     def: >
-      FIXME
+      A [command-line interface](#cli) that allows a user to interact with the operating system,
+      such as Bash (for Unix) or PowerShell (for Windows).
 
 - slug: shell_script
   en:
@@ -3046,6 +3224,14 @@
     def: >
       A set of commands for the [shell](#shell) stored in a file so that they
       can be re-executed. A shell script is effectively a program.
+
+- slug: shell_variable
+  en:
+    term: "shell variable"
+    def: >
+      A variable set and used in the [Unix shell](#shell).
+      Commonly-used shell variables include `HOME` (the user's home directory)
+      and `PATH` (their [search path](#search_path)).
 
 - slug: shiny
   en:
@@ -3115,12 +3301,21 @@
     def: >
       See [pothole case](#pothole_case).
 
+- slug: software_distribution
+  ref:
+    - distro
+  en:
+    term: "software distribution"
+    def: >
+      A set of programs that are built, tested, and distributed as a collection
+      so that they can run together.
+
 - slug: source_distribution
   en:
     term: "source distribution"
     def: >
-      A software distribution that includes the source code, typically so that
-      programs can be recompiled on the target computer when they are installed.
+      A [software distribution](#software_distribution) that includes the source code,
+      typically so that programs can be recompiled on the target computer when they are installed.
 
 - slug: sprint
   en:
@@ -3157,6 +3352,13 @@
       for [SSH](#ssh). Each SSH key has separate public and private parts; the
       public part can safely be shared, but if the private part becomes known,
       the key is compromised.
+
+- slug: stack_frame
+  en:
+    term: "stack frame"
+    def: >
+      A section of the [call stack](#call_stack) that records details of a
+      single call to a specific function.
 
 - slug: standard_deviation
   ref:
@@ -3580,6 +3782,9 @@
       that is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
 
 - slug: variable_arguments
+  ref:
+    - keyword_arguments
+    - named_argument
   en:
     term: "variable arguments"
     def: >
@@ -3737,8 +3942,17 @@
       (typically data). XML achieved license plate popularity in the early 2000s,
       but its complexity led many programmers to adopt [JSON](#json) instead.
   es:
-    término: "XML"
+    term: "XML"
     def: >
       Un conjunto de reglas para definir etiquetas similares a HTML y usarlas para darle formato a documentos
       (normalmente datos). XML alcanzó popularidad a principios de la década de 2000,
       pero su complejidad llevó a muchos programadores a adoptar [JSON](#json) en su lugar.
+
+- slug: yaml
+  en:
+    term: "YAML"
+    def: >
+      Short for "YAML Ain't Markup Language", a way to represent nested data
+      using indentation rather than the parentheses and commas of [JSON](#json).
+      YAML is often used in configuration files and to define parameters for
+      various flavors of [Markdown](#markdown) documents.
