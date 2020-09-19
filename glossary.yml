@@ -1277,8 +1277,11 @@
   en:
     term: "filter"
     def: >
-      To choose a set of [records](#record) (i.e., rows of a table) based
-      on the values they contain.
+      As a verb, to choose a set of [records](#record) (i.e., rows of a table)
+      based on the values they contain. As a noun, a command-line program that
+      reads lines of text from files or [standard input](#stdin), performs some
+      operation on them (such as filtering), and writes to a file or
+      [stdout](#stdout).
   fr:
     term: "filtrer"
     def: >
