@@ -1,6 +1,6 @@
 Thank you for your interest in contributing to Glosario!
 We welcome contributions of all kinds.
-If you're here to submit a definition,
+If you are here to submit a definition,
 either for a new term
 or in another language for an existing term,
 please take a moment to read the guidance below.
