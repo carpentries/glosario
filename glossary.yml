@@ -62,7 +62,7 @@
     def: >
       A deeply nested data structure, or [tree](#tree),
       that represents the structure of a program.
-      For example, the AST might have a [node](#node) representing a [`while`loop](#while_loop)
+      For example, the AST might have a [node](#node) representing a [`while` loop](#while_loop)
       with one [child](#child_tree) representing the loop condition
       and another representing the [loop body](#loop_body).
 
