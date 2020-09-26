@@ -27,9 +27,9 @@
   en:
     term: "absolute path"
     def: >
-      A path that points to the same location in the filesystem regardless of where
-      it's evaluated. An absolute path is the equivalent of latitude and longitude
-      in geography.
+      A path that points to the same location in the [filesystem](#filesystem)
+      regardless of where it's evaluated. An absolute path is the equivalent of
+      latitude and longitude in geography.
   fr:
     term: "chemin d'accès absolu"
     def: >
@@ -1270,8 +1270,9 @@
   en:
     term: "filesystem"
     def: >
-      Controls how files are stored and retrieved on disk by an operating system.
-      Also used to refer to the disk that is used to store the files or the type of the filesystem.
+      The part of the operating system that manages how files are stored and
+      retrieved.  Also used to refer to all of those files and directories or
+      the specific way they are stored (as in "the Unix filesystem").
 
 - slug: filter
   en:
