@@ -200,20 +200,20 @@
   en:
     term: "attribute"
     def: >
-      A name-value pair associated with an object, used to store metadata about the
-      object such as an array's dimensions.
+      A name-value pair associated with an object, used to store metadata about
+      the object such as an array's dimensions.
   fr:
     term: "attribut"
     def: >
        Un couple nom-valeur associé à un objet et utilisé pour stocker des
-       Métadonnées concernant ce dernier, example, les dimensions d'un tableau.
+       métadonnées concernant ce dernier, example, les dimensions d'un tableau.
 
 - slug: auto_completion
   en:
     term: "auto-completion"
     def: >
       A feature that allows the user to finish a word or code quickly through
-      the use of hitting the TAB key to list possible words or code that the
+      the use of pressing the TAB key to list possible words or code that the
       user can select from.
   fr:
     term: "auto-complétion"
@@ -584,6 +584,15 @@
     def: >
       A user interface that relies solely on text for commands and output,
       typically running in a [shell](#shell).
+
+- slug: client
+  en:
+    term: "client"
+    def: >
+      Typically, a program such as a web browser that gets data from a
+      [server](#server) and displays it to, or interacts with, users. The term
+      is used more generally to refer to any program A that makes requests of
+      another program B. A single program can be both a client and a server.
 
 - slug: closure
   en:
@@ -1060,6 +1069,28 @@
       A unique persistent identifier for a book, paper, report, software
       release, or other digital artefact.
 
+- slug: dom
+  en:
+    term: "Document Object Model"
+    acronym: DOM
+    def: >
+      A standard in-memory representation of [HTML](#html) and [XML](#xml).
+      Each [element](#element) is stored as a [node](#node) in a [tree](#tree)
+      with a set of named [attributes](#attribute); contained elements are
+      [child nodes](#child_tree). Modern programming languages provide many
+      libraries for searching and modifying the DOM.
+
+- slug: dom_selector
+  ref:
+    - regular_expression
+  en:
+    term: "DOM selector"
+    def: >
+      A pattern that identifies [nodes](#node) in a [DOM](#dom) [tree](#tree).
+      For example, `#alpha` matches nodes whose `id` [attribute](#attribute) is
+      "alpha", while `.beta` matches nodes whose `class` [attribute](#attribute)
+      is "beta".
+
 - slug: domain_knowledge
   en:
     term: "domain knowledge"
@@ -1091,11 +1122,30 @@
     def: >
       A vote against something.
 
+- slug: element
+  ref:
+    - empty_element
+  en:
+    term: "element"
+    def: >
+      A named component in an [HTML](#html) or [XML](#xml) document. Elements
+      are usually written `<name>`...`</name>`, where "..." represents the
+      content of the element. Elements often have [attributes](#attribute).
+
 - slug: emacs
   en:
     term: "Emacs (editor)"
     def: >
       FIXME
+
+- slug: empty_element
+  en:
+    term: "empty element"
+    def: >
+      An [element](#element) of an [HTML](#html) or [XML](#xml) document that
+      has no [children](#child_tree). Empty elements can always be written as
+      `<name></name>`, but may also be written using the shorthand notation
+      `<name/>` (with a slash after the name inside the angle brackets).
 
 - slug: empty_vector
   en:
@@ -1665,8 +1715,55 @@
   en:
     term: "homogeneous"
     def: >
-      Having a single type. For example, a [vector](#vector) must be homogeneous: its
-      values must all be numeric, logical, etc.
+      Having a single type. For example, a [vector](#vector) must be
+      homogeneous: its values must all be numeric, logical, etc.
+
+- slug: html
+  ref:
+    - xml
+  en:
+    term: "HyperText Markup Language"
+    acronym: "HTML"
+    def: >
+      The standard [markup language](#markup_language) used for web pages.
+      HTML is represented in memory using [DOM](#dom).
+
+- slug: http
+  en:
+    term: "HyperText Transfer Protocol"
+    acronym: "HTTP"
+    def: >
+      The standard [protocol](#protocol) for data transfer on the World-Wide
+      Web.  HTTP defines the format of [requests](#http_request) and
+      [responses](#http_response), the meanings of standard error codes, and
+      other features.
+
+- slug: http_header
+  en:
+    term: "HTTP header"
+    def: >
+      A key-value pair at the top of an [HTTP](#http) [request](#http_request)
+      or [response](#http_response) that carries additional information such as
+      the user's preferred language or the length of the data being transferred.
+
+- slug: http_request
+  ref:
+    - http_response
+  en:
+    term: "HTTP request"
+    def: >
+      A message sent from a [client](#client) to a [server](#server) using the
+      [HTTP](#http) [protocol](#protocol) asking for data. A request usually
+      asks for a web page, image, or other data.
+
+- slug: http_response
+  en:
+    term: "HTTP response"
+    def: >
+      A reply sent from a [server](#server) to a [client](#client) using the
+      [HTTP](#http) [protocol](#protocol) in response to a
+      [request](#http_request). The response usually contains a web page, image,
+      or data.
 
 - slug: ide
   ref:
@@ -2075,6 +2172,18 @@
       probability of each event depends only on the current state, not on the
       path taken to reach that state.
 
+- slug: markup_language
+  ref:
+    - latex
+    - xml
+  en:
+    term: "markup language"
+    def: >
+      A set of rules for annotating text to define its meaning or how it should
+      be displayed. The markup is usually not displayed, but instead controls
+      how the underlying text is interpreted or shown. [Markdown](#markdown) and
+      [HTML](#html) are widely-used markup languages for web pages.
+
 - slug: marthas_rules
   en:
     term: "Martha's Rules"
@@ -2165,6 +2274,15 @@
     def: >
       A target that a project is trying to meet, often represented as a set of
       [issues](#issue) that all have to be resolved by a certain time.
+
+- slug: mime_type
+  en:
+    term: "MIME type"
+    def: >
+      A standard way to identify the contents of files on the internet. The
+      term is an acronym of "multi-purpose Internet mail extension", and MIME
+      types are often identified by [filename extensions](#filename_extension),
+      such as `.png` for PNG-formatted images.
 
 - slug: missing_value
   en:
@@ -2718,6 +2836,16 @@
       it is ready to accept another command. The default prompt in the Unix
       shell is usually `$`, while in Python it is `>>>`.
 
+- slug: protocol
+  en:
+    term: "protocol"
+    def: >
+      Any standard specifying how two pieces of software interact. A network
+      protocol such as [HTTP](#http) defines the messages that
+      [clients](#client) and [servers](#server) exchange on the World-Wide Web;
+      [object-oriented](#oop) programs often define protocols for interactions
+      between [objects](#object) of different [classes](#class).
+
 - slug: provenance
   en:
     term: "provenance"
@@ -2772,6 +2900,13 @@
       group is called a quantile. For example, if there are five groups,
       each is called a *quintile*; the bottom quintile contains the lowest
       20% of the values, while the top quintile contains the highest 20%.
+
+- slug: query_string
+  en:
+    term: "query string"
+    def: >
+      The portion of a [URL](#url) after the quesiton mark `?` that specifies
+      extra parameters for the [HTTP request](#http_request) as name-value pairs.
 
 - slug: quosure
   en:
@@ -3216,6 +3351,13 @@
     def: >
       A preliminary vote used to determine whether further discussion is
       needed in a meeting.
+
+- slug: server
+  en:
+    term: "server"
+    def: >
+      Typically, a program such as a database manager or web server that
+      provides data to a [client](#client) upon request.
 
 - slug: shebang
   en:
@@ -3788,12 +3930,22 @@
     def: >
       FIXME
 
+- slug: url
+  en:
+    term: "Uniform Resource Locator"
+    acronym: "URL"
+    def: >
+      A unique address on the World-Wide Web. URLs originally identified web
+      pages, but may also represent datasets or database queries, particularly
+      if they include a [query string](#query_string).
+
 - slug: utf_8
   en:
     term: "UTF-8"
     def: >
       A way to store the numeric codes representing Unicode characters in memory
-      that is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
+      that is [backward-compatible](#backward_compatible) with the older
+      [ASCII](#ascii) standard.
 
 - slug: variable_arguments
   ref:
@@ -3952,15 +4104,17 @@
   en:
     term: "XML"
     def: >
-      A set of rules for defining HTML-like tags and using them to format documents
-      (typically data). XML achieved license plate popularity in the early 2000s,
-      but its complexity led many programmers to adopt [JSON](#json) instead.
+      A set of rules for defining [HTML](#html)-like tags and using them to
+      format documents (typically data). XML achieved license plate popularity
+      in the early 2000s, but its complexity led many programmers to adopt
+      [JSON](#json) instead.
   es:
     term: "XML"
     def: >
-      Un conjunto de reglas para definir etiquetas similares a HTML y usarlas para darle formato a documentos
-      (normalmente datos). XML alcanzó popularidad a principios de la década de 2000,
-      pero su complejidad llevó a muchos programadores a adoptar [JSON](#json) en su lugar.
+      Un conjunto de reglas para definir etiquetas similares a [HTML](#html) y
+      usarlas para darle formato a documentos (normalmente datos). XML alcanzó
+      popularidad a principios de la década de 2000, pero su complejidad llevó a
+      muchos programadores a adoptar [JSON](#json) en su lugar.
 
 - slug: yaml
   en:
