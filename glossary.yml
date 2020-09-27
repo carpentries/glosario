@@ -1123,6 +1123,14 @@
       Examples include printing a message and
       using a default configuration if the user-specified configuration can't be found.
 
+- slug: error_test
+  en:
+    term: "error (in a test)"
+    def: >
+      Signalled when something goes wrong in a [unit test](#unit_test) itself
+      rather than in the system being tested. In this case, we do not know
+      anything about the correctness of the system.
+
 - slug: escape_sequence
   en:
     term: "escape sequence"
@@ -2180,6 +2188,14 @@
     term: "MIT License"
     def: >
       A license that allows people to re-use software with no restrictions.
+
+- slug: mock_object
+  en:
+    term: "mock object"
+    def: >
+      A simplified replacement for part of a program whose behavior is easy to
+      control and predict. Mock objects are used in [unit tests](#unit_test)
+      to simulate databases, web services, and other complex systems.
 
 - slug: mode
   ref:
@@ -3756,7 +3772,8 @@
   en:
     term: "unit test"
     def: >
-      A test that exercises one function or feature of a piece of software.
+      A test that exercises one function or feature of a piece of software and
+      produces [pass](#pass_test), [fail](#fail_test), or [error](#error_test).
 
 - slug: unsupervised_learning
   ref:
