@@ -55,6 +55,26 @@
       El índice secuencial que indentifica una fila en un tablero, sin importar
       qué secciones se estén mostrando.
 
+- slug: abstract_method
+  en:
+    term: "abstract method"
+    def: >
+      In [object-oriented programming](#oop), a [method](#method) that is
+      defined but not implemented. Programmers will define an abstract method
+      in a [parent class](#parent_class) to specify operations that
+      [child classes](#child_class) must provide.
+
+- slug: abstract_syntax_tree
+  en:
+    term: "abstract syntax tree"
+    acronym: AST
+    def: >
+      A deeply nested data structure, or [tree](#tree),
+      that represents the structure of a program.
+      For example, the AST might have a [node](#node) representing a [`while` loop](#while_loop)
+      with one [child](#child_tree) representing the loop condition
+      and another representing the [loop body](#loop_body).
+
 - slug: actual_result
   en:
     term: "actual result (of test)"
@@ -192,7 +212,7 @@
     term: "assertion"
     def: >
       A [Boolean](#boolean) expression that must be true at a certain point in a
-      program.  Assertions may be built into the language (e.g., Python's
+      program.  Assertions may be built into the language (e.g., [Python](#python)'s
       `assert` statement) or provided as functions (e.g., R's `stopifnot`).
       They are often used in testing, but are also put in [production
       code](#production_code) to check that it is behaving correctly.
@@ -382,7 +402,9 @@
     def: >
       Data that is stored in a database without being interpreted in any way,
       such as an audio file. The term is also now used to refer to data
-      transferred over a network as uninterpreted bits.
+      transferred over a network or stored in a
+      [version control](#version_control_system) [repository](#repository) as
+      uninterpreted bits.
 
 - slug: block_comment
   en:
@@ -437,6 +459,18 @@
       the current page lies in the website; the term comes from a fairy tale in
       which children left a trail of breadcrumbs behind themselves so that they
       could find their way home.
+
+- slug: breadth_first
+  ref:
+    - depth_first
+  en:
+    term: "breadth first"
+    def:
+      To go through a nested data structure such as a [tree](#tree)
+      by exploring all of one level,
+      then going on to the next level and so on,
+      or to explore a problem by examining the first step of each possible solution,
+      and then trying the next for each.
 
 - slug: bug
   en:
@@ -514,6 +548,24 @@
     def: >
       A set of instructions designed to be executed efficiently by an
       [interpreter](#interpreter).
+
+- slug: cache
+  en:
+    term: "cache"
+    def: >
+      Something that stores copies of data so that future requests for it can
+      be satisfied more quickly. The CPU in a computer uses a hardware cache
+      to hold recently-accessed values; many programs rely on a software cache
+      to reduce network traffic and latency. Figuring out when something in a
+      cache is out of date and should be replaced is one of the
+      [two hard problems in computer science](#two_hard_problems).
+
+- slug: caching
+  en:
+    term: "caching"
+    def: >
+      To save a copy of some data in a local [cache](#cache) to make future
+      access faster.
 
 - slug: call_stack
   en:
@@ -614,11 +666,30 @@
       [normal distribution](#normal_distribution) based on the [degrees of
       freedom](#degrees_of_freedom) used to calculate it.
 
+- slug: child_class
+  en:
+    term: "child class"
+    def: >
+      In [object-oriented programming](#oop), a class derived from another class
+      (called the [parent class](#child_class)).
+
+- slug: child_tree
+  en:
+    term: "child (in a tree)"
+    def: >
+      A [node](#node) in a [tree](#node) that is below another node
+      (call the [parent](#parent_tree)).
+
 - slug: class
   en:
     term: "class"
     def: >
-      FIXME
+      In [object-oriented programming](#oop), a structure that combines data and
+      operations (called [methods](#method)).  The program then uses a
+      [constructor](#constructor) to create an [object](#object) with those
+      properties and methods.  Programmers generally put generic or reusable
+      behavior in [parent classes](#parent_class) and more detailed or specific
+      behavior in [child classes](#child_class).
 
 - slug: classification
   ref:
@@ -744,7 +815,7 @@
       Originally, a language such as C or Fortran that is translated into
       machine instructions for execution. Languages such as Java are also
       compiled before execution, but into [byte code](#byte_code) instead of
-      machine instructions, while languages like Python are compiled to
+      machine instructions, while languages like [Python](#python) are compiled to
       byte code on the fly.
 
 - slug: compiler
@@ -813,9 +884,9 @@
   en:
     term: "constructor"
     def: >
-      A function that creates an object of a particular class.  In the
-      [S3](#s3) object system, constructors are a convention rather than a
-      requirement.
+      A function that creates an [object](#object) of a particular
+      [class](#class).  In the [S3](#s3) object system, constructors are a
+      convention rather than a requirement.
 
 - slug: continuation_prompt
   en:
@@ -1059,6 +1130,32 @@
       A variable whose value depends on the value of another variable,
       which is called the [independent variable](#independent_variable).
 
+- slug: depth_first
+  ref:
+    - breadth_first
+  en:
+    term: "depth first"
+    def:
+      To go through a nested data structure such as a [tree](#tree)
+      by going as far as possible down one path,
+      then as far as possible down the next and so on,
+      or to explore a problem by following one solution to its conclusion
+      and then trying the next.
+
+- slug: design_pattern
+  ref:
+    - iterator_pattern
+    - singleton_pattern
+    - template_method_pattern
+    - visitor_pattern
+  en:
+    term: "design pattern"
+    def: >
+      A recurring pattern in software design that is specific enough to be worth
+      naming, but not so specific that a single best implementation can be
+      provided by a [library](#library). For example, [data frames](#data_frame)
+      and database [tables](#table) are instances of the same pattern.
+
 - slug: destructuring_assignment
   en:
     term: "destructuring assignment"
@@ -1109,7 +1206,7 @@
     term: "docstring"
     def: >
       Short for "documentation string", a string appearing at the start
-      of a module, class, or function in Python that automatically becomes
+      of a module, class, or function in [Python](#python) that automatically becomes
       that object's documentation.
 
 - slug: documentation_generator
@@ -1188,12 +1285,18 @@
       all programming languages use [lexical_scoping](#lexical_scoping) instead,
       since it is more predictable.
 
+- slug: edge
+  en:
+    term: "edge"
+    def: >
+      A connection between two [nodes](#node) in a [graph](#graph).  An edge may
+      have data associated with it, such as a name or distance.
+
 - slug: emacs
   en:
     term: "Emacs (editor)"
     def: >
-      A [Lisp](#lisp)-based operating system disguised as a text editor that is
-      popular among Unix programmers.
+      A text editor that is popular among Unix programmers.
 
 - slug: empty_vector
   en:
@@ -1409,6 +1512,16 @@
     def: >
       Another term for a [directory](#directory).
 
+- slug: for_loop
+  ref:
+    - while_loop
+  en:
+    term: "for loop"
+    def: >
+      A statement in a program that repeats one or more other statements
+      (the [loop body](#loop_body)) once for each item in a sequence,
+      such as each number in a range or each element of a list.
+
 - slug: fork
   ref:
     - branch
@@ -1456,6 +1569,16 @@
       A style of programming in which data is transformed through successive
       application of functions, rather than by using control structures such as
       loops.
+
+- slug: generator_function
+  ref:
+    - iterator_pattern
+  en:
+    term: "generator function"
+    def: >
+      A function whose state is automatically saved when it returns a value so
+      that execution can be restarted. Generator functions are typically used to
+      produce streams of values that can be processed by [for loops](#for_loop).
 
 - slug: generic_function
   en:
@@ -1672,6 +1795,15 @@
       An optimization algorithm that repeatedly calculates the gradient at the
       current point takes a small step in that direction, and then recalculates
       the gradient.
+
+- slug: graph
+  ref:
+    - tree
+  en:
+    term: "graph"
+    def: >
+      1. A plot or a chart that displays data, or 2. a data structure in which
+      [nodes](#node) are connected to one another by [edges](#edge).
 
 - slug: group
   en:
@@ -1922,6 +2054,18 @@
       [feature requests](#feature_request), [bug reports](#bug_report), or some
       other todo item.
 
+- slug: iterator_pattern
+  ref:
+    - visitor_pattern
+  en:
+    term: "Iterator pattern"
+    def: >
+      A [design pattern](#design_pattern) in which a temporary object or
+      [generator function](#generator_function) produces each value from a
+      collection in turn for processing. This pattern hides the differences
+      between different kinds of data structures so that everything can be
+      processed using loops.
+
 - slug: join
   ref:
     - anti_join
@@ -2111,7 +2255,7 @@
   en:
     term: "list comprehension"
     def: >
-      In Python, an expression that creates a new list in place.  For example,
+      In [Python](#python), an expression that creates a new list in place.  For example,
       `[2*x for x in values]` creates a new list whose items are the doubles
       of those in `values`.
 
@@ -2514,6 +2658,14 @@
     def: >
       See [computational linguistics](#computational_linguistics).
 
+- slug: node
+  en:
+    term: "node"
+    def: >
+      An element of a [graph](#graph) that is connected to other nodes by
+      [edges](#edge). Nodes typically have data associated with them, such as
+      names or weights.
+
 - slug: non_blocking_execution
   en:
     term: "non-blocking execution"
@@ -2568,6 +2720,14 @@
     def: >
       An "expression" with no arguments, such as the value 3.
 
+- slug: object
+  en:
+    term: "object"
+    def: >
+      In [object-oriented programming](#oop), a structure that contains the data
+      for a specific instance of a [class](#class). The operations the object is
+      capable of are defined by the class's [methods](#method).
+
 - slug: objective_function
   ref:
     - gradient_descent
@@ -2582,6 +2742,14 @@
     term: "observation"
     def: >
       FIXME
+
+- slug: off_by_one_error
+  en:
+    term: "off-by-one error"
+    def: >
+      A common error in programming in which the program refers to element
+      `i` of a structure when it should refer to element `i-1` or `i+1`,
+      or processes `N` elements when it should process `N-1` or `N+1`.
 
 - slug: oop
   en:
@@ -2699,6 +2867,13 @@
       [arguments](#argument) (the values passed in), but others use the terms in the
       opposite sense. It's all very confusing.
 
+- slug: parent_class
+  en:
+    term: "parent class"
+    def: >
+      In [object-oriented programming](#oop), the class from which another
+      class (called the [child class](#child_class)) is derived.
+
 - slug: parent_directory
   ref:
     - subdirectory
@@ -2708,6 +2883,14 @@
       The directory that contains another directory of interest.  Going from a
       directory to its parent, then its parent, and so on eventually leads to
       the [root directory](#root_directory) of the [filesystem](#filesystem).
+
+- slug: parent_tree
+  en:
+    term: "parent (in a tree)"
+    def: >
+      A [node](#node) in a [tree](#node) that is above another node
+      (call a [child](#child_tree)).
+      Every node in a tree except the [root node](#root_tree) has a single parent.
 
 - slug: parse
   en:
@@ -2934,7 +3117,7 @@
     def: >
       The text printed by a [REPL](#repl) or [shell](#shell) that indicates
       it is ready to accept another command. The default prompt in the Unix
-      shell is usually `$`, while in Python it is `>>>`.
+      shell is usually `$`, while in [Python](#python) it is `>>>`.
 
 - slug: provenance
   en:
@@ -2994,7 +3177,8 @@
   en:
     term: "Python"
     def: >
-      A popular open-source programming language.
+      A popular interpreted open-source programming language that relies on
+      indentation to define control structure.
 
 - slug: quantile
   en:
@@ -3018,13 +3202,6 @@
       A function that is passed expressions rather than the values of those
       expressions.
 
-- slug: r_language
-  en:
-    term: "R (programming language)"
-    def: >
-      A popular open source programming language used primarily for data
-      science.
-
 - slug: r_consortium
   en:
     term: "R Consortium"
@@ -3044,6 +3221,13 @@
     def: >
       A free platform available to check a `R` package on several different
       platforms in preparation for the CRAN submission process.
+
+- slug: r_language
+  en:
+    term: "R (programming language)"
+    def: >
+      A popular open source programming language used primarily for data
+      science.
 
 - slug: r_markdown
   en:
@@ -3299,7 +3483,7 @@
     term: "reStructured Text"
     acronym: "reST"
     def: >
-      A plaintext markup format used primarily in Python documentation.
+      A plaintext markup format used primarily in [Python](#python) documentation.
 
 - slug: revision
   en:
@@ -3337,6 +3521,13 @@
       The square root of the [mean squared error](#mean_squared_error).  Like
       the [standard deviation](#standard_deviation), it is in the same units as
       the original data.
+
+- slug: root_tree
+  en:
+    term: "root (in a tree)"
+    def: >
+      The node in a tree of which all other nodes are direct or indirect [children](#child_tree),
+      or equivalently the only node in the tree that has no [parent](#parent_tree).
 
 - slug: rotating_file
   en:
@@ -3564,10 +3755,22 @@
       efficient than [multi-threaded](#multi_threaded) execution.
 
 - slug: singleton
+  ref:
+    - singleton_pattern
   en:
     term: "singleton"
     def: >
       A set with only one element, or a [class](#class) with only one [instance](#instance).
+
+- slug: singleton_pattern
+  en:
+    term: "Singleton pattern"
+    def: >
+      A [design pattern](#design_pattern) that creates a [singleton](#singleton) object
+      to manage some resource or service, such as a database or [cache](#cache).  In
+      [object-oriented programming](#oop), the pattern is usually implemented by hiding
+      the [constructor](#constructor) of the class in some way so that it can only be
+      called once.
 
 - slug: slug
   en:
@@ -3827,6 +4030,16 @@
       A programming practice in which tests are written before a new feature is
       added or a bug is fixed in order to clarify the goal.
 
+- slug: template_method_pattern
+  en:
+    term: "Template Method pattern"
+    def: >
+      A [design pattern](#design_pattern) in which a [parent class](#parent_class)
+      defines an overall sequence of operations by calling
+      [abstract methods](#abstract_method) that [child classes](#child_class)
+      must then implement. Each child class then behaves in the same general
+      way, but implements the steps in different ways.
+
 - slug: ternary_expression
   ref:
     - binary_expression
@@ -3982,6 +4195,13 @@
     def: >
       If A depends on B and B depends on C, C is a transitive dependency of A.
 
+- slug: tree
+  en:
+    term: "tree"
+    def: >
+      A [graph](#graph) in which every node except the [root](#root_tree)
+      has exactly one [parent](#parent_tree).
+
 - slug: triage
   en:
     term: "triage"
@@ -4014,6 +4234,14 @@
     def: >
       A value that has multiple parts, such as the three color components of a
       red-green-blue color specification.
+
+- slug: two_hard_problems
+  en:
+    term: "two hard problems in computer science"
+    def: >
+      Refers to a quote by Phil Karlton: "There are only two hard problems in
+      computer science: cache invalidation and naming things." Many variations
+      add a third problem (most often "[off-by-one errors](#off_by_one_error)").
 
 - slug: type_coercion
   en:
@@ -4202,8 +4430,8 @@
   en:
     term: "virtual environment"
     def: >
-      In Python, the `virtualenv` package allows you to create
-      virtual, disposable, Python software environments containing
+      In [Python](#python), the `virtualenv` package allows you to create
+      virtual, disposable, [Python](#python) software environments containing
       only the packages and versions of packages you want to use for a
       particular project or task, and to install new packages into the
       environment without affecting other virtual environments or the
@@ -4227,6 +4455,34 @@
       esto permite que podamos instalar nuevos paquetes o ejecutar un sistema 
       operativo diferente sin afectar la computadora subyacente.
       
+- slug: visitor_pattern
+  ref:
+    - iterator_pattern
+  en:
+    term: "Visitor pattern"
+    def: >
+      A [design pattern](#design_pattern) in which the operation to be done is
+      taken to each element of a data structure in turn.  It is usually
+      implemented by having a generator "visitor" that knows how to reach the
+      structure's elements, and which is given a function or method to call for
+      each in turn that carries out the specific operation.
+
+- slug: walk_tree
+  en:
+    term: "walk (a tree)"
+    def: >
+      To visit each [node](#node) in a [tree](#tree) in some order,
+      typically [depth-first](#depth_first) or [breadth-first](#breadth_first).
+
+- slug: while_loop
+  ref:
+    - for_loop
+  en:
+    term: "while loop"
+    def: >
+      A statement in a program that repeats one or more other statements
+      (the [loop body](#loop_body)) as long as a condition is true.
+
 - slug: whitespace
   en:
     term: "whitespace"
