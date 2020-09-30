@@ -64,6 +64,17 @@
       in a [parent class](#parent_class) to specify operations that
       [child classes](#child_class) must provide.
 
+- slug: abstract_syntax_tree
+  en:
+    term: "abstract syntax tree"
+    acronym: AST
+    def: >
+      A deeply nested data structure, or [tree](#tree),
+      that represents the structure of a program.
+      For example, the AST might have a [node](#node) representing a [`while` loop](#while_loop)
+      with one [child](#child_tree) representing the loop condition
+      and another representing the [loop body](#loop_body).
+
 - slug: actual_result
   en:
     term: "actual result (of test)"
@@ -413,6 +424,18 @@
       which children left a trail of breadcrumbs behind themselves so that they
       could find their way home.
 
+- slug: breadth_first
+  ref:
+    - depth_first
+  en:
+    term: "breadth first"
+    def:
+      To go through a nested data structure such as a [tree](#tree)
+      by exploring all of one level,
+      then going on to the next level and so on,
+      or to explore a problem by examining the first step of each possible solution,
+      and then trying the next for each.
+
 - slug: bug
   en:
     term: "bug"
@@ -593,6 +616,13 @@
     def: >
       In [object-oriented programming](#oop), a class derived from another class
       (called the [parent class](#child_class)).
+
+- slug: child_tree
+  en:
+    term: "child (in a tree)"
+    def: >
+      A [node](#node) in a [tree](#node) that is below another node
+      (call the [parent](#parent_tree)).
 
 - slug: class
   en:
@@ -1028,6 +1058,18 @@
       A variable whose value depends on the value of another variable,
       which is called the [independent variable](#independent_variable).
 
+- slug: depth_first
+  ref:
+    - breadth_first
+  en:
+    term: "depth first"
+    def:
+      To go through a nested data structure such as a [tree](#tree)
+      by going as far as possible down one path,
+      then as far as possible down the next and so on,
+      or to explore a problem by following one solution to its conclusion
+      and then trying the next.
+
 - slug: design_pattern
   ref:
     - iterator_pattern
@@ -1143,6 +1185,13 @@
     term: "down-vote"
     def: >
       A vote against something.
+
+- slug: edge
+  en:
+    term: "edge"
+    def: >
+      A connection between two [nodes](#node) in a [graph](#graph).  An edge may
+      have data associated with it, such as a name or distance.
 
 - slug: emacs
   en:
@@ -1353,6 +1402,16 @@
     term: "folder"
     def: >
       Another term for a [directory](#directory).
+
+- slug: for_loop
+  ref:
+    - while_loop
+  en:
+    term: "for loop"
+    def: >
+      A statement in a program that repeats one or more other statements
+      (the [loop body](#loop_body)) once for each item in a sequence,
+      such as each number in a range or each element of a list.
 
 - slug: fork
   ref:
@@ -1619,6 +1678,15 @@
       An optimization algorithm that repeatedly calculates the gradient at the
       current point takes a small step in that direction, and then recalculates
       the gradient.
+
+- slug: graph
+  ref:
+    - tree
+  en:
+    term: "graph"
+    def: >
+      1. A plot or a chart that displays data, or 2. a data structure in which
+      [nodes](#node) are connected to one another by [edges](#edge).
 
 - slug: group
   en:
@@ -2386,6 +2454,14 @@
     def: >
       See [computational linguistics](#computational_linguistics).
 
+- slug: node
+  en:
+    term: "node"
+    def: >
+      An element of a [graph](#graph) that is connected to other nodes by
+      [edges](#edge). Nodes typically have data associated with them, such as
+      names or weights.
+
 - slug: normal_distribution
   en:
     term: "normal distribution"
@@ -2457,7 +2533,9 @@
   en:
     term: "off-by-one error"
     def: >
-      FIXME GVW
+      A common error in programming in which the program refers to element
+      `i` of a structure when it should refer to element `i-1` or `i+1`,
+      or processes `N` elements when it should process `N-1` or `N+1`.
 
 - slug: oop
   en:
@@ -2586,6 +2664,14 @@
       The directory that contains another directory of interest.  Going from a
       directory to its parent, then its parent, and so on eventually leads to
       the [root directory](#root_directory) of the [filesystem](#filesystem).
+
+- slug: parent_tree
+  en:
+    term: "parent (in a tree)"
+    def: >
+      A [node](#node) in a [tree](#node) that is above another node
+      (call a [child](#child_tree)).
+      Every node in a tree except the [root node](#root_tree) has a single parent.
 
 - slug: parse
   en:
@@ -3192,6 +3278,13 @@
       The square root of the [mean squared error](#mean_squared_error).  Like
       the [standard deviation](#standard_deviation), it is in the same units as
       the original data.
+
+- slug: root_tree
+  en:
+    term: "root (in a tree)"
+    def: >
+      The node in a tree of which all other nodes are direct or indirect [children](#child_tree),
+      or equivalently the only node in the tree that has no [parent](#parent_tree).
 
 - slug: rotating_file
   en:
@@ -3811,6 +3904,13 @@
     def: >
       If A depends on B and B depends on C, C is a transitive dependency of A.
 
+- slug: tree
+  en:
+    term: "tree"
+    def: >
+      A [graph](#graph) in which every node except the [root](#root_tree)
+      has exactly one [parent](#parent_tree).
+
 - slug: triage
   en:
     term: "triage"
@@ -4065,7 +4165,27 @@
   en:
     term: "Visitor pattern"
     def: >
-      FIXME: GVW
+      A [design pattern](#design_pattern) in which the operation to be done is
+      taken to each element of a data structure in turn.  It is usually
+      implemented by having a generator "visitor" that knows how to reach the
+      structure's elements, and which is given a function or method to call for
+      each in turn that carries out the specific operation.
+
+- slug: walk_tree
+  en:
+    term: "walk (a tree)"
+    def: >
+      To visit each [node](#node) in a [tree](#tree) in some order,
+      typically [depth-first](#depth_first) or [breadth-first](#breadth_first).
+
+- slug: while_loop
+  ref:
+    - for_loop
+  en:
+    term: "while loop"
+    def: >
+      A statement in a program that repeats one or more other statements
+      (the [loop body](#loop_body)) as long as a condition is true.
 
 - slug: whitespace
   en:
