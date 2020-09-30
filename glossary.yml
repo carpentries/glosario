@@ -55,6 +55,15 @@
       El índice secuencial que indentifica una fila en un tablero, sin importar
       qué secciones se estén mostrando.
 
+- slug: abstract_method
+  en:
+    term: "abstract method"
+    def: >
+      In [object-oriented programming](#oop), a [method](#method) that is
+      defined but not implemented. Programmers will define an abstract method
+      in a [parent class](#parent_class) to specify operations that
+      [child classes](#child_class) must provide.
+
 - slug: abstract_syntax_tree
   en:
     term: "abstract syntax tree"
@@ -496,6 +505,24 @@
       A set of instructions designed to be executed efficiently by an
       [interpreter](#interpreter).
 
+- slug: cache
+  en:
+    term: "cache"
+    def: >
+      Something that stores copies of data so that future requests for it can
+      be satisfied more quickly. The CPU in a computer uses a hardware cache
+      to hold recently-accessed values; many programs rely on a software cache
+      to reduce network traffic and latency. Figuring out when something in a
+      cache is out of date and should be replaced is one of the
+      [two hard problems in computer science](#two_hard_problems).
+
+- slug: caching
+  en:
+    term: "caching"
+    def: >
+      To save a copy of some data in a local [cache](#cache) to make future
+      access faster.
+
 - slug: call_stack
   en:
     term: "call stack"
@@ -583,6 +610,13 @@
       [normal distribution](#normal_distribution) based on the [degrees of
       freedom](#degrees_of_freedom) used to calculate it.
 
+- slug: child_class
+  en:
+    term: "child class"
+    def: >
+      In [object-oriented programming](#oop), a class derived from another class
+      (called the [parent class](#child_class)).
+
 - slug: child_tree
   en:
     term: "child (in a tree)"
@@ -594,7 +628,12 @@
   en:
     term: "class"
     def: >
-      FIXME
+      In [object-oriented programming](#oop), a structure that combines data and
+      operations (called [methods](#method)).  The program then uses a
+      [constructor](#constructor) to create an [object](#object) with those
+      properties and methods.  Programmers generally put generic or reusable
+      behavior in [parent classes](#parent_class) and more detailed or specific
+      behavior in [child classes](#child_class).
 
 - slug: classification
   ref:
@@ -780,9 +819,9 @@
   en:
     term: "constructor"
     def: >
-      A function that creates an object of a particular class.  In the
-      [S3](#s3) object system, constructors are a convention rather than a
-      requirement.
+      A function that creates an [object](#object) of a particular
+      [class](#class).  In the [S3](#s3) object system, constructors are a
+      convention rather than a requirement.
 
 - slug: continuation_prompt
   en:
@@ -1030,6 +1069,20 @@
       then as far as possible down the next and so on,
       or to explore a problem by following one solution to its conclusion
       and then trying the next.
+
+- slug: design_pattern
+  ref:
+    - iterator_pattern
+    - singleton_pattern
+    - template_method_pattern
+    - visitor_pattern
+  en:
+    term: "design pattern"
+    def: >
+      A recurring pattern in software design that is specific enough to be worth
+      naming, but not so specific that a single best implementation can be
+      provided by a [library](#library). For example, [data frames](#data_frame)
+      and database [tables](#table) are instances of the same pattern.
 
 - slug: destructuring_assignment
   en:
@@ -1407,6 +1460,16 @@
       A style of programming in which data is transformed through successive
       application of functions, rather than by using control structures such as
       loops.
+
+- slug: generator_function
+  ref:
+    - iterator_pattern
+  en:
+    term: "generator function"
+    def: >
+      A function whose state is automatically saved when it returns a value so
+      that execution can be restarted. Generator functions are typically used to
+      produce streams of values that can be processed by [for loops](#for_loop).
 
 - slug: generic_function
   en:
@@ -1861,6 +1924,18 @@
       "issues" made to a [repository](#repository), usually in the form of
       [feature requests](#feature_request), [bug reports](#bug_report), or some
       other todo item.
+
+- slug: iterator_pattern
+  ref:
+    - visitor_pattern
+  en:
+    term: "Iterator pattern"
+    def: >
+      A [design pattern](#design_pattern) in which a temporary object or
+      [generator function](#generator_function) produces each value from a
+      collection in turn for processing. This pattern hides the differences
+      between different kinds of data structures so that everything can be
+      processed using loops.
 
 - slug: join
   ref:
@@ -2431,6 +2506,14 @@
     def: >
       An "expression" with no arguments, such as the value 3.
 
+- slug: object
+  en:
+    term: "object"
+    def: >
+      In [object-oriented programming](#oop), a structure that contains the data
+      for a specific instance of a [class](#class). The operations the object is
+      capable of are defined by the class's [methods](#method).
+
 - slug: objective_function
   ref:
     - gradient_descent
@@ -2445,6 +2528,14 @@
     term: "observation"
     def: >
       FIXME
+
+- slug: off_by_one_error
+  en:
+    term: "off-by-one error"
+    def: >
+      A common error in programming in which the program refers to element
+      `i` of a structure when it should refer to element `i-1` or `i+1`,
+      or processes `N` elements when it should process `N-1` or `N+1`.
 
 - slug: oop
   en:
@@ -2556,6 +2647,13 @@
       called. Some writers distinguish parameters (the variables) from
       [arguments](#argument) (the values passed in), but others use the terms in the
       opposite sense. It's all very confusing.
+
+- slug: parent_class
+  en:
+    term: "parent class"
+    def: >
+      In [object-oriented programming](#oop), the class from which another
+      class (called the [child class](#child_class)) is derived.
 
 - slug: parent_directory
   ref:
@@ -3388,10 +3486,22 @@
       structure.
 
 - slug: singleton
+  ref:
+    - singleton_pattern
   en:
     term: "singleton"
     def: >
       A set with only one element, or a [class](#class) with only one [instance](#instance).
+
+- slug: singleton_pattern
+  en:
+    term: "Singleton pattern"
+    def: >
+      A [design pattern](#design_pattern) that creates a [singleton](#singleton) object
+      to manage some resource or service, such as a database or [cache](#cache).  In
+      [object-oriented programming](#oop), the pattern is usually implemented by hiding
+      the [constructor](#constructor) of the class in some way so that it can only be
+      called once.
 
 - slug: slug
   en:
@@ -3629,6 +3739,16 @@
       A programming practice in which tests are written before a new feature is
       added or a bug is fixed in order to clarify the goal.
 
+- slug: template_method_pattern
+  en:
+    term: "Template Method pattern"
+    def: >
+      A [design pattern](#design_pattern) in which a [parent class](#parent_class)
+      defines an overall sequence of operations by calling
+      [abstract methods](#abstract_method) that [child classes](#child_class)
+      must then implement. Each child class then behaves in the same general
+      way, but implements the steps in different ways.
+
 - slug: ternary_expression
   ref:
     - binary_expression
@@ -3823,6 +3943,14 @@
     def: >
       A value that has multiple parts, such as the three color components of a
       red-green-blue color specification.
+
+- slug: two_hard_problems
+  en:
+    term: "two hard problems in computer science"
+    def: >
+      Refers to a quote by Phil Karlton: "There are only two hard problems in
+      computer science: cache invalidation and naming things." Many variations
+      add a third problem (most often "[off-by-one errors](#off_by_one_error)").
 
 - slug: type_coercion
   en:
@@ -4031,6 +4159,18 @@
       esto permite que podamos instalar nuevos paquetes o ejecutar un sistema 
       operativo diferente sin afectar la computadora subyacente.
       
+- slug: visitor_pattern
+  ref:
+    - iterator_pattern
+  en:
+    term: "Visitor pattern"
+    def: >
+      A [design pattern](#design_pattern) in which the operation to be done is
+      taken to each element of a data structure in turn.  It is usually
+      implemented by having a generator "visitor" that knows how to reach the
+      structure's elements, and which is given a function or method to call for
+      each in turn that carries out the specific operation.
+
 - slug: walk_tree
   en:
     term: "walk (a tree)"
