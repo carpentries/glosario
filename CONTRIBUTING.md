@@ -17,7 +17,7 @@ When you're making your contribution(s) to Glosario, please:
 
 To add a new entry, please [fork][forking-guide] the [main Glosario repository][repo] and, on a new branch, add the term and definition to [`glossary.yml`][glossary]. This glossary file is written in [YAML].
 
-When adding a new term or translation, please notice the indentation on the YAML file.
+When adding a new term or translation, please take care with the indentation on the YAML file. Indentation is syntactically significant in YAML.
 
 Here is an example of how your glossary entry should be structured:
 
