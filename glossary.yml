@@ -85,6 +85,13 @@
       if the two are different,
       the test [fails](#fail_test).
 
+- slug: affordance
+  en:
+    term: "affordance"
+    def: >
+      A property of something that suggests how it can be used, such as a handle
+      or button.
+
 - slug: aggregation
   en:
     term: "aggregation"
@@ -205,7 +212,7 @@
     term: "assertion"
     def: >
       A [Boolean](#boolean) expression that must be true at a certain point in a
-      program.  Assertions may be built into the language (e.g., Python's
+      program.  Assertions may be built into the language (e.g., [Python](#python)'s
       `assert` statement) or provided as functions (e.g., R's `stopifnot`).
       They are often used in testing, but are also put in [production
       code](#production_code) to check that it is behaving correctly.
@@ -215,6 +222,16 @@
     term: "associative array"
     def: >
       See [dictionary](#dictionary).
+
+- slug: asynchronous
+  ref:
+    - synchronous
+  en:
+    term: "asynchronous"
+    def: >
+      Not happening at the same time. In programming, an asynchronous operation
+      is one that runs independently of another, or that starts at one time and
+      ends at another.
 
 - slug: attribute
   en:
@@ -378,6 +395,25 @@
       A unit of information representing representing alternatives, yes/no,
       [true](#true)/[false](#false). In computing a state of either 0 or 1.
 
+- slug: blob
+  en:
+    term: "binary large object"
+    acronym: "BLOB"
+    def: >
+      Data that is stored in a database without being interpreted in any way,
+      such as an audio file. The term is also now used to refer to data
+      transferred over a network or stored in a
+      [version control](#version_control_system) [repository](#repository) as
+      uninterpreted bits.
+
+- slug: block_comment
+  en:
+    term: "block comment"
+    def: >
+      A [comment](#comment) that spans multiple lines. Block comments may be
+      marked with special start and end symbols, like `/*` and `*/` in C and
+      its descendents, or each line may be prefixed with a marker like `#`.
+
 - slug: boilerplate
   en:
     term: "boilerplate"
@@ -488,6 +524,14 @@
       A specification for a [build manager](#build_manager) that describes how
       some files depend on others and what to do if those files are out of date.
 
+- slug: build_stale
+  en:
+    term: "stale (in build)"
+    def: >
+      To be out of date compared to a [prerequisite](#prerequisite).  A
+      [build manager](#build_manager)'s job is to find and update things that
+      are stale.
+
 - slug: build_target
   ref:
     - makefile
@@ -530,6 +574,18 @@
       A data structure that stores information about the active subroutines
       executed.
 
+- slug: callback
+  en:
+    term: "callback function"
+    def: >
+      A function A that is passed to another function B so that B can call
+      it at some later point. Callbacks can be used
+      [synchronously](#synchronous), as in generic functions like `map` that
+      invoke a callback function once for each element in a collection, or
+      [ascynrhonously](#asynchronous), as in a [client](#client) that runs
+      a callback when a [response](#http_response) is received in answer to
+      a [request](#http_request).
+
 - slug: camel_case
   ref:
     - kebab_case
@@ -561,31 +617,31 @@
   en:
     term: "CC-0"
     def: >
-      A [Creative Commons license](#cc_license) that imposes no restrictions
-      whatsover, thereby putting a work in the public domain.
+      A [Creative Commons](#cc_license) [license](#license) that imposes no
+      restrictions whatsover, thereby putting a work in the public domain.
 
 - slug: cc_by
   en:
     term: "CC-BY"
     def: >
-      The [Creative Commons](#cc_license) - Attribution license that requires
-      people to give credit to the author of a work but imposes no other
-      restrictions.
+      The [Creative Commons](#cc_license) - Attribution [license](#license) that
+      requires people to give credit to the author of a work but imposes no
+      other restrictions.
 
 - slug: cc_license
   en:
     term: "Creative Commons license"
     def: >
-      A set of licenses that can be applied to published work.  Each license is
-      formed by concatenating one or more of `-BY` (Attribution): users must
-      cite the original source; `-SA` (ShareAlike): users must share their own
-      work under a similar license; `-NC` (NonCommercial): work may not be used
-      for commercial purposes without the creator's permission; `-ND`
-      (NoDerivatives): no derivative works (e.g., translations) can be created
-      without the creator's permission.  Thus, `CC-BY-NC` means "users must give
-      attribution and cannot use commercially without permission The term `CC-0`
-      (zero, not letter 'O') is sometimes used to mean "no restrictions", i.e.,
-      the work is in the public domain.
+      A set of [licenses](#license) that can be applied to published work.  Each
+      license is formed by concatenating one or more of `-BY` (Attribution):
+      users must cite the original source; `-SA` (ShareAlike): users must share
+      their own work under a similar license; `-NC` (NonCommercial): work may
+      not be used for commercial purposes without the creator's permission;
+      `-ND` (NoDerivatives): no derivative works (e.g., translations) can be
+      created without the creator's permission.  Thus, `CC-BY-NC` means "users
+      must give attribution and cannot use commercially without permission The
+      term `CC-0` (zero, not letter 'O') is sometimes used to mean "no
+      restrictions", i.e., the work is in the public domain.
 
 - slug: centroid
   en:
@@ -747,7 +803,10 @@
   en:
     term: "compile"
     def: >
-      FIXME
+      To translate textual source into another form. Programs in
+      [compiled languages](#compiled_language) are translated into machine
+      instructions for a computer to run, and [Markdown](#markdown) is
+      usually translated into [HTML](#html) for display.
 
 - slug: compiled_language
   en:
@@ -756,7 +815,7 @@
       Originally, a language such as C or Fortran that is translated into
       machine instructions for execution. Languages such as Java are also
       compiled before execution, but into [byte code](#byte_code) instead of
-      machine instructions, while languages like Python are compiled to
+      machine instructions, while languages like [Python](#python) are compiled to
       byte code on the fly.
 
 - slug: compiler
@@ -808,6 +867,12 @@
     def: >
       A range around an estimate that indicates the margin of error, combined
       with a probability that the actual value falls in that range.
+
+- slug: console
+  en:
+    term: "console"
+    def: >
+      FIXME
 
 - slug: constant
   en:
@@ -909,6 +974,13 @@
       [test data](#test_data).  The training data and correct answers are used
       to find parameters, and the algorithm's effectiveness is then measured by
       examining the answers it gives on the test data.
+
+- slug: cryptographic_hash_function
+  en:
+    term: "cryptographic hash function"
+    def: >
+      A [hash function](#hash_function) that produces an apparently-random
+      value for any input.
 
 - slug: css
   en:
@@ -1134,7 +1206,7 @@
     term: "docstring"
     def: >
       Short for "documentation string", a string appearing at the start
-      of a module, class, or function in Python that automatically becomes
+      of a module, class, or function in [Python](#python) that automatically becomes
       that object's documentation.
 
 - slug: documentation_generator
@@ -1186,6 +1258,33 @@
     def: >
       A vote against something.
 
+- slug: dynamic_loading
+  en:
+    term: "dynamic loading"
+    def: >
+      To [import](#import) a [module](#module) into the memory of a program
+      while it is already running. Most [interpreted languages](#interpreted_language)
+      use dynamic loading, and provide tools so that programs can find and load
+      modules dynamically to configure themselves
+
+- slug: dynamic_lookup
+  en:
+    term: "dynamic lookup"
+    def: >
+      To find a function or a property of an [object](#object) by name while a
+      program is running. For example, instead of getting a specific property
+      of an object using `obj.name`, a program might use `obj[someVariable]`,
+      where `someVariable` could hold `"name"` or some other property name.
+
+- slug: dynamic_scoping
+  en:
+    term: "dynamic scoping"
+    def: >
+      To find the value of a [variable](#variable_program) by looking at what is
+      on the [call stack](#call_stack) at the moment the lookup is done. Almost
+      all programming languages use [lexical_scoping](#lexical_scoping) instead,
+      since it is more predictable.
+
 - slug: edge
   en:
     term: "edge"
@@ -1197,7 +1296,7 @@
   en:
     term: "Emacs (editor)"
     def: >
-      FIXME
+      A text editor that is popular among Unix programmers.
 
 - slug: empty_vector
   en:
@@ -1249,6 +1348,14 @@
       exception](#raise_exception) to signal that something unexpected has
       happened; another part will [catch](#catch_exception) it.
 
+- slug: exception_handler
+  en:
+    term: "exception handler"
+    def: >
+      A piece of code that deals with an [exception](#exception) after it is
+      [caught](#catch_exception), e.g., by writing a [log message](#log_message)
+      or retrying the operation that failed.
+
 - slug: expected_result
   ref:
     - actual_result
@@ -1270,7 +1377,9 @@
   en:
     term: "export"
     def: >
-      FIXME
+      To make something visible outside a [module](#module) so that other parts
+      of a program can [import](#import) it. In most languages a module must
+      export things explicitly in order to manage [name collision](#name_collision).
 
 - slug: fail_test
   ref:
@@ -1653,13 +1762,21 @@
       Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour
       toutes les fonctions.
 
+- slug: globbing
+  en:
+    term: "globbing"
+    def: >
+      To specify a set of filenames using a simplified form of
+      [regular expressions](#regular_expression), such as `*.dat` to mean "all
+      files whose names end in `.dat`". The name is derived from "global".
+
 - slug: gpl
   en:
     term: "GNU Public License"
     acronym: "GPL"
     def: >
-      A license that allows people to re-use software as long as they distribute the
-      source of their changes.
+      A [license](#license) that allows people to re-use software as long as
+      they distribute the source of their changes.
 
 - slug: gradient_boosting
   en:
@@ -1721,6 +1838,14 @@
     def: >
       FIXME
 
+- slug: hash_function
+  en:
+    term: "hash function"
+    def: >
+      A function that turns arbitrary data into a bit array of a fixed
+      size. Hash functions are used to determine where data should be
+      stored in a [hash table](#hash_table).
+
 - slug: hash_table
   en:
     term: "hash table"
@@ -1769,7 +1894,9 @@
   en:
     term: "Hippocratic License"
     def: >
-      FIXME
+      An ethical software [license](#license) that allows free use for any
+      purpose that does not contravene the Universal Declaration of Human
+      Rights.
 
 - slug: histogram
   en:
@@ -1821,7 +1948,9 @@
   en:
     term: "import"
     def: >
-      FIXME
+      To bring things from a [module](#module) into a program for use. In most
+      languages a program can only import things that the module explicitly
+      [exports](#export).
 
 - slug: impostor_syndrome
   en:
@@ -2041,11 +2170,37 @@
       are filled with [null](#null), [NA](#na), or some other
       [missing value](#missing_value).
 
+- slug: lexical_scoping
+  en:
+    term: "lexical scoping"
+    def: >
+      To look up the value associated with a name according to the textual
+      structure of a program. Most programming languages use lexical scoping
+      instead of [dynamic scoping](#dynamic_scoping) because the latter is
+      less predictable.
+
 - slug: library
   en:
     term: "library"
     def: >
-      FIXME
+      A reusable software package, also often called a [module](#module).
+
+- slug: license
+  en:
+    term: "license"
+    def: >
+      A legal document describing how something can be used and by whom.
+
+- slug: lifecycle
+  en:
+    term: "lifecycle"
+    def: >
+      The steps that something is allowed or required to go through. The
+      lifecycle of an [object](#object) runs from its
+      [construction](#constructor) through the operations it can or must
+      perform before it is destroyed; the lifecycle of an [issue](#issue)
+      may be "created", "assigned", "in progress", "ready for review",
+      and "completed".
 
 - slug: lift
   en:
@@ -2055,6 +2210,14 @@
       the response in the segment identified to the response in the population
       as a whole.  A lift of 1 means the model does no better than chance;
       higher lift means the model is doing better.
+
+- slug: line_comment
+  en:
+    term: "line comment"
+    def: >
+      A [comment](#comment) in a program that spans part of a single line,
+      as opposed to a [block comment](#block_comment) that may span multiple
+      lines.
 
 - slug: linear_regression
   ref:
@@ -2074,6 +2237,14 @@
       of indentation rules or variable naming conventions. The name comes from
       the first tool of its kind, called `lint`.
 
+- slug: lisp
+  en:
+    term: "Lisp"
+    def: >
+      A family of programming languages that represent programs and data as
+      nested lists. Many other programming languages have borrowed ideas
+      from Lisp.
+
 - slug: list
   en:
     term: "list"
@@ -2084,7 +2255,7 @@
   en:
     term: "list comprehension"
     def: >
-      In Python, an expression that creates a new list in place.  For example,
+      In [Python](#python), an expression that creates a new list in place.  For example,
       `[2*x for x in values]` creates a new list whose items are the doubles
       of those in `values`.
 
@@ -2119,6 +2290,22 @@
     def: >
       Una variable definida dentro de una función, por lo que solo es visible
       dentro de ella.
+
+- slug: log
+  en:
+    term: "log"
+    def: >
+      A record of a program's execution containing [messages](#log_message)
+      written via a [logging framework](#logging_framework) for later
+      inspection.
+
+- slug: log_message
+  en:
+    term: "log message"
+    def: >
+      A single entry in a [log](#log) of a program's execution. Log messages
+      are usually highly structured so that data (such as the time or the
+      severity) can be recovered later.
 
 - slug: logging_framework
   en:
@@ -2191,7 +2378,8 @@
   en:
     term: "Make"
     def: >
-      FIXME
+      The original [build manager](#build_manager) for Unix, still in daily
+      use after more than forty years.
 
 - slug: makefile
   en:
@@ -2322,7 +2510,8 @@
   en:
     term: "MIT License"
     def: >
-      A license that allows people to re-use software with no restrictions.
+      A [license](#license) that allows people to re-use software with no
+      restrictions.
 
 - slug: mode
   ref:
@@ -2344,7 +2533,7 @@
   en:
     term: "module"
     def: >
-      FIXME
+      A reusable software package, also often called a [library](#library).
 
 - slug: monte_carlo
   ref:
@@ -2360,6 +2549,15 @@
     def: >
       The [mean](#mean) of each set of several several consecutive values from
       [time series](#time_series) data.
+
+- slug: multi_threaded
+  en:
+    term: "multi-threaded"
+    def: >
+      Capable of performing several operations simultaneously. Multi-threaded
+      programs are usually more efficient than
+      [single-threaded](#single_threaded) ones, but also harder to understand
+      and debug.
 
 - slug: mutation
   en:
@@ -2397,12 +2595,12 @@
   ref:
     - call_stack
     - fully_qualified_name
-    - namespace
   en:
     term: "name collision"
     def: >
       The ambiguity that arises when two or more things in a program that have the
-      same name are active at the same time.
+      same name are active at the same time. Most languages use
+      [namespaces](#namespace) to prevent such collisions.
 
 - slug: named_argument
   ref:
@@ -2415,10 +2613,16 @@
       function call.
 
 - slug: namespace
+  ref:
+    - name_collision
   en:
     term: "namespace"
     def: >
-      FIXME
+      A collection of names in a program that exists in isolation from other
+      namespaces. Each function, [object](#object), [class](#class), or
+      [module](#module) in a program typically has its own namespace so that
+      references to "X" in one part of a program don't accidentally refer to
+      something called "X" in another part of the program.
 
 - slug: nano_editor
   en:
@@ -2461,6 +2665,16 @@
       An element of a [graph](#graph) that is connected to other nodes by
       [edges](#edge). Nodes typically have data associated with them, such as
       names or weights.
+
+- slug: non_blocking_execution
+  en:
+    term: "non-blocking execution"
+    def: >
+      To allow a program to continue running while an operation is in
+      progress. For example, many systems support non-blocking execution
+      for file I/O so that the program can continue doing work while it
+      waits for data to be read from or written to the [filesystem](#filesystem)
+      (which is typically much slower than the CPU).
 
 - slug: normal_distribution
   en:
@@ -2550,8 +2764,10 @@
   en:
     term: "open license"
     def: >
-      A license that permits general re-use, such as the [MIT License](#mit_license)
-      or [GPL](#gpl) for software and [CC-BY](#cc_by) or [CC-0](#cc_0) for data, prose, or other creative outputs.
+      A [license](#license) that permits general re-use, such as the
+      [MIT License](#mit_license) or [GPL](#gpl) for software and
+      [CC-BY](#cc_by) or [CC-0](#cc_0) for data, prose, or other creative
+      outputs.
 
 - slug: open_science
   en:
@@ -2572,7 +2788,10 @@
   en:
     term: "optional_parameter"
     def: >
-      FIXME
+      A [parameter](#parameter) that does not have to be given a value when a
+      function is called. Most programming languages require programmers to
+      define [default values](#default_value) for optional parameters or
+      assign them a special value automatically.
 
 - slug: orcid
   en:
@@ -2898,7 +3117,7 @@
     def: >
       The text printed by a [REPL](#repl) or [shell](#shell) that indicates
       it is ready to accept another command. The default prompt in the Unix
-      shell is usually `$`, while in Python it is `>>>`.
+      shell is usually `$`, while in [Python](#python) it is `>>>`.
 
 - slug: provenance
   en:
@@ -2913,6 +3132,14 @@
     def: >
       A value generated in a repeatable way that resemble the true randomness of
       the universe well enough to fool merely mortal observers.
+
+- slug: psf
+  en:
+    term: "Python Software Foundation"
+    acronym: "PSF"
+    def: >
+      A non-profit organization that oversees and promotes the development and
+      use of [Python](#python).
 
 - slug: pull_indexing
   ref:
@@ -2945,6 +3172,13 @@
       specifies an element of the result vector that gets the corresponding
       element of the source vector, i.e., `result[index[i]] = source[i]`.  Push
       indexing can easily produce gaps and collisions.
+
+- slug: python
+  en:
+    term: "Python"
+    def: >
+      A popular interpreted open-source programming language that relies on
+      indentation to define control structure.
 
 - slug: quantile
   en:
@@ -2988,6 +3222,13 @@
       A free platform available to check a `R` package on several different
       platforms in preparation for the CRAN submission process.
 
+- slug: r_language
+  en:
+    term: "R (programming language)"
+    def: >
+      A popular open source programming language used primarily for data
+      science.
+
 - slug: r_markdown
   en:
     term: "R Markdown"
@@ -3003,6 +3244,8 @@
       [literate programming](#literate_programming).
 
 - slug: raise_exception
+  ref:
+    - throw_exception
   en:
     term: "raise (an exception)"
     def: >
@@ -3240,7 +3483,7 @@
     term: "reStructured Text"
     acronym: "reST"
     def: >
-      A plaintext markup format used primarily in Python documentation.
+      A plaintext markup format used primarily in [Python](#python) documentation.
 
 - slug: revision
   en:
@@ -3319,12 +3562,20 @@
     term: "S"
     def: >
       A language originally developed in Bell Labs for data analysis, statistical
-      modeling, and graphics. R is a dialect of S.
+      modeling, and graphics. [R](#r_language) is a dialect of S.
   es:
     term: "S"
     def: >
       Un lenguaje para análisis de datos, modelado estadístico y gráficos desarrollado
-      originalmente en los Laboratorios Bell. R es un dialecto de S.
+      originalmente en los Laboratorios Bell. [R](#r_language) es un dialecto de S.
+
+- slug: sandbox
+  en:
+    term: "sandbox"
+    def: >
+      A testing environment that is separate from the production system, or an
+      environment that is only allowed to perform a restricted set of operations
+      for security reasons.
 
 - slug: scalar
   en:
@@ -3468,6 +3719,16 @@
       [command line argument](#command_line_argument).  Most common flags are a
       single letter preceded by a dash, such as `-v`
 
+- slug: side_effect
+  en:
+    term: "side effect"
+    def: >
+      A change made by a function while it runs that is visible after the
+      function finishes, such as modifying a [global variable](#global_variable)
+      or writing to a file. Side effects make programs harder for people to
+      understand, since the effects are not necessarily clear where the function
+      is called.
+
 - slug: signal
   en:
     term: "signal (a condition)"
@@ -3484,6 +3745,14 @@
     def: >
       An index enclosed in `[...]`, used to select a structure from another
       structure.
+
+- slug: single_threaded
+  en:
+    term: "single-threaded"
+    def: >
+      A model of program execution in which only one thing can happen at a time.
+      Single-threaded execution is easier for people to understand but less
+      efficient than [multi-threaded](#multi_threaded) execution.
 
 - slug: singleton
   ref:
@@ -3575,6 +3844,12 @@
       A section of the [call stack](#call_stack) that records details of a
       single call to a specific function.
 
+- slug: stack_overflow
+  en:
+    term: "Stack Overflow"
+    def: >
+      A question-and-answer site popular among programmers.
+
 - slug: standard_deviation
   ref:
     - 68_95_997_rule
@@ -3631,6 +3906,13 @@
     def: >
       Selecting values by dividing the overall population into homogeneous
       groups and then taking a random sample from each group.
+
+- slug: stream
+  en:
+    term: "stream"
+    def: >
+      A sequential flow of data, such as the bits arriving across a network
+      connection or the bytes read from a file.
 
 - slug: string
   en:
@@ -3689,6 +3971,15 @@
       A [supervised learning](#supervised_learning) algorithm that seeks to
       divide points in a dataset so that the empty space between the two sets
       is as wide as possible.
+
+- slug: synchronous
+  ref:
+    - asynchronous
+  en:
+    term: "synchronous"
+    def: >
+      To happen at the same time. In programming, synchronous operations are
+      ones that have to run simultaneously or complete at the same time.
 
 - slug: systematic_error
   en:
@@ -3783,7 +4074,7 @@
   en:
     term: "throw (exception)"
     def: >
-      FIXME
+      Another term for [raising](#raise_exception) an exception.
 
 - slug: tibble
   en:
@@ -3956,7 +4247,8 @@
   en:
     term: "type coercion"
     def: >
-      FIXME
+      To convert data from one type to another, e.g., from the integer `4` to
+      the equivalent floating point number `4.0`.
 
 - slug: unary_expression
   ref:
@@ -4012,7 +4304,10 @@
   en:
     term: "upstream repository"
     def: >
-      FIXME
+      The [remote repository](#remote_repository) that this repository was
+      derived from. Programmers typically save changes in their own repository
+      and then submit a [pull request](#pull_request) to the upstream repository
+      where changes from other programmers are also collected.
 
 - slug: utf_8
   en:
@@ -4128,14 +4423,15 @@
   en:
     term: "Vim (editor)"
     def: >
-      FIXME
+      The default text editor on Unix. "How do I exit the Vim editor?" is one
+      of the most popular questions on [Stack Overflow](#stack_overflow).
 
 - slug: virtual_environment
   en:
     term: "virtual environment"
     def: >
-      In Python, the `virtualenv` package allows you to create
-      virtual, disposable, Python software environments containing
+      In [Python](#python), the `virtualenv` package allows you to create
+      virtual, disposable, [Python](#python) software environments containing
       only the packages and versions of packages you want to use for a
       particular project or task, and to install new packages into the
       environment without affecting other virtual environments or the
@@ -4206,9 +4502,9 @@
   en:
     term: "XML"
     def: >
-      A set of rules for defining HTML-like tags and using them to format documents
-      (typically data). XML achieved license plate popularity in the early 2000s,
-      but its complexity led many programmers to adopt [JSON](#json) instead.
+      A set of rules for defining HTML-like tags and using them to format
+      documents (typically data). XML was popular in the early 2000s, but its
+      complexity led many programmers to adopt [JSON](#json) instead.
   es:
     term: "XML"
     def: >
