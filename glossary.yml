@@ -1837,6 +1837,15 @@
       [regular expressions](#regular_expression), such as `*.dat` to mean "all
       files whose names end in `.dat`". The name is derived from "global".
 
+- slug: gnu
+  en:
+    term: "GNU Operating System"
+    acronym: "GNU"
+    def: >
+      "GNU" is an operating system that is free software. GNU is a recursive acronym 
+      for "GNU is Not Unix!". The GNU operating system consists of GNU packages as well 
+      as free software realeased by third parties.
+
 - slug: gpl
   en:
     term: "GNU Public License"
