@@ -967,7 +967,7 @@
       knowing X allows perfect prediction of Y. If the correlation coefficient is
       0.0, knowing X tells you nothing about Y, and if it is -1.0, then X predicts
       Y, but change in X causes an opposite change in Y.
-   pt:
+  pt:
     term: "coeficiente de correlação"
     def: >
       Uma medida do quão bem duas variáveis estão [correlacionadas](#correlation). Se
