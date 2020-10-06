@@ -13,6 +13,10 @@
     term: "abandonware"
     def: >
       Software that is no longer being maintained.
+  pt:
+    term: "abandonware"
+    def: >
+      Software que não é mais mantido.
 
 - slug: absolute_error
   en:
@@ -123,6 +127,10 @@
     def: >
       Une fonction qui permet de synthétiser plusieurs valeurs en une seule,
       example, 'sum' ou 'max'.
+  pt:
+    term: "função de agregação"
+    def: >
+      Uma função que combina muitos valores em um só, como `sum` o `max`.
 
 - slug: agile
   en:
@@ -793,6 +801,12 @@
       Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il est utilisé pour décrire
       ce qui se passe lorsque le code est évalué. Les commentaires sont en général des notes brèves, qui
       commencent après un `#` (dans plusieurs langages de programmation)
+  pt:
+    term: "comentário"
+    def: >
+      Texto escrito em um script que não é tratado como código a ser executado, e sim
+      como texto que descreve o que o código está fazendo. Normalmente pe formado por
+      notas curtas, frequentemente começando com um `#` (em várias linguagens de programação.
 
 - slug: commit
   en:
@@ -937,6 +951,12 @@
       How well two variables agree with each other. Correlation is usually
       measured by calculating a [correlation coefficient](#correlation_coefficient),
       and does not imply causation.
+  pt:
+    term: "correlação"
+    def: >
+      O quão bem duas variáveis concordam uma com a outra. A correlação é normalmente
+      medida pelo cálculo de um [coeficiente de correlação](#correlation_coefficient),
+      e não significa que precise existir causalidade.
 
 - slug: correlation_coefficient
   en:
@@ -947,6 +967,14 @@
       knowing X allows perfect prediction of Y. If the correlation coefficient is
       0.0, knowing X tells you nothing about Y, and if it is -1.0, then X predicts
       Y, but change in X causes an opposite change in Y.
+   pt:
+    term: "coeficiente de correlação"
+    def: >
+      Uma medida do quão bem duas variáveis estão [correlacionadas](#correlation). Se
+      o [coeficiente de correlação](#correlation_coefficient) entre X e Y for 1.0, conhecer
+      X permite uma previsão perfeita de Y. Se o coeficiente de correlação for 0.0, conhecer
+      X não diz nada a respeito de Y, e se for -1.0, então X prevê Y, mas mudanças no valor
+      de X gera uma mudança oposta em Y.
 
 - slug: covariance
   en:
@@ -955,6 +983,12 @@
       How well two variables agree with each other. The
       [correlation coefficient](#correlation_coefficient) is a normalized
       measure of covariance.
+  pt:
+    term: "covariância"
+    def: >
+      O quão bem duas variáveis concordam uma com a outra. O
+      [coeficiente de correlação](#correlation_coefficient) é uma medida normalizada
+      da covariância.
 
 - slug: cran
   ref:
@@ -1069,12 +1103,22 @@
     def: >
       The combination of statistics, programming, and hard work used to extract
       knowledge from data.
+  pt:
+    term: "ciência de dados"
+    acronym: "data science"
+    def: >
+      A combinação de estatística, programação e trabalho duro usados para extrair
+      conhecimento a partir de dados.
 
 - slug: data_scientist
   en:
     term: "data scientist"
     def: >
       Someone who uses programming skills to solve statistical problems.
+  pt:
+    term: "cientista de dados"
+    def: >
+      Alguém que usa habilidades de programação para resolver problemas estatísticos.
 
 - slug: data_wrangling
   en:
@@ -1138,6 +1182,11 @@
     def: >
       A variable whose value depends on the value of another variable,
       which is called the [independent variable](#independent_variable).
+  pt:
+    term: "variável dependente"
+    def: >
+      Uma variável cujo valor dependa do valor de outra variável, que
+      é chamada de [variável independente](#independent_variable).
 
 - slug: depth_first
   ref:
@@ -1650,6 +1699,11 @@
     def: >
       Une collection de fonctions ayant un objectif similaire, chacune opérant sur une classe
       de données différente.
+  pt:
+    term: "função genérica"
+    def: >
+      Um conjunto de funções com propósito similar, cada uma operando em uma classe diferente
+      de dados.
 
 - slug: geometric_mean
   en:
@@ -1879,6 +1933,13 @@
       A user interface that relies on windows, menus, pointers, and other
       graphical elements, as opposed to a [command-line interface](#cli)
       or voice-driven interface.
+  pt:
+    term: "interface gráfica de usuário"
+    acronym: "GUI"
+    def: >
+      Uma interface de usuário cujo uso depende de janelas, menus, ponteiros e
+      outros elementos gráficos, em oposição a uma [interface de linha de comando](#cli)
+      ou interface comandada por voz.
 
 - slug: handle_condition
   ref:
@@ -2844,6 +2905,12 @@
       The claim that any patterns seen in data are entirely due to chance. Other
       claims (e.g., "X causes Y") must be much more likely than the null hypothesis
       in order to be substantiated.
+  pt:
+    term: "hipótese nula"
+    def: >
+      A afirmação de que quaisquer padrões observados nos dados foram gerados inteiramente
+      ao acaso. Outras afirmações (por exemplo, "X causa Y") devem ser mais prováveis de acontecer
+      do que a hipótese nula para que possam ser sustentadas.
 
 - slug: nullary_expression
   ref:
