@@ -7,6 +7,14 @@
       within two, and 99.7% lie within three. Conversely, about 0.3% of values
       lie more than three standard deviations above or below the mean in most
       cases.
+  af:
+    term: "68-95-99.7 reël"
+    def: >
+      Beskryf die beginsel dat 68% van alle waardes binne een
+      [standaardafwyking] van die gemiddelde val, 95% val binne twee en 99.7%
+      val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle 
+      val 0.3% van die waardes meer as drie standaardafwykings bo of onder 
+      die gemiddelde.
 
 - slug: abandonware
   en:
