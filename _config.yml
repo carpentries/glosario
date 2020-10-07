@@ -38,7 +38,7 @@ languages:
     blurb: >
       `glosario` es un glosario de fuente abierta de términos utilizados en la
       ciencia de datos que esta disponible en línea y también como libreria en
-      [R] (https://github.com/carpentries/glosario-r/) y
+      [R](https://github.com/carpentries/glosario-r/) y
       [Python](https://github.com/carpentries/glosario-py/). Añadiendo entradas de
       glosario a los metadatos de una lección, las autoras pueden indicar lo que
       enseña la lección, lo que las alumnas deben saber antes de comenzar y adónde
