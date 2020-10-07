@@ -72,8 +72,6 @@
       Um caminho que leva ao mesmo local no sistema de arquivos
       independente do contexto em que é avaliado. Um caminho absoluto
       pode ser comparado com a latitude e longitude em geografia.
-  ref:
-    - relative_path
 
 - slug: absolute_row_number
   en:
@@ -3595,8 +3593,6 @@
       local, como o [diretório de trabalho](#current_working_directory). Um caminho
       relativo é o equivalente a indicar um destino com termos como "siga em frente" 
       e "vire a esquerda".
-  ref: 
-    - absolute_path
 
 - slug: relative_row_number
   en:
