@@ -16,8 +16,9 @@
 
 Assign the PR based on the language to the following person:
 
-| Language | Person | 
-|:--------:|:------:|
-| English  | @zkamvar |
-| Spanish  | @ian-flores |
-| French   | @fmichonneau |
+| Language  | Person        | 
+|:---------:|:-------------:|
+| Afrikaans | @jsteyn       |
+| English   | @zkamvar      |
+| Spanish   | @ian-flores   |
+| French    | @fmichonneau  |
