@@ -2339,7 +2339,7 @@
   pt:
     term: "biblioteca"
     def: >
-      Um pacote de programas reutilisáveis, também frequentemente referido como um [módulo](#module).
+      Um pacote de programas reutilizáveis, também frequentemente referido como um [módulo](#module).
 
 - slug: license
   en:
