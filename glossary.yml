@@ -1879,6 +1879,8 @@
       as free software realeased by third parties.
 
 - slug: gpl
+  ref:
+    - gnu
   en:
     term: "GNU Public License"
     acronym: "GPL"
