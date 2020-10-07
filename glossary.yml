@@ -1105,7 +1105,6 @@
       knowledge from data.
   pt:
     term: "ciência de dados"
-    acronym: "data science"
     def: >
       A combinação de estatística, programação e trabalho duro usados para extrair
       conhecimento a partir de dados.
