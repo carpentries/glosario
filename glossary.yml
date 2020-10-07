@@ -806,7 +806,7 @@
     def: >
       Texto escrito em um script que não é tratado como código a ser executado, e sim
       como texto que descreve o que o código está fazendo. Normalmente pe formado por
-      notas curtas, frequentemente começando com um `#` (em várias linguagens de programação.
+      notas curtas, frequentemente começando com um `#` (em várias linguagens de programação).
 
 - slug: commit
   en:
