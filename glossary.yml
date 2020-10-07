@@ -828,6 +828,12 @@
       Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il est utilisé pour décrire
       ce qui se passe lorsque le code est évalué. Les commentaires sont en général des notes brèves, qui
       commencent après un `#` (dans plusieurs langages de programmation)
+  pt:
+    term: "comentário"
+    def: >
+      Texto em um script que não é tratado como código a ser executado, mas sim
+      como texto que descreve o que o código está fazendo. Em geral anotações breves,
+      frequentemente começa com um `#` (em muitas linguagens de programação).
 
 - slug: commit
   en:
@@ -2330,6 +2336,10 @@
     term: "library"
     def: >
       A reusable software package, also often called a [module](#module).
+  pt:
+    term: "biblioteca"
+    def: >
+      Um pacote de programas reutilisáveis, também frequentemente referido como um [módulo](#module).
 
 - slug: license
   en:
