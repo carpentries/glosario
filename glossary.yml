@@ -3375,7 +3375,9 @@
   en:
     term: "R Consortium"
     def: >
-      FIXME
+      A group that supports the worldwide community of users, maintainers and 
+      developers of [R](#r_language). Its members include leading institutions 
+      and companies dedicated to the use, development and growth of R. 
 
 - slug: r_foundation
   en:
