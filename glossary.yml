@@ -21,6 +21,10 @@
     term: "abandonware"
     def: >
       Software that is no longer being maintained.
+  af:
+    term: "afgooiware"
+    def: >
+      Sagteware wat nie meer onderhou word nie.
 
 - slug: absolute_error
   en:
@@ -28,6 +32,12 @@
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
+  af:
+    term: "absolute fout"
+    def: >
+      Die absolute fout is die absolute waarde van die verskil tussen die waargenome- 
+      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as 
+      die relatiewe fout.
 
 - slug: absolute_path
   ref:
@@ -38,6 +48,12 @@
       A path that points to the same location in the [filesystem](#filesystem)
       regardless of where it's evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
+  af:
+    term: "absolute roete"
+    def: >
+      'n Roete wat dieselfde posisie in die lêerstelsel aandui ongeag die 
+      posisie vanwaar dit geëvalueer word. Die absolute roete is die ekwivalent
+      van lengtegraad en breedtegraad in geografie.
   fr:
     term: "chemin d'accès absolu"
     def: >
@@ -57,6 +73,11 @@
     def: >
       The sequential index of a row in a table, regardless of what sections of the
       table is being displayed.
+  af:
+    term: "absolute rynommer"
+    def: >
+      Die opeenvolgende indeks van 'n ry in 'n tabel, ongeag die gedeelte van die 
+      tabel wat vertoon word.
   es:
     term: "número de fila absoluto"
     def: >
