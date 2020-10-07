@@ -227,11 +227,11 @@
     def: >
       Un valor pasado a una función. Algunos autores usan el término como
       sinónimo de [parámetro](#parameter) y algunos no; Todo es muy confuso.
-ar:
-  term: "وسيطة"
-  def: >
-      قيمة يتم تمريرها إلى دالة أو وسيطة ، البعض يُطلِق عليها مصطلح (مُعطى) ، والبعض
-      الآخر يُطلِق عليها مصطلح (وسيطة) ، لذلك قد تُسبب الحيرة للبعض
+  ar:
+    term: "وسيطة"
+    def: >
+       قيمة يتم تمريرها إلى دالة أو وسيطة ، البعض يُطلِق عليها مصطلح (مُعطى) ، والبعض
+       الآخر يُطلِق عليها مصطلح (وسيطة) ، لذلك قد تُسبب الحيرة للبعض
 
 - slug: arithmetic_mean
   en:
