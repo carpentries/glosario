@@ -29,6 +29,15 @@ clean :
 	@find . -name '*~' -exec rm {} \;
 	@rm -f _data/glossary.yml
 
+## check : check glossary consistency.
+check :
+	@yamllint glossary.yml
+	@python utils/check-glossary.py _config.yml glossary.yml
+
+## checkall : check glossary consistency including missing terms in all languages.
+checkall :
+	@python utils/check-glossary.py -A _config.yml glossary.yml
+
 # Create copy of glossary file for GitHub Pages site.
 _data/glossary.yml : ./glossary.yml
 	@mkdir -p _data

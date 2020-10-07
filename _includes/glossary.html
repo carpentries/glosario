@@ -37,7 +37,7 @@ Cross-references are displayed in __bold__ if that term is missing.
       {%- else -%}
         <strong>{{other_key}}</strong>
       {%- endif -%}
-    </a>
+    </a>{%- unless forloop.last -%}, {% endunless -%}
     {%- endfor -%}
     </em>
     {%- endif -%}

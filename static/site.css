@@ -26,6 +26,10 @@ dt {
     font-weight: bold;
 }
 
+dd {
+    margin-bottom: 0.5em;
+}
+
 img.flag {
     width: 1.5em;
 }
