@@ -130,7 +130,7 @@
   pt:
     term: "função de agregação"
     def: >
-      Uma função que combina muitos valores em um só, como `sum` o `max`.
+      Uma função que combina muitos valores em um só, como `sum` ou `max`.
 
 - slug: agile
   en:
