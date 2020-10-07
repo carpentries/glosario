@@ -1870,6 +1870,8 @@
       files whose names end in `.dat`". The name is derived from "global".
 
 - slug: gnu
+  ref:
+    - gpl
   en:
     term: "GNU Operating System"
     acronym: "GNU"
