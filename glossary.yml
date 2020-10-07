@@ -448,7 +448,13 @@
       A [comment](#comment) that spans multiple lines. Block comments may be
       marked with special start and end symbols, like `/*` and `*/` in C and
       its descendents, or each line may be prefixed with a marker like `#`.
-
+  pt:
+    term: "bloco de comentário"
+    def: >
+      Um [comentário](#comment) que abrange múltiplas linhas. Blocos de comentários
+      podem ser indicados com símbolos especiais, como `/*` e `*/` em C e linguagens
+      herdeiras dessa sintaxe, ou cada linha pode ser prefixada com uma indicação como `#`.
+      
 - slug: boilerplate
   en:
     term: "boilerplate"
@@ -828,12 +834,6 @@
       Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il est utilisé pour décrire
       ce qui se passe lorsque le code est évalué. Les commentaires sont en général des notes brèves, qui
       commencent après un `#` (dans plusieurs langages de programmation)
-  pt:
-    term: "comentário"
-    def: >
-      Texto em um script que não é tratado como código a ser executado, mas sim
-      como texto que descreve o que o código está fazendo. Em geral anotações breves,
-      frequentemente começa com um `#` (em muitas linguagens de programação).
 
 - slug: commit
   en:
@@ -2374,7 +2374,13 @@
       A [comment](#comment) in a program that spans part of a single line,
       as opposed to a [block comment](#block_comment) that may span multiple
       lines.
-
+  pt:
+    term: "comentário de linha"
+    def: >
+      Um [comentário](#comment) em um programa que abrange parte de uma única
+      linha, em contraste a um [bloco de comentário](#block_comment) que pode
+      abranger mútiplas linhas.
+      
 - slug: linear_regression
   ref:
     - logistic_regression
