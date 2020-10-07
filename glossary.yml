@@ -12,8 +12,8 @@
     def: >
       Beskryf die beginsel dat 68% van alle waardes binne een
       [standaardafwyking] van die gemiddelde val, 95% val binne twee en 99.7%
-      val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle 
-      val 0.3% van die waardes meer as drie standaardafwykings bo of onder 
+      val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle
+      val 0.3% van die waardes meer as drie standaardafwykings bo of onder
       die gemiddelde.
 
 - slug: abandonware
@@ -35,8 +35,8 @@
   af:
     term: "absolute fout"
     def: >
-      Die absolute fout is die absolute waarde van die verskil tussen die waargenome- 
-      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as 
+      Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
+      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as
       die relatiewe fout.
 
 - slug: absolute_path
@@ -51,7 +51,7 @@
   af:
     term: "absolute roete"
     def: >
-      'n Roete wat dieselfde posisie in die lêerstelsel aandui ongeag die 
+      'n Roete wat dieselfde posisie in die lêerstelsel aandui ongeag die
       posisie vanwaar dit geëvalueer word. Die absolute roete is die ekwivalent
       van lengtegraad en breedtegraad in geografie.
   fr:
@@ -82,7 +82,7 @@
   af:
     term: "absolute rynommer"
     def: >
-      Die opeenvolgende indeks van 'n ry in 'n tabel, ongeag die gedeelte van die 
+      Die opeenvolgende indeks van 'n ry in 'n tabel, ongeag die gedeelte van die
       tabel wat vertoon word.
   es:
     term: "número de fila absoluto"
@@ -227,6 +227,11 @@
     def: >
       Un valor pasado a una función. Algunos autores usan el término como
       sinónimo de [parámetro](#parameter) y algunos no; Todo es muy confuso.
+ar:
+  term: "وسيطة"
+  def: >
+      قيمة يتم تمريرها إلى دالة أو وسيطة ، البعض يُطلِق عليها مصطلح (مُعطى) ، والبعض
+      الآخر يُطلِق عليها مصطلح (وسيطة) ، لذلك قد تُسبب الحيرة للبعض
 
 - slug: arithmetic_mean
   en:
@@ -868,6 +873,11 @@
     def: >
       An application that translates programs written in some languages into
       machine instructions or [byte code](#byte_code).
+  ar:
+    term: "مُترجِم"
+    def: >
+      هو برنامج يقوم بترجمة النصوص المصدرية إلى أوامر ومعلومات يفهمها الحاسب
+      لذلك يُمكن للكمبيوتر فهم البرنامج وتشغيله دون استخدام برنامج البرمجة المستخدم لإنشائه
 
 - slug: computational_linguistics
   ref:
@@ -1059,7 +1069,7 @@
     def: >
       O local, pasta ou diretório, em que o programa está operando. Qualquer ação do
       programa acontece relativa a esse diretório.
-      
+
 - slug: data_engineer
   ref:
     - data_scientist
@@ -3398,9 +3408,9 @@
   en:
     term: "R Consortium"
     def: >
-      A group that supports the worldwide community of users, maintainers and 
-      developers of [R](#r_language). Its members include leading institutions 
-      and companies dedicated to the use, development and growth of R. 
+      A group that supports the worldwide community of users, maintainers and
+      developers of [R](#r_language). Its members include leading institutions
+      and companies dedicated to the use, development and growth of R.
 
 - slug: r_foundation
   en:
@@ -3591,7 +3601,7 @@
     def: >
       Um caminho cujo destino é interpretado de maneira relativa a outro
       local, como o [diretório de trabalho](#current_working_directory). Um caminho
-      relativo é o equivalente a indicar um destino com termos como "siga em frente" 
+      relativo é o equivalente a indicar um destino com termos como "siga em frente"
       e "vire a esquerda".
 
 - slug: relative_row_number
@@ -4668,12 +4678,12 @@
   es:
     term: "máquina virtual"
     def: >
-      Un programa que pretende ser una computadora. Aunque puede parecer redundante, 
+      Un programa que pretende ser una computadora. Aunque puede parecer redundante,
       las máquinas virtuales (MV) se crean y se inician rápidamente, y los cambios
-      hechos dentro de la máquina virtual quedan contenidos dentro de esa VM, 
-      esto permite que podamos instalar nuevos paquetes o ejecutar un sistema 
+      hechos dentro de la máquina virtual quedan contenidos dentro de esa VM,
+      esto permite que podamos instalar nuevos paquetes o ejecutar un sistema
       operativo diferente sin afectar la computadora subyacente.
-      
+
 - slug: visitor_pattern
   ref:
     - iterator_pattern
