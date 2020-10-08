@@ -17,7 +17,7 @@ languages:
     name: Afrikaans
     title: Woordelys
     blurb: >
-      `glosario` is 'n oop bron woordelys van terminologie wat in datawetenskap 
+      `glosario` is 'n oopbronwoordelys van terminologie wat in datawetenskap 
       gebruik word en beskikbaar gestel word aanlyn sowel as 'n programmateek in 
       [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/). 
       Deur woordelyssleutels by 'n
