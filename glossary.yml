@@ -7,6 +7,14 @@
       within two, and 99.7% lie within three. Conversely, about 0.3% of values
       lie more than three standard deviations above or below the mean in most
       cases.
+  af:
+    term: "68-95-99.7 reël"
+    def: >
+      Beskryf die beginsel dat 68% van alle waardes binne een
+      [standaardafwyking] van die gemiddelde val, 95% val binne twee en 99.7%
+      val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle 
+      val 0.3% van die waardes meer as drie standaardafwykings bo of onder 
+      die gemiddelde.
 
 - slug: abandonware
   en:
@@ -17,6 +25,10 @@
     term: "abandonware"
     def: >
       Software que não é mais mantido.
+  af:
+    term: "afgooiware"
+    def: >
+      Sagteware wat nie meer onderhou word nie.
 
 - slug: absolute_error
   en:
@@ -24,6 +36,12 @@
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
+  af:
+    term: "absolute fout"
+    def: >
+      Die absolute fout is die absolute waarde van die verskil tussen die waargenome- 
+      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as 
+      die relatiewe fout.
 
 - slug: absolute_path
   ref:
@@ -34,6 +52,12 @@
       A path that points to the same location in the [filesystem](#filesystem)
       regardless of where it's evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
+  af:
+    term: "absolute roete"
+    def: >
+      'n Roete wat dieselfde posisie in die lêerstelsel aandui ongeag die 
+      posisie vanwaar dit geëvalueer word. Die absolute roete is die ekwivalent
+      van lengtegraad en breedtegraad in geografie.
   fr:
     term: "chemin d'accès absolu"
     def: >
@@ -46,6 +70,12 @@
       Una ruta que dirige a la misma ubicación en el sistema de archivos
       independientemente del contexto donde sea evaluada. Una ruta absoluta es
       el equivalente a la latitud y longitud en geografía.
+  pt:
+    term: "caminho absoluto"
+    def: >
+      Um caminho que leva ao mesmo local no sistema de arquivos
+      independente do contexto em que é avaliado. Um caminho absoluto
+      pode ser comparado com a latitude e longitude em geografia.
 
 - slug: absolute_row_number
   en:
@@ -53,6 +83,11 @@
     def: >
       The sequential index of a row in a table, regardless of what sections of the
       table is being displayed.
+  af:
+    term: "absolute rynommer"
+    def: >
+      Die opeenvolgende indeks van 'n ry in 'n tabel, ongeag die gedeelte van die 
+      tabel wat vertoon word.
   es:
     term: "número de fila absoluto"
     def: >
@@ -421,7 +456,13 @@
       A [comment](#comment) that spans multiple lines. Block comments may be
       marked with special start and end symbols, like `/*` and `*/` in C and
       its descendents, or each line may be prefixed with a marker like `#`.
-
+  pt:
+    term: "bloco de comentário"
+    def: >
+      Um [comentário](#comment) que abrange múltiplas linhas. Blocos de comentários
+      podem ser indicados com símbolos especiais, como `/*` e `*/` em C e linguagens
+      herdeiras dessa sintaxe, ou cada linha pode ser prefixada com uma indicação como `#`.
+      
 - slug: boilerplate
   en:
     term: "boilerplate"
@@ -1053,7 +1094,12 @@
     def: >
       The folder or directory location that the program is operating in. Any action
       taken by the program occurs relative to this directory.
-
+  pt:
+    term: "diretório de trabalho"
+    def: >
+      O local, pasta ou diretório, em que o programa está operando. Qualquer ação do
+      programa acontece relativa a esse diretório.
+      
 - slug: data_engineer
   ref:
     - data_scientist
@@ -1882,7 +1928,20 @@
       [regular expressions](#regular_expression), such as `*.dat` to mean "all
       files whose names end in `.dat`". The name is derived from "global".
 
+- slug: gnu
+  ref:
+    - gpl
+  en:
+    term: "GNU Operating System"
+    acronym: "GNU"
+    def: >
+      "GNU" is an operating system that is free software. GNU is a recursive acronym 
+      for "GNU is Not Unix!". The GNU operating system consists of GNU packages as well 
+      as free software realeased by third parties.
+
 - slug: gpl
+  ref:
+    - gnu
   en:
     term: "GNU Public License"
     acronym: "GPL"
@@ -2350,6 +2409,10 @@
     term: "library"
     def: >
       A reusable software package, also often called a [module](#module).
+  pt:
+    term: "biblioteca"
+    def: >
+      Um pacote de programas reutilizáveis, também frequentemente referido como um [módulo](#module).
 
 - slug: license
   en:
@@ -2384,7 +2447,13 @@
       A [comment](#comment) in a program that spans part of a single line,
       as opposed to a [block comment](#block_comment) that may span multiple
       lines.
-
+  pt:
+    term: "comentário de linha"
+    def: >
+      Um [comentário](#comment) em um programa que abrange parte de uma única
+      linha, em contraste a um [bloco de comentário](#block_comment) que pode
+      abranger mútiplas linhas.
+      
 - slug: linear_regression
   ref:
     - logistic_regression
@@ -3612,6 +3681,13 @@
       directory](#current_working_directory). A relative path is the
       equivalent of giving directions using terms like "straight" and
       "left".
+  pt:
+    term: "caminho relativo"
+    def: >
+      Um caminho cujo destino é interpretado de maneira relativa a outro
+      local, como o [diretório de trabalho](#current_working_directory). Um caminho
+      relativo é o equivalente a indicar um destino com termos como "siga em frente" 
+      e "vire a esquerda".
 
 - slug: relative_row_number
   en:
