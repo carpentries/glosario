@@ -22,3 +22,4 @@ Assign the PR based on the language to the following person:
 | English   | @zkamvar      |
 | Spanish   | @ian-flores   |
 | French    | @fmichonneau  |
+| Portuguese| @beatrizmilz  |
