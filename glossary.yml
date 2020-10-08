@@ -11,7 +11,7 @@
     term: "68-95-99.7 reël"
     def: >
       Beskryf die beginsel dat 68% van alle waardes binne een
-      [standaardafwyking](#standard_deviation) van die [gemiddelde](#mean) VAl, 
+      [standaardafwyking](#standard_deviation) van die [gemiddelde](#mean) val, 
       95% val binne twee en 99.7%
       val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle 
       val 0.3% van die waardes meer as drie standaardafwykings bo of onder 
@@ -99,13 +99,13 @@
       defined but not implemented. Programmers will define an abstract method
       in a [parent class](#parent_class) to specify operations that
       [child classes](#child_class) must provide.
-   af:
-     term: "abstrakte metode"
-     def: >
-       'n [Metode](#method), in [objekgeoriënteerde programmering](#oop), wat gedefiniëer maar nie 
-       geïmplementeer is nie. Programmeerders sal 'n abstrakte metode in 'n 
-       [voorsaatklas](#parent_class) definiëer wat in [nasaatklasse](#child_class) 
-       geïmplementeer moet word.
+  af:
+    term: "abstrakte metode"
+    def: >
+      'n [Metode](#method), in [objekgeoriënteerde programmering](#oop), wat gedefiniëer maar nie 
+      geïmplementeer is nie. Programmeerders sal 'n abstrakte metode in 'n 
+      [voorsaatklas](#parent_class) definiëer wat in [nasaatklasse](#child_class) 
+      geïmplementeer moet word.
 
 - slug: abstract_syntax_tree
   en:
