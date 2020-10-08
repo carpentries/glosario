@@ -26,10 +26,14 @@ languages:
       die inligting kan vind. Outeurs kan ook die programmateekfunksies gebruik om
       konsekwente hiperskakels, vir terme en definisies in enige van verskeie tale, 
       by hul lesse in te sluit.
+  - key: ar
+    name: Arabic
+    title: قائمة المصطلحات
+    blurb: >-
+      In translation.
   - key: en
     name: English
     title: Glossary
-    flag: united-kingdom
     blurb: >
       `glosario` is an open source glossary of terms used in data science that is
       available online and also as a library in both
