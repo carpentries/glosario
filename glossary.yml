@@ -1180,6 +1180,16 @@
       A tree whose nodes are questions and whose branches eventually lead
       to a decision or classification.
 
+- slug: decorator_pattern
+  en:
+    term: "Decorator pattern"
+    def: >
+      A [design pattern](#design_pattern) in which a function adds
+      additional features to another function or a [class](#class)
+      after its initial definition. Decorators are a feature of
+      [Python](#python) and can be implemented in most other
+      languages as well.
+
 - slug: deep_learning
   en:
     term: "deep learning"
@@ -1214,6 +1224,16 @@
     term: "degrees of freedom"
     def: >
       FIXME
+
+- slug: delegate_pattern
+  en:
+    term: "Delegate pattern"
+    def: >
+      A [design pattern](#design_pattern) in which an object does most
+      of the work to complete a task, but uses one of a set of other
+      objects to complete some specific parts of the work. Delegation
+      is often used instead of inheritance to customize objects'
+      behavior.
 
 - slug: dependency
   en:
