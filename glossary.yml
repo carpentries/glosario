@@ -11,7 +11,8 @@
     term: "68-95-99.7 reël"
     def: >
       Beskryf die beginsel dat 68% van alle waardes binne een
-      [standaardafwyking] van die gemiddelde val, 95% val binne twee en 99.7%
+      [standaardafwyking](#standard_deviation) van die [gemiddelde](#mean) val, 
+      95% val binne twee en 99.7%
       val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle 
       val 0.3% van die waardes meer as drie standaardafwykings bo of onder 
       die gemiddelde.
@@ -41,7 +42,7 @@
     def: >
       Die absolute fout is die absolute waarde van die verskil tussen die waargenome- 
       en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as 
-      die relatiewe fout.
+      die [relatiewe](#relative_error) fout.
 
 - slug: absolute_path
   ref:
@@ -55,7 +56,7 @@
   af:
     term: "absolute roete"
     def: >
-      'n Roete wat dieselfde posisie in die lêerstelsel aandui ongeag die 
+      'n Roete wat dieselfde posisie in die [lêerstelsel](#filesystem) aandui ongeag die 
       posisie vanwaar dit geëvalueer word. Die absolute roete is die ekwivalent
       van lengtegraad en breedtegraad in geografie.
   fr:
@@ -102,6 +103,13 @@
       defined but not implemented. Programmers will define an abstract method
       in a [parent class](#parent_class) to specify operations that
       [child classes](#child_class) must provide.
+  af:
+    term: "abstrakte metode"
+    def: >
+      'n [Metode](#method), in [objekgeoriënteerde programmering](#oop), wat gedefiniëer maar nie 
+      geïmplementeer is nie. Programmeerders sal 'n abstrakte metode in 'n 
+      [voorsaatklas](#parent_class) definiëer wat in [nasaatklasse](#child_class) 
+      geïmplementeer moet word.
 
 - slug: abstract_syntax_tree
   en:
@@ -113,6 +121,15 @@
       For example, the AST might have a [node](#node) representing a [`while` loop](#while_loop)
       with one [child](#child_tree) representing the loop condition
       and another representing the [loop body](#loop_body).
+  af:
+    term: "abstrakte sintaksisontledingsboom"
+    def: >
+      'n Diepgeneste datastruktuur, of [boom](#tree),
+      wat die struktuur van 'n program verteenwoordig.
+      Byvoorbeeld, as die abstrakte sintaksontledingsboom 'n [nodus](#node) het wat
+      'n [`doen` terwyl-lus](#while_loop) verteenwoordig wat 
+      met een [naasaatontledingsboom](#child_tree) die lustoestand verteenwoordig en 'n ander nasaatontledingsboom
+      wat die [lusraam](#loop_body) verteenwoordig.
 
 - slug: actual_result
   en:
@@ -1180,6 +1197,16 @@
       A tree whose nodes are questions and whose branches eventually lead
       to a decision or classification.
 
+- slug: decorator_pattern
+  en:
+    term: "Decorator pattern"
+    def: >
+      A [design pattern](#design_pattern) in which a function adds
+      additional features to another function or a [class](#class)
+      after its initial definition. Decorators are a feature of
+      [Python](#python) and can be implemented in most other
+      languages as well.
+
 - slug: deep_learning
   en:
     term: "deep learning"
@@ -1214,6 +1241,16 @@
     term: "degrees of freedom"
     def: >
       FIXME
+
+- slug: delegate_pattern
+  en:
+    term: "Delegate pattern"
+    def: >
+      A [design pattern](#design_pattern) in which an object does most
+      of the work to complete a task, but uses one of a set of other
+      objects to complete some specific parts of the work. Delegation
+      is often used instead of inheritance to customize objects'
+      behavior.
 
 - slug: dependency
   en:
