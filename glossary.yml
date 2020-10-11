@@ -3014,8 +3014,6 @@
       em um método comparável e com uma sintaxe semelhante ao software Matlab. Você pode encontrar funções 
       e operações sofisticadas, focadas em arrays multidimensionais, álgebra linear, transformada de Fourrier 
       e geração de valores aleatórios.
-
-
 - slug: object
   en:
     term: "object"
@@ -3176,8 +3174,6 @@
       É um pacote Python de código aberto que oferece estruturas de dados rápidas, flexíveis
       e expressivas para tornar o trabalho com séries temporais estruturadas fácil e 
       intuitivo. É usado como uma ferramenta poderosa para análise e manipulação de dados.
-
-
 
 - slug: parameter
   en:
@@ -3520,7 +3516,6 @@
     def: >
       Uma linguagem de programação de código aberto interpretada popular que 
       depende de indentação para definir a estrutura de controle.
-
 
 - slug: quantile
   en:
