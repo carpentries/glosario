@@ -2990,6 +2990,32 @@
     def: >
       An "expression" with no arguments, such as the value 3.
 
+- slug: numpy
+  ref:
+    - python
+  en:
+    term: "numpy"
+    def: >
+      Is a Python package open source that allow work with arrays, vectors and matrices of dimension N, 
+      in a comparable method and with a sintax similar at Matlab software. You can find functions and 
+      sofisticated operations, focused in multidimension arrays, linear algebra, Fourrier transform and 
+      geration of aleatoty values. 
+  es:
+    term:"numpy"
+    def: >
+      Es un paquete Python de código abierto que le permite trabajar con arreglos, vectores y matrices de 
+      dimensión N, en un método comparable y con una sintaxis similar al software Matlab. Puede encontrar 
+      funciones y operaciones sofisticadas, enfocadas en matrices multidimensionales, álgebra lineal, 
+      transformada de Fourrier y generación de valores aleatorios.
+  pt:
+    term: "numpy"
+    def: >
+      É um pacote Python open source que permite trabalhar com arrays, vetores e matrizes de dimensão N, 
+      em um método comparável e com uma sintaxe semelhante ao software Matlab. Você pode encontrar funções 
+      e operações sofisticadas, focadas em arrays multidimensionais, álgebra linear, transformada de Fourrier 
+      e geração de valores aleatórios.
+
+
 - slug: object
   en:
     term: "object"
@@ -3127,6 +3153,31 @@
     term: "pager"
     def: >
       A program that displays a few lines of text at a time.
+
+- slug: pandas
+  ref: 
+    - python
+  en:
+    term: "pandas"
+    def: >
+      Is a Python package open source that offers fast, flexibility and expressive data 
+      structures to make working with structured, and time series easy and intuitive. Is 
+      used like a powerful tool for data analysis and data manipulation.
+  es:
+    term: "pandas"
+    def: >
+      Es un paquete de Python de código abierto que ofrece estructuras de datos rápidas, 
+      flexibles y expresivas para que trabajar con series de tiempo estructuradas sea fácil 
+      e intuitivo. Se utiliza como una poderosa herramienta para el análisis y la manipulación 
+      de datos.
+  pt:
+    term: "pandas"
+    def: >
+      É um pacote Python de código aberto que oferece estruturas de dados rápidas, flexíveis
+      e expressivas para tornar o trabalho com séries temporais estruturadas fácil e 
+      intuitivo. É usado como uma ferramenta poderosa para análise e manipulação de dados.
+
+
 
 - slug: parameter
   en:
@@ -3459,6 +3510,17 @@
     def: >
       A popular interpreted open-source programming language that relies on
       indentation to define control structure.
+  es:
+    term: "Python"
+    def: >
+      Uma linguagem de programação de código aberto interpretada popular que se 
+      baseia em indentação para definir a estrutura de controle.
+  pt:
+    term: "Python"
+    def: >
+      Uma linguagem de programação de código aberto interpretada popular que 
+      depende de indentação para definir a estrutura de controle.
+
 
 - slug: quantile
   en:
