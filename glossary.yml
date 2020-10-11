@@ -3513,8 +3513,8 @@
   es:
     term: "Python"
     def: >
-      Uma linguagem de programação de código aberto interpretada popular que se 
-      baseia em indentação para definir a estrutura de controle.
+      Un lenguaje de programación de código abierto interpretado popular que 
+      se basa en la sangría para definir la estructura de control.
   pt:
     term: "Python"
     def: >
