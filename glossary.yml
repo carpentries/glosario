@@ -3001,7 +3001,7 @@
       sofisticated operations, focused in multidimension arrays, linear algebra, Fourrier transform and 
       geration of aleatoty values. 
   es:
-    term:"numpy"
+    term: "numpy"
     def: >
       Es un paquete Python de código abierto que le permite trabajar con arreglos, vectores y matrices de 
       dimensión N, en un método comparable y con una sintaxis similar al software Matlab. Puede encontrar 
