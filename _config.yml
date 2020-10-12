@@ -1,0 +1,87 @@
+title: "Glossary"
+repository: <USERNAME>/<PROJECT>
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+kramdown:
+  toc_levels: "2"
+exclude:
+  - "Makefile"
+  - "README.md"
+  - "bin/*"
+  - "vendor"
+languages:
+  - key: af
+    name: Afrikaans
+    title: Woordelys
+    blurb: >
+      `glosario` is 'n oopbronwoordelys van terminologie wat in datawetenskap 
+      gebruik word en beskikbaar gestel word aanlyn sowel as 'n programmateek in 
+      [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/). 
+      Deur woordelyssleutels by 'n
+      les se metadata in te sluit, kan outeurs aandui watter inligting in 'n les gedek
+      word, wat leerders behoort te weet voordat die les begin en waar leerders
+      die inligting kan vind. Outeurs kan ook die programmateekfunksies gebruik om
+      konsekwente hiperskakels, vir terme en definisies in enige van verskeie tale, 
+      by hul lesse in te sluit.
+  - key: en
+    name: English
+    title: Glossary
+    flag: united-kingdom
+    blurb: >
+      `glosario` is an open source glossary of terms used in data science that is
+      available online and also as a library in both
+      [R](https://github.com/carpentries/glosario-r/) and
+      [Python](https://github.com/carpentries/glosario-py/).  By adding glossary
+      keys to a lesson's metadata, authors can indicate what the lesson teaches,
+      what learners ought to know before they start, and where they can go to find
+      that knowledge.  Authors can also use the library's functions to insert
+      consistent hyperlinks for terms and definitions in their lessons in any of
+      several languages.
+  - key: es
+    name: Español
+    title: Glosario
+    blurb: >
+      `glosario` es un glosario de fuente abierta de términos utilizados en la
+      ciencia de datos que esta disponible en línea y también como libreria en
+      [R](https://github.com/carpentries/glosario-r/) y
+      [Python](https://github.com/carpentries/glosario-py/). Añadiendo entradas de
+      glosario a los metadatos de una lección, las autoras pueden indicar lo que
+      enseña la lección, lo que las alumnas deben saber antes de comenzar y adónde
+      pueden ir para encontrar ese conocimiento. Las autoras también pueden
+      utilizar las funciones de la libreria para insertar enlaces consistentes
+      para términos y definiciones en sus lecciones en cualquiera de lenguajes
+      severos.
+  - key: fr
+    name: Français
+    title: Glossaire
+    blurb: >
+      `glosario` est un glossaire _open-source_ (à code source ouvert) pour les termes
+      utilisés en science des données (_data science_) qui est disponible en ligne mais
+      aussi sous forme de paquets pour [R](https://github.com/carpentries/glosario-r) et
+      [Python](https://github.com/carpentries/glosario-py). En ajoutant des termes du 
+      glossaire dans les métadonnées de leçons, les auteurs peuvent indiquer ce
+      qu'enseigne la leçon, ce que les élèves doivent savoir avant de commencer, et où
+      les élèves peuvent aller pour trouver ces informations. Les auteurs de leçons 
+      peuvent aussi insérer des liens vers les définitions des termes utilisés dans leurs
+      leçons, et ce, en plusieurs langages.
+  - key: pt
+    name: Português
+    title: Glossário
+    blurb: >
+      `glosario` é um glossário de código aberto (_open source_) de termos utilizados
+      em  ciência de dados (_data science_) que está disponível online, e também como 
+      um pacote de [R](https://github.com/carpentries/glosario-r/) e uma biblioteca
+      de [Python](https://github.com/carpentries/glosario-py/). Ao adicionar termos
+      do glossário nos metadados de uma lição, as pessoas autoras podem indicar o
+      conteúdo da lição, o que as pessoas alunas precisam saber antes de começar,
+      e onde podem procurar para encontrar estes conteúdos. As pessoas autoras também
+      podem utilizar as funções das bibliotecas para inserir _links_ consistentes 
+      para termos e definições em suas lições, em qualquer idioma disponível.
+  - key: zu
+    name: IsiZulu
+    title: Uhlu Lwamagama
+    blurb: >
+      In translation.

@@ -1,0 +1,63 @@
+{% assign gloss = site.data.glossary %}
+{% assign language = page.permalink | replace: '/', '' %}
+
+{%- comment -%}
+Find terms defined in this language and sort alphabetically.
+- 'defined' is a string of (term-in-lower-case, slug) pairs.
+- 'sorted' is that list in sorted ordered.
+- 'ordered' is a string of slugs.
+- 'actual' is a list of slugs sorted by terms.
+{%- endcomment -%}
+{%- capture defined -%}{%- for item in gloss -%}{%- if item[language] -%}{{item[language].term | downcase}}IN_ITEM{{item.slug}}BETWEEN_ITEMS{%- endif -%}{%- endfor -%}{%- endcapture -%}
+{%- assign sorted = defined | split: 'BETWEEN_ITEMS' | sort -%}
+{%- capture ordered -%}{%- for item in sorted -%}{{item | split: 'IN_ITEM' | last}}BETWEEN_ITEMS{%- endfor -%}{%- endcapture -%}
+{%- assign actual = ordered | split: 'BETWEEN_ITEMS' -%}
+
+{%- comment -%}
+Display glossary in alphabetical order.
+Cross-references are displayed in __bold__ if that term is missing.
+{%- endcomment -%}
+<dl>
+{%- for slug in actual -%}
+  {% assign item = gloss | where: "slug", slug | first %}
+  {% if item[language] %}
+  <dt id="{{item.slug}}">{{item[language].term}}</dt>
+  <dd>
+    {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
+    {%- comment -%} Explicit cross-references {%- endcomment -%}
+    {%- if item.ref -%}
+    <br/>
+    <em>
+    &rarr;
+    {% for other_key in item.ref -%}
+    {%- assign other = gloss | where: "slug", other_key | first -%}
+    <a href="#{{other_key}}">
+      {%- if other[language] -%}
+        {{other[language].term}}
+      {%- else -%}
+        <strong>{{other_key}}</strong>
+      {%- endif -%}
+    </a>{%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
+    </em>
+    {%- endif -%}
+    {%- comment -%} Translations {%- endcomment -%}
+    {% assign others = '' | split: ',' %}
+    {% for lang in site.languages %}
+      {% if lang.key != language and item[lang.key] %}
+        {% assign others = others | push: lang %}
+      {% endif %}
+    {% endfor %}
+    {%- if others.size > 0 -%}
+    <br/>
+    <em>
+      &otimes;
+      {% for lang in others -%}
+      <a href="../{{lang.key}}/#{{slug}}">{{lang.name}}</a>{%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
+    </em>
+    {%- endif -%}
+  </dd>
+  {% endif %}
+{%- endfor -%}
+</dl>
