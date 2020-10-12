@@ -140,6 +140,13 @@
       the test [passes](#pass_test);
       if the two are different,
       the test [fails](#fail_test).
+  af:
+    term: "absolute resultaat (van 'n toets)"
+    def: >
+      Die waarde wat deur 'n toets gegenereer is.
+      Indien dié waarde gelyk is aan die [verwagte resultaat](#actual_result),
+      is die toets suksesvol; as die twee waardes verskil het die toets
+      gefaal.
 
 - slug: affordance
   en:
@@ -147,6 +154,11 @@
     def: >
       A property of something that suggests how it can be used, such as a handle
       or button.
+  af:
+    term: "bekostigbaarheid"
+    def: >
+      'n Einskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld
+      'n lêerhanteerder of 'n knoppie.
 
 - slug: aggregation
   en:
@@ -164,6 +176,11 @@
     def: >
        Synthétise plusieurs valeurs en une seule, example, en sommant plusieurs nombres ou
        en concaténant un ensemble de caractères.
+  af:
+    term: "samevoeging"
+    def: >
+      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op
+      te som of om 'n versameling alfabetiese stringe aaneen te skakel.
 
 - slug: aggregation_function
   en:
@@ -183,6 +200,11 @@
     term: "função de agregação"
     def: >
       Uma função que combina muitos valores em um só, como `sum` ou `max`.
+  af:
+    term: "aggregaatfunksie"
+    def: >
+      'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en 
+      `max` (maksimale waarde)
 
 - slug: agile
   en:
@@ -191,6 +213,12 @@
       A software development methodology that emphasizes lots of small steps and
       continuous feedback instead of up-front planning and long-term scheduling.
       [Exploratory programming](#exploratory_programming) is often agile.
+  af:
+    term: "lenige ontwikkeling"
+    def: >
+      'n Sagteware-ontwikkelingsmetode wat die klem lê op vele klein stappies en
+      deurlopende terugvoering in plaas van vooraf beplanning en langtermyn skeduluering.
+      [Verkennende programmering](#exploratory_programming) is dikwel lenig.
 
 - slug: aliasing
   en:
@@ -198,6 +226,11 @@
     def: >
       To have two or more references to the same thing, such as a data structure
       in memory or a file on disk.
+  af:
+    term: "aliasering"
+    def: >
+      Om twee of meer verwysing na dieselfde ding te hê, soos byvoorbeeld meer as 
+      een verwysing na 'n datastruktuur in geheue of na 'n lêer op 'n skyf.
 
 - slug: anchor
   en:
@@ -215,6 +248,12 @@
       A function that has not been assigned a name.  Anonymous functions are
       usually quite short, and are usually defined where they are used, e.g., as
       callbacks.
+  af:
+    term: "anonieme funksie"
+    def: >
+      'n Funksie waaraan daar nie 'n naam toegeken is nie. Anonieme funksies is
+      gewoonlik baie kort en word gewoonlik gedefinieer waar hulle gebruik
+      word bv. in die geval van 'n [terugskakelfunksie](#callback).
 
 - slug: anti_join
   en:
