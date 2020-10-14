@@ -83,6 +83,7 @@ languages:
   - key: ja
     name: 日本語
     title: グロサリオ
+    flag: japan
     blurb: >
       `グロサリオ`は、RとPythonの両方でライブラリを使て、オンラインで利用可能だ
       データサイエンスで使用される用語のオープンソースグロッサリーです。
