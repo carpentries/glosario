@@ -84,7 +84,9 @@ languages:
     name: 日本語
     title: グロサリオ
     blurb: >
-      `グロサリオ` translation in progress
+      `グロサリオ`は、RとPythonの両方でライブラリを使て、オンラインで利用可能だ
+       データサイエンスで使用される用語のオープンソースグロッサリーです。
+       translation in progress
   - key: zu
     name: IsiZulu
     title: Uhlu Lwamagama
