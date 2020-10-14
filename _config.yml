@@ -80,6 +80,11 @@ languages:
       e onde podem procurar para encontrar estes conteúdos. As pessoas autoras também
       podem utilizar as funções das bibliotecas para inserir _links_ consistentes 
       para termos e definições em suas lições, em qualquer idioma disponível.
+  - key: ja
+    name: 日本語
+    title: グロサリオ
+    blurb: >
+      `グロサリオ` translation in progress
   - key: zu
     name: IsiZulu
     title: Uhlu Lwamagama
