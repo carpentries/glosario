@@ -17,7 +17,7 @@ languages:
     name: Afrikaans
     title: Woordelys
     blurb: >
-      `glosario` is 'n oop bron woordelys van terminologie wat in datawetenskap 
+      `glosario` is 'n oopbronwoordelys van terminologie wat in datawetenskap 
       gebruik word en beskikbaar gestel word aanlyn sowel as 'n programmateek in 
       [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/). 
       Deur woordelyssleutels by 'n
@@ -26,10 +26,14 @@ languages:
       die inligting kan vind. Outeurs kan ook die programmateekfunksies gebruik om
       konsekwente hiperskakels, vir terme en definisies in enige van verskeie tale, 
       by hul lesse in te sluit.
+  - key: ar
+    name: Arabic
+    title: قائمة المصطلحات
+    blurb: >-
+      In translation.
   - key: en
     name: English
     title: Glossary
-    flag: united-kingdom
     blurb: >
       `glosario` is an open source glossary of terms used in data science that is
       available online and also as a library in both
@@ -80,6 +84,19 @@ languages:
       e onde podem procurar para encontrar estes conteúdos. As pessoas autoras também
       podem utilizar as funções das bibliotecas para inserir _links_ consistentes 
       para termos e definições em suas lições, em qualquer idioma disponível.
+  - key: ja
+    name: 日本語
+    title: グロサリオ
+    flag: japan
+    blurb: >
+      `グロサリオ`は、[R](https://github.com/carpentries/glosario-r)と
+      [Python](https://github.com/carpentries/glosario-py/)の両方でライブラリを使て、
+      オンラインで利用可能だデータサイエンスで使用される
+      用語のオープンソースグロッサリーです。
+      著作者はレッスンの教材や予備知識やその知識を見つけるの所を教えるのように、
+      レッスンのメタデータに新しい用語をグロサリオに追します。
+      ライブラリの機能を使って、多言語で用語や定義のために、
+      一貫性のハイパーリンクを組み込めます。
   - key: zu
     name: IsiZulu
     title: Uhlu Lwamagama
