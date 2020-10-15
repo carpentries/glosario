@@ -11,10 +11,10 @@
     term: "68-95-99.7 reël"
     def: >
       Beskryf die beginsel dat 68% van alle waardes binne een
-      [standaardafwyking](#standard_deviation) van die [gemiddelde](#mean) val, 
+      [standaardafwyking](#standard_deviation) van die [gemiddelde](#mean) val,
       95% val binne twee en 99.7%
-      val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle 
-      val 0.3% van die waardes meer as drie standaardafwykings bo of onder 
+      val binne drie standaardafwykings. Omgekeerd, in die meeste gevalle
+      val 0.3% van die waardes meer as drie standaardafwykings bo of onder
       die gemiddelde.
 
 - slug: abandonware
@@ -40,8 +40,8 @@
   af:
     term: "absolute fout"
     def: >
-      Die absolute fout is die absolute waarde van die verskil tussen die waargenome- 
-      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as 
+      Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
+      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as
       die [relatiewe](#relative_error) fout.
 
 - slug: absolute_path
@@ -56,7 +56,7 @@
   af:
     term: "absolute roete"
     def: >
-      'n Roete wat dieselfde posisie in die [lêerstelsel](#filesystem) aandui ongeag die 
+      'n Roete wat dieselfde posisie in die [lêerstelsel](#filesystem) aandui ongeag die
       posisie vanwaar dit geëvalueer word. Die absolute roete is die ekwivalent
       van lengtegraad en breedtegraad in geografie.
   fr:
@@ -106,9 +106,9 @@
   af:
     term: "abstrakte metode"
     def: >
-      'n [Metode](#method), in [objekgeoriënteerde programmering](#oop), wat gedefiniëer maar nie 
-      geïmplementeer is nie. Programmeerders sal 'n abstrakte metode in 'n 
-      [voorsaatklas](#parent_class) definiëer wat in [nasaatklasse](#child_class) 
+      'n [Metode](#method), in [objekgeoriënteerde programmering](#oop), wat gedefiniëer maar nie
+      geïmplementeer is nie. Programmeerders sal 'n abstrakte metode in 'n
+      [voorsaatklas](#parent_class) definiëer wat in [nasaatklasse](#child_class)
       geïmplementeer moet word.
 
 - slug: abstract_syntax_tree
@@ -127,7 +127,7 @@
       'n Diepgeneste datastruktuur, of [boom](#tree),
       wat die struktuur van 'n program verteenwoordig.
       Byvoorbeeld, as die abstrakte sintaksontledingsboom 'n [nodus](#node) het wat
-      'n [`doen` terwyl-lus](#while_loop) verteenwoordig wat 
+      'n [`doen` terwyl-lus](#while_loop) verteenwoordig wat
       met een [naasaatontledingsboom](#child_tree) die lustoestand verteenwoordig en 'n ander nasaatontledingsboom
       wat die [lusraam](#loop_body) verteenwoordig.
 
@@ -203,7 +203,7 @@
   af:
     term: "aggregaatfunksie"
     def: >
-      'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en 
+      'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en
       `max` (maksimale waarde)
 
 - slug: agile
@@ -229,7 +229,7 @@
   af:
     term: "aliasering"
     def: >
-      Om twee of meer verwysing na dieselfde ding te hê, soos byvoorbeeld meer as 
+      Om twee of meer verwysing na dieselfde ding te hê, soos byvoorbeeld meer as
       een verwysing na 'n datastruktuur in geheue of na 'n lêer op 'n skyf.
 
 - slug: anchor
@@ -523,7 +523,7 @@
       Um [comentário](#comment) que abrange múltiplas linhas. Blocos de comentários
       podem ser indicados com símbolos especiais, como `/*` e `*/` em C e linguagens
       herdeiras dessa sintaxe, ou cada linha pode ser prefixada com uma indicação como `#`.
-      
+
 - slug: boilerplate
   en:
     term: "boilerplate"
@@ -543,6 +543,13 @@
        19th Century mathemetician. Binary systems, like all computers are built
        on this foundation of systems of logical evaluations between states of
        true and false, 1 or 0.
+  ar:
+    term: "التعبير المنطقي"
+    def: >
+        التعبير المنطقي عبارة عن تعبير يُستخدم لإنشاء جمل إما
+        (true or false) تحمل القيمة صح أو القية خطأ
+        تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
+        وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية والتعبيرات العلائقية
 
 - slug: branch
   en:
@@ -716,6 +723,11 @@
     def: >
       To accept responsibility for handling an error or other unexpected event.
       R prefers "handling a condition" to "catching an exception".
+  ar:
+    term: "إستثناء"
+    def: >
+      الإستثناء هو الشرط الخاص الذي يعالج به الشذوذ إو الشيء الغير متوقع
+      الذي حدث أثناء تنفيذ البرنامج
 
 - slug: causation
   en:
@@ -2021,8 +2033,8 @@
     term: "GNU Operating System"
     acronym: "GNU"
     def: >
-      "GNU" is an operating system that is free software. GNU is a recursive acronym 
-      for "GNU is Not Unix!". The GNU operating system consists of GNU packages as well 
+      "GNU" is an operating system that is free software. GNU is a recursive acronym
+      for "GNU is Not Unix!". The GNU operating system consists of GNU packages as well
       as free software realeased by third parties.
 
 - slug: gpl
@@ -2539,7 +2551,7 @@
       Um [comentário](#comment) em um programa que abrange parte de uma única
       linha, em contraste a um [bloco de comentário](#block_comment) que pode
       abranger mútiplas linhas.
-      
+
 - slug: linear_regression
   ref:
     - logistic_regression
@@ -2932,6 +2944,11 @@
     term: "NA"
     def: >
       A special value used to represent data that is not available.
+  ar:
+    term: "لاشيء"
+    def: >
+      هو رمز مميز يٌمثِل حرفاً بلا قيمةأو قيمة مفقودة
+      أي انه يرمز إلى عدم وجود أي قيمة على الإطلاق
 
 - slug: naive_bayes_classifier
   en:
@@ -4755,6 +4772,11 @@
     def: >
        Un nom associé à des données au niveau d'un programme. La valeur d'une variable
        peut être modifiée après l'avoir définie.
+  ar:
+    term: "المتغير"
+    def: >
+        المُتغير هو موقع يخزن البيانات المؤقتة داخل البرنامج
+        ويمكن تعديله وتخزينه وعرضه عند الحاجة
 
 - slug: variance
   en:
