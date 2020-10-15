@@ -3160,7 +3160,7 @@
     def: >
       An open source Python package that offers fast, flexible, and expressive data 
       structures to make working with structured data, and time series easy and intuitive. It is 
-      used like a powerful tool for data analysis and data manipulation.
+      a powerful tool for data analysis and data manipulation.
   es:
     term: "pandas"
     def: >
