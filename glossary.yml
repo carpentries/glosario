@@ -2998,7 +2998,7 @@
     def: >
       An open source Python package  that allow work with arrays, vectors and matrices of dimension N, 
       in a comparable method and with a syntax similar at Matlab software. You can find functions and 
-      sofisticated operations, focused in multidimension arrays, linear algebra, Fourrier transform and 
+      sophisticated operations, focused in multidimensional arrays, linear algebra, Fourrier transform and 
       geration of aleatoty values. 
   es:
     term: "numpy"
