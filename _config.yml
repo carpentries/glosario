@@ -97,6 +97,17 @@ languages:
       レッスンのメタデータに新しい用語をグロサリオに追します。
       ライブラリの機能を使って、多言語で用語や定義のために、
       一貫性のハイパーリンクを組み込めます。
+  - key: nl
+    name: Nederlands
+    title: Woordenlijst 
+    blurb: >
+      glosario is een openbron verklarende woordenlijst van terminologie die wordt gebruikt 
+      in de informatica en online beschikbaar wordt gesteld, evenals een programmabibliotheek in 
+      [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/). 
+      Door woordenlijstsleutels op te nemen in de metadata van een les, kunnen auteurs aangeven welke informatie 
+      in een les wordt behandeld, wat studenten moeten weten voordat de les begint en waar studenten de informatie 
+      kunnen vinden. Auteurs kunnen de tekenfuncties van het programma ook gebruiken om consistente doorklik op 
+      te nemen, voor termen en definities in een van de verschillende talen, in hun lessen.
   - key: zu
     name: IsiZulu
     title: Uhlu Lwamagama
