@@ -181,6 +181,11 @@
     def: >
       Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op
       te som of om 'n versameling alfabetiese stringe aaneen te skakel.
+  pt:
+    term: "agregação"
+    def: >
+      Combina vários valores em um, por exemplo, somando um conjunto numérico ou concatenando 
+      um conjunto de caracteres.
 
 - slug: aggregation_function
   en:
