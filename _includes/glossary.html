@@ -32,7 +32,11 @@ Cross-references are displayed in __bold__ if that term is missing.
     {%- if item.ref -%}
     <br/>
     <em>
+    {% if direction == 'ltr' %}
     &rarr;
+    {% else %}
+    &larr;
+    {% endif %}
     {% for other_key in item.ref -%}
     {%- assign other = gloss | where: "slug", other_key | first -%}
     <a href="#{{other_key}}">
