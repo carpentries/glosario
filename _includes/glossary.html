@@ -1,5 +1,9 @@
 {% assign gloss = site.data.glossary %}
 {% assign language = page.permalink | replace: '/', '' %}
+{% assign direction = 'ltr' %}
+{% if page.direction %}
+  {% assign direction = page.direction %}
+{% endif %}
 
 {%- comment -%}
 Find terms defined in this language and sort alphabetically.
@@ -17,7 +21,7 @@ Find terms defined in this language and sort alphabetically.
 Display glossary in alphabetical order.
 Cross-references are displayed in __bold__ if that term is missing.
 {%- endcomment -%}
-<dl>
+<dl dir="{{direction}}">
 {%- for slug in actual -%}
   {% assign item = gloss | where: "slug", slug | first %}
   {% if item[language] %}
@@ -28,7 +32,11 @@ Cross-references are displayed in __bold__ if that term is missing.
     {%- if item.ref -%}
     <br/>
     <em>
+    {% if direction == 'ltr' %}
     &rarr;
+    {% else %}
+    &larr;
+    {% endif %}
     {% for other_key in item.ref -%}
     {%- assign other = gloss | where: "slug", other_key | first -%}
     <a href="#{{other_key}}">
