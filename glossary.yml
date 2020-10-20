@@ -1165,6 +1165,12 @@
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
       represent [records](#record) and columns represent [variables](variable_data).
+  fr:
+    term: "trame de données"
+    def: >
+      Une structure bi-dimensionnelle pour enregistrer des données tabulaires.
+	  Les lignes représentent les [entrées](#record) et les colonnes représentent
+	  les [variables](variable_data).
 
 - slug: data_mining
   en:
@@ -2336,6 +2342,17 @@
       strings in lists and name/value structures. The acronym stands for "JavaScript
       Object Notation"; unlike better-defined standards like [XML](#xml), it is
       unencumbered by a syntax for comments or ways to define a [schema](#schema).
+  fr:
+    term: "JavaScript Object Notation"
+    acronym: "JSON"
+    def: >
+      Un façon de représenter des données textuelles ou numériques en combinant des
+	  ensembles de paires nom/valeurs et des listes de valeurs. L'acronyme signifie
+	  "JavaScript Object Notation", car il s'agit d'un format dérivé de la notation des
+	  objets du langage JavaScript. Contrairement à d'autres standards plus
+	  structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
+	  de données, ni ne supporte l'ajout de commentaires.
+	   
 
 - slug: k_means_clustering
   ref:
@@ -3865,6 +3882,11 @@
     def: >
       A specification of the format of a dataset, including the name, format, and
       content of each [table](#table).
+  fr:
+    term: "schéma"
+    def: >
+      Spécification du format d'un ensemble de données qui inclut le nom, format
+	  et contenu de chaque [table](#table).
 
 - slug: scope
   en:
@@ -4278,6 +4300,14 @@
       rows (each of which represents one [record](#record) or
       [observation](#observation)) and columns (each of which represents a
       [field](#field) or [variable](#variable_data)).
+  fr:
+    term: "table"
+    def: >
+      Une série d'entrées dans une [base de données relationnelle](#relational_database)
+	  ou d'observations dans une [trame de données](#data_frame). Une table est
+	  généralement représentée sous la forme de lignes (où chacune représente une
+	  [entrée](#record) ou [observation](#observation)) et colonnes (où chacune 
+	  représente un [champ](#field) ou une [variable](#variable_data)).
 
 - slug: tag
   en:
@@ -4790,3 +4820,11 @@
       indentation rather than the parentheses and commas of [JSON](#json). YAML is
       often used in configuration files and to define parameters for various flavors
       of [Markdown](#markdown) documents.
+  fr:
+	term: "YAML"
+	def: >
+	  Acronyme récursif de "YAML Ain't Markup Language" ("YAML n'est pas un langage de
+	  balisage"), YAML est un format de représentation de données hiérarchiques qui
+	  utilise des indentations au lieu de signes typographiques, comme les parenthèses
+	  et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
+	  configuration et pour définir les paramètres de documents [Markdown](#markdown).
