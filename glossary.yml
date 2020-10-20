@@ -534,9 +534,11 @@
     term: "التعبير المنطقي"
     def: >
         التعبير المنطقي عبارة عن تعبير يُستخدم لإنشاء جمل إما
-        <bdi><b>(true or false)</b></bdi> تحمل القيمة صح أو القية خطأ
+        تحمل القيمة صح أو القيمة خطأ
+        <bdi><b>(true or false)</b></bdi>
         تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
         وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية والتعبيرات العلائقية
+        
 - slug: branch
   en:
     term: "branch"
@@ -4788,4 +4790,3 @@
       indentation rather than the parentheses and commas of [JSON](#json). YAML is
       often used in configuration files and to define parameters for various flavors
       of [Markdown](#markdown) documents.
-      
