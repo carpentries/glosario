@@ -39,7 +39,7 @@
   fr:
     term: "abandonware"
     def: >
-      Un logiciel qui n'est plus maintenue.
+      Un logiciel qui n'est plus maintenu.
 
 - slug: absolute_error
   en:
