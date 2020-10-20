@@ -4,7 +4,12 @@
 {%- assign language = page.permalink | replace: '/', '' %}
 {%- assign the_title = site.languages | where: "key", language | map: "title" | first -%}
 {%- endif -%}
-<div class="row">
+{%- if page.direction -%}
+{%- assign direction = page.direction -%}
+{%- else -%}
+{%- assign direction = 'ltr' %}
+{%- endif -%}
+<div class="row" dir="{{direction}}">
   <div class="left">
     <a href="{{'/' | relative_url}}"><img src="{{'/static/parrot.svg' | relative_url}}" alt="Parrot logo" width="75%" /></a>
   </div>
