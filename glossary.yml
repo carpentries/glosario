@@ -53,7 +53,7 @@
       Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
       en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as die
       [relatiewe](#relative_error) fout.
- fr:
+  fr:
     term: "erreur absolue"
     def: >
       La valeur absolue de la différence entre la valeur observée et la valeur correcte. 
