@@ -195,7 +195,7 @@
     term: "agregação"
     def: >
       Combinar vários valores em um, como a soma de uma série de números ou
-      a combinação de mais de um conjunto de caracteres.
+      concatenando um conjunto de caracteres.
 
 - slug: aggregation_function
   en:
