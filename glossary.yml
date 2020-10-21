@@ -1663,6 +1663,11 @@
     def: >
       A component of a [record](#record) containing a single value. Every record in a
       [tibble](#tibble) or database [table](#table) has the same fields.
+  fr:
+    term: "champ"
+    def: >
+      Composant d'une [entrée](#record) contenant une seule valeur. Chaque entrée dans
+	  une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs. 
 
 - slug: filename_extension
   en:
@@ -3584,14 +3589,25 @@
       A group of related values that are stored together. A record may be represented
       as a [tuple](#tuple) or as a row in a [table](#table); in the latter case, every
       record in the table has the same [fields](#field).
-
+  fr:
+    term: "entrée"
+    def: >
+      Un groupe de valeurs liées qui sont enregistrées ensemble. Une entrée peut être
+	  représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
+	  ce dernier cas, chaque entrée dans la table comporte les même [champs](#field).
+	  
 - slug: recursion
   en:
     term: "recursion"
     def: >
       Calling a function from within a call to that function, or defining a term using
       a simpler version of the same term.
-
+  fr:
+    term: "récursion"
+    def: >
+      Faire appel à une fonction au sein de cette même fonction, ou définir un terme
+	  en utilisant une version simplifiée du même terme.
+	  
 - slug: recycle
   en:
     term: "recycle"
@@ -4816,6 +4832,12 @@
       para darle formato a documentos (normalmente datos). XML alcanzó popularidad a
       principios de la década de 2000, pero su complejidad llevó a muchos
       programadores a adoptar [JSON](#json) en su lugar.
+  fr:
+    term: "XML"
+    def: >
+      Un format de représentation de données qui définit des balises similaires à celles
+	  utilisées en [HTML](#html). XML était populaire au début des années 2000 mais sa
+	  complexité a conduit de nombreux dévelopeurs à utiliser [JSON](#json) à la place.
 
 - slug: yaml
   en:
