@@ -188,8 +188,13 @@
   af:
     term: "samevoeging"
     def: >
-      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op te som
-      of om 'n versameling alfabetiese stringe aaneen te skakel.
+      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op
+      te som of om 'n versameling alfabetiese stringe aaneen te skakel.
+  pt:
+    term: "agregação"
+    def: >
+      Combinar vários valores em um, por exemplo, somando um conjunto numérico ou concatenando 
+      um conjunto de caracteres.
 
 - slug: aggregation_function
   en:
@@ -562,7 +567,8 @@
     term: "التعبير المنطقي"
     def: >
         التعبير المنطقي عبارة عن تعبير يُستخدم لإنشاء جمل إما
-        <bdi><b>(true or false)</b></bdi> تحمل القيمة صح أو القية خطأ
+        تحمل القيمة صح أو القيمة خطأ
+        (true or false)
         تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
         وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية والتعبيرات العلائقية
 - slug: branch
@@ -1191,6 +1197,12 @@
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
       represent [records](#record) and columns represent [variables](variable_data).
+  fr:
+    term: "trame de données"
+    def: >
+      Une structure bi-dimensionnelle pour enregistrer des données tabulaires.
+      Les lignes représentent les [entrées](#record) et les colonnes représentent
+      les [variables](variable_data).
 
 - slug: data_mining
   en:
@@ -1678,6 +1690,11 @@
     def: >
       A component of a [record](#record) containing a single value. Every record in a
       [tibble](#tibble) or database [table](#table) has the same fields.
+  fr:
+    term: "champ"
+    def: >
+      Composant d'une [entrée](#record) contenant une seule valeur. Chaque entrée dans
+      une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs. 
 
 - slug: filename_extension
   en:
@@ -2362,6 +2379,17 @@
       strings in lists and name/value structures. The acronym stands for "JavaScript
       Object Notation"; unlike better-defined standards like [XML](#xml), it is
       unencumbered by a syntax for comments or ways to define a [schema](#schema).
+  fr:
+    term: "JavaScript Object Notation"
+    acronym: "JSON"
+    def: >
+      Un façon de représenter des données textuelles ou numériques en combinant des
+      ensembles de paires nom/valeurs et des listes de valeurs. L'acronyme signifie
+      "JavaScript Object Notation", car il s'agit d'un format dérivé de la notation des
+      objets du langage JavaScript. Contrairement à d'autres standards plus
+      structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
+      de données, ni ne supporte l'ajout de commentaires.
+       
 
 - slug: k_means_clustering
   ref:
@@ -3588,14 +3616,25 @@
       A group of related values that are stored together. A record may be represented
       as a [tuple](#tuple) or as a row in a [table](#table); in the latter case, every
       record in the table has the same [fields](#field).
-
+  fr:
+    term: "entrée"
+    def: >
+      Un groupe de valeurs liées qui sont enregistrées ensemble. Une entrée peut être
+      représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
+      ce dernier cas, chaque entrée dans la table comporte les même [champs](#field).
+      
 - slug: recursion
   en:
     term: "recursion"
     def: >
       Calling a function from within a call to that function, or defining a term using
       a simpler version of the same term.
-
+  fr:
+    term: "récursion"
+    def: >
+      Faire appel à une fonction au sein de cette même fonction, ou définir un terme
+      en utilisant une version simplifiée du même terme.
+      
 - slug: recycle
   en:
     term: "recycle"
@@ -3891,6 +3930,11 @@
     def: >
       A specification of the format of a dataset, including the name, format, and
       content of each [table](#table).
+  fr:
+    term: "schéma"
+    def: >
+      Spécification du format d'un ensemble de données qui inclut le nom, format
+      et contenu de chaque [table](#table).
 
 - slug: scope
   en:
@@ -4304,6 +4348,14 @@
       rows (each of which represents one [record](#record) or
       [observation](#observation)) and columns (each of which represents a
       [field](#field) or [variable](#variable_data)).
+  fr:
+    term: "table"
+    def: >
+      Une série d'entrées dans une [base de données relationnelle](#relational_database)
+      ou d'observations dans une [trame de données](#data_frame). Une table est
+      généralement représentée sous la forme de lignes (où chacune représente une
+      [entrée](#record) ou [observation](#observation)) et colonnes (où chacune 
+      représente un [champ](#field) ou une [variable](#variable_data)).
 
 - slug: tag
   en:
@@ -4807,6 +4859,12 @@
       para darle formato a documentos (normalmente datos). XML alcanzó popularidad a
       principios de la década de 2000, pero su complejidad llevó a muchos
       programadores a adoptar [JSON](#json) en su lugar.
+  fr:
+    term: "XML"
+    def: >
+      Un format de représentation de données qui définit des balises similaires à celles
+      utilisées en [HTML](#html). XML était populaire au début des années 2000 mais sa
+      complexité a conduit de nombreux dévelopeurs à utiliser [JSON](#json) à la place.
 
 - slug: yaml
   en:
@@ -4816,4 +4874,11 @@
       indentation rather than the parentheses and commas of [JSON](#json). YAML is
       often used in configuration files and to define parameters for various flavors
       of [Markdown](#markdown) documents.
-      
+  fr:
+    term: "YAML"
+    def: >
+      Acronyme récursif de "YAML Ain't Markup Language" ("YAML n'est pas un langage de
+      balisage"), YAML est un format de représentation de données hiérarchiques qui
+      utilise des indentations au lieu de signes typographiques, comme les parenthèses
+      et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
+      configuration et pour définir les paramètres de documents [Markdown](#markdown).

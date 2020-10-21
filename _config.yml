@@ -31,9 +31,9 @@ languages:
     title: قائمة المصطلحات
     blurb: >
       تطبيق (جلوساريو) هو عبارة عن برنامج مفتوح المصدر للمصطلحات المستخدمة في علم البيانات ، المتواجدة في
-      [لغة آر <bdi>R </bdi>](https://github.com/carpentries/glosario-r/)
+      [لغة آر R](https://github.com/carpentries/glosario-r/)
       و
-      [لغة البايثون <bdi>Python </bdi>](https://github.com/carpentries/glosario-py/)
+      [لغة البايثون Python](https://github.com/carpentries/glosario-py/)
       عن طريق إضافة مفاتيح المصطلحات إلى البيانات الوصفية للدرس، يستطيع الكاتب ان يحدد
       ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
       كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
@@ -120,4 +120,9 @@ languages:
     name: IsiZulu
     title: Uhlu Lwamagama
     blurb: >
-      In translation.
+      `I-glosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala 
+      ku-inthanethi njengomtapo wolwazi ku-R naku-Python. Ngokufaka okhiye bohlu lwamagama kwimethadatha 
+      yesifundo, ababhali bangakhombisa ukuthi isifundo sifundisani, ukuthi yini abafundi okufanele bayazi 
+      ngaphambi kokuthi baqale, nokuthi bangaya kuphi ukuthola lolu lwazi. Ababhali bangasebenzisa futhi 
+      imisebenzi yomtapo ukufaka izixhumanisi ezihambisanayo zamagama nezincazelo ezifundweni zabo nganoma 
+      yiziphi izilimi eziningana.
