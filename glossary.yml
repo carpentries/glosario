@@ -1174,8 +1174,8 @@
     term: "trame de données"
     def: >
       Une structure bi-dimensionnelle pour enregistrer des données tabulaires.
-	  Les lignes représentent les [entrées](#record) et les colonnes représentent
-	  les [variables](variable_data).
+      Les lignes représentent les [entrées](#record) et les colonnes représentent
+      les [variables](variable_data).
 
 - slug: data_mining
   en:
@@ -1667,7 +1667,7 @@
     term: "champ"
     def: >
       Composant d'une [entrée](#record) contenant une seule valeur. Chaque entrée dans
-	  une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs. 
+      une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs. 
 
 - slug: filename_extension
   en:
@@ -2357,12 +2357,12 @@
     acronym: "JSON"
     def: >
       Un façon de représenter des données textuelles ou numériques en combinant des
-	  ensembles de paires nom/valeurs et des listes de valeurs. L'acronyme signifie
-	  "JavaScript Object Notation", car il s'agit d'un format dérivé de la notation des
-	  objets du langage JavaScript. Contrairement à d'autres standards plus
-	  structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
-	  de données, ni ne supporte l'ajout de commentaires.
-	   
+      ensembles de paires nom/valeurs et des listes de valeurs. L'acronyme signifie
+      "JavaScript Object Notation", car il s'agit d'un format dérivé de la notation des
+      objets du langage JavaScript. Contrairement à d'autres standards plus
+      structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
+      de données, ni ne supporte l'ajout de commentaires.
+       
 
 - slug: k_means_clustering
   ref:
@@ -3593,9 +3593,9 @@
     term: "entrée"
     def: >
       Un groupe de valeurs liées qui sont enregistrées ensemble. Une entrée peut être
-	  représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
-	  ce dernier cas, chaque entrée dans la table comporte les même [champs](#field).
-	  
+      représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
+      ce dernier cas, chaque entrée dans la table comporte les même [champs](#field).
+      
 - slug: recursion
   en:
     term: "recursion"
@@ -3606,8 +3606,8 @@
     term: "récursion"
     def: >
       Faire appel à une fonction au sein de cette même fonction, ou définir un terme
-	  en utilisant une version simplifiée du même terme.
-	  
+      en utilisant une version simplifiée du même terme.
+      
 - slug: recycle
   en:
     term: "recycle"
@@ -3907,7 +3907,7 @@
     term: "schéma"
     def: >
       Spécification du format d'un ensemble de données qui inclut le nom, format
-	  et contenu de chaque [table](#table).
+      et contenu de chaque [table](#table).
 
 - slug: scope
   en:
@@ -4325,10 +4325,10 @@
     term: "table"
     def: >
       Une série d'entrées dans une [base de données relationnelle](#relational_database)
-	  ou d'observations dans une [trame de données](#data_frame). Une table est
-	  généralement représentée sous la forme de lignes (où chacune représente une
-	  [entrée](#record) ou [observation](#observation)) et colonnes (où chacune 
-	  représente un [champ](#field) ou une [variable](#variable_data)).
+      ou d'observations dans une [trame de données](#data_frame). Une table est
+      généralement représentée sous la forme de lignes (où chacune représente une
+      [entrée](#record) ou [observation](#observation)) et colonnes (où chacune 
+      représente un [champ](#field) ou une [variable](#variable_data)).
 
 - slug: tag
   en:
@@ -4836,8 +4836,8 @@
     term: "XML"
     def: >
       Un format de représentation de données qui définit des balises similaires à celles
-	  utilisées en [HTML](#html). XML était populaire au début des années 2000 mais sa
-	  complexité a conduit de nombreux dévelopeurs à utiliser [JSON](#json) à la place.
+      utilisées en [HTML](#html). XML était populaire au début des années 2000 mais sa
+      complexité a conduit de nombreux dévelopeurs à utiliser [JSON](#json) à la place.
 
 - slug: yaml
   en:
@@ -4848,10 +4848,11 @@
       often used in configuration files and to define parameters for various flavors
       of [Markdown](#markdown) documents.
   fr:
-	term: "YAML"
-	def: >
-	  Acronyme récursif de "YAML Ain't Markup Language" ("YAML n'est pas un langage de
-	  balisage"), YAML est un format de représentation de données hiérarchiques qui
-	  utilise des indentations au lieu de signes typographiques, comme les parenthèses
-	  et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
-	  configuration et pour définir les paramètres de documents [Markdown](#markdown).
+    term: "YAML"
+    def: >
+      Acronyme récursif de "YAML Ain't Markup Language" ("YAML n'est pas un langage de
+      balisage"), YAML est un format de représentation de données hiérarchiques qui
+      utilise des indentations au lieu de signes typographiques, comme les parenthèses
+      et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
+      configuration et pour définir les paramètres de documents [Markdown](#markdown).
+      
