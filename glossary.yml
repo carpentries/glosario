@@ -171,8 +171,13 @@
   af:
     term: "samevoeging"
     def: >
-      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op te som
-      of om 'n versameling alfabetiese stringe aaneen te skakel.
+      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op
+      te som of om 'n versameling alfabetiese stringe aaneen te skakel.
+  pt:
+    term: "agregação"
+    def: >
+      Combinar vários valores em um, por exemplo, somando um conjunto numérico ou concatenando 
+      um conjunto de caracteres.
 
 - slug: aggregation_function
   en:
@@ -535,7 +540,7 @@
     def: >
         التعبير المنطقي عبارة عن تعبير يُستخدم لإنشاء جمل إما
         تحمل القيمة صح أو القيمة خطأ
-        <bdi><b>(true or false)</b></bdi>
+        (true or false)
         تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
         وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية والتعبيرات العلائقية
         
