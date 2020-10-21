@@ -173,7 +173,7 @@ A glossary entry is structured like this:
     or make one-to-many relationships hard to express (e.g., CSV).
 
 -   **Why use Jekyll for the online version?**
-    It's the default for GitHub Pages.
+    It is the default for GitHub Pages.
 
 ## Credits
 
