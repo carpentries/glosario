@@ -14,7 +14,15 @@
       val binne twee en 99.7% val binne drie standaardafwykings. Omgekeerd, in die
       meeste gevalle val 0.3% van die waardes meer as drie standaardafwykings bo of
       onder die gemiddelde.
-
+      
+  fr:
+    term: "règle de 68-95-99.7"
+    def: >
+      Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
+      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de 
+      deux (2) écarts-types, et 99,7% à l'interieur de trois (3) écarts-types. Inversement et dans la plupart des cas, environ 0.3% des valeurs 
+      se situent à plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
+      
 - slug: abandonware
   en:
     term: "abandonware"
@@ -28,6 +36,10 @@
     term: "afgooiware"
     def: >
       Sagteware wat nie meer onderhou word nie.
+  fr:
+    term: "abandonware"
+    def: >
+      Un logiciel qui n'est plus maintenu.
 
 - slug: absolute_error
   en:
@@ -41,7 +53,12 @@
       Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
       en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as die
       [relatiewe](#relative_error) fout.
-
+  fr:
+    term: "erreur absolue"
+    def: >
+      La valeur absolue de la différence entre la valeur observée et la valeur correcte. 
+      L'erreur absolue est généralement moins pertinente que l'[erreur relative](#relative_error).
+      
 - slug: absolute_path
   ref:
     - relative_path
@@ -243,6 +260,12 @@
       simbool wat 'n posisie aandui, bv. `^` dui die begin van 'n lyn aan en `$` dui
       die einde van 'n lyn aan. 'n Uidrukking soos bv. `^Die` anker die soektog na die
       woord `Die` aan die begin van die lyn.
+  fr:
+    term: "ancre"
+    def: >
+      C'est un symbole utilisé dans les expressions régulières (#regular_expression) afin de déterminer 
+      une position sans pour autant identifier des charactères. `^` détermine le début d'une ligne,
+      tandis que `$` détermine sa fin. `\b` identifie un espace entre un mot et un non-mot.
 
 - slug: anonymous_function
   en:
@@ -256,7 +279,12 @@
       'n Funksie waaraan daar nie 'n naam toegeken is nie. Anonieme funksies is
       gewoonlik baie kort en word gewoonlik gedefinieer waar hulle gebruik word bv. in
       die geval van 'n [terugskakelfunksie](#callback).
-
+  fr:
+    term: "fonction anonyme"
+    def: >
+      Une fonction qui ne s'est pas vue assignée de nom. Les fonctions anonymes sont en général
+      courtes et définies là où elles sont utilisées, exemple: callbacks
+      
 - slug: anti_join
   en:
     term: "anti join"
@@ -543,7 +571,6 @@
         (true or false)
         تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
         وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية والتعبيرات العلائقية
-        
 - slug: branch
   en:
     term: "branch"
