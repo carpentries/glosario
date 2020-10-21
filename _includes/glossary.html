@@ -21,7 +21,7 @@ Find terms defined in this language and sort alphabetically.
 Display glossary in alphabetical order.
 Cross-references are displayed in __bold__ if that term is missing.
 {%- endcomment -%}
-<dl dir="{{direction}}">
+<dl dir="auto">
 {%- for slug in actual -%}
   {% assign item = gloss | where: "slug", slug | first %}
   {% if item[language] %}
