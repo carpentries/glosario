@@ -3172,7 +3172,7 @@
     term: "pandas"
     def: >
       É um pacote Python de código aberto que oferece estruturas de dados rápidas, flexíveis
-      e expressivas para tornar o trabalho com séries temporais estruturadas fácil e 
+      e expressivas para tornar o trabalho com dados estruturados e séries temporais fácil e 
       intuitivo. É usado como uma ferramenta poderosa para análise e manipulação de dados.
 
 - slug: parameter
