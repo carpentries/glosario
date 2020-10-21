@@ -18,7 +18,7 @@
   fr:
     term: "règle de 68-95-99.7"
     def: >
-      Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (01)
+      Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
       [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de 
       deux (2) écarts-types, et 99,7% à l'interieur de trois (3) écarts-types. Inversement et dans la plupart des cas, environ 0.3% des valeurs 
       se situent à plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
