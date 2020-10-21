@@ -3514,7 +3514,7 @@
   pt:
     term: "Python"
     def: >
-      Uma linguagem de programação de código aberto interpretada popular que 
+      Uma popular linguagem de programação interpretada, de código aberto,  que 
       depende de indentação para definir a estrutura de controle.
 
 - slug: quantile
