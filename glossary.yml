@@ -3010,7 +3010,7 @@
   pt:
     term: "numpy"
     def: >
-      É um pacote Python open source que permite trabalhar com arrays, vetores e matrizes de dimensão N, 
+      É um pacote Python de código aberto que permite trabalhar com arrays, vetores e matrizes de dimensão N, 
       em um método comparável e com uma sintaxe semelhante ao software Matlab. Você pode encontrar funções 
       e operações sofisticadas, focadas em arrays multidimensionais, álgebra linear, transformada de Fourrier 
       e geração de valores aleatórios.
