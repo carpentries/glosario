@@ -1801,6 +1801,10 @@
     def: >
       Un outil de gestion des versions qui permet d'enregistrer et de piloter les
       modifications effectuées au niveau d'un projet.
+  ja:
+    term "Git(ギット)"
+    def: >
+       プロジェクトなどの変更履歴を記録・追跡するためのバージョン管理システムです。
   pt:
     term: "Git"
     def: >
