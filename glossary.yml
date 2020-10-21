@@ -176,7 +176,7 @@
   pt:
     term: "agregação"
     def: >
-      Combina vários valores em um, por exemplo, somando um conjunto numérico ou concatenando 
+      Combinar vários valores em um, por exemplo, somando um conjunto numérico ou concatenando 
       um conjunto de caracteres.
 
 - slug: aggregation_function
