@@ -121,7 +121,7 @@ languages:
     title: Uhlu Lwamagama
     blurb: >
       `I-glosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala 
-      ku-inthanethi njengomtapo wolwazi ku-R naku-Python. Ngokufaka okhiye bohlu lwamagama kwimethadatha 
+      ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/) [naku-Python](https://github.com/carpentries/glosario-py/). Ngokufaka okhiye bohlu lwamagama kwimethadatha 
       yesifundo, ababhali bangakhombisa ukuthi isifundo sifundisani, ukuthi yini abafundi okufanele bayazi 
       ngaphambi kokuthi baqale, nokuthi bangaya kuphi ukuthola lolu lwazi. Ababhali bangasebenzisa futhi 
       imisebenzi yomtapo ukufaka izixhumanisi ezihambisanayo zamagama nezincazelo ezifundweni zabo nganoma 
