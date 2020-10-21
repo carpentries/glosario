@@ -49,7 +49,7 @@
     term: "absolute path"
     def: >
       A path that points to the same location in the [filesystem](#filesystem)
-      regardless of where it's evaluated. An absolute path is the equivalent of
+      regardless of where it is evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
   af:
     term: "absolute roete"
@@ -176,7 +176,7 @@
   pt:
     term: "agregação"
     def: >
-      Combinar vários valores em um, por exemplo, somando um conjunto numérico ou concatenando 
+      Combinar vários valores em um, por exemplo, somando um conjunto numérico ou concatenando
       um conjunto de caracteres.
 
 - slug: aggregation_function
@@ -271,7 +271,7 @@
     def: >
       A set of functions and procedures provided by one software library or web
       service through which another application can communicate with it. An API is not
-      the code, the database, or the server: it's the access point.
+      the code, the database, or the server: it is the access point.
 
 - slug: append_mode
   en:
@@ -286,7 +286,7 @@
     term: "argument"
     def: >
       A value passed into a function. Some authors use the term as a synonym for
-      [parameter](#parameter) and some do not; it's all very confusing.
+      [parameter](#parameter) and some do not; it is all very confusing.
   es:
     term: "argumento"
     def: >
@@ -543,7 +543,7 @@
         (true or false)
         تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
         وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية والتعبيرات العلائقية
-        
+
 - slug: branch
   en:
     term: "branch"
@@ -1003,7 +1003,7 @@
     term: "continuation prompt"
     def: >
       A [prompt](#prompt) that indicates that the command currently being typed is not
-      yet complete and won't be run until it is.
+      yet complete and will not be run until it is.
 
 - slug: continuous_integration
   en:
@@ -1263,7 +1263,7 @@
     def: >
       A set of programming practices that assumes mistakes will happen and either
       report or correct them, such as inserting [assertions](#assertion) to report
-      situations that aren't ever supposed to occur.
+      situations that are not ever supposed to occur.
 
 - slug: degrees_of_freedom
   en:
@@ -1521,7 +1521,7 @@
     def: >
       What a program does to detect and correct for errors. Examples include printing
       a message and using a default configuration if the user-specified configuration
-      can't be found.
+      cannot be found.
 
 - slug: error_test
   en:
@@ -1667,7 +1667,7 @@
     term: "champ"
     def: >
       Composant d'une [entrée](#record) contenant une seule valeur. Chaque entrée dans
-      une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs. 
+      une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs.
 
 - slug: filename_extension
   en:
@@ -1681,7 +1681,7 @@
   en:
     term: "filename stem"
     def: >
-      The part of the filename that doesn't include the [stem](#filename_stem). For
+      The part of the filename that does not include the [stem](#filename_stem). For
       example, the stem of `glossary.yml` is `glossary`.
 
 - slug: filesystem
@@ -2131,7 +2131,7 @@
   en:
     term: "hitchhiker"
     def: >
-      Someone who is part of a project but doesn't actually do any work on it.
+      Someone who is part of a project but does not actually do any work on it.
 
 - slug: home_directory
   en:
@@ -2362,7 +2362,7 @@
       objets du langage JavaScript. Contrairement à d'autres standards plus
       structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
       de données, ni ne supporte l'ajout de commentaires.
-       
+
 
 - slug: k_means_clustering
   ref:
@@ -2793,7 +2793,7 @@
     def: >
       A special value such as [null](#null) or [NA](#na) used to indicate the absence
       of data. Missing values can signal that data was not collected or that the data
-      didn't exist in the first place (e.g., the middle name of someone who doesn't
+      did not exist in the first place (e.g., the middle name of someone who does not
       have one).
 
 - slug: mit_license
@@ -2919,7 +2919,7 @@
       A collection of names in a program that exists in isolation from other
       namespaces. Each function, [object](#object), [class](#class), or
       [module](#module) in a program typically has its own namespace so that
-      references to "X" in one part of a program don't accidentally refer to something
+      references to "X" in one part of a program do not accidentally refer to something
       called "X" in another part of the program.
 
 - slug: nano_editor
@@ -2932,8 +2932,8 @@
   en:
     term: "negative selection"
     def: >
-      To specify the elements of a vector or other data structure that aren't desired
-      by negating their indices.
+      To specify the elements of a vector or other data structure that are
+      not desired by negating their indices.
 
 - slug: neural_network
   ref:
@@ -2987,8 +2987,8 @@
   en:
     term: "NoSQL database"
     def: >
-      Any database that doesn't use the relational model. The awkward name comes from
-      the fact that such databases don't use [SQL](#sql) as a query language.
+      Any database that does not use the relational model. The awkward name comes from
+      the fact that such databases do not use [SQL](#sql) as a query language.
 
 - slug: "null"
   en:
@@ -3160,8 +3160,8 @@
     def: >
       A variable whose value is passed into a function when the function is called.
       Some writers distinguish parameters (the variables) from [arguments](#argument)
-      (the values passed in), but others use the terms in the opposite sense. It's all
-      very confusing.
+      (the values passed in), but others use the terms in the opposite sense.
+      It is all very confusing.
 
 - slug: parent_class
   en:
@@ -3252,7 +3252,7 @@
   en:
     term: "phony target"
     def: >
-      A [build target](#build_target) that doesn't correspond to an actual file. Phony
+      A [build target](#build_target) that does not correspond to an actual file. Phony
       targets are often used to store commonly-used commands in a [Makefile](#makefile).
 
 - slug: pipe_operator
@@ -3595,7 +3595,7 @@
       Un groupe de valeurs liées qui sont enregistrées ensemble. Une entrée peut être
       représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
       ce dernier cas, chaque entrée dans la table comporte les même [champs](#field).
-      
+
 - slug: recursion
   en:
     term: "recursion"
@@ -3607,7 +3607,7 @@
     def: >
       Faire appel à une fonction au sein de cette même fonction, ou définir un terme
       en utilisant une version simplifiée du même terme.
-      
+
 - slug: recycle
   en:
     term: "recycle"
@@ -3636,7 +3636,7 @@
   en:
     term: "regression testing"
     def: >
-      Testing software to ensure that things which used to work haven't been broken.
+      Testing software to ensure that things which used to work have not been broken.
 
 - slug: regular_expression
   en:
@@ -3888,7 +3888,7 @@
   en:
     term: "scalar"
     def: >
-      A single value of a particular type, such as 1 or "a". Scalars don't really
+      A single value of a particular type, such as 1 or "a". Scalars do not really
       exist in R; values that appear to be scalars are actually vectors of unit length.
   es:
     term: "escalar"
@@ -4327,7 +4327,7 @@
       Une série d'entrées dans une [base de données relationnelle](#relational_database)
       ou d'observations dans une [trame de données](#data_frame). Une table est
       généralement représentée sous la forme de lignes (où chacune représente une
-      [entrée](#record) ou [observation](#observation)) et colonnes (où chacune 
+      [entrée](#record) ou [observation](#observation)) et colonnes (où chacune
       représente un [champ](#field) ou une [variable](#variable_data)).
 
 - slug: tag
@@ -4808,7 +4808,7 @@
     term: "whitespace"
     def: >
       The space, newline, carriage return, and horizontal and vertical tab characters
-      that take up space but don't create a visible mark. The name comes from their
+      that take up space but do not create a visible mark. The name comes from their
       appearance on a printed page in the era of typewriters.
 
 - slug: wildcard
