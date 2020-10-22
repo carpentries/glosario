@@ -291,6 +291,11 @@
     def: >
       A [join](#join) that keeps rows from table A whose keys do *not* match keys in
       table B.
+  af:
+    term: "anti-koppeling"
+    def: >
+      'n [Koppeling](#join) wat rye in tabel A bevat wie se sleutels *nie* die
+      sleutels van tabel B bevat nie.
 
 - slug: api
   en:
@@ -299,7 +304,14 @@
     def: >
       A set of functions and procedures provided by one software library or web
       service through which another application can communicate with it. An API is not
-      the code, the database, or the server: it is the access point.
+      the code, the database, or the server: it's the access point.
+  af:
+    term: "Toepassing Programmeerderkoppelvlak"
+    def: >
+      n Versameling funksies en prosedures wat deur 'n sagtewareprogrammateek
+      of webdiens voorsien word vir gebruik deur ander toepassings om met
+      die programmateek of webdiens te kommunikeer. Die API is nie die kode, die
+      databasis of die bediener nie, dit is die koppelvlak.
 
 - slug: append_mode
   en:
@@ -308,6 +320,13 @@
       To add data to the end of an existing file instead of overwriting the previous
       contents of that file. Overwriting is the default, so most programming languages
       require programs to be explicit about wanting to append instead.
+  af:
+    term: "byvoeg modus"
+    def: >
+      Om data aan die einde van 'n lêer te voeg in plaas daarvan om die inhoud van
+      dielêer te oorskryf. Oorskryf is die verstek, wat beteken dat
+      meesteprogrammeertale verwag dat programme eksplisiet moet aandui dat daar
+      bygevoeg inplaas van oorskryf moet word.
 
 - slug: argument
   en:
@@ -4875,6 +4894,7 @@
       indentation rather than the parentheses and commas of [JSON](#json). YAML is
       often used in configuration files and to define parameters for various flavors
       of [Markdown](#markdown) documents.
+
   fr:
     term: "YAML"
     def: >
