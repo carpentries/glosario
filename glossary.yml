@@ -309,9 +309,9 @@
     term: "Toepassing Programmeerderkoppelvlak"
     def: >
       n Versameling funksies en prosedures wat deur 'n sagtewareprogrammateek
-      ofwebdiens voorsien word vir gebruik deur ander toepassings om met
-      dieprogrammateek of webdiens te kommunikeer. Die API is nie die kode, die
-      databasisof die bediener nie, dit is die koppelvlak.
+      of webdiens voorsien word vir gebruik deur ander toepassings om met
+      die programmateek of webdiens te kommunikeer. Die API is nie die kode, die
+      databasis of die bediener nie, dit is die koppelvlak.
 
 - slug: append_mode
   en:
