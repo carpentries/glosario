@@ -2828,6 +2828,11 @@
     term: "mean absolute error"
     def: >
       The average error of all predicted values compared with actual values.
+  es:
+    term: "error absoluto medio"
+    def: >
+      El error promedio de todos los valores predichos en comparación con los
+      valores reales.
 
 - slug: mean_squared_error
   ref:
@@ -2838,6 +2843,13 @@
       The average of the squares of all the errors of all predicted values compared
       with actual values. Squaring makes larger errors count for more, making this a
       more popular measure than [mean absolute error](#mean_absolute_error).
+  es:
+    term: "error cuadrático medio"
+    def: >
+      El promedio de los cuadrados de todos los errores de todos los valores
+      predichos comparados con valores reales. El cuadrado hace que los errores
+      más grandes cuenten más, haciendo esta medida más popular que el
+      [error absoluto medio](#mean_absolute_error).
 
 - slug: median
   ref:
