@@ -2860,6 +2860,13 @@
       A value separating the upper and lower halves of a sorted dataset. The median
       often gives a better idea of what is typical of the dataset than the
       [mean](#mean), which can be influenced by a small number of extreme outliers.
+  es:
+    term: "mediana"
+    def: >
+      Un valor que separa las mitades superior e inferior de un conjunto de datos
+      ordenado. La mediana a menudo da una mejor idea de lo que es típico del
+      conjunto de datos que la [media](#mean), que puede verse influida por una
+      pequeña cantidad de valores atípicos extremos.
 
 - slug: merge_git
   en:
