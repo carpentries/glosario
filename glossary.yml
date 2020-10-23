@@ -71,6 +71,12 @@
     def: >
       La valeur absolue de la différence entre la valeur observée et la valeur correcte. 
       L'erreur absolue est généralement moins pertinente que l'[erreur relative](#relative_error).
+  es:
+    term: "error absoluto"
+    def: >
+      El valor absoluto de la diferencia entre el valor observado y el correcto.
+      El error absoluto suele ser menos útil que el [error relativo](#relative_error).
+
       
 - slug: absolute_path
   ref:
