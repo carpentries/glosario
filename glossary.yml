@@ -521,6 +521,11 @@
     def: >
       A statistic is biased if it is systematically or consistency different from the
       parameter it is supposed to estimate.
+  es:
+    term: "sesgo"
+    def: >
+      Una estadístico está sesgado si es sistemática o consistentemente diferente
+      del parámetro que se supone que debe estimar.
 
 - slug: big_data
   ref:
