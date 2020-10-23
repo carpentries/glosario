@@ -4266,7 +4266,7 @@
     term: "desviación estándar"
     def: >
       En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
-      Se calcula como la raíz cuadrada de la [varianza](#varianza).
+      Se calcula como la raíz cuadrada de la [varianza](#variance).
 
 - slug: standard_normal_distribution
   en:
@@ -4276,10 +4276,12 @@
       [standard deviation](#standard_deviation) of 1. Values from normal distributions
       with other parameters can easily be rescaled to be on a standard normal distribution.
   es:
-    term: "desviación estándar"
+    term: "distribución normal estándar"
     def: >
-      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
-      Se calcula como la raíz cuadrada de la [varianza](#variance).
+      Una [distribución normal](#normal_distribution) con una [media](#mean) de
+      0 y una [desviación estándar](#standard_deviation) de 1. Valores de
+      distribuciones normales con otros parámetros se puede reescalar fácilmente
+      para obtener una distribución normal estándar.
 
 - slug: stderr
   ref:
