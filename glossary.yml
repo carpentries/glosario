@@ -383,6 +383,10 @@
     term: "média aritmética"
     def: >
       Veja [média](#mean).
+  es:
+    term: "media aritmética"
+    def: >
+      Ver [media](#mean).
 
 - slug: ascii
   en:
