@@ -2928,6 +2928,10 @@
     term: "mode"
     def: >
       The value that occurs most frequently in a dataset.
+  es:
+    term: "moda"
+    def: >
+      El valor que ocurre con más frecuencia en un conjunto de datos.
 
 - slug: model
   en:
