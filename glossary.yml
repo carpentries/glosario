@@ -4262,6 +4262,11 @@
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the square root of the [variance](#variance).
+  es:
+    term: "desviación estándar"
+    def: >
+      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
+      Se calcula como la raíz cuadrada de la [varianza](#varianza).
 
 - slug: standard_normal_distribution
   en:
@@ -4270,6 +4275,11 @@
       A [normal distribution](#normal_distribution) with a [mean](#mean) of 0 and a
       [standard deviation](#standard_deviation) of 1. Values from normal distributions
       with other parameters can easily be rescaled to be on a standard normal distribution.
+  es:
+    term: "desviación estándar"
+    def: >
+      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
+      Se calcula como la raíz cuadrada de la [varianza](#variance).
 
 - slug: stderr
   ref:
