@@ -4798,6 +4798,14 @@
       as the average of the squared differences between the values and the mean. The
       [standard deviation](#standard_deviation) is often used instead, since it has
       the same units as the data while the variance is expressed in units squared.
+  es:
+    term: "varianza"
+    def: >
+      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
+      Se calcula como el promedio de las diferencias al cuadrado entre los valores
+      y la media. La [desviación estándar](#standard_deviation) se usa a menudo en
+      su lugar, ya que tiene las mismas unidades que los datos, mientras que la
+      varianza se expresa en unidades al cuadrado.
 
 - slug: vector
   en:
