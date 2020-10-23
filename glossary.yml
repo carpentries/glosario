@@ -3921,6 +3921,13 @@
       The square root of the [mean squared error](#mean_squared_error). Like the
       [standard deviation](#standard_deviation), it is in the same units as the
       original data.
+  es:
+    term: "raíz del error cuadrático medio"
+    acronym: RECM
+    def: >
+      La raíz cuadrada del [error cuadrático medio](#mean_squared_error). Como la
+      [desviación estándar](#standard_deviation), está en las mismas unidades que
+      los datos originales.
 
 - slug: root_tree
   en:
