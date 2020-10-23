@@ -254,7 +254,7 @@
     term: "desenvolvimento ágil"
     def: >
       Um método de desenvolvimento de software que enfatiza vários passos pequenos e
-      feedback contínuo ao invés de planejamento de longo prazo. [Pogramação exploratória](#exploratory_programming)
+      feedback contínuo ao invés de planejamento de longo prazo. [Programação exploratória](#exploratory_programming)
       com frequência é ágil.
 
 - slug: aliasing
@@ -484,7 +484,7 @@
     term: "compatibilidade resversa"
     def: >
       Software que pode ser usado da mesma maneira que versão anteriores de si mesmo
-      sem problemas.
+      sem problemas. Também é chamado de retrocompatibilidade.
 
 - slug: base_r
   ref:
