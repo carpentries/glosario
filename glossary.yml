@@ -14,6 +14,13 @@
       val binne twee en 99.7% val binne drie standaardafwykings. Omgekeerd, in die
       meeste gevalle val 0.3% van die waardes meer as drie standaardafwykings bo of
       onder die gemiddelde.
+  pt:
+    term: "regra 68-95-99,7"
+    def: >
+      Expressa o fato de que 68% dos valores estão dentro de um [desvio padrão](#standard_deviation)
+      da [média](#mean), 95% estão dentro de dois e 99,7% estão dentro de três. Inversamente,
+      aproximadamente 0,3% dos valores estão mais do que três desvios padrões acima ou abaixo da média
+      na maioria dos casos.
       
   fr:
     term: "règle de 68-95-99.7"
@@ -243,6 +250,12 @@
       'n Sagteware-ontwikkelingsmetode wat die klem lê op vele klein stappies en
       deurlopende terugvoering in plaas van vooraf beplanning en langtermyn
       skeduluering. [Verkennende programmering](#exploratory_programming) is dikwel lenig.
+  pt:
+    term: "desenvolvimento ágil"
+    def: >
+      Um método de desenvolvimento de software que enfatiza vários passos pequenos e
+      feedback contínuo ao invés de planejamento de longo prazo. [Pogramação exploratória](#exploratory_programming)
+      com frequência é ágil.
 
 - slug: aliasing
   en:
@@ -276,6 +289,12 @@
       C'est un symbole utilisé dans les expressions régulières (#regular_expression) afin de déterminer 
       une position sans pour autant identifier des charactères. `^` détermine le début d'une ligne,
       tandis que `$` détermine sa fin. `\b` identifie un espace entre un mot et un non-mot.
+  pt:
+    term: "âncora"
+    def: >
+      Em uma [expressão regular](#regular_expression), é um símbolo que fixa uma posição sem caracteres
+      correspondentes. `^` identifica o começo de uma linha, enquanto `$` indica o fim de uma linha e
+      `\b` identifica uma quebra entre caracteres que formam e que não foram uma palavra.
 
 - slug: anonymous_function
   en:
@@ -426,6 +445,11 @@
       Une fonctionnalité permettant à l'utilisateur de finir rapidement un mot ou du
       code à travers l'utilisation de la touche TAB qui liste le mot ou le code
       susceptible d'être choisi par l'utilisateur.
+  pt:
+    term: "auto-completar"
+    def: >
+      Uma funcionalidade qe permite a pessoa usuária terminar uma palavra ou código rapidamente
+      ao pressinar a tecla TAB para listar possíveis palavras ou códigos que podem ser escolhidos.
 
 - slug: automatic_variable
   ref:
@@ -456,6 +480,11 @@
     def: >
       Ce dit d'un logiciel qui est capable d'être utilisé de la même manière que ses
       versions précédentes sans difficulté.
+  pt:
+    term: "compatibilidade resversa"
+    def: >
+      Software que pode ser usado da mesma maneira que versão anteriores de si mesmo
+      sem problemas.
 
 - slug: base_r
   ref:
@@ -467,6 +496,13 @@
       `src/library` and are not updated outside of R; their version numbers follow R
       version numbering. Base packages are installed and loaded with R, while priority
       packages are installed with base R but must be loaded prior to use.
+  pt:
+    term: "R base"
+    def: >
+      As funções básicas que compõe a linguagem R. Os pacotes de base podem ser encontrados
+      em `src/library` e não são atualizados fora do R; eles seguem a numeração de versão do 
+      próprio R. Pacotes de base são instalados e carregados junto do R, enquanto pacotes
+      prioritários são instalados com o R base mas precisam ser carregados antes do uso.
 
 - slug: bayes_rule
   en:
@@ -814,6 +850,10 @@
     term: "centroid"
     def: >
       The center or anchor of a group created by a [clustering](#clustering) algorithm.
+  pt:
+    term: "centróide"
+    def: >
+      O centro ou âncora de um grupo criado por um algoritmo de [agrupamento](#clustering).
 
 - slug: character_encoding
   en:
@@ -900,6 +940,11 @@
     def: >
       The process of dividing data into groups when the groups themselves are not
       known in advance.
+  pt: 
+    term: "agrupamento"
+    def: >
+      O processo de dividir os dados em grupos quando os grupos em si não são conhecidos
+      de antemão.
 
 - slug: code_coverage
   en:
