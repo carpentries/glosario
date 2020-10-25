@@ -1016,7 +1016,7 @@
     def: >
       Una función que crea un [objeto](#object) de una [clase](#class)
       particular. En el sistema de objetos de [S3](#s3), los constructores
-      son más una convención que un requerimiento.
+      son más una convención que un requisito.
       
 - slug: continuation_prompt
   en:
