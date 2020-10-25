@@ -798,9 +798,9 @@
       En [programación orientada a objetos](#oop), es una estructura que combina
       datos y operaciones (denominadas [métodos](#method)). El programa emplea un
       [constructor](#constructor) para crear un [objeto](#object) con esas 
-      propiedades y métodos. Los programadores generalmente definen comportamiento
-      genérico o reutilizable en [superclases](#parent_class) y comportamiento
-      más específico o detallado en [subclases]("child_class").
+      propiedades y métodos. Los programadores generalmente definen comportamientos
+      genéricos o reutilizables en [superclases](#parent_class) y comportamientos
+      más específicos o detallados en [subclases]("child_class").
 - slug: classification
   ref:
     - supervised_learning
