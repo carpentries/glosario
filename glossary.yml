@@ -14,7 +14,15 @@
       val binne twee en 99.7% val binne drie standaardafwykings. Omgekeerd, in die
       meeste gevalle val 0.3% van die waardes meer as drie standaardafwykings bo of
       onder die gemiddelde.
-
+      
+  fr:
+    term: "règle de 68-95-99.7"
+    def: >
+      Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
+      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de 
+      deux (2) écarts-types, et 99,7% à l'interieur de trois (3) écarts-types. Inversement et dans la plupart des cas, environ 0.3% des valeurs 
+      se situent à plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
+      
 - slug: abandonware
   en:
     term: "abandonware"
@@ -33,6 +41,11 @@
     def: >
       Software cuyo mantenimiento ha sido abandonado.
 
+  fr:
+    term: "abandonware"
+    def: >
+      Un logiciel qui n'est plus maintenu.
+
 - slug: absolute_error
   en:
     term: "absolute error"
@@ -42,10 +55,20 @@
   af:
     term: "absolute fout"
     def: >
-      Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
-      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as die
-      [relatiewe](#relative_error) fout.
-
+      Die absolute fout is die absolute waarde van die verskil tussen die waargenome- 
+      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as 
+      die [relatiewe](#relative_error) fout.
+  pt:
+    term: "erro absoluto"
+    def: >
+      O valor absoluto da diferença entre um valor observado e o valor correto.
+      O erro absoluto é normalmente menos útil do que o [erro relativo](#relative_error).
+  fr:
+    term: "erreur absolue"
+    def: >
+      La valeur absolue de la différence entre la valeur observée et la valeur correcte. 
+      L'erreur absolue est généralement moins pertinente que l'[erreur relative](#relative_error).
+      
 - slug: absolute_path
   ref:
     - relative_path
@@ -53,7 +76,7 @@
     term: "absolute path"
     def: >
       A path that points to the same location in the [filesystem](#filesystem)
-      regardless of where it's evaluated. An absolute path is the equivalent of
+      regardless of where it is evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
   af:
     term: "absolute roete"
@@ -96,6 +119,11 @@
     def: >
       El índice secuencial que indentifica una fila en un tablero, sin importar qué
       secciones se estén mostrando.
+  pt:
+    term: "número de linha absoluto"
+    def: >
+      O índice sequencial de uma linha em uma tabela, independente de qual seção
+      da tabela está sendo exibida.
 
 - slug: abstract_method
   en:
@@ -175,8 +203,13 @@
   af:
     term: "samevoeging"
     def: >
-      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op te som
-      of om 'n versameling alfabetiese stringe aaneen te skakel.
+      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op
+      te som of om 'n versameling alfabetiese stringe aaneen te skakel.
+  pt:
+    term: "agregação"
+    def: >
+      Combinar vários valores em um, por exemplo, somando um conjunto numérico ou concatenando
+      um conjunto de caracteres.
 
 - slug: aggregation_function
   en:
@@ -242,6 +275,12 @@
       simbool wat 'n posisie aandui, bv. `^` dui die begin van 'n lyn aan en `$` dui
       die einde van 'n lyn aan. 'n Uidrukking soos bv. `^Die` anker die soektog na die
       woord `Die` aan die begin van die lyn.
+  fr:
+    term: "ancre"
+    def: >
+      C'est un symbole utilisé dans les expressions régulières (#regular_expression) afin de déterminer 
+      une position sans pour autant identifier des charactères. `^` détermine le début d'une ligne,
+      tandis que `$` détermine sa fin. `\b` identifie un espace entre un mot et un non-mot.
 
 - slug: anonymous_function
   en:
@@ -255,13 +294,23 @@
       'n Funksie waaraan daar nie 'n naam toegeken is nie. Anonieme funksies is
       gewoonlik baie kort en word gewoonlik gedefinieer waar hulle gebruik word bv. in
       die geval van 'n [terugskakelfunksie](#callback).
-
+  fr:
+    term: "fonction anonyme"
+    def: >
+      Une fonction qui ne s'est pas vue assignée de nom. Les fonctions anonymes sont en général
+      courtes et définies là où elles sont utilisées, exemple: callbacks
+      
 - slug: anti_join
   en:
     term: "anti join"
     def: >
       A [join](#join) that keeps rows from table A whose keys do *not* match keys in
       table B.
+  af:
+    term: "anti-koppeling"
+    def: >
+      'n [Koppeling](#join) wat rye in tabel A bevat wie se sleutels *nie* die
+      sleutels van tabel B bevat nie.
 
 - slug: api
   en:
@@ -271,6 +320,13 @@
       A set of functions and procedures provided by one software library or web
       service through which another application can communicate with it. An API is not
       the code, the database, or the server: it's the access point.
+  af:
+    term: "Toepassing Programmeerderkoppelvlak"
+    def: >
+      n Versameling funksies en prosedures wat deur 'n sagtewareprogrammateek
+      of webdiens voorsien word vir gebruik deur ander toepassings om met
+      die programmateek of webdiens te kommunikeer. Die API is nie die kode, die
+      databasis of die bediener nie, dit is die koppelvlak.
 
 - slug: append_mode
   en:
@@ -279,18 +335,30 @@
       To add data to the end of an existing file instead of overwriting the previous
       contents of that file. Overwriting is the default, so most programming languages
       require programs to be explicit about wanting to append instead.
+  af:
+    term: "byvoeg modus"
+    def: >
+      Om data aan die einde van 'n lêer te voeg in plaas daarvan om die inhoud van
+      dielêer te oorskryf. Oorskryf is die verstek, wat beteken dat
+      meesteprogrammeertale verwag dat programme eksplisiet moet aandui dat daar
+      bygevoeg inplaas van oorskryf moet word.
 
 - slug: argument
   en:
     term: "argument"
     def: >
       A value passed into a function. Some authors use the term as a synonym for
-      [parameter](#parameter) and some do not; it's all very confusing.
+      [parameter](#parameter) and some do not; it is all very confusing.
   es:
     term: "argumento"
     def: >
       Un valor pasado a una función. Algunos autores usan el término como sinónimo de
       [parámetro](#parameter) y algunos no; Todo es muy confuso.
+  pt:
+    term: "argumento"
+    def: >
+      Um valor passado para uma função. Algumas pessoas autoras usam este termo como sinônimo
+      de parâmetro(#parameter) e outras não fazem isso; é tudo bastante confuso.
   ar:
     term: "وسيطة"
     def: >
@@ -302,6 +370,10 @@
     term: "arithmetic mean"
     def: >
       See [mean](#mean).
+  pt:
+    term: "média aritmética"
+    def: >
+      Veja [média](#mean).
 
 - slug: ascii
   en:
@@ -539,10 +611,10 @@
     def: >
         التعبير المنطقي عبارة عن تعبير يُستخدم لإنشاء جمل إما
         تحمل القيمة صح أو القيمة خطأ
-        <bdi><b>(true or false)</b></bdi>
+        (true or false)
         تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
         وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية والتعبيرات العلائقية
-        
+
 - slug: branch
   en:
     term: "branch"
@@ -1023,7 +1095,7 @@
     term: "continuation prompt"
     def: >
       A [prompt](#prompt) that indicates that the command currently being typed is not
-      yet complete and won't be run until it is.
+      yet complete and will not be run until it is.
 
 - slug: continuous_integration
   en:
@@ -1190,6 +1262,12 @@
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
       represent [records](#record) and columns represent [variables](variable_data).
+  fr:
+    term: "trame de données"
+    def: >
+      Une structure bi-dimensionnelle pour enregistrer des données tabulaires.
+      Les lignes représentent les [entrées](#record) et les colonnes représentent
+      les [variables](variable_data).
 
 - slug: data_mining
   en:
@@ -1277,7 +1355,7 @@
     def: >
       A set of programming practices that assumes mistakes will happen and either
       report or correct them, such as inserting [assertions](#assertion) to report
-      situations that aren't ever supposed to occur.
+      situations that are not ever supposed to occur.
 
 - slug: degrees_of_freedom
   en:
@@ -1535,7 +1613,7 @@
     def: >
       What a program does to detect and correct for errors. Examples include printing
       a message and using a default configuration if the user-specified configuration
-      can't be found.
+      cannot be found.
 
 - slug: error_test
   en:
@@ -1677,6 +1755,11 @@
     def: >
       A component of a [record](#record) containing a single value. Every record in a
       [tibble](#tibble) or database [table](#table) has the same fields.
+  fr:
+    term: "champ"
+    def: >
+      Composant d'une [entrée](#record) contenant une seule valeur. Chaque entrée dans
+      une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs.
 
 - slug: filename_extension
   en:
@@ -1690,7 +1773,7 @@
   en:
     term: "filename stem"
     def: >
-      The part of the filename that doesn't include the [stem](#filename_stem). For
+      The part of the filename that does not include the [stem](#filename_stem). For
       example, the stem of `glossary.yml` is `glossary`.
 
 - slug: filesystem
@@ -2145,7 +2228,7 @@
   en:
     term: "hitchhiker"
     def: >
-      Someone who is part of a project but doesn't actually do any work on it.
+      Someone who is part of a project but does not actually do any work on it.
 
 - slug: home_directory
   en:
@@ -2366,6 +2449,17 @@
       strings in lists and name/value structures. The acronym stands for "JavaScript
       Object Notation"; unlike better-defined standards like [XML](#xml), it is
       unencumbered by a syntax for comments or ways to define a [schema](#schema).
+  fr:
+    term: "JavaScript Object Notation"
+    acronym: "JSON"
+    def: >
+      Un façon de représenter des données textuelles ou numériques en combinant des
+      ensembles de paires nom/valeurs et des listes de valeurs. L'acronyme signifie
+      "JavaScript Object Notation", car il s'agit d'un format dérivé de la notation des
+      objets du langage JavaScript. Contrairement à d'autres standards plus
+      structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
+      de données, ni ne supporte l'ajout de commentaires.
+
 
 - slug: k_means_clustering
   ref:
@@ -2731,6 +2825,12 @@
       The average value of a dataset, more properly known as the [arithmetic
       mean](#arithmetic_mean) to distinguish it from the [geometric](#geometric_mean)
       and [harmonic](#harmonic_mean) means.
+  pt:
+    term: "média"
+    def: >
+      O valor médio de um conjunto de dados, mais apropriadamente conhecido
+      como [média aritmética](#arithmetic_mean) para que seja distinguido da
+      média [geométrica](#geometric_mean) e da [harmônica](#harmonic_mean).
 
 - slug: mean_absolute_error
   ref:
@@ -2801,7 +2901,7 @@
     def: >
       A special value such as [null](#null) or [NA](#na) used to indicate the absence
       of data. Missing values can signal that data was not collected or that the data
-      didn't exist in the first place (e.g., the middle name of someone who doesn't
+      did not exist in the first place (e.g., the middle name of someone who does not
       have one).
 
 - slug: mit_license
@@ -2927,7 +3027,7 @@
       A collection of names in a program that exists in isolation from other
       namespaces. Each function, [object](#object), [class](#class), or
       [module](#module) in a program typically has its own namespace so that
-      references to "X" in one part of a program don't accidentally refer to something
+      references to "X" in one part of a program do not accidentally refer to something
       called "X" in another part of the program.
 
 - slug: nano_editor
@@ -2940,8 +3040,8 @@
   en:
     term: "negative selection"
     def: >
-      To specify the elements of a vector or other data structure that aren't desired
-      by negating their indices.
+      To specify the elements of a vector or other data structure that are
+      not desired by negating their indices.
 
 - slug: neural_network
   ref:
@@ -2995,8 +3095,8 @@
   en:
     term: "NoSQL database"
     def: >
-      Any database that doesn't use the relational model. The awkward name comes from
-      the fact that such databases don't use [SQL](#sql) as a query language.
+      Any database that does not use the relational model. The awkward name comes from
+      the fact that such databases do not use [SQL](#sql) as a query language.
 
 - slug: "null"
   en:
@@ -3183,8 +3283,8 @@
     def: >
       A variable whose value is passed into a function when the function is called.
       Some writers distinguish parameters (the variables) from [arguments](#argument)
-      (the values passed in), but others use the terms in the opposite sense. It's all
-      very confusing.
+      (the values passed in), but others use the terms in the opposite sense.
+      It is all very confusing.
 
 - slug: parent_class
   en:
@@ -3280,7 +3380,7 @@
   en:
     term: "phony target"
     def: >
-      A [build target](#build_target) that doesn't correspond to an actual file. Phony
+      A [build target](#build_target) that does not correspond to an actual file. Phony
       targets are often used to store commonly-used commands in a [Makefile](#makefile).
 
 - slug: pipe_operator
@@ -3617,6 +3717,12 @@
       A group of related values that are stored together. A record may be represented
       as a [tuple](#tuple) or as a row in a [table](#table); in the latter case, every
       record in the table has the same [fields](#field).
+  fr:
+    term: "entrée"
+    def: >
+      Un groupe de valeurs liées qui sont enregistrées ensemble. Une entrée peut être
+      représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
+      ce dernier cas, chaque entrée dans la table comporte les même [champs](#field).
 
 - slug: recursion
   en:
@@ -3624,6 +3730,11 @@
     def: >
       Calling a function from within a call to that function, or defining a term using
       a simpler version of the same term.
+  fr:
+    term: "récursion"
+    def: >
+      Faire appel à une fonction au sein de cette même fonction, ou définir un terme
+      en utilisant une version simplifiée du même terme.
 
 - slug: recycle
   en:
@@ -3653,7 +3764,7 @@
   en:
     term: "regression testing"
     def: >
-      Testing software to ensure that things which used to work haven't been broken.
+      Testing software to ensure that things which used to work have not been broken.
 
 - slug: regular_expression
   en:
@@ -3702,6 +3813,14 @@
       divided by the desired value. For example, if the actual value is 9 and the
       correct value is 10, the relative error is 0.1. Relative error is usually more
       useful than [absolute error](#absolute_error).
+  pt:
+    term: "erro relativo"
+    def: >
+      O valor absoluto da diferença entre um valor observado e o valor correto,
+      dividido pelo vaor desejado. Por exemplo, se o valor observado é 9 e o 
+      correto é 10, o erro relativo é 0.1. Erro relativo é normalmente mais útil
+       do que o [erro absoluto](#absolute_error).
+
 
 - slug: relative_path
   ref:
@@ -3725,6 +3844,11 @@
     def: >
       The index of a row in a displayed portion of a table, which may or may not be
       the same as the [absolute row number](#absolute_row_number) within the table.
+  pt:
+    term: "número de linha relativo"
+    def: >
+      O índice de uma linha em uma parte da tabela em exibição, que pode ou não
+      ser igual ao [número de linha absoluto](#absolute_row_number) na tabela.
 
 - slug: remote_login
   en:
@@ -3909,7 +4033,7 @@
   en:
     term: "scalar"
     def: >
-      A single value of a particular type, such as 1 or "a". Scalars don't really
+      A single value of a particular type, such as 1 or "a". Scalars do not really
       exist in R; values that appear to be scalars are actually vectors of unit length.
   es:
     term: "escalar"
@@ -3924,6 +4048,11 @@
     def: >
       A specification of the format of a dataset, including the name, format, and
       content of each [table](#table).
+  fr:
+    term: "schéma"
+    def: >
+      Spécification du format d'un ensemble de données qui inclut le nom, format
+      et contenu de chaque [table](#table).
 
 - slug: scope
   en:
@@ -4337,6 +4466,14 @@
       rows (each of which represents one [record](#record) or
       [observation](#observation)) and columns (each of which represents a
       [field](#field) or [variable](#variable_data)).
+  fr:
+    term: "table"
+    def: >
+      Une série d'entrées dans une [base de données relationnelle](#relational_database)
+      ou d'observations dans une [trame de données](#data_frame). Une table est
+      généralement représentée sous la forme de lignes (où chacune représente une
+      [entrée](#record) ou [observation](#observation)) et colonnes (où chacune
+      représente un [champ](#field) ou une [variable](#variable_data)).
 
 - slug: tag
   en:
@@ -4816,7 +4953,7 @@
     term: "whitespace"
     def: >
       The space, newline, carriage return, and horizontal and vertical tab characters
-      that take up space but don't create a visible mark. The name comes from their
+      that take up space but do not create a visible mark. The name comes from their
       appearance on a printed page in the era of typewriters.
 
 - slug: wildcard
@@ -4840,6 +4977,12 @@
       para darle formato a documentos (normalmente datos). XML alcanzó popularidad a
       principios de la década de 2000, pero su complejidad llevó a muchos
       programadores a adoptar [JSON](#json) en su lugar.
+  fr:
+    term: "XML"
+    def: >
+      Un format de représentation de données qui définit des balises similaires à celles
+      utilisées en [HTML](#html). XML était populaire au début des années 2000 mais sa
+      complexité a conduit de nombreux dévelopeurs à utiliser [JSON](#json) à la place.
 
 - slug: yaml
   en:
@@ -4849,3 +4992,12 @@
       indentation rather than the parentheses and commas of [JSON](#json). YAML is
       often used in configuration files and to define parameters for various flavors
       of [Markdown](#markdown) documents.
+
+  fr:
+    term: "YAML"
+    def: >
+      Acronyme récursif de "YAML Ain't Markup Language" ("YAML n'est pas un langage de
+      balisage"), YAML est un format de représentation de données hiérarchiques qui
+      utilise des indentations au lieu de signes typographiques, comme les parenthèses
+      et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
+      configuration et pour définir les paramètres de documents [Markdown](#markdown).

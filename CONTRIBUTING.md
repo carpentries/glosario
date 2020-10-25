@@ -7,7 +7,7 @@ please take a moment to read the guidance below.
 
 ## Contribution Workflow
 
-When you're making your contribution(s) to Glosario, please:
+When you are making your contribution(s) to Glosario, please:
 
 1. **check the [open Issues][issues] and [Pull Requests][pulls]** to see what terms and definitions other contributors are already working on. This will help you avoid accidentally spending time writing the same term(s)/definition(s) as someone else.
 2. **add one or a small number of related new terms or definitions per Pull Request.** We woud love to receive multiple contributions from you but please keep each new term or set of terms and definitions in a distinct Pull Request. This makes it much easier for the Glosario maintainers/editors to review your contributions. By [creating a new branch][github-branches] from the `master` branch and making a new Pull Request each time, you also reduce the chance of accidentally combining multiple contributions.
