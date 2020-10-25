@@ -3877,7 +3877,7 @@
   es:
     term: "S3"
     def: >
-      Un framework para [programación orientada a objetos](#oop) en R.
+      Un entorno para la [programación orientada a objetos](#oop) en R.
 
 - slug: s4
   en:
