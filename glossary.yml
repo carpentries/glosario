@@ -159,7 +159,7 @@
       [nodus](#node) het wat 'n [`doen` terwyl-lus](#while_loop) verteenwoordig wat
       met een [naasaatontledingsboom](#child_tree) die lustoestand verteenwoordig en
       'n ander nasaatontledingsboom wat die [lusraam](#loop_body) verteenwoordig.
-   pt:
+  pt:
     term: "árvore sintática abstrata"
     def: >
       Uma estrutura de dados profundamente encadeada, a qual representa a estrutura de um
