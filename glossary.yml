@@ -22,6 +22,19 @@
       deux (2) écarts-types, et 99,7% à l'interieur de trois (3) écarts-types.
       Inversement et dans la plupart des cas, environ 0.3% des valeurs se situent à
       plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
+  ar:
+    term: "القاعدة ٩٩,٧-٩٥-٦٨"
+    def: >
+        يُعبِر عن حقيقة أن ٦٨٪ من القيم تقع ضمن وحدة واحدة من
+        [الانحراف المعياري]
+        (#standard_deviation)
+        من
+        [الوسط]
+        (#mean)
+        ، بينما ٩٥٪ تقع ضمن وحدتين ،
+        و٩٩,٧٪ تقع ضمن ثلاث وحدات
+        بالمقابل ، حوالي ٠,٣ ٪  من القيم تقع  في أكثر من ثلاثة وحدات
+        من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات
 
 
 - slug: abandonware
