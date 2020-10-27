@@ -448,7 +448,7 @@
   pt:
     term: "auto-completar"
     def: >
-      Uma funcionalidade qe permite a pessoa usuária terminar uma palavra ou código rapidamente
+      Uma funcionalidade que permite a pessoa usuária terminar uma palavra ou código rapidamente
       ao pressinar a tecla TAB para listar possíveis palavras ou códigos que podem ser escolhidos.
 
 - slug: automatic_variable
