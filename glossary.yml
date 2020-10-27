@@ -528,7 +528,7 @@
   es:
     term: "sesgo"
     def: >
-      Una estadístico está sesgado si es sistemática o consistentemente diferente
+      Un estadístico está sesgado si es sistemática o consistentemente diferente
       del parámetro que se supone que debe estimar.
 
 - slug: big_data
