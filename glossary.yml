@@ -54,12 +54,15 @@
     term: "abandonware"
     def: >
       Software cuyo mantenimiento ha sido abandonado.
-
   fr:
     term: "abandonware"
     def: >
       Un logiciel qui n'est plus maintenu.
-
+  ar:
+    term: "البرمجيات المهجورة أو المتروكة"
+    def: >
+      هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
+      ولم تعد على قيد الصيانة
 
 - slug: absolute_error
   en:
