@@ -30,7 +30,7 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'af', 'en', 'es', 'fr', 'pt', 'zu'}
+ENTRY_LANGUAGE_KEYS = {'af', 'ar', 'en', 'es', 'fr', 'ja', 'nl', 'pt', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
@@ -197,7 +197,10 @@ def buildForward(gloss):
     '''Build graph of forward references.'''
     result = {}
     for entry in gloss:
-        record = set(LINK_PAT.findall(entry['en']['def']))
+        record = set()
+        for language in ENTRY_LANGUAGE_KEYS:
+            if language in entry:
+                record |= set(LINK_PAT.findall(entry[language]['def']))
         result[entry['slug']] = record
     return result
 

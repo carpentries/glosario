@@ -515,7 +515,7 @@
   en:
     term: "Bayes' Rule"
     def: >
-      See [Bayes' Theorem](bayes_theorem).
+      See [Bayes' Theorem](#bayes_theorem).
 
 
 - slug: bayes_theorem
@@ -947,7 +947,7 @@
       [constructor](#constructor) para crear un [objeto](#object) con esas 
       propiedades y métodos. Los programadores generalmente definen comportamientos
       genéricos o reutilizables en [superclases](#parent_class) y comportamientos
-      más específicos o detallados en [subclases]("child_class").
+      más específicos o detallados en [subclases](#child_class).
       
 - slug: classification
   ref:
@@ -1169,6 +1169,11 @@
        dat die werklike getal binne die skatting val. 
 
 - slug: console
+  en:
+    term: "console"
+    def: >
+      A computer terminal where a user may enter commands, or a program
+      that simulates such a device.
 
 
 - slug: constant
@@ -1210,8 +1215,8 @@
   en:
     term: "continuous random variable"
     def: >
-      A variable whose value can be any real value, either within a range or
-      unbounded, such as age or distance.
+      A [variable](#variable_data) whose value can be any real value, either
+      within a range or unbounded, such as age or distance.
 
 
 - slug: copy_on_modify
@@ -1375,12 +1380,12 @@
     term: "data frame"
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
-      represent [records](#record) and columns represent [variables](variable_data).
+      represent [records](#record) and columns represent [variables](#variable_data).
   fr:
     term: "trame de données"
     def: >
       Une structure bi-dimensionnelle pour enregistrer des données tabulaires. Les
-      lignes représentent les [entrées](#record) et les colonnes représentent les [variables](variable_data).
+      lignes représentent les [entrées](#record) et les colonnes représentent les [variables](#variable_data).
 
 
 - slug: data_mining
@@ -1576,8 +1581,8 @@
   en:
     term: "discrete random variable"
     def: >
-      A variable whose value can take on only one of a fixed set of values, such as
-      true or false.
+      A [variable](#variable_data) whose value can take on only one of a fixed
+      set of values, such as true or false.
 
 
 - slug: distro
@@ -2563,6 +2568,10 @@
 
 
 - slug: instance
+  en:
+    term: "instance"
+    def: >
+      An [object](#object) of a particular [class](#class).
 
 
 - slug: integration_test
@@ -3025,7 +3034,7 @@
     term: "Markdown"
     def: >
       A markup language with a simple syntax intended as a replacement for HTML.
-      Markdown is often used for README files, and is the basis for [R markdown](r_markdown).
+      Markdown is often used for README files, and is the basis for [R markdown](#r_markdown).
 
 
 - slug: markov_chain
@@ -3461,6 +3470,10 @@
 
 
 - slug: observation
+  en:
+    term: "observation"
+    def: >
+      A value or property of a specific member of a population.
 
 
 - slug: off_by_one_error
@@ -3807,7 +3820,7 @@
     term: "prior distribution"
     def: >
       The [probability distribution](#probability_distribution) that is assumed as a
-      starting point when using [Bayes' Theorem](bayes_theorem) and used to construct
+      starting point when using [Bayes' Theorem](#bayes_theorem) and used to construct
       a more accurate [posterior_distribution](#posterior_distribution).
 
 
@@ -5274,6 +5287,13 @@
 
 
 - slug: variable_data
+  ref:
+    - continuous_random_variable
+    - discrete_random_variable
+  en:
+    term: "variable (data)"
+    def: >
+      Some attribute of a population that can be measured or observed.
 
 
 - slug: variable_program
@@ -5321,8 +5341,8 @@
   es:
     term: "vector"
     def: >
-      Una secuencia de valores, normalmente de tipo [homogéneo](#homogéneo). Los
-      vectores son la estructura de datos fundamental en R; un [escalar](#escalar) es
+      Una secuencia de valores, normalmente de tipo [homogéneo](#homogeneous). Los
+      vectores son la estructura de datos fundamental en R; un [escalar](#scalar) es
       solo un vector con exactamente un elemento.
 
 
