@@ -294,7 +294,7 @@
     def: >
       Em uma [expressão regular](#regular_expression), é um símbolo que fixa uma posição sem caracteres
       correspondentes. `^` identifica o começo de uma linha, enquanto `$` indica o fim de uma linha e
-      `\b` identifica uma quebra entre caracteres que formam e que não foram uma palavra.
+      `\b` identifica uma quebra entre caracteres que formam e que não formam uma palavra.
 
 - slug: anonymous_function
   en:
