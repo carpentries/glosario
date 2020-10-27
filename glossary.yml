@@ -481,7 +481,7 @@
       Ce dit d'un logiciel qui est capable d'être utilisé de la même manière que ses
       versions précédentes sans difficulté.
   pt:
-    term: "compatibilidade resversa"
+    term: "compatibilidade reversa"
     def: >
       Software que pode ser usado da mesma maneira que versão anteriores de si mesmo
       sem problemas. Também é chamado de retrocompatibilidade.
