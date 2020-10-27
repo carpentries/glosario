@@ -3081,7 +3081,7 @@
   fr:
     term: "langage de balisage"
     def: >
-      Un set de règles pour annoter un texte afin d'en définir la structure ou d'en modifier
+      Un ensemble de règles pour annoter un texte afin d'en définir la structure ou d'en modifier
 	  l'affichage. Des balises déterminent comment le texte
 	  qu'elles délimitent doit être interprété ou affiché. Le [Markdown](#markdown) et [HTML](#html)
 	  sont des exemples de langages de balisage utilisés pour des pages web.
