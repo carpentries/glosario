@@ -128,6 +128,14 @@
       Um caminho que leva ao mesmo local no sistema de arquivos independente do
       contexto em que é avaliado. Um caminho absoluto pode ser comparado com a
       latitude e longitude em geografia.
+  ar:
+    term: "المسار المُطلق"
+    def: >
+        المسار الذي يُشير إلى ذات الموقع في
+        [نظام الملفات]
+        (#filesystem)
+        بغض النظر عن مكان تقييمها ،
+        المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا
 
 
 - slug: absolute_row_number
