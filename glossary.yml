@@ -944,7 +944,7 @@
     term: "agrupamento"
     def: >
       O processo de dividir os dados em grupos quando os grupos em si não são conhecidos
-      de antemão.
+      antecipadamente.
 
 - slug: code_coverage
   en:
