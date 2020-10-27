@@ -2761,14 +2761,14 @@
     term: "LaTeX"
     def: >
       A software system for document preparation that uses a specialized [markup language](#markup_language) to define a document structure
-	  (e.g. headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
-	  used in academia, in particular for scientific papers and theses in mathematics, physics, engineering and computer science.
+      (e.g. headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
+      used in academia, in particular for scientific papers and theses in mathematics, physics, engineering and computer science.
   fr:
     term: "LaTeX"
     def: >
       Un système de composition de documents qui utilise un [langage de balisage](#markup_language) pour définir la structure et mise en page
-	  d'un document, composer des formules mathématiques et gérer citations et références. Le format LaTeX est très utilisé
-	  dans les domaines scientifiques et techniques pour la production d'articles et de mémoires.
+      d'un document, composer des formules mathématiques et gérer citations et références. Le format LaTeX est très utilisé
+      dans les domaines scientifiques et techniques pour la production d'articles et de mémoires.
 
 
 - slug: lazy_evaluation
@@ -3051,8 +3051,8 @@
     term: "Markdown"
     def: >
       Un [langage de balisage](#markup_language) à la syntaxe simple visant à remplacer [HTML](#html).
-	  Markdown est souvent utilisé dans les fichiers LISEZ MOI (README), et forme la base du
-	  [R markdown](#r_markdown).
+      Markdown est souvent utilisé dans les fichiers LISEZ MOI (README), et forme la base du
+      [R markdown](#r_markdown).
 
 
 - slug: markov_chain
@@ -3082,9 +3082,9 @@
     term: "langage de balisage"
     def: >
       Un ensemble de règles pour annoter un texte afin d'en définir la structure ou d'en modifier
-	  l'affichage. Des balises déterminent comment le texte
-	  qu'elles délimitent doit être interprété ou affiché. Le [Markdown](#markdown) et [HTML](#html)
-	  sont des exemples de langages de balisage utilisés pour des pages web.
+      l'affichage. Des balises déterminent comment le texte
+      qu'elles délimitent doit être interprété ou affiché. Le [Markdown](#markdown) et [HTML](#html)
+      sont des exemples de langages de balisage utilisés pour des pages web.
 
 - slug: marthas_rules
   en:
@@ -4077,8 +4077,8 @@
     term: "R Markdown"
     def: >
       Un dialecte de [Markdown](#markdown) qui permet à ses auteurs de mélanger langage naturel et code
-	  (habituellement écrit en langage [R](#r_language)) dans un même document. 
-	  Voir aussi [programmation lettrée](#literate_programming).
+      (habituellement écrit en langage [R](#r_language)) dans un même document. 
+      Voir aussi [programmation lettrée](#literate_programming).
 
 
 - slug: raise_exception
