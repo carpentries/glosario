@@ -61,8 +61,8 @@
   ar:
     term: "البرمجيات المهجورة أو المتروكة"
     def: >
-      هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
-      ولم تعد على قيد الصيانة
+       هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
+       ولم تعد على قيد الصيانة
 
 - slug: absolute_error
   en:
@@ -86,7 +86,14 @@
     def: >
       La valeur absolue de la différence entre la valeur observée et la valeur
       correcte. L'erreur absolue est généralement moins pertinente que l'[erreur relative](#relative_error).
-
+  ar:
+    term: "الخطأ المُطلق"
+    def: >
+       هو عبارة عن القيمة المطلقة للفرق بين القيمة المرصودة والقيمة الواقعية الصحيحة
+       ،
+       الخطأ المُطلق عادة مايكون أقل فائدة من
+       [الخطأ النسبي]
+       (#relative_error)
 
 - slug: absolute_path
   ref:
