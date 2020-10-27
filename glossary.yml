@@ -37,6 +37,11 @@
     term: "afgooiware"
     def: >
       Sagteware wat nie meer onderhou word nie.
+  es:
+    term: "abandonware"
+    def: >
+      Software cuyo mantenimiento ha sido abandonado.
+
   fr:
     term: "abandonware"
     def: >
@@ -909,7 +914,12 @@
     term: "child class"
     def: >
       In [object-oriented programming](#oop), a class derived from another class
-      (called the [parent class](#child_class)).
+      (called the [parent class](#parent_class)).
+  es:
+    term: "subclase"
+    def: >
+      En [programación orientada a objetos](#oop), es la extensión de otra
+      clase (denominada [superclase](#parent_class)).
 
 
 - slug: child_tree
@@ -925,11 +935,20 @@
     def: >
       In [object-oriented programming](#oop), a structure that combines data and
       operations (called [methods](#method)). The program then uses a
-      [constructor](#constructor) to create an [object](#object) with those properties
-      and methods. Programmers generally put generic or reusable behavior in [parent
-      classes](#parent_class) and more detailed or specific behavior in [child classes](#child_class).
-
-
+      [constructor](#constructor) to create an [object](#object) with those
+      properties and methods. Programmers generally put generic or reusable
+      behavior in [parent classes](#parent_class) and more detailed or specific
+      behavior in [child classes](#child_class).
+  es:
+    term: "clase"
+    def: >
+      En [programación orientada a objetos](#oop), es una estructura que combina
+      datos y operaciones (denominadas [métodos](#method)). El programa emplea un
+      [constructor](#constructor) para crear un [objeto](#object) con esas 
+      propiedades y métodos. Los programadores generalmente definen comportamientos
+      genéricos o reutilizables en [superclases](#parent_class) y comportamientos
+      más específicos o detallados en [subclases]("child_class").
+      
 - slug: classification
   ref:
     - supervised_learning
@@ -1159,10 +1178,16 @@
   en:
     term: "constructor"
     def: >
-      A function that creates an [object](#object) of a particular [class](#class). In
-      the [S3](#s3) object system, constructors are a convention rather than a requirement.
-
-
+      A function that creates an [object](#object) of a particular
+      [class](#class). In the [S3](#s3) object system, constructors are a
+      convention rather than a requirement.
+  es: 
+    term: "constructor"
+    def: >
+      Una función que crea un [objeto](#object) de una [clase](#class)
+      particular. En el sistema de objetos de [S3](#s3), los constructores
+      son más una convención que un requisito.
+     
 - slug: continuation_prompt
   en:
     term: "continuation prompt"
@@ -2047,8 +2072,13 @@
   pt:
     term: "função genérica"
     def: >
-      Um conjunto de funções com propósito similar, cada uma operando em uma classe
-      diferente de dados.
+      Um conjunto de funções com propósito similar, cada uma operando em uma classe diferente
+      de dados.
+  es:
+    term: "función genérica"
+    def: >
+      Un conjunto de funciones con propósitos similares, cada una operando en una clase
+      diferente de datos.
 
 
 - slug: geometric_mean
@@ -3116,6 +3146,11 @@
     def: >
       An implementation of a [generic function](#generic_function) that handles
       objects of a specific class.
+  es:
+    term: "método"
+    def: >
+      Una implementación de una [función genérica](#generic_function) que 
+      manipula objetos de una clase específica.
 
 
 - slug: milestone
@@ -3403,9 +3438,16 @@
   en:
     term: "object"
     def: >
-      In [object-oriented programming](#oop), a structure that contains the data for a
-      specific instance of a [class](#class). The operations the object is capable of
-      are defined by the class's [methods](#method).
+      In [object-oriented programming](#oop), a structure that contains the data
+      for a specific instance of a [class](#class). The operations the object is
+      capable of are defined by the class's [methods](#method).
+  es:
+    term: "objeto"
+    def: >
+      En [programación orientada a objetos](#oop), es una estructura que contiene
+      los datos de una instancia específica de una [clase](#class). Las 
+      operaciones que son capaces de realizar estos objetos están definidas
+      por los [métodos](#method) de la clase.
 
 
 - slug: objective_function
@@ -3435,8 +3477,16 @@
     term: "object-oriented programming"
     acronym: "OOP"
     def: >
-      A style of programming in which functions and data are bound together in objects
-      that only interact with each other through well-defined interfaces.
+      A style of programming in which functions and data are bound together in
+      objects that only interact with each other through well-defined
+      interfaces.
+  es:
+    term: "programación orientada a objetos"
+    acronym: "POO"
+    def: >
+      Un paradigma de programación en el cual los datos (atributos) y funciones
+      (métodos) se agrupan en objetos que interactúan entre sí a través de 
+      interfaces bien definidas.
 
 
 - slug: open_license
@@ -3558,8 +3608,13 @@
   en:
     term: "parent class"
     def: >
-      In [object-oriented programming](#oop), the class from which another class
-      (called the [child class](#child_class)) is derived.
+      In [object-oriented programming](#oop), the class from which another
+      class (called the [child class](#child_class)) is derived.
+  es:
+    term: "superclase"
+    def: >
+      En [programación orientada a objetos](#oop), es la clase a partir de
+      la cual se derivan otras clases (denominadas [subclases](#child_class)).
 
 
 - slug: parent_directory
@@ -4335,7 +4390,11 @@
   en:
     term: "S3"
     def: >
-      A framework for object-oriented programming in R.
+      A framework for [object-oriented programming](#oop) in R.
+  es:
+    term: "S3"
+    def: >
+      Un entorno para la [programación orientada a objetos](#oop) en R.
 
 
 - slug: s4
