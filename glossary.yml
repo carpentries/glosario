@@ -660,10 +660,11 @@
     term: "التعبير المنطقي"
     def: >
       التعبير المنطقي عبارة عن تعبير يُستخدم لإنشاء جمل إما تحمل القيمة صح أو القيمة
-      خطأ (true or false) تُتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات
+      خطأ
+      (true or false)
+      تُستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات
       البحث والخوارزميات وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات
       الشرطية والتعبيرات العلائقية
-
 
 - slug: branch
   en:
@@ -897,6 +898,14 @@
     def: >
       A specification of how characters are stored as bytes. The most commonly-used
       encoding today is [UTF-8](#utf_8).
+  ar:
+    term: "ترميز"
+    def: >
+      إعادة تمثيل البيانات بصياغة أُخرى ليسهل التعامل معها وحفظها كبايت
+      (bytes)
+       ولا علاقة للترميز بالسرية والتشفير مطلقا، ومن صيغ ترميز البيانات المشهورة
+       هو يوتي إف ٨
+       (UTF-8).
 
 
 - slug: chi_square_test
@@ -944,11 +953,11 @@
     def: >
       En [programación orientada a objetos](#oop), es una estructura que combina
       datos y operaciones (denominadas [métodos](#method)). El programa emplea un
-      [constructor](#constructor) para crear un [objeto](#object) con esas 
+      [constructor](#constructor) para crear un [objeto](#object) con esas
       propiedades y métodos. Los programadores generalmente definen comportamientos
       genéricos o reutilizables en [superclases](#parent_class) y comportamientos
       más específicos o detallados en [subclases](#child_class).
-      
+
 - slug: classification
   ref:
     - supervised_learning
@@ -1166,7 +1175,7 @@
     term: "vertrouensinterval"
     def: >
       'n Variasiewydte rondom 'n beraming wat'n foutgrens aandui, gekombineerd met die waarskynlikheid
-       dat die werklike getal binne die skatting val. 
+       dat die werklike getal binne die skatting val.
 
 - slug: console
   en:
@@ -1186,13 +1195,13 @@
       A function that creates an [object](#object) of a particular
       [class](#class). In the [S3](#s3) object system, constructors are a
       convention rather than a requirement.
-  es: 
+  es:
     term: "constructor"
     def: >
       Una función que crea un [objeto](#object) de una [clase](#class)
       particular. En el sistema de objetos de [S3](#s3), los constructores
       son más una convención que un requisito.
-     
+
 - slug: continuation_prompt
   en:
     term: "continuation prompt"
@@ -2908,7 +2917,7 @@
     term: "programmation lettrée"
     def: >
       Une approche de la programmation qui mélange langage naturel (prose) et code.
-  
+
 
 - slug: local_installation
   ref:
@@ -3182,7 +3191,7 @@
   es:
     term: "método"
     def: >
-      Una implementación de una [función genérica](#generic_function) que 
+      Una implementación de una [función genérica](#generic_function) que
       manipula objetos de una clase específica.
 
 
@@ -3478,7 +3487,7 @@
     term: "objeto"
     def: >
       En [programación orientada a objetos](#oop), es una estructura que contiene
-      los datos de una instancia específica de una [clase](#class). Las 
+      los datos de una instancia específica de una [clase](#class). Las
       operaciones que son capaces de realizar estos objetos están definidas
       por los [métodos](#method) de la clase.
 
@@ -3522,7 +3531,7 @@
     acronym: "POO"
     def: >
       Un paradigma de programación en el cual los datos (atributos) y funciones
-      (métodos) se agrupan en objetos que interactúan entre sí a través de 
+      (métodos) se agrupan en objetos que interactúan entre sí a través de
       interfaces bien definidas.
 
 
@@ -4077,7 +4086,7 @@
     term: "R Markdown"
     def: >
       Un dialecte de [Markdown](#markdown) qui permet à ses auteurs de mélanger langage naturel et code
-      (habituellement écrit en langage [R](#r_language)) dans un même document. 
+      (habituellement écrit en langage [R](#r_language)) dans un même document.
       Voir aussi [programmation lettrée](#literate_programming).
 
 
@@ -5351,7 +5360,7 @@
   ar:
     term: "المتغير"
     def: >
-      المُتغير هو موقع يخزن البيانات المؤقتة داخل البرنامج ويمكن تعديله وتخزينه وعرضه
+      المُتغير هو موقع يٌخزِن البيانات المؤقتة داخل البرنامج ويمكن تعديله وتخزينه وعرضه
       عند الحاجة
 
 
