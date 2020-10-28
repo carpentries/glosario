@@ -992,6 +992,12 @@
       are correlated. A chi-square distribution varies from a [normal
       distribution](#normal_distribution) based on the [degrees of
       freedom](#degrees_of_freedom) used to calculate it.
+  af:
+    term: " chi-kwadraattoets"
+    def: >
+      'n Statistiese metode om te bepaal of twee veranderlikes in 'n kruistabellering 
+      gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreiding
+      gebaseer op die vryheidsgrade wat gebruik word om dit te bereken.
 
 
 - slug: child_class
