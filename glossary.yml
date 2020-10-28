@@ -957,8 +957,8 @@
     term: " chi-kwadraattoets"
     def: >
       'n Statistiese metode om te bepaal of twee veranderlikes in 'n kruistabellering 
-      gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreding
-      gebaseer op die vryheidsgrade wat gebruik work om dit te bereken.
+      gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreiding
+      gebaseer op die vryheidsgrade wat gebruik word om dit te bereken.
 
 
 - slug: child_class
