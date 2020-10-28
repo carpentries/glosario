@@ -764,13 +764,13 @@
          وتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
          وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية
          والتعبيرات العلائقية
-   pt:
-     term: "Booleano"
-     def: >
-       Relacionado a uma uma variável ou tipo de dado que pode ter um valor lógico de
-       [verdadeiro](#true) ou [falso](#false). Nomeado em referêcia à George Boole, um
-       matemático do século XIX. Sistemas binários, como todos os computadores, são construídos
-       com base em sistemas de avaliação entre estados de verdadeiro e falso, 0 ou 1.
+  pt:
+    term: "Booleano"
+    def: >
+      Relacionado a uma uma variável ou tipo de dado que pode ter um valor lógico de
+      [verdadeiro](#true) ou [falso](#false). Nomeado em referêcia à George Boole, um
+      matemático do século XIX. Sistemas binários, como todos os computadores, são construídos
+      com base em sistemas de avaliação entre estados de verdadeiro e falso, 0 ou 1.
 
 
 - slug: branch
