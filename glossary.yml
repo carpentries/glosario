@@ -1344,7 +1344,7 @@
     term: "korrelasie"
     def: >
       Hoe sterk twee veranderlikes met mekaar ooreenstem. Korrelasie word gewoonlik gemeet aan
-      die berekening van 'n [korrelasiekoëffisiënt](#korrelasiekoëffisiënt), maar
+      die berekening van 'n [korrelasiekoëffisiënt](#correlation_coefficient), maar
       impliseer nie oorsaaklikheid.
 
 
