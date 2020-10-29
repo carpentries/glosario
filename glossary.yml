@@ -1332,7 +1332,13 @@
     def: >
       O quão bem duas variáveis concordam uma com a outra. A correlação é normalmente
       medida pelo cálculo de um [coeficiente de correlação](#correlation_coefficient),
-      e não significa que precise existir causalidade.
+      e não significa que precise existir causalidade.   
+  af:
+    term: "korrelasie"
+    def: >
+      Hoe sterk twee veranderlikes met mekaar ooreenstem. Korrelasie word gewoonlik gemeet aan
+      die berekening van 'n [korrelasiekoëffisiënt](#correlation_coefficient), maar
+      impliseer nie oorsaaklikheid.
 
 
 - slug: correlation_coefficient
@@ -1352,6 +1358,15 @@
       conhecer X permite uma previsão perfeita de Y. Se o coeficiente de correlação
       for 0.0, conhecer X não diz nada a respeito de Y, e se for -1.0, então X prevê
       Y, mas mudanças no valor de X gera uma mudança oposta em Y.
+  af:
+    term: "korrelasiekoëffisiënt"
+    def: >
+      'n Maatstaf van hoe sterk [gekorreleer](#correlation) twee veranderlikes is. As die
+      korrelasiekoëffisiënt tussen X en Y gelyk is aan 1.0,
+      dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt 
+      0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel 
+      X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde verandering in Y.
+      
 
 
 - slug: covariance
