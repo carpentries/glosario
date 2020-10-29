@@ -1368,7 +1368,7 @@
   af:
     term: "korrelasiekoëffisiënt"
     def: >
-      'n Maatstaf van hoe sterk [gekorreleer](#korrelasie) twee veranderlikes is. As die
+      'n Maatstaf van hoe sterk [gekorreleer](#correlation) twee veranderlikes is. As die
       [korrelasiekoëffisiënt](#korrelasiekoëffisiënt) tussen X en Y gelyk is aan 1.0,
       dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt 
       0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel 
