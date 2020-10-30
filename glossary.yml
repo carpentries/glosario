@@ -36,10 +36,10 @@
         [الانحراف المعياري](#standard_deviation)
         من
         [الوسط](#mean)
-        ، بينما ٩٥٪ تقع ضمن وحدتين ،
+        ، بينما ٩٥٪ تقع ضمن وحدتين،
         و٩٩,٧٪ تقع ضمن ثلاث وحدات
         بالمقابل ، حوالي ٠,٣ ٪  من القيم تقع  في أكثر من ثلاثة وحدات
-        من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات
+        من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات.
 
 
 - slug: abandonware
@@ -67,7 +67,7 @@
     term: "البرمجيات المهجورة أو المتروكة"
     def: >
        هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
-       ولم تعد على قيد الصيانة
+       ولم تعد على قيد الصيانة.
 
 - slug: absolute_error
   en:
@@ -94,10 +94,9 @@
   ar:
     term: "الخطأ المُطلق"
     def: >
-       هو عبارة عن القيمة المطلقة للفرق بين القيمة المرصودة والقيمة الواقعية الصحيحة
-       ،
+       هو عبارة عن القيمة المطلقة للفرق بين القيمة المرصودة والقيمة الواقعية الصحيحة،
        الخطأ المُطلق عادة مايكون أقل فائدة من
-       [الخطأ النسبي](#relative_error)
+       [الخطأ النسبي](#relative_error).
 
 - slug: absolute_path
   ref:
@@ -136,9 +135,9 @@
     term: "المسار المُطلق"
     def: >
         المسار الذي يُشير إلى ذات الموقع في
-        [نظام الملفات](#filesystem)
-        بغض النظر عن مكان تقييمها ،
-        المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا
+        [نظام الملفات](#filesystem)،
+        بغض النظر عن مكان تقييمها
+        المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا.
 
 
 - slug: absolute_row_number
@@ -429,7 +428,7 @@
     def: >
       قيمة يتم تمريرها إلى دالة أو وسيطة ، البعض يُطلِق عليها مصطلح
       [مُعطى](#parameter)
-      والبعض الآخر يُطلِق عليها مصطلح وسيطة
+      والبعض الآخر يُطلِق عليها مصطلح وسيطة.
   af:
     term: "argument"
     def: >
@@ -728,7 +727,7 @@
         [القيمة خطأ](#false)
          وتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
          وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية
-         والتعبيرات العلائقية
+         والتعبيرات العلائقية.
 
 
 - slug: branch
@@ -913,7 +912,7 @@
     term: "إستثناء"
     def: >
       الإستثناء هو الشرط الخاص الذي يُعالج به الشذوذ أو الشيء الغير متوقع الذي حدث
-      أثناء تنفيذ البرنامج
+      أثناء تنفيذ البرنامج.
 
 
 - slug: causation
@@ -975,7 +974,7 @@
        ولا علاقة للترميز بالسرية والتشفير مطلقا، ومن صيغ ترميز البيانات المشهورة
        هو
        يو تي إف
-       [UTF-8](#utf_8).
+       [(UTF-8)](#utf_8).
 
 
 - slug: chi_square_test
@@ -1206,7 +1205,7 @@
       هو برنامج يقوم بترجمة النصوص المصدرية إلى أوامر ومعلومات يفهمها الحاسب لذلك
       يُمكن للكمبيوتر فهم البرنامج وتشغيله دون استخدام برنامج البرمجة المستخدم لإنشائه
       أو مايُسمى
-      [رموز البايت](#byte_code)
+      [رموز البايت](#byte_code).
 
 - slug: computational_linguistics
   ref:
@@ -1332,7 +1331,7 @@
     def: >
       O quão bem duas variáveis concordam uma com a outra. A correlação é normalmente
       medida pelo cálculo de um [coeficiente de correlação](#correlation_coefficient),
-      e não significa que precise existir causalidade.   
+      e não significa que precise existir causalidade.
   af:
     term: "korrelasie"
     def: >
@@ -1363,10 +1362,10 @@
     def: >
       'n Maatstaf van hoe sterk [gekorreleer](#correlation) twee veranderlikes is. As die
       korrelasiekoëffisiënt tussen X en Y gelyk is aan 1.0,
-      dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt 
-      0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel 
+      dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt
+      0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel
       X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde verandering in Y.
-      
+
 
 
 - slug: covariance
@@ -3419,7 +3418,7 @@
     term: "لاشيء"
     def: >
       هو رمز مميز يٌمثِل حرفاً بلا قيمة أو قيمة مفقودة أي انه يرمز إلى عدم وجود أي
-      قيمة على الإطلاق
+      قيمة على الإطلاق.
 
 
 - slug: naive_bayes_classifier
@@ -5493,7 +5492,7 @@
     term: "المتغير"
     def: >
       المُتغير هو موقع يٌخزِن البيانات المؤقتة داخل البرنامج ويمكن تعديله وتخزينه وعرضه
-      عند الحاجة
+      عند الحاجة.
 
 
 - slug: variance
