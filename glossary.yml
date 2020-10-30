@@ -348,6 +348,8 @@
     def: >
       A function that has not been assigned a name. Anonymous functions are usually
       quite short, and are usually defined where they are used, e.g., as callbacks.
+      In Python, these are called lambda functions and are created through use of the
+      lambda reserved word.
   af:
     term: "anonieme funksie"
     def: >
@@ -411,9 +413,11 @@
   en:
     term: "argument"
     def: >
-      The term should not be confused with, and is not a synonym for
-      [parameter](#parameter). An argument is an expression in the comma-separated
-      list that is passed to a function. It is the actual value that is passed.
+      The term should not be confused with, and is not a synonym for,
+      [parameter](#parameter). An argument is one of possibly several expressions
+      that are passed to a function. It is the actual value that is passed.
+      Parameters and arguments are distinct, but related concepts. Parameters are
+      variables and [arguments](#argument) are the values assigned to those variables. 
   es:
     term: "argumento"
     def: >
@@ -465,7 +469,10 @@
       program. Assertions may be built into the language (e.g., [Python](#python)'s
       `assert` statement) or provided as functions (e.g., R's `stopifnot`). They are
       often used in testing, but are also put in [production code](#production_code)
-      to check that it is behaving correctly.
+      to check that it is behaving correctly. Assertions should not be used to perform
+      data-validation as they are generally silently dropped by compilers and interpreters
+      under optimisation conditions. Using assertions for data validation can therefore
+      introduce security risks.
 
 
 - slug: associative_array
@@ -503,7 +510,7 @@
     term: "auto-completion"
     def: >
       A feature that allows the user to finish a word or code quickly through the use
-      of pressing the TAB key to list possible words or code that the user can select from.
+      of pressing the TAB key to list possible words or code from which the user can select.
   fr:
     term: "auto-complétion"
     def: >
@@ -614,7 +621,7 @@
   en:
     term: "bias"
     def: >
-      A statistic is biased if it is systematically or consistency different from the
+      A statistic is biased if it is systematically or consistently different from the
       parameter it is supposed to estimate.
 
 
@@ -646,7 +653,7 @@
   en:
     term: "binary expression"
     def: >
-      An expression with two arguments or parameters, such as `1 + 2`.
+      An expression which has two parameters and takes two arguments, such as `1 + 2`.
 
 
 - slug: binomial_distribution
@@ -715,8 +722,8 @@
     term: "Boolean"
     def: >
       Relating to a variable or data type that can have either a logical value of
-      [true](#true) or a value of [false](#false). Named for George Boole, a 19th
-      Century mathemetician. Binary systems, like all computers are built on this
+      [true](#true) or [false](#false). Named for George Boole, a 19th
+      century mathemetician. Binary systems, like all computers, are built on this
       foundation of systems of logical evaluations between states of true and false, 1
       or 0.
   ar:
@@ -744,7 +751,7 @@
     def: >
       A common strategy for managing work with [Git](#git) and other [version control
       systems](#version_control_system) in which a separate [branch](#git_branch) is
-      created for work on each new feature or each bug fix and merged when that work
+      created for work on each new [feature](#feature) or each [bug](#bug) fix and merged when that work
       is completed. This isolates changes from one another until they are completed.
 
 
@@ -766,7 +773,7 @@
     def: >
       To go through a nested data structure such as a [tree](#tree) by exploring all
       of one level, then going on to the next level and so on, or to explore a problem
-      by examining the first step of each possible solution, and then trying the next
+      by examining the first step of each possible solution, and then trying the next step
       for each.
 
 
@@ -782,9 +789,9 @@
   en:
     term: "bug report"
     def: >
-      A collection of files, logs, or related information that describes either an
-      unexpected output of some code or program or an unexpected error or warning.
-      This information is used to help find and fix a bug in the program or code.
+      A collection of files, [logs](#log), or related information that describes either an
+      unexpected output of some code or program, or an unexpected error or warning.
+      This information is used to help find and fix a [bug](#bug) in the program or code.
 
 
 - slug: bug_tracker
@@ -792,7 +799,7 @@
     term: "bug tracker"
     def: >
       A system that tracks and manages [reported bugs](#bug_report) for a software
-      program, to make it easier to address and fix the bugs.
+      program, to make it easier to address and fix the [bugs](#bug).
 
 
 - slug: build_manager
@@ -804,9 +811,9 @@
     term: "build manager"
     def: >
       A program that keeps track of how files depend on one another and runs commands
-      to update any files that are out of date. Build managers were invented to
+      to update any files that are out-of-date. Build managers were invented to
       [compile](#compile) only those parts of programs that had changed, but are now
-      often used to implement workflows in which plots depend on result files, which
+      often used to implement workflows in which plots depend on results files, which
       in turn depend on raw data files or configuration files.
 
 
@@ -815,7 +822,7 @@
     term: "build recipe"
     def: >
       The part of a [build rule](#build_rule) that describes how to update something
-      that has fallen out of date.
+      that has fallen out-of-date.
 
 
 - slug: build_rule
@@ -823,14 +830,14 @@
     term: "build rule"
     def: >
       A specification for a [build manager](#build_manager) that describes how some
-      files depend on others and what to do if those files are out of date.
+      files depend on others and what to do if those files are out-of-date.
 
 
 - slug: build_stale
   en:
     term: "stale (in build)"
     def: >
-      To be out of date compared to a [prerequisite](#prerequisite). A [build
+      To be out-of-date compared to a [prerequisite](#prerequisite). A [build
       manager](#build_manager)'s job is to find and update things that are stale.
 
 
@@ -841,7 +848,7 @@
   en:
     term: "build target"
     def: >
-      The file(s) that a [build rule](#build_rule) will update if they are out of date
+      The file(s) that a [build rule](#build_rule) will update if they are out-of-date
       compared to their [dependencies](#dependency).
 
 
@@ -859,8 +866,8 @@
       Something that stores copies of data so that future requests for it can be
       satisfied more quickly. The CPU in a computer uses a hardware cache to hold
       recently-accessed values; many programs rely on a software cache to reduce
-      network traffic and latency. Figuring out when something in a cache is out of
-      date and should be replaced is one of the [two hard problems in computer science](#two_hard_problems).
+      network traffic and latency. Figuring out when something in a cache is out-of-date
+      and should be replaced is one of the [two hard problems in computer science](#two_hard_problems).
 
 
 - slug: caching
@@ -896,7 +903,7 @@
     term: "camel case"
     def: >
       A style of writing code that involves naming variables and objects with no
-      space, underscore (`_`), dot (`.`), or dash (`-`), with each word being
+      space, underscore (`_`), dot (`.`), or dash (`-`) characters, with each word being
       capitalized. Examples include `CalculateSum` and `findPattern`.
 
 
@@ -908,7 +915,8 @@
     term: "catch (an exception)"
     def: >
       To accept responsibility for handling an error or other unexpected event. R
-      prefers "handling a condition" to "catching an exception".
+      prefers "handling a condition" to "catching an exception". Python, on the other hand,
+      encourages raising and catching exceptions, and in some situations, requires it.
   ar:
     term: "إستثناء"
     def: >
@@ -932,7 +940,7 @@
     term: "CC-BY"
     def: >
       The [Creative Commons](#cc_license) - Attribution [license](#license) that
-      requires people to give credit to the author of a work but imposes no other restrictions.
+      requires people to give credit to the author of a work, but imposes no other restrictions.
 
 
 - slug: cc_license
@@ -946,7 +954,7 @@
       commercial purposes without the creator's permission; `-ND` (NoDerivatives): no
       derivative works (e.g., translations) can be created without the creator's
       permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use
-      commercially without permission The term `CC-0` (zero, not letter 'O') is
+      commercially without permission". The term `CC-0` (zero, not letter 'O') is
       sometimes used to mean "no restrictions", i.e., the work is in the public domain.
 
 
@@ -983,7 +991,7 @@
     term: "chi-square test"
     def: >
       A statistical method for estimating whether two variables in a cross tabulation
-      are correlated. A chi-square distribution varies from a [normal
+      are [correlated](#correlation). A chi-square distribution varies from a [normal
       distribution](#normal_distribution) based on the [degrees of
       freedom](#degrees_of_freedom) used to calculate it.
   af:
@@ -998,7 +1006,7 @@
   en:
     term: "child class"
     def: >
-      In [object-oriented programming](#oop), a class derived from another class
+      In [object-oriented programming](#oop), a [class](#class) derived from another class
       (called the [parent class](#parent_class)).
   es:
     term: "subclase"
@@ -1022,7 +1030,7 @@
       operations (called [methods](#method)). The program then uses a
       [constructor](#constructor) to create an [object](#object) with those
       properties and methods. Programmers generally put generic or reusable
-      behavior in [parent classes](#parent_class) and more detailed or specific
+      behavior in [parent classes](#parent_class), and more detailed or specific
       behavior in [child classes](#child_class).
   es:
     term: "clase"
@@ -1095,7 +1103,7 @@
   en:
     term: "code coverage (in testing)"
     def: >
-      How much of a library or program is executed when tests run. This is normally
+      How much of a [library](#) or program is executed when tests run. This is normally
       reported as a percentage of lines of code: for example, if 40 out of 50 lines in
       a file are run during testing, those tests have 80% code coverage.
 
@@ -1111,7 +1119,7 @@
   en:
     term: "coercion"
     def: >
-      see [type coercion](#type_coercion).
+      See [type coercion](#type_coercion).
 
 
 - slug: cognitive_load
@@ -1125,8 +1133,8 @@
   en:
     term: "command history"
     def: >
-      An automatically-created list of previously-executed commands. Most
-      [REPLs](#repl), including the [Unix shell](#shell), record history and allow
+      An automatically-created list of previously-executed commands. Most read-eval-print loops
+      ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
       users to play back recent commands.
 
 
@@ -1163,7 +1171,7 @@
   en:
     term: "commit"
     def: >
-      As a verb, the act of saving a set of changes to a database or version control
+      As a verb, the act of saving a set of changes to a database or [version control](#version_control_system)
       [repository](#repository). As a noun, the changes saved.
 
 
@@ -1191,7 +1199,8 @@
       Originally, a language such as C or Fortran that is translated into machine
       instructions for execution. Languages such as Java are also compiled before
       execution, but into [byte code](#byte_code) instead of machine instructions,
-      while languages like [Python](#python) are compiled to byte code on the fly.
+      while [interpreted languages](#interpreted_language) like [Python](#python)
+      are compiled to byte code on the fly.
 
 
 - slug: compiler
@@ -1214,7 +1223,7 @@
   en:
     term: "computational linguistics"
     def: >
-      The study or application of computational methods for parsing or understanding
+      The study or application of computational methods for [parsing](#parse) or understanding
       human languages. Early approaches were algorithmic; most modern approaches are statistical.
 
 
@@ -1263,7 +1272,7 @@
   en:
     term: "console"
     def: >
-      A computer terminal where a user may enter commands, or a program
+      A computer terminal where a user may enter commands, or a program, such as a shell
       that simulates such a device.
 
 
@@ -1289,7 +1298,7 @@
     term: "continuation prompt"
     def: >
       A [prompt](#prompt) that indicates that the command currently being typed is not
-      yet complete and will not be run until it is.
+      yet complete, and will not be run until it is.
 
 
 - slug: continuous_integration
@@ -1307,7 +1316,7 @@
     term: "continuous random variable"
     def: >
       A [variable](#variable_data) whose value can be any real value, either
-      within a range or unbounded, such as age or distance.
+      within a range, or unbounded, such as age or distance.
 
 
 - slug: copy_on_modify
@@ -1324,9 +1333,9 @@
   en:
     term: "correlation"
     def: >
-      How well two variables agree with each other. Correlation is usually measured by
+      A measure of how well two variables agree with each other. Correlation is usually measured by
       calculating a [correlation coefficient](#correlation_coefficient), and does not
-      imply causation.
+      imply [causation](#causation).
   pt:
     term: "correlação"
     def: >
@@ -1345,11 +1354,11 @@
   en:
     term: "correlation coefficient"
     def: >
-      A measure of how well [correlated](#correlation) two variables are. If the
+      A measure of how well-[correlated](#correlation) two variables are. If the
       [correlation coefficient](#correlation_coefficient) between X and Y is 1.0,
       knowing X allows perfect prediction of Y. If the correlation coefficient is 0.0,
       knowing X tells you nothing about Y, and if it is -1.0, then X predicts Y, but
-      change in X causes an opposite change in Y.
+      a change in X causes an opposite change in Y.
   pt:
     term: "coeficiente de correlação"
     def: >
@@ -1367,7 +1376,6 @@
       0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel 
       X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde verandering in Y.
       
-
 
 - slug: covariance
   en:
@@ -1408,7 +1416,7 @@
     def: >
       A technique that divides data into [training data](#training_data) and [test
       data](#test_data). The training data and correct answers are used to find
-      parameters, and the algorithm's effectiveness is then measured by examining the
+      [parameters](#parameter), and the algorithm's effectiveness is then measured by examining the
       answers it gives on the test data.
 
 
@@ -1440,16 +1448,16 @@
     term: "comma-separated values"
     acronym: "CSV"
     def: >
-      A text format for tabular data in which each record is one row and fields are
+      A text format for tabular data in which each [record](#record) is one row and [fields](#field) are
       separated by commas. There are many minor variations, particularly around
-      quoting of strings.
+      quoting of [strings](#string).
 
 
 - slug: current_working_directory
   en:
     term: "current working directory"
     def: >
-      The folder or directory location that the program is operating in. Any action
+      The [folder](#folder) or [directory](#directory) location in which the program operates. Any action
       taken by the program occurs relative to this directory.
   pt:
     term: "diretório de trabalho"
@@ -1552,8 +1560,8 @@
   en:
     term: "decision tree"
     def: >
-      A tree whose nodes are questions and whose branches eventually lead to a
-      decision or classification.
+      A tree whose [nodes](#node) are questions and whose [branches](#branch) eventually lead to a
+      decision or [classification](#classification).
 
 
 - slug: decorator_pattern
@@ -1585,7 +1593,7 @@
   en:
     term: "default value"
     def: >
-      A value assigned to a function parameter when the caller does not specify a
+      A value assigned to a function [parameter](#parameter) when the caller does not specify a
       value. Default values are specified as part of the function's definition.
 
 
@@ -1594,7 +1602,7 @@
     term: "defensive programming"
     def: >
       A set of programming practices that assumes mistakes will happen and either
-      report or correct them, such as inserting [assertions](#assertion) to report
+      reports or corrects them, such as inserting [assertions](#assertion) to report
       situations that are not ever supposed to occur.
 
 
@@ -1605,7 +1613,7 @@
   en:
     term: "Delegate pattern"
     def: >
-      A [design pattern](#design_pattern) in which an object does most of the work to
+      A [design pattern](#design_pattern) in which an [object](#object) does most of the work to
       complete a task, but uses one of a set of other objects to complete some
       specific parts of the work. Delegation is often used instead of inheritance to
       customize objects' behavior.
@@ -1657,6 +1665,8 @@
 
 
 - slug: destructuring_assignment
+  ref:
+    - multiple_assignment
   en:
     term: "destructuring assignment"
     def: >
@@ -1726,7 +1736,7 @@
     term: "Digital Object Identifier"
     acronym: "DOI"
     def: >
-      A unique persistent identifier for a book, paper, report, software release, or
+      A unique persistent identifier for a book, paper, report, dataset, software release, or
       other digital artefact.
 
 
@@ -1735,10 +1745,10 @@
     term: "Document Object Model"
     acronym: DOM
     def: >
-      A standard in-memory representation of [HTML](#html) and [XML](#xml). Each
+      A standard, in-memory representation of [HTML](#html) and [XML](#xml). Each
       [element](#element) is stored as a [node](#node) in a [tree](#tree) with a set
       of named [attributes](#attribute); contained elements are [child
-      nodes](#child_tree). Modern programming languages provide many libraries for
+      nodes](#child_tree). Modern programming languages provide many [libraries](#library) for
       searching and modifying the DOM.
 
 
@@ -1750,7 +1760,7 @@
     def: >
       A pattern that identifies [nodes](#node) in a [DOM](#dom) [tree](#tree). For
       example, `#alpha` matches nodes whose `id` [attribute](#attribute) is "alpha",
-      while `.beta` matches nodes whose `class` [attribute](#attribute) is "beta".
+      while `.beta` matches nodes whose `class` attribute is "beta".
 
 
 - slug: domain_knowledge
@@ -1793,7 +1803,7 @@
       To [import](#import) a [module](#module) into the memory of a program while it
       is already running. Most [interpreted languages](#interpreted_language) use
       dynamic loading, and provide tools so that programs can find and load modules
-      dynamically to configure themselves
+      dynamically to configure themselves.
 
 
 - slug: dynamic_lookup
@@ -3751,10 +3761,9 @@
   en:
     term: "parameter"
     def: >
-      A variable whose value is passed into a function when the function is called.
-      Some writers distinguish parameters (the variables) from [arguments](#argument)
-      (the values passed in), but others use the terms in the opposite sense. It is
-      all very confusing.
+      A variable specified in a function definition whose value is passed to the function
+      when the function is called. Parameters and arguments are distinct, but related concepts.
+      Parameters are variables and [arguments](#argument) are the values assigned to those variables. 
 
 
 - slug: parent_class
@@ -5148,8 +5157,8 @@
   en:
     term: "ternary expression"
     def: >
-      An expression that has three parts. [Conditional
-      expressions](#conditional_expression) are the only ternary expressions in most languages.
+      An expression that has three parts. [Conditional expressions](#conditional_expression)
+      are the only ternary expressions in most languages.
 
 
 - slug: test_data
