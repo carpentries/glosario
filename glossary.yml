@@ -1,4 +1,12 @@
 - slug: 68_95_997_rule
+  de:
+    term: "68-95-99.7 Regel"
+    def: >
+      Drückt die Tatsache aus, dass 68% der Werte innerhalb einer
+      [Standardabweichung](#standard_deviation) vom Mittelwert liegen,
+      95% innerhalb von zwei und 99,7% innerhalb von drei. Umgekehrt
+      liegen etwa 0,3% der Werte in den meisten Fällen mehr als drei
+      Standardabweichungen über oder unterhalb des Mittelwerts.
   en:
     term: "68-95-99.7 rule"
     def: >
