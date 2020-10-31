@@ -5673,6 +5673,14 @@
 
 
 - slug: yaml
+  de:
+    term: "YAML"
+    def: >
+      Abkürzung für "YAML Ain't Markup Language", eine Methode zur Darstellung 
+      verschachtelter Daten mit Einrückung statt der Klammern und Kommas 
+      von [JSON](#json). YAML ist oft in Konfigurationsdateien und zur Definition 
+      von Parametern für verschiedene Geschmacksrichtungen verwendet
+      von [Markdown](#markdown)-Dokumenten.
   en:
     term: "YAML"
     def: >
@@ -5688,3 +5696,4 @@
       utilise des indentations au lieu de signes typographiques, comme les parenthèses
       et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
       configuration et pour définir les paramètres de documents [Markdown](#markdown).
+ 
