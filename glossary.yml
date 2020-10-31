@@ -70,6 +70,12 @@
        ولم تعد على قيد الصيانة
 
 - slug: absolute_error
+  de:
+    term: "Absoluter Fehler"
+    def: >
+      Der absolute Wert der Differenz zwischen dem beobachteten und
+      dem korrekten Wert. Der absolute Fehler ist normalerweise
+      weniger nützlich als der relative Fehler.
   en:
     term: "absolute error"
     def: >
