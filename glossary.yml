@@ -43,6 +43,10 @@
 
 
 - slug: abandonware
+  de:
+    term: "Abandonware"
+    def: >
+      Software die nicht länger weiterentwickelt wird.
   en:
     term: "abandonware"
     def: >
