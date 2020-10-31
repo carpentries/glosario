@@ -165,6 +165,14 @@
 
 
 - slug: abstract_method
+  de:
+    term: "Abstrakte Methode"
+    def: >
+      In der objektorientierten Programmierung eine Methode, die zwar
+      definiert, aber nicht implementiert ist. Programmierer
+      definieren eine abstrakte Methode in einer übergeordneten
+      Klasse, um Operationen zu spezifizieren, die die untergeordneten
+      Klassen bereitstellen müssen.
   en:
     term: "abstract method"
     def: >
