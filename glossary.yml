@@ -2350,6 +2350,10 @@
     term: "global installation"
     def: >
       Installing a package in a location where it can be accessed by all users and projects.
+  es:
+    term: "instalación global"
+    def: >
+      El acto de instalar un paquete en una ubicación donde pueda ser accedido por todas las usuarias y proyectos.
   fr:
     term: "installation globale"
     def: >
@@ -3029,6 +3033,11 @@
     def: >
       Placing a package inside a particular project so that it is only accessible
       within that project.
+  en:
+    term: "instalación local"
+    def: >
+      El acto de ubicar un paquete en un proyecto en particular para que sólo sea accesible
+      dentro de ese proyecto.
 
 
 - slug: local_variable
