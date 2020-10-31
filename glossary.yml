@@ -5650,6 +5650,13 @@
 
 
 - slug: xml
+  de:
+    term: "XML"
+    def: >
+      Eine Reihe von Regeln zur Definition von [HTML](#html)-ähnlichen Tags und deren 
+      Verwendung zur Formatierung Dokumente (typischerweise Daten). XML war in den 
+      frühen 2000er Jahren populär, aber seine Komplexität veranlasste 
+      viele Programmierer, stattdessen [JSON](#json) zu übernehmen.
   en:
     term: "XML"
     def: >
