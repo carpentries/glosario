@@ -4087,7 +4087,7 @@
     term: "project manager"
     def: >
       The person responsible for ensuring that a project moves forward and defining what
-      [features](#feature) a product should have.
+      features a product should have.
 
 
 - slug: prompt
@@ -4771,7 +4771,7 @@
     def: >
       A standard for identifying software releases. In the version identifier
       `major.minor.patch`, `major` changes when a new version of software is
-      incompatible with old versions, `minor` changes when new [features](#feature) are added to
+      incompatible with old versions, `minor` changes when new features are added to
       an existing version, and `patch` changes when small [bugs](#bug) are fixed.
 
 
