@@ -3890,6 +3890,10 @@
 
 
 - slug: plus_one
+  de:
+    term: "+1"
+    def: >
+      Eine Zustimmung zu etwas.    
   en:
     term: "+1"
     def: >
