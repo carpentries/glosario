@@ -759,7 +759,7 @@
     def: >
       A common strategy for managing work with [Git](#git) and other [version control
       systems](#version_control_system) in which a separate [branch](#git_branch) is
-      created for work on each new [feature](#feature) or each [bug](#bug) fix and merged when that work
+      created for work on each new feature or each [bug](#bug) fix and merged when that work
       is completed. This isolates changes from one another until they are completed.
 
 
@@ -1681,8 +1681,6 @@
 
 
 - slug: destructuring_assignment
-  ref:
-    - multiple_assignment
   en:
     term: "destructuring assignment"
     def: >
@@ -2024,7 +2022,7 @@
     term: "feature branch"
     def: >
       A [branch](#branch) within a [Git](#git) [repository](#repository)
-      containing [commits](#commit) dedicated to a specific [feature](#feature), e.g., a
+      containing [commits](#commit) dedicated to a specific feature, e.g., a
       [bug](#bug) fix or a new function. This branch can be merged into another branch.
 
 
@@ -2048,7 +2046,7 @@
     term: "feature request"
     def: >
       A request to the maintainers or developers of a software program to add a
-      specific functionality (a [feature](#feature)) to that program.
+      specific functionality (a feature) to that program.
 
 
 - slug: feature_software
@@ -2056,7 +2054,7 @@
     term: "feature (in software)"
     def: >
       Some aspect of software that was deliberately designed or built. A [bug](#bug)
-      is an undesired [feature](#feature).
+      is an undesired feature.
 
 
 - slug: field
@@ -2555,7 +2553,7 @@
   en:
     term: "heterogeneous"
     def: >
-      Containing mixed data types. For example, in [Python](#Python), a list can contain a mix of numbers, character
+      Containing mixed data types. For example, in [Python](#python), a list can contain a mix of numbers, character
       strings, and values of other types.
 
 
@@ -2789,7 +2787,7 @@
   en:
     term: "issue"
     def: >
-      A [bug report](#bug_report), [feature](#feature) request, or other to-do item associated
+      A [bug report](#bug_report), feature request, or other to-do item associated
       with a project. Also called a [ticket](#ticket).
 
 
@@ -2798,7 +2796,7 @@
     term: "label (an issue)"
     def: >
       A short textual tag associated with an [issue](#issue) to categorize it. Common
-      labels include [`bug`](#bug) and `[feature](#feature) request`.
+      labels include [`bug`](#bug) and `feature request`.
 
 
 - slug: issue_tracking_system
@@ -2902,7 +2900,7 @@
       such as a [dictionary](#dictionary).
 
 
-- slug: keyword_arguments
+- slug: keyword_argument
   ref:
     - named_argument
     - variable_arguments
@@ -2937,7 +2935,7 @@
 
 - slug: lazy_evaluation
   ref:
-    short_circuit_test
+    - short_circuit_test
   en:
     term: "lazy evaluation"
     def: >
@@ -3062,9 +3060,6 @@
 
 
 - slug: list_comprehension
-  ref:
-    - dictionary_comprehension
-    - set_comprehension
   en:
     term: "list comprehension"
     def: >
@@ -3076,7 +3071,6 @@
 - slug: literate_programming
   ref:
     - computational_notebook
-    - jupyter
     - r_markdown
   en:
     term: "literate programming"
@@ -3286,7 +3280,7 @@
     term: "master branch"
     def: >
       A dedicated, permanent, central [branch](#branch) which should contain a "ready product".
-      After a new [feature](#feature) is developed on a separate branch to avoid breaking the main
+      After a new feature is developed on a separate branch to avoid breaking the main
       code, it can be [merged](#git_merge) into the master branch.
 
 
@@ -3348,7 +3342,7 @@
     def: >
       A value separating the upper and lower halves of a sorted dataset. The median
       often gives a better idea of what is typical of the dataset than the
-      [mean](#mean), which can be influenced by a small number of extreme [outliers](#outlier).
+      mean, which can be influenced by a small number of extreme [outliers](#outlier).
       If the dataset contains an even number of elements, this is the average of the
       two central elements.
 
@@ -3521,7 +3515,7 @@
 
 - slug: named_argument
   ref:
-    - keyword_arguments
+    - keyword_argument
     - variable_arguments
   en:
     term: "named argument"
@@ -3610,8 +3604,6 @@
 
 
 - slug: nosql_database
-  ref:
-    - relational_database
   en:
     term: "NoSQL database"
     def: >
@@ -3745,8 +3737,6 @@
 
 
 - slug: optional_parameter
-  ref:
-    - keyword_arguments
   en:
     term: "optional_parameter"
     def: >
@@ -3754,7 +3744,7 @@
       is called. Most programming languages require programmers to define [default
       values](#default_value) for optional parameters, or assign them a special value automatically.
       Arguments passed to optional parameters will often be specified using [keyword
-      arguments](#keyword_arguments).
+      arguments](#keyword_argument).
 
 
 - slug: orcid
@@ -4001,7 +3991,7 @@
     term: "positional argument"
     def: >
       An argument to a function that gets its value according to its place in the
-      function's definition, as opposed to a [named argument](#named_argument) that is
+      function's definition, as opposed to a named argument that is
       explicitly matched by name.
 
 
@@ -4157,12 +4147,10 @@
 
 
 - slug: pull_request
-  ref:
-    - fork
   en:
     term: "pull request"
     def: >
-      The request to merge a new [feature](#feature) or correction created on a user's [fork](#fork) of a
+      The request to merge a new feature or correction created on a user's [fork](#fork) of a
       [Git](#git) [repository](#repository)repository into the [upstream repository](#upstream_repository).
       The developer will be notified of the change, review it, make or suggest changes, and potentially
       [merge](#git_merge) it.
@@ -4258,7 +4246,7 @@
 
 - slug: r_markdown
   ref:
-    - computation_notebook
+    - computational_notebook
     - literate_programming
   en:
     term: "R Markdown"
@@ -4294,7 +4282,7 @@
   en:
     term: "random forests"
     def: >
-      An algorithm used for regression or [classification](#clasification) that uses a collection of
+      An algorithm used for regression or [classification](#classification) that uses a collection of
       [decision trees](#decision_tree), called a forest. Each tree votes for a classification, and the
       algorithm chooses the classification having the most votes over all the trees in the forest.
 
@@ -4504,7 +4492,7 @@
     term: "remote repository"
     def: >
       A [repository](#repository) located on another computer. Tools such as [Git](#git) are
-      designed to synchronize changes between [local](#local_repository) and remote
+      designed to synchronize changes between local and remote
       repositories in order to share work.
 
 
@@ -4845,7 +4833,7 @@
 
 - slug: short_circuit_test
   ref:
-    - lasy_evaluation
+    - lazy_evaluation
   en:
     term: "short circuit test"
     def: >
@@ -4856,7 +4844,7 @@
 
 - slug: short_identifier_git
   ref:
-    - full_identifier
+    - full_identifier_git
   en:
     term: "short identifier (of commit)"
     def: >
@@ -5097,7 +5085,7 @@
     term: "stream"
     def: >
       A sequential flow of data, such as the [bits](#bit) arriving across a network connection
-      or the [bytes](#byte) read from a file.
+      or the bytes read from a file.
 
 
 - slug: string
@@ -5206,7 +5194,7 @@
     term: "table"
     def: >
       A set of [records](#record) in a [relational database](#relational_database) or
-      [observations](#observations) in a [data frame](#data_frame). Tables are usually displayed as
+      [observations](#observation) in a [data frame](#data_frame). Tables are usually displayed as
       rows (each of which represents one record or observation and columns (each of which represents a
       [field](#field) or [variable](#variable_data).
   fr:
@@ -5233,7 +5221,7 @@
     term: "test-driven development"
     acronym: "TDD"
     def: >
-      A programming practice in which tests are written before a new [feature](#feature) is added
+      A programming practice in which tests are written before a new feature is added
       or a [bug](#bug) is fixed in order to clarify the goal.
 
 
@@ -5494,7 +5482,7 @@
   en:
     term: "unit test"
     def: >
-      A test that exercises one function or [feature](#feature) of a piece of software and
+      A test that exercises one function or feature of a piece of software and
       produces [pass](#pass_test), [fail](#fail_test), or [error](#error_test).
 
 
@@ -5555,7 +5543,7 @@
 
 - slug: variable_arguments
   ref:
-    - keyword_arguments
+    - keyword_argument
     - named_argument
   en:
     term: "variable arguments"
@@ -5678,7 +5666,7 @@
     term: "Vim (editor)"
     def: >
       The default text editor on Unix. Vim is a very powerful text editor that allows
-      the user to execute shell commands and use [regular expressions](#regex) to
+      the user to execute shell commands and use [regular expressions](#regular_expression) to
       alter files programmatically. 
 
 
