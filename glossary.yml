@@ -4263,7 +4263,7 @@
     def: >
       Un dialecte de [Markdown](#markdown) qui permet à ses auteurs de mélanger langage naturel et code
       (habituellement écrit en langage [R](#r_language)) dans un même document.
-      Voir aussi [programmation lettrée](#literate_programming).
+      Voir aussi programmation lettrée.
 
 
 - slug: raise_exception
@@ -4399,7 +4399,6 @@
 - slug: relational_database
   ref:
     - sql
-    - table
   en:
     term: "relational database"
     def: >
@@ -4712,9 +4711,6 @@
 
 - slug: scope
   ref:
-    - closure
-    - global_variable
-    - local_variable
     - namespace
   en:
     term: "scope"
@@ -4843,8 +4839,6 @@
 
 
 - slug: short_identifier_git
-  ref:
-    - full_identifier_git
   en:
     term: "short identifier (of commit)"
     def: >
