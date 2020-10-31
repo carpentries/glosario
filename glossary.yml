@@ -70,6 +70,12 @@
        ولم تعد على قيد الصيانة
 
 - slug: absolute_error
+  de:
+    term: "Absoluter Pfad"
+    def: >
+      Ein Pfad, der auf den gleichen Ort im Dateisystem zeigt,
+      unabhängig davon, wo er ausgewertet wird. Ein absoluter Pfad ist
+      das Äquivalent von Längen- und Breitengrad in der Geographie.
   en:
     term: "absolute error"
     def: >
