@@ -168,11 +168,12 @@
   de:
     term: "Abstrakte Methode"
     def: >
-      In der objektorientierten Programmierung eine Methode, die zwar
-      definiert, aber nicht implementiert ist. Programmierer
-      definieren eine abstrakte Methode in einer übergeordneten
-      Klasse, um Operationen zu spezifizieren, die die untergeordneten
-      Klassen bereitstellen müssen.
+      In der [objektorientierten Programmierung](#oop) eine
+      [Methode](#method), die zwar definiert, aber nicht implementiert
+      ist. Programmierer definieren eine abstrakte Methode in einer
+      [übergeordneten Klasse](#parent_class), um Operationen zu
+      spezifizieren, die die [untergeordneten Klassen](#child_class)
+      bereitstellen müssen.
   en:
     term: "abstract method"
     def: >
