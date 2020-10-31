@@ -1,0 +1,40 @@
+body {
+    font-family: "Helvetica Neue", Helvetica;
+    width: 70em;
+    padding-left: 1em;
+    font-size: 12pt;
+}
+
+.left {
+  float: left;
+  width: 15%;
+}
+
+.right {
+  float: left;
+  width: 85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 0.5em;
+}
+
+img.flag {
+    width: 1.5em;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+}

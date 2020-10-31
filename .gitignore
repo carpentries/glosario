@@ -1,0 +1,16 @@
+*~
+.Rhistory
+.Rproj.user
+.jekyll-cache
+.jekyll-metadata
+Glossary.egg-info
+MANIFEST
+R/sysdata.rda
+__pycache__
+_data/glossary.yml
+_site
+dist
+glossary/glossary.yml
+man
+/Gemfile.lock
+/_gh-site/
