@@ -287,6 +287,12 @@
       A software development methodology that emphasizes lots of small steps and
       continuous feedback instead of up-front planning and long-term scheduling.
       [Exploratory programming](#exploratory_programming) is often agile.
+  es:
+    term: "desarrollo ágil"
+    def: >
+      Una metodología de desarrollo de software que enfatiza muchos pasos pequeños y
+      feedback continuo en vez de planificación por adelantado y a largo plazo.
+      [Programación exploratoria](#exploratory_programming) suele ser ágil.
   af:
     term: "lenige ontwikkeling"
     def: >
@@ -1942,6 +1948,12 @@
     def: >
       A software development methodology in which requirements emerge or change as the
       software is being written, often in response to results from early runs.
+  es:
+    term: "programación exploratoria"
+    def: >
+      Un método de desarrollo de software en el cual los requerimientos emergen o cambian
+      a medida que el software es escrito, frecuentemente en respuesta a resultados de
+      corridas previas.
 
 
 - slug: export
