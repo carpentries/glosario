@@ -3033,7 +3033,7 @@
     def: >
       Placing a package inside a particular project so that it is only accessible
       within that project.
-  en:
+  es:
     term: "instalación local"
     def: >
       El acto de ubicar un paquete en un proyecto en particular para que sólo sea accesible
