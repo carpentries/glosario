@@ -2069,6 +2069,12 @@
       The part of the operating system that manages how files are stored and
       retrieved. Also used to refer to all of those files and directories or the
       specific way they are stored (as in "the Unix filesystem").
+  es:
+    term: "sistema de archivos"
+    def: >
+      La parte del sistema operativo que administra cómo se almacenan y recuperan
+      los archivos. También se usa para referirse a todos esos archivos y directorios
+      o a la forma específica en que se almacenan (como en "el sistema de archivos Unix").
 
 
 - slug: filter
