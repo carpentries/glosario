@@ -3268,7 +3268,7 @@
       distribution](#probability_distribution) in order to maximize the likelihood of
       obtaining observed data.
    af:
-    term: "maksimumaanneemlikheidsberaming "
+    term: "maksimumaanneemlikheidsberaming"
     def: >
       Om die parameters vir 'n [waarskynlikheids verdeling](#probability_distribution)
       te verkry, te maksimeer.
