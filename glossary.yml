@@ -3329,7 +3329,7 @@
       A value separating the upper and lower halves of a sorted dataset. The median
       often gives a better idea of what is typical of the dataset than the
       [mean](#mean), which can be influenced by a small number of extreme outliers.
-  en:
+  af:
     term: "mediaan"
     def: >
       'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
