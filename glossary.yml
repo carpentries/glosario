@@ -2553,7 +2553,7 @@
   en:
     term: "heterogeneous"
     def: >
-      Containing mixed data types. For example, in [Python](#python), a list can contain a mix of numbers, character
+      Containing mixed data types. For example, in [Python](#python) and [R](#r_language), a [list](#list) can contain a mix of numbers, character
       strings, and values of other types.
 
 
