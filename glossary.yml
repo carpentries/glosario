@@ -3267,6 +3267,12 @@
       To choose the parameters for a [probability
       distribution](#probability_distribution) in order to maximize the likelihood of
       obtaining observed data.
+   af:
+    term: "maksimumaanneemlikheidsberaming "
+    def: >
+      Om die parameters vir 'n [waarskynlikheids verdeling](#probability_distribution)
+      te verkry, te maksimeer.
+ 
 
 
 - slug: mean
@@ -3279,6 +3285,12 @@
       The average value of a dataset, more properly known as the [arithmetic
       mean](#arithmetic_mean) to distinguish it from the [geometric](#geometric_mean)
       and [harmonic](#harmonic_mean) means.
+  af:
+    term: "gemiddeld"
+    def: >
+      Die gemiddelde waarde van 'n datastel, beter bekend as die 
+      [rekenkundige gemiddeld](#arithmetic_mean) om dit van die [meetkundige](#geometric_mean)
+      en die [harmoniese](#harmonic_mean) gemiddelde te onderskei.      
   pt:
     term: "média"
     def: >
@@ -3317,7 +3329,12 @@
       A value separating the upper and lower halves of a sorted dataset. The median
       often gives a better idea of what is typical of the dataset than the
       [mean](#mean), which can be influenced by a small number of extreme outliers.
-
+  en:
+    term: "mediaan"
+    def: >
+      'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
+      gee dikwels 'n beter idee van wat tipies is vir die datastel as die
+      [mediaan](#mean), wat beïnvloed kan word deur 'n klein aantal ekstreme uitskieters.
 
 - slug: merge_git
   en:
@@ -3391,6 +3408,10 @@
     term: "mode"
     def: >
       The value that occurs most frequently in a dataset.
+  af:
+    term: "modus"
+    def: >
+      Die waarde wat die meeste in 'n datastel voorkom.
 
 
 - slug: model
