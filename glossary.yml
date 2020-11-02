@@ -141,6 +141,11 @@
 
 
 - slug: absolute_row_number
+  de:
+    term: "Absolute Zeilennummer"
+    def: >
+      Der sequentielle Index einer Zeile in einer Tabelle, unabhängig
+      davon, welche Abschnitte der Tabelle angezeigt werden.
   en:
     term: "absolute row number"
     def: >
