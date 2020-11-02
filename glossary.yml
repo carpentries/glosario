@@ -477,10 +477,12 @@
       program. Assertions may be built into the language (e.g., [Python](#python)'s
       `assert` statement) or provided as functions (e.g., [R](#r_language)'s `stopifnot`). They are
       often used in testing, but are also put in [production code](#production_code)
-      to check that it is behaving correctly. Assertions should not be used to perform
-      data-validation as they are generally silently dropped by compilers and interpreters
+      to check that it is behaving correctly. In many languages, assertions should not be
+      used to perform data-validation as they may be silently dropped by compilers and interpreters
       under optimisation conditions. Using assertions for data validation can therefore
-      introduce security risks.
+      introduce security risks. Unlike many languages, R does not have an `assert` statement
+      which can be disabled, and so use of [package](#package) such as `assertr` for data
+      validation does not create security holes.
 
 
 - slug: associative_array
@@ -4073,6 +4075,12 @@
       and a set of connections to open files.
 
 
+- slug: product_manager
+  en:
+    term: "product manager"
+    def: >
+      The person responsible for defining what features a product should have.
+
 - slug: production_code
   en:
     term: "production code"
@@ -4086,8 +4094,7 @@
   en:
     term: "project manager"
     def: >
-      The person responsible for ensuring that a project moves forward and defining what
-      features a product should have.
+      The person responsible for ensuring that a project moves forward.
 
 
 - slug: prompt
@@ -5659,9 +5666,9 @@
   en:
     term: "Vim (editor)"
     def: >
-      The default text editor on Unix. Vim is a very powerful text editor that allows
-      the user to execute shell commands and use [regular expressions](#regular_expression) to
-      alter files programmatically. 
+      The default text editor on Unix. Vim is a very powerful text editor, with a steeper
+      learning curve than [nano](#nano_editor), but that allows the user to execute shell
+      commands and use [regular expressions](#regular_expression) to alter files programmatically. 
 
 
 - slug: virtual_environment
