@@ -5270,7 +5270,7 @@
   en:
     term: "tibble"
     def: >
-      A modern replacement for [R's](#r_language) data frame, which stores tabular data in columns
+      A modern replacement for [R](#r_language)'s data frame, which stores tabular data in columns
       and rows, defined and used in the [tidyverse](#tidyverse).
   fr:
     term: "tibble"
