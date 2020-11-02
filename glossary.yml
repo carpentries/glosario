@@ -3917,7 +3917,7 @@
     term: "perceptron"
     def: >
       The simplest kind of [neural network])(#neural_network), which approximates a
-      single neuron with $N$ binary inputs by computing a weighted sum of its inputs and
+      single neuron with _N_ binary inputs by computing a weighted sum of its inputs and
       firing if that value is zero or greater.
 
 
