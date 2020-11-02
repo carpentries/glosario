@@ -5438,7 +5438,7 @@
     term: "two hard problems in computer science"
     def: >
       Refers to a quote by Phil Karlton–"There are only two hard problems in computer
-      science–cache invalidation and naming things." Many variations add a third
+      science—cache invalidation and naming things." Many variations add a third
       problem (most often "[off-by-one errors](#off_by_one_error)").
 
 
