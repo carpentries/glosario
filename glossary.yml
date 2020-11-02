@@ -5227,7 +5227,7 @@
       defines an overall sequence of operations by calling [abstract
       methods](#abstract_method) that [child classes](#child_class) must then
       implement. Each child class then behaves in the same general way, but implements
-      the steps in differently.
+      the steps differently.
 
 
 - slug: ternary_expression
