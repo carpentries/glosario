@@ -209,6 +209,14 @@
 
 
 - slug: actual_result
+  de:
+    term: "Tatsächliche Ergebnis"
+    def: >
+      Der Wert, der durch Ausführen von Code in einem Test erzeugt
+      wird. Wenn dieser Wert mit dem [erwarteten
+      Ergebnis](#expected_result) übereinstimmt, ist der Test
+      bestanden; wenn die beiden Werte unterschiedlich sind, [schlägt
+      der Test fehl](#fail_test).
   en:
     term: "actual result (of test)"
     def: >
