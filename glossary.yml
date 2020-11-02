@@ -5640,6 +5640,11 @@
 
 
 - slug: wildcard
+  de:
+    term: "Wildcard"
+    def: >
+      Ein Zeichenausdruck, der mit Text übereinstimmen kann, wie z.B. das `*` in `*.csv` (das
+      passt auf jeden Dateinamen, dessen Name mit `.csv`) endet.
   en:
     term: "wildcard"
     def: >
