@@ -71,11 +71,11 @@
 
 - slug: absolute_error
   de:
-    term: "Absoluter Pfad"
+    term: "Absoluter Fehler"
     def: >
-      Ein Pfad, der auf den gleichen Ort im Dateisystem zeigt,
-      unabhängig davon, wo er ausgewertet wird. Ein absoluter Pfad ist
-      das Äquivalent von Längen- und Breitengrad in der Geographie.
+      Der absolute Wert der Differenz zwischen dem beobachteten und
+      dem korrekten Wert. Der absolute Fehler ist normalerweise
+      weniger nützlich als der [relative Fehler](#relative_error).
   en:
     term: "absolute error"
     def: >
