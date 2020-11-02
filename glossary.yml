@@ -475,7 +475,7 @@
     def: >
       A [Boolean](#boolean) expression that must be [true](#true) at a certain point in a
       program. Assertions may be built into the language (e.g., [Python](#python)'s
-      `assert` statement) or provided as functions (e.g., [R's](#r_language) `stopifnot`). They are
+      `assert` statement) or provided as functions (e.g., [R](#r_language)'s `stopifnot`). They are
       often used in testing, but are also put in [production code](#production_code)
       to check that it is behaving correctly. Assertions should not be used to perform
       data-validation as they are generally silently dropped by compilers and interpreters
