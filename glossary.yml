@@ -2511,7 +2511,7 @@
     term: "handle (condition)"
     def: >
       To accept responsibility for handling an error or other unexpected event. [R](#r_language)
-      prefers "handling a condition" to "catching an exception". [Python](#python), on the other hand,
+      prefers "handling a condition" to "[catching an exception](catch_exception)". [Python](#python), on the other hand,
       encourages raising and catching exceptions, and in some situations, requires it.
 
 
