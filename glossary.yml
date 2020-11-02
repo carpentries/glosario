@@ -1111,7 +1111,7 @@
   en:
     term: "code coverage (in testing)"
     def: >
-      How much of a [library](#) or program is executed when tests run. This is normally
+      How much of a [library](#library) or program is executed when tests run. This is normally
       reported as a percentage of lines of code: for example, if 40 out of 50 lines in
       a file are run during testing, those tests have 80% code coverage.
 
