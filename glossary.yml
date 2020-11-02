@@ -4014,7 +4014,7 @@
   en:
     term: "prerequisite"
     def: >
-      Something that a [build target](#build_target) depends upon.
+      Something that a [build target](#build_target) depends on.
 
 
 - slug: principal_component_analysis
@@ -4639,7 +4639,7 @@
     acronym: "RSE"
     def: >
       Someone whose primary responsibility is to build the specialized software that
-      other researchers depend upon.
+      other researchers depend on.
 
 
 - slug: s3
