@@ -425,7 +425,7 @@
       [parameter](#parameter). An argument is one of possibly several expressions
       that are passed to a function. It is the actual value that is passed.
       Parameters and arguments are distinct, but related concepts. Parameters are
-      variables and [arguments](#argument) are the values assigned to those variables. 
+      variables and arguments are the values assigned to those variables. 
   es:
     term: "argumento"
     def: >
