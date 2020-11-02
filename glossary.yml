@@ -2483,7 +2483,7 @@
   en:
     term: "group"
     def: >
-      To divide data into subsets according to some criterion while leaving records in
+      To divide data into subsets according to a set of criteria while leaving records in
       a single structure.
 
 
