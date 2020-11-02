@@ -4341,7 +4341,7 @@
   en:
     term: "recycle"
     def: >
-      To re-use values from a shorter [vector}(#vector) in order to generate a sequence of the
+      To re-use values from a shorter [vector](#vector) in order to generate a sequence of the
       same length as a longer one. In [Python](#python) NumPy, this is called broadcasting.
   es:
     term: "reciclar"
