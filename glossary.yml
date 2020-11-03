@@ -2881,8 +2881,8 @@
   en:
     term: "k-nearest neighbors"
     def: >
-      A [classification](#classification) algorithm that classifies data points based
-      on their similarity to their *k* nearest neighbors.
+      A [classification](#classification) algorithm that classifies data points into *k* groups based
+      on their similarity to their nearby neighbors
 
 
 - slug: kebab_case
@@ -4108,7 +4108,7 @@
   en:
     term: "prompt"
     def: >
-      The text printed by an [REPL](#repl) or [shell](#shell) that indicates it is
+      The text printed by a [REPL](#repl) or [shell](#shell) that indicates it is
       ready to accept another command. The default prompt in the Unix shell is usually
       `$`, while in [Python](#python) it is `>>>`, and in [R](#r_language) it is `>`.
 
@@ -4698,7 +4698,7 @@
   en:
     term: "scalar"
     def: >
-      A single value of a particular type, such as 1 or "a". Scalars exist in other languages, but do not really
+      A single value of a particular type, such as 1 or "a". Scalars exist in several languages, but do not really
       exist in [R](#r_language); values that appear to be scalars are actually [vectors](#vector) of unit length.
   es:
     term: "escalar"
