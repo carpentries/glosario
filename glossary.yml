@@ -1,4 +1,12 @@
 - slug: 68_95_997_rule
+  de:
+    term: "68-95-99.7 Regel"
+    def: >
+      Drückt die Tatsache aus, dass 68% der Werte innerhalb einer
+      [Standardabweichung](#standard_deviation) vom Mittelwert liegen,
+      95% innerhalb von zwei und 99,7% innerhalb von drei. Umgekehrt
+      liegen etwa 0,3% der Werte in den meisten Fällen mehr als drei
+      Standardabweichungen über oder unterhalb des Mittelwerts.
   en:
     term: "68-95-99.7 rule"
     def: >
@@ -36,13 +44,17 @@
         [الانحراف المعياري](#standard_deviation)
         من
         [الوسط](#mean)
-        ، بينما ٩٥٪ تقع ضمن وحدتين ،
+        ، بينما ٩٥٪ تقع ضمن وحدتين،
         و٩٩,٧٪ تقع ضمن ثلاث وحدات
         بالمقابل ، حوالي ٠,٣ ٪  من القيم تقع  في أكثر من ثلاثة وحدات
-        من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات
+        من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات.
 
 
 - slug: abandonware
+  de:
+    term: "Abandonware"
+    def: >
+      Software die nicht länger weiterentwickelt wird.
   en:
     term: "abandonware"
     def: >
@@ -67,9 +79,15 @@
     term: "البرمجيات المهجورة أو المتروكة"
     def: >
        هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
-       ولم تعد على قيد الصيانة
+       ولم تعد على قيد الصيانة.
 
 - slug: absolute_error
+  de:
+    term: "Absoluter Fehler"
+    def: >
+      Der absolute Wert der Differenz zwischen dem beobachteten und
+      dem korrekten Wert. Der absolute Fehler ist normalerweise
+      weniger nützlich als der [relative Fehler](#relative_error).
   en:
     term: "absolute error"
     def: >
@@ -94,10 +112,9 @@
   ar:
     term: "الخطأ المُطلق"
     def: >
-       هو عبارة عن القيمة المطلقة للفرق بين القيمة المرصودة والقيمة الواقعية الصحيحة
-       ،
+       هو عبارة عن القيمة المطلقة للفرق بين القيمة المرصودة والقيمة الواقعية الصحيحة،
        الخطأ المُطلق عادة مايكون أقل فائدة من
-       [الخطأ النسبي](#relative_error)
+       [الخطأ النسبي](#relative_error).
 
 - slug: absolute_path
   ref:
@@ -136,12 +153,17 @@
     term: "المسار المُطلق"
     def: >
         المسار الذي يُشير إلى ذات الموقع في
-        [نظام الملفات](#filesystem)
-        بغض النظر عن مكان تقييمها ،
-        المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا
+        [نظام الملفات](#filesystem)،
+        بغض النظر عن مكان تقييمها
+        المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا.
 
 
 - slug: absolute_row_number
+  de:
+    term: "Absolute Zeilennummer"
+    def: >
+      Der sequentielle Index einer Zeile in einer Tabelle, unabhängig
+      davon, welche Abschnitte der Tabelle angezeigt werden.
   en:
     term: "absolute row number"
     def: >
@@ -165,6 +187,15 @@
 
 
 - slug: abstract_method
+  de:
+    term: "Abstrakte Methode"
+    def: >
+      In der [objektorientierten Programmierung](#oop) eine
+      [Methode](#method), die zwar definiert, aber nicht implementiert
+      ist. Programmierer definieren eine abstrakte Methode in einer
+      [übergeordneten Klasse](#parent_class), um Operationen zu
+      spezifizieren, die die [untergeordneten Klassen](#child_class)
+      bereitstellen müssen.
   en:
     term: "abstract method"
     def: >
@@ -201,6 +232,14 @@
 
 
 - slug: actual_result
+  de:
+    term: "Tatsächliche Ergebnis"
+    def: >
+      Der Wert, der durch Ausführen von Code in einem Test erzeugt
+      wird. Wenn dieser Wert mit dem [erwarteten
+      Ergebnis](#expected_result) übereinstimmt, ist der Test
+      bestanden; wenn die beiden Werte unterschiedlich sind, [schlägt
+      der Test fehl](#fail_test).
   en:
     term: "actual result (of test)"
     def: >
@@ -441,7 +480,7 @@
     def: >
       قيمة يتم تمريرها إلى دالة أو وسيطة ، البعض يُطلِق عليها مصطلح
       [مُعطى](#parameter)
-      والبعض الآخر يُطلِق عليها مصطلح وسيطة
+      والبعض الآخر يُطلِق عليها مصطلح وسيطة.
   af:
     term: "argument"
     def: >
@@ -745,7 +784,7 @@
         [القيمة خطأ](#false)
          وتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
          وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية
-         والتعبيرات العلائقية
+         والتعبيرات العلائقية.
 
 
 - slug: branch
@@ -931,7 +970,7 @@
     term: "إستثناء"
     def: >
       الإستثناء هو الشرط الخاص الذي يُعالج به الشذوذ أو الشيء الغير متوقع الذي حدث
-      أثناء تنفيذ البرنامج
+      أثناء تنفيذ البرنامج.
 
 
 - slug: causation
@@ -993,7 +1032,7 @@
        ولا علاقة للترميز بالسرية والتشفير مطلقا، ومن صيغ ترميز البيانات المشهورة
        هو
        يو تي إف
-       [UTF-8](#utf_8).
+       [(UTF-8)](#utf_8).
 
 
 - slug: chi_square_test
@@ -1225,7 +1264,7 @@
       هو برنامج يقوم بترجمة النصوص المصدرية إلى أوامر ومعلومات يفهمها الحاسب لذلك
       يُمكن للكمبيوتر فهم البرنامج وتشغيله دون استخدام برنامج البرمجة المستخدم لإنشائه
       أو مايُسمى
-      [رموز البايت](#byte_code)
+      [رموز البايت](#byte_code).
 
 - slug: computational_linguistics
   ref:
@@ -1351,7 +1390,7 @@
     def: >
       O quão bem duas variáveis concordam uma com a outra. A correlação é normalmente
       medida pelo cálculo de um [coeficiente de correlação](#correlation_coefficient),
-      e não significa que precise existir causalidade.   
+      e não significa que precise existir causalidade.
   af:
     term: "korrelasie"
     def: >
@@ -1382,10 +1421,9 @@
     def: >
       'n Maatstaf van hoe sterk [gekorreleer](#correlation) twee veranderlikes is. As die
       korrelasiekoëffisiënt tussen X en Y gelyk is aan 1.0,
-      dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt 
-      0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel 
+      dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt
+      0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel
       X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde verandering in Y.
-      
 
 - slug: covariance
   en:
@@ -2251,6 +2289,10 @@
     def: >
       Un outil de gestion des versions qui permet d'enregistrer et de piloter les
       modifications effectuées au niveau d'un projet.
+  ja:
+    term: "Git(ギット)"
+    def: >
+       プロジェクトなどの変更履歴を記録・追跡するための分散型バージョン管理システムです。
   pt:
     term: "Git"
     def: >
@@ -3298,6 +3340,12 @@
       To choose the [parameters](#parameter) for a [probability
       distribution](#probability_distribution) in order to maximize the likelihood of
       obtaining observed data.
+  af:
+    term: "maksimumaanneemlikheidsberaming"
+    def: >
+      Om die parameters vir 'n [waarskynlikheids verdeling](#probability_distribution)
+      te verkry, te maksimeer.
+ 
 
 
 - slug: mean
@@ -3310,6 +3358,12 @@
       The average value of a dataset, more properly known as the [arithmetic
       mean](#arithmetic_mean) to distinguish it from the [geometric](#geometric_mean)
       and [harmonic](#harmonic_mean) means.
+  af:
+    term: "gemiddeld"
+    def: >
+      Die gemiddelde waarde van 'n datastel, beter bekend as die 
+      [rekenkundige gemiddeld](#arithmetic_mean) om dit van die [meetkundige](#geometric_mean)
+      en die [harmoniese](#harmonic_mean) gemiddelde te onderskei.      
   pt:
     term: "média"
     def: >
@@ -3349,10 +3403,15 @@
     def: >
       A value separating the upper and lower halves of a sorted dataset. The median
       often gives a better idea of what is typical of the dataset than the
-      mean, which can be influenced by a small number of extreme [outliers](#outlier).
+      [mean](#mean), which can be influenced by a small number of extreme [outliers](#outlier).
       If the dataset contains an even number of elements, this is the average of the
       two central elements.
-
+  af:
+    term: "mediaan"
+    def: >
+      'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
+      gee dikwels 'n beter idee van wat tipies is vir die datastel as die
+      [mediaan](#mean), wat beïnvloed kan word deur 'n klein aantal ekstreme uitskieters.
 
 - slug: merge_git
   en:
@@ -3426,6 +3485,10 @@
     term: "mode"
     def: >
       The value, or values, that occurs most frequently in a dataset.
+  af:
+    term: "modus"
+    def: >
+      Die waarde wat die meeste in 'n datastel voorkom.
 
 
 - slug: model
@@ -3496,7 +3559,7 @@
     term: "لاشيء"
     def: >
       هو رمز مميز يٌمثِل حرفاً بلا قيمة أو قيمة مفقودة أي انه يرمز إلى عدم وجود أي
-      قيمة على الإطلاق
+      قيمة على الإطلاق.
 
 
 - slug: naive_bayes_classifier
@@ -3967,6 +4030,10 @@
 
 
 - slug: plus_one
+  de:
+    term: "+1"
+    def: >
+      Eine Zustimmung zu etwas.
   en:
     term: "+1"
     def: >
@@ -5596,7 +5663,7 @@
     term: "المتغير"
     def: >
       المُتغير هو موقع يٌخزِن البيانات المؤقتة داخل البرنامج ويمكن تعديله وتخزينه وعرضه
-      عند الحاجة
+      عند الحاجة.
 
 
 - slug: variance
@@ -5746,6 +5813,11 @@
 
 
 - slug: wildcard
+  de:
+    term: "Wildcard"
+    def: >
+      Ein Zeichenausdruck, der mit Text übereinstimmen kann, wie z.B. das `*` in `*.csv` (das
+      passt auf jeden Dateinamen, dessen Name mit `.csv`) endet.
   en:
     term: "wildcard"
     def: >
@@ -5754,6 +5826,13 @@
 
 
 - slug: xml
+  de:
+    term: "XML"
+    def: >
+      Eine Reihe von Regeln zur Definition von [HTML](#html)-ähnlichen Tags und deren 
+      Verwendung zur Formatierung Dokumente (typischerweise Daten). XML war in den 
+      frühen 2000er Jahren populär, aber seine Komplexität veranlasste 
+      viele Programmierer, stattdessen [JSON](#json) zu übernehmen.
   en:
     term: "XML"
     def: >
@@ -5777,6 +5856,14 @@
 
 
 - slug: yaml
+  de:
+    term: "YAML"
+    def: >
+      Abkürzung für "YAML Ain't Markup Language", eine Methode zur Darstellung 
+      verschachtelter Daten mit Einrückung statt der Klammern und Kommas 
+      von [JSON](#json). YAML ist oft in Konfigurationsdateien und zur Definition 
+      von Parametern für verschiedene Geschmacksrichtungen verwendet
+      von [Markdown](#markdown)-Dokumenten.
   en:
     term: "YAML"
     def: >
@@ -5792,3 +5879,4 @@
       utilise des indentations au lieu de signes typographiques, comme les parenthèses
       et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
       configuration et pour définir les paramètres de documents [Markdown](#markdown).
+ 
