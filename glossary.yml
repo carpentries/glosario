@@ -2791,7 +2791,7 @@
     def: >
       A test that checks whether the parts of a system work properly when put together.
 
- - slug: interpreter
+- slug: interpreter
    en:
      term: "interpreter"
      def: >
