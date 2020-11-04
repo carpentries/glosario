@@ -1008,7 +1008,7 @@
       `-BY` (Atribuição): pessoas usuárias devem citar a fonte original;
       `-SA` (CompartilhaIgual): pessoas usuárias devem compartilhar o seu próprio trabalho
       utilizando uma licença similar; `-NC` (NãoComercial): o trabalho não pode ser usado
-      para fins comerciais sem a persmissão das pessoas criadoras; `-ND` (SemDerivações):
+      para fins comerciais sem a permissão das pessoas criadoras; `-ND` (SemDerivações):
       nenhum trabalho derivado (como traduções, por exemplo) pode ser criado sem a permissão
       das pessoas criadoras. Assim, `CC-BY-NC` quer dizer "pessoas usuárias devem atribuir autoria
       e não podem o conteúdo de forma comercial sem permissão". O termo `CC-0` (zero, não a letra 'O')
