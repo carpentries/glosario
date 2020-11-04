@@ -672,6 +672,11 @@
     def: >
       A statistic is biased if it is systematically or consistently different from the
       parameter it is supposed to estimate.
+  pt:
+    term: "viés"
+    def: >
+      Uma estatística é enviesada se estiver sistemática ou consistentemente diferente
+      do parâmetro que deveria estimar.
 
 
 - slug: big_data
@@ -692,6 +697,13 @@
       represented as being in the state 0 or 1. Represented in [Boolean](#boolean)
       logic as [false](#false) (0) or [true](#true) (1). Computers are built upon
       systems which store 0s and 1s as [bits](#bit).
+  pt:
+    term: "binário"
+    def: >
+      Um sistema que pode ter dois estados possíveis. Em computação, frequentemente
+      sendo no estado 0 ou 1. Representado na lógica [Booleana](#boolean) como
+      [falso](#false) (0) ou [verdadeiro](#true) (1). Computadores são construídos
+      sobre sistemas que armazenam 0s e 1s como [bits](#bit).
 
 
 - slug: binary_expression
@@ -703,7 +715,10 @@
     term: "binary expression"
     def: >
       An expression which has two parameters and takes two arguments, such as `1 + 2`.
-
+  pt:
+    term: "expressão binária"
+    def: >
+      Uma expressão com dois argumentos ou parâmetros, como `1 + 2`, por exemplo.
 
 - slug: binomial_distribution
   ref:
@@ -716,6 +731,13 @@
       are a fixed number of trials, each of which can produce one of two outcomes, and
       the probability of those outcomes does not change. As the number of trials
       increases, the binomial distribution approximates a [normal distribution](#normal_distribution).
+  pt:
+    term: "distribuição binomial"
+    def: >
+      Uma [distribuição de probabilidade](#probability_distribution) que emerge quando há
+      um número fixo de tentativas, cada uma das quais podendo produzir um de dois resultados e
+      quando a probabilidade destes resultados não muda. Na medida em que o número de tentativas aumenta,
+      a distribuição binomial se aproxima da [distribuição normal](#normal_distribution).
 
 
 - slug: bit
@@ -727,6 +749,11 @@
     def: >
       A unit of information representing representing alternatives, yes/no,
       [true](#true)/[false](#false). In computing a state of either 0 or 1.
+  pt:
+    term: "bit"
+    def: >
+      Uma unidade de informação representando alternativas, sim/não, 
+      [verdadeiro](#true)/[falso](#false). Em computação, um estado de 0 ou 1.
 
 
 - slug: blob
@@ -785,7 +812,13 @@
          وتستخدم التعبيرات المنطقية مع العبارات الشرطية في محركات البحث والخوارزميات
          وتُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية
          والتعبيرات العلائقية.
-
+  pt:
+    term: "Booleano"
+    def: >
+      Relacionado a uma uma variável ou tipo de dado que pode ter um valor lógico de
+      [verdadeiro](#true) ou [falso](#false). Nomeado em referêcia à George Boole, um
+      matemático do século XIX. Sistemas binários, como todos os computadores, são construídos
+      com base em sistemas de avaliação entre estados de verdadeiro e falso, 0 ou 1.
 
 - slug: branch
   en:
@@ -982,6 +1015,11 @@
     def: >
       A [Creative Commons](#cc_license) [license](#license) that imposes no
       restrictions whatsover, thereby putting a work in the public domain.
+  pt: 
+    term: "CC-0"
+    def: >
+      Uma [licença](#license) [Creative Commons](#cc_license) que não impõe
+      qualquer tipo de restrição, consequentemente colocando o trabalho em domínio público.
 
 
 - slug: cc_by
@@ -989,8 +1027,13 @@
     term: "CC-BY"
     def: >
       The [Creative Commons](#cc_license) - Attribution [license](#license) that
-      requires people to give credit to the author of a work, but imposes no other restrictions.
 
+      requires people to give credit to the author of a work, but imposes no other restrictions.
+  pt:
+    term: "CC-BY"
+    def: >
+      Uma [licença](#license) [Creative Commons](#cc_license) com Atribuição, que requer que
+      seja dado crédito às pessoas autoras do trabalho, mas que não impõe outras restrições.
 
 - slug: cc_license
   en:
@@ -1005,6 +1048,19 @@
       permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use
       commercially without permission". The term `CC-0` (zero, not letter 'O') is
       sometimes used to mean "no restrictions", i.e., the work is in the public domain.
+  pt:
+    term: "Licença Creative Commons"
+    def: >
+      Um conjunto de [licenças](#license) que podem ser aplicadas à trabalhos publicados.
+      Cada licença é formada pela concatenação de um ou mais dos termos a seguir:
+      `-BY` (Atribuição): pessoas usuárias devem citar a fonte original;
+      `-SA` (CompartilhaIgual): pessoas usuárias devem compartilhar o seu próprio trabalho
+      utilizando uma licença similar; `-NC` (NãoComercial): o trabalho não pode ser usado
+      para fins comerciais sem a permissão das pessoas criadoras; `-ND` (SemDerivações):
+      nenhum trabalho derivado (como traduções, por exemplo) pode ser criado sem a permissão
+      das pessoas criadoras. Assim, `CC-BY-NC` quer dizer "pessoas usuárias devem atribuir autoria
+      e não podem o conteúdo de forma comercial sem permissão". O termo `CC-0` (zero, não a letra 'O')
+      é às vezes usado com o sentido de "sem restrições", isto é, que o trabalho é de domínio público.
 
 
 - slug: centroid
