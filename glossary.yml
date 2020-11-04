@@ -624,7 +624,7 @@
   pt:
     term: "viés"
     def: >
-      Uma estatística é enviesada se estiver sistematica ou consistentemente diferente
+      Uma estatística é enviesada se estiver sistemática ou consistentemente diferente
       do parâmetro que deveria estimar.
 
 
