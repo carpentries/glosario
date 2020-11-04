@@ -3391,7 +3391,6 @@
 
 - slug: median
   ref:
-    - mean
     - mode
   en:
     term: "median"
