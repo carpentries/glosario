@@ -38,6 +38,21 @@ languages:
       ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
       كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
       لغات
+  - key: de
+    name: Deutsch
+    title: Glossar
+    blurb: >
+      `glosario` ist ein Open-Source-Glossar mit Begriffen aus
+      Data-Science-Gebiet, das sowohl online als auch als Bibliothek
+      in [R](https://github.com/carpentries/glosario-r/ und
+      [Python](https://github.com/carpentries/glosario-py/) verfügbar
+      ist. Durch Hinzufügen von Glossareinträgen zu den Metadaten
+      einer Lektion (Lesson) können die Autoren angeben, was in in der
+      Lektion gelehrt wird, was die Lernenden wissen sollten, bevor
+      sie beginnen, und wo sie dieses Wissen finden können. Autoren
+      können die Funktionen der Bibliothek auch nutzen, um konsistente
+      Links zu Begriffe und Definitionen in ihren Lektionen in einer
+      von mehreren Sprachen einzufügen.
   - key: en
     name: English
     title: Glossary
