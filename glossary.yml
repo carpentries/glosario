@@ -2792,6 +2792,7 @@
       A test that checks whether the parts of a system work properly when put together.
 
 
+
 - slug: interpreted_language
   en:
     term: "interpreted language"
@@ -2806,6 +2807,7 @@
     term: "interpreter"
     def: >
       A program whose job it is to run programs written in a high-level [interpreted language](#interpreted_language).
+      Interpreters can run interactively, but may also execute commands saved in a file.
 
 
 - slug: invariant
