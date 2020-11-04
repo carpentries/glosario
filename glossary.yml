@@ -164,7 +164,7 @@
     def: >
       Uma estrutura de dados profundamente encadeada, a qual representa a estrutura de um
       programa. Por exemplo, uma árvore sintática abstrata pode ter um [nó](#node) que 
-      representa um [`while`loop] com uma [árvore filha](#child_tree) representando a condição
+      representa um [`while`loop](#while_loop) com uma [árvore filha](#child_tree) representando a condição
       do loop e enquanto outra árvore filha representa a [estrutura do loop](#loop_body).
 
 - slug: actual_result
