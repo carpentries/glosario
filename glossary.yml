@@ -139,7 +139,7 @@
     term: "método abstrato"
     def: >
       Em [programação orientada a objetos](#oop), um [método](#method) que é definido mas
-      não é implementado. Programadores definirão um método abstrato em uma [classe parental](#parent_class)
+      não é implementado. Pessoas programadoras definirão um método abstrato em uma [classe parental](#parent_class)
       para especificar operações que as [classes filhas](#child_class) devem prover.
 
 - slug: abstract_syntax_tree
