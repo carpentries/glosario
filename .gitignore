@@ -8,9 +8,10 @@ MANIFEST
 R/sysdata.rda
 __pycache__
 _data/glossary.yml
-_site
+_site/
 dist
 glossary/glossary.yml
 man
 /Gemfile.lock
 /_gh-site/
+test_glossary.yml

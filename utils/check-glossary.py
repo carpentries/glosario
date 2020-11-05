@@ -29,7 +29,7 @@ from collections import Counter
 
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
-ENTRY_OPTIONAL_KEYS = {'ref'}
+ENTRY_OPTIONAL_KEYS = {'ref', 'part'}
 ENTRY_LANGUAGE_KEYS = {'af', 'ar', 'en', 'es', 'fr', 'ja', 'nl', 'pt', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
@@ -50,7 +50,7 @@ def main():
         config = yaml.load(reader, Loader=yaml.FullLoader)
     with open(glossaryFile, 'r') as reader:
         gloss = yaml.load(reader, Loader=yaml.FullLoader)
-
+    print(gloss)
     checkLanguages(config)
     for entry in gloss:
         checkEntry(entry)
@@ -111,7 +111,10 @@ def checkEntry(entry):
     Check structure of individual entries, returning a language-to-set
     dictionary of terms references in the body.
     '''
+    print('lineno 114: %s' % entry['slug'])
     keys = set(entry.keys())
+    if keys == {'slug'}: print('Empty entry found')
+    print('Entry required keys: %s' % ENTRY_REQUIRED_KEYS)
     missing = [k for k in ENTRY_REQUIRED_KEYS if k not in keys]
     if missing:
         print(f'Missing required keys for entry {entry}: {missing}')
@@ -123,6 +126,7 @@ def checkEntry(entry):
     crossrefs = set(entry['ref']) if ('ref' in entry) else set()
     for lang in ENTRY_LANGUAGE_KEYS:
         if lang in entry:
+            print('line 129: entry: %s' % entry['slug'])
             label = f'{slug}/{lang}'
             result[lang] = checkLanguageDef(label, crossrefs, entry[lang])
     return result
@@ -134,9 +138,11 @@ def checkLanguageDef(label, crossrefs, definition):
     of terms referenced in the body of the definition.
     '''
     keys = set(definition.keys())
+    print(f'line 141: keys: {keys}')
     missing = [k for k in DEFINITION_REQUIRED_KEYS if k not in keys]
     if missing:
         print(f'Missing required keys for definition {label}: {missing}')
+    print(f'missing: {missing}')
     unknown_keys = keys - DEFINITION_KEYS
     if unknown_keys:
         print(f'Unknown keys in {label}: {unknown_keys}')

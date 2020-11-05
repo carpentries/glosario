@@ -25,7 +25,7 @@ Cross-references are displayed in __bold__ if that term is missing.
 {%- for slug in actual -%}
   {% assign item = gloss | where: "slug", slug | first %}
   {% if item[language] %}
-  <dt id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}</dt>
+  <dt id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}</dt> {% if item.part %} <i>{{item.part}} </i> {% endif %}
   <dd>
     {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
     {%- comment -%} Explicit cross-references {%- endcomment -%}

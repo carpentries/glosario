@@ -3,7 +3,9 @@ extends: default
 rules:
   document-start:
     present: false
+  key-duplicates: disable
   line-length: disable
   empty-values:
     forbid-in-block-mappings: true
+    forbid-in-flow-mappings: true
   trailing-spaces: disable

@@ -1,4 +1,5 @@
 - slug: 68_95_997_rule
+  part: "noun"
   de:
     term: "68-95-99.7 Regel"
     def: >
@@ -49,6 +50,8 @@
         بالمقابل ، حوالي ٠,٣ ٪  من القيم تقع  في أكثر من ثلاثة وحدات
         من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات.
 
+
+- letter: a
 
 - slug: abandonware
   de:
@@ -900,6 +903,7 @@
       The file(s) that a [build rule](#build_rule) will update if they are out-of-date
       compared to their [dependencies](#dependency).
 
+- slug: byte
 
 - slug: byte_code
   en:
@@ -2240,6 +2244,8 @@
       meaning they do not modify the global program state, or do anything other than computing
       the return value, such as writing output to a [log](#log) file, or printing to the [console](#console).
 
+
+-letter: g
 
 - slug: generator_function
   ref:
