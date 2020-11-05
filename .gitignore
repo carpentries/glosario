@@ -7,7 +7,6 @@ Glossary.egg-info
 MANIFEST
 R/sysdata.rda
 __pycache__
-_data/glossary.yml
 _site
 dist
 glossary/glossary.yml
