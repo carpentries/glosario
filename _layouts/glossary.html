@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+<link rel="stylesheet" type="text/css" href="{{ relative_root_path }}/assets/css/glossary.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+<!--div style="padding:Opx 100px 0px 50px;width:70%;margin: Opx 100px 0px 50px; align-content: center"-->
+<div id="content-wrapper">
+     <div class="inner clearfix">
+          <section id="main-content">
+<!--{{ content }}-->
+{% include glossary.html headings = headings %}
+</section>
+<aside class="stickyleft" style="padding:0px">
+{% assign char_arr = headings | split: '' %}
+{% for char in char_arr %}
+<font color="white" size="5px" face="arial">
+    <a class="letter_links" style="padding-top: 21cm;margin:10px 30% 10px 10%; text-decoration: none" href="#{{char}}">{{char}}</></a><br>
+</font>
+{% endfor %}
+</div>
+</div>
+</aside>
+</body>
