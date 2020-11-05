@@ -1,5 +1,5 @@
 ---
 permalink: /zu/
-layout: glossary
+layout: glossary-ltr
 ---
 {% include glossary.html %}

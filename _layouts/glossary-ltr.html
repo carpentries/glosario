@@ -10,18 +10,18 @@
 
 </head>
 
-<body>
+<body style="width: 100%">
 
 <main>
 {% include title.html %}
 <!--div style="padding:Opx 100px 0px 50px;width:70%;margin: Opx 100px 0px 50px; align-content: center"-->
 <div id="content-wrapper">
      <div class="inner clearfix">
-          <section id="main-content">
+          <section id="main-content-ltr">
 <!--{{ content }}-->
 {% include glossary.html headings = headings %}
 </section>
-<aside class="stickyleft" style="padding:0px">
+<aside class="sticky-ltr" style="padding:0px">
 {% assign char_arr = headings | split: '' %}
 {% for char in char_arr %}
 <font color="white" size="5px" face="arial">

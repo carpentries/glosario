@@ -1,5 +1,5 @@
 ---
 permalink: /af/
-layout: glossary
+layout: glossary-ltr
 ---
 {% include glossary.html %}
