@@ -1,6 +1,5 @@
 title: "Glossary"
 repository: <USERNAME>/<PROJECT>
-remote-theme: carpentries/carpentries-theme
 defaults:
   - scope:
       path: ""
