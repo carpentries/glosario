@@ -183,7 +183,7 @@
     term: "método abstrato"
     def: >
       In [programação orientada a objetos](#oop), um [método](#method) que é definido
-      mas não implementado. Programadores definem um método abstrato em uma [classe base](#parent_class)
+      mas não implementado. Pessoas programadoras definem um método abstrato em uma [classe base](#parent_class)
       para especificar operações que as [classes derivadas](#child_class) devem prover.
 
 - slug: abstract_syntax_tree
@@ -3654,7 +3654,7 @@
     acronym: "POO"
     def: >
       Um paradigma de programação no qual dados (atributos) e funções (métodos)
-      são encapsulados em objetos que interagem entre sí por meio de
+      são encapsulados em objetos que interagem entre si por meio de
       interfaces bem definidas.
 
 - slug: open_license
