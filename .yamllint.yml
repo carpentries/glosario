@@ -7,5 +7,4 @@ rules:
   line-length: disable
   empty-values:
     forbid-in-block-mappings: true
-    forbid-in-flow-mappings: true
   trailing-spaces: disable
