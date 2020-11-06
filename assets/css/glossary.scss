@@ -15,6 +15,21 @@ body {
   vertical-align: middle;
 }
 
+.sticky-home {
+  float: right;
+  position: sticky;
+  z-index: 0;
+  right: 0;
+  top: 0;
+  overflow: auto;
+  height: 100%;
+  width: 20%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .sticky-ltr {
   float: right;
   position: sticky;
@@ -45,11 +60,19 @@ body {
   vertical-align: middle;
 }
 
+.lang_links,
 .letter_links {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: white;
   vertical-align: middle;
+}
+
+.lang_links {
+  line-height: 60px;
+}
+
+.letter_links {
   line-height: 40px;
 }
 
@@ -66,12 +89,17 @@ body {
   content: '.';
 }
 
+#main-content-home {
+  float: left;
+  width: 70%;
+  max-width: 100%;
+  padding: 1cm 1cm 1cm 1cm;
+}
+
 #main-content-ltr {
   float: left;
   width: 80%;
   max-width: 100%;
-  padding: .5cm 1cm 1cm 1cm;
-  background-color: hsla(0, 0%, 98%, 85%);
 }
 
 #main-content-rtl {
@@ -79,6 +107,15 @@ body {
   width: 80%;
   max-width: 80%;
   margin: 0cm;
-  padding: .5cm 1cm 1cm 1cm;
-  background-color: hsla(0, 0%, 98%, 85%);
 }
+
+#main-content-ltr,
+#main-content-rtl {
+  padding: .5cm 1cm 1cm 1cm;
+}
+
+#main-content-lang,
+#main-content-ltr,
+#main-content-rtl {
+  background-color: hsla(0, 0%, 98%, 85%);
+} 
