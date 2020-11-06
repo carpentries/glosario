@@ -3,10 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>{{site.title}}</title>
-    <link href="{{ '/static/site.css' | relative_url }}" rel="stylesheet" type="text/css">
+    <link href="{{ '/static/site.css' | relative_url }}" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/glossary.css" />
     <link rel="stylesheet" type="text/css" href="{{ relative_root_path }}/assets/css/glossary.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body style="width: 100%">
 <main>
@@ -17,19 +17,13 @@
             <section id="main-content-ltr">
                 {% include glossary.html headings = headings %}
             </section>
-            <aside class="sticky-ltr"
-                   style="padding:0px">
+            <aside class="sticky-ltr">
                 {% assign char_arr = headings | split: '' %}
                 {% for char in char_arr %}
-                    <font color="white" size="5px" face="arial">
                         <a class="letter_links"
-                           style="padding-top: 0cm;
-                                  margin:10px 30% 10px 10%;
-                                  text-decoration: none"
                            href="#{{char}}">{{char}}</>
                         </a>
                         <br>
-                    </font>
                 {% endfor %}
             </aside>
         </div>

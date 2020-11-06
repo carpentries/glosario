@@ -5,6 +5,7 @@ body {
     font-size: 12pt;
 }
 
+@media screen and (min-width: 769px) {
 .left {
   float: left;
   width: 15%;
@@ -13,6 +14,19 @@ body {
 .right {
   float: left;
   width: 55%;
+}
+}
+
+@media screen and (max-width: 768px) {
+.left {
+  float: left;
+  width: 25%;
+}
+
+.right {
+  float: left;
+  width: 35%;
+}
 }
 
 /* Clear floats after the columns */
