@@ -120,4 +120,36 @@ body {
 #main-content-ltr,
 #main-content-rtl {
   background-color: hsla(0, 0%, 98%, 85%);
-} 
+}
+
+/* For mobile phones */
+
+@media only screen and (max-width: 768px) {
+    #main-content-home {
+      float: left;
+      width: 65%;
+      max-width: 100%;
+      padding: .2cm .2cm .2cm .2cm;
+    }
+  
+      #main-content-ltr {
+      float: left;
+      width: 75%;
+      max-width: 100%;
+    }
+
+    #main-content-rtl {
+      float: right;
+      width: 75%;
+      max-width: 80%;
+      margin: 0cm;
+    }
+  /* Style the hamburger menu */
+.aside a.icon {
+  background: grey;
+  display: block;
+  position: sticky;
+  right: 0;
+  top: 0;
+}
+}
