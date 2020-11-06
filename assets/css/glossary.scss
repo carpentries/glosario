@@ -2,6 +2,8 @@
 ---
 body {
   background-attachment: fixed;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 .sticky {
@@ -98,13 +100,13 @@ body {
 
 #main-content-ltr {
   float: left;
-  width: 80%;
+  width: 75%;
   max-width: 100%;
 }
 
 #main-content-rtl {
   float: right;
-  width: 80%;
+  width: 75%;
   max-width: 80%;
   margin: 0cm;
 }
