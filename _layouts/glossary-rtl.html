@@ -1,5 +1,12 @@
 ---
 ---
+    {%- if page.title -%} 
+        {%- assign the_title = page.title -%} 
+    {%- else -%} 
+        {%- assign language = page.permalink | replace: '/', '' %}
+        {%- assign the_title = site.languages | where: "key", language | map: "title" | first -%} 
+        {%- assign the_name = site.languages | where: "key", language | map: "name" | first -%}
+    {%- endif -%} 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>{{site.title}}</title>
@@ -10,18 +17,12 @@
 </head>
 <body style="width:100%">
 <main>
-    {%- if page.title -%} 
-        {%- assign the_title = page.title -%} 
-    {%- else -%} 
-        {%- assign language = page.permalink | replace: '/', '' %}
-        {%- assign the_title = site.languages | where: "key", language | map: "title" | first -%} 
-        {%- assign the_name = site.languages | where: "key", language | map: "name" | first -%}
-    {%- endif -%} 
     <!-- {%- if page.direction -%}
         {%- assign direction = page.direction -%}
     {%- else -%}
         {%- assign direction = 'ltr' %}
     {%- endif -%} -->
+<head>
     <a href="{{ site.github.repository_url }}" class="button-rtl"><small>View project on</small>GitHub</a>
     <div class="row" dir="auto" style="margin-right: 1cm">
         <div class="left-rtl">
@@ -36,6 +37,7 @@
             <h2>{{ the_name | default: site.description }}</h2>
         </div>
     </div>
+</head>
     <!--div style="padding: Opx 50px 0px 100px; width: 70%; margin: Opx 50px 0px 100px; align-content: center"-->
     <div id="content-wrapper">
          <div class="inner clearfix">

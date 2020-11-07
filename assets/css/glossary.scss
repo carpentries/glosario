@@ -10,7 +10,8 @@ body {
 /* For larger devices */
 @media screen and (min-width: 769px) {
 
-    .button-ltr {
+    .button-ltr,
+    .button-rtl {
         width: 134px;
         height: 58px;
         padding-top: 22px;
@@ -22,8 +23,16 @@ body {
         text-decoration: none;
         vertical-align: top;
         background: url({% link /static/github-button.png %}) 0 0 no-repeat;
+    }        
+
+    .button-ltr {
         margin: 25px 70px 10px 10px;
         float: right;
+    }
+
+    .button-rtl {
+        margin: 25px 10px 10px 70px;
+        float: left;
     }
 
     a.button small {
