@@ -46,6 +46,7 @@ body {
         position: sticky;
         z-index: 0;
         top: 0;
+        overflow: scroll;
         overflow-x: hidden;
         height: 95%;
         background-color: grey;
@@ -187,15 +188,16 @@ a.button small {
         position: sticky;
         z-index: 0;
         top: 8;
-        overflow: auto;
+        overflow: scroll;
         overflow-x: hidden;
-        height: auto;
+        height: 110%;
         width: 12%;
         background-color: grey;
         color: white;
         text-align: center;
         vertical-align: middle;
         padding-bottom: 40px;
+        padding-top: 30px;
     }
       
     .sticky-ltr {
