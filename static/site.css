@@ -6,69 +6,70 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-.row {
-  background: grey;
-  margin-right: 1cm;
-  margin-left: 1cm;
-}
+    .row {
+        background: grey;
+        margin-right: 1cm;
+        margin-left: 1cm;
+    }
 
-.left {
-  float: left;
-  width: 15%;
-}
+    .left {
+        float: left;
+        width: 15%;
+    }
 
-.right {
-  float: left;
-  width: 55%;
-  padding-left: 10px;
-}
+    .right {
+        float: left;
+        width: 55%;
+        padding-left: 10px;
+    }
 
-.left-rtl {
-  float: right;
-  width: 25%;
-}
-
-.right-rtl {
-  float: right;
-  width: 55%;
-  margin-right: 1cm;
-  padding-right: 30px;
-}
+    .left-rtl {
+        float: right;
+        width: 25%;
+    }
+  
+    .right-rtl {
+        float: right;
+        width: 55%;
+        margin-right: 1cm;
+        padding-right: 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-.row {
-  background: grey;
-}
+    
+    .row {
+        background: grey;
+    }
 
-.left {
-  float: left;
-  width: 25%;
-}
+    .left {
+        float: left;
+        width: 25%;
+    }
 
-.right {
-  float: left;
-  width: 90%;
-  padding-left: 10px;
-}
+    .right {
+        float: left;
+        width: 90%;
+        padding-left: 10px;
+    }
 
-.left-rtl {
-  float: right;
-  width: 25%;
-}
+    .left-rtl {
+        float: right;
+        width: 25%;
+    }
 
-.right-rtl {
-  float: right;
-  width: 90%;
-  padding-right: 10px;
-}
+    .right-rtl {
+        float: right;
+        width: 90%;
+        padding-right: 10px;
+    }
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 dt {
