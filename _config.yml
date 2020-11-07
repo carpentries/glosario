@@ -1,5 +1,6 @@
 title: "Glossary"
-repository: <USERNAME>/<PROJECT>
+repository: baileythegreen/glosario
+github: [metadata]
 defaults:
   - scope:
       path: ""

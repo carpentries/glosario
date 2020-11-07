@@ -6,6 +6,12 @@ body {
 }
 
 @media screen and (min-width: 769px) {
+.row {
+  background: grey;
+  margin-right: 1cm;
+  margin-left: 1cm;
+}
+
 .left {
   float: left;
   width: 15%;
@@ -14,10 +20,27 @@ body {
 .right {
   float: left;
   width: 55%;
+  padding-left: 10px;
+}
+
+.left-rtl {
+  float: right;
+  width: 25%;
+}
+
+.right-rtl {
+  float: right;
+  width: 55%;
+  margin-right: 1cm;
+  padding-right: 30px;
 }
 }
 
 @media screen and (max-width: 768px) {
+.row {
+  background: grey;
+}
+
 .left {
   float: left;
   width: 25%;
@@ -25,7 +48,19 @@ body {
 
 .right {
   float: left;
-  width: 35%;
+  width: 90%;
+  padding-left: 10px;
+}
+
+.left-rtl {
+  float: right;
+  width: 25%;
+}
+
+.right-rtl {
+  float: right;
+  width: 90%;
+  padding-right: 10px;
 }
 }
 

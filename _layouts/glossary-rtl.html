@@ -15,36 +15,35 @@
     {%- else -%} 
         {%- assign language = page.permalink | replace: '/', '' %}
         {%- assign the_title = site.languages | where: "key", language | map: "title" | first -%} 
+        {%- assign the_name = site.languages | where: "key", language | map: "name" | first -%}
     {%- endif -%} 
     <!-- {%- if page.direction -%}
         {%- assign direction = page.direction -%}
     {%- else -%}
         {%- assign direction = 'ltr' %}
     {%- endif -%} -->
-    <div class="row" dir="auto">
-        <div style="float: right;
-                    width: 15%;
-                    padding-right: 1cm">
+    <a href="{{ site.github.repository_url }}" class="button-rtl"><small>View project on</small>GitHub</a>
+    <div class="row" dir="auto" style="margin-right: 1cm">
+        <div class="left-rtl">
             <a href="{{'/' | relative_url}}">
                 <img src="{{'/static/parrot.svg' | relative_url}}"
                      alt="Parrot logo"
-                     width="75%" />
+                     width="85%" />
             </a>
         </div>
-        <div style="float: left;
-                    width: 80%">
+        <div class="right-rtl" style="font-family: Arial, Helvetica, sansserif; color: white; margin-right: 1cm">
             <h1>{{the_title}}</h1>
+            <h2>{{ the_name | default: site.description }}</h2>
         </div>
     </div>
     <!--div style="padding: Opx 50px 0px 100px; width: 70%; margin: Opx 50px 0px 100px; align-content: center"-->
-    <div id="content-wrapper"
-         style="margin-right: 1cm">
+    <div id="content-wrapper">
          <div class="inner clearfix">
              <section id="main-content-rtl">
     <!--{{ content }}-->
                  {% include glossary.html headings = headings %}
              </section>
-             <aside class="sticky-rtl" style="padding:0px">
+             <div class="sticky-rtl">
                  {% assign char_arr = headings | split: '' %}
                  {% for char in char_arr %}
                      <font color="white" size="5px" face="arial">
@@ -54,7 +53,7 @@
                          <br>
                      </font>
                  {% endfor %}
-             </aside>
+             </div>
         </div>
     </div>
 </main>

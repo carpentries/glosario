@@ -3,17 +3,24 @@
 {%- else -%}
 {%- assign language = page.permalink | replace: '/', '' %}
 {%- assign the_title = site.languages | where: "key", language | map: "title" | first -%}
+{%- assign the_name = site.languages | where: "key", language | map: "name" | first -%}
 {%- endif -%}
 <!-- {%- if page.direction -%} -->
 <!-- {%- assign direction = page.direction -%} -->
 <!-- {%- else -%} -->
 <!-- {%- assign direction = 'ltr' %} -->
 <!-- {%- endif -%} -->
+<head>
+          <a href="{{ site.github.repository_url }}" class="button-ltr"><small>View project on</small>GitHub</a>
 <div class="row" dir="auto">
   <div class="left">
-    <a href="{{'/' | relative_url}}"><img src="{{'/static/parrot.svg' | relative_url}}" alt="Parrot logo" width="75%" /></a>
+    <a href="{{'/' | relative_url}}"><img src="{{'/static/parrot.svg' | relative_url}}" alt="Parrot logo" width="85%" style="vertical-align: middle" /></a>
   </div>
-  <div class="right">
+  <div class="right" style="font-family: Arial, Helvetica, sansserif; color: white">
     <h1>{{the_title}}</h1>
+    <div class="describe">
+      <h2>{{ the_name | default: site.description }}</h2>
+    </div>
   </div>
 </div>
+</head>

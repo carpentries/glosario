@@ -10,6 +10,27 @@ body {
 /* For larger devices */
 @media screen and (min-width: 769px) {
 
+    .button-ltr {
+        width: 134px;
+        height: 58px;
+        padding-top: 22px;
+        padding-left: 68px;
+        font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+        font-size: 23px;
+        line-height: 1.2;
+        color: white;
+        text-decoration: none;
+        vertical-align: top;
+        background: url({% link /static/github-button.png %}) 0 0 no-repeat;
+        margin: 25px 70px 10px 10px;
+        float: right;
+    }
+
+    a.button small {
+        display: block;
+        font-size: 11px;
+    }
+
     .sticky-home,
     .sticky-ltr,
     .sticky-rtl {
@@ -17,12 +38,15 @@ body {
         z-index: 0;
         top: 0;
         overflow-x: hidden;
-        height: 100%;
+        height: 95%;
         background-color: grey;
         color: white;
         text-align: center;
         vertical-align: middle;
-        padding: 0px;
+        align-contents: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        bottom: 30px;
     }
       
     .sticky-home {
@@ -35,21 +59,12 @@ body {
         float: right;
         right: 0;
         width: 6%;
-        margin-right: 8%;
     }
       
     .sticky-rtl {
         float: left;
         left: 0;
         width: 6%;
-        margin-left: 8%;
-    }
-      
-    aside a {display: block;
-        width: 100%;
-        height: 0px;
-        vertical-align: center;
-        margin-bottom: 0px;
     }
       
     .lang_links,
@@ -58,23 +73,27 @@ body {
         text-align: center;
         vertical-align: middle;
         text-decoration: none;
-        padding-top: 0cm;
         font-size: 24;
         color: white;
-        margin: 10px 0% 10px 0%;
+        margin: 20px 0% 30px 0%;
     }
       
     .lang_links {
         line-height: 50px;
+        margin-right: 0px;
+        top: 30px;
+        margin: 10px 20px 10px 10%;
     }
       
     .letter_links {
-        line-height: 20px;
+        line-height: 40px;
     }
       
     #content-wrapper {
         padding-top: 30px;
         border-top: solid 1px #fff;
+        margin-right: 1cm;
+        margin-left: 0cm;
     }
       
     .clearfix:after {
@@ -83,13 +102,15 @@ body {
         clear: both;
         visibility: hidden;
         content: '.';
+        margin-bottom: 30px;
     }
       
     #main-content-home {
         float: left;
-        width: 65%;
+        width: 60%;
         max-width: 100%;
         padding: 1cm 1cm 1cm 1cm;
+        margin-left: 1cm;
     }
       
     #main-content-ltr {
@@ -98,14 +119,13 @@ body {
       
     #main-content-rtl {
         float: right;
-        margin: 0cm;
     }
      
     #main-content-ltr,
     #main-content-rtl {
         padding: .5cm 1cm 1cm 1cm;
-        width: 75%;
-        max-width: 80%;
+        width: 85%;
+        max-width: 85%;
     }
       
     #main-content-home,
@@ -118,6 +138,37 @@ body {
 /* For mobile phones */
 @media only screen and (max-width: 768px) {
 
+.button-ltr,
+.button-rtl {
+  width: 134px;
+  height: 58px;
+  padding-top: 22px;
+  padding-left: 68px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 23px;
+  line-height: 1.2;
+  color: white;
+  text-decoration: none;
+  vertical-align: top;
+  background: url({% link /static/github-button.png %}) 0 0 no-repeat;
+}
+
+.button-ltr {
+  margin: 10px 10px 10px 10px;
+  float: right;
+}
+
+.button-rtl {
+    float: left;
+    margin: 10px 10px 10px 30px;
+    margin-right: 1.5cm;
+}
+
+a.button small {
+  display: block;
+  font-size: 11px;
+}
+
     .sticky-home {
         display: none
     }
@@ -129,7 +180,7 @@ body {
         top: 8;
         overflow: auto;
         overflow-x: hidden;
-        height: 110%;
+        height: auto;
         width: 12%;
         background-color: grey;
         color: white;
@@ -142,13 +193,11 @@ body {
         float: right;
         right: 0;
         bottom: 30px;
-        margin-right: 5%;
     }
       
     .sticky-rtl {
         float: left;
         left: 0;
-        margin-left: 5%;
     }
       
     .lang_links { }
@@ -172,13 +221,13 @@ body {
         clear: both;
         visibility: hidden;
         content: '.';
-        margin: 10% 0% 10% 5%;
+        margin: 10% 0% 10% 0%;
         width: 50%;
     }
       
     #main-content-home {
         float: left;
-        width: 70%;
+        width: 77%;
         max-width: 100%;
         padding: 1cm 1cm 1cm 1cm;
     }
@@ -186,15 +235,15 @@ body {
     #main-content-ltr {
         float: left;
         width: 65%;
-        max-width: 100%;
-        padding: 1cm 0cm 1cm 1cm;
+        max-width: 80%;
+        padding: 1cm 1cm 1cm 1cm;
     }
       
     #main-content-rtl {
         float: right;
         width: 65%;
         max-width: 80%;
-        margin: 0cm;
+        padding: 1cm 1cm 1cm 1cm;
     }
       
     #main-content-home,
@@ -202,13 +251,4 @@ body {
     #main-content-rtl {
         background-color: hsla(0, 0%, 98%, 85%);
     } 
-      
-       /* Style the hamburger menu */
-    .aside a.icon {
-        background: grey;
-        display: block;
-        position: sticky;
-        right: 0;
-        top: 0;
-    }
 }

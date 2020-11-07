@@ -11,13 +11,12 @@
 <body style="width: 100%">
 <main>
     {% include title.html %}
-    <div id="content-wrapper"
-         style="margin-left: 1cm">
+    <div id="content-wrapper">
         <div class="inner clearfix">
             <section id="main-content-ltr">
                 {% include glossary.html headings = headings %}
             </section>
-            <aside class="sticky-ltr">
+            <div class="sticky-ltr">
                 {% assign char_arr = headings | split: '' %}
                 {% for char in char_arr %}
                         <a class="letter_links"
@@ -25,7 +24,7 @@
                         </a>
                         <br>
                 {% endfor %}
-            </aside>
+            </div>
         </div>
     </div>
 </main>

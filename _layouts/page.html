@@ -14,20 +14,16 @@
     <section id="main-content-home">
       {{content}}
     </section>
-        <aside class="sticky-home"
-               style="padding:0px">
+        <div class="sticky-home">
             {% for lang in site.languages %}
                 <font color="white" size="5px" face="arial">
                     <a class="lang_links"
-                       style="padding-top: 0cm;
-                              margin:10px 20px 10px 10%;
-                              text-decoration: none"
                        href="#{{lang.name}}">{{lang.name}}</>
                     </a>
                     <br>
                 </font>
             {% endfor %}
-        </aside>
+        </div>
     </div>
     </div>
     </main>
