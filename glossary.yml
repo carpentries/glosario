@@ -518,7 +518,7 @@
       often used in testing, but are also put in [production code](#production_code)
       to check that it is behaving correctly. In many languages, assertions should not be
       used to perform data-validation as they may be silently dropped by compilers and interpreters
-      under optimisation conditions. Using assertions for data validation can therefore
+      under optimization conditions. Using assertions for data validation can therefore
       introduce security risks. Unlike many languages, R does not have an `assert` statement
       which can be disabled, and so use of [package](#package) such as `assertr` for data
       validation does not create security holes.
@@ -772,7 +772,7 @@
     def: >
       Relating to a variable or data type that can have either a logical value of
       [true](#true) or [false](#false). Named for George Boole, a 19th
-      century mathemetician. Binary systems, like all computers, are built on this
+      century mathematician. Binary systems, like all computers, are built on this
       foundation of systems of logical evaluations between states of true and false, 1
       or 0.
   ar:
@@ -940,7 +940,7 @@
       A function A that is passed to another function B so that B can call it at some
       later point. Callbacks can be used [synchronously](#synchronous), as in generic
       functions like `map` that invoke a callback function once for each element in a
-      collection, or [ascynrhonously](#asynchronous), as in a [client](#client) that
+      collection, or [asynchronously](#asynchronous), as in a [client](#client) that
       runs a callback when a [response](#http_response) is received in answer to a [request](#http_request).
 
 
@@ -1997,7 +1997,7 @@
   en:
     term: "expected result (of test)"
     def: >
-      The value that a piece of software is suposed to produce when tested in a
+      The value that a piece of software is supposed to produce when tested in a
       certain way, or the state in which it is supposed to leave the system.
 
 
