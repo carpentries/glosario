@@ -13,4 +13,7 @@ glossary/glossary.yml
 man
 /Gemfile.lock
 /_gh-site/
-test-glossary.yml
+testr_glossary.yml
+Gemfile
+assets/css/to_delete.css
+.DS_Store
