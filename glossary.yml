@@ -3285,6 +3285,15 @@
     def: >
       The statement or statements executed by a loop.
 
+- slug: lsof
+  en:
+    term: "lsof"
+    def: >
+      Linux command to see the list of open files being used by processes. 
+  es:
+    term: "lsof"
+      def: >
+      Comando en Linux para ver la lista de archivos abiertos siendo utilizados por procesos.
 
 - slug: machine_learning
   en:
