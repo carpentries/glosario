@@ -210,6 +210,12 @@
       gedefiniëer maar nie geïmplementeer is nie. Programmeerders sal 'n abstrakte
       metode in 'n [voorsaatklas](#parent_class) definiëer wat in
       [nasaatklasse](#child_class) geïmplementeer moet word.
+  pt:
+    term: "método abstrato"
+    def: >
+      Em [programação orientada a objetos](#oop), um [método](#method) que é definido mas
+      não é implementado. Pessoas programadoras definirão um método abstrato em uma [classe parental](#parent_class)
+      para especificar operações que as [classes filhas](#child_class) devem prover.
 
 
 - slug: abstract_syntax_tree
@@ -229,6 +235,13 @@
       [nodus](#node) het wat 'n [`doen` terwyl-lus](#while_loop) verteenwoordig wat
       met een [naasaatontledingsboom](#child_tree) die lustoestand verteenwoordig en
       'n ander nasaatontledingsboom wat die [lusraam](#loop_body) verteenwoordig.
+  pt:
+    term: "árvore sintática abstrata"
+    def: >
+      Uma estrutura de dados profundamente encadeada, a qual representa a estrutura de um
+      programa. Por exemplo, uma árvore sintática abstrata pode ter um [nó](#node) que 
+      representa um [`while`loop](#while_loop) com uma [árvore filha](#child_tree) representando a condição
+      do loop e enquanto outra árvore filha representa a [estrutura do loop](#loop_body).
 
 
 - slug: actual_result
@@ -252,6 +265,12 @@
       Die waarde wat deur 'n toets gegenereer is. Indien dié waarde gelyk is aan die
       [verwagte resultaat](#actual_result), is die toets suksesvol; as die twee
       waardes verskil het die toets gefaal.
+  pt:
+    term: "resultado absoluto (de um teste)"
+    def: >
+      Valor retornado ao executar um teste de código. Se o valor corresponder ao
+      [valor esperado](#expected_result), o teste é [aprovado](#pass_test); se o valor for
+      diferente do resultado esperado, ele então é [rejeitado](#fail_test).
 
 
 - slug: affordance
