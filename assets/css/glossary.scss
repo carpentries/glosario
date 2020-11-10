@@ -5,6 +5,16 @@ body {
     background-attachment: fixed;
     overflow: auto;
     overflow-x: hidden;
+    width: 100%;
+}
+
+.lang_blufb {
+    width: 60%;
+}
+
+.title_font {
+    font-family: Arial, Helvetica, sansserif;
+    color: white;
 }
 
 /* For larger devices */
@@ -16,13 +26,14 @@ body {
         height: 58px;
         padding-top: 22px;
         padding-left: 68px;
-        font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-        font-size: 23px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+        font-size: 20px;
         line-height: 1.2;
         color: white;
         text-decoration: none;
+        text-align: center;
         vertical-align: top;
-        background: url({{ site.baseurl}}/static/github-button.png) 0 0 no-repeat;
+        background: url({{ "/static/github-button.png" | relative_url }} ) 0 0 no-repeat;
     }        
 
     .button-ltr {
@@ -37,9 +48,8 @@ body {
 
     a.button small {
         display: block;
-        font-size: 11px;
     }
-
+   
     .sticky-home,
     .sticky-ltr,
     .sticky-rtl {
@@ -61,18 +71,21 @@ body {
       
     .sticky-home {
         float: right;
+        margin-right: 1cm;
         right: 0;
         width: 20%;
     }
       
     .sticky-ltr {
         float: right;
+        margin-right: 1cm;
         right: 0;
         width: 6%;
     }
       
     .sticky-rtl {
         float: left;
+        margin-left: 1cm;
         left: 0;
         width: 6%;
     }
@@ -102,7 +115,7 @@ body {
     #content-wrapper {
         padding-top: 30px;
         border-top: solid 1px #fff;
-        margin-right: 1cm;
+        margin-right: 0cm;
         margin-left: 0cm;
     }
       
@@ -125,16 +138,18 @@ body {
       
     #main-content-ltr {
         float: left;
+        margin-left: 1cm;
     }
       
     #main-content-rtl {
         float: right;
+        margin-right: 1cm;
     }
      
     #main-content-ltr,
     #main-content-rtl {
         padding: .5cm 1cm 1cm 1cm;
-        width: 85%;
+        width: 75%;
         max-width: 85%;
     }
       
@@ -154,10 +169,11 @@ body {
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 23px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 20px;
   line-height: 1.2;
   color: white;
+  text-align: center;
   text-decoration: none;
   vertical-align: top;
   background: url({% link /static/github-button.png %}) 0 0 no-repeat;
@@ -176,7 +192,6 @@ body {
 
 a.button small {
   display: block;
-  font-size: 11px;
 }
 
     .sticky-home {
