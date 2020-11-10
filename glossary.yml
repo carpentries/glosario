@@ -487,7 +487,10 @@
       Die term moet nie verwar word met [parameter](#parameter) nie en is ook nie 'n
       sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie
       verskaf word in 'n lys van waardes wat deur kommas geskei word
-
+      Die term moet nie verwar word met [parameter](#parameter) nie en is ook nie 'n 
+      sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie 
+      verskaf word in 'n lys van waardes wat deur kommas geskei word. Parameters is 
+      die veranderlikes en argumente is die waardes wat aan die veranderlikes toegeken is.
 
 - slug: arithmetic_mean
   en:
@@ -498,6 +501,10 @@
     term: "média aritmética"
     def: >
       Veja [média](#mean).
+  af:
+    term: "rekenkundige gemiddelde"
+    def: >
+      Sien [gemiddelde](#mean).
 
 
 - slug: ascii
@@ -506,6 +513,11 @@
     def: >
       A standard way to represent the characters commonly used in the Western European
       languages as 7- or 8-bit integers, now superceded by [Unicode](#unicode).
+  af:
+    term: "ASCII"
+    def: >
+      'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word, 
+      voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
 
 
 - slug: assertion
@@ -522,6 +534,23 @@
       introduce security risks. Unlike many languages, R does not have an `assert` statement
       which can be disabled, and so use of [package](#package) such as `assertr` for data
       validation does not create security holes.
+  af:
+    term: "bewering"
+    def: >
+      'n [Boole](#boolean)-uitdrukking wat waar moet wees op 'n spesifiek plek 
+      in 'n program. 'n Bewering kan ingebou wees in 'n programmeertaal (bv. 
+      [Python](#python) het 'n ingeboude beweerstelling - assert) of dit kan 
+      voorsien word as 'n funksie (bv. [R](#r_language) gebruik `stopifnot`). 
+      Bewerings word dikwels gebruik gedurende die toetsfase van sagtewareontwikkeling 
+      maar dit word ook gebruk in [produksieskode](#production_code) om te 
+      bevestig dat die kode reg werk. In sommige tale moet die gebruik van 
+      bewerings as 'n datageldigheidstoets vermy word aangesien sommige 
+      kompileerders en interpreteerders die bewering stilweg weggooi onder 
+      optimeringsvoorwaardes. Die gebruik van bewerings vir bevestiging van 
+      datageldigheid kan dus sekuriteitsrisikos veroorsaak. R het nie 'n 
+      beweringstelling wat gedeaktiveer kan word nie en dus sal die gebruik 
+      van 'n [pakket](#package) soos 'assertr' vir datageldigheid nie 
+      sekuriteitsgapings skep nie.
 
 
 - slug: associative_array
