@@ -22,7 +22,7 @@ body {
         color: white;
         text-decoration: none;
         vertical-align: top;
-        background: url({{ site.baseurl}}/static/github-button.png) 0 0 no-repeat;
+        background: url({{ "/static/github-button.png" | relative_url }}) 0 0 no-repeat;
     }        
 
     .button-ltr {
