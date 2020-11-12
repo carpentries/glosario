@@ -31,7 +31,7 @@ Cross-references are displayed in __bold__ if that term is missing.
   {% if gloss_letter != start_letter %}
      {% assign gloss_letter = start_letter %} 
      {% assign headings = headings | append: gloss_letter %}
-     <h1 id="{{ gloss_letter }}"> {{ gloss_letter }} </h1>
+     <h2 id="{{ gloss_letter }}"> {{ gloss_letter }} </h2>
   {% endif %}
   <dt id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}</dt>
   <dd>
