@@ -38,7 +38,7 @@ languages:
       ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
       كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
       لغات
- - key: de
+  - key: de
     name: Deutsch
     title: Glossar
     blurb: >
@@ -52,8 +52,8 @@ languages:
       sie beginnen, und wo sie dieses Wissen finden können. Autoren
       können die Funktionen der Bibliothek auch nutzen, um konsistente
       Links zu Begriffe und Definitionen in ihren Lektionen in einer
-      von mehreren Sprachen einzufügen. 
- - key: en
+      von mehreren Sprachen einzufügen.
+  - key: en
     name: English
     title: Glossary
     blurb: >
