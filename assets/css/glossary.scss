@@ -8,8 +8,8 @@ body {
     width: 100%;
 }
 
-.lang_blufb {
-    width: 60%;
+.lang_blurb {
+    width: 100%;
 }
 
 .title_font {
@@ -37,13 +37,13 @@ body {
     }        
 
     .button-ltr {
-        margin: 25px 70px 10px 10px;
+        margin: 25px 90px 10px 10px;
         float: right;
     }
 
     .button-rtl {
-        margin: 25px 10px 10px 70px;
-        float: left;
+        margin: 25px 90px 10px 10px;
+        float: right;
     }
 
     a.button small {
@@ -195,7 +195,8 @@ body {
     }
 
     .sticky-home {
-        display: none
+        display: none;
+        margin-right: 1cm;
     }
       
     .sticky-ltr,
@@ -217,13 +218,16 @@ body {
       
     .sticky-ltr {
         float: right;
+        margin-right: 0cm;
         right: 0;
         bottom: 30px;
     }
       
     .sticky-rtl {
         float: left;
+        margin-left: .5cm;
         left: 0;
+        bottom: 30px;
     }
       
     .lang_links { }
@@ -254,22 +258,25 @@ body {
     #main-content-home {
         float: left;
         width: 77%;
-        max-width: 100%;
+        max-width: 80%;
         padding: 1cm 1cm 1cm 1cm;
+        margin-left: .5cm;
     }
         
     #main-content-ltr {
         float: left;
         width: 65%;
         max-width: 80%;
-        padding: 1cm 1cm 1cm 1cm;
+        padding: 1cm .5cm 1cm 1cm;
+        margin-left: .5cm;
     }
       
     #main-content-rtl {
         float: right;
         width: 65%;
         max-width: 80%;
-        padding: 1cm 1cm 1cm 1cm;
+        padding: 1cm 1cm 1cm .5cm;
+        margin-right: .5cm;
     }
       
     #main-content-home,

@@ -10,19 +10,19 @@
 <!-- {%- else -%} -->
 <!-- {%- assign direction = 'ltr' %} -->
 <!-- {%- endif -%} -->
-<head>
-          <a href="{{ site.github.repository_url }}" class="button-ltr"><small><small>View project on </small></small>GitHub</a>
+<header>
 <div class="row" dir="auto">
   <div class="left">
-    <a href="{{'/' | relative_url}}"><img src="{{'/static/parrot.svg' | relative_url}}" alt="Parrot logo" width="85%" style="vertical-align: middle" /></a>
+    <a href="{{'/' | relative_url}}"><img class="logo" src="{{'/static/parrot.svg' | relative_url}}" alt="Parrot logo"/></a>
+    <a href="{{ site.github.repository_url }}" class="button-ltr"><small><small>View project on </small></small>GitHub</a>
   </div>
   <div class="right">
     <font class="title_font">
-    <h1>{{the_title}}</h1>
-    <div class="describe">
-      <h2>{{ the_name | default: site.description }}</h2>
-    </div>
+      <h1>{{the_title}}</h1>
+      <div class="describe">
+        <h2>{{ the_name | default: site.description }}</h2>
+      </div>
     </font>
   </div>
 </div>
-</head>
+</header>
