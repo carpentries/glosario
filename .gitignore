@@ -17,3 +17,4 @@ testr_glossary.yml
 Gemfile
 assets/css/to_delete.css
 .DS_Store
+_config.yml
