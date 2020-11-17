@@ -184,6 +184,10 @@
     def: >
       O índice sequencial de uma linha em uma tabela, independente de qual seção da
       tabela está sendo exibida.
+  ar:
+    term: "رقم الصف المُطلق"
+    def: >
+        الفهرس المتسلسل لصف في جدول، بغض النظر عن اقسام الجدول التي يتم عرضها
 
 
 - slug: abstract_method
@@ -210,6 +214,17 @@
       gedefiniëer maar nie geïmplementeer is nie. Programmeerders sal 'n abstrakte
       metode in 'n [voorsaatklas](#parent_class) definiëer wat in
       [nasaatklasse](#child_class) geïmplementeer moet word.
+  ar:
+    term: "الطريقة المجردة"
+    def: >
+      في
+      [البرمجة الشيئية](#oop)
+      ، [الطريقة](#method)
+      يتم تعريفها ولكن لم لايتم تنفيذها،
+      بمعنى آخر، المبرمجون يُعرِفون عادة طريقة مجردة في
+      [الفئه الرئيسية](#parent_class)
+      لتحديد العمليات التي يجب أن تقدمها
+      [الفئات الفرعية] (# child_class)
 
 
 - slug: abstract_syntax_tree
@@ -252,7 +267,15 @@
       Die waarde wat deur 'n toets gegenereer is. Indien dié waarde gelyk is aan die
       [verwagte resultaat](#actual_result), is die toets suksesvol; as die twee
       waardes verskil het die toets gefaal.
-
+  ar:
+    term: "النتيجة الفعلية للإختِبار"
+    def: >
+      القيمة الناتجة عن تشغيل إختبار للتعليمات البرمجية، إذا كانت هذه النتيجة تُطابِق
+      [النتيجة المتوقعة](#expected_result)
+      فإن الإختبار
+      [تم نجاحه](#pass_test)
+      و اذا كان النتيجتين مختلفتين فان الاختبار قد
+      [فشل](#fail_test).
 
 - slug: affordance
   en:
@@ -464,7 +487,7 @@
       [parameter](#parameter). An argument is one of possibly several expressions
       that are passed to a function. It is the actual value that is passed.
       Parameters and arguments are distinct, but related concepts. Parameters are
-      variables and arguments are the values assigned to those variables. 
+      variables and arguments are the values assigned to those variables.
   es:
     term: "argumento"
     def: >
@@ -487,9 +510,9 @@
       Die term moet nie verwar word met [parameter](#parameter) nie en is ook nie 'n
       sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie
       verskaf word in 'n lys van waardes wat deur kommas geskei word
-      Die term moet nie verwar word met [parameter](#parameter) nie en is ook nie 'n 
-      sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie 
-      verskaf word in 'n lys van waardes wat deur kommas geskei word. Parameters is 
+      Die term moet nie verwar word met [parameter](#parameter) nie en is ook nie 'n
+      sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie
+      verskaf word in 'n lys van waardes wat deur kommas geskei word. Parameters is
       die veranderlikes en argumente is die waardes wat aan die veranderlikes toegeken is.
 
 - slug: arithmetic_mean
@@ -516,7 +539,7 @@
   af:
     term: "ASCII"
     def: >
-      'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word, 
+      'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
       voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
 
 
@@ -537,19 +560,19 @@
   af:
     term: "bewering"
     def: >
-      'n [Boole](#boolean)-uitdrukking wat waar moet wees op 'n spesifiek plek 
-      in 'n program. 'n Bewering kan ingebou wees in 'n programmeertaal (bv. 
-      [Python](#python) het 'n ingeboude beweerstelling - assert) of dit kan 
-      voorsien word as 'n funksie (bv. [R](#r_language) gebruik `stopifnot`). 
-      Bewerings word dikwels gebruik gedurende die toetsfase van sagtewareontwikkeling 
-      maar dit word ook gebruk in [produksieskode](#production_code) om te 
-      bevestig dat die kode reg werk. In sommige tale moet die gebruik van 
-      bewerings as 'n datageldigheidstoets vermy word aangesien sommige 
-      kompileerders en interpreteerders die bewering stilweg weggooi onder 
-      optimeringsvoorwaardes. Die gebruik van bewerings vir bevestiging van 
-      datageldigheid kan dus sekuriteitsrisikos veroorsaak. R het nie 'n 
-      beweringstelling wat gedeaktiveer kan word nie en dus sal die gebruik 
-      van 'n [pakket](#package) soos 'assertr' vir datageldigheid nie 
+      'n [Boole](#boolean)-uitdrukking wat waar moet wees op 'n spesifiek plek
+      in 'n program. 'n Bewering kan ingebou wees in 'n programmeertaal (bv.
+      [Python](#python) het 'n ingeboude beweerstelling - assert) of dit kan
+      voorsien word as 'n funksie (bv. [R](#r_language) gebruik `stopifnot`).
+      Bewerings word dikwels gebruik gedurende die toetsfase van sagtewareontwikkeling
+      maar dit word ook gebruk in [produksieskode](#production_code) om te
+      bevestig dat die kode reg werk. In sommige tale moet die gebruik van
+      bewerings as 'n datageldigheidstoets vermy word aangesien sommige
+      kompileerders en interpreteerders die bewering stilweg weggooi onder
+      optimeringsvoorwaardes. Die gebruik van bewerings vir bevestiging van
+      datageldigheid kan dus sekuriteitsrisikos veroorsaak. R het nie 'n
+      beweringstelling wat gedeaktiveer kan word nie en dus sal die gebruik
+      van 'n [pakket](#package) soos 'assertr' vir datageldigheid nie
       sekuriteitsgapings skep nie.
 
 
@@ -781,7 +804,7 @@
   pt:
     term: "bit"
     def: >
-      Uma unidade de informação representando alternativas, sim/não, 
+      Uma unidade de informação representando alternativas, sim/não,
       [verdadeiro](#true)/[falso](#false). Em computação, um estado de 0 ou 1.
 
 
@@ -1044,7 +1067,7 @@
     def: >
       A [Creative Commons](#cc_license) [license](#license) that imposes no
       restrictions whatsover, thereby putting a work in the public domain.
-  pt: 
+  pt:
     term: "CC-0"
     def: >
       Uma [licença](#license) [Creative Commons](#cc_license) que não impõe
@@ -3005,7 +3028,7 @@
     term: "k-nearest neighbors"
     def: >
       A [classification](#classification) algorithm that classifies data points based
-      on their similarity to their *k* nearest neighbours. 
+      on their similarity to their *k* nearest neighbours.
 
 
 - slug: kebab_case
@@ -3426,7 +3449,6 @@
     def: >
       Om die parameters vir 'n [waarskynlikheids verdeling](#probability_distribution)
       te verkry, te maksimeer.
- 
 
 
 - slug: mean
@@ -3442,9 +3464,9 @@
   af:
     term: "gemiddeld"
     def: >
-      Die gemiddelde waarde van 'n datastel, beter bekend as die 
+      Die gemiddelde waarde van 'n datastel, beter bekend as die
       [rekenkundige gemiddeld](#arithmetic_mean) om dit van die [meetkundige](#geometric_mean)
-      en die [harmoniese](#harmonic_mean) gemiddelde te onderskei.      
+      en die [harmoniese](#harmonic_mean) gemiddelde te onderskei.
   pt:
     term: "média"
     def: >
@@ -3974,7 +3996,7 @@
     def: >
       A variable specified in a function definition whose value is passed to the function
       when the function is called. Parameters and arguments are distinct, but related concepts.
-      Parameters are variables and [arguments](#argument) are the values assigned to those variables. 
+      Parameters are variables and [arguments](#argument) are the values assigned to those variables.
 
 
 - slug: parent_class
@@ -5820,7 +5842,7 @@
     def: >
       The default text editor on Unix. Vim is a very powerful text editor, with a steeper
       learning curve than [nano](#nano_editor), but that allows the user to execute shell
-      commands and use [regular expressions](#regular_expression) to alter files programmatically. 
+      commands and use [regular expressions](#regular_expression) to alter files programmatically.
 
 
 - slug: virtual_environment
@@ -5909,9 +5931,9 @@
   de:
     term: "XML"
     def: >
-      Eine Reihe von Regeln zur Definition von [HTML](#html)-ähnlichen Tags und deren 
-      Verwendung zur Formatierung Dokumente (typischerweise Daten). XML war in den 
-      frühen 2000er Jahren populär, aber seine Komplexität veranlasste 
+      Eine Reihe von Regeln zur Definition von [HTML](#html)-ähnlichen Tags und deren
+      Verwendung zur Formatierung Dokumente (typischerweise Daten). XML war in den
+      frühen 2000er Jahren populär, aber seine Komplexität veranlasste
       viele Programmierer, stattdessen [JSON](#json) zu übernehmen.
   en:
     term: "XML"
@@ -5939,9 +5961,9 @@
   de:
     term: "YAML"
     def: >
-      Abkürzung für "YAML Ain't Markup Language", eine Methode zur Darstellung 
-      verschachtelter Daten mit Einrückung statt der Klammern und Kommas 
-      von [JSON](#json). YAML ist oft in Konfigurationsdateien und zur Definition 
+      Abkürzung für "YAML Ain't Markup Language", eine Methode zur Darstellung
+      verschachtelter Daten mit Einrückung statt der Klammern und Kommas
+      von [JSON](#json). YAML ist oft in Konfigurationsdateien und zur Definition
       von Parametern für verschiedene Geschmacksrichtungen verwendet
       von [Markdown](#markdown)-Dokumenten.
   en:
@@ -5959,4 +5981,3 @@
       utilise des indentations au lieu de signes typographiques, comme les parenthèses
       et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
       configuration et pour définir les paramètres de documents [Markdown](#markdown).
- 
