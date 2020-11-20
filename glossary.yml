@@ -1759,6 +1759,11 @@
       A code block which gathers a sequence of operations into a whole, preserving it for ongoing use
       by a defining tasts that take a set of inputs and generate expected outputs. They enable
       repeating these defined tasks with one command.
+  ja:
+    term: "関数"
+    def: >
+      連続した操作を一つに纏めようにコードブロックとして後から使うときのために保存しておきます。
+      関数は繰り繰返し演算を実行できるのように入力と返した出力を定義します。
 
 - slug: functional_programming
   ref:
