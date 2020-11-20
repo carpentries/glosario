@@ -30,12 +30,29 @@ languages:
     name: Arabic
     title: قائمة المصطلحات
     blurb: >
-       تطبيق (جلوساريو) هو عبارة عن برنامج مفتوح المصدر للمصطلحات المستخدمة في علم البيانات ، المتواجدة في
-       [R لغة](https://github.com/carpentries/glosario-r/) و
-       [Python لغة](https://github.com/carpentries/glosario-py/)
-       عن طريق إضافة مفاتيح المصطلحات إلى البيانات الوصفية للدرس، يستطيع الكاتب ان يحدد
-       ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
-       كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط  يحتوي على ترجمة المصطلحات في عدة لغات
+      تطبيق (جلوساريو) هو عبارة عن برنامج مفتوح المصدر للمصطلحات المستخدمة في علم البيانات ، المتواجدة في
+      [لغة آر (R)](https://github.com/carpentries/glosario-r/)
+      و
+      [لغة البايثون (Python)](https://github.com/carpentries/glosario-py/)
+      عن طريق إضافة مفاتيح المصطلحات إلى البيانات الوصفية للدرس، يستطيع الكاتب ان يحدد
+      ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
+      كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
+      لغات
+  - key: de
+    name: Deutsch
+    title: Glossar
+    blurb: >
+      `glosario` ist ein Open-Source-Glossar mit Begriffen aus
+      Data-Science-Gebiet, das sowohl online als auch als Bibliothek
+      in [R](https://github.com/carpentries/glosario-r/ und
+      [Python](https://github.com/carpentries/glosario-py/) verfügbar
+      ist. Durch Hinzufügen von Glossareinträgen zu den Metadaten
+      einer Lektion (Lesson) können die Autoren angeben, was in in der
+      Lektion gelehrt wird, was die Lernenden wissen sollten, bevor
+      sie beginnen, und wo sie dieses Wissen finden können. Autoren
+      können die Funktionen der Bibliothek auch nutzen, um konsistente
+      Links zu Begriffe und Definitionen in ihren Lektionen in einer
+      von mehreren Sprachen einzufügen.
   - key: en
     name: English
     title: Glossary
@@ -105,17 +122,23 @@ languages:
       一貫したハイパーリンクを挿入することが可能になります。
   - key: nl
     name: Nederlands
-    title: Woordenlijst 
+    title: Woordenlijst
     blurb: >
-      `glosario` is een openbron verklarende woordenlijst van terminologie die wordt gebruikt 
-      in de informatica en online beschikbaar wordt gesteld, evenals een programmabibliotheek in 
-      [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/). 
-      Door woordenlijstsleutels op te nemen in de metadata van een les, kunnen auteurs aangeven welke informatie 
-      in een les wordt behandeld, wat studenten moeten weten voordat de les begint en waar studenten de informatie 
-      kunnen vinden. Auteurs kunnen de tekenfuncties van het programma ook gebruiken om consistente doorklik op 
+      `glosario` is een openbron verklarende woordenlijst van terminologie die wordt gebruikt
+      in de informatica en online beschikbaar wordt gesteld, evenals een programmabibliotheek in
+      [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/).
+      Door woordenlijstsleutels op te nemen in de metadata van een les, kunnen auteurs aangeven welke informatie
+      in een les wordt behandeld, wat studenten moeten weten voordat de les begint en waar studenten de informatie
+      kunnen vinden. Auteurs kunnen de tekenfuncties van het programma ook gebruiken om consistente doorklik op
       te nemen, voor termen en definities in een van de verschillende talen, in hun lessen.
   - key: zu
     name: IsiZulu
     title: Uhlu Lwamagama
     blurb: >
-      In translation.
+      `I-glosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
+      ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/)
+      [naku-Python](https://github.com/carpentries/glosario-py/). Ngokufaka okhiye bohlu lwamagama kwimethadatha
+      yesifundo, ababhali bangakhombisa ukuthi isifundo sifundisani, ukuthi yini abafundi okufanele bayazi
+      ngaphambi kokuthi baqale, nokuthi bangaya kuphi ukuthola lolu lwazi. Ababhali bangasebenzisa futhi
+      imisebenzi yomtapo ukufaka izixhumanisi ezihambisanayo zamagama nezincazelo ezifundweni zabo nganoma
+      yiziphi izilimi eziningana.
