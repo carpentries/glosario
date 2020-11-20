@@ -1749,6 +1749,17 @@
     def: >
       An unambiguous name of the form `package::thing`.
 
+- slug: function
+  ref:
+    - functions
+    - command
+  en:
+    term: "function"
+    def: >
+      A code block which gathers a sequence of operations into a whole, preserving it for ongoing use
+      by a defining tasts that take a set of inputs and generate expected outputs. They enable
+      repeating these defined tasks with one command.
+
 - slug: functional_programming
   ref:
     - higher_order_function
