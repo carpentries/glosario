@@ -424,7 +424,7 @@
       Une fonction qui ne s'est pas vue assignée de nom. Les fonctions anonymes sont
       en général courtes et définies là où elles sont utilisées, exemple: callbacks
   ar:
-     term: " وظيفة مجهولة "
+    term: " وظيفة مجهولة "
      def : >
       هي دالة  لم يتم تعيين اسم لها، عادةً ما تكون الدوال المجهولة قصيرة جدًا
        وعادة ما يتم تحديدها في الموضع الذي يتم استخدامها ،مثل عمليات رد الإتصال
