@@ -423,7 +423,13 @@
     def: >
       Une fonction qui ne s'est pas vue assignée de nom. Les fonctions anonymes sont
       en général courtes et définies là où elles sont utilisées, exemple: callbacks
-
+  ar:
+     term: " وظيفة مجهولة "
+     def : >
+      وظيفة لم يتم تعيين اسم لها. عادةً ما تكون الوظائف المجهولة قصيرة جدًا ، وعادة ما يتم تحديدها حيث يتم استخدامها ، على سبيل المثال ، كعمليات رد نداء.
+       في [Python]
+        (# python)
+       تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله. 
 
 - slug: anti_join
   ref:
