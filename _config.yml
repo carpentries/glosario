@@ -93,6 +93,11 @@ languages:
       les élèves peuvent aller pour trouver ces informations. Les auteurs de leçons
       peuvent aussi insérer des liens vers les définitions des termes utilisés dans leurs
       leçons, et ce, en plusieurs langages.
+  - key: he
+    name: עִברִית
+    title: מילון מונחים
+    blurb: >
+      in translation
   - key: pt
     name: Português
     title: Glossário
