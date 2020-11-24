@@ -38,6 +38,21 @@ languages:
       ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
       كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
       لغات
+  - key: de
+    name: Deutsch
+    title: Glossar
+    blurb: >
+      `glosario` ist ein Open-Source-Glossar mit Begriffen aus
+      Data-Science-Gebiet, das sowohl online als auch als Bibliothek
+      in [R](https://github.com/carpentries/glosario-r/ und
+      [Python](https://github.com/carpentries/glosario-py/) verfügbar
+      ist. Durch Hinzufügen von Glossareinträgen zu den Metadaten
+      einer Lektion (Lesson) können die Autoren angeben, was in in der
+      Lektion gelehrt wird, was die Lernenden wissen sollten, bevor
+      sie beginnen, und wo sie dieses Wissen finden können. Autoren
+      können die Funktionen der Bibliothek auch nutzen, um konsistente
+      Links zu Begriffe und Definitionen in ihren Lektionen in einer
+      von mehreren Sprachen einzufügen.
   - key: en
     name: English
     title: Glossary
@@ -96,20 +111,20 @@ languages:
     title: グロサリオ
     flag: japan
     blurb: >
-      `グロサリオ`は、データサイエンスで使われる用語、そして
-      [R](https://github.com/carpentries/glosario-r)と
-      [Python](https://github.com/carpentries/glosario-py/)のライブラリとして、
-      オンラインで利用可能なオープンソースのグロッサリーです。
-      作成者は、レッスンのメタデータに新しい用語を追加します。これにより、
-      どのレッスンでそれを教えるのか、学習者が必要な予備知識、
+      `グロサリオ`は、データサイエンスで使われる用語の
+      オープンソースグロッサリーです。オンラインとして、または
+      [R](https://github.com/carpentries/glosario-r)パッケージや
+      [Python](https://github.com/carpentries/glosario-py/)ライブラリ
+      として利用出来ます。レッスンのメタデータに新しい用語を追加することで、
+      そのレッスンで何を教えるのか、および学習者が必要な予備知識、
       そしてその情報がどこにあるかが分かるようになります。また、
-      作成者はライブラリの機能を使ってレッスンに多言語で、用語や定義に
-      一貫性のあるハイパーリンクを挿入することが出来ます。
+      ライブラリの機能を使ってレッスンに多言語で、用語や定義に
+      一貫したハイパーリンクを挿入することが可能になります。
   - key: nl
     name: Nederlands
     title: Woordenlijst
     blurb: >
-      glosario is een openbron verklarende woordenlijst van terminologie die wordt gebruikt
+      `glosario` is een openbron verklarende woordenlijst van terminologie die wordt gebruikt
       in de informatica en online beschikbaar wordt gesteld, evenals een programmabibliotheek in
       [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/).
       Door woordenlijstsleutels op te nemen in de metadata van een les, kunnen auteurs aangeven welke informatie
