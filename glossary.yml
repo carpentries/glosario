@@ -220,6 +220,12 @@
       gedefiniëer maar nie geïmplementeer is nie. Programmeerders sal 'n abstrakte
       metode in 'n [voorsaatklas](#parent_class) definiëer wat in
       [nasaatklasse](#child_class) geïmplementeer moet word.
+  pt:
+    term: "método abstrato"
+    def: >
+      In [programação orientada a objetos](#oop), um [método](#method) que é definido
+      mas não implementado. Pessoas programadoras definem um método abstrato em uma [classe base](#parent_class)
+      para especificar operações que as [classes derivadas](#child_class) devem prover.
   ar:
     term: "الطريقة المجردة"
     def: >
@@ -1192,7 +1198,11 @@
     def: >
       En [programación orientada a objetos](#oop), es la extensión de otra
       clase (denominada [superclase](#parent_class)).
-
+  pt:
+    term: "classe derivada"
+    def: >
+      Em [programação orientada a objetos](#oop), a classe derivada de uma outra classe
+      (chamada de [classe base](#parent_class)).
 
 - slug: child_tree
   en:
@@ -3910,7 +3920,13 @@
       Un paradigma de programación en el cual los datos (atributos) y funciones
       (métodos) se agrupan en objetos que interactúan entre sí a través de
       interfaces bien definidas.
-
+  pt:
+    term: "programação orientada a objetos"
+    acronym: "POO"
+    def: >
+      Um paradigma de programação no qual dados (atributos) e funções (métodos)
+      são encapsulados em objetos que interagem entre si por meio de
+      interfaces bem definidas.
 
 - slug: open_license
   en:
@@ -4039,7 +4055,11 @@
     def: >
       En [programación orientada a objetos](#oop), es la clase a partir de
       la cual se derivan otras clases (denominadas [subclases](#child_class)).
-
+  pt:
+    term: "classe base"
+    def: >
+      Em [programação orientada a objetos](#oop), a classe a partir da qual outra
+      classe (chamada [classe derivada](#child_class)) é produzida.
 
 - slug: parent_directory
   ref:
