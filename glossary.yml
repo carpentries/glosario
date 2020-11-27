@@ -447,7 +447,7 @@
        في 
        لغة
        [Python](#python)
-        تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله. 
+        تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
 
 
 - slug: anti_join
@@ -607,6 +607,10 @@
     term: "associative array"
     def: >
       See [dictionary](#dictionary).
+  af:
+    term: "assosiatiewe skikking"
+    def: >
+      Sien [woordeboek](#dictionary).
 
 
 - slug: asynchronous
@@ -617,6 +621,12 @@
     def: >
       Not happening at the same time. In programming, an asynchronous operation is one
       that runs independently of another, or that starts at one time and ends at another.
+  af:
+    term: "asinchronies"
+    def: >
+      Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer 
+      aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n 
+      bewerking wat onafhanklik van 'n ander een plaasvind.
 
 
 - slug: attribute
@@ -630,6 +640,11 @@
     def: >
       Un couple nom-valeur associé à un objet et utilisé pour stocker des métadonnées
       concernant ce dernier, example, les dimensions d'un tableau.
+  af:
+    term: "eienskap"
+    def: >
+      'n Naam-waarde paar wat verband hou met 'n voorwerp en gebruik word om 
+      metadata omtrent die voorwerp te stoor, bv. die afmetings van 'n skikking.
 
 
 - slug: auto_completion
@@ -1180,7 +1195,7 @@
       distribution](#normal_distribution) based on the [degrees of
       freedom](#degrees_of_freedom) used to calculate it.
   af:
-    term: " chi-kwadraattoets"
+    term: "chi-kwadraattoets"
     def: >
       'n Statistiese metode om te bepaal of twee veranderlikes in 'n kruistabellering
       gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreiding
@@ -1203,6 +1218,7 @@
     def: >
       Em [programação orientada a objetos](#oop), a classe derivada de uma outra classe
       (chamada de [classe base](#parent_class)).
+
 
 - slug: child_tree
   en:
@@ -3928,6 +3944,7 @@
       são encapsulados em objetos que interagem entre si por meio de
       interfaces bem definidas.
 
+
 - slug: open_license
   en:
     term: "open license"
@@ -4060,6 +4077,7 @@
     def: >
       Em [programação orientada a objetos](#oop), a classe a partir da qual outra
       classe (chamada [classe derivada](#child_class)) é produzida.
+
 
 - slug: parent_directory
   ref:
