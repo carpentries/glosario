@@ -447,7 +447,7 @@
        في 
        لغة
        [Python](#python)
-        تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله. 
+        تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
 
 
 - slug: anti_join
@@ -649,6 +649,12 @@
     def: >
       Uma funcionalidade que permite a pessoa usuária terminar uma palavra ou código rapidamente
       ao pressinar a tecla TAB para listar possíveis palavras ou códigos que podem ser escolhidos.
+  af:
+    term: "outomatiese voltooing"
+    def: >
+      'n Funksie wat 'n gebruiker toelaat om 'n woord of 'n kode vinnig te voltooi deur die 
+      TAB sleutel te druk om 'n lys van moontlike woorde of kodes te vertoon waaruit die gebruiker
+      kan kies.
 
 
 - slug: automatic_variable
@@ -661,6 +667,12 @@
       For example, Make automatically assigns the name of a rule's
       [target](#build_target) to the automatic variable `$@`. Automatic variables are
       frequently used when writing [pattern rules](#pattern_rule).
+  af:
+    term: "outomatiese veranderlike"
+    def: >
+      'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boureël](#build_rule). Byvoorbeeld, 
+      "Make" ken outomaties die naam van 'n reël se teiken aan die outomatiese veranderlike, '$@' toe. 
+      Outomatiese veranderlikes word dikwels gebruik tydens die skryf van [patroonreëls](#pattern_rule).
 
 
 - slug: backpropagation
@@ -668,7 +680,13 @@
     term: "backpropagation"
     def: >
       An algorithm that iteratively adjusts the weights used in a [neural
-      network](#neural_network). Backpropagation is often used to implement [gradient descent](#gradient_descent).
+      network](#neural_network). Backpropagation is often used to implement 
+      [gradient descent](#gradient_descent).
+  af:
+    term: "terugwaartse voortplanting"
+    def: >
+      'n Algoritme wat die gewigte wat in 'n [neurale netwerk](#neural_network) gebruik word iteratief aanpas. Terugwaartse
+      voortplanting word dikwels gebruik om [gradiënte afdaling](#gradient_descent) te implementeer.
 
 
 - slug: backward_compatible
@@ -1180,7 +1198,7 @@
       distribution](#normal_distribution) based on the [degrees of
       freedom](#degrees_of_freedom) used to calculate it.
   af:
-    term: " chi-kwadraattoets"
+    term: "chi-kwadraattoets"
     def: >
       'n Statistiese metode om te bepaal of twee veranderlikes in 'n kruistabellering
       gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreiding
@@ -1203,6 +1221,7 @@
     def: >
       Em [programação orientada a objetos](#oop), a classe derivada de uma outra classe
       (chamada de [classe base](#parent_class)).
+
 
 - slug: child_tree
   en:
@@ -3928,6 +3947,7 @@
       são encapsulados em objetos que interagem entre si por meio de
       interfaces bem definidas.
 
+
 - slug: open_license
   en:
     term: "open license"
@@ -4060,6 +4080,7 @@
     def: >
       Em [programação orientada a objetos](#oop), a classe a partir da qual outra
       classe (chamada [classe derivada](#child_class)) é produzida.
+
 
 - slug: parent_directory
   ref:
