@@ -4775,7 +4775,10 @@
     def: >
       Um local onde um [sistema de controle de versão](#version_control_system)
       armazena os arquivos que compõem um projeto e os metadados que descrevem sua história.
-
+  ja:
+    term: "リポジトリ"
+    def: >
+       バージョン管理システムにおいて、管理対象となるプロジェクトを構成するファイルとその履歴を説明するメタデータを保存する場所。
 
 - slug: reprex
   en:
