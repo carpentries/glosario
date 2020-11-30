@@ -664,6 +664,12 @@
     def: >
       Uma funcionalidade que permite a pessoa usuária terminar uma palavra ou código rapidamente
       ao pressinar a tecla TAB para listar possíveis palavras ou códigos que podem ser escolhidos.
+  af:
+    term: "outomatiese voltooing"
+    def: >
+      'n Funksie wat 'n gebruiker toelaat om 'n woord of 'n kode vinnig te voltooi deur die 
+      TAB sleutel te druk om 'n lys van moontlike woorde of kodes te vertoon waaruit die gebruiker
+      kan kies.
 
 
 - slug: automatic_variable
@@ -676,6 +682,12 @@
       For example, Make automatically assigns the name of a rule's
       [target](#build_target) to the automatic variable `$@`. Automatic variables are
       frequently used when writing [pattern rules](#pattern_rule).
+  af:
+    term: "outomatiese veranderlike"
+    def: >
+      'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boureël](#build_rule). Byvoorbeeld, 
+      "Make" ken outomaties die naam van 'n reël se teiken aan die outomatiese veranderlike, '$@' toe. 
+      Outomatiese veranderlikes word dikwels gebruik tydens die skryf van [patroonreëls](#pattern_rule).
 
 
 - slug: backpropagation
@@ -683,7 +695,13 @@
     term: "backpropagation"
     def: >
       An algorithm that iteratively adjusts the weights used in a [neural
-      network](#neural_network). Backpropagation is often used to implement [gradient descent](#gradient_descent).
+      network](#neural_network). Backpropagation is often used to implement 
+      [gradient descent](#gradient_descent).
+  af:
+    term: "terugwaartse voortplanting"
+    def: >
+      'n Algoritme wat die gewigte wat in 'n [neurale netwerk](#neural_network) gebruik word iteratief aanpas. Terugwaartse
+      voortplanting word dikwels gebruik om [gradiënte afdaling](#gradient_descent) te implementeer.
 
 
 - slug: backward_compatible
