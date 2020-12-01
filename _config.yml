@@ -111,20 +111,20 @@ languages:
     title: グロサリオ
     flag: japan
     blurb: >
-      `グロサリオ`は、データサイエンスで使われる用語、そして
-      [R](https://github.com/carpentries/glosario-r)と
-      [Python](https://github.com/carpentries/glosario-py/)のライブラリとして、
-      オンラインで利用可能なオープンソースのグロッサリーです。
-      作成者は、レッスンのメタデータに新しい用語を追加します。これにより、
-      どのレッスンでそれを教えるのか、学習者が必要な予備知識、
+      `グロサリオ`は、データサイエンスで使われる用語の
+      オープンソースグロッサリーです。オンラインとして、または
+      [R](https://github.com/carpentries/glosario-r)パッケージや
+      [Python](https://github.com/carpentries/glosario-py/)ライブラリ
+      として利用出来ます。レッスンのメタデータに新しい用語を追加することで、
+      そのレッスンで何を教えるのか、および学習者が必要な予備知識、
       そしてその情報がどこにあるかが分かるようになります。また、
-      作成者はライブラリの機能を使ってレッスンに多言語で、用語や定義に
-      一貫性のあるハイパーリンクを挿入することが出来ます。
+      ライブラリの機能を使ってレッスンに多言語で、用語や定義に
+      一貫したハイパーリンクを挿入することが可能になります。
   - key: nl
     name: Nederlands
     title: Woordenlijst
     blurb: >
-      glosario is een openbron verklarende woordenlijst van terminologie die wordt gebruikt
+      `glosario` is een openbron verklarende woordenlijst van terminologie die wordt gebruikt
       in de informatica en online beschikbaar wordt gesteld, evenals een programmabibliotheek in
       [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/).
       Door woordenlijstsleutels op te nemen in de metadata van een les, kunnen auteurs aangeven welke informatie
