@@ -4582,7 +4582,7 @@
   en:
     term: "README"
     def: >
-      A file which contains the important information about a project or software package.
+      A plain text file containing important information about a project or software package.
 
 
 - slug: record
