@@ -2029,7 +2029,7 @@
       A vote against something.
 
 
-- slug: dry_principle
+- slug: dry
   en:
     term: "DRY principle"
     def: >
