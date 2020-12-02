@@ -4575,6 +4575,15 @@
       A variable whose value is automatically updated when some other value or values
       change. Reactive variables are used extensively in [Shiny](#shiny).
 
+- slug: readme
+  ref:
+    - markdown
+    - vignette
+  en:
+    term: "README"
+    def: >
+      A plain text file containing important information about a project or software package.
+
 
 - slug: record
   en:
