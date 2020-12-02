@@ -2029,6 +2029,18 @@
       A vote against something.
 
 
+- slug: dry_principle
+  en:
+    term: "DRY Principle"
+    def: >
+      The Don't Repeat Yourself (DRY) Principle states that — Every piece of knowledge
+      must have a single, unambiguous, authoritative representation within a system.
+      The term comes from The Pragmatic Programmer, by Andrew Hunt and David Thomas.
+      Programs that follow the DRY Principle avoid duplication of definitions and logic,
+      so that a change in their behaviour only requires each modification to be made in
+      one part of the code. The goal is to create code that is easier to maintain.
+
+
 - slug: dynamic_loading
   en:
     term: "dynamic loading"
