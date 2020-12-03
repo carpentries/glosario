@@ -1757,14 +1757,14 @@
     term: "function"
     def: >
       A code block which gathers a sequence of operations into a whole, preserving it for ongoing use
-      by a defining tasts that take a set of inputs and generate expected outputs. They enable
+      by a defining tasks that take a set of inputs and generate expected outputs. They enable
       repeating these defined tasks with one command.
   ja:
     term: "関数"
     def: >
       別の処理の中で使用する、あるいは繰り返し使用するために、連続した操作をひとかたまりの
       コードブロックとして名前を付けて定義したもの。
-      関数は繰り繰返し演算を実行できるように入力と返した出力を定義します。
+      関数は繰り返し演算を実行できるように入力と返した出力を定義します。
 
 - slug: functional_programming
   ref:
