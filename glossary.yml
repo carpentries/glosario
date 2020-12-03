@@ -710,8 +710,8 @@
     def: >
       A property of a system, hardware or software, that allows for interoperability
       with an older legacy system, or with input designed for such a system. 
-      For example a function written in python 3 that can be run successfully with
-      python version 2 is backward-compatible.
+      For example a [function](#function) written in [Python](#python) 3 that can be run successfully with
+      Python version 2 is backward-compatible.
   fr:
     term: "compatibilité descendante"
     def: >
