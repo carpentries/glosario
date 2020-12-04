@@ -3289,7 +3289,7 @@
   en:
     term: "lsof"
     def: >
-      Linux command to see the list of open files being used by processes. 
+      UNIX command to see the list of open files being used by [processes](#process). 
   es:
     term: "lsof"
       def: >
