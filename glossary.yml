@@ -4527,6 +4527,10 @@
     term: "R (langage de programmation)"
     def: >
       Un langage de programmation et logiciel libre principalement utilisé en statistique et en science des données.
+  pt:
+    term: "R (linguagem de programação)"
+    def: >
+      Uma linguagem de programação de código aberto usada principalmente para ciência de dados.
 
 
 - slug: r_markdown
@@ -5309,6 +5313,10 @@
     term: "Stack Overflow"
     def: >
       A question-and-answer site popular among programmers.
+  pt:
+    term: "Stack Overflow"
+    def: >
+      Um site de perguntas e respostas popular entre pessoas programadoras.
 
 
 - slug: standard_deviation
@@ -5319,6 +5327,11 @@
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the square root of the [variance](#variance).
+  pt:
+    term: "desvio padrão"
+    def: >
+      O quanto os valores de um conjunto de dados diferem da [média](#mean). É calculado
+      como a raiz quadrada da [variância](#variance).
 
 
 - slug: standard_normal_distribution
@@ -6028,6 +6041,12 @@
       The space, newline, carriage return, and horizontal and vertical tab characters
       that take up space but do not create a visible mark. The name comes from their
       appearance on a printed page in the era of typewriters.
+  pt:
+    term: "espaço em branco"
+    def: >
+      O espaço, nova linha, quebra de linha, ou tabulação horizontal ou vertical que ocupe
+      um espaço mas não crie uma marca visível. O nome vem de sua aparência em um papel impresso
+      da era das das máquinas de escrever.
 
 
 - slug: wildcard
@@ -6041,6 +6060,11 @@
     def: >
       A character expression that can match text, such as the `*` in `*.csv` (which
       matches any filename whose name ends with `.csv`).
+  pt:
+    ter: "curinga"
+    def: >
+      Um curinga, ou caracter curinga, é um caracter que corresponde a qualquer texto, 
+      como o `*` em `*.csv` (que corresponde a qualquer arquivo cujo nome termina em `*.csv`).
 
 
 - slug: xml
@@ -6071,6 +6095,13 @@
       celles utilisées en [HTML](#html). XML était populaire au début des années 2000
       mais sa complexité a conduit de nombreux dévelopeurs à utiliser [JSON](#json) à
       la place.
+  pt:
+    term: "XML"
+    def: >
+      Um conjunto de regras para se definir etiquetas similares a [HTML](#html) e usá-las
+      para formatar documentos (normalmente, dados). XML foi popular no início dos anos 2000, 
+      mas sua complexidade fez com que muitas pessoas programadoras adotassem [JSON](#json) em
+      seu lugar.
 
 
 - slug: yaml
@@ -6097,3 +6128,11 @@
       utilise des indentations au lieu de signes typographiques, comme les parenthèses
       et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
       configuration et pour définir les paramètres de documents [Markdown](#markdown).
+  pt:
+    term: "YAML"
+    def: >
+      Acrônimo recursivo de "YAML Ain't Markup Language" (YAML não é uma linguagem de marcação), 
+      é uma maneira de representar dados aninhados usando recuos (também chamados de indentações)
+      no lugar de parênteses e vírgulas usados em [JSON](#json). YAML é frequentemente usado em 
+      arquivos de configuração e na definição de [parâmetros](#parameter) para vários estilos
+      de documentos em [Markdown](#markdown).
