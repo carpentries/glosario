@@ -1758,7 +1758,7 @@
     def: >
       A code block which gathers a sequence of operations into a whole, preserving it for ongoing use
       by defining a set of tasks that takes zero or more required and optional arguments as inputs
-      and return expected outputs (return values), if any. Functions enable repeating these defined
+      and returns expected outputs (return values), if any. Functions enable repeating these defined
       tasks with one command, known as a function call.
   ja:
     term: "関数"
