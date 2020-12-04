@@ -3293,7 +3293,7 @@
   es:
     term: "lsof"
       def: >
-      Comando en Linux para ver la lista de archivos abiertos siendo utilizados por procesos.
+      Comando en UNIX para ver la lista de archivos abiertos siendo utilizados por [procesos](#process).
 
 - slug: machine_learning
   en:
