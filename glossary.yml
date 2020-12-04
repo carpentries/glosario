@@ -6069,7 +6069,7 @@
     term: "XML"
     def: >
       Um conjunto de regras para se definir etiquetas similares a [HTML](#html) e usá-las
-      paea formatar documentos (normalmente, dados). XML foi popular no início dos anos 2000, 
+      para formatar documentos (normalmente, dados). XML foi popular no início dos anos 2000, 
       mas sua complexidade fez com que muitas pessoas programadoras adotassem [JSON](#json) em
       seu lugar.
 
