@@ -6182,7 +6182,7 @@
       no lugar de parênteses e vírgulas usados em [JSON](#json). YAML é frequentemente usado em 
       arquivos de configuração e na definição de [parâmetros](#parameter) para vários estilos
       de documentos em [Markdown](#markdown).
-   es:
+  es:
     term: "YAML"
     def: >
       Acrónimo recursivo de "YAML Ain't Markup Language" (YAML no es un lenguaje de marcación), 
