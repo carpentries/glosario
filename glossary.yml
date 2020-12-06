@@ -117,6 +117,11 @@
        مع العِلم أن
        الخطأ المُطلق عادة مايكون أقل فائدة من
        [الخطأ النسبي](#relative_error).
+  es:
+    term: "error absoluto"
+    def: >
+      El valor absoluto de la diferença entre un valor observado y el valor correto. El error
+      absoluto es normalmente menos útil que el [erreo relativo](#relative_error).
 
 
 - slug: absolute_path
@@ -379,7 +384,12 @@
       Um método de desenvolvimento de software que enfatiza vários passos pequenos e
       feedback contínuo ao invés de planejamento de longo prazo. [Programação exploratória](#exploratory_programming)
       costuma ser ágil.
-
+ es:
+    term: "desenvolvimiento ágil"
+    def: >
+      Un método de desenvolvimiento de software que enfatiza varios pasos pequeños y
+      feedback contínuo en lugar de planificacion a largo plazo. [Programación exploratoria](#exploratory_programming)
+      suele ser ágil.
 
 - slug: aliasing
   en:
@@ -491,7 +501,13 @@
       webdiens voorsien word vir gebruik deur ander toepassings om met die
       programmateek of webdiens te kommunikeer. Die API is nie die kode, die databasis
       of die bediener nie, dit is die koppelvlak.
-
+  es:
+    term: "Interfaz de Programación de Aplicaciones"
+    acronym: "API"
+    def: >
+      Un conjunto de funciones y procedimientos proporcionados por una libreria de softtware o servicio web
+      atraves del cual otra aplicación se puede comunicar. Una API no es el código, la base de datos o el servidor;
+      es el punto de acceso.
 
 - slug: append_mode
   en:
@@ -559,7 +575,10 @@
     term: "rekenkundige gemiddelde"
     def: >
       Sien [gemiddelde](#mean).
-
+  es:
+    term: "média aritmética"
+    def: >
+      Vea [média](#mean).
 
 - slug: ascii
   en:
@@ -764,7 +783,12 @@
       An equation for calculating the probability that something is [true](#true) if something
       related to it is true. If P(X) is the probability that X is true and P(X|Y) is
       the probability that X is true given Y is true, then P(X|Y) = P(Y|X) * P(X) / P(Y).
-
+  es:
+    term: "Teorema de Bayes"
+    def: >
+      Una ecuación para calcular la probabilidad de que algo sea [verdadero](#true) si algo
+      relacionado con ello es verdadero. Si P(X) es la probabilidad de que X is verdadero y P(X|Y) es
+      la probabilidad de que X es verdadero dado que Y sea verdadero, entonces P(X|Y) = P(Y|X) * P(X) / P(Y).
 
 - slug: bayesian_network
   ref:
@@ -775,7 +799,10 @@
     term: "Bayesian network"
     def: >
       A graph that represents the relationships between random variables for a given problem.
-
+  es:
+    term: "Red Bayesiana"
+    def: >
+      Una gráfica que representa la relacion entre las variables aleatorias para un determinado problema.
 
 - slug: bias
   ref:
