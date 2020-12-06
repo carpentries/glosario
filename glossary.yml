@@ -713,8 +713,10 @@
   en:
     term: "backward-compatible"
     def: >
-      Software which is able to be used the same way as earlier versions of itself
-      without problems.
+      A property of a system, hardware or software, that allows for interoperability
+      with an older legacy system, or with input designed for such a system. 
+      For example a [function](#function) written in [Python](#python) 3 that can be
+      run successfully with Python version 2 is backward-compatible.
   fr:
     term: "compatibilité descendante"
     def: >
@@ -2439,6 +2441,7 @@
       コードブロックとして名前を付けて定義したもの。関数は任意の引数を使って、
       入力ともしあれば返された出力(返り値)を定義します。関数は定義されたタスクを、
       関数呼び出しと呼ばれる１つのコマンドで繰り返し使用することを可能にします。
+
 
 - slug: functional_programming
   ref:
