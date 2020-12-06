@@ -6061,7 +6061,7 @@
       A character expression that can match text, such as the `*` in `*.csv` (which
       matches any filename whose name ends with `.csv`).
   pt:
-    ter: "curinga"
+    term: "curinga"
     def: >
       Um curinga, ou caracter curinga, é um caracter que corresponde a qualquer texto, 
       como o `*` em `*.csv` (que corresponde a qualquer arquivo cujo nome termina em `*.csv`).
