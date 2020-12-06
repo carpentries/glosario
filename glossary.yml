@@ -388,7 +388,7 @@
     term: "desenvolvimiento ágil"
     def: >
       Un método de desenvolvimiento de software que enfatiza varios pasos pequeños y
-      feedback contínuo en lugar de planificacion a largo plazo. [Programación exploratoria](#exploratory_programming)
+      feedback continuo en lugar de planificacion a largo plazo. [Programación exploratoria](#exploratory_programming)
       suele ser ágil.
 
 - slug: aliasing
