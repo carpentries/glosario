@@ -710,8 +710,8 @@
     def: >
       A property of a system, hardware or software, that allows for interoperability
       with an older legacy system, or with input designed for such a system. 
-      For example a [function](#function) written in [Python](#python) 3 that can be run successfully with
-      Python version 2 is backward-compatible.
+      For example a [function](#function) written in [Python](#python) 3 that can be
+      run successfully with Python version 2 is backward-compatible.
   fr:
     term: "compatibilité descendante"
     def: >
@@ -2403,6 +2403,26 @@
     def: >
       An unambiguous name of the form `package::thing`, indicating the original source
       of the [object](#object) in question.
+
+
+- slug: function
+  ref:
+    - functions
+    - command
+  en:
+    term: "function"
+    def: >
+      A code block which gathers a sequence of operations into a whole, preserving it for ongoing use
+      by defining a set of tasks that takes zero or more required and optional arguments as inputs
+      and returns expected outputs (return values), if any. Functions enable repeating these defined
+      tasks with one command, known as a function call.
+  ja:
+    term: "関数"
+    def: >
+      別の処理の中で使用する、あるいは繰り返し使用するために、連続した操作をひとかたまりの
+      コードブロックとして名前を付けて定義したもの。関数は任意の引数を使って、
+      入力ともしあれば返された出力(返り値)を定義します。関数は定義されたタスクを、
+      関数呼び出しと呼ばれる１つのコマンドで繰り返し使用することを可能にします。
 
 
 - slug: functional_programming
