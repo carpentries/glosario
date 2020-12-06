@@ -20,7 +20,7 @@ Assign the PR based on the language to the following person:
 |:----------:|:----------------------------:|
 | Afrikaans  | @jsteyn, @elletjies          |
 | Arabic     | @BatoolMM                    |
-| English    | @zkamvar                     |
+| English    | @baileythegreen, @zkamvar    |
 | French     | @fmichonneau                 |
 | Japanese   | @tomkellygenetics, @masamiy  |
 | Portuguese | @beatrizmilz                 |
