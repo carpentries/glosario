@@ -3563,6 +3563,12 @@
       O valor médio de um conjunto de dados, mais apropriadamente conhecido como
       [média aritmética](#arithmetic_mean) para que seja distinguido da média
       [geométrica](#geometric_mean) e da [harmônica](#harmonic_mean).
+  es:
+    term: "media"
+    def: >
+      El valor medio de un conjunto de datos, mas apropriadamente conocido como
+      [média aritmética](#arithmetic_mean) para distinguirla de la media
+      [geométrica](#geometric_mean) y [harmónica](#harmonic_mean).
 
 
 - slug: mean_absolute_error
@@ -4531,6 +4537,10 @@
     term: "R (linguagem de programação)"
     def: >
       Uma linguagem de programação de código aberto usada principalmente para ciência de dados.
+  es:
+    term: "R (lenguaje de programación)"
+    def: >
+      Un lenguaje de programación de código abierto usado principalmente para ciencia de datos.
 
 
 - slug: r_markdown
@@ -5317,6 +5327,10 @@
     term: "Stack Overflow"
     def: >
       Um site de perguntas e respostas popular entre pessoas programadoras.
+  es:
+    term: "Stack Overflow"
+    def: >
+      Un sitio de preguntas y respuestas popular entre personas programadoras.
 
 
 - slug: standard_deviation
@@ -5332,6 +5346,11 @@
     def: >
       O quanto os valores de um conjunto de dados diferem da [média](#mean). É calculado
       como a raiz quadrada da [variância](#variance).
+  es:
+    term: "desviación estandar"
+    def: >
+      Por cuanto los valores de un conjunto de datos se differencian de la [media](#mean). Es calculado
+      como la raiz cuadrada de la [varianza](#variance).
 
 
 - slug: standard_normal_distribution
@@ -6136,3 +6155,11 @@
       no lugar de parênteses e vírgulas usados em [JSON](#json). YAML é frequentemente usado em 
       arquivos de configuração e na definição de [parâmetros](#parameter) para vários estilos
       de documentos em [Markdown](#markdown).
+   es:
+    term: "YAML"
+    def: >
+      Acrónimo recursivo de "YAML Ain't Markup Language" (YAML no es un lenguaje de marcación), 
+      es una manera de representar datos anidados usando identación en lugar de paréntesis
+      y comillas usadas en [JSON](#json). YAML es usado frequentemente en
+      archivos de configuración y en para definir [parámetros](#parameter) en varios estilos
+      de documentos en [Markdown](#markdown).
