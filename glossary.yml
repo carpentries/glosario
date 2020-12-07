@@ -1465,8 +1465,8 @@
     def: >
       A combination of a document format that allows users to mix prose and code in a
       single file, and an application that executes that code interactively and in
-      place. The Jupyter Notebook and [R Markdown](#r_markdown) files are both examples of
-      computational notebooks.
+      place. The [Jupyter Notebook](#jupyter_notebook) and [R Markdown](#r_markdown)
+      files are both examples of computational notebooks.
 
 
 - slug: condition
@@ -3120,6 +3120,28 @@
       des objets du langage JavaScript. Contrairement à d'autres standards plus
       structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
       de données, ni ne supporte l'ajout de commentaires.
+
+
+- slug: jupyter
+  ref:
+    - jupyter_notebook
+  en:
+    term: "Jupyter"
+    def: >
+      Project Jupyter is a non-profit, open-source project that was born out of the IPython Project
+      in 2014 as IPython evolved to support interactive [data science](#data_science) and scientific
+      computing in many different programming languages.
+
+
+- slug: jupyter_notebook
+  ref:
+    - computational_notebook
+    - jupyter
+  en:
+    term: "Jupyter Notebook"
+    def: >
+      The Jupyter Notebook is an open-source, web-based [computational notebook](#computational_notebook)
+      that allows the user to write and share live code, equations, visualisations, and narrative text.
 
 
 - slug: k_means_clustering
