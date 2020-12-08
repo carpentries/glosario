@@ -1,5 +1,5 @@
 title: "Glossary"
-repository: <USERNAME>/<PROJECT>
+repository_url: "https://github.com/carpentries/glosario"
 defaults:
   - scope:
       path: ""
