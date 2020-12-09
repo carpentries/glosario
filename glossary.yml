@@ -722,8 +722,10 @@
   en:
     term: ""backward-compatible""
     def: >
-      Software which is able to be used the same way as earlier versions of itself
-      without problems.
+      A property of a system, hardware or software, that allows for interoperability
+      with an older legacy system, or with input designed for such a system. 
+      For example a [function](#function) written in [Python](#python) 3 that can be
+      run successfully with Python version 2 is backward-compatible.
   fr:
     term: ""compatibilité descendante""
     def: >
@@ -1472,8 +1474,8 @@
     def: >
       A combination of a document format that allows users to mix prose and code in a
       single file, and an application that executes that code interactively and in
-      place. The Jupyter Notebook and [R Markdown](#r_markdown) files are both examples of
-      computational notebooks.
+      place. The [Jupyter Notebook](#jupyter_notebook) and [R Markdown](#r_markdown)
+      files are both examples of computational notebooks.
 
 
 - slug: condition
@@ -2430,6 +2432,26 @@
       of the [object](#object) in question.
 
 
+- slug: function
+  ref:
+    - functions
+    - command
+  en:
+    term: "function"
+    def: >
+      A code block which gathers a sequence of operations into a whole, preserving it for ongoing use
+      by defining a set of tasks that takes zero or more required and optional arguments as inputs
+      and returns expected outputs (return values), if any. Functions enable repeating these defined
+      tasks with one command, known as a function call.
+  ja:
+    term: "関数"
+    def: >
+      別の処理の中で使用する、あるいは繰り返し使用するために、連続した操作をひとかたまりの
+      コードブロックとして名前を付けて定義したもの。関数は任意の引数を使って、
+      入力ともしあれば返された出力(返り値)を定義します。関数は定義されたタスクを、
+      関数呼び出しと呼ばれる１つのコマンドで繰り返し使用することを可能にします。
+
+
 - slug: functional_programming
   ref:
     - higher_order_function
@@ -3107,6 +3129,28 @@
       des objets du langage JavaScript. Contrairement à d'autres standards plus
       structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
       de données, ni ne supporte l'ajout de commentaires.
+
+
+- slug: jupyter
+  ref:
+    - jupyter_notebook
+  en:
+    term: "Jupyter"
+    def: >
+      Project Jupyter is a non-profit, open-source project that was born out of the IPython Project
+      in 2014 as IPython evolved to support interactive [data science](#data_science) and scientific
+      computing in many different programming languages.
+
+
+- slug: jupyter_notebook
+  ref:
+    - computational_notebook
+    - jupyter
+  en:
+    term: "Jupyter Notebook"
+    def: >
+      The Jupyter Notebook is an open-source, web-based [computational notebook](#computational_notebook)
+      that allows the user to write and share live code, equations, visualisations, and narrative text.
 
 
 - slug: k_means_clustering
@@ -6072,6 +6116,7 @@
       A character expression that can match text, such as the `*` in `*.csv` (which
       matches any filename whose name ends with `.csv`).
   pt:
+    term: "curinga"
     def: >
       Um curinga, ou caracter curinga, é um caracter que corresponde a qualquer texto, 
       como o `*` em `*.csv` (que corresponde a qualquer arquivo cujo nome termina em `*.csv`).
