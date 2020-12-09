@@ -1,6 +1,6 @@
 - slug: 68_95_997_rule
   de:
-    term: "68-95-99.7 Regel"
+    term: ""68-95-99.7 Regel""
     def: >
       Drückt die Tatsache aus, dass 68% der Werte innerhalb einer
       [Standardabweichung](#standard_deviation) vom Mittelwert liegen,
@@ -8,14 +8,14 @@
       liegen etwa 0,3% der Werte in den meisten Fällen mehr als drei
       Standardabweichungen über oder unterhalb des Mittelwerts.
   en:
-    term: "68-95-99.7 rule"
+    term: ""68-95-99.7 rule""
     def: >
       Expresses the fact that 68% of values lie within one [standard
       deviation](#standard_deviation) of the [mean](#mean), 95% lie within two, and
       99.7% lie within three. Conversely, about 0.3% of values lie more than three
       standard deviations above or below the mean in most cases.
   af:
-    term: "68-95-99.7 reël"
+    term: ""68-95-99.7 reël""
     def: >
       Beskryf die beginsel dat 68% van alle waardes binne een
       [standaardafwyking](#standard_deviation) van die [gemiddelde](#mean) val, 95%
@@ -23,14 +23,14 @@
       meeste gevalle val 0.3% van die waardes meer as drie standaardafwykings bo of
       onder die gemiddelde.
   pt:
-    term: "regra 68-95-99,7"
+    term: ""regra 68-95-99,7""
     def: >
       Expressa o fato de que 68% dos valores estão dentro de um [desvio padrão](#standard_deviation)
       da [média](#mean), 95% estão dentro de dois e 99,7% estão dentro de três. Inversamente,
       aproximadamente 0,3% dos valores estão mais do que três desvios padrões acima ou abaixo da média
       na maioria dos casos.
   fr:
-    term: "règle de 68-95-99.7"
+    term: ""règle de 68-95-99.7""
     def: >
       Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
       [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de
@@ -38,7 +38,7 @@
       Inversement et dans la plupart des cas, environ 0.3% des valeurs se situent à
       plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
   ar:
-    term: "القاعدة ٩٩,٧-٩٥-٦٨"
+    term: ""القاعدة ٩٩,٧-٩٥-٦٨""
     def: >
         يُعبِر عن حقيقة أن ٦٨٪ من القيم تقع ضمن وحدة واحدة من
         [الانحراف المعياري](#standard_deviation)
@@ -52,31 +52,31 @@
 
 - slug: abandonware
   de:
-    term: "Abandonware"
+    term: ""Abandonware""
     def: >
       Software die nicht länger weiterentwickelt wird.
   en:
-    term: "abandonware"
+    term: ""abandonware""
     def: >
       Software that is no longer being maintained.
   pt:
-    term: "abandonware"
+    term: ""abandonware""
     def: >
       Software que não é mais mantido.
   af:
-    term: "afgooiware"
+    term: ""afgooiware""
     def: >
       Sagteware wat nie meer onderhou word nie.
   es:
-    term: "abandonware"
+    term: ""abandonware""
     def: >
       Software cuyo mantenimiento ha sido abandonado.
   fr:
-    term: "abandonware"
+    term: ""abandonware""
     def: >
       Un logiciel qui n'est plus maintenu.
   ar:
-    term: "البرمجيات المهجورة أو المتروكة"
+    term: ""البرمجيات المهجورة أو المتروكة""
     def: >
        هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
        ولم تعد على قيد الصيانة.
@@ -84,34 +84,34 @@
 
 - slug: absolute_error
   de:
-    term: "Absoluter Fehler"
+    term: ""Absoluter Fehler""
     def: >
       Der absolute Wert der Differenz zwischen dem beobachteten und
       dem korrekten Wert. Der absolute Fehler ist normalerweise
       weniger nützlich als der [relative Fehler](#relative_error).
   en:
-    term: "absolute error"
+    term: ""absolute error""
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
   af:
-    term: "absolute fout"
+    term: ""absolute fout""
     def: >
       Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
       en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as die
       [relatiewe](#relative_error) fout.
   pt:
-    term: "erro absoluto"
+    term: ""erro absoluto""
     def: >
       O valor absoluto da diferença entre um valor observado e o valor correto. O erro
       absoluto é normalmente menos útil do que o [erro relativo](#relative_error).
   fr:
-    term: "erreur absolue"
+    term: ""erreur absolue""
     def: >
       La valeur absolue de la différence entre la valeur observée et la valeur
       correcte. L'erreur absolue est généralement moins pertinente que l'[erreur relative](#relative_error).
   ar:
-    term: "الخطأ المُطلق"
+    term: ""الخطأ المُطلق""
     def: >
        هو عبارة عن القيمة المطلقة للفرق بين القيمة المرصودة والقيمة الواقعية الصحيحة،
        مع العِلم أن
@@ -123,37 +123,37 @@
   ref:
     - relative_path
   en:
-    term: "absolute path"
+    term: ""absolute path""
     def: >
       A path that points to the same location in the [filesystem](#filesystem)
       regardless of where it is evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
   af:
-    term: "absolute roete"
+    term: ""absolute roete""
     def: >
       'n Roete wat dieselfde posisie in die [lêerstelsel](#filesystem) aandui ongeag
       die posisie vanwaar dit geëvalueer word. Die absolute roete is die ekwivalent
       van lengtegraad en breedtegraad in geografie.
   fr:
-    term: "chemin d'accès absolu"
+    term: ""chemin d'accès absolu""
     def: >
       Un chemin d'accès absolu indique la même position dans le système de fichier
       quelque soit l'emplacement où il est evalué. Un chemin d'accès absolu est
       l'équivalent de la latitude et longitude en géographie.
   es:
-    term: "ruta absoluta"
+    term: ""ruta absoluta""
     def: >
       Una ruta que dirige a la misma ubicación en el sistema de archivos
       independientemente del contexto donde sea evaluada. Una ruta absoluta es el
       equivalente a la latitud y longitud en geografía.
   pt:
-    term: "caminho absoluto"
+    term: ""caminho absoluto""
     def: >
       Um caminho que leva ao mesmo local no sistema de arquivos independente do
       contexto em que é avaliado. Um caminho absoluto pode ser comparado com a
       latitude e longitude em geografia.
   ar:
-    term: "المسار المُطلق"
+    term: ""المسار المُطلق""
     def: >
         المسار الذي يُشير إلى ذات الموقع في
         [نظام الملفات](#filesystem)،
@@ -164,43 +164,43 @@
 
 - slug: absolute_row_number
   de:
-    term: "Absolute Zeilennummer"
+    term: ""Absolute Zeilennummer""
     def: >
       Der sequentielle Index einer Zeile in einer Tabelle, unabhängig
       davon, welche Abschnitte der Tabelle angezeigt werden.
   en:
-    term: "absolute row number"
+    term: ""absolute row number""
     def: >
       The sequential index of a row in a table, regardless of what sections of the
       table is being displayed.
   af:
-    term: "absolute rynommer"
+    term: ""absolute rynommer""
     def: >
       Die opeenvolgende indeks van 'n ry in 'n tabel, ongeag die gedeelte van die
       tabel wat vertoon word.
   es:
-    term: "número de fila absoluto"
+    term: ""número de fila absoluto""
     def: >
       El índice secuencial que indentifica una fila en un tablero, sin importar qué
       secciones se estén mostrando.
   pt:
-    term: "número de linha absoluto"
+    term: ""número de linha absoluto""
     def: >
       O índice sequencial de uma linha em uma tabela, independente de qual seção da
       tabela está sendo exibida.
   he:
-    term: "מספר שורה מוחלט"
+    term: ""מספר שורה מוחלט""
     def: >
       המספר הסידורי של שורה בטבלה, ללא קשר לאילו חלקים של הטבלה מוצגים
   ar:
-    term: "رقم الصف المُطلق"
+    term: ""رقم الصف المُطلق""
     def: >
         هو الفهرس المتسلسل لصف في جدول، بغض النظر عن أي قسم من اقسام الجدول يتم عرضها.
 
 
 - slug: abstract_method
   de:
-    term: "Abstrakte Methode"
+    term: ""Abstrakte Methode""
     def: >
       In der [objektorientierten Programmierung](#oop) eine
       [Methode](#method), die zwar definiert, aber nicht implementiert
@@ -209,27 +209,27 @@
       spezifizieren, die die [untergeordneten Klassen](#child_class)
       bereitstellen müssen.
   en:
-    term: "abstract method"
+    term: ""abstract method""
     def: >
       In [object-oriented programming](#oop), a [method](#method) that is defined but
       not implemented. Programmers will define an abstract method in a [parent
       class](#parent_class) to specify operations that [child classes](#child_class)
       must provide.
   af:
-    term: "abstrakte metode"
+    term: ""abstrakte metode""
     def: >
       'n [Metode](#method), in [objekgeoriënteerde programmering](#oop), wat
       gedefiniëer maar nie geïmplementeer is nie. Programmeerders sal 'n abstrakte
       metode in 'n [voorsaatklas](#parent_class) definiëer wat in
       [nasaatklasse](#child_class) geïmplementeer moet word.
   pt:
-    term: "método abstrato"
+    term: ""método abstrato""
     def: >
       In [programação orientada a objetos](#oop), um [método](#method) que é definido
       mas não implementado. Pessoas programadoras definem um método abstrato em uma [classe base](#parent_class)
       para especificar operações que as [classes derivadas](#child_class) devem prover.
   ar:
-    term: "الطريقة المجردة"
+    term: ""الطريقة المجردة""
     def: >
       الطريقة المجردة هو تعبير يُتخدم
       في
@@ -246,15 +246,15 @@
 
 - slug: abstract_syntax_tree
   en:
-    term: "abstract syntax tree"
-    acronym: "AST"
+    term: ""abstract syntax tree""
+    acronym: ""AST""
     def: >
       A deeply nested data structure, or [tree](#tree), that represents the structure
       of a program. For example, the AST might have a [node](#node) representing a
       [`while` loop](#while_loop) with one [child](#child_tree) representing the loop
       condition and another representing the [loop body](#loop_body).
   af:
-    term: "abstrakte sintaksisontledingsboom"
+    term: ""abstrakte sintaksisontledingsboom""
     def: >
       'n Diepgeneste datastruktuur, of [boom](#tree), wat die struktuur van 'n program
       verteenwoordig. Byvoorbeeld, as die abstrakte sintaksontledingsboom 'n
@@ -265,7 +265,7 @@
 
 - slug: actual_result
   de:
-    term: "Tatsächliche Ergebnis"
+    term: ""Tatsächliche Ergebnis""
     def: >
       Der Wert, der durch Ausführen von Code in einem Test erzeugt
       wird. Wenn dieser Wert mit dem [erwarteten
@@ -273,19 +273,19 @@
       bestanden; wenn die beiden Werte unterschiedlich sind, [schlägt
       der Test fehl](#fail_test).
   en:
-    term: "actual result (of test)"
+    term: ""actual result (of test)""
     def: >
       The value generated by running code in a test. If this matches the [expected
       result](#expected_result), the test [passes](#pass_test); if the two are
       different, the test [fails](#fail_test).
   af:
-    term: "absolute resultaat (van 'n toets)"
+    term: ""absolute resultaat (van 'n toets)""
     def: >
       Die waarde wat deur 'n toets gegenereer is. Indien dié waarde gelyk is aan die
       [verwagte resultaat](#actual_result), is die toets suksesvol; as die twee
       waardes verskil het die toets gefaal.
   ar:
-    term: "النتيجة الفعلية للإختِبار"
+    term: ""النتيجة الفعلية للإختِبار""
     def: >
       القيمة الناتجة عن تشغيل إختبار للتعليمات البرمجية، إذا كانت هذه النتيجة تُطابِق
       [النتيجة المتوقعة](#expected_result)
@@ -297,11 +297,11 @@
 
 - slug: affordance
   en:
-    term: "affordance"
+    term: ""affordance""
     def: >
       A property of something that suggests how it can be used, such as a handle or button.
   af:
-    term: "bekostigbaarheid"
+    term: ""bekostigbaarheid""
     def: >
       'n Einskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld 'n
       lêerhanteerder of 'n knoppie.
@@ -309,27 +309,27 @@
 
 - slug: aggregation
   en:
-    term: "aggregation"
+    term: ""aggregation""
     def: >
       To combine many values into one, e.g., by summing a set of numbers or
       concatenating a set of strings.
   es:
-    term: "agregación"
+    term: ""agregación""
     def: >
       Combinar muchos valores en uno, por ejemplo, sumando una serie de números o
       concatenando un conjunto de cadenas de caracteres.
   fr:
-    term: "agrégation"
+    term: ""agrégation""
     def: >
       Synthétise plusieurs valeurs en une seule, example, en sommant plusieurs nombres
       ou en concaténant un ensemble de caractères.
   af:
-    term: "samevoeging"
+    term: ""samevoeging""
     def: >
       Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op te som
       of om 'n versameling alfabetiese stringe aaneen te skakel.
   pt:
-    term: "agregação"
+    term: ""agregação""
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
       concatenando um conjunto de caracteres.
@@ -337,24 +337,24 @@
 
 - slug: aggregation_function
   en:
-    term: "aggregation function"
+    term: ""aggregation function""
     def: >
       A function that combines many values into one, such as `sum` or `max`.
   es:
-    term: "función de agregación"
+    term: ""función de agregación""
     def: >
       Una función que combina varios valores en uno, como `sum` o `max`.
   fr:
-    term: "fonction d'agrégation"
+    term: ""fonction d'agrégation""
     def: >
       Une fonction qui permet de synthétiser plusieurs valeurs en une seule, example,
       'sum' ou 'max'.
   pt:
-    term: "função de agregação"
+    term: ""função de agregação""
     def: >
       Uma função que combina muitos valores em um só, como `sum` ou `max`.
   af:
-    term: "aggregaatfunksie"
+    term: ""aggregaatfunksie""
     def: >
       'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en `max`
       (maksimale waarde)
@@ -362,33 +362,42 @@
 
 - slug: agile
   en:
-    term: "agile development"
+    term: ""agile development""
     def: >
       A software development methodology that emphasizes lots of small steps and
       continuous feedback instead of up-front planning and long-term scheduling.
       [Exploratory programming](#exploratory_programming) is often agile.
   af:
-    term: "lenige ontwikkeling"
+    term: ""lenige ontwikkeling""
     def: >
       'n Sagteware-ontwikkelingsmetode wat die klem lê op vele klein stappies en
       deurlopende terugvoering in plaas van vooraf beplanning en langtermyn
       skeduluering. [Verkennende programmering](#exploratory_programming) is dikwel lenig.
   pt:
-    term: "desenvolvimento ágil"
+    term: ""desenvolvimento ágil""
     def: >
       Um método de desenvolvimento de software que enfatiza vários passos pequenos e
       feedback contínuo ao invés de planejamento de longo prazo. [Programação exploratória](#exploratory_programming)
       costuma ser ágil.
 
 
+- slug: algorithm
+  en:
+    term: "algorithm"
+    def: >
+      An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific 
+      task. In computer science an algorith is a set of instructions for a computer program to solve a 
+      computational problem.
+
+
 - slug: aliasing
   en:
-    term: "aliasing"
+    term: ""aliasing""
     def: >
       To have two or more references to the same thing, such as a data structure in
       memory or a file on disk.
   af:
-    term: "aliasering"
+    term: ""aliasering""
     def: >
       Om twee of meer verwysing na dieselfde ding te hê, soos byvoorbeeld meer as een
       verwysing na 'n datastruktuur in geheue of na 'n lêer op 'n skyf.
@@ -396,27 +405,27 @@
 
 - slug: anchor
   en:
-    term: "anchor"
+    term: ""anchor""
     def: >
       In a [regular expression](#regular_expression), a symbol that fixes a position
       without matching characters. `^` matches the start of the line, while `$`
       matches the end of the line and `\b` matches a break between word and non-word characters.
   af:
-    term: "anker"
+    term: ""anker""
     def: >
       In 'n [gewone (reguliere) uitdrukking](#regular_expression), is 'n anker 'n
       simbool wat 'n posisie aandui, bv. `^` dui die begin van 'n lyn aan en `$` dui
       die einde van 'n lyn aan. 'n Uidrukking soos bv. `^Die` anker die soektog na die
       woord `Die` aan die begin van die lyn.
   fr:
-    term: "ancre"
+    term: ""ancre""
     def: >
       C'est un symbole utilisé dans les expressions régulières (#regular_expression)
       afin de déterminer une position sans pour autant identifier des charactères. `^`
       détermine le début d'une ligne, tandis que `$` détermine sa fin. `\b` identifie
       un espace entre un mot et un non-mot.
   pt:
-    term: "âncora"
+    term: ""âncora""
     def: >
       Em uma [expressão regular](#regular_expression), é um símbolo que fixa uma posição sem caracteres
       correspondentes. `^` identifica o começo de uma linha, enquanto `$` indica o fim de uma linha e
@@ -425,25 +434,25 @@
 
 - slug: anonymous_function
   en:
-    term: "anonymous function"
+    term: ""anonymous function""
     def: >
       A function that has not been assigned a name. Anonymous functions are usually
       quite short, and are usually defined where they are used, e.g., as callbacks.
       In [Python](#python), these are called lambda functions and are created through use of the
       lambda reserved word.
   af:
-    term: "anonieme funksie"
+    term: ""anonieme funksie""
     def: >
       'n Funksie waaraan daar nie 'n naam toegeken is nie. Anonieme funksies is
       gewoonlik baie kort en word gewoonlik gedefinieer waar hulle gebruik word bv. in
       die geval van 'n [terugskakelfunksie](#callback).
   fr:
-    term: "fonction anonyme"
+    term: ""fonction anonyme""
     def: >
       Une fonction qui ne s'est pas vue assignée de nom. Les fonctions anonymes sont
       en général courtes et définies là où elles sont utilisées, exemple: callbacks
   ar:
-    term: "دالة مجهولة"
+    term: ""دالة مجهولة""
     def: >
        هي دالة  لم يتم تعيين اسم لها، عادةً ما تكون الدوال المجهولة قصيرة جدًا
        وعادة ما يتم تحديدها في الموضع الذي يتم استخدامها ،مثل عمليات رد الإتصال
@@ -465,12 +474,12 @@
     - right_join
     - self_join
   en:
-    term: "anti join"
+    term: ""anti join""
     def: >
       A [join](#join) that keeps rows from table A whose keys do *not* match keys in
       table B.
   af:
-    term: "anti-koppeling"
+    term: ""anti-koppeling""
     def: >
       'n [Koppeling](#join) wat rye in tabel A bevat wie se sleutels *nie* die
       sleutels van tabel B bevat nie.
@@ -478,14 +487,14 @@
 
 - slug: api
   en:
-    term: "Application Programming Interface"
-    acronym: "API"
+    term: ""Application Programming Interface""
+    acronym: ""API""
     def: >
       A set of functions and procedures provided by one software library or web
       service through which another application can communicate with it. An API is not
       the code, the database, or the server: it's the access point.
   af:
-    term: "Toepassing Programmeerderkoppelvlak"
+    term: ""Toepassing Programmeerderkoppelvlak""
     def: >
       n Versameling funksies en prosedures wat deur 'n sagtewareprogrammateek of
       webdiens voorsien word vir gebruik deur ander toepassings om met die
@@ -495,13 +504,13 @@
 
 - slug: append_mode
   en:
-    term: "append mode"
+    term: ""append mode""
     def: >
       To add data to the end of an existing file instead of overwriting the previous
       contents of that file. Overwriting is the default, so most programming languages
       require programs to be explicit about wanting to append instead.
   af:
-    term: "byvoeg modus"
+    term: ""byvoeg modus""
     def: >
       Om data aan die einde van 'n lêer te voeg in plaas daarvan om die inhoud van
       dielêer te oorskryf. Oorskryf is die verstek, wat beteken dat
@@ -511,7 +520,7 @@
 
 - slug: argument
   en:
-    term: "argument"
+    term: ""argument""
     def: >
       The term should not be confused with, and is not a synonym for,
       [parameter](#parameter). An argument is one of possibly several expressions
@@ -519,23 +528,23 @@
       Parameters and arguments are distinct, but related concepts. Parameters are
       variables and arguments are the values assigned to those variables.
   es:
-    term: "argumento"
+    term: ""argumento""
     def: >
       Un valor pasado a una función. Algunos autores usan el término como sinónimo de
       [parámetro](#parameter) y algunos no; Todo es muy confuso.
   pt:
-    term: "argumento"
+    term: ""argumento""
     def: >
       Um valor passado para uma função. Algumas pessoas autoras usam este termo como
       sinônimo de parâmetro(#parameter) e outras não fazem isso; é tudo bastante confuso.
   ar:
-    term: "وسيطة"
+    term: ""وسيطة""
     def: >
       قيمة يتم تمريرها إلى دالة أو وسيطة ، البعض يُطلِق عليها مصطلح
       [مُعطى](#parameter)
       والبعض الآخر يُطلِق عليها مصطلح وسيطة.
   af:
-    term: "argument"
+    term: ""argument""
     def: >
       Die term moet nie verwar word met [parameter](#parameter) nie en is ook nie 'n
       sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie
@@ -548,27 +557,27 @@
 
 - slug: arithmetic_mean
   en:
-    term: "arithmetic mean"
+    term: ""arithmetic mean""
     def: >
       See [mean](#mean).
   pt:
-    term: "média aritmética"
+    term: ""média aritmética""
     def: >
       Veja [média](#mean).
   af:
-    term: "rekenkundige gemiddelde"
+    term: ""rekenkundige gemiddelde""
     def: >
       Sien [gemiddelde](#mean).
 
 
 - slug: ascii
   en:
-    term: "ASCII"
+    term: ""ASCII""
     def: >
       A standard way to represent the characters commonly used in the Western European
       languages as 7- or 8-bit integers, now superceded by [Unicode](#unicode).
   af:
-    term: "ASCII"
+    term: ""ASCII""
     def: >
       'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
       voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
@@ -576,7 +585,7 @@
 
 - slug: assertion
   en:
-    term: "assertion"
+    term: ""assertion""
     def: >
       A [Boolean](#boolean) expression that must be [true](#true) at a certain point in a
       program. Assertions may be built into the language (e.g., [Python](#python)'s
@@ -589,7 +598,7 @@
       which can be disabled, and so use of [package](#package) such as `assertr` for data
       validation does not create security holes.
   af:
-    term: "bewering"
+    term: ""bewering""
     def: >
       'n [Boole](#boolean)-uitdrukking wat waar moet wees op 'n spesifiek plek
       in 'n program. 'n Bewering kan ingebou wees in 'n programmeertaal (bv.
@@ -609,11 +618,11 @@
 
 - slug: associative_array
   en:
-    term: "associative array"
+    term: ""associative array""
     def: >
       See [dictionary](#dictionary).
   af:
-    term: "assosiatiewe skikking"
+    term: ""assosiatiewe skikking""
     def: >
       Sien [woordeboek](#dictionary).
 
@@ -622,12 +631,12 @@
   ref:
     - synchronous
   en:
-    term: "asynchronous"
+    term: ""asynchronous""
     def: >
       Not happening at the same time. In programming, an asynchronous operation is one
       that runs independently of another, or that starts at one time and ends at another.
   af:
-    term: "asinchronies"
+    term: ""asinchronies""
     def: >
       Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer 
       aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n 
@@ -636,17 +645,17 @@
 
 - slug: attribute
   en:
-    term: "attribute"
+    term: ""attribute""
     def: >
       A name-value pair associated with an object, used to store metadata about the
       object such as an array's dimensions.
   fr:
-    term: "attribut"
+    term: ""attribut""
     def: >
       Un couple nom-valeur associé à un objet et utilisé pour stocker des métadonnées
       concernant ce dernier, example, les dimensions d'un tableau.
   af:
-    term: "eienskap"
+    term: ""eienskap""
     def: >
       'n Naam-waarde paar wat verband hou met 'n voorwerp en gebruik word om 
       metadata omtrent die voorwerp te stoor, bv. die afmetings van 'n skikking.
@@ -654,23 +663,23 @@
 
 - slug: auto_completion
   en:
-    term: "auto-completion"
+    term: ""auto-completion""
     def: >
       A feature that allows the user to finish a word or code quickly through the use
       of pressing the TAB key to list possible words or code from which the user can select.
   fr:
-    term: "auto-complétion"
+    term: ""auto-complétion""
     def: >
       Une fonctionnalité permettant à l'utilisateur de finir rapidement un mot ou du
       code à travers l'utilisation de la touche TAB qui liste le mot ou le code
       susceptible d'être choisi par l'utilisateur.
   pt:
-    term: "auto-completar"
+    term: ""auto-completar""
     def: >
       Uma funcionalidade que permite a pessoa usuária terminar uma palavra ou código rapidamente
       ao pressinar a tecla TAB para listar possíveis palavras ou códigos que podem ser escolhidos.
   af:
-    term: "outomatiese voltooing"
+    term: ""outomatiese voltooing""
     def: >
       'n Funksie wat 'n gebruiker toelaat om 'n woord of 'n kode vinnig te voltooi deur die 
       TAB sleutel te druk om 'n lys van moontlike woorde of kodes te vertoon waaruit die gebruiker
@@ -681,14 +690,14 @@
   ref:
     - makefile
   en:
-    term: "automatic variable"
+    term: ""automatic variable""
     def: >
       A variable that is automatically given a value in a [build rule](#build_rule).
       For example, Make automatically assigns the name of a rule's
       [target](#build_target) to the automatic variable `$@`. Automatic variables are
       frequently used when writing [pattern rules](#pattern_rule).
   af:
-    term: "outomatiese veranderlike"
+    term: ""outomatiese veranderlike""
     def: >
       'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boureël](#build_rule). Byvoorbeeld, 
       "Make" ken outomaties die naam van 'n reël se teiken aan die outomatiese veranderlike, '$@' toe. 
@@ -697,13 +706,13 @@
 
 - slug: backpropagation
   en:
-    term: "backpropagation"
+    term: ""backpropagation""
     def: >
       An algorithm that iteratively adjusts the weights used in a [neural
       network](#neural_network). Backpropagation is often used to implement 
       [gradient descent](#gradient_descent).
   af:
-    term: "terugwaartse voortplanting"
+    term: ""terugwaartse voortplanting""
     def: >
       'n Algoritme wat die gewigte wat in 'n [neurale netwerk](#neural_network) gebruik word iteratief aanpas. Terugwaartse
       voortplanting word dikwels gebruik om [gradiënte afdaling](#gradient_descent) te implementeer.
@@ -711,17 +720,17 @@
 
 - slug: backward_compatible
   en:
-    term: "backward-compatible"
+    term: ""backward-compatible""
     def: >
       Software which is able to be used the same way as earlier versions of itself
       without problems.
   fr:
-    term: "compatibilité descendante"
+    term: ""compatibilité descendante""
     def: >
       Ce dit d'un logiciel qui est capable d'être utilisé de la même manière que ses
       versions précédentes sans difficulté.
   pt:
-    term: "compatibilidade reversa"
+    term: ""compatibilidade reversa""
     def: >
       Software que pode ser usado da mesma maneira que versão anteriores de si mesmo
       sem problemas. Também é chamado de retrocompatibilidade.
@@ -731,14 +740,14 @@
   ref:
     - tidyverse
   en:
-    term: "base R"
+    term: ""base R""
     def: >
       The basic functions making up the [R](#r_language) language. The base packages can be found in
       `src/library` and are not updated outside of R; their version numbers follow R
       version numbering. Base packages are installed and loaded with R, while priority
       packages are installed with base R but must be loaded prior to use.
   pt:
-    term: "R base"
+    term: ""R base""
     def: >
       As funções básicas que compõe a linguagem [R](#r_language). Os pacotes de base podem ser encontrados
       em `src/library` e não são atualizados fora do R; eles seguem a numeração de versão do
@@ -748,7 +757,7 @@
 
 - slug: bayes_rule
   en:
-    term: "Bayes' Rule"
+    term: ""Bayes' Rule""
     def: >
       See [Bayes' Theorem](#bayes_theorem).
 
@@ -759,7 +768,7 @@
     - naive_bayes_classifier
     - prior_distribution
   en:
-    term: "Bayes' Theorem"
+    term: ""Bayes' Theorem""
     def: >
       An equation for calculating the probability that something is [true](#true) if something
       related to it is true. If P(X) is the probability that X is true and P(X|Y) is
@@ -772,7 +781,7 @@
     - markov_chain
     - naive_bayes_classifier
   en:
-    term: "Bayesian network"
+    term: ""Bayesian network""
     def: >
       A graph that represents the relationships between random variables for a given problem.
 
@@ -784,12 +793,12 @@
     - classification
     - systematic_error
   en:
-    term: "bias"
+    term: ""bias""
     def: >
       A statistic is biased if it is systematically or consistently different from the
       parameter it is supposed to estimate.
   pt:
-    term: "viés"
+    term: ""viés""
     def: >
       Uma estatística é enviesada se estiver sistemática ou consistentemente diferente
       do parâmetro que deveria estimar.
@@ -799,7 +808,7 @@
   ref:
     - three_vs
   en:
-    term: "big data"
+    term: ""big data""
     def: >
       Any data that until recently was too big for most people to work with on a
       single computer.
@@ -807,14 +816,14 @@
 
 - slug: binary
   en:
-    term: "binary"
+    term: ""binary""
     def: >
       A system which can have one of two possible states. In computing often
       represented as being in the state 0 or 1. Represented in [Boolean](#boolean)
       logic as [false](#false) (0) or [true](#true) (1). Computers are built upon
       systems which store 0s and 1s as [bits](#bit).
   pt:
-    term: "binário"
+    term: ""binário""
     def: >
       Um sistema que pode ter dois estados possíveis. Em computação, frequentemente
       sendo no estado 0 ou 1. Representado na lógica [Booleana](#boolean) como
@@ -828,11 +837,11 @@
     - ternary_expression
     - unary_expression
   en:
-    term: "binary expression"
+    term: ""binary expression""
     def: >
       An expression which has two parameters and takes two arguments, such as `1 + 2`.
   pt:
-    term: "expressão binária"
+    term: ""expressão binária""
     def: >
       Uma expressão com dois argumentos ou parâmetros, como `1 + 2`, por exemplo.
 
@@ -842,14 +851,14 @@
     - discrete_random_variable
     - histogram
   en:
-    term: "binomial distribution"
+    term: ""binomial distribution""
     def: >
       A [probability distribution](#probability_distribution) that arises when there
       are a fixed number of trials, each of which can produce one of two outcomes, and
       the probability of those outcomes does not change. As the number of trials
       increases, the binomial distribution approximates a [normal distribution](#normal_distribution).
   pt:
-    term: "distribuição binomial"
+    term: ""distribuição binomial""
     def: >
       Uma [distribuição de probabilidade](#probability_distribution) que emerge quando há
       um número fixo de tentativas, cada uma das quais podendo produzir um de dois resultados e
@@ -862,12 +871,12 @@
     - binary
     - boolean
   en:
-    term: "bit"
+    term: ""bit""
     def: >
       A unit of information representing representing alternatives, yes/no,
       [true](#true)/[false](#false). In computing a state of either 0 or 1.
   pt:
-    term: "bit"
+    term: ""bit""
     def: >
       Uma unidade de informação representando alternativas, sim/não,
       [verdadeiro](#true)/[falso](#false). Em computação, um estado de 0 ou 1.
@@ -875,8 +884,8 @@
 
 - slug: blob
   en:
-    term: "binary large object"
-    acronym: "BLOB"
+    term: ""binary large object""
+    acronym: ""BLOB""
     def: >
       Data that is stored in a database without being interpreted in any way, such as
       an audio file. The term is also now used to refer to data transferred over a
@@ -886,13 +895,13 @@
 
 - slug: block_comment
   en:
-    term: "block comment"
+    term: ""block comment""
     def: >
       A [comment](#comment) that spans multiple lines. Block comments may be marked
       with special start and end symbols, like `/*` and `*/` in C and its descendents,
       or each line may be prefixed with a marker like `#`.
   pt:
-    term: "bloco de comentário"
+    term: ""bloco de comentário""
     def: >
       Um [comentário](#comment) que abrange múltiplas linhas. Blocos de comentários
       podem ser indicados com símbolos especiais, como `/*` e `*/` em C e linguagens
@@ -901,7 +910,7 @@
 
 - slug: boilerplate
   en:
-    term: "boilerplate"
+    term: ""boilerplate""
     def: >
       Standard text that is included in legal contracts, licenses, and so on.
 
@@ -912,7 +921,7 @@
     - falsy
     - binary
   en:
-    term: "Boolean"
+    term: ""Boolean""
     def: >
       Relating to a variable or data type that can have either a logical value of
       [true](#true) or [false](#false). Named for George Boole, a 19th
@@ -920,7 +929,7 @@
       foundation of systems of logical evaluations between states of true and false, 1
       or 0.
   ar:
-    term: "التعبير المنطقي"
+    term: ""التعبير المنطقي""
     def: >
         التعبير المنطقي هو عبارة عن تعبير يُستخدم لإنشاء جُمل إما تحمل
         [القيمة صح](#true)
@@ -930,7 +939,7 @@
          كما تُسمى التعبيرات المنطقية أيضا تعبيرات المقارنة والتعبيرات الشرطية
          والتعبيرات العلائقية.
   pt:
-    term: "Booleano"
+    term: ""Booleano""
     def: >
       Relacionado a uma uma variável ou tipo de dado que pode ter um valor lógico de
       [verdadeiro](#true) ou [falso](#false). Nomeado em referêcia à George Boole, um
@@ -940,14 +949,14 @@
 
 - slug: branch
   en:
-    term: "branch"
+    term: ""branch""
     def: >
       See [Git branch](#git_branch).
 
 
 - slug: branch_per_feature_workflow
   en:
-    term: "branch-per-feature workflow"
+    term: ""branch-per-feature workflow""
     def: >
       A common strategy for managing work with [Git](#git) and other [version control
       systems](#version_control_system) in which a separate [branch](#git_branch) is
@@ -957,7 +966,7 @@
 
 - slug: breadcrumbs
   en:
-    term: "breadcrumbs"
+    term: ""breadcrumbs""
     def: >
       A set of supplementary navigational links included in many websites, usually
       placed at the top of the page. Breadcrumbs show the users where the current page
@@ -969,7 +978,7 @@
   ref:
     - depth_first
   en:
-    term: "breadth first"
+    term: ""breadth first""
     def: >
       To go through a nested data structure such as a [tree](#tree) by exploring all
       of one level, then going on to the next level and so on, or to explore a problem
@@ -979,7 +988,7 @@
 
 - slug: bug
   en:
-    term: "bug"
+    term: ""bug""
     def: >
       A missing or undesirable [feature](#feature_software) of a piece of software;
       the digital equivalent of a weed.
@@ -987,7 +996,7 @@
 
 - slug: bug_report
   en:
-    term: "bug report"
+    term: ""bug report""
     def: >
       A collection of files, [logs](#log), or related information that describes either an
       unexpected output of some code or program, or an unexpected error or warning.
@@ -996,7 +1005,7 @@
 
 - slug: bug_tracker
   en:
-    term: "bug tracker"
+    term: ""bug tracker""
     def: >
       A system that tracks and manages [reported bugs](#bug_report) for a software
       program, to make it easier to address and fix the [bugs](#bug).
@@ -1008,7 +1017,7 @@
     - dependency
     - makefile
   en:
-    term: "build manager"
+    term: ""build manager""
     def: >
       A program that keeps track of how files depend on one another and runs commands
       to update any files that are out-of-date. Build managers were invented to
@@ -1019,7 +1028,7 @@
 
 - slug: build_recipe
   en:
-    term: "build recipe"
+    term: ""build recipe""
     def: >
       The part of a [build rule](#build_rule) that describes how to update something
       that has fallen out-of-date.
@@ -1027,7 +1036,7 @@
 
 - slug: build_rule
   en:
-    term: "build rule"
+    term: ""build rule""
     def: >
       A specification for a [build manager](#build_manager) that describes how some
       files depend on others and what to do if those files are out-of-date.
@@ -1035,7 +1044,7 @@
 
 - slug: build_stale
   en:
-    term: "stale (in build)"
+    term: ""stale (in build)""
     def: >
       To be out-of-date compared to a [prerequisite](#prerequisite). A [build
       manager](#build_manager)'s job is to find and update things that are stale.
@@ -1046,7 +1055,7 @@
     - makefile
     - default_target
   en:
-    term: "build target"
+    term: ""build target""
     def: >
       The file(s) that a [build rule](#build_rule) will update if they are out-of-date
       compared to their [dependencies](#dependency).
@@ -1054,14 +1063,14 @@
 
 - slug: byte_code
   en:
-    term: "byte code"
+    term: ""byte code""
     def: >
       A set of instructions designed to be executed efficiently by an [interpreter](#interpreter).
 
 
 - slug: cache
   en:
-    term: "cache"
+    term: ""cache""
     def: >
       Something that stores copies of data so that future requests for it can be
       satisfied more quickly. The CPU in a computer uses a hardware cache to hold
@@ -1072,21 +1081,21 @@
 
 - slug: caching
   en:
-    term: "caching"
+    term: ""caching""
     def: >
       To save a copy of some data in a local [cache](#cache) to make future access faster.
 
 
 - slug: call_stack
   en:
-    term: "call stack"
+    term: ""call stack""
     def: >
       A data structure that stores information about the active subroutines executed.
 
 
 - slug: callback
   en:
-    term: "callback function"
+    term: ""callback function""
     def: >
       A function A that is passed to another function B so that B can call it at some
       later point. Callbacks can be used [synchronously](#synchronous), as in generic
@@ -1100,7 +1109,7 @@
     - kebab_case
     - pothole_case
   en:
-    term: "camel case"
+    term: ""camel case""
     def: >
       A style of writing code that involves naming variables and objects with no
       space, underscore (`_`), dot (`.`), or dash (`-`) characters, with each word being
@@ -1112,13 +1121,13 @@
     - condition
     - handle_condition
   en:
-    term: "catch (an exception)"
+    term: ""catch (an exception)""
     def: >
       To accept responsibility for handling an error or other unexpected event. [R](#r_language)
       prefers "handling a condition" to "catching an exception". [Python](#python), on the other hand,
       encourages raising and catching exceptions, and in some situations, requires it.
   ar:
-    term: "إستثناء"
+    term: ""إستثناء""
     def: >
       الإستثناء هو الشرط الخاص الذي يُعالج به الشذوذ أو الشيء الغير متوقع الذي حدث
       أثناء تنفيذ البرنامج.
@@ -1129,12 +1138,12 @@
 
 - slug: cc_0
   en:
-    term: "CC-0"
+    term: ""CC-0""
     def: >
       A [Creative Commons](#cc_license) [license](#license) that imposes no
       restrictions whatsover, thereby putting a work in the public domain.
   pt:
-    term: "CC-0"
+    term: ""CC-0""
     def: >
       Uma [licença](#license) [Creative Commons](#cc_license) que não impõe
       qualquer tipo de restrição, consequentemente colocando o trabalho em domínio público.
@@ -1142,12 +1151,12 @@
 
 - slug: cc_by
   en:
-    term: "CC-BY"
+    term: ""CC-BY""
     def: >
       The [Creative Commons](#cc_license) - Attribution [license](#license) that
       requires people to give credit to the author of a work, but imposes no other restrictions.
   pt:
-    term: "CC-BY"
+    term: ""CC-BY""
     def: >
       Uma [licença](#license) [Creative Commons](#cc_license) com Atribuição, que requer que
       seja dado crédito às pessoas autoras do trabalho, mas que não impõe outras restrições.
@@ -1155,7 +1164,7 @@
 
 - slug: cc_license
   en:
-    term: "Creative Commons license"
+    term: ""Creative Commons license""
     def: >
       A set of [licenses](#license) that can be applied to published work. Each
       license is formed by concatenating one or more of `-BY` (Attribution): users
@@ -1167,7 +1176,7 @@
       commercially without permission". The term `CC-0` (zero, not letter 'O') is
       sometimes used to mean "no restrictions", i.e., the work is in the public domain.
   pt:
-    term: "Licença Creative Commons"
+    term: ""Licença Creative Commons""
     def: >
       Um conjunto de [licenças](#license) que podem ser aplicadas à trabalhos publicados.
       Cada licença é formada pela concatenação de um ou mais dos termos a seguir:
@@ -1183,23 +1192,23 @@
 
 - slug: centroid
   en:
-    term: "centroid"
+    term: ""centroid""
     def: >
       The center or anchor of a group created by a [clustering](#clustering) algorithm.
   pt:
-    term: "centróide"
+    term: ""centróide""
     def: >
       O centro ou âncora de um grupo criado por um algoritmo de [agrupamento](#clustering).
 
 
 - slug: character_encoding
   en:
-    term: "character encoding"
+    term: ""character encoding""
     def: >
       A specification of how characters are stored as bytes. The most commonly-used
       encoding today is [UTF-8](#utf_8).
   ar:
-    term: "ترميز"
+    term: ""ترميز""
     def: >
       إعادة تمثيل البيانات بصياغة أُخرى ليسهل التعامل معها وحفظها كبايت
       (bytes)
@@ -1211,14 +1220,14 @@
 
 - slug: chi_square_test
   en:
-    term: "chi-square test"
+    term: ""chi-square test""
     def: >
       A statistical method for estimating whether two variables in a cross tabulation
       are [correlated](#correlation). A chi-square distribution varies from a [normal
       distribution](#normal_distribution) based on the [degrees of
       freedom](#degrees_of_freedom) used to calculate it.
   af:
-    term: "chi-kwadraattoets"
+    term: ""chi-kwadraattoets""
     def: >
       'n Statistiese metode om te bepaal of twee veranderlikes in 'n kruistabellering
       gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreiding
@@ -1227,17 +1236,17 @@
 
 - slug: child_class
   en:
-    term: "child class"
+    term: ""child class""
     def: >
       In [object-oriented programming](#oop), a [class](#class) derived from another class
       (called the [parent class](#parent_class)).
   es:
-    term: "subclase"
+    term: ""subclase""
     def: >
       En [programación orientada a objetos](#oop), es la extensión de otra
       clase (denominada [superclase](#parent_class)).
   pt:
-    term: "classe derivada"
+    term: ""classe derivada""
     def: >
       Em [programação orientada a objetos](#oop), a classe derivada de uma outra classe
       (chamada de [classe base](#parent_class)).
@@ -1245,14 +1254,14 @@
 
 - slug: child_tree
   en:
-    term: "child (in a tree)"
+    term: ""child (in a tree)""
     def: >
       A [node](#node) in a [tree](#node) that is below another node (call the [parent](#parent_tree)).
 
 
 - slug: class
   en:
-    term: "class"
+    term: ""class""
     def: >
       In [object-oriented programming](#oop), a structure that combines data and
       operations (called [methods](#method)). The program then uses a
@@ -1261,7 +1270,7 @@
       behavior in [parent classes](#parent_class), and more detailed or specific
       behavior in [child classes](#child_class).
   es:
-    term: "clase"
+    term: ""clase""
     def: >
       En [programación orientada a objetos](#oop), es una estructura que combina
       datos y operaciones (denominadas [métodos](#method)). El programa emplea un
@@ -1276,7 +1285,7 @@
     - supervised_learning
     - clustering
   en:
-    term: "classification"
+    term: ""classification""
     def: >
       The process of identifying which predefined category an item belongs to, such as
       deciding whether an email message is spam or not. Many [machine
@@ -1285,8 +1294,8 @@
 
 - slug: cli
   en:
-    term: "command-line interface"
-    acronym: "CLI"
+    term: ""command-line interface""
+    acronym: ""CLI""
     def: >
       A user interface that relies solely on text for commands and output, typically
       running in a [shell](#shell).
@@ -1294,7 +1303,7 @@
 
 - slug: client
   en:
-    term: "client"
+    term: ""client""
     def: >
       Typically, a program such as a web browser that gets data from a
       [server](#server) and displays it to, or interacts with, users. The term is used
@@ -1304,7 +1313,7 @@
 
 - slug: closure
   en:
-    term: "closure"
+    term: ""closure""
     def: >
       A set of variables defined in the same [scope](#scope) whose existence has been
       preserved after that scope has ended.
@@ -1317,12 +1326,12 @@
     - supervised_learning
     - unsupervised_learning
   en:
-    term: "clustering"
+    term: ""clustering""
     def: >
       The process of dividing data into groups when the groups themselves are not
       known in advance.
   pt:
-    term: "agrupamento"
+    term: ""agrupamento""
     def: >
       O processo de dividir os dados em grupos quando os grupos em si não são conhecidos
       antecipadamente.
@@ -1330,7 +1339,7 @@
 
 - slug: code_coverage
   en:
-    term: "code coverage (in testing)"
+    term: ""code coverage (in testing)""
     def: >
       How much of a [library](#library) or program is executed when tests run. This is normally
       reported as a percentage of lines of code: for example, if 40 out of 50 lines in
@@ -1339,28 +1348,28 @@
 
 - slug: code_review
   en:
-    term: "code review"
+    term: ""code review""
     def: >
       To check a program or a change to a program by inspecting its source code.
 
 
 - slug: coercion
   en:
-    term: "coercion"
+    term: ""coercion""
     def: >
       See [type coercion](#type_coercion).
 
 
 - slug: cognitive_load
   en:
-    term: "cognitive load"
+    term: ""cognitive load""
     def: >
       The amount of working memory needed to accomplish a set of simultaneous tasks.
 
 
 - slug: command_history
   en:
-    term: "command history"
+    term: ""command history""
     def: >
       An automatically-created list of previously-executed commands. Most read-eval-print loops
       ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
@@ -1369,27 +1378,27 @@
 
 - slug: command_line_argument
   en:
-    term: "command-line argument"
+    term: ""command-line argument""
     def: >
       A filename or control flag given to a command-line program when it is run.
 
 
 - slug: comment
   en:
-    term: "comment"
+    term: ""comment""
     def: >
       Text written in a script that is not treated as code to be run, but rather as
       text that describes what the code is doing. These are usually short notes, often
       beginning with a `#` (in many programming languages).
   fr:
-    term: "commentaire"
+    term: ""commentaire""
     def: >
       Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il
       est utilisé pour décrire ce qui se passe lorsque le code est évalué. Les
       commentaires sont en général des notes brèves, qui commencent après un `#` (dans
       plusieurs langages de programmation)
   pt:
-    term: "comentário"
+    term: ""comentário""
     def: >
       Texto escrito em um script que não é tratado como código a ser executado, e sim
       como texto que descreve o que o código está fazendo. Normalmente é formado por
@@ -1398,7 +1407,7 @@
 
 - slug: commit
   en:
-    term: "commit"
+    term: ""commit""
     def: >
       As a verb, the act of saving a set of changes to a database or [version control](#version_control_system)
       [repository](#repository). As a noun, the changes saved.
@@ -1406,14 +1415,14 @@
 
 - slug: commit_message
   en:
-    term: "commit message"
+    term: ""commit message""
     def: >
       A comment attached to a [commit](#commit) that explains what was done and why.
 
 
 - slug: compile
   en:
-    term: "compile"
+    term: ""compile""
     def: >
       To translate textual source into another form. Programs in [compiled
       languages](#compiled_language) are translated into machine instructions for a
@@ -1423,7 +1432,7 @@
 
 - slug: compiled_language
   en:
-    term: "compiled language"
+    term: ""compiled language""
     def: >
       Originally, a language such as C or Fortran that is translated into machine
       instructions for execution. Languages such as Java are also compiled before
@@ -1434,12 +1443,12 @@
 
 - slug: compiler
   en:
-    term: "compiler"
+    term: ""compiler""
     def: >
       An application that translates programs written in some languages into machine
       instructions or [byte code](#byte_code).
   ar:
-    term: "مُترجِم"
+    term: ""مُترجِم""
     def: >
       هو برنامج يقوم بترجمة النصوص المصدرية إلى أوامر ومعلومات يفهمها الحاسب لذلك
       يُمكن للكمبيوتر فهم البرنامج وتشغيله دون استخدام برنامج البرمجة المستخدم لإنشائه
@@ -1451,7 +1460,7 @@
   ref:
     - nlp
   en:
-    term: "computational linguistics"
+    term: ""computational linguistics""
     def: >
       The study or application of computational methods for [parsing](#parse) or understanding
       human languages. Early approaches were algorithmic; most modern approaches are statistical.
@@ -1459,7 +1468,7 @@
 
 - slug: computational_notebook
   en:
-    term: "computational notebook"
+    term: ""computational notebook""
     def: >
       A combination of a document format that allows users to mix prose and code in a
       single file, and an application that executes that code interactively and in
@@ -1471,14 +1480,14 @@
   ref:
     - handle_condition
   en:
-    term: "condition"
+    term: ""condition""
     def: >
       An error or other unexpected event that disrupts the normal flow of control.
 
 
 - slug: conditional_expression
   en:
-    term: "conditional expression"
+    term: ""conditional expression""
     def: >
       A [ternary expression](#ternary_expression) that serves the role of an if/else
       statement. For example, C and similar languages use the syntax `test : ifTrue ?
@@ -1488,12 +1497,12 @@
 
 - slug: confidence_interval
   en:
-    term: "confidence interval"
+    term: ""confidence interval""
     def: >
       A range around an estimate that indicates the margin of error, combined with a
       probability that the actual value falls in that range.
   af:
-    term: "vertrouensinterval"
+    term: ""vertrouensinterval""
     def: >
       'n Variasiewydte rondom 'n beraming wat'n foutgrens aandui, gekombineerd met die waarskynlikheid
        dat die werklike getal binne die skatting val.
@@ -1501,7 +1510,7 @@
 
 - slug: console
   en:
-    term: "console"
+    term: ""console""
     def: >
       A computer terminal where a user may enter commands, or a program, such as a shell
       that simulates such a device.
@@ -1512,13 +1521,13 @@
 
 - slug: constructor
   en:
-    term: "constructor"
+    term: ""constructor""
     def: >
       A function that creates an [object](#object) of a particular
       [class](#class). In the [S3](#s3) object system, constructors are a
       convention rather than a requirement.
   es:
-    term: "constructor"
+    term: ""constructor""
     def: >
       Una función que crea un [objeto](#object) de una [clase](#class)
       particular. En el sistema de objetos de [S3](#s3), los constructores
@@ -1527,7 +1536,7 @@
 
 - slug: continuation_prompt
   en:
-    term: "continuation prompt"
+    term: ""continuation prompt""
     def: >
       A [prompt](#prompt) that indicates that the command currently being typed is not
       yet complete, and will not be run until it is.
@@ -1535,7 +1544,7 @@
 
 - slug: continuous_integration
   en:
-    term: "continuous integration"
+    term: ""continuous integration""
     def: >
       A software development practice in which changes are automatically merged as
       soon as they become available.
@@ -1545,7 +1554,7 @@
   ref:
     - discrete_random_variable
   en:
-    term: "continuous random variable"
+    term: ""continuous random variable""
     def: >
       A [variable](#variable_data) whose value can be any real value, either
       within a range, or unbounded, such as age or distance.
@@ -1555,7 +1564,7 @@
   ref:
     - aliasing
   en:
-    term: "copy-on-modify"
+    term: ""copy-on-modify""
     def: >
       The practice of creating a new copy of aliased data whenever there is an attempt
       to modify it so that each reference will believe theirs is the only one.
@@ -1563,19 +1572,19 @@
 
 - slug: correlation
   en:
-    term: "correlation"
+    term: ""correlation""
     def: >
       A measure of how well two variables agree with each other. Correlation is usually measured by
       calculating a [correlation coefficient](#correlation_coefficient), and does not
       imply [causation](#causation).
   pt:
-    term: "correlação"
+    term: ""correlação""
     def: >
       O quão bem duas variáveis concordam uma com a outra. A correlação é normalmente
       medida pelo cálculo de um [coeficiente de correlação](#correlation_coefficient),
       e não significa que precise existir causalidade.
   af:
-    term: "korrelasie"
+    term: ""korrelasie""
     def: >
       Hoe sterk twee veranderlikes met mekaar ooreenstem. Korrelasie word gewoonlik gemeet aan
       die berekening van 'n [korrelasiekoëffisiënt](#correlation_coefficient), maar
@@ -1584,7 +1593,7 @@
 
 - slug: correlation_coefficient
   en:
-    term: "correlation coefficient"
+    term: ""correlation coefficient""
     def: >
       A measure of how well-[correlated](#correlation) two variables are. If the
       [correlation coefficient](#correlation_coefficient) between X and Y is 1.0,
@@ -1592,7 +1601,7 @@
       knowing X tells you nothing about Y, and if it is -1.0, then X predicts Y, but
       a change in X causes an opposite change in Y.
   pt:
-    term: "coeficiente de correlação"
+    term: ""coeficiente de correlação""
     def: >
       Uma medida do quão bem duas variáveis estão [correlacionadas](#correlation). Se
       o [coeficiente de correlação](#correlation_coefficient) entre X e Y for 1.0,
@@ -1600,7 +1609,7 @@
       for 0.0, conhecer X não diz nada a respeito de Y, e se for -1.0, então X prevê
       Y, mas mudanças no valor de X gera uma mudança oposta em Y.
   af:
-    term: "korrelasiekoëffisiënt"
+    term: ""korrelasiekoëffisiënt""
     def: >
       'n Maatstaf van hoe sterk [gekorreleer](#correlation) twee veranderlikes is. As die
       korrelasiekoëffisiënt tussen X en Y gelyk is aan 1.0,
@@ -1611,12 +1620,12 @@
 
 - slug: covariance
   en:
-    term: "covariance"
+    term: ""covariance""
     def: >
       How well two variables agree with each other. The [correlation
       coefficient](#correlation_coefficient) is a normalized measure of covariance.
   pt:
-    term: "covariância"
+    term: ""covariância""
     def: >
       O quão bem duas variáveis concordam uma com a outra. O [coeficiente de
       correlação](#correlation_coefficient) é uma medida normalizada da covariância.
@@ -1627,8 +1636,8 @@
     - base_r
     - tidyverse
   en:
-    term: "Comprehensive R Archive Network"
-    acronym: "CRAN"
+    term: ""Comprehensive R Archive Network""
+    acronym: ""CRAN""
     def: >
       A public repository of [R](#r_language) packages.
 
@@ -1643,7 +1652,7 @@
     - right_join
     - self_join
   en:
-    term: "cross join"
+    term: ""cross join""
     def: >
       A [join](#join) that produces all possible combinations of rows from two tables.
 
@@ -1652,7 +1661,7 @@
   ref:
     - machine_learning
   en:
-    term: "cross-validation"
+    term: ""cross-validation""
     def: >
       A technique that divides data into [training data](#training_data) and [test
       data](#test_data). The training data and correct answers are used to find
@@ -1662,7 +1671,7 @@
 
 - slug: cryptographic_hash_function
   en:
-    term: "cryptographic hash function"
+    term: ""cryptographic hash function""
     def: >
       A [hash function](#hash_function) that produces an apparently-random value for
       any input.
@@ -1670,13 +1679,13 @@
 
 - slug: css
   en:
-    term: "Cascading Style Sheets"
-    acronym: "CSS"
+    term: ""Cascading Style Sheets""
+    acronym: ""CSS""
     def: >
       A way to control the appearance of HTML. CSS is typically used to specify fonts,
       colors, and layout.
   fr:
-    term: "Feuilles de Style en Cascade"
+    term: ""Feuilles de Style en Cascade""
     def: >
       Une manière de contrôler l'apparence du rendu HTML. Le CSS est généralement
       utilisé dans le but de spécifier les polices, les couleurs ainsi que la
@@ -1685,8 +1694,8 @@
 
 - slug: csv
   en:
-    term: "comma-separated values"
-    acronym: "CSV"
+    term: ""comma-separated values""
+    acronym: ""CSV""
     def: >
       A text format for tabular data in which each [record](#record) is one row and [fields](#field) are
       separated by commas. There are many minor variations, particularly around
@@ -1695,17 +1704,17 @@
 
 - slug: current_working_directory
   en:
-    term: "current working directory"
+    term: ""current working directory""
     def: >
       The [folder](#folder) or [directory](#directory) location in which the program operates. Any action
       taken by the program occurs relative to this directory.
   pt:
-    term: "diretório de trabalho"
+    term: ""diretório de trabalho""
     def: >
       O local, pasta ou diretório, em que o programa está operando. Qualquer ação do
       programa acontece relativa a esse diretório.
   fr:
-    term: "répertoire de travail"
+    term: ""répertoire de travail""
     def: >
       L'emplacement du système de fichiers dans lequel le programme en cours est en train d'opérer.
       Chaque opération effectuée par le programme se fait relativement à cet emplacement.
@@ -1716,7 +1725,7 @@
     - data_scientist
     - data_wrangling
   en:
-    term: "data engineer"
+    term: ""data engineer""
     def: >
       Someone who sets up and runs data analyses. Data engineers are often responsible
       for installing software, managing databases, generating reports, and archiving results.
@@ -1726,7 +1735,7 @@
   ref:
     - data_science
   en:
-    term: "data engineering"
+    term: ""data engineering""
     def: >
       The pragmatic steps taken to make data usable, such as writing short programs to
       put mailing addresses in a uniform format.
@@ -1736,12 +1745,12 @@
   ref:
     - tidy_data
   en:
-    term: "data frame"
+    term: ""data frame""
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
       represent [records](#record) and columns represent [variables](#variable_data).
   fr:
-    term: "trame de données"
+    term: ""trame de données""
     def: >
       Une structure bi-dimensionnelle pour enregistrer des données tabulaires. Les
       lignes représentent les [entrées](#record) et les colonnes représentent les [variables](#variable_data).
@@ -1749,7 +1758,7 @@
 
 - slug: data_mining
   en:
-    term: "data mining"
+    term: ""data mining""
     def: >
       The use of computers to search for patterns in large datasets. The term [data
       science](#data_science) is now more commonly used.
@@ -1757,7 +1766,7 @@
 
 - slug: data_package
   en:
-    term: "data package"
+    term: ""data package""
     def: >
       A software package that, mostly, contains only data. Is used to make it simpler
       to disseminate data for easier use.
@@ -1765,12 +1774,12 @@
 
 - slug: data_science
   en:
-    term: "data science"
+    term: ""data science""
     def: >
       The combination of statistics, programming, and hard work used to extract
       knowledge from data.
   pt:
-    term: "ciência de dados"
+    term: ""ciência de dados""
     def: >
       A combinação de estatística, programação e trabalho duro usados para extrair
       conhecimento a partir de dados.
@@ -1778,18 +1787,18 @@
 
 - slug: data_scientist
   en:
-    term: "data scientist"
+    term: ""data scientist""
     def: >
       Someone who uses programming skills to solve statistical problems.
   pt:
-    term: "cientista de dados"
+    term: ""cientista de dados""
     def: >
       Alguém que usa habilidades de programação para resolver problemas estatísticos.
 
 
 - slug: data_wrangling
   en:
-    term: "data wrangling"
+    term: ""data wrangling""
     def: >
       A colloquial name for small-scale [data engineering](#data_engineering).
 
@@ -1798,7 +1807,7 @@
   ref:
     - random_forests
   en:
-    term: "decision tree"
+    term: ""decision tree""
     def: >
       A tree whose [nodes](#node) are questions and whose [branches](#branch) eventually lead to a
       decision or [classification](#classification).
@@ -1806,7 +1815,7 @@
 
 - slug: decorator_pattern
   en:
-    term: "Decorator pattern"
+    term: ""Decorator pattern""
     def: >
       A [design pattern](#design_pattern) in which a function adds additional features
       to another function or a [class](#class) after its initial definition.
@@ -1816,7 +1825,7 @@
 
 - slug: deep_learning
   en:
-    term: "deep learning"
+    term: ""deep learning""
     def: >
       A family of [neural network](#neural_network) algorithms that use multiple
       layers to extract features at successively higher levels.
@@ -1824,14 +1833,14 @@
 
 - slug: default_target
   en:
-    term: "default target"
+    term: ""default target""
     def: >
       The [build target](#build_target) that is used when none is specified explicitly.
 
 
 - slug: default_value
   en:
-    term: "default value"
+    term: ""default value""
     def: >
       A value assigned to a function [parameter](#parameter) when the caller does not specify a
       value. Default values are specified as part of the function's definition.
@@ -1839,7 +1848,7 @@
 
 - slug: defensive_programming
   en:
-    term: "defensive programming"
+    term: ""defensive programming""
     def: >
       A set of programming practices that assumes mistakes will happen and either
       reports or corrects them, such as inserting [assertions](#assertion) to report
@@ -1851,7 +1860,7 @@
 
 - slug: delegate_pattern
   en:
-    term: "Delegate pattern"
+    term: ""Delegate pattern""
     def: >
       A [design pattern](#design_pattern) in which an [object](#object) does most of the work to
       complete a task, but uses one of a set of other objects to complete some
@@ -1861,19 +1870,19 @@
 
 - slug: dependency
   en:
-    term: "dependency"
+    term: ""dependency""
     def: >
       See [prerequisite](#prerequisite).
 
 
 - slug: dependent_variable
   en:
-    term: "dependent variable"
+    term: ""dependent variable""
     def: >
       A variable whose value depends on the value of another variable, which is called
       the [independent variable](#independent_variable).
   pt:
-    term: "variável dependente"
+    term: ""variável dependente""
     def: >
       Uma variável cujo valor dependa do valor de outra variável, que é chamada de
       [variável independente](#independent_variable).
@@ -1881,7 +1890,7 @@
 
 - slug: depth_first
   en:
-    term: "depth first"
+    term: ""depth first""
     def: >
       To go through a nested data structure such as a [tree](#tree) by going as far as
       possible down one path, then as far as possible down the next and so on, or to
@@ -1896,7 +1905,7 @@
     - template_method_pattern
     - visitor_pattern
   en:
-    term: "design pattern"
+    term: ""design pattern""
     def: >
       A recurring pattern in software design that is specific enough to be worth
       naming, but not so specific that a single best implementation can be provided by
@@ -1906,7 +1915,7 @@
 
 - slug: destructuring_assignment
   en:
-    term: "destructuring assignment"
+    term: ""destructuring assignment""
     def: >
       Unpacking values from data structures and assigning them to multiple variables
       in a single statement.
@@ -1914,7 +1923,7 @@
 
 - slug: dictionary
   en:
-    term: "dictionary"
+    term: ""dictionary""
     def: >
       A data structure that allows items to be looked up by value, sometimes called an
       [associative array](#associative_array). Dictionaries are often implemented
@@ -1925,7 +1934,7 @@
   ref:
     - principal_component_analysis
   en:
-    term: "dimension reduction"
+    term: ""dimension reduction""
     def: >
       Reducing the number of dimensions in a dataset, typically by finding the
       dimensions along which it varies most.
@@ -1938,7 +1947,7 @@
   ref:
     - continuous_random_variable
   en:
-    term: "discrete random variable"
+    term: ""discrete random variable""
     def: >
       A [variable](#variable_data) whose value can take on only one of a fixed
       set of values, such as [true](#true) or [false](#false).
@@ -1946,14 +1955,14 @@
 
 - slug: distro
   en:
-    term: "distro"
+    term: ""distro""
     def: >
       See [software distribution](#software_distribution).
 
 
 - slug: docstring
   en:
-    term: "docstring"
+    term: ""docstring""
     def: >
       Short for "documentation string", a string appearing at the start of a module,
       class, or function in [Python](#python) that automatically becomes that object's documentation.
@@ -1961,7 +1970,7 @@
 
 - slug: documentation_generator
   en:
-    term: "documentation generator"
+    term: ""documentation generator""
     def: >
       A software tool that extracts specially-formatted comments or
       [dostrings](#docstring) from code and generates cross-referenced developer documentation.
@@ -1971,8 +1980,8 @@
   ref:
     - orcid
   en:
-    term: "Digital Object Identifier"
-    acronym: "DOI"
+    term: ""Digital Object Identifier""
+    acronym: ""DOI""
     def: >
       A unique persistent identifier for a book, paper, report, dataset, software release, or
       other digital artefact.
@@ -1980,8 +1989,8 @@
 
 - slug: dom
   en:
-    term: "Document Object Model"
-    acronym: "DOM"
+    term: ""Document Object Model""
+    acronym: ""DOM""
     def: >
       A standard, in-memory representation of [HTML](#html) and [XML](#xml). Each
       [element](#element) is stored as a [node](#node) in a [tree](#tree) with a set
@@ -1994,7 +2003,7 @@
   ref:
     - regular_expression
   en:
-    term: "DOM selector"
+    term: ""DOM selector""
     def: >
       A pattern that identifies [nodes](#node) in a [DOM](#dom) [tree](#tree). For
       example, `#alpha` matches nodes whose `id` [attribute](#attribute) is "alpha",
@@ -2003,14 +2012,14 @@
 
 - slug: domain_knowledge
   en:
-    term: "domain knowledge"
+    term: ""domain knowledge""
     def: >
       Understanding of a specific problem domain, e.g., knowledge of transportation logistics.
 
 
 - slug: double
   en:
-    term: "double"
+    term: ""double""
     def: >
       Short for "double-precision floating-point number", meaning a 64-bit numeric
       value with a fractional part and an exponent.
@@ -2020,7 +2029,7 @@
   ref:
     - single_square_brackets
   en:
-    term: "double square brackets"
+    term: ""double square brackets""
     def: >
       An index enclosed in `[[...]]`, used to return a single value of the underlying type.
 
@@ -2029,15 +2038,15 @@
   ref:
     - up_vote
   en:
-    term: "down-vote"
+    term: ""down-vote""
     def: >
       A vote against something.
 
 
 - slug: dry
   en:
-    term: "Don't Repeat Yourself principle"
-    acronym: "DRY"
+    term: ""Don't Repeat Yourself principle""
+    acronym: ""DRY""
     def: >
       The Don't Repeat Yourself (DRY) principle states that — Every piece of knowledge
       must have a single, unambiguous, authoritative representation within a system.
@@ -2049,7 +2058,7 @@
 
 - slug: dynamic_loading
   en:
-    term: "dynamic loading"
+    term: ""dynamic loading""
     def: >
       To [import](#import) a [module](#module) into the memory of a program while it
       is already running. Most [interpreted languages](#interpreted_language) use
@@ -2059,7 +2068,7 @@
 
 - slug: dynamic_lookup
   en:
-    term: "dynamic lookup"
+    term: ""dynamic lookup""
     def: >
       To find a function or a property of an [object](#object) by name while a program
       is running. For example, instead of getting a specific property of an object
@@ -2069,7 +2078,7 @@
 
 - slug: dynamic_scoping
   en:
-    term: "dynamic scoping"
+    term: ""dynamic scoping""
     def: >
       To find the value of a [variable](#variable_program) by looking at what is on
       the [call stack](#call_stack) at the moment the lookup is done. Almost all
@@ -2079,7 +2088,7 @@
 
 - slug: edge
   en:
-    term: "edge"
+    term: ""edge""
     def: >
       A connection between two [nodes](#node) in a [graph](#graph). An edge may have
       data associated with it, such as a name or distance.
@@ -2089,7 +2098,7 @@
   ref:
     - empty_element
   en:
-    term: "element"
+    term: ""element""
     def: >
       A named component in an [HTML](#html) or [XML](#xml) document. Elements are
       usually written `<name>`...`</name>`, where "..." represents the content of the
@@ -2098,14 +2107,14 @@
 
 - slug: emacs
   en:
-    term: "Emacs (editor)"
+    term: ""Emacs (editor)""
     def: >
       A text editor that is popular among Unix programmers.
 
 
 - slug: empty_element
   en:
-    term: "empty element"
+    term: ""empty element""
     def: >
       An [element](#element) of an [HTML](#html) or [XML](#xml) document that has no
       [children](#child_tree). Empty elements can always be written as
@@ -2115,12 +2124,12 @@
 
 - slug: empty_vector
   en:
-    term: "empty vector"
+    term: ""empty vector""
     def: >
       A vector that contains no elements. Empty vectors have a type such as logical or
       character, and are *not* the same as [null](#null).
   fr:
-    term: "vecteur vide"
+    term: ""vecteur vide""
     def: >
       Un vecteur qui ne contient aucun élément. Les vecteurs vides peuvent être de
       type logique ou caractère, et sont *differents* des vecteurs [null](#null).
@@ -2128,14 +2137,14 @@
 
 - slug: environment
   en:
-    term: "environment"
+    term: ""environment""
     def: >
       A structure that stores a set of variable names and the values they refer to.
 
 
 - slug: error_handling
   en:
-    term: "error handling"
+    term: ""error handling""
     def: >
       What a program does to detect and correct for errors. Examples include printing
       a message and using a default configuration if the user-specified configuration
@@ -2144,7 +2153,7 @@
 
 - slug: error_test
   en:
-    term: "error (in a test)"
+    term: ""error (in a test)""
     def: >
       Signalled when something goes wrong in a [unit test](#unit_test) itself rather
       than in the system being tested. In this case, we do not know anything about the
@@ -2153,7 +2162,7 @@
 
 - slug: escape_sequence
   en:
-    term: "escape sequence"
+    term: ""escape sequence""
     def: >
       A sequence of characters added as a prefix to some other character that would
       otherwise have a special meaning, temporarily altering the meaning of the character.
@@ -2163,7 +2172,7 @@
 
 - slug: evaluation
   en:
-    term: "evaluation"
+    term: ""evaluation""
     def: >
       The process of taking an expression such as `1+2*3/4` and turning it into a
       single, irreducible value.
@@ -2171,7 +2180,7 @@
 
 - slug: exception
   en:
-    term: "exception"
+    term: ""exception""
     def: >
       An object that stores information about an error or other unusual event in a
       program. One part of a program will create and [raise an
@@ -2181,7 +2190,7 @@
 
 - slug: exception_handler
   en:
-    term: "exception handler"
+    term: ""exception handler""
     def: >
       A piece of code that deals with an [exception](#exception) after it is
       [caught](#catch_exception), e.g., by writing a [log message](#log_message),
@@ -2192,7 +2201,7 @@
   ref:
     - actual_result
   en:
-    term: "expected result (of test)"
+    term: ""expected result (of test)""
     def: >
       The value that a piece of software is supposed to produce when tested in a
       certain way, or the state in which it is supposed to leave the system.
@@ -2200,7 +2209,7 @@
 
 - slug: exploratory_programming
   en:
-    term: "exploratory programming"
+    term: ""exploratory programming""
     def: >
       A software development methodology in which requirements emerge or change as the
       software is being written, often in response to results from early runs.
@@ -2208,7 +2217,7 @@
 
 - slug: export
   en:
-    term: "export"
+    term: ""export""
     def: >
       To make something visible outside a [module](#module) so that other parts of a
       program can [import](#import) it. In most languages a module must export things
@@ -2219,17 +2228,17 @@
   ref:
     - pass_test
   en:
-    term: "fail (a test)"
+    term: ""fail (a test)""
     def: >
       A test fails if the [actual result](#actual_result) does not match the [expected result](#expected_result).
 
 
-- slug: "false"
+- slug: false
   ref:
     - truthy
     - falsy
   en:
-    term: "false"
+    term: ""false""
     def: >
       The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in
       logic and programming to represent a [binary](#binary) state of something.
@@ -2239,15 +2248,15 @@
   ref:
     - truthy
   en:
-    term: "falsy"
+    term: ""falsy""
     def: >
       Evaluating to [false](#false) in a [Boolean](#boolean) context.
 
 
 - slug: faq
   en:
-    term: "Frequently Asked Questions"
-    acronym: "FAQ"
+    term: ""Frequently Asked Questions""
+    acronym: ""FAQ""
     def: >
       A curated list of questions commonly asked about a subject, along with answers.
 
@@ -2256,7 +2265,7 @@
   ref:
     - master_branch
   en:
-    term: "feature branch"
+    term: ""feature branch""
     def: >
       A [branch](#branch) within a [Git](#git) [repository](#repository)
       containing [commits](#commit) dedicated to a specific feature, e.g., a
@@ -2265,14 +2274,14 @@
 
 - slug: feature_data
   en:
-    term: "feature (in data)"
+    term: ""feature (in data)""
     def: >
       A variable or observable in a dataset.
 
 
 - slug: feature_engineering
   en:
-    term: "feature engineering"
+    term: ""feature engineering""
     def: >
       The process of choosing the variables to be used as inputs to a [model](#model).
       Choosing good features often depends on [domain knowledge](#domain_knowledge).
@@ -2280,7 +2289,7 @@
 
 - slug: feature_request
   en:
-    term: "feature request"
+    term: ""feature request""
     def: >
       A request to the maintainers or developers of a software program to add a
       specific functionality (a feature) to that program.
@@ -2288,7 +2297,7 @@
 
 - slug: feature_software
   en:
-    term: "feature (in software)"
+    term: ""feature (in software)""
     def: >
       Some aspect of software that was deliberately designed or built. A [bug](#bug)
       is an undesired feature.
@@ -2296,12 +2305,12 @@
 
 - slug: field
   en:
-    term: "field"
+    term: ""field""
     def: >
       A component of a [record](#record) containing a single value. Every record in a
       [tibble](#tibble) or database [table](#table) has the same fields.
   fr:
-    term: "champ"
+    term: ""champ""
     def: >
       Composant d'une [entrée](#record) contenant une seule valeur. Chaque entrée dans
       une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs.
@@ -2309,7 +2318,7 @@
 
 - slug: filename_extension
   en:
-    term: "filename extension"
+    term: ""filename extension""
     def: >
       The last part of a filename, usually following the '.' symbol. Filename
       extensions are commonly used to indicate the type of content in the file, though
@@ -2318,7 +2327,7 @@
 
 - slug: filename_stem
   en:
-    term: "filename stem"
+    term: ""filename stem""
     def: >
       The part of the filename that does not include the [extension](#filename_extension).
       For example, the stem of `glossary.yml` is `glossary`.
@@ -2326,7 +2335,7 @@
 
 - slug: filesystem
   en:
-    term: "filesystem"
+    term: ""filesystem""
     def: >
       The part of the [operating system](#operating_system) that manages how files
       are stored and retrieved. Also used to refer to all of those files and
@@ -2335,14 +2344,14 @@
 
 - slug: filter
   en:
-    term: "filter"
+    term: ""filter""
     def: >
       As a verb, to choose a set of [records](#record) (i.e., rows of a table) based
       on the values they contain. As a noun, a command-line program that reads lines
       of text from files or [standard input](#stdin), performs some operation on them
       (such as filtering), and writes to a file or [stdout](#stdout).
   fr:
-    term: "filtrer"
+    term: ""filtrer""
     def: >
       Le fait de sélectionner un ensemble d'[observations](#record) (example,
       certaines lignes d'une table) en se basant sur leurs valeurs.
@@ -2350,7 +2359,7 @@
 
 - slug: fixture
   en:
-    term: "fixture"
+    term: ""fixture""
     def: >
       The thing on which a test is run, such as the [parameters](#parameter) to the function being
       tested or the file being processed.
@@ -2358,7 +2367,7 @@
 
 - slug: folder
   en:
-    term: "folder"
+    term: ""folder""
     def: >
       Another term for a [directory](#directory).
 
@@ -2367,7 +2376,7 @@
   ref:
     - while_loop
   en:
-    term: "for loop"
+    term: ""for loop""
     def: >
       A construct in a program that repeats one or more other statements (the [loop
       body](#loop_body)) once for each item in a sequence, such as each number in a
@@ -2378,7 +2387,7 @@
   ref:
     - branch
   en:
-    term: "fork"
+    term: ""fork""
     def: >
       A copy of one person's [Git](#git) [repository](#repository)
       that lives in another person's GitHub account. Changes to the content of a fork
@@ -2388,7 +2397,7 @@
 
 - slug: full_identifier_git
   en:
-    term: "full identifier (of a commit)"
+    term: ""full identifier (of a commit)""
     def: >
       A unique 160-bit identifier for a [commit](#commit) in a [Git](#git)
       [repository](#repository), usually written as a 20-character
@@ -2405,7 +2414,7 @@
     - right_join
     - self_join
   en:
-    term: "full join"
+    term: ""full join""
     def: >
       A [join](#join) that returns all rows and all columns from two tables A and B.
       Where the [keys](#key) of A and B match, values are combined; where they do not,
@@ -2415,7 +2424,7 @@
 
 - slug: fully_qualified_name
   en:
-    term: "fully-qualified name"
+    term: ""fully-qualified name""
     def: >
       An unambiguous name of the form `package::thing`, indicating the original source
       of the [object](#object) in question.
@@ -2426,7 +2435,7 @@
     - higher_order_function
     - oop
   en:
-    term: "functional programming"
+    term: ""functional programming""
     def: >
       A style of programming in which data is transformed through successive
       application of functions, rather than by using control structures such as loops.
@@ -2442,7 +2451,7 @@
   ref:
     - iterator_pattern
   en:
-    term: "generator function"
+    term: ""generator function""
     def: >
       A function whose state is automatically saved when it returns a value so that
       execution can be restarted from that point the next time it is called.
@@ -2452,22 +2461,22 @@
 
 - slug: generic_function
   en:
-    term: "generic function"
+    term: ""generic function""
     def: >
       A collection of functions with similar purpose, each operating on a different
       class of data.
   fr:
-    term: "fonction générique"
+    term: ""fonction générique""
     def: >
       Une collection de fonctions ayant un objectif similaire, chacune opérant sur une
       classe de données différente.
   pt:
-    term: "função genérica"
+    term: ""função genérica""
     def: >
       Um conjunto de funções com propósito similar, cada uma operando em uma classe diferente
       de dados.
   es:
-    term: "función genérica"
+    term: ""función genérica""
     def: >
       Un conjunto de funciones con propósitos similares, cada una operando en una clase
       diferente de datos.
@@ -2478,20 +2487,20 @@
 
 - slug: git
   en:
-    term: "Git"
+    term: ""Git""
     def: >
       A [version control tool](#version_control_system) to record and manage changes to a project.
   fr:
-    term: "Git"
+    term: ""Git""
     def: >
       Un outil de gestion des versions qui permet d'enregistrer et de piloter les
       modifications effectuées au niveau d'un projet.
   ja:
-    term: "Git(ギット)"
+    term: ""Git(ギット)""
     def: >
        プロジェクトなどの変更履歴を記録・追跡するための分散型バージョン管理システムです。
   pt:
-    term: "Git"
+    term: ""Git""
     def: >
       Uma ferramenta de controle de versão para registrar e gerenciar mudanças em um projeto.
 
@@ -2502,17 +2511,17 @@
     - fork
     - master_branch
   en:
-    term: "Git branch"
+    term: ""Git branch""
     def: >
       A snapshot of a version of a [Git](#git) [repository](#repository).
       Multiple branches can capture multiple versions of the same repository.
   fr:
-    term: "Git branch"
+    term: ""Git branch""
     def: >
       Une photographie d'une version d'un dépôt Git. Plusieurs branches peuvent
       capturer plusieurs versions au niveau d'un même dépôt.
   pt:
-    term: "Git branch"
+    term: ""Git branch""
     def: >
       Uma fotografia de uma versão de um repositório Git. Múltiplos branches podem
       capturar múltiplas versões de um mesmo repositório.
@@ -2520,12 +2529,12 @@
 
 - slug: git_clone
   en:
-    term: "Git clone"
+    term: ""Git clone""
     def: >
       Copies (and usually downloads) of a [Git](#git) [remote repository](#remote_repository)
       on a local computer.
   fr:
-    term: "Git clone"
+    term: ""Git clone""
     def: >
       Permet de copier (et générallement de télécharger) un [dépôt
       éloigné](#remote_repository) Git au niveau de l'ordinateur local.
@@ -2533,7 +2542,7 @@
 
 - slug: git_conflict
   en:
-    term: "Git conflict"
+    term: ""Git conflict""
     def: >
       A situation in which incompatible or overlapping changes have been made on
       different [branches](#branch) that are now being [merged](#git_merge).
@@ -2543,7 +2552,7 @@
   ref:
     - git_clone
   en:
-    term: "Git fork"
+    term: ""Git fork""
     def: >
       To make a new copy of a [Git](#git) [repository](#repository)
       on a [server](#server), or the copy that is made.
@@ -2551,7 +2560,7 @@
 
 - slug: git_merge
   en:
-    term: "Git merge"
+    term: ""Git merge""
     def: >
       Merging branches in [Git](#git) incorporates development
       histories of two [branches](#branch) in one. If changes are made to similar
@@ -2561,12 +2570,12 @@
 
 - slug: git_pull
   en:
-    term: "Git pull"
+    term: ""Git pull""
     def: >
       Downloads and synchronizes changes between a [remote
       repository](#remote_repository) and a local [repository](#repository).
   fr:
-    term: "Git pull"
+    term: ""Git pull""
     def: >
       Télécharge et synchronise des modifications entre le [dépôt
       éloigné](#remote_repository) et le [dépôt](#repository) local.
@@ -2574,12 +2583,12 @@
 
 - slug: git_push
   en:
-    term: "Git push"
+    term: ""Git push""
     def: >
       Uploads and synchronizes changes between a local [repository](#repository) and a
       [remote repository](#remote_repository).
   fr:
-    term: "Git push"
+    term: ""Git push""
     def: >
       Charge et synchronise des modifications entre le [dépôt](#repository) local et
       le [dépôt éloigné](#remote_repository).
@@ -2587,25 +2596,25 @@
 
 - slug: git_remote
   en:
-    term: "Git remote"
+    term: ""Git remote""
     def: >
       A short name for a [remote repository](#remote_repository) (like a bookmark).
 
 
 - slug: github
   en:
-    term: "GitHub"
+    term: ""GitHub""
     def: >
       A cloud-based platform built around [Git](#git) that allows you to save versions
       of your project online and collaborate with other Git users.
   fr:
-    term: "GitHub"
+    term: ""GitHub""
     def: >
       Une platefome dans le Cloud, construite autour de [Git](#git) qui permet de
       sauvegarder en ligne les versions d'un projet et de collaborer avec d'autres
       utilisateurs Git.
   pt:
-    term: "GitHub"
+    term: ""GitHub""
     def: >
       Uma plataforma baseada em nuvem construída em torno do [Git](#git) que permite
       salvar versões do seu projeto online e colaborar com outras pessoas usuárias do Git.
@@ -2613,12 +2622,12 @@
 
 - slug: global_environment
   en:
-    term: "global environment"
+    term: ""global environment""
     def: >
       The [environment](#environment) that holds top-level definitions in a programming language, e.g.,
       those written directly in the interpreter.
   fr:
-    term: "environnement global"
+    term: ""environnement global""
     def: >
       L'[environnement](#environment) qui contient des définitions de premier niveau
       dans un langage de programmation, example, celles écrites directement dans l'intérpreteur.
@@ -2628,11 +2637,11 @@
   ref:
     - local_installation
   en:
-    term: "global installation"
+    term: ""global installation""
     def: >
       Installing a package in a location where it can be accessed by all users and projects.
   fr:
-    term: "installation globale"
+    term: ""installation globale""
     def: >
       Le fait d'installer un package dans un emplacement où il peut être accessible
       par tous les utilisateurs ainsi que tous les projets.
@@ -2642,17 +2651,17 @@
   ref:
     - local_variable
   en:
-    term: "global variable"
+    term: ""global variable""
     def: >
       A variable defined outside any particular function or [package](#package) namespace, which is therefore visible
       to all functions.
   es:
-    term: "variable global"
+    term: ""variable global""
     def: >
       Una variable definida fuera de alguna función en particular, por lo que es
       visible para todas las funciones.
   fr:
-    term: "variable globale"
+    term: ""variable globale""
     def: >
       Une variable définie en dehors d'une fonction donnée, qui est par conséquent
       visible pour toutes les fonctions.
@@ -2660,7 +2669,7 @@
 
 - slug: globbing
   en:
-    term: "globbing"
+    term: ""globbing""
     def: >
       To specify a set of filenames using a simplified form of [regular
       expressions](#regular_expression), such as `*.dat` to mean "all files whose
@@ -2671,8 +2680,8 @@
   ref:
     - gpl
   en:
-    term: "GNU Operating System"
-    acronym: "GNU"
+    term: ""GNU Operating System""
+    acronym: ""GNU""
     def: >
       "GNU" is an [operating system](#operating_system) that is free software.
       GNU is a recursive acronym for "GNU is Not Unix!". The GNU operating
@@ -2683,8 +2692,8 @@
   ref:
     - gnu
   en:
-    term: "GNU Public License"
-    acronym: "GPL"
+    term: ""GNU Public License""
+    acronym: ""GPL""
     def: >
       A [license](#license) that allows people to re-use software as long as they
       distribute the source of their changes.
@@ -2692,7 +2701,7 @@
 
 - slug: gradient_boosting
   en:
-    term: "gradient boosting"
+    term: ""gradient boosting""
     def: >
       A [machine learning](#machine_learning) technique that produces an ensemble of
       weak prediction models (typically [decision trees](#decision_tree)) in a
@@ -2703,7 +2712,7 @@
   ref:
     - backpropagation
   en:
-    term: "gradient descent"
+    term: ""gradient descent""
     def: >
       An optimization algorithm that repeatedly calculates the gradient at the current
       point takes a small step in the direction in which the gradient is decreasing,
@@ -2714,7 +2723,7 @@
   ref:
     - tree
   en:
-    term: "graph"
+    term: ""graph""
     def: >
       1. A plot or a chart that displays data, or 2. a data structure in which
       [nodes](#node) are connected to one another by [edges](#edge).
@@ -2722,7 +2731,7 @@
 
 - slug: group
   en:
-    term: "group"
+    term: ""group""
     def: >
       To divide data into subsets according to a set of criteria while leaving records in
       a single structure.
@@ -2730,14 +2739,14 @@
 
 - slug: gui
   en:
-    term: "graphical user interface"
-    acronym: "GUI"
+    term: ""graphical user interface""
+    acronym: ""GUI""
     def: >
       A user interface that relies on windows, menus, pointers, and other graphical
       elements, as opposed to a [command-line interface](#cli) or voice-driven interface.
   pt:
-    term: "interface gráfica de usuário"
-    acronym: "GUI"
+    term: ""interface gráfica de usuário""
+    acronym: ""GUI""
     def: >
       Uma interface de usuário cujo uso depende de janelas, menus, ponteiros e outros
       elementos gráficos, em oposição a uma [interface de linha de comando](#cli) ou
@@ -2749,7 +2758,7 @@
     - condition
     - exception
   en:
-    term: "handle (condition)"
+    term: ""handle (condition)""
     def: >
       To accept responsibility for handling an error or other unexpected event. [R](#r_language)
       prefers "handling a condition" to "[catching an exception](catch_exception)". [Python](#python), on the other hand,
@@ -2761,7 +2770,7 @@
 
 - slug: hash_function
   en:
-    term: "hash function"
+    term: ""hash function""
     def: >
       A function that turns arbitrary data into a bit array, or a [key](#key), of a fixed size. Hash
       functions are used to determine where data should be stored in a [hash table](#hash_table).
@@ -2769,7 +2778,7 @@
 
 - slug: hash_table
   en:
-    term: "hash table"
+    term: ""hash table""
     def: >
       A data structure that calculates a pseudo-random key (location) for each value passed to it and stores
       the value in that location. Hash tables enable fast lookup for arbitrary data. This occurs
@@ -2782,7 +2791,7 @@
   ref:
     - csv
   en:
-    term: "header row"
+    term: ""header row""
     def: >
       If present, the first row of a data file that defines column names (but
       not their data types or units).
@@ -2792,7 +2801,7 @@
   ref:
     - homogeneous
   en:
-    term: "heterogeneous"
+    term: ""heterogeneous""
     def: >
       Containing mixed data types. For example, in [Python](#python) and [R](#r_language), a [list](#list) can contain a mix of numbers, character
       strings, and values of other types.
@@ -2800,7 +2809,7 @@
 
 - slug: hexadecimal
   en:
-    term: "hexadecimal"
+    term: ""hexadecimal""
     def: >
       A base-16 number system. Hexadecimal values are usually written using the digits
       0-9 and the characters A-F in either upper or lower case. Hexadecimal is often
@@ -2810,7 +2819,7 @@
 
 - slug: higher_order_function
   en:
-    term: "higher-order function"
+    term: ""higher-order function""
     def: >
       A function that operates on other functions. For example, the higher-order
       function `map` executes a given function once on each value in a [list](#list).
@@ -2819,7 +2828,7 @@
 
 - slug: hippocratic_license
   en:
-    term: "Hippocratic License"
+    term: ""Hippocratic License""
     def: >
       An ethical software [license](#license) that allows free use for any purpose
       that does not contravene the Universal Declaration of Human Rights.
@@ -2827,7 +2836,7 @@
 
 - slug: histogram
   en:
-    term: "histogram"
+    term: ""histogram""
     def: >
       A graphical representation of the distribution of a set of numeric data, usually
       a vertical bar graph.
@@ -2835,14 +2844,14 @@
 
 - slug: hitchhiker
   en:
-    term: "hitchhiker"
+    term: ""hitchhiker""
     def: >
       Someone who is part of a project but does not actually do any work on it.
 
 
 - slug: home_directory
   en:
-    term: "home directory"
+    term: ""home directory""
     def: >
       A directory that contains a user's files. Each user on a multi-user computer
       will have their own home directory; a personal computer will often only have one
@@ -2853,7 +2862,7 @@
   ref:
     - heterogeneous
   en:
-    term: "homogeneous"
+    term: ""homogeneous""
     def: >
       Containing a single data type. For example, a [vector](#vector) must be homogeneous: its
       values must all be numeric, logical, etc.
@@ -2863,8 +2872,8 @@
   ref:
     - xml
   en:
-    term: "HyperText Markup Language"
-    acronym: "HTML"
+    term: ""HyperText Markup Language""
+    acronym: ""HTML""
     def: >
       The standard [markup language](#markup_language) used for web pages. HTML is
       represented in memory using [DOM](#dom) (Digital Object Model).
@@ -2872,8 +2881,8 @@
 
 - slug: http
   en:
-    term: "HyperText Transfer Protocol"
-    acronym: "HTTP"
+    term: ""HyperText Transfer Protocol""
+    acronym: ""HTTP""
     def: >
       The standard [protocol](#protocol) for data transfer on the World-Wide Web. HTTP
       defines the format of [requests](#http_request) and [responses](#http_response),
@@ -2882,7 +2891,7 @@
 
 - slug: http_header
   en:
-    term: "HTTP header"
+    term: ""HTTP header""
     def: >
       A key-value pair at the top of an [HTTP](#http) [request](#http_request) or
       [response](#http_response) that carries additional information such as the
@@ -2893,7 +2902,7 @@
   ref:
     - http_response
   en:
-    term: "HTTP request"
+    term: ""HTTP request""
     def: >
       A message sent from a [client](#client) to a [server](#server) using the
       [HTTP](#http) [protocol](#protocol) asking for data. A request usually asks for
@@ -2902,7 +2911,7 @@
 
 - slug: http_response
   en:
-    term: "HTTP response"
+    term: ""HTTP response""
     def: >
       A reply sent from a [server](#server) to a [client](#client) using the
       [HTTP](#http) [protocol](#protocol) in response to a [request](#http_request).
@@ -2913,15 +2922,15 @@
   ref:
     - repl
   en:
-    term: "Integrated Development Environment"
-    acronym: "IDE"
+    term: ""Integrated Development Environment""
+    acronym: ""IDE""
     def: >
       An application that helps programmers develop software. IDEs typically have a
       built-in editor, a [console](#console) to execute code immediately, and browsers for
       exploring data structures in memory and files on disk.
   es:
-    term: "Entorno de Desarrollo Integrado"
-    acronym: "EDI"
+    term: ""Entorno de Desarrollo Integrado""
+    acronym: ""EDI""
     def: >
       Una aplicación que ayuda a programadores a desarrollar software. Los EDI
       usualmente tiene un editor incorporado, una consola que ejecuta el código
@@ -2931,7 +2940,7 @@
 
 - slug: import
   en:
-    term: "import"
+    term: ""import""
     def: >
       To bring things from a [module](#module) into a program for use. In most
       languages, a program can only import things that the module explicitly [exports](#export).
@@ -2939,7 +2948,7 @@
 
 - slug: impostor_syndrome
   en:
-    term: "impostor syndrome"
+    term: ""impostor syndrome""
     def: >
       The [false](#false) belief that one's successes are a result of accident or luck rather
       than ability.
@@ -2947,7 +2956,7 @@
 
 - slug: in_place_operator
   en:
-    term: "in-place operator"
+    term: ""in-place operator""
     def: >
       An operator that updates one of its operands. For example, the expression
       `x += 2` uses the in-place operator `+=` to add 2 to the current value of `x` and
@@ -2967,7 +2976,7 @@
     - right_join
     - self_join
   en:
-    term: "inner join"
+    term: ""inner join""
     def: >
       A [join](#join) that returns the combination of rows from two tables, A and B, whose
       [keys](#key) exist in both tables.
@@ -2975,7 +2984,7 @@
 
 - slug: instance
   en:
-    term: "instance"
+    term: ""instance""
     def: >
       An [object](#object) of a particular [class](#class).
 
@@ -2984,14 +2993,14 @@
   ref:
     - unit_test
   en:
-    term: "integration test"
+    term: ""integration test""
     def: >
       A test that checks whether the parts of a system work properly when put together.
 
 
 - slug: interpreted_language
   en:
-    term: "interpreted language"
+    term: ""interpreted language""
     def: >
       A high-level language that is not executed directly by the computer, but instead
       is run by an [interpreter](#interpreter) that translates program instructions
@@ -3000,7 +3009,7 @@
 
 - slug: interpreter
   en:
-    term: "interpreter"
+    term: ""interpreter""
     def: >
       A program whose job it is to run programs written in a high-level [interpreted language](#interpreted_language).
       Interpreters can run interactively, but may also execute commands saved in a file.
@@ -3008,7 +3017,7 @@
 
 - slug: invariant
   en:
-    term: "invariant"
+    term: ""invariant""
     def: >
       Something that is must be [true](#true) at all times inside of a program or during the
       [lifecycle](#lifecycle) of an [object](#object). Invariants are often expressed using [assertions](#assertion).
@@ -3018,7 +3027,7 @@
 
 - slug: iso_date_format
   en:
-    term: "ISO date format"
+    term: ""ISO date format""
     def: >
       An international for formatting dates. While the full standard is complex, the
       most common form is `YYYY-MM-DD`, i.e., a four-digit year, a two-digit month,
@@ -3027,7 +3036,7 @@
 
 - slug: issue
   en:
-    term: "issue"
+    term: ""issue""
     def: >
       A [bug report](#bug_report), feature request, or other to-do item associated
       with a project. Also called a [ticket](#ticket).
@@ -3035,7 +3044,7 @@
 
 - slug: issue_label
   en:
-    term: "label (an issue)"
+    term: ""label (an issue)""
     def: >
       A short textual tag associated with an [issue](#issue) to categorize it. Common
       labels include [`bug`](#bug) and `feature request`.
@@ -3043,7 +3052,7 @@
 
 - slug: issue_tracking_system
   en:
-    term: "issue tracking system"
+    term: ""issue tracking system""
     def: >
       Similar to a [bug tracking system](#bug_tracker) in that it tracks ["issues"](#issue)
       made to a [repository](#repository), usually in the form of [feature
@@ -3054,7 +3063,7 @@
   ref:
     - visitor_pattern
   en:
-    term: "Iterator pattern"
+    term: ""Iterator pattern""
     def: >
       A [design pattern](#design_pattern) in which a temporary [object](#object) or [generator
       function](#generator_function) produces each value from a collection in turn for
@@ -3072,7 +3081,7 @@
     - right_join
     - self_join
   en:
-    term: "join"
+    term: ""join""
     def: >
       One of several operations that combine values from two [tables](#table).
 
@@ -3081,16 +3090,16 @@
   ref:
     - yaml
   en:
-    term: "JavaScript Object Notation"
-    acronym: "JSON"
+    term: ""JavaScript Object Notation""
+    acronym: ""JSON""
     def: >
       A way to represent data by combining basic values like numbers and character
       strings in [lists](#list) and [key/value](#dictionary) structures. The acronym stands for "JavaScript
       Object Notation"; unlike better-defined standards like [XML](#xml), it is
       unencumbered by a syntax for comments or ways to define a [schema](#schema).
   fr:
-    term: "JavaScript Object Notation"
-    acronym: "JSON"
+    term: ""JavaScript Object Notation""
+    acronym: ""JSON""
     def: >
       Un façon de représenter des données textuelles ou numériques en combinant des
       ensembles de paires nom/valeurs et des listes de valeurs. L'acronyme signifie
@@ -3104,7 +3113,7 @@
   ref:
     - clustering
   en:
-    term: "k-means clustering"
+    term: ""k-means clustering""
     def: >
       An [unsupervised_learning](#unsupervised_learning) algorithm that forms *k*
       groups by repeatedly calculating the [centroid](#centroid) of the current groups
@@ -3114,7 +3123,7 @@
 
 - slug: k_nearest_neighbors
   en:
-    term: "k-nearest neighbors"
+    term: ""k-nearest neighbors""
     def: >
       A [classification](#classification) algorithm that classifies data points based
       on their similarity to their *k* nearest neighbours.
@@ -3125,7 +3134,7 @@
     - camel_case
     - pothole_case
   en:
-    term: "kebab case"
+    term: ""kebab case""
     def: >
       A naming convention in which the parts of a name are separated with dashes, as
       in `first-second-third`.
@@ -3133,7 +3142,7 @@
 
 - slug: key
   en:
-    term: "key"
+    term: ""key""
     def: >
       1. A [field](#field) or combination of fields whose value(s) uniquely identify a
       [record](#record) within a [table](#table) or dataset. Keys are often used to
@@ -3147,14 +3156,14 @@
     - named_argument
     - variable_arguments
   en:
-    term: "keyword arguments"
+    term: ""keyword arguments""
     def: >
       Extra (often optional) arguments given to a function as key/value pairs.
 
 
 - slug: latent_variable
   en:
-    term: "latent variable"
+    term: ""latent variable""
     def: >
       A variable that is not observed directly but instead is inferred from the states
       or values of other variables.
@@ -3162,13 +3171,13 @@
 
 - slug: latex
   en:
-    term: "LaTeX"
+    term: ""LaTeX""
     def: >
       A typesetting system for document preparation that uses a specialized [markup language](#markup_language) to define a document structure
       (e.g. headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
       used in academia, in particular for scientific papers and theses in mathematics, physics, engineering, and computer science.
   fr:
-    term: "LaTeX"
+    term: ""LaTeX""
     def: >
       Un système de composition de documents qui utilise un [langage de balisage](#markup_language) pour définir la structure et mise en page
       d'un document, composer des formules mathématiques et gérer citations et références. Le format LaTeX est très utilisé
@@ -3179,7 +3188,7 @@
   ref:
     - short_circuit_test
   en:
-    term: "lazy evaluation"
+    term: ""lazy evaluation""
     def: >
       Delaying evaluation of an expression until the value is actually needed
       or, in the case of a conditional expression, only evaluating as much of
@@ -3197,7 +3206,7 @@
     - right_join
     - self_join
   en:
-    term: "left join"
+    term: ""left join""
     def: >
       A [join](#join) that combines data from two tables, A and B, where [keys](#key) in table
       A match keys in table B, [fields](#field) are concatenated. Where a key in table
@@ -3208,7 +3217,7 @@
 
 - slug: lexical_scoping
   en:
-    term: "lexical scoping"
+    term: ""lexical scoping""
     def: >
       To look up the value associated with a name according to the textual structure
       of a program. Most programming languages use lexical scoping instead of [dynamic
@@ -3217,25 +3226,25 @@
 
 - slug: library
   en:
-    term: "library"
+    term: ""library""
     def: >
       A reusable software [package](#package), also often called a [module](#module).
   pt:
-    term: "biblioteca"
+    term: ""biblioteca""
     def: >
       Um pacote de programas reutilizáveis, também frequentemente referido como um [módulo](#module).
 
 
 - slug: license
   en:
-    term: "license"
+    term: ""license""
     def: >
       A legal document describing how something can be used, and by whom.
 
 
 - slug: lifecycle
   en:
-    term: "lifecycle"
+    term: ""lifecycle""
     def: >
       The steps that something is allowed or required to go through. The lifecycle of
       an [object](#object) runs from its [construction](#constructor) through the
@@ -3246,7 +3255,7 @@
 
 - slug: lift
   en:
-    term: "lift"
+    term: ""lift""
     def: >
       How well a model predicts or [classifies](#classification) things, measured as the ratio of the
       response in the segment identified to the response in the population as a whole.
@@ -3256,12 +3265,12 @@
 
 - slug: line_comment
   en:
-    term: "line comment"
+    term: ""line comment""
     def: >
       A [comment](#comment) in a program that spans part of a single line, as opposed
       to a [block comment](#block_comment) that may span multiple lines.
   pt:
-    term: "comentário de linha"
+    term: ""comentário de linha""
     def: >
       Um [comentário](#comment) em um programa que abrange parte de uma única linha,
       em contraste a um [bloco de comentário](#block_comment) que pode abranger
@@ -3272,7 +3281,7 @@
   ref:
     - logistic_regression
   en:
-    term: "linear regression"
+    term: ""linear regression""
     def: >
       A method for finding the best straight-line fit between two datasets, typically
       by minimizing the squares of the distances between the points and a regression line.
@@ -3280,7 +3289,7 @@
 
 - slug: linter
   en:
-    term: "linter"
+    term: ""linter""
     def: >
       A program that checks for common problems in software, such as violations of
       indentation rules or variable naming conventions. The name comes from the first
@@ -3289,7 +3298,7 @@
 
 - slug: lisp
   en:
-    term: "Lisp"
+    term: ""Lisp""
     def: >
       A family of programming languages that represent programs and data as nested
       lists. Many other programming languages have borrowed ideas from Lisp.
@@ -3297,14 +3306,14 @@
 
 - slug: list
   en:
-    term: "list"
+    term: ""list""
     def: >
       A [vector](#vector) that can contain values of many different ([heterogeneous](#heterogeneous)) types.
 
 
 - slug: list_comprehension
   en:
-    term: "list comprehension"
+    term: ""list comprehension""
     def: >
       In [Python](#python), an expression that creates a new list in place. For
       example, `[2*x for x in values]` creates a new list whose items are the doubles
@@ -3316,11 +3325,11 @@
     - computational_notebook
     - r_markdown
   en:
-    term: "literate programming"
+    term: ""literate programming""
     def: >
       A programming paradigm that mixes prose and code.
   fr:
-    term: "programmation lettrée"
+    term: ""programmation lettrée""
     def: >
       Une approche de la programmation qui mélange langage naturel (prose) et code.
 
@@ -3329,7 +3338,7 @@
   ref:
     - global_installation
   en:
-    term: "local installation"
+    term: ""local installation""
     def: >
       Placing a [package](#package) inside a particular project so that it is only accessible
       within that project.
@@ -3340,11 +3349,11 @@
     - closure
     - global_variable
   en:
-    term: "local variable"
+    term: ""local variable""
     def: >
       A variable defined inside a function which is only visible within that function.
   es:
-    term: "variable local"
+    term: ""variable local""
     def: >
       Una variable definida dentro de una función, por lo que solo es visible dentro
       de ella.
@@ -3352,7 +3361,7 @@
 
 - slug: log
   en:
-    term: "log"
+    term: ""log""
     def: >
       A record of a program's execution containing [messages](#log_message) written
       via a [logging framework](#logging_framework) for later inspection.
@@ -3360,7 +3369,7 @@
 
 - slug: log_message
   en:
-    term: "log message"
+    term: ""log message""
     def: >
       A single entry in a [log](#log) of a program's execution. Log messages are
       usually highly structured so that data (such as the time or the severity) can be
@@ -3369,14 +3378,14 @@
 
 - slug: logging_framework
   en:
-    term: "logging framework"
+    term: ""logging framework""
     def: >
       A software [library](#library) that manages internal reporting for programs.
 
 
 - slug: logging_level
   en:
-    term: "logging level"
+    term: ""logging level""
     def: >
       A setting that controls how much information is generated by a [logging
       framework](#logging_framework). Typical logging levels include `DEBUG`,
@@ -3385,7 +3394,7 @@
 
 - slug: logical_indexing
   en:
-    term: "logical indexing"
+    term: ""logical indexing""
     def: >
       To index a [vector](#vector) or other structure with a vector of [Booleans](#boolean), keeping only the
       values that correspond to [true](#true) values. Also referred to as [masking](#masking).
@@ -3395,7 +3404,7 @@
   ref:
     - linear_regression
   en:
-    term: "logistic regression"
+    term: ""logistic regression""
     def: >
       A method for fitting a model to some data that uses logistic (S-shaped) curves
       instead of straight lines.
@@ -3405,7 +3414,7 @@
   ref:
     - short_identifier_git
   en:
-    term: "long identifier (of commit)"
+    term: ""long identifier (of commit)""
     def: >
       See [full identifier](#full_identifier_git).
 
@@ -3414,7 +3423,7 @@
   ref:
     - short_option
   en:
-    term: "long option"
+    term: ""long option""
     def: >
       A full-word identifier for a [command line argument](#command_line_argument).
       While most common flags are a single letter preceded by a dash, such as `-v`,
@@ -3423,14 +3432,14 @@
 
 - slug: loop_body
   en:
-    term: "loop body"
+    term: ""loop body""
     def: >
       The statement or statements executed by a loop.
 
 
 - slug: machine_learning
   en:
-    term: "machine learning"
+    term: ""machine learning""
     def: >
       The study or use of algorithms whose performance improves as they are given more
       data. Machine learning algorithms often use [training data](#training_data) to
@@ -3440,14 +3449,14 @@
 
 - slug: magic_number
   en:
-    term: "magic number"
+    term: ""magic number""
     def: >
       An unnamed numerical constant that appears in a program without explanation.
 
 
 - slug: make
   en:
-    term: "Make"
+    term: ""Make""
     def: >
       The original [build manager](#build_manager) for Unix, still in daily use after
       more than forty years.
@@ -3455,19 +3464,19 @@
 
 - slug: makefile
   en:
-    term: "Makefile"
+    term: ""Makefile""
     def: >
       A file containing commands for [Make](#make), often actually called `Makefile`.
 
 
 - slug: markdown
   en:
-    term: "Markdown"
+    term: ""Markdown""
     def: >
       A [markup language](#markup_language) with a simple syntax intended as a replacement for [HTML](#html).
       Markdown is often used for README files, and is the basis for [R markdown](#r_markdown).
   fr:
-    term: "Markdown"
+    term: ""Markdown""
     def: >
       Un [langage de balisage](#markup_language) à la syntaxe simple visant à remplacer [HTML](#html).
       Markdown est souvent utilisé dans les fichiers LISEZ MOI (README), et forme la base du
@@ -3479,7 +3488,7 @@
     - bayesian_network
     - monte_carlo
   en:
-    term: "Markov Chain"
+    term: ""Markov Chain""
     def: >
       Any [model](#model) describing a series of events in which the
       probability of each event depends only on the current state, not on the path
@@ -3491,14 +3500,14 @@
     - latex
     - xml
   en:
-    term: "markup language"
+    term: ""markup language""
     def: >
       A set of rules for annotating text to define its meaning or how it should be
       displayed. The markup is usually not displayed, but instead controls how the
       underlying text is interpreted or shown. [Markdown](#markdown) and [HTML](#html)
       are widely-used markup languages for web pages.
   fr:
-    term: "langage de balisage"
+    term: ""langage de balisage""
     def: >
       Un ensemble de règles pour annoter un texte afin d'en définir la structure ou d'en modifier
       l'affichage. Des balises déterminent comment le texte
@@ -3508,7 +3517,7 @@
 
 - slug: marthas_rules
   en:
-    term: "Martha's Rules"
+    term: ""Martha's Rules""
     def: >
       A simple set of rules for making decisions in small groups.
 
@@ -3520,7 +3529,7 @@
   ref:
     - feature_branch
   en:
-    term: "master branch"
+    term: ""master branch""
     def: >
       A dedicated, permanent, central [branch](#branch) which should contain a "ready product".
       After a new feature is developed on a separate branch to avoid breaking the main
@@ -3529,13 +3538,13 @@
 
 - slug: maximum_likelihood_estimation
   en:
-    term: "maximum likelihood estimation"
+    term: ""maximum likelihood estimation""
     def: >
       To choose the [parameters](#parameter) for a [probability
       distribution](#probability_distribution) in order to maximize the likelihood of
       obtaining observed data.
   af:
-    term: "maksimumaanneemlikheidsberaming"
+    term: ""maksimumaanneemlikheidsberaming""
     def: >
       Om die parameters vir 'n [waarskynlikheids verdeling](#probability_distribution)
       te verkry, te maksimeer.
@@ -3546,19 +3555,19 @@
     - median
     - mode
   en:
-    term: "mean"
+    term: ""mean""
     def: >
       The average value of a dataset, more properly known as the [arithmetic
       mean](#arithmetic_mean) to distinguish it from the [geometric](#geometric_mean)
       and [harmonic](#harmonic_mean) means.
   af:
-    term: "gemiddeld"
+    term: ""gemiddeld""
     def: >
       Die gemiddelde waarde van 'n datastel, beter bekend as die
       [rekenkundige gemiddeld](#arithmetic_mean) om dit van die [meetkundige](#geometric_mean)
       en die [harmoniese](#harmonic_mean) gemiddelde te onderskei.
   pt:
-    term: "média"
+    term: ""média""
     def: >
       O valor médio de um conjunto de dados, mais apropriadamente conhecido como
       [média aritmética](#arithmetic_mean) para que seja distinguido da média
@@ -3570,7 +3579,7 @@
     - mean_squared_error
     - root_mean_squared_error
   en:
-    term: "mean absolute error"
+    term: ""mean absolute error""
     def: >
       The average error of all predicted values compared with actual values.
 
@@ -3579,7 +3588,7 @@
   ref:
     - root_mean_squared_error
   en:
-    term: "mean squared error"
+    term: ""mean squared error""
     def: >
       The average of the squares of all the errors of all predicted values compared
       with actual values. Squaring makes larger errors count for more,
@@ -3591,7 +3600,7 @@
   ref:
     - mode
   en:
-    term: "median"
+    term: ""median""
     def: >
       A value separating the upper and lower halves of a sorted dataset. The median
       often gives a better idea of what is typical of the dataset than the
@@ -3599,7 +3608,7 @@
       If the dataset contains an even number of elements, this is the average of the
       two central elements.
   af:
-    term: "mediaan"
+    term: ""mediaan""
     def: >
       'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
       gee dikwels 'n beter idee van wat tipies is vir die datastel as die
@@ -3608,19 +3617,19 @@
 
 - slug: merge_git
   en:
-    term: "merge (Git)"
+    term: ""merge (Git)""
     def: >
       See [Git merge](#git_merge)
 
 
 - slug: method
   en:
-    term: "method"
+    term: ""method""
     def: >
       An implementation of a [generic function](#generic_function) that handles
       objects of a specific class.
   es:
-    term: "método"
+    term: ""método""
     def: >
       Una implementación de una [función genérica](#generic_function) que
       manipula objetos de una clase específica.
@@ -3628,7 +3637,7 @@
 
 - slug: milestone
   en:
-    term: "milestone"
+    term: ""milestone""
     def: >
       A target that a project is trying to meet, often represented as a set of
       [issues](#issue) that all have to be resolved by a certain time.
@@ -3636,7 +3645,7 @@
 
 - slug: mime_type
   en:
-    term: "MIME type"
+    term: ""MIME type""
     def: >
       A standard way to identify the contents of files on the internet. The term is an
       acronym of "multi-purpose Internet mail extension", and MIME types are often
@@ -3646,7 +3655,7 @@
 
 - slug: missing_value
   en:
-    term: "missing value"
+    term: ""missing value""
     def: >
       A special value such as [null](#null) or [NA](#na) used to indicate the absence
       of data. Missing values can signal that data was not collected or that the data
@@ -3656,14 +3665,14 @@
 
 - slug: mit_license
   en:
-    term: "MIT License"
+    term: ""MIT License""
     def: >
       A [license](#license) that allows people to re-use software with no restrictions.
 
 
 - slug: mock_object
   en:
-    term: "mock object"
+    term: ""mock object""
     def: >
       A simplified replacement for part of a program whose behavior is easy to control
       and predict. Mock objects are used in [unit tests](#unit_test) to simulate
@@ -3675,25 +3684,25 @@
     - mean
     - median
   en:
-    term: "mode"
+    term: ""mode""
     def: >
       The value, or values, that occurs most frequently in a dataset.
   af:
-    term: "modus"
+    term: ""modus""
     def: >
       Die waarde wat die meeste in 'n datastel voorkom.
 
 
 - slug: model
   en:
-    term: "model"
+    term: ""model""
     def: >
       A specification of the mathematical relationship between different variables.
 
 
 - slug: module
   en:
-    term: "module"
+    term: ""module""
     def: >
       A reusable software [package](#package), also often called a [library](#library).
 
@@ -3702,14 +3711,14 @@
   ref:
     - markov_chain
   en:
-    term: "Monte Carlo method"
+    term: ""Monte Carlo method""
     def: >
       Any method or algorithm that relies on artificially-injected randomness.
 
 
 - slug: moving_average
   en:
-    term: "moving average"
+    term: ""moving average""
     def: >
       The [mean](#mean) of each set of several consecutive values from [time
       series](#time_series) data.
@@ -3717,7 +3726,7 @@
 
 - slug: multi_threaded
   en:
-    term: "multi-threaded"
+    term: ""multi-threaded""
     def: >
       Capable of performing several operations simultaneously. Multi-threaded programs
       are usually more efficient than [single-threaded](#single_threaded) ones, but
@@ -3726,7 +3735,7 @@
 
 - slug: mutation
   en:
-    term: "mutation"
+    term: ""mutation""
     def: >
       Changing data in place, such as modifying an element of an array or adding a
       record to a database.
@@ -3734,7 +3743,7 @@
 
 - slug: n_gram
   en:
-    term: "n-gram"
+    term: ""n-gram""
     def: >
       A sequence of $N$ items, typically words in natural language. For example, a
       trigram is a sequence of three words. N-grams are often used as input in
@@ -3745,11 +3754,11 @@
   ref:
     - "null"
   en:
-    term: "NA"
+    term: ""NA""
     def: >
       A special value used to represent data that is not available.
   ar:
-    term: "لاشيء"
+    term: ""لاشيء""
     def: >
       هو رمز مميز يٌمثِل حرفاً بلا قيمة أو قيمة مفقودة أي انه يرمز إلى عدم وجود أي
       قيمة على الإطلاق.
@@ -3757,7 +3766,7 @@
 
 - slug: naive_bayes_classifier
   en:
-    term: "naive Bayes classifier"
+    term: ""naive Bayes classifier""
     def: >
       Any [classification](#classification) algorithm based on [Bayes'
       Theorem](#bayes_theorem) that assumes every [feature](#feature_data) being
@@ -3769,7 +3778,7 @@
     - call_stack
     - fully_qualified_name
   en:
-    term: "name collision"
+    term: ""name collision""
     def: >
       The ambiguity that arises when two or more things in a program that have the
       same name are active at the same time. Most languages use
@@ -3781,7 +3790,7 @@
     - keyword_argument
     - variable_arguments
   en:
-    term: "named argument"
+    term: ""named argument""
     def: >
       A function [parameter](#parameter) that is given a value by explicitly naming it in a function call.
 
@@ -3791,7 +3800,7 @@
     - name_collision
     - scope
   en:
-    term: "namespace"
+    term: ""namespace""
     def: >
       A collection of names in a program that exists in isolation from other
       namespaces. Each function, [object](#object), [class](#class), or
@@ -3802,14 +3811,14 @@
 
 - slug: nano_editor
   en:
-    term: "Nano (editor)"
+    term: ""Nano (editor)""
     def: >
       A very simple text editor found on most Unix systems.
 
 
 - slug: negative_selection
   en:
-    term: "negative selection"
+    term: ""negative selection""
     def: >
       To specify the [elements](#element) of a [vector](#vector) or other data structure that are not desired
       by negating their indices.
@@ -3821,7 +3830,7 @@
     - backpropagation
     - perceptron
   en:
-    term: "neural network"
+    term: ""neural network""
     def: >
       One of a large family of algorithms for identifying patterns in data by
       mimicking the way neurons interact. A neural network consists of one or more
@@ -3832,15 +3841,15 @@
 
 - slug: nlp
   en:
-    term: "natural language processing"
-    acronym: "NLP"
+    term: ""natural language processing""
+    acronym: ""NLP""
     def: >
       See [computational linguistics](#computational_linguistics).
 
 
 - slug: node
   en:
-    term: "node"
+    term: ""node""
     def: >
       An element of a [graph](#graph) that is connected to other nodes by
       [edges](#edge). Nodes typically have data associated with them, such as names or weights.
@@ -3848,7 +3857,7 @@
 
 - slug: non_blocking_execution
   en:
-    term: "non-blocking execution"
+    term: ""non-blocking execution""
     def: >
       To allow a program to continue running while an operation is in progress. For
       example, many systems support non-blocking execution for file I/O so that the
@@ -3859,7 +3868,7 @@
 
 - slug: normal_distribution
   en:
-    term: "normal distribution"
+    term: ""normal distribution""
     def: >
       A continuous random distribution with a symmetric bell-curve shape. As datasets
       get larger, some of their most important statistical properties can be modeled
@@ -3868,20 +3877,20 @@
 
 - slug: nosql_database
   en:
-    term: "NoSQL database"
+    term: ""NoSQL database""
     def: >
       Any database that does not use the [relational](#relational_database) model. The name comes from
       the fact that such databases do not use [SQL](#sql) as a query language.
   fr:
-    term: "base de données NoSQL"
+    term: ""base de données NoSQL""
     def: >
       Une base de données qui ne suit pas le modèle [relationnel](#relational_database), ainsi nommée car
       n'utilisant en principe pas le langage de requête [SQL](#sql).
 
 
-- slug: "null"
+- slug: null
   en:
-    term: "null"
+    term: ""null""
     def: >
       A special value used to represent a missing object. Null is not the same as NA,
       and neither is it the same as an [empty vector](#empty_vector).
@@ -3891,13 +3900,13 @@
   ref:
     - p_value
   en:
-    term: "null hypothesis"
+    term: ""null hypothesis""
     def: >
       The claim that any patterns seen in data are entirely due to chance. Other
       claims (e.g., "X causes Y") must be much more likely than the null hypothesis in
       order to be substantiated.
   pt:
-    term: "hipótese nula"
+    term: ""hipótese nula""
     def: >
       A afirmação de que quaisquer padrões observados nos dados foram gerados
       inteiramente ao acaso. Outras afirmações (por exemplo, "X causa Y") devem ser
@@ -3910,20 +3919,20 @@
     - ternary_expression
     - unary_expression
   en:
-    term: "nullary expression"
+    term: ""nullary expression""
     def: >
       An "expression" with no arguments, such as the value 3.
 
 
 - slug: object
   en:
-    term: "object"
+    term: ""object""
     def: >
       In [object-oriented programming](#oop), a structure that contains the data
       for a specific instance of a [class](#class). The operations the object is
       capable of are defined by the class's [methods](#method).
   es:
-    term: "objeto"
+    term: ""objeto""
     def: >
       En [programación orientada a objetos](#oop), es una estructura que contiene
       los datos de una instancia específica de una [clase](#class). Las
@@ -3935,7 +3944,7 @@
   ref:
     - gradient_descent
   en:
-    term: "objective function"
+    term: ""objective function""
     def: >
       A function of one or more variables used to measure or compare the goodness of
       different solutions in an optimization problem.
@@ -3943,14 +3952,14 @@
 
 - slug: observation
   en:
-    term: "observation"
+    term: ""observation""
     def: >
       A value or property of a specific member of a population.
 
 
 - slug: off_by_one_error
   en:
-    term: "off-by-one error"
+    term: ""off-by-one error""
     def: >
       A common error in programming in which the program refers to element `i` of a
       structure when it should refer to element `i-1` or `i+1`, or processes `N`
@@ -3959,22 +3968,22 @@
 
 - slug: oop
   en:
-    term: "object-oriented programming"
-    acronym: "OOP"
+    term: ""object-oriented programming""
+    acronym: ""OOP""
     def: >
       A style of programming in which functions and data are bound together in
       [objects](#object) that only interact with each other through well-defined
       interfaces.
   es:
-    term: "programación orientada a objetos"
-    acronym: "POO"
+    term: ""programación orientada a objetos""
+    acronym: ""POO""
     def: >
       Un paradigma de programación en el cual los datos (atributos) y funciones
       (métodos) se agrupan en objetos que interactúan entre sí a través de
       interfaces bien definidas.
   pt:
-    term: "programação orientada a objetos"
-    acronym: "POO"
+    term: ""programação orientada a objetos""
+    acronym: ""POO""
     def: >
       Um paradigma de programação no qual dados (atributos) e funções (métodos)
       são encapsulados em objetos que interagem entre si por meio de
@@ -3983,7 +3992,7 @@
 
 - slug: open_license
   en:
-    term: "open license"
+    term: ""open license""
     def: >
       A [license](#license) that permits general re-use, such as the [MIT
       License](#mit_license) or [GPL](#gpl) for software and [CC-BY](#cc_by) or
@@ -3992,14 +4001,14 @@
 
 - slug: open_science
   en:
-    term: "open science"
+    term: ""open science""
     def: >
       A generic term for making scientific software, data, and publications generally available.
 
 
 - slug: operating_system
   en:
-    term: "operating system"
+    term: ""operating system""
     def: >
       A program that provides a standard interface to whatever hardware it is running
       on. Theoretically, any program that only interacts with the operating system
@@ -4008,7 +4017,7 @@
 
 - slug: optional_parameter
   en:
-    term: "optional_parameter"
+    term: ""optional_parameter""
     def: >
       A [parameter](#parameter) that does not have to be given a value when a function
       is called. Most programming languages require programmers to define [default
@@ -4019,7 +4028,7 @@
 
 - slug: orcid
   en:
-    term: "ORCID"
+    term: ""ORCID""
     def: >
       An Open Researcher and Contributor ID that uniquely and persistently identifies
       an author of scholarly works. ORCIDs are for people what [DOIs](#doi) are for documents.
@@ -4027,7 +4036,7 @@
 
 - slug: orthogonality
   en:
-    term: "orthogonality"
+    term: ""orthogonality""
     def: >
       The ability to use various features of software in any order or combination. Orthogonal
       systems tend to be easier to understand, since features can be combined without
@@ -4038,7 +4047,7 @@
   ref:
     - overfitting
   en:
-    term: "outlier"
+    term: ""outlier""
     def: >
       Extreme values that might be measurement or recording errors, or might actually
       be rare events. Outliers are sometimes ignored when doing statistics, or handled
@@ -4049,7 +4058,7 @@
   ref:
     - outlier
   en:
-    term: "overfitting"
+    term: ""overfitting""
     def: >
       Fitting a [model](#model) so closely to one dataset that it does not generalize
       to others.
@@ -4057,7 +4066,7 @@
 
 - slug: p_value
   en:
-    term: "p value"
+    term: ""p value""
     def: >
       The probability of obtaining a result at least as strong as the one observed if
       the [null_hypothesis](#null_hypothesis) is [true](#true) (i.e., if variation is purely
@@ -4067,7 +4076,7 @@
 
 - slug: package
   en:
-    term: "package"
+    term: ""package""
     def: >
       A collection of code, data, and documentation that can be distributed and
       re-used. Also referred to in some languages as a [library](#library) or [module](#module).
@@ -4075,7 +4084,7 @@
 
 - slug: package_manager
   en:
-    term: "package manager"
+    term: ""package manager""
     def: >
       A program that does its best to keep track of the different software
       installed on a computer and their dependencies on one another.
@@ -4083,14 +4092,14 @@
 
 - slug: pager
   en:
-    term: "pager"
+    term: ""pager""
     def: >
       A program that displays a few lines of text at a time.
 
 
 - slug: parameter
   en:
-    term: "parameter"
+    term: ""parameter""
     def: >
       A variable specified in a function definition whose value is passed to the function
       when the function is called. Parameters and arguments are distinct, but related concepts.
@@ -4099,17 +4108,17 @@
 
 - slug: parent_class
   en:
-    term: "parent class"
+    term: ""parent class""
     def: >
       In [object-oriented programming](#oop), the [class](#class) from which a sub
       class (called the [child class](#child_class)) is derived.
   es:
-    term: "superclase"
+    term: ""superclase""
     def: >
       En [programación orientada a objetos](#oop), es la clase a partir de
       la cual se derivan otras clases (denominadas [subclases](#child_class)).
   pt:
-    term: "classe base"
+    term: ""classe base""
     def: >
       Em [programação orientada a objetos](#oop), a classe a partir da qual outra
       classe (chamada [classe derivada](#child_class)) é produzida.
@@ -4119,7 +4128,7 @@
   ref:
     - subdirectory
   en:
-    term: "parent directory"
+    term: ""parent directory""
     def: >
       The [directory](#directory) that contains another directory of interest. Going from a
       directory to its parent, then its parent, and so on eventually leads to the
@@ -4128,7 +4137,7 @@
 
 - slug: parent_tree
   en:
-    term: "parent (in a tree)"
+    term: ""parent (in a tree)""
     def: >
       A [node](#node) in a [tree](#node) that is above another node (call a
       [child](#child_tree)). Every node in a tree except the [root node](#root_tree)
@@ -4137,7 +4146,7 @@
 
 - slug: parse
   en:
-    term: "parse"
+    term: ""parse""
     def: >
       To translate the text of a program or web page into a data structure in memory
       that the program can then manipulate.
@@ -4147,14 +4156,14 @@
   ref:
     - fail_test
   en:
-    term: "pass (a test)"
+    term: ""pass (a test)""
     def: >
       A test passes if the [actual result](#actual_result) matches the [expected result](#expected_result).
 
 
 - slug: patch
   en:
-    term: "patch"
+    term: ""patch""
     def: >
       A single file containing a set of changes to a set of files, separated by markers
       that indicate where each individual change should be applied.
@@ -4165,7 +4174,7 @@
     - absolute_path
     - relative_path
   en:
-    term: "path (in filesystem)"
+    term: ""path (in filesystem)""
     def: >
       A [string](#string) that specifies a location in a [filesystem](#filesystem). In Unix, the
       [directories](#directory) in a path are joined using `/`.
@@ -4173,7 +4182,7 @@
 
 - slug: pattern_rule
   en:
-    term: "pattern rule"
+    term: ""pattern rule""
     def: >
       A generic [build rule](#build_rule) that describes how to update any file whose
       name matches a pattern. Pattern rules often use [automatic
@@ -4182,14 +4191,14 @@
 
 - slug: peanuts
   en:
-    term: "Peanuts"
+    term: ""Peanuts""
     def: >
       An American comic strip by Charles M. Schulz which has inspired the names of [R](#r_language) versions.
 
 
 - slug: perceptron
   en:
-    term: "perceptron"
+    term: ""perceptron""
     def: >
       The simplest kind of [neural network])(#neural_network), which approximates a
       single neuron with _N_ binary inputs by computing a weighted sum of its inputs and
@@ -4198,14 +4207,14 @@
 
 - slug: permalink
   en:
-    term: "permalink"
+    term: ""permalink""
     def: >
       Short for "permanent link", a URL that is intended to last forever.
 
 
 - slug: phony_target
   en:
-    term: "phony target"
+    term: ""phony target""
     def: >
       A [build target](#build_target) that does not correspond to an actual file.
       Phony targets are often used to store commonly-used commands in a [Makefile](#makefile).
@@ -4213,21 +4222,21 @@
 
 - slug: pipe_operator
   en:
-    term: "pipe operator"
+    term: ""pipe operator""
     def: >
       The `%>%` used to make the output of one function the input of the next.
 
 
 - slug: pipe_shell
   en:
-    term: "pipe (in the Unix shell)"
+    term: ""pipe (in the Unix shell)""
     def: >
       The `|` used to make the output of one command the input of the next.
 
 
 - slug: pivot_table
   en:
-    term: "pivot table"
+    term: ""pivot table""
     def: >
       A technique for summarizing tabular data in which each cell represents the sum,
       average, or other function of the subset of the original data identified by the
@@ -4236,26 +4245,26 @@
 
 - slug: plus_one
   de:
-    term: "+1"
+    term: ""+1""
     def: >
       Eine Zustimmung zu etwas.
   en:
-    term: "+1"
+    term: ""+1""
     def: >
       A vote in favor of something.
   fr:
-    term: "+1"
+    term: ""+1""
     def: >
       Un vote en faveur de quelque chose.
   es:
-    term: "+1"
+    term: ""+1""
     def: >
       Un voto a favor de alguna cosa.
 
 
 - slug: poisson_distribution
   en:
-    term: "Poisson distribution"
+    term: ""Poisson distribution""
     def: >
       A [discrete random distribution](#discrete_random_variable) that expresses the
       probability of $N$ events occurring in a fixed time interval if the events occur
@@ -4267,7 +4276,7 @@
     - keyword_argument
     - named_argument
   en:
-    term: "positional argument"
+    term: ""positional argument""
     def: >
       An argument to a function that gets its value according to its place in the
       function's definition, as opposed to a named argument that is
@@ -4282,7 +4291,7 @@
     - camel_case
     - kebab_case
   en:
-    term: "pothole case"
+    term: ""pothole case""
     def: >
       A naming style that separates the parts of a name with underscores, as in `first_second_third`.
 
@@ -4291,7 +4300,7 @@
   ref:
     - dependency
   en:
-    term: "prerequisite"
+    term: ""prerequisite""
     def: >
       Something that a [build target](#build_target) depends on.
 
@@ -4300,8 +4309,8 @@
   ref:
     - dimension_reduction
   en:
-    term: "principal component analysis"
-    acronym: "PCA"
+    term: ""principal component analysis""
+    acronym: ""PCA""
     def: >
       An algorithm that find the axis along which data varies most, then the axis that
       accounts for the largest part of the remaining variation, and so on.
@@ -4309,7 +4318,7 @@
 
 - slug: prior_distribution
   en:
-    term: "prior distribution"
+    term: ""prior distribution""
     def: >
       The [probability distribution](#probability_distribution) that is assumed as a
       starting point when using [Bayes' Theorem](#bayes_theorem) and used to construct
@@ -4320,15 +4329,15 @@
   ref:
     - seed
   en:
-    term: "pseudo-random number generator"
-    acronym: "PRNG"
+    term: ""pseudo-random number generator""
+    acronym: ""PRNG""
     def: >
       A function that can generate [pseudo-random numbers](#pseudo_random_number).
 
 
 - slug: probability_distribution
   en:
-    term: "probability distribution"
+    term: ""probability distribution""
     def: >
       A mathematical description of all possible outcomes of a random event, and the
       probability of each occurring.
@@ -4336,7 +4345,7 @@
 
 - slug: procedural_programming
   en:
-    term: "procedural programming"
+    term: ""procedural programming""
     def: >
       A style of programming in which functions operate on data that is passed into
       them. The term is used in contrast to other programming styles, such as
@@ -4345,7 +4354,7 @@
 
 - slug: process
   en:
-    term: "process"
+    term: ""process""
     def: >
       An [operating system](#operating_system)'s representation of a running program.
       A process typically has some memory, the identity of the user who is running it,
@@ -4354,14 +4363,14 @@
 
 - slug: product_manager
   en:
-    term: "product manager"
+    term: ""product manager""
     def: >
       The person responsible for defining what features a product should have.
 
 
 - slug: production_code
   en:
-    term: "production code"
+    term: ""production code""
     def: >
       Software that is delivered to an end user. The term is used to distinguish such
       code from test code, deployment infrastructure, and everything else that
@@ -4370,7 +4379,7 @@
 
 - slug: project_manager
   en:
-    term: "project manager"
+    term: ""project manager""
     def: >
       The person responsible for ensuring that a project moves forward.
 
@@ -4379,7 +4388,7 @@
   ref:
     - continuation_prompt
   en:
-    term: "prompt"
+    term: ""prompt""
     def: >
       The text printed by an [REPL](#repl) or [shell](#shell) that indicates it is
       ready to accept another command. The default prompt in the Unix shell is usually
@@ -4388,7 +4397,7 @@
 
 - slug: protocol
   en:
-    term: "protocol"
+    term: ""protocol""
     def: >
       Any standard specifying how two pieces of software interact. A network protocol
       such as [HTTP](#http) defines the messages that [clients](#client) and
@@ -4399,14 +4408,14 @@
 
 - slug: provenance
   en:
-    term: "provenance"
+    term: ""provenance""
     def: >
       A record of where data originally came from and what was done to process it.
 
 
 - slug: pseudo_random_number
   en:
-    term: "pseudo-random number"
+    term: ""pseudo-random number""
     def: >
       A value generated in a repeatable way that resembles the [true](#true) randomness of the
       universe well enough to fool observers.
@@ -4414,8 +4423,8 @@
 
 - slug: psf
   en:
-    term: "Python Software Foundation"
-    acronym: "PSF"
+    term: ""Python Software Foundation""
+    acronym: ""PSF""
     def: >
       A non-profit organization that oversees and promotes the development and use of [Python](#python).
 
@@ -4424,7 +4433,7 @@
   ref:
     - push_indexing
   en:
-    term: "pull indexing"
+    term: ""pull indexing""
     def: >
       Vectorized indexing in which the value at location `i` in the index [vector](#vector)
       specifies which [element](#element) of the source vector is being pulled into that location
@@ -4433,7 +4442,7 @@
 
 - slug: pull_request
   en:
-    term: "pull request"
+    term: ""pull request""
     def: >
       The request to merge a new feature or correction created on a user's [fork](#fork) of a
       [Git](#git) [repository](#repository)repository into the [upstream repository](#upstream_repository).
@@ -4445,7 +4454,7 @@
   ref:
     - pull_indexing
   en:
-    term: "push indexing"
+    term: ""push indexing""
     def: >
       Vectorized indexing in which the value at location `i` in the index [vector](#vector)
       specifies an [element](#element) of the result vector that gets the corresponding element of
@@ -4455,7 +4464,7 @@
 
 - slug: python
   en:
-    term: "Python"
+    term: ""Python""
     def: >
       A popular interpreted open-source programming language that relies on
       indentation to define control structure.
@@ -4463,7 +4472,7 @@
 
 - slug: quantile
   en:
-    term: "quantile"
+    term: ""quantile""
     def: >
       If a set of sorted values are divided into groups of each size, each group is
       called a quantile. For example, if there are five groups, each is called a
@@ -4473,7 +4482,7 @@
 
 - slug: query_string
   en:
-    term: "query string"
+    term: ""query string""
     def: >
       The portion of a [URL](#url) after the quesiton mark `?` that specifies extra
       parameters for the [HTTP request](#http_request) as name-value pairs.
@@ -4481,21 +4490,21 @@
 
 - slug: quosure
   en:
-    term: "quosure"
+    term: ""quosure""
     def: >
       A data structure containing an unevaluated expression and its environment.
 
 
 - slug: quoting_function
   en:
-    term: "quoting function"
+    term: ""quoting function""
     def: >
       A function that is passed expressions rather than the values of those expressions.
 
 
 - slug: r_consortium
   en:
-    term: "R Consortium"
+    term: ""R Consortium""
     def: >
       A group that supports the worldwide community of users, maintainers and
       developers of [R](#r_language). Its members include leading institutions and
@@ -4504,7 +4513,7 @@
 
 - slug: r_foundation
   en:
-    term: "R Foundation"
+    term: ""R Foundation""
     def: >
       A non-profit founded by the R development core team providing support for [R](#r_language). It
       is a member of the [R Consortium](#r_consortium).
@@ -4512,7 +4521,7 @@
 
 - slug: r_hub
   en:
-    term: "R Hub"
+    term: ""R Hub""
     def: >
       A free platform available to check an [R](#r_language) [package](#package) on several different platforms
       in preparation for the CRAN submission process.
@@ -4520,15 +4529,15 @@
 
 - slug: r_language
   en:
-    term: "R (programming language)"
+    term: ""R (programming language)""
     def: >
       A popular open-source programming language used primarily for data science.
   fr:
-    term: "R (langage de programmation)"
+    term: ""R (langage de programmation)""
     def: >
       Un langage de programmation et logiciel libre principalement utilisé en statistique et en science des données.
   pt:
-    term: "R (linguagem de programação)"
+    term: ""R (linguagem de programação)""
     def: >
       Uma linguagem de programação de código aberto usada principalmente para ciência de dados.
 
@@ -4538,17 +4547,17 @@
     - computational_notebook
     - literate_programming
   en:
-    term: "R Markdown"
+    term: ""R Markdown""
     def: >
       A dialect of [Markdown](#markdown) that allows authors to mix prose and code (usually written in
       [R](#r_language)) in a single document.
   es:
-    term: "R Markdown"
+    term: ""R Markdown""
     def: >
       Un dialecto de [Markdown](#markdown) que permite a sus autores mezclar prosa y
       código (usualmente escrito en [R](#r_language)) en un mismo documento.
   fr:
-    term: "R Markdown"
+    term: ""R Markdown""
     def: >
       Un dialecte de [Markdown](#markdown) qui permet à ses auteurs de mélanger langage naturel et code
       (habituellement écrit en langage [R](#r_language)) dans un même document.
@@ -4559,7 +4568,7 @@
   ref:
     - throw_exception
   en:
-    term: "raise (an exception)"
+    term: ""raise (an exception)""
     def: >
       To signal that something unexpected or unusual has happened in a program by
       creating an [exception](#exception) and handing it to the [error-handling](#error_handling) system,
@@ -4569,7 +4578,7 @@
 
 - slug: random_forests
   en:
-    term: "random forests"
+    term: ""random forests""
     def: >
       An algorithm used for regression or [classification](#classification) that uses a collection of
       [decision trees](#decision_tree), called a forest. Each tree votes for a classification, and the
@@ -4578,44 +4587,45 @@
 
 - slug: raster_image
   en:
-    term: "raster image"
+    term: ""raster image""
     def: >
       An image stored as a matrix of pixels.
 
 
 - slug: reactive_programming
   en:
-    term: "reactive programming"
+    term: ""reactive programming""
     def: >
       A style of programming in which actions are triggered by external events.
 
 
 - slug: reactive_variable
   en:
-    term: "reactive variable"
+    term: ""reactive variable""
     def: >
       A variable whose value is automatically updated when some other value or values
       change. Reactive variables are used extensively in [Shiny](#shiny).
+
 
 - slug: readme
   ref:
     - markdown
     - vignette
   en:
-    term: "README"
+    term: ""README""
     def: >
       A plain text file containing important information about a project or software package.
 
 
 - slug: record
   en:
-    term: "record"
+    term: ""record""
     def: >
       A group of related values that are stored together. A record may be represented
       as a [tuple](#tuple) or as a row in a [table](#table); in the latter case, every
       record in the table has the same [fields](#field).
   fr:
-    term: "entrée"
+    term: ""entrée""
     def: >
       Un groupe de valeurs liées qui sont enregistrées ensemble. Une entrée peut être
       représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
@@ -4624,12 +4634,12 @@
 
 - slug: recursion
   en:
-    term: "recursion"
+    term: ""recursion""
     def: >
       Calling a function from within a call to that function, or defining a term using
       a simpler version of the same term.
   fr:
-    term: "récursion"
+    term: ""récursion""
     def: >
       Faire appel à une fonction au sein de cette même fonction, ou définir un terme
       en utilisant une version simplifiée du même terme.
@@ -4637,12 +4647,12 @@
 
 - slug: recycle
   en:
-    term: "recycle"
+    term: ""recycle""
     def: >
       To re-use values from a shorter [vector](#vector) in order to generate a sequence of the
       same length as a longer one. In [Python](#python) NumPy, this is called broadcasting.
   es:
-    term: "reciclar"
+    term: ""reciclar""
     def: >
       Reutilizar valores de un vector más corto con el fin de generar una secuencia
       del mismo largo que el vector más largo.
@@ -4650,33 +4660,33 @@
 
 - slug: redirection
   en:
-    term: "redirection"
+    term: ""redirection""
     def: >
       To send a request for a web page or web service to a different page or service.
 
 
 - slug: refactoring
   en:
-    term: "refactoring"
+    term: ""refactoring""
     def: >
       Reorganizing software without changing its behavior.
 
 
 - slug: regression_testing
   en:
-    term: "regression testing"
+    term: ""regression testing""
     def: >
       Testing software to ensure that things which used to work have not been broken.
 
 
 - slug: regular_expression
   en:
-    term: "regular expression"
+    term: ""regular expression""
     def: >
       A pattern for matching text, written as text itself. Regular expressions are
       sometimes called "regexp", "regex", or "RE", and are powerful tools for working with text.
   es:
-    term: "expresión regular"
+    term: ""expresión regular""
     def: >
       Un patrón para buscar coincidencias en texto, que están a su vez escritas como
       texto. Las expresiones regulares a veces son llamadas "regexp", "regex", o "RE",
@@ -4688,7 +4698,7 @@
     - supervised_learning
     - unsupervised_learning
   en:
-    term: "reinforcement learning"
+    term: ""reinforcement learning""
     def: >
       Any [machine learning](#machine_learning) algorithm which is not given specific
       goals to meet, but instead is given feedback on whether or not it is making progress.
@@ -4698,18 +4708,18 @@
   ref:
     - sql
   en:
-    term: "relational database"
+    term: ""relational database""
     def: >
       A database that organizes information into [tables](#table), each of which has a fixed set
       of named [fields](#field) (shown as columns) and a variable number of [records](#record) (shown as rows).
   es:
-    term: "base de datos relacional"
+    term: ""base de datos relacional""
     def: >
       Una base de datos que organiza la información en [tablas](#table), cada una de las cuales
       tiene un set fijo de [campos](#field) con nombre (que se muestran como columnas) y un
       número variable de [registros](#record) (que se muestran como filas).
   fr:
-    term: "base de données relationnelle"
+    term: ""base de données relationnelle""
     def: >
       Une base de données dont le contenu est organisé sous forme de [tables](#table),
       chacune avec un ensemble déterminé de [champs](#field) (représentés sous forme de colonnes)
@@ -4718,20 +4728,20 @@
 
 - slug: relative_error
   en:
-    term: "relative error"
+    term: ""relative error""
     def: >
       The absolute value of the difference between the actual and correct value
       divided by the correct value. For example, if the actual value is 9 and the
       correct value is 10, the relative error is 0.1. Relative error is usually more
       useful than [absolute error](#absolute_error).
   pt:
-    term: "erro relativo"
+    term: ""erro relativo""
     def: >
       O valor absoluto da diferença entre um valor observado e o valor correto,
       dividido pelo vaor correto. Por exemplo, se o valor observado é 9 e o correto é
       10, o erro relativo é 0.1. Erro relativo é normalmente mais útil do que o [erro absoluto](#absolute_error).
   fr:
-    term: "erreur relative"
+    term: ""erreur relative""
     def: >
       La valeur absolue de la différence entre la valeur observée et la valeur correcte,
       divisée par la valeur désirée. Par exemple, si la valeur observée est 9 et la valeur
@@ -4743,19 +4753,19 @@
   ref:
     - absolute_path
   en:
-    term: "relative path"
+    term: ""relative path""
     def: >
       A path whose destination is interpreted relative to some other location, such as
       the [current working directory](#current_working_directory). A relative path is
       the equivalent of giving directions using terms like "straight" and "left".
   pt:
-    term: "caminho relativo"
+    term: ""caminho relativo""
     def: >
       Um caminho cujo destino é interpretado de maneira relativa a outro local, como o
       [diretório de trabalho](#current_working_directory). Um caminho relativo é o
       equivalente a indicar um destino com termos como "siga em frente" e "vire a esquerda".
   fr:
-    term: "chemin d'accès relatif"
+    term: ""chemin d'accès relatif""
     def: >
       Un chemin d'accès dont la destination est définie relativement à un autre emplacement,
       par exemple le [répertoire de travail actuel](#current_working_directory). Utiliser
@@ -4765,12 +4775,12 @@
 
 - slug: relative_row_number
   en:
-    term: "relative row number"
+    term: ""relative row number""
     def: >
       The index of a row in a displayed portion of a table, which may or may not be
       the same as the [absolute row number](#absolute_row_number) within the table.
   pt:
-    term: "número de linha relativo"
+    term: ""número de linha relativo""
     def: >
       O índice de uma linha em uma parte da tabela em exibição, que pode ou não ser
       igual ao [número de linha absoluto](#absolute_row_number) na tabela.
@@ -4778,7 +4788,7 @@
 
 - slug: remote_login
   en:
-    term: "remote login"
+    term: ""remote login""
     def: >
       Starting an interactive session on one computer from another computer, e.g., by
       using [SSH](#ssh).
@@ -4786,7 +4796,7 @@
 
 - slug: remote_repository
   en:
-    term: "remote repository"
+    term: ""remote repository""
     def: >
       A [repository](#repository) located on another computer. Tools such as [Git](#git) are
       designed to synchronize changes between local and remote
@@ -4797,8 +4807,8 @@
   ref:
     - ide
   en:
-    term: "read-eval-print loop"
-    acronym: "REPL"
+    term: ""read-eval-print loop""
+    acronym: ""REPL""
     def: >
       An interactive program that reads a command typed in by a user, executes it,
       prints the result, and then waits patiently for the next command. REPLs are
@@ -4810,28 +4820,29 @@
     - git
     - github
   en:
-    term: "repository"
+    term: ""repository""
     def: >
       A place where a [version control system](#version_control_system) stores the
       files that make up a project and the metadata that describes their history.
   es:
-    term: "repositorio"
+    term: ""repositorio""
     def: >
       Lugar en el que un [sistema de control de versión](#version_control_system)
       guarda los archivos que conforman un proyecto y los metadatos que describen su historia.
   pt:
-    term: "repositório"
+    term: ""repositório""
     def: >
       Um local onde um [sistema de controle de versão](#version_control_system)
       armazena os arquivos que compõem um projeto e os metadados que descrevem sua história.
   ja:
-    term: "リポジトリ"
+    term: ""リポジトリ""
     def: >
        [バージョン管理システム](#version_control_system)において、管理対象となるプロジェクトを構成するファイルとその履歴を説明するメタデータを保存する場所。
 
+
 - slug: reprex
   en:
-    term: "reprex"
+    term: ""reprex""
     def: >
       A reproducible example. When asking questions about coding problems online or
       filing issues on [GitHub](#github), you should always include a reprex so others can
@@ -4841,20 +4852,20 @@
 
 - slug: reproducible_example
   en:
-    term: "reproducible example"
+    term: ""reproducible example""
     def: >
       See [reprex](#reprex).
 
 
 - slug: reproducible_research
   en:
-    term: "reproducible research"
+    term: ""reproducible research""
     def: >
       The practice of describing and documenting research results in such a way that
       another researcher or person can re-run the analysis code on the same data to
       obtain the same result.
   pt:
-    term: "pesquisa reprodutível"
+    term: ""pesquisa reprodutível""
     def: >
       A prática de escrever e documentar resultados de pesquisa de forma que outras
       pessoas pesquisadoras possam executar novamente o código de análise com os
@@ -4865,15 +4876,15 @@
   ref:
     - markdown
   en:
-    term: "reStructured Text"
-    acronym: "reST"
+    term: ""reStructured Text""
+    acronym: ""reST""
     def: >
       A plaintext [markup](#markup_language) format used primarily in [Python](#python) documentation.
 
 
 - slug: revision
   en:
-    term: "revision"
+    term: ""revision""
     def: >
       See [commit](#commit).
 
@@ -4888,7 +4899,7 @@
     - right_join
     - self_join
   en:
-    term: "right join"
+    term: ""right join""
     def: >
       A [join](#join) that combines data from two tables, A and B. Where [keys](#key) in table
       A match keys in table B, [fields](#field) are concatenated. Where a key in table
@@ -4899,7 +4910,7 @@
 
 - slug: root_directory
   en:
-    term: "root directory"
+    term: ""root directory""
     def: >
       The [directory](#directory) that contains everything else, either directly or indirectly. The root
       directory is written `/` (a bare forward slash).
@@ -4909,8 +4920,8 @@
   ref:
     - mean_absolute_error
   en:
-    term: "root mean squared error"
-    acronym: "RMSE"
+    term: ""root mean squared error""
+    acronym: ""RMSE""
     def: >
       The square root of the [mean squared error](#mean_squared_error). Like the
       [standard deviation](#standard_deviation), it is in the same units as the
@@ -4919,7 +4930,7 @@
 
 - slug: root_tree
   en:
-    term: "root (in a tree)"
+    term: ""root (in a tree)""
     def: >
       The [node](#node) in a [tree](#tree) of which all other nodes are direct or indirect
       [children](#child_tree), or equivalently the only node in the tree that has no [parent](#parent_tree).
@@ -4927,7 +4938,7 @@
 
 - slug: rotating_file
   en:
-    term: "rotating file"
+    term: ""rotating file""
     def: >
       A set of files used to store recent information. For example, there might be one
       file with results for each day of the week, so that results from last Tuesday
@@ -4936,8 +4947,8 @@
 
 - slug: rse
   en:
-    term: "research software engineer"
-    acronym: "RSE"
+    term: ""research software engineer""
+    acronym: ""RSE""
     def: >
       Someone whose primary responsibility is to build the specialized software that
       other researchers depend on.
@@ -4945,30 +4956,30 @@
 
 - slug: s3
   en:
-    term: "S3"
+    term: ""S3""
     def: >
       A framework for [object-oriented programming](#oop) in [R](#r_language).
   es:
-    term: "S3"
+    term: ""S3""
     def: >
       Un entorno para la [programación orientada a objetos](#oop) en [R](#r_language).
 
 
 - slug: s4
   en:
-    term: "S4"
+    term: ""S4""
     def: >
       A framework for [object-oriented programming](#oop) in [R](#r_language).
 
 
 - slug: s_language
   en:
-    term: "S"
+    term: ""S""
     def: >
       A language originally developed in Bell Labs for data analysis, statistical
       modeling, and graphics. [R](#r_language) is a dialect of S.
   es:
-    term: "S"
+    term: ""S""
     def: >
       Un lenguaje para análisis de datos, modelado estadístico y gráficos desarrollado
       originalmente en los Laboratorios Bell. [R](#r_language) es un dialecto de S.
@@ -4976,7 +4987,7 @@
 
 - slug: sandbox
   en:
-    term: "sandbox"
+    term: ""sandbox""
     def: >
       A testing environment that is separate from the production system, or an
       environment that is only allowed to perform a restricted set of operations for
@@ -4985,12 +4996,12 @@
 
 - slug: scalar
   en:
-    term: "scalar"
+    term: ""scalar""
     def: >
       A single value of a particular type, such as 1 or "a". Scalars exist in most languages, but do not really
       exist in [R](#r_language); in R, values that appear to be scalars are actually [vectors](#vector) of unit length.
   es:
-    term: "escalar"
+    term: ""escalar""
     def: >
       Un único valor de un tipo particular, como 1 o "a". Los escalares realmente no
       existen en [R](#r_language); los valores que parecen ser escalares son en realidad vectores de
@@ -4999,12 +5010,12 @@
 
 - slug: schema
   en:
-    term: "schema"
+    term: ""schema""
     def: >
       A specification of the format of a dataset, including the name, format, and
       content of each [table](#table).
   fr:
-    term: "schéma"
+    term: ""schéma""
     def: >
       Spécification du format d'un ensemble de données qui inclut le nom, format et
       contenu de chaque [table](#table).
@@ -5014,7 +5025,7 @@
   ref:
     - namespace
   en:
-    term: "scope"
+    term: ""scope""
     def: >
       The portion of a program within which a definition can be seen and used. See
       [closure](#closure), [global variable](#global_variable), and [local variable](#local_variable).
@@ -5022,7 +5033,7 @@
 
 - slug: script
   en:
-    term: "script"
+    term: ""script""
     def: >
       Originally, a program written in a language too user-friendly for "real" programmers to
       take seriously; the term is now synonymous with program.
@@ -5030,7 +5041,7 @@
 
 - slug: search_path
   en:
-    term: "search path"
+    term: ""search path""
     def: >
       The list of directories that a program searches to find something. For example,
       the Unix [shell](#shell) uses the search path stored in the `PATH` variable when
@@ -5039,14 +5050,14 @@
 
 - slug: seed
   en:
-    term: "seed"
+    term: ""seed""
     def: >
       A value used to initialize a [pseudo-random number generator](#prng).
 
 
 - slug: select
   en:
-    term: "select"
+    term: ""select""
     def: >
       To choose entire columns or rows from a table by name or location.
 
@@ -5061,14 +5072,14 @@
     - right_join
     - self_join
   en:
-    term: "self join"
+    term: ""self join""
     def: >
       A [join](#join) that combines a table with itself.
 
 
 - slug: semantic_versioning
   en:
-    term: "semantic versioning"
+    term: ""semantic versioning""
     def: >
       A standard for identifying software releases. In the version identifier
       `major.minor.patch`, `major` changes when a new version of software is
@@ -5080,14 +5091,14 @@
   ref:
     - marthas_rules
   en:
-    term: "sense vote"
+    term: ""sense vote""
     def: >
       A preliminary vote used to determine whether further discussion is needed in a meeting.
 
 
 - slug: server
   en:
-    term: "server"
+    term: ""server""
     def: >
       Typically, a program such as a database manager or web server that provides data
       to a [client](#client) upon request.
@@ -5095,7 +5106,7 @@
 
 - slug: shebang
   en:
-    term: "shebang"
+    term: ""shebang""
     def: >
       In Unix, a character sequence such as `#!/usr/bin/python` in the first line of an
       executable file that tells the [shell](#shell) what program to use to run that file.
@@ -5103,7 +5114,7 @@
 
 - slug: shell
   en:
-    term: "shell"
+    term: ""shell""
     def: >
       A [command-line interface](#cli) that allows a user to interact with the
       [operating system](#operating_system), such as Bash (for Unix and MacOS) or PowerShell (for Windows).
@@ -5111,7 +5122,7 @@
 
 - slug: shell_script
   en:
-    term: "shell script"
+    term: ""shell script""
     def: >
       A set of commands for the [shell](#shell) stored in a file so that they can be
       re-executed. A shell script is effectively a program.
@@ -5119,7 +5130,7 @@
 
 - slug: shell_variable
   en:
-    term: "shell variable"
+    term: ""shell variable""
     def: >
       A variable set and used in the [Unix shell](#shell). Commonly-used shell
       variables include `HOME` (the user's home directory) and `PATH` (their [search path](#search_path)).
@@ -5132,7 +5143,7 @@
   ref:
     - lazy_evaluation
   en:
-    term: "short circuit test"
+    term: ""short circuit test""
     def: >
       A logical test that only evaluates as many arguments as it needs to. For
       example, if `A` is [false](#false), then most languages never evaluate `B` in the
@@ -5141,7 +5152,7 @@
 
 - slug: short_identifier_git
   en:
-    term: "short identifier (of commit)"
+    term: ""short identifier (of commit)""
     def: >
       The first few characters of a [full identifier](#full_identifier_git). Short
       identifiers are easy for people to type and say aloud, and are usually unique
@@ -5152,7 +5163,7 @@
   ref:
     - long_option
   en:
-    term: "short option"
+    term: ""short option""
     def: >
       A single-letter identifier for a [command line
       argument](#command_line_argument). Most common flags are a single letter
@@ -5161,7 +5172,7 @@
 
 - slug: side_effect
   en:
-    term: "side effect"
+    term: ""side effect""
     def: >
       A change made by a function while it runs that is visible after the function
       finishes, such as modifying a [global variable](#global_variable) or writing to
@@ -5171,7 +5182,7 @@
 
 - slug: signal
   en:
-    term: "signal (a condition)"
+    term: ""signal (a condition)""
     def: >
       A way of indicating that something has gone wrong in a program, or that some
       other unexpected event has occurred. [R](#r_language) prefers "signalling a condition" to
@@ -5184,7 +5195,7 @@
   ref:
     - double_square_brackets
   en:
-    term: "single square brackets"
+    term: ""single square brackets""
     def: >
       One set of square brackets `[ ]`, used to select a structure from another structure based
       on an index value, or range of values, inside the square brackets.
@@ -5192,7 +5203,7 @@
 
 - slug: single_threaded
   en:
-    term: "single-threaded"
+    term: ""single-threaded""
     def: >
       A model of program execution in which only one thing can happen at a time.
       Single-threaded execution is easier for people to understand, but less efficient
@@ -5203,14 +5214,14 @@
   ref:
     - singleton_pattern
   en:
-    term: "singleton"
+    term: ""singleton""
     def: >
       A set with only one element, or a [class](#class) with only one [instance](#instance).
 
 
 - slug: singleton_pattern
   en:
-    term: "Singleton pattern"
+    term: ""Singleton pattern""
     def: >
       A [design pattern](#design_pattern) that creates a [singleton](#singleton)
       [object](#object) to manage some resource or service, such as a database or
@@ -5221,7 +5232,7 @@
 
 - slug: slug
   en:
-    term: "slug"
+    term: ""slug""
     def: >
       An abbreviated portion of a page's URL that uniquely identifies it. In the
       example `https://www.mysite.com/category/post-name`, the slug is `post-name`.
@@ -5232,7 +5243,7 @@
     - camel_case
     - kebab_case
   en:
-    term: "snake case"
+    term: ""snake case""
     def: >
       See [pothole case](#pothole_case).
 
@@ -5241,7 +5252,7 @@
   ref:
     - distro
   en:
-    term: "software distribution"
+    term: ""software distribution""
     def: >
       A set of programs that are built, tested, and distributed as a collection so
       that they can run together.
@@ -5249,7 +5260,7 @@
 
 - slug: source_distribution
   en:
-    term: "source distribution"
+    term: ""source distribution""
     def: >
       A [software distribution](#software_distribution) that includes the source code,
       typically so that programs can be recompiled on the target computer when they
@@ -5258,26 +5269,26 @@
 
 - slug: sprint
   en:
-    term: "sprint"
+    term: ""sprint""
     def: >
       A short, intense period of work on a project.
 
 
 - slug: sql
   en:
-    term: "SQL"
+    term: ""SQL""
     def: >
       The language used for writing queries for a [relational
       database](#relational_database). The term is an acronym for
       Structured Query Language.
   es:
-    term: "SQL"
+    term: ""SQL""
     def: >
       Lenguaje utilizado para escribir consultas para una [base de datos
       relacional](#relational_database). El término está un acrónimo del
       inglés Structured Query Language (Lenguage Estructurado de Consulta).
   fr:
-    term: "SQL"
+    term: ""SQL""
     def: >
       Langage employé pour composer des requêtes dans une [base de données relationnelle](#relational_database).
       Le terme était originellement l'acronyme de "Structured Query Language" (langage de requête structurée).
@@ -5285,15 +5296,15 @@
 
 - slug: ssh
   en:
-    term: "Secure Shell"
-    acronym: "SSH"
+    term: ""Secure Shell""
+    acronym: ""SSH""
     def: >
       A program that allows secure access to remote computers.
 
 
 - slug: ssh_key
   en:
-    term: "SSH key"
+    term: ""SSH key""
     def: >
       A string of random bits stored in a file that is used to identify a user for
       [SSH](#ssh). Each SSH key has separate public and private parts; the public part
@@ -5302,7 +5313,7 @@
 
 - slug: stack_frame
   en:
-    term: "stack frame"
+    term: ""stack frame""
     def: >
       A section of the [call stack](#call_stack) that records details of a single call
       to a specific function.
@@ -5310,11 +5321,11 @@
 
 - slug: stack_overflow
   en:
-    term: "Stack Overflow"
+    term: ""Stack Overflow""
     def: >
       A question-and-answer site popular among programmers.
   pt:
-    term: "Stack Overflow"
+    term: ""Stack Overflow""
     def: >
       Um site de perguntas e respostas popular entre pessoas programadoras.
 
@@ -5323,12 +5334,12 @@
   ref:
     - 68_95_997_rule
   en:
-    term: "standard deviation"
+    term: ""standard deviation""
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the square root of the [variance](#variance).
   pt:
-    term: "desvio padrão"
+    term: ""desvio padrão""
     def: >
       O quanto os valores de um conjunto de dados diferem da [média](#mean). É calculado
       como a raiz quadrada da [variância](#variance).
@@ -5336,7 +5347,7 @@
 
 - slug: standard_normal_distribution
   en:
-    term: "standard normal distribution"
+    term: ""standard normal distribution""
     def: >
       A [normal distribution](#normal_distribution) with a [mean](#mean) of 0 and a
       [standard deviation](#standard_deviation) of 1. Values from normal distributions
@@ -5348,7 +5359,7 @@
     - stdin
     - stdout
   en:
-    term: "standard error"
+    term: ""standard error""
     def: >
       A predefined communication channel for a [process](#process), typically used for
       error messages.
@@ -5359,7 +5370,7 @@
     - stderr
     - stdout
   en:
-    term: "standard input"
+    term: ""standard input""
     def: >
       A predefined communication channel for a [process](#process), typically used to
       read input from the keyboard or from the previous process in a [pipe](#pipe_shell).
@@ -5370,7 +5381,7 @@
     - stderr
     - stdin
   en:
-    term: "standard output"
+    term: ""standard output""
     def: >
       A predefined communication channel for a [process](#process), typically used to
       send output to the screen or to the next process in a [pipe](#pipe_shell).
@@ -5378,7 +5389,7 @@
 
 - slug: stratified_sampling
   en:
-    term: "stratified sampling"
+    term: ""stratified sampling""
     def: >
       Selecting values by dividing the overall population into [homogeneous](#homogeneous)
       groups and then taking a random sample from each group.
@@ -5386,7 +5397,7 @@
 
 - slug: stream
   en:
-    term: "stream"
+    term: ""stream""
     def: >
       A sequential flow of data, such as the [bits](#bit) arriving across a network connection
       or the bytes read from a file.
@@ -5394,18 +5405,18 @@
 
 - slug: string
   en:
-    term: "string"
+    term: ""string""
     def: >
       A block of text in a program. The term is short for "character string".
   es:
-    term: "secuencia de caracteres"
+    term: ""secuencia de caracteres""
     def: >
       Bloque de texto en un programa.
 
 
 - slug: string_interpolation
   en:
-    term: "string interpolation"
+    term: ""string interpolation""
     def: >
       The process of inserting text corresponding to specified values into a [string](#string),
       usually to make output human-readable.
@@ -5413,14 +5424,14 @@
 
 - slug: students_t_distribution
   en:
-    term: "student's t-distribution"
+    term: ""student's t-distribution""
     def: >
       See [t-distribution](#t_distribution).
 
 
 - slug: subcommand
   en:
-    term: "subcommand"
+    term: ""subcommand""
     def: >
       A command that is part of a larger family of commands. For example, `git commit`
       is a subcommand of [Git](#git).
@@ -5430,7 +5441,7 @@
   ref:
     - parent_directory
   en:
-    term: "subdirectory"
+    term: ""subdirectory""
     def: >
       A directory that is below another directory.
 
@@ -5440,7 +5451,7 @@
     - unsupervised_learning
     - reinforcement_learning
   en:
-    term: "supervised learning"
+    term: ""supervised learning""
     def: >
       A [machine learning](#machine_learning) algorithm in which a system is taught to
       [classify](#classification) values given [training data](#training_data) containing
@@ -5449,8 +5460,8 @@
 
 - slug: svm
   en:
-    term: "support vector machine"
-    acronym: "SVM"
+    term: ""support vector machine""
+    acronym: ""SVM""
     def: >
       A [supervised learning](#supervised_learning) algorithm that seeks to divide
       points in a dataset so that the empty space between the resultant sets is as wide as possible.
@@ -5460,7 +5471,7 @@
   ref:
     - asynchronous
   en:
-    term: "synchronous"
+    term: ""synchronous""
     def: >
       To happen at the same time. In programming, synchronous operations are ones that
       have to run simultaneously, or complete at the same time.
@@ -5468,7 +5479,7 @@
 
 - slug: systematic_error
   en:
-    term: "systematic error"
+    term: ""systematic error""
     def: >
       See [bias](#bias).
 
@@ -5477,7 +5488,7 @@
   ref:
     - students_t_distribution
   en:
-    term: "t-distribution"
+    term: ""t-distribution""
     def: >
       A variation on the [normal distribution](#normal_distribution) that is adjusted
       to account for estimating [variance](#variance) from the sample instead of
@@ -5486,7 +5497,7 @@
 
 - slug: tab_completion
   en:
-    term: "tab completion"
+    term: ""tab completion""
     def: >
       A technique implemented by most [REPLs](#repl), [shells](#shell), and
       programming editors that completes a command, variable name, filename, or other
@@ -5495,14 +5506,14 @@
 
 - slug: table
   en:
-    term: "table"
+    term: ""table""
     def: >
       A set of [records](#record) in a [relational database](#relational_database) or
       [observations](#observation) in a [data frame](#data_frame). Tables are usually displayed as
       rows (each of which represents one record or observation and columns (each of which represents a
       [field](#field) or [variable](#variable_data).
   fr:
-    term: "table"
+    term: ""table""
     def: >
       Une série d'entrées dans une [base de données
       relationnelle](#relational_database) ou d'observations dans une [trame de
@@ -5514,7 +5525,7 @@
 
 - slug: tag
   en:
-    term: "tag (in version control)"
+    term: ""tag (in version control)""
     def: >
       A readable label attached to a specific [commit](#commit) so that it can easily
       be referenced to later.
@@ -5522,8 +5533,8 @@
 
 - slug: tdd
   en:
-    term: "test-driven development"
-    acronym: "TDD"
+    term: ""test-driven development""
+    acronym: ""TDD""
     def: >
       A programming practice in which tests are written before a new feature is added
       or a [bug](#bug) is fixed in order to clarify the goal.
@@ -5531,7 +5542,7 @@
 
 - slug: template_method_pattern
   en:
-    term: "Template Method pattern"
+    term: ""Template Method pattern""
     def: >
       A [design pattern](#design_pattern) in which a [parent class](#parent_class)
       defines an overall sequence of operations by calling [abstract
@@ -5546,7 +5557,7 @@
     - nullary_expression
     - unary_expression
   en:
-    term: "ternary expression"
+    term: ""ternary expression""
     def: >
       An expression that has three parts. [Conditional expressions](#conditional_expression)
       are the only ternary expressions in most languages.
@@ -5557,39 +5568,39 @@
 
 - slug: test_runner
   en:
-    term: "test runner"
+    term: ""test runner""
     def: >
       A program that finds and runs software tests and reports their results.
 
 
 - slug: three_vs
   en:
-    term: "three Vs"
+    term: ""three Vs""
     def: >
       The volume, velocity, and variety that distinguish [big data](#big_data).
 
 
 - slug: throw_exception
   en:
-    term: "throw (exception)"
+    term: ""throw (exception)""
     def: >
       Another term for [raising](#raise_exception) an exception.
 
 
 - slug: tibble
   en:
-    term: "tibble"
+    term: ""tibble""
     def: >
       A modern replacement for [R](#r_language)'s data frame, which stores tabular data in columns
       and rows, defined and used in the [tidyverse](#tidyverse).
   fr:
-    term: "tibble"
+    term: ""tibble""
     def: >
       Une alternative moderne du "data frame" en [R](#r_language) permettant de matérialiser des
       données tabulaires en colonnes et en lignes, le "tibble" a été défini et est
       utilisé dans le [tidyverse](#tidyverse).
   es:
-    term: "tibble"
+    term: ""tibble""
     def: >
       Un remplazo moderno para los data frames de [R](#r_language) que guarda datos tabulares en
       columnas y filas, definido y usado en el [tidyverse](#tidyverse).
@@ -5597,14 +5608,14 @@
 
 - slug: ticket
   en:
-    term: "ticket"
+    term: ""ticket""
     def: >
       See [issue](#issue).
 
 
 - slug: ticketing_system
   en:
-    term: "ticketing system"
+    term: ""ticketing system""
     def: >
       See [issue tracking system](#issue_tracking_system).
 
@@ -5613,14 +5624,14 @@
   ref:
     - table
   en:
-    term: "tidy data"
+    term: ""tidy data""
     def: >
       Tabular data that satisfies [three
       conditions](https://vita.had.co.nz/papers/tidy-data.pdf) that facilitate initial
       cleaning, and later exploration and analysis—(1) each variable forms a column,
       (2) each observation forms a row, and (3) each type of observation unit forms a table.
   es:
-    term: "datos ordenados"
+    term: ""datos ordenados""
     def: >
       Datos tabulares que satisfacen [tres
       condiciones](https://vita.had.co.nz/papers/tidy-data.pdf) que facilitan su
@@ -5631,12 +5642,12 @@
 
 - slug: tidymodels
   en:
-    term: "Tidymodels"
+    term: ""Tidymodels""
     def: >
       A collection of [R](#r_language) [packages](#package) for modeling and statistical analysis designed with a
       [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
   fr:
-    term: "Tidymodels"
+    term: ""Tidymodels""
     def: >
       Une collection de packages [R](#r_language) pour la modélisation et l'analyse statistique
       élaborés en prenant en considération une [philosophie partagée](https://tidymodels.github.io/model-implementation-principles/index.html)
@@ -5644,20 +5655,20 @@
 
 - slug: tidyverse
   en:
-    term: "Tidyverse"
+    term: ""Tidyverse""
     def: >
       A collection of [R](#r_language) [packages](#package) for operating on tabular data in consistent ways.
   fr:
-    term: "Tidyverse"
+    term: ""Tidyverse""
     def: >
       Une collection de packages [R](#r_language) permettant le traitement des données tabulaire
       d'une manière cohérente.
   es:
-    term: "Tidyverse"
+    term: ""Tidyverse""
     def: >
       Una colección de paquetes de [R](#r_language) para operar de maneras consistentes con datos tabulares.
   pt:
-    term: "Tidyverse"
+    term: ""Tidyverse""
     def: >
       Uma coleção de pacotes de [R](#r_language) para trabalhar de forma consistente com dados tabulares.
 
@@ -5666,14 +5677,14 @@
   ref:
     - moving_average
   en:
-    term: "time series"
+    term: ""time series""
     def: >
       A set of measurements taken at different times, which may or may not be regular intervals.
 
 
 - slug: timestamp
   en:
-    term: "timestamp"
+    term: ""timestamp""
     def: >
       A digital identifier showing the time at which something was created or
       accessed. Timestamps should use [ISO date format](#iso_date_format) for portability.
@@ -5681,7 +5692,7 @@
 
 - slug: tolerance
   en:
-    term: "tolerance"
+    term: ""tolerance""
     def: >
       How closely the [actual result](#actual_result) of a test must agree with the
       [expected result](#expected_result) in order for the test to pass. Tolerances
@@ -5693,14 +5704,14 @@
 
 - slug: transitive_dependency
   en:
-    term: "transitive dependency"
+    term: ""transitive dependency""
     def: >
       If A depends on B and B depends on C, C is a transitive dependency of A.
 
 
 - slug: tree
   en:
-    term: "tree"
+    term: ""tree""
     def: >
       A [graph](#graph) in which every node except the [root](#root_tree) has exactly
       one [parent](#parent_tree).
@@ -5708,19 +5719,19 @@
 
 - slug: triage
   en:
-    term: "triage"
+    term: ""triage""
     def: >
       To go through the [issues](#issue) associated with a project and decide which
       are currently priorities. Triage is one of the key responsibilities of a
       [project manager](#project_manager).
 
 
-- slug: "true"
+- slug: true
   ref:
     - truthy
     - falsy
   en:
-    term: "true"
+    term: ""true""
     def: >
       The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in
       logic and programming to represent a [binary](#binary) state of something.
@@ -5730,14 +5741,14 @@
   ref:
     - falsy
   en:
-    term: "truthy"
+    term: ""truthy""
     def: >
       Evaluating to [true](#true) in a [Boolean](#boolean) context.
 
 
 - slug: tuple
   en:
-    term: "tuple"
+    term: ""tuple""
     def: >
       A data type that has a fixed number of parts, such as the three color components of a
       red-green-blue color specification. Tuples are immutable (their values can not be reset.)
@@ -5745,7 +5756,7 @@
 
 - slug: two_hard_problems
   en:
-    term: "two hard problems in computer science"
+    term: ""two hard problems in computer science""
     def: >
       Refers to a quote by Phil Karlton—"There are only two hard problems in computer
       science—cache invalidation and naming things." Many variations add a third
@@ -5754,7 +5765,7 @@
 
 - slug: type_coercion
   en:
-    term: "type coercion"
+    term: ""type coercion""
     def: >
       To convert data from one type to another, e.g., from the integer `4` to the
       equivalent floating point number `4.0`.
@@ -5766,14 +5777,14 @@
     - nullary_expression
     - ternary_expression
   en:
-    term: "unary expression"
+    term: ""unary expression""
     def: >
       An expression with one argument, such as `log 5`.
 
 
 - slug: unicode
   en:
-    term: "Unicode"
+    term: ""Unicode""
     def: >
       A standard that defines numeric codes for many thousands of characters and
       symbols. Unicode does not define how those numbers are stored; that is done by
@@ -5784,7 +5795,7 @@
   ref:
     - integration_test
   en:
-    term: "unit test"
+    term: ""unit test""
     def: >
       A test that exercises one function or feature of a piece of software and
       produces [pass](#pass_test), [fail](#fail_test), or [error](#error_test).
@@ -5795,7 +5806,7 @@
     - supervised_learning
     - reinforcement_learning
   en:
-    term: "unsupervised learning"
+    term: ""unsupervised learning""
     def: >
       Algorithms that [cluster](#clustering) data without knowing in advance what the
       groups will be.
@@ -5805,21 +5816,21 @@
   ref:
     - down_vote
   en:
-    term: "up-vote"
+    term: ""up-vote""
     def: >
       A vote in favor of something.
 
 
 - slug: update_operator
   en:
-    term: "update operator"
+    term: ""update operator""
     def: >
       See [in-place operator](#in_place_operator).
 
 
 - slug: upstream_repository
   en:
-    term: "upstream repository"
+    term: ""upstream repository""
     def: >
       The [remote repository](#remote_repository) from which this [repository](#repository) was derived.
       Programmers typically save changes in their own repository and then submit
@@ -5829,8 +5840,8 @@
 
 - slug: url
   en:
-    term: "Uniform Resource Locator"
-    acronym: "URL"
+    term: ""Uniform Resource Locator""
+    acronym: ""URL""
     def: >
       A unique address on the World-Wide Web. URLs originally identified web pages,
       but may also represent datasets or database queries, particularly if they
@@ -5839,7 +5850,7 @@
 
 - slug: utf_8
   en:
-    term: "UTF-8"
+    term: ""UTF-8""
     def: >
       A way to store the numeric codes representing [Unicode](#unicode) characters in memory that
       is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
@@ -5850,13 +5861,13 @@
     - keyword_argument
     - named_argument
   en:
-    term: "variable arguments"
+    term: ""variable arguments""
     def: >
       In a function, the ability to take any number of arguments. [R](#r_language) uses `...` to
       capture the "extra" arguments. [Python](#python) uses `*args` and `**kwargs` to capture
       unnamed, and named, "extra" arguments, respectively.
   fr:
-    term: "arguments d'une variable"
+    term: ""arguments d'une variable""
     def: >
       La possibilité d'intégrer n'importe quel nombre d'arguments dans une fonction. [R](#r_language)
       utilise `...` afin de capturer les arguments "additionnels".
@@ -5867,7 +5878,7 @@
     - continuous_random_variable
     - discrete_random_variable
   en:
-    term: "variable (data)"
+    term: ""variable (data)""
     def: >
       Some attribute of a population that can be measured or observed.
 
@@ -5876,22 +5887,22 @@
   ref:
     - constant
   en:
-    term: "variable (program)"
+    term: ""variable (program)""
     def: >
       A name in a program that has some data associated with it. A variable's value
       can be changed after definition.
   es:
-    term: "variable (programa)"
+    term: ""variable (programa)""
     def: >
       Un nombre en un programa que tiene algunos datos asociados. El valor de una
       variable se puede cambiar después de su definición.
   fr:
-    term: "variable (programme)"
+    term: ""variable (programme)""
     def: >
       Un nom associé à des données au niveau d'un programme. La valeur d'une variable
       peut être modifiée après l'avoir définie.
   ar:
-    term: "المتغير"
+    term: ""المتغير""
     def: >
       المُتغير هو موقع يٌخزِن البيانات المؤقتة داخل البرنامج ويمكن تعديله وتخزينه وعرضه
       عند الحاجة.
@@ -5899,7 +5910,7 @@
 
 - slug: variance
   en:
-    term: "variance"
+    term: ""variance""
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the average of the squared differences between the values and the mean. The
@@ -5909,13 +5920,13 @@
 
 - slug: vector
   en:
-    term: "vector"
+    term: ""vector""
     def: >
       A sequence of values, usually of [homogeneous](#homogeneous) type. Vectors are
       the fundamental data structure in [R](#r_language); a [scalar](#scalar) is just a vector with
       exactly one [element](#element).
   es:
-    term: "vector"
+    term: ""vector""
     def: >
       Una secuencia de valores, normalmente de tipo [homogéneo](#homogeneous). Los
       vectores son la estructura de datos fundamental en [R](#r_language); un [escalar](#scalar) es
@@ -5924,12 +5935,12 @@
 
 - slug: vectorize
   en:
-    term: "vectorize"
+    term: ""vectorize""
     def: >
       To write code so that operations are performed on entire vectors, rather than
       element-by-element within loops.
   es:
-    term: "vectorizar"
+    term: ""vectorizar""
     def: >
       Escribir código de modo que las operaciones se ejecuten en vectores completos,
       más que elemento por elemento dentro de un bucle.
@@ -5939,27 +5950,27 @@
   ref:
     - git
   en:
-    term: "version control system"
+    term: ""version control system""
     def: >
       A system for managing changes made to software during its development.
   es:
-    term: "sistema de control de versión"
+    term: ""sistema de control de versión""
     def: >
       Un sistema para manejar los cambios hechos durante el desarollo de software.
   fr:
-    term: "système de gestion des versions"
+    term: ""système de gestion des versions""
     def: >
       Un système qui permet de gérer les modifications effectuées sur un programme
       durant son développement.
   pt:
-    term: "sistema de controle de versão"
+    term: ""sistema de controle de versão""
     def: >
       Um sistema para gerenciar as mudanças feitas em um software durante o seu desenvolvimento.
 
 
 - slug: vignette
   en:
-    term: "vignette"
+    term: ""vignette""
     def: >
       A long-form guide used to provide details of a [package](#package) beyond the README.md or
       function documentation.
@@ -5967,7 +5978,7 @@
 
 - slug: vim
   en:
-    term: "Vim (editor)"
+    term: ""Vim (editor)""
     def: >
       The default text editor on Unix. Vim is a very powerful text editor, with a steeper
       learning curve than [nano](#nano_editor), but that allows the user to execute shell
@@ -5976,7 +5987,7 @@
 
 - slug: virtual_environment
   en:
-    term: "virtual environment"
+    term: ""virtual environment""
     def: >
       In [Python](#python), the `virtualenv` [package](#package) allows you to create virtual,
       disposable, [Python](#python) software environments containing only the packages
@@ -5987,14 +5998,14 @@
 
 - slug: virtual_machine
   en:
-    term: "virtual machine"
+    term: ""virtual machine""
     def: >
       A program that pretends to be a computer. This may seem a bit redundant, but VMs
       are quick to create and start up, and changes made inside the virtual machine
       are contained within that VM so we can install new [packages](#package) or run a completely
       different operating system without affecting the underlying computer.
   es:
-    term: "máquina virtual"
+    term: ""máquina virtual""
     def: >
       Un programa que pretende ser una computadora. Aunque puede parecer redundante,
       las máquinas virtuales (MV) se crean y se inician rápidamente, y los cambios
@@ -6007,7 +6018,7 @@
   ref:
     - iterator_pattern
   en:
-    term: "Visitor pattern"
+    term: ""Visitor pattern""
     def: >
       A [design pattern](#design_pattern) in which the operation to be done is taken
       to each element of a data structure in turn. It is usually implemented by having
@@ -6018,7 +6029,7 @@
 
 - slug: walk_tree
   en:
-    term: "walk (a tree)"
+    term: ""walk (a tree)""
     def: >
       To visit each [node](#node) in a [tree](#tree) in some order, typically
       [depth-first](#depth_first) or [breadth-first](#breadth_first).
@@ -6028,7 +6039,7 @@
   ref:
     - for_loop
   en:
-    term: "while loop"
+    term: ""while loop""
     def: >
       A statement in a program that repeats one or more other statements (the [loop
       body](#loop_body)) as long as a condition is [true](#true).
@@ -6036,13 +6047,13 @@
 
 - slug: whitespace
   en:
-    term: "whitespace"
+    term: ""whitespace""
     def: >
       The space, newline, carriage return, and horizontal and vertical tab characters
       that take up space but do not create a visible mark. The name comes from their
       appearance on a printed page in the era of typewriters.
   pt:
-    term: "espaço em branco"
+    term: ""espaço em branco""
     def: >
       O espaço, nova linha, quebra de linha, ou tabulação horizontal ou vertical que ocupe
       um espaço mas não crie uma marca visível. O nome vem de sua aparência em um papel impresso
@@ -6051,17 +6062,16 @@
 
 - slug: wildcard
   de:
-    term: "Wildcard"
+    term: ""Wildcard""
     def: >
       Ein Zeichenausdruck, der mit Text übereinstimmen kann, wie z.B. das `*` in `*.csv` (das
       passt auf jeden Dateinamen, dessen Name mit `.csv`) endet.
   en:
-    term: "wildcard"
+    term: ""wildcard""
     def: >
       A character expression that can match text, such as the `*` in `*.csv` (which
       matches any filename whose name ends with `.csv`).
   pt:
-    ter: "curinga"
     def: >
       Um curinga, ou caracter curinga, é um caracter que corresponde a qualquer texto, 
       como o `*` em `*.csv` (que corresponde a qualquer arquivo cujo nome termina em `*.csv`).
@@ -6069,34 +6079,34 @@
 
 - slug: xml
   de:
-    term: "XML"
+    term: ""XML""
     def: >
       Eine Reihe von Regeln zur Definition von [HTML](#html)-ähnlichen Tags und deren
       Verwendung zur Formatierung Dokumente (typischerweise Daten). XML war in den
       frühen 2000er Jahren populär, aber seine Komplexität veranlasste
       viele Programmierer, stattdessen [JSON](#json) zu übernehmen.
   en:
-    term: "XML"
+    term: ""XML""
     def: >
       A set of rules for defining [HTML](#html)-like tags and using them to format
       documents (typically data). XML was popular in the early 2000s, but its
       complexity led many programmers to adopt [JSON](#json), instead.
   es:
-    term: "XML"
+    term: ""XML""
     def: >
       Un conjunto de reglas para definir etiquetas similares a [HTML](#html) y usarlas
       para darle formato a documentos (normalmente datos). XML alcanzó popularidad a
       principios de la década de 2000, pero su complejidad llevó a muchos
       programadores a adoptar [JSON](#json) en su lugar.
   fr:
-    term: "XML"
+    term: ""XML""
     def: >
       Un format de représentation de données qui définit des balises similaires à
       celles utilisées en [HTML](#html). XML était populaire au début des années 2000
       mais sa complexité a conduit de nombreux dévelopeurs à utiliser [JSON](#json) à
       la place.
   pt:
-    term: "XML"
+    term: ""XML""
     def: >
       Um conjunto de regras para se definir etiquetas similares a [HTML](#html) e usá-las
       para formatar documentos (normalmente, dados). XML foi popular no início dos anos 2000, 
@@ -6106,7 +6116,7 @@
 
 - slug: yaml
   de:
-    term: "YAML"
+    term: ""YAML""
     def: >
       Abkürzung für "YAML Ain't Markup Language", eine Methode zur Darstellung
       verschachtelter Daten mit Einrückung statt der Klammern und Kommas
@@ -6114,14 +6124,14 @@
       von Parametern für verschiedene Geschmacksrichtungen verwendet
       von [Markdown](#markdown)-Dokumenten.
   en:
-    term: "YAML"
+    term: ""YAML""
     def: >
       Short for "YAML Ain't Markup Language", a way to represent nested data using
       indentation rather than the parentheses and commas of [JSON](#json). YAML is
       often used in configuration files and to define [parameters](#parameter) for various flavors
       of [Markdown](#markdown) documents.
   fr:
-    term: "YAML"
+    term: ""YAML""
     def: >
       Acronyme récursif de "YAML Ain't Markup Language" ("YAML n'est pas un langage de
       balisage"), YAML est un format de représentation de données hiérarchiques qui
@@ -6129,7 +6139,7 @@
       et virgules en [JSON](#json). YAML est souvent utilisé dans les fichiers de
       configuration et pour définir les paramètres de documents [Markdown](#markdown).
   pt:
-    term: "YAML"
+    term: ""YAML""
     def: >
       Acrônimo recursivo de "YAML Ain't Markup Language" (YAML não é uma linguagem de marcação), 
       é uma maneira de representar dados aninhados usando recuos (também chamados de indentações)
