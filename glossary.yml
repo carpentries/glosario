@@ -392,6 +392,16 @@
       costuma ser ágil.
 
 
+- slug: algorithm
+  en:
+    term: "algorithm"
+    def: >
+      An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific 
+      task. In computer science, an algorithm is a set of instructions in a computer program that solves a 
+      computational problem.
+
+
+- slug: aliasing
 - slug: aliasing
   en:
     term: "aliasing"
