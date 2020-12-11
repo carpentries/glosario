@@ -30,7 +30,7 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'af', 'ar', 'en', 'es', 'fr', 'ja', 'nl', 'pt', 'zu'}
+ENTRY_LANGUAGE_KEYS = {'af', 'ar', 'de', 'en', 'es', 'fr', 'ja', 'nl', 'pt', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
@@ -119,6 +119,8 @@ def checkEntry(entry):
     unknown_keys = keys - ENTRY_KEYS
     if unknown_keys:
         print(f'Unknown keys in {slug}: {unknown_keys}')
+    if (len(ENTRY_LANGUAGE_KEYS - keys) == len(ENTRY_LANGUAGE_KEYS)):
+        print(f'No language entries for entry {entry}')
     result = {}
     crossrefs = set(entry['ref']) if ('ref' in entry) else set()
     for lang in ENTRY_LANGUAGE_KEYS:

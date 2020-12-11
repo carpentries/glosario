@@ -7,10 +7,15 @@ Glossary.egg-info
 MANIFEST
 R/sysdata.rda
 __pycache__
-_data/glossary.yml
 _site
 dist
 glossary/glossary.yml
 man
 /Gemfile.lock
 /_gh-site/
+testr_glossary.yml
+Gemfile
+assets/css/to_delete.css
+.DS_Store
+_config.yml
+_data/
