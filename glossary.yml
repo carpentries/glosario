@@ -2298,7 +2298,7 @@
     def: >
       A reusable software package, also often called a [module](#module).
   es:
-    term: "biblioteca"
+    term: "librería"
     def: >
       un paquete de software reutilizable, también  se llama un [módulo](#module).
 
@@ -2684,7 +2684,7 @@
   es:
     term: "módulo"
     def: >
-      un paquete de software reutilizable, también se llama una [biblioteca](#library).
+      un paquete de software reutilizable, también se llama una [librería](#library).
 
 - slug: monte_carlo
   ref:
