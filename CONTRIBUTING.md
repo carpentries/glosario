@@ -7,7 +7,7 @@ please take a moment to read the guidance below.
 
 ## Contribution Workflow
 
-When you're making your contribution(s) to Glosario, please:
+When you are making your contribution(s) to Glosario, please:
 
 1. **check the [open Issues][issues] and [Pull Requests][pulls]** to see what terms and definitions other contributors are already working on. This will help you avoid accidentally spending time writing the same term(s)/definition(s) as someone else.
 2. **add one or a small number of related new terms or definitions per Pull Request.** We woud love to receive multiple contributions from you but please keep each new term or set of terms and definitions in a distinct Pull Request. This makes it much easier for the Glosario maintainers/editors to review your contributions. By [creating a new branch][github-branches] from the `master` branch and making a new Pull Request each time, you also reduce the chance of accidentally combining multiple contributions.
@@ -15,7 +15,11 @@ When you're making your contribution(s) to Glosario, please:
 
 ## 1. Adding a new term to the glossary
 
-To add a new entry, please [fork][forking-guide] the [main Glosario repository][repo] and, on a new branch, add the term and definition to [`glossary.yml`][glossary]. This glossary file is written in [YAML].
+To add a new entry, please [fork][forking-guide] the [main Glosario repository][repo] and, on a new branch, add the term and definition to [`glossary.yml`][glossary]. This glossary file is written in [YAML]. If you already have a fork of the repository, then please [make sure your fork is up-to-date](https://happygitwithr.com/upstream-changes.html#upstream-changes) with the [main Glosario repository][repo].
+
+When adding a new term or translation, please take care with the indentation on the YAML file. Indentation is syntactically significant in YAML.
+
+In case you wish to build up the website locally to double check the final look, you can use `make serve`. 
 
 Here is an example of how your glossary entry should be structured:
 

@@ -173,7 +173,14 @@ A glossary entry is structured like this:
     or make one-to-many relationships hard to express (e.g., CSV).
 
 -   **Why use Jekyll for the online version?**
-    It's the default for GitHub Pages.
+    It is the default for GitHub Pages.
+
+## Collaborators
+
+SADiLaR is one of the collaborators in the finalisation and expansion of the Glosario
+Project to African Languages. SADiLaR is a research infrastructure established by the
+Department of Science and Innovation of the South African government as part of the
+South African Research Infrastructure Roadmap (SARIR).
 
 ## Credits
 
