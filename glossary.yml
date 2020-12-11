@@ -94,6 +94,11 @@
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
+  es:
+    term: "error absoluto"
+    def: >
+      El valor absoluto de la diferencia entre el valor observado y el valor correcto.
+      El error absoluto suele ser menos útil que el [error relativo](#relative_error).
   af:
     term: "absolute fout"
     def: >
@@ -4825,6 +4830,13 @@
       divided by the correct value. For example, if the actual value is 9 and the
       correct value is 10, the relative error is 0.1. Relative error is usually more
       useful than [absolute error](#absolute_error).
+  es:
+    term: "error relativo"
+    def: >
+      El valor absoluto de la diferencia entre el valor observado y el valor correcto,
+      dividido por el valor deseado. Por ejemplo, si el valor observado es 9 y el
+      valor correcto es 10, el error relativo es 0.1. El error relativo suele ser más
+      útil que el [error absoluto](#absolute_error).
   pt:
     term: "erro relativo"
     def: >
