@@ -1379,6 +1379,11 @@
       ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
       users to play back recent commands.
 
+- slug: command
+  en:
+    term: "command"
+    def: >
+      An instruction telling a computer program to perform a specific task.
 
 - slug: command_line_argument
   en:
