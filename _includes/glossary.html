@@ -22,9 +22,17 @@ Display glossary in alphabetical order.
 Cross-references are displayed in __bold__ if that term is missing.
 {%- endcomment -%}
 <dl dir="auto">
+{% assign gloss_letter = "A" %}
+{% assign headings = '' %}
 {%- for slug in actual -%}
   {% assign item = gloss | where: "slug", slug | first %}
   {% if item[language] %}
+  {% assign start_letter = item[language].term | slice: 0 | upcase %}
+  {% if gloss_letter != start_letter %}
+     {% assign gloss_letter = start_letter %} 
+     {% assign headings = headings | append: gloss_letter %}
+     <h2 id="{{ gloss_letter }}"> {{ gloss_letter }} </h2>
+  {% endif %}
   <dt id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}</dt>
   <dd>
     {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}

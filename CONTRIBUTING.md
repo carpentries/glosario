@@ -19,6 +19,8 @@ To add a new entry, please [fork][forking-guide] the [main Glosario repository][
 
 When adding a new term or translation, please take care with the indentation on the YAML file. Indentation is syntactically significant in YAML.
 
+In case you wish to build up the website locally to double check the final look, you can use `make serve`. 
+
 Here is an example of how your glossary entry should be structured:
 
 ```

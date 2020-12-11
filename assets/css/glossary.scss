@@ -1,0 +1,287 @@
+---
+---
+
+body {
+    background-attachment: fixed;
+    overflow: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.lang_blurb {
+    width: 100%;
+}
+
+.title_font {
+    font-family: Arial, Helvetica, sansserif;
+    color: white;
+}
+
+/* For larger devices */
+@media screen and (min-width: 769px) {
+
+    .button-ltr,
+    .button-rtl {
+        width: 134px;
+        height: 58px;
+        padding-top: 22px;
+        padding-left: 68px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+        font-size: 20px;
+        line-height: 1.2;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        vertical-align: top;
+        background: url({{ "/static/github-button.png" | relative_url }}) 0 0 no-repeat;
+    }        
+
+    .button-ltr {
+        margin: 25px 90px 10px 10px;
+        float: right;
+    }
+
+    .button-rtl {
+        margin: 25px 90px 10px 10px;
+        float: right;
+    }
+
+    a.button small {
+        display: block;
+    }
+   
+    .sticky-home,
+    .sticky-ltr,
+    .sticky-rtl {
+        position: sticky;
+        z-index: 0;
+        top: 0;
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 95%;
+        background-color: grey;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        align-contents: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        bottom: 30px;
+    }
+      
+    .sticky-home {
+        float: right;
+        margin-right: 1cm;
+        right: 0;
+        width: 20%;
+    }
+      
+    .sticky-ltr {
+        float: right;
+        margin-right: 1cm;
+        right: 0;
+        width: 6%;
+    }
+      
+    .sticky-rtl {
+        float: left;
+        margin-left: 1cm;
+        left: 0;
+        width: 6%;
+    }
+      
+    .lang_links,
+    .letter_links {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        font-size: 24;
+        color: white;
+        margin: 20px 0% 30px 0%;
+    }
+      
+    .lang_links {
+        line-height: 50px;
+        margin-right: 0px;
+        top: 30px;
+        margin: 10px 20px 10px 10%;
+    }
+      
+    .letter_links {
+        line-height: 40px;
+    }
+      
+    #content-wrapper {
+        padding-top: 30px;
+        border-top: solid 1px #fff;
+        margin-right: 0cm;
+        margin-left: 0cm;
+    }
+      
+    .clearfix:after {
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+        content: '.';
+        margin-bottom: 30px;
+    }
+      
+    #main-content-home {
+        float: left;
+        width: 60%;
+        max-width: 100%;
+        padding: 1cm 1cm 1cm 1cm;
+        margin-left: 1cm;
+    }
+      
+    #main-content-ltr {
+        float: left;
+        margin-left: 1cm;
+    }
+      
+    #main-content-rtl {
+        float: right;
+        margin-right: 1cm;
+    }
+     
+    #main-content-ltr,
+    #main-content-rtl {
+        padding: .5cm 1cm 1cm 1cm;
+        width: 75%;
+        max-width: 85%;
+    }
+      
+    #main-content-home,
+    #main-content-ltr,
+    #main-content-rtl {
+        background-color: hsla(0, 0%, 98%, 85%);
+    } 
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 768px) {
+
+    .button-ltr,
+    .button-rtl {
+      width: 134px;
+      height: 58px;
+      padding-top: 22px;
+      padding-left: 68px;
+      font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+      font-size: 20px;
+      line-height: 1.2;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: top;
+      background: url({% link /static/github-button.png %}) 0 0 no-repeat;
+    }
+
+    .button-ltr {
+        margin: 10px 10px 10px 10px;
+        float: right;
+    }
+
+    .button-rtl {
+          float: left;
+          margin: 10px 10px 10px 30px;
+          margin-right: 1.5cm;
+    }
+
+    a.button small {
+        display: block;
+    }
+
+    .sticky-home {
+        display: none;
+        margin-right: 1cm;
+    }
+      
+    .sticky-ltr,
+    .sticky-rtl {
+        position: sticky;
+        z-index: 0;
+        top: 8;
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 110%;
+        width: 12%;
+        background-color: grey;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+      
+    .sticky-ltr {
+        float: right;
+        margin-right: 0cm;
+        right: 0;
+        bottom: 30px;
+    }
+      
+    .sticky-rtl {
+        float: left;
+        margin-left: .5cm;
+        left: 0;
+        bottom: 30px;
+    }
+      
+    .lang_links { }
+      
+    .letter_links {
+        line-height: 60px;
+        margin: 10px 20% 10px 20%;
+        font-size: 35px;
+        color: white;
+        text-decoration: none;
+    }
+      
+    #content-wrapper {
+        padding-top: 30px;
+        border-top: solid 1px #fff;
+    }
+      
+    .clearfix:after {
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+        content: '.';
+        margin: 10% 0% 10% 0%;
+        width: 50%;
+    }
+      
+    #main-content-home {
+        float: left;
+        width: 77%;
+        max-width: 80%;
+        padding: 1cm 1cm 1cm 1cm;
+        margin-left: .5cm;
+    }
+        
+    #main-content-ltr {
+        float: left;
+        width: 65%;
+        max-width: 80%;
+        padding: 1cm .5cm 1cm 1cm;
+        margin-left: .5cm;
+    }
+      
+    #main-content-rtl {
+        float: right;
+        width: 65%;
+        max-width: 80%;
+        padding: 1cm 1cm 1cm .5cm;
+        margin-right: .5cm;
+    }
+      
+    #main-content-home,
+    #main-content-ltr,
+    #main-content-rtl {
+        background-color: hsla(0, 0%, 98%, 85%);
+    } 
+}
