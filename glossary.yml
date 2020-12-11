@@ -1383,7 +1383,7 @@
   en:
     term: "command"
     def: >
-      An instruction to a computer program to perform a specific task.
+      An instruction telling a computer program to perform a specific task.
 
 - slug: command_line_argument
   en:
