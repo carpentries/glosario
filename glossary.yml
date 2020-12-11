@@ -1978,11 +1978,11 @@
     def: >
       A unique persistent identifier for a book, paper, report, dataset, software release, or
       other digital artefact.
- ja:
+  ja:
     term: "デジタルオブジェクト識別子"
     acronym: "DOI"
     def: >
-     本、文献、レポート、ソフトウェアリリースや他のデジタル媒体が持つ、固有かつ恒久的な識別子のこと。
+      本、文献、レポート、ソフトウェアリリースや他のデジタル媒体が持つ、固有かつ恒久的な識別子のこと。
 
 
 - slug: dom
