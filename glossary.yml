@@ -4525,8 +4525,13 @@
   en:
     term: "pseudo-random number"
     def: >
-      A value generated in a repeatable way that resembles the [true](#true) randomness of the
+      A value generated in a repeatable way that resembles the [true](#true) randomness of the 
       universe well enough to fool observers.
+  es:
+    term: "número pseudo-aleatorio"
+    def: >
+      Un valor generado de forma repetible que refleja suficientemente bien a la 
+      verdadera aleatoriedad del universo como para engañar a simples observadores mortales.
 
 
 - slug: psf
