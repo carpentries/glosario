@@ -1,0 +1,75 @@
+---
+---
+    {%- if page.title -%} 
+        {%- assign the_title = page.title -%} 
+    {%- else -%} 
+        {%- assign language = page.permalink | replace: '/', '' %}
+        {%- assign the_title = site.languages | where: "key", language | map: "title" | first -%} 
+        {%- assign the_name = site.languages | where: "key", language | map: "name" | first -%}
+    {%- endif -%} 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>{{site.title}}</title>
+    <link href="{{ '/static/site.css' | relative_url }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/glossary.css' | relative_url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<main>
+    <!-- {%- if page.direction -%}          ### I've left this because it may be useful
+        {%- assign direction = page.direction -%}
+    {%- else -%}
+        {%- assign direction = 'ltr' %}
+    {%- endif -%} -->
+<header>
+    <div class="row" dir="auto">
+        <div class="left-rtl">
+            <a href="{{'/' | relative_url}}">
+                <img src="{{'/static/parrot.svg' | relative_url}}"
+                     class="logo"
+                     alt="Parrot logo"/>
+            </a>
+            <a href="{{ site.repository_url }}"
+               class="button-rtl"><small>View project on</small>GitHub
+            </a>
+        </div>
+        <div class="right-rtl">
+            <font class="title_font">
+                <h1>{{the_title}}</h1>
+                <div class="describe">
+                    <h2>{{ the_name | default: site.description }}</h2>
+                </div>
+            </font>
+        </div>
+    </div>
+</header>
+    <div id="content-wrapper">
+         <div class="inner clearfix">
+             <section id="main-content-rtl">
+    <!--{{ content }}-->
+                 {% include glossary.html headings = headings %}
+             </section>
+             <div class="sticky-rtl">
+                 {% assign char_arr = headings | split: '' %}
+                 {% for char in char_arr %}
+                     <font color="white" size="5px" face="arial">
+                         <a class="letter_links"
+                            href="#{{char}}">{{char}}</>
+                         </a>
+                         <br>
+                     </font>
+                 {% endfor %}
+             </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>
+        <a href="{{'/' | relative_url}}">Home</a>
+        -
+        <a href="{{'/license/' | relative_url}}">License</a>
+        -
+        <a href="{{ site.repository_url }}">GitHub</a>
+      </p>
+</footer>
+</body>
