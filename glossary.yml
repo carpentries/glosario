@@ -94,6 +94,11 @@
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
+  es:
+    term: "error absoluto"
+    def: >
+      El valor absoluto de la diferencia entre el valor observado y el valor correcto.
+      El error absoluto suele ser menos útil que el [error relativo](#relative_error).
   af:
     term: "absolute fout"
     def: >
@@ -367,6 +372,12 @@
       A software development methodology that emphasizes lots of small steps and
       continuous feedback instead of up-front planning and long-term scheduling.
       [Exploratory programming](#exploratory_programming) is often agile.
+  es:
+    term: "desarrollo ágil"
+    def: >
+      Una metodología de desarrollo de software que enfatiza muchos pasos pequeños y
+      feedback continuo en vez de planificación por adelantado y a largo plazo.
+      [Programación exploratoria](#exploratory_programming) suele ser ágil.
   af:
     term: "lenige ontwikkeling"
     def: >
@@ -379,6 +390,15 @@
       Um método de desenvolvimento de software que enfatiza vários passos pequenos e
       feedback contínuo ao invés de planejamento de longo prazo. [Programação exploratória](#exploratory_programming)
       costuma ser ágil.
+
+
+- slug: algorithm
+  en:
+    term: "algorithm"
+    def: >
+      An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific 
+      task. In computer science, an algorithm is a set of instructions in a computer program that solves a 
+      computational problem.
 
 
 - slug: aliasing
@@ -1360,6 +1380,12 @@
       The amount of working memory needed to accomplish a set of simultaneous tasks.
 
 
+- slug: command
+  en:
+    term: "command"
+    def: >
+      An instruction telling a computer program to perform a specific task.
+
 - slug: command_history
   en:
     term: "command history"
@@ -1367,7 +1393,6 @@
       An automatically-created list of previously-executed commands. Most read-eval-print loops
       ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
       users to play back recent commands.
-
 
 - slug: command_line_argument
   en:
@@ -1978,6 +2003,11 @@
     def: >
       A unique persistent identifier for a book, paper, report, dataset, software release, or
       other digital artefact.
+  ja:
+    term: "デジタルオブジェクト識別子"
+    acronym: "DOI"
+    def: >
+      本、文献、レポート、ソフトウェアリリースや他のデジタル媒体が持つ、固有かつ恒久的な識別子のこと。
 
 
 - slug: dom
@@ -2206,6 +2236,12 @@
     def: >
       A software development methodology in which requirements emerge or change as the
       software is being written, often in response to results from early runs.
+  es:
+    term: "programación exploratoria"
+    def: >
+      Un método de desarrollo de software en el cual los requerimientos emergen o cambian
+      a medida que el software es escrito, frecuentemente en respuesta a resultados de
+      corridas previas.
 
 
 - slug: export
@@ -2333,6 +2369,12 @@
       The part of the [operating system](#operating_system) that manages how files
       are stored and retrieved. Also used to refer to all of those files and
       [directories](#directory) or the specific way they are stored (as in "the Unix filesystem").
+  es:
+    term: "sistema de archivos"
+    def: >
+      La parte del sistema operativo que administra cómo se almacenan y recuperan
+      los archivos. También se usa para referirse a todos esos archivos y directorios
+      o a la forma específica en que se almacenan (como en "el sistema de archivos Unix").
 
 
 - slug: filter
@@ -2425,7 +2467,6 @@
 
 - slug: function
   ref:
-    - functions
     - command
   en:
     term: "function"
@@ -2653,6 +2694,10 @@
     term: "global installation"
     def: >
       Installing a package in a location where it can be accessed by all users and projects.
+  es:
+    term: "instalación global"
+    def: >
+      El acto de instalar un paquete en una ubicación donde pueda ser accedido por todas las usuarias y proyectos.
   fr:
     term: "installation globale"
     def: >
@@ -3135,7 +3180,6 @@
 
 - slug: jupyter_notebook
   ref:
-    - computational_notebook
     - jupyter
   en:
     term: "Jupyter Notebook"
@@ -3377,6 +3421,11 @@
     def: >
       Placing a [package](#package) inside a particular project so that it is only accessible
       within that project.
+  es:
+    term: "instalación local"
+    def: >
+      El acto de ubicar un paquete en un proyecto en particular para que sólo sea accesible
+      dentro de ese proyecto.
 
 
 - slug: local_variable
@@ -3958,6 +4007,30 @@
     def: >
       An "expression" with no arguments, such as the value 3.
 
+- slug: numpy
+  ref:
+    - python
+  en:
+    term: "numpy"
+    def: >
+      An open source Python package that works with arrays, vectors and matrices of dimension N, 
+      in a comparable method and with a syntax similar at Matlab software. You can find functions and 
+      sophisticated operations, focused in multidimensional arrays, linear algebra, Fourrier transform and 
+      generation of random values. 
+  es:
+    term: "numpy"
+    def: >
+      Es un paquete Python de código abierto que le permite trabajar con arreglos, vectores y matrices de 
+      dimensión N, en un método comparable y con una sintaxis similar al software Matlab. Puede encontrar 
+      funciones y operaciones sofisticadas, enfocadas en matrices multidimensionales, álgebra lineal, 
+      transformada de Fourrier y generación de valores aleatorios.
+  pt:
+    term: "numpy"
+    def: >
+      É um pacote Python de código aberto que permite trabalhar com arrays, vetores e matrizes de dimensão N, 
+      em um método comparável e com uma sintaxe semelhante ao software Matlab. Você pode encontrar funções 
+      e operações sofisticadas, focadas em arrays multidimensionais, álgebra linear, transformada de Fourrier 
+      e geração de valores aleatórios.
 
 - slug: object
   en:
@@ -4130,6 +4203,29 @@
     term: "pager"
     def: >
       A program that displays a few lines of text at a time.
+
+- slug: pandas
+  ref: 
+    - python
+  en:
+    term: "pandas"
+    def: >
+      An open source Python package that offers fast, flexible, and expressive data 
+      structures to make working with structured data, and time series easy and intuitive. It is 
+      a powerful tool for data analysis and data manipulation.
+  es:
+    term: "pandas"
+    def: >
+      Es un paquete de Python de código abierto que ofrece estructuras de datos rápidas, 
+      flexibles y expresivas para que trabajar con series de tiempo estructuradas sea fácil 
+      e intuitivo. Se utiliza como una poderosa herramienta para el análisis y la manipulación 
+      de datos.
+  pt:
+    term: "pandas"
+    def: >
+      É um pacote Python de código aberto que oferece estruturas de dados rápidas, flexíveis
+      e expressivas para tornar o trabalho com dados estruturados e séries temporais fácil e 
+      intuitivo. É usado como uma ferramenta poderosa para análise e manipulação de dados.
 
 
 - slug: parameter
@@ -4452,8 +4548,13 @@
   en:
     term: "pseudo-random number"
     def: >
-      A value generated in a repeatable way that resembles the [true](#true) randomness of the
+      A value generated in a repeatable way that resembles the [true](#true) randomness of the 
       universe well enough to fool observers.
+  es:
+    term: "número pseudo-aleatorio"
+    def: >
+      Un valor generado de forma repetible que refleja suficientemente bien a la 
+      verdadera aleatoriedad del universo como para engañar a simples observadores mortales.
 
 
 - slug: psf
@@ -4503,6 +4604,16 @@
     def: >
       A popular interpreted open-source programming language that relies on
       indentation to define control structure.
+  es:
+    term: "Python"
+    def: >
+      Un lenguaje de programación de código abierto interpretado popular que 
+      se basa en la sangría para definir la estructura de control.
+  pt:
+    term: "Python"
+    def: >
+      Uma popular linguagem de programação interpretada, de código aberto,  que 
+      depende de indentação para definir a estrutura de controle.
 
 
 - slug: quantile
@@ -4768,6 +4879,13 @@
       divided by the correct value. For example, if the actual value is 9 and the
       correct value is 10, the relative error is 0.1. Relative error is usually more
       useful than [absolute error](#absolute_error).
+  es:
+    term: "error relativo"
+    def: >
+      El valor absoluto de la diferencia entre el valor observado y el valor correcto,
+      dividido por el valor deseado. Por ejemplo, si el valor observado es 9 y el
+      valor correcto es 10, el error relativo es 0.1. El error relativo suele ser más
+      útil que el [error absoluto](#absolute_error).
   pt:
     term: "erro relativo"
     def: >
