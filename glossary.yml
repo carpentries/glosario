@@ -402,7 +402,6 @@
 
 
 - slug: aliasing
-- slug: aliasing
   en:
     term: "aliasing"
     def: >
@@ -1381,6 +1380,12 @@
       The amount of working memory needed to accomplish a set of simultaneous tasks.
 
 
+- slug: command
+  en:
+    term: "command"
+    def: >
+      An instruction telling a computer program to perform a specific task.
+
 - slug: command_history
   en:
     term: "command history"
@@ -1388,12 +1393,6 @@
       An automatically-created list of previously-executed commands. Most read-eval-print loops
       ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
       users to play back recent commands.
-
-- slug: command
-  en:
-    term: "command"
-    def: >
-      An instruction telling a computer program to perform a specific task.
 
 - slug: command_line_argument
   en:
@@ -2468,7 +2467,6 @@
 
 - slug: function
   ref:
-    - functions
     - command
   en:
     term: "function"
@@ -3182,7 +3180,6 @@
 
 - slug: jupyter_notebook
   ref:
-    - computational_notebook
     - jupyter
   en:
     term: "Jupyter Notebook"
