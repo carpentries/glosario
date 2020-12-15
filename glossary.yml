@@ -4426,6 +4426,15 @@
     def: >
       A naming style that separates the parts of a name with underscores, as in `first_second_third`.
 
+- slug: preamble
+  ref:
+    - LaTeX
+  en:
+    term: "preamble"
+    def: >
+      A series of commands prior to the \begin{document} command that define the type of document based on attributes and parameters. 
+      This is also the section of the document where packages are added using the command \usepackage{} to enable additional functionalities. 
+
 
 - slug: prerequisite
   ref:
