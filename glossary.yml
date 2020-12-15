@@ -1348,6 +1348,10 @@
     def: >
       O processo de dividir os dados em grupos quando os grupos em si não são conhecidos
       antecipadamente.
+  ja:
+    term: "クラスタリング"
+    def: >
+      データをどのように分類するかは不明のまま、グループに分割するプロセスのこと。
 
 
 - slug: code_coverage
@@ -2552,7 +2556,7 @@
   ja:
     term: "Git(ギット)"
     def: >
-       プロジェクトなどの変更履歴を記録・追跡するための分散型バージョン管理システムです。
+       プロジェクトなどの変更履歴を記録・追跡するための分散型バージョン管理システムのこと。
   pt:
     term: "Git"
     def: >
