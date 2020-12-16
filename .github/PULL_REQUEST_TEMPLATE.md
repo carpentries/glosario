@@ -25,3 +25,5 @@ Assign the PR based on the language to the following person:
 | Japanese   | @tomkellygenetics, @masamiy  |
 | Portuguese | @beatrizmilz                 |
 | Spanish    | @ian-flores                  |
+
+Please remove the lines not relevant to the language submitted.
