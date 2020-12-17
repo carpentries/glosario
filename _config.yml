@@ -26,23 +26,6 @@ languages:
       die inligting kan vind. Outeurs kan ook die programmateekfunksies gebruik om
       konsekwente hiperskakels, vir terme en definisies in enige van verskeie tale,
       by hul lesse in te sluit.
-  - key: am
-    name: አማርኛ
-    title: የቃላት ዝርዝር
-    blurb: >
-      In translation
-  - key: ar
-    name: Arabic
-    title: قائمة المصطلحات
-    blurb: >
-      تطبيق (جلوساريو) هو عبارة عن برنامج مفتوح المصدر للمصطلحات المستخدمة في علم البيانات ، المتواجدة في
-      [لغة آر (R)](https://github.com/carpentries/glosario-r/)
-      و
-      [لغة البايثون (Python)](https://github.com/carpentries/glosario-py/)
-      عن طريق إضافة مفاتيح المصطلحات إلى البيانات الوصفية للدرس، يستطيع الكاتب ان يحدد
-      ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
-      كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
-      لغات
   - key: de
     name: Deutsch
     title: Glossar
@@ -111,20 +94,6 @@ languages:
       e onde podem procurar para encontrar estes conteúdos. As pessoas autoras também
       podem utilizar as funções das bibliotecas para inserir _links_ consistentes
       para termos e definições em suas lições, em qualquer idioma disponível.
-  - key: ja
-    name: 日本語
-    title: グロサリオ
-    flag: japan
-    blurb: >
-      `グロサリオ`は、データサイエンスで使われる用語の
-      オープンソースグロッサリーです。オンラインとして、または
-      [R](https://github.com/carpentries/glosario-r)パッケージや
-      [Python](https://github.com/carpentries/glosario-py/)ライブラリ
-      として利用出来ます。レッスンのメタデータに新しい用語を追加することで、
-      そのレッスンで何を教えるのか、および学習者が必要な予備知識、
-      そしてその情報がどこにあるかが分かるようになります。また、
-      ライブラリの機能を使ってレッスンに多言語で、用語や定義に
-      一貫したハイパーリンクを挿入することが可能になります。
   - key: nl
     name: Nederlands
     title: Woordenlijst
@@ -147,3 +116,34 @@ languages:
       ngaphambi kokuthi baqale, nokuthi bangaya kuphi ukuthola lolu lwazi. Ababhali bangasebenzisa futhi
       imisebenzi yomtapo ukufaka izixhumanisi ezihambisanayo zamagama nezincazelo ezifundweni zabo nganoma
       yiziphi izilimi eziningana.
+  - key: am
+    name: አማርኛ
+    title: የቃላት ዝርዝር
+    blurb: >
+      In translation
+  - key: ar
+    name: اَلْعَرَبِيَّةُ
+    title: قائمة المصطلحات
+    blurb: >
+      تطبيق (جلوساريو) هو عبارة عن برنامج مفتوح المصدر للمصطلحات المستخدمة في علم البيانات ، المتواجدة في
+      [لغة آر (R)](https://github.com/carpentries/glosario-r/)
+      و
+      [لغة البايثون (Python)](https://github.com/carpentries/glosario-py/)
+      عن طريق إضافة مفاتيح المصطلحات إلى البيانات الوصفية للدرس، يستطيع الكاتب ان يحدد
+      ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
+      كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
+      لغات
+  - key: ja
+    name: 日本語
+    title: グロサリオ
+    flag: japan
+    blurb: >
+      `グロサリオ`は、データサイエンスで使われる用語の
+      オープンソースグロッサリーです。オンラインとして、または
+      [R](https://github.com/carpentries/glosario-r)パッケージや
+      [Python](https://github.com/carpentries/glosario-py/)ライブラリ
+      として利用出来ます。レッスンのメタデータに新しい用語を追加することで、
+      そのレッスンで何を教えるのか、および学習者が必要な予備知識、
+      そしてその情報がどこにあるかが分かるようになります。また、
+      ライブラリの機能を使ってレッスンに多言語で、用語や定義に
+      一貫したハイパーリンクを挿入することが可能になります。
