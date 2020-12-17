@@ -138,7 +138,7 @@ languages:
     title: グロサリオ
     flag: japan
     blurb: >
-      `グロサリオ`は、データサイエンスで使われる用語の
+      `グロサリオ` は、データサイエンスで使われる用語の
       オープンソースグロッサリーです。オンラインとして、または
       [R](https://github.com/carpentries/glosario-r)パッケージや
       [Python](https://github.com/carpentries/glosario-py/)ライブラリ
