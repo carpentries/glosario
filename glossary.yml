@@ -6323,7 +6323,7 @@
     term: "YAML"
     def: >
       Acrónimo recursivo de "YAML Ain't Markup Language" (YAML no es un lenguaje de marcación),
-      es una manera de representar datos anidados usando identación en lugar de paréntesis    
+      es una manera de representar datos anidados usando identación en lugar de paréntesis   
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
       archivos de configuración y en para definir [parámetros](#parameter) en varios estilos 
       de documentos en [Markdown](#markdown).
