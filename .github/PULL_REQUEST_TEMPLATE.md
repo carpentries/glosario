@@ -27,7 +27,7 @@ Fill in each of the sections (using NA for those that are not applicable).
 
 - 
 
-<!--Assign the PR based on the language to the correct editor(s):
+<!--Assign the PR based on the language by tagging the correct editor(s) from this table:
 | Language   | Person                       |
 |:----------:|:----------------------------:|
 | Afrikaans  | @jsteyn, @elletjies          |
