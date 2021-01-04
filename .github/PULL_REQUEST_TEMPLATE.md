@@ -7,6 +7,8 @@ Add definitions for 'agrégation', 'commentaire' (French)
 Translate 5 terms (Spanish)
 -->
 
+Fill in each of the sections (using NA for those that are not applicable).
+
 ## Author: 
 
 - 
