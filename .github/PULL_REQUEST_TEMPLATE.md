@@ -14,8 +14,9 @@
 
 ## Editor
 
-Assign the PR based on the language to the following person:
+- 
 
+<!--Assign the PR based on the language to the correct editor(s):
 | Language   | Person                       |
 |:----------:|:----------------------------:|
 | Afrikaans  | @jsteyn, @elletjies          |
@@ -25,5 +26,4 @@ Assign the PR based on the language to the following person:
 | Japanese   | @masamiy, @naoe-tatara       |
 | Portuguese | @beatrizmilz                 |
 | Spanish    | @ian-flores                  |
-
-Please remove the lines not relevant to the language submitted.
+-->
