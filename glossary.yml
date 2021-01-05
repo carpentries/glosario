@@ -1817,9 +1817,10 @@
   en:
     term: "data structure"
     def: >
-      A format for the organization, management, and efficient access of data. Consists of 
-      a set of data values, the relationship between those data values, and a function to read or write
-      to the data that is stored.
+      A format for the organisation, management, and efficient access of data. Typically it will
+      characterise a set of data values and their representation (or [encoding](#character_encoding)),
+      the relationships between values, and ways to access or manipulate those data, such as
+      reading, altering, or writing.
 
 - slug: data_wrangling
   en:
