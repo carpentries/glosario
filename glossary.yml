@@ -1813,6 +1813,14 @@
     def: >
       Alguém que usa habilidades de programação para resolver problemas estatísticos.
 
+- slug: data_structure
+  en:
+    term: "data structure"
+    def: >
+      A format for the organisation, management, and efficient access of data. Typically it will
+      characterise a set of data values and their representation (or [encoding](#character_encoding)),
+      the relationships between values, and ways to access or manipulate those data, such as
+      reading, altering, or writing.
 
 - slug: data_wrangling
   en:
