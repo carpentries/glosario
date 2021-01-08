@@ -1073,6 +1073,11 @@
       The file(s) that a [build rule](#build_rule) will update if they are out-of-date
       compared to their [dependencies](#dependency).
 
+- slug: byte
+  en:
+    term: "byte"
+    def: >
+      A unit of digital information that typically consists of eight [binary](#binary) digits, or [bits](#bit).
 
 - slug: byte_code
   en:
