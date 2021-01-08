@@ -1068,7 +1068,7 @@
   en:
     term: "byte"
     def: >
-      A unit of digital information that typically consists of eight binary digits, or bits.
+      A unit of digital information that typically consists of eight [binary](#binary) digits, or [bits](#bit).
 
 - slug: byte_code
   en:
