@@ -32,7 +32,7 @@ languages:
     blurb: >
       `glosario` ist ein Open-Source-Glossar mit Begriffen aus
       Data-Science-Gebiet, das sowohl online als auch als Bibliothek
-      in [R](https://github.com/carpentries/glosario-r/ und
+      in [R](https://github.com/carpentries/glosario-r/) und
       [Python](https://github.com/carpentries/glosario-py/) verfügbar
       ist. Durch Hinzufügen von Glossareinträgen zu den Metadaten
       einer Lektion (Lesson) können die Autoren angeben, was in in der
