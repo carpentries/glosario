@@ -1383,6 +1383,10 @@
     term: "cognitive load"
     def: >
       The amount of working memory needed to accomplish a set of simultaneous tasks.
+  af:
+    term: "kognitiewe lading"
+    def: >
+      Die hoeveelheid werkgeheue wat nodig is om 'n stel gelyktydige take te verrig.
 
 
 - slug: command
@@ -1806,6 +1810,10 @@
     def: >
       A combinação de estatística, programação e trabalho duro usados para extrair
       conhecimento a partir de dados.
+  af:
+    term: "datawetenskap"
+    def: >
+      Die kombinasie van statistiek en programmering wat gebruik word om kennis vanuit data te ontgin.
 
 
 - slug: data_scientist
@@ -1817,6 +1825,10 @@
     term: "cientista de dados"
     def: >
       Alguém que usa habilidades de programação para resolver problemas estatísticos.
+  af:
+    term: "datawetenskaplike"
+    def: >
+      Iemand wat programmeringsvaardighede gebruik om statistiese probleme op te los.
 
 - slug: data_structure
   en:
@@ -2911,6 +2923,10 @@
     def: >
       A graphical representation of the distribution of a set of numeric data, usually
       a vertical bar graph.
+  af:
+    term: "histogram"
+    def: >
+     'n Grafiese voorstelling van die verspreiding van 'n data, gewoonlik 'n vertikale staafgrafiek.
 
 
 - slug: hitchhiker
