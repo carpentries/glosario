@@ -514,7 +514,7 @@
   es:
     term: "Interfaz de Programación de Aplicaciones"
     def: >
-      Un conjunto de funciones y procedimientos proporcionados por una libreria de softtware o servicio web
+      Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
       atraves del cual otra aplicación se puede comunicar. Una API no es el código,
       la base de datos o el servidor; es el punto de acceso.    
 
@@ -812,7 +812,7 @@
   es:
     term: "Red Bayesiana"
     def: >
-      Una gráfica que representa la relacion entre las variables aleatorias para un determinado problema.
+      Un grafo que representa la relacion entre las variables aleatorias para un determinado problema.
 
 
 - slug: bias
@@ -6325,5 +6325,5 @@
       Acrónimo recursivo de "YAML Ain't Markup Language" (YAML no es un lenguaje de marcación),
       es una manera de representar datos anidados usando identación en lugar de paréntesis   
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
-      archivos de configuración y en para definir [parámetros](#parameter) en varios estilos 
+      archivos de configuración y para definir [parámetros](#parameter) en varios estilos 
       de documentos en [Markdown](#markdown).
