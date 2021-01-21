@@ -2748,6 +2748,10 @@
     def: >
       Une variable définie en dehors d'une fonction donnée, qui est par conséquent
       visible pour toutes les fonctions.
+  ko:
+    term: "전역 변수"
+    def: >
+      소스 코드 상의 모든 곳에서 접근할 수 있는 변수.
 
 
 - slug: globbing
@@ -3470,6 +3474,10 @@
     def: >
       Una variable definida dentro de una función, por lo que solo es visible dentro
       de ella.
+  ko:
+    term: "지역 변수"
+    def: >
+      특정 함수 내에서 정의되고 그 함수 내에서만 유효한 변수. 
 
 
 - slug: log
