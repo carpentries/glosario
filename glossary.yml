@@ -3034,7 +3034,14 @@
     term: "import"
     def: >
       To bring things from a [module](#module) into a program for use. In most
-      languages, a program can only import things that the module explicitly [exports](#export).
+      languages a program can only import things that the module explicitly
+      [exports](#export).
+  es:
+    term: "importar"
+    def: >
+      traer cosas de un [módulo](#module) para incorporarlas al programa. En la mayoría
+      de las lenguajes, un programa solo puede importar cosas que el módulo 
+      [exporta](#export) explícitamente.
 
 
 - slug: impostor_syndrome
@@ -3341,6 +3348,10 @@
     term: "library"
     def: >
       A reusable software [package](#package), also often called a [module](#module).
+  es:
+    term: "biblioteca"
+    def: >
+      un paquete de software reutilizable, también  se llama un [módulo](#module).
   pt:
     term: "biblioteca"
     def: >
@@ -3826,6 +3837,10 @@
     term: "module"
     def: >
       A reusable software [package](#package), also often called a [library](#library).
+  es:
+    term: "módulo"
+    def: >
+      un paquete de software reutilizable, también se llama una [biblioteca](#library).
 
 
 - slug: monte_carlo
