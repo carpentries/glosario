@@ -511,6 +511,12 @@
       webdiens voorsien word vir gebruik deur ander toepassings om met die
       programmateek of webdiens te kommunikeer. Die API is nie die kode, die databasis
       of die bediener nie, dit is die koppelvlak.
+  es:
+    term: "Interfaz de Programación de Aplicaciones"
+    def: >
+      Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
+      atraves del cual otra aplicación se puede comunicar. Una API no es el código,
+      la base de datos o el servidor; es el punto de acceso.    
 
 
 - slug: append_mode
@@ -786,6 +792,12 @@
       An equation for calculating the probability that something is [true](#true) if something
       related to it is true. If P(X) is the probability that X is true and P(X|Y) is
       the probability that X is true given Y is true, then P(X|Y) = P(Y|X) * P(X) / P(Y).
+  es:
+    term: "Teorema de Bayes"
+    def: >
+      Una ecuación para calcular la probabilidad de que algo sea [verdadero](#true) si algo    
+      relacionado con ello es verdadero. Si P(X) es la probabilidad de que X is verdadero y P(X|Y) es    
+      la probabilidad de que X es verdadero dado que Y sea verdadero, entonces P(X|Y) = P(Y|X) * P(X) / P(Y).
 
 
 - slug: bayesian_network
@@ -797,6 +809,10 @@
     term: "Bayesian network"
     def: >
       A graph that represents the relationships between random variables for a given problem.
+  es:
+    term: "Red Bayesiana"
+    def: >
+      Un grafo que representa la relacion entre las variables aleatorias para un determinado problema.
 
 
 - slug: bias
@@ -5543,6 +5559,11 @@
     term: "Stack Overflow"
     def: >
       Um site de perguntas e respostas popular entre pessoas programadoras.
+  es:
+    term: "Stack Overflow"
+    def: >
+      Un sitio de preguntas y respuestas popular entre personas programadoras.
+         
 
 
 - slug: standard_deviation
@@ -6362,3 +6383,11 @@
       no lugar de parênteses e vírgulas usados em [JSON](#json). YAML é frequentemente usado em 
       arquivos de configuração e na definição de [parâmetros](#parameter) para vários estilos
       de documentos em [Markdown](#markdown).
+  es:
+    term: "YAML"
+    def: >
+      Acrónimo recursivo de "YAML Ain't Markup Language" (YAML no es un lenguaje de marcación),
+      es una manera de representar datos anidados usando identación en lugar de paréntesis   
+      y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
+      archivos de configuración y para definir [parámetros](#parameter) en varios estilos 
+      de documentos en [Markdown](#markdown).
