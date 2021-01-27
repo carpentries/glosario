@@ -402,7 +402,7 @@
   af:
     term: "algoritme"
     def: >
-      'n Algoritme is 'n stel instruksies wat gevolg moet word om 'n spesifieke taak uitvoer.
+      'n Algoritme is 'n stel instruksies wat gevolg moet word om 'n spesifieke taak uittevoer.
 
 
 - slug: aliasing
