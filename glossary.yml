@@ -1168,6 +1168,16 @@
 
 
 - slug: causation
+  en:
+    term: "causation"
+    def: >
+      A relationship between distinct events, where it is asserted that one event is responsible for 
+      producing or affecting change in the other.
+  fr:
+    term: causalité
+    def: >
+      Une relation entre des événements distincts, où il est affirmé qu'un événement est responsable de 
+      produire ou d'affecter un changement dans l'autre
 
 
 - slug: cc_0
