@@ -2872,8 +2872,18 @@
       encourages raising and catching exceptions, and in some situations, requires it.
 
 
+
+
+
+
 - slug: harmonic_mean
 
+- slug: hardware
+  en:
+    term: "hardware"
+    acronym: "HW"
+    def: >
+      Any physical component of a computer system. Hardware can be internal, such as CPU, memory, and graphic cards, or external, such as monitors and keyboards. The hardware operates in conjunction with software to produce a functioning computer system.
 
 - slug: hash_function
   en:
