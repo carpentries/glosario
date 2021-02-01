@@ -2891,7 +2891,6 @@
       A function that turns arbitrary data into a bit array, or a [key](#key), of a fixed size. Hash
       functions are used to determine where data should be stored in a [hash table](#hash_table).
 
-
 - slug: hash_table
   en:
     term: "hash table"
@@ -2901,7 +2900,6 @@
       at the cost of extra memory because hash tables must always be larger than the amount
       of information they need to store, to avoid the possibility of data collisions, when the
       hash function returns the same key for two different values.
-
 
 - slug: header_row
   ref:
