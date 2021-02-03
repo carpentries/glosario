@@ -1567,7 +1567,9 @@
   en:
     term: "configuration file"
     def: >
-      A file that specify the parameters and initial settings of software programs. Config files are often used for information subject to changes, such as environment-specific settings.
+      A file that specifies the parameters and initial settings of a software program.
+      Configuration, or config, files are often used for information subject to changes,
+      such as environment-specific settings.
       
       
 - slug: constant
