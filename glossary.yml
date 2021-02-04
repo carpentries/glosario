@@ -1563,6 +1563,15 @@
       that simulates such a device.
 
 
+- slug: configuration file
+  en:
+    term: "configuration file"
+    def: >
+      A file that specifies the parameters and initial settings of a software program.
+      Configuration, or config, files are often used for information subject to changes,
+      such as environment-specific settings.
+      
+      
 - slug: constant
 
 
