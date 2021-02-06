@@ -4731,7 +4731,7 @@
   en:
     term: "query string"
     def: >
-      The portion of a [URL](#url) after the quesiton mark `?` that specifies extra
+      The portion of a [URL](#url) after the question mark `?` that specifies extra
       parameters for the [HTTP request](#http_request) as name-value pairs.
 
 
