@@ -3877,6 +3877,10 @@
     term: "model"
     def: >
       A specification of the mathematical relationship between different variables.
+  af:
+    term: "model"
+    def: >
+      'n Spesifikasie van'n wiskundige verband tussen verskillende veranderlikes.
 
 
 - slug: module
@@ -3940,6 +3944,10 @@
     term: "NA"
     def: >
       A special value used to represent data that is not available.
+  af:
+    term: "NA"
+    def: >
+      'n Spesiale waarde wat gebruik word om data wat nie beskikbaar is nie, voor te stel.
   ar:
     term: "لاشيء"
     def: >
