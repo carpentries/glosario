@@ -405,7 +405,7 @@
       'n Algoritme is 'n stel instruksies wat gevolg moet word om 'n spesifieke taak uit te voer.
   es:
     term: "algoritmo"
-     def: >
+    def: >
       Un algortimo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
       En informática, un algoritmo es un conjunto de instrucciones en un programa informático que resuelve un problema computacional.
 
