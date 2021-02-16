@@ -1701,7 +1701,7 @@
       correlação](#correlation_coefficient) é uma medida normalizada da covariância.
 
 
-slug: cpu
+- slug: cpu
   en:
     term: "Central Processing Unit"
     acronym: "CPU"
