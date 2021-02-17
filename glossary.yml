@@ -5574,6 +5574,13 @@
     acronym: "SSH"
     def: >
       A program that allows secure access to remote computers.
+  es:
+    term: "Secure Shell"
+    acronym: "SSH"
+    def: >
+      Un protocolo y del programa que lo implementa cuya principal función es el 
+      acceso remoto a un servidor por medio de un canal seguro en el que toda la 
+      información está cifrada.
 
 
 - slug: ssh_key
