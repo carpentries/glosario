@@ -1701,6 +1701,17 @@
       correlação](#correlation_coefficient) é uma medida normalizada da covariância.
 
 
+- slug: cpu
+  en:
+    term: "Central Processing Unit"
+    acronym: "CPU"
+    def: >
+      The principal hardware of any digital computer. The CPU constitutes the 
+      essential electronic circuitry that interprets and executes instructions 
+      from the software or other hardware. Also called a central processor, 
+      main processor, or microprocessor.
+ 
+      
 - slug: cran
   ref:
     - base_r
