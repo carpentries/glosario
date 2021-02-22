@@ -961,7 +961,7 @@
     term: "Boolean"
     def: >
       Relating to a variable or data type that can have either a logical value of
-      [true](#true) or [false](#false). Named for George Boole, a 19th
+      [true](#true) or [false](#false). Named after George Boole, a 19th
       century mathematician. Binary systems, like all computers, are built on this
       foundation of systems of logical evaluations between states of true and false, 1
       or 0.
@@ -978,11 +978,18 @@
   pt:
     term: "Booleano"
     def: >
-      Relacionado a uma uma variável ou tipo de dado que pode ter um valor lógico de
+      Relacionado a uma variável ou tipo de dado que pode ter um valor lógico de
       [verdadeiro](#true) ou [falso](#false). Nomeado em referêcia à George Boole, um
       matemático do século XIX. Sistemas binários, como todos os computadores, são construídos
       com base em sistemas de avaliação entre estados de verdadeiro e falso, 0 ou 1.
-
+  es:
+    term: "Booleano"
+    def: >
+     Relacionado a una variable o tipo de dato que puede tomar un valor lógico. 
+     Un valor lógico puede ser [verdadero](#true) o [falso](#false). 
+     El termino "booleano" viene en honor a George Boole, un matematico del siglo XIX. 
+     El concepto del computador esta fundamentado en el sistema binario, 
+     en el qual se evalua entre estados de verdedero o falso.
 
 - slug: branch
   en:
