@@ -3801,6 +3801,14 @@
       [mean](#mean), which can be influenced by a small number of extreme [outliers](#outlier).
       If the dataset contains an even number of elements, this is the average of the
       two central elements.
+  es:
+    term: "mediana"
+    def: >
+      Un valor que separa las mitades superior e inferior de un conjunto de datos ordenado. 
+      Frecuentemente, la mediana da una idea mejor de lo que es característico del conjunto de
+      datos que la [media](#mean), que puede estar influenciada por un pequeño número de [valores
+      atípicos](#outlier). Si el conjunto de datos contiene un número par de elementos, este es el
+      promedio de los dos elementos centrales.
   af:
     term: "mediaan"
     def: >
