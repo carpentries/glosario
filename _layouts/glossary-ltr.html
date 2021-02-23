@@ -1,0 +1,40 @@
+---
+---
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>{{site.title}}</title>
+    <link href="{{ '/static/site.css' | relative_url }}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/glossary.css" />
+    <link rel="stylesheet" type="text/css" href="{{ relative_root_path }}/assets/css/glossary.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<main>
+    {% include title.html %}
+    <div id="content-wrapper">
+        <div class="inner clearfix">
+            <section id="main-content-ltr">
+                {% include glossary.html headings = headings %}
+            </section>
+            <div class="sticky-ltr">
+                {% assign char_arr = headings | split: '' %}
+                {% for char in char_arr %}
+                        <a class="letter_links"
+                           href="#{{char}}">{{char}}</>
+                        </a>
+                        <br>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>
+        <a href="{{'/' | relative_url}}">Home</a>
+        -
+        <a href="{{'/license/' | relative_url}}">License</a>
+        -
+        <a href="https://github.com/carpentries/glosario/">GitHub</a>
+    </p>
+</footer>
+</body>

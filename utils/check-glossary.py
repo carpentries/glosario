@@ -30,7 +30,7 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'af', 'en', 'es', 'fr', 'pt', 'zu'}
+ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'de', 'en', 'es', 'fr', 'he', 'ja', 'nl', 'pt', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
@@ -119,6 +119,8 @@ def checkEntry(entry):
     unknown_keys = keys - ENTRY_KEYS
     if unknown_keys:
         print(f'Unknown keys in {slug}: {unknown_keys}')
+    if (len(ENTRY_LANGUAGE_KEYS - keys) == len(ENTRY_LANGUAGE_KEYS)):
+        print(f'No language entries for entry {entry}')
     result = {}
     crossrefs = set(entry['ref']) if ('ref' in entry) else set()
     for lang in ENTRY_LANGUAGE_KEYS:
@@ -197,7 +199,10 @@ def buildForward(gloss):
     '''Build graph of forward references.'''
     result = {}
     for entry in gloss:
-        record = set(LINK_PAT.findall(entry['en']['def']))
+        record = set()
+        for language in ENTRY_LANGUAGE_KEYS:
+            if language in entry:
+                record |= set(LINK_PAT.findall(entry[language]['def']))
         result[entry['slug']] = record
     return result
 

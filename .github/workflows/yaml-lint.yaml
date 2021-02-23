@@ -1,4 +1,4 @@
-name: Lint `glossary.yml`
+name: Lint and check `glossary.yml`
 
 on: [push, pull_request]
 
@@ -21,9 +21,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install yamllint
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Lint glossary.yml with yamllint
-      run: |
-        yamllint glossary.yml
     - name: Lint _config.yml with yamllint
       run: |
         yamllint  _config.yml
+    - name: Lint glossary.yml with yamllint
+      run: |
+        make check
