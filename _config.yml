@@ -41,6 +41,18 @@ languages:
       können die Funktionen der Bibliothek auch nutzen, um konsistente
       Links zu Begriffe und Definitionen in ihren Lektionen in einer
       von mehreren Sprachen einzufügen.
+  - key: bn
+    name: Bangla
+    title: শব্দকোষ
+    blurb: >
+      `glosario` হল ডাটা সায়েন্স এ ব্যবহৃত শব্দগুলোর জন্য একটি ওপেন সোর্স অনলাইন 
+      শব্দকোষ। এটি [R](https://github.com/carpentries/glosario-r/) এবং 
+      [Python](https://github.com/carpentries/glosario-py/), উভয় লাইব্রেরি 
+      আকারেও ব্যবহার করা যাবে। লেখকরা পাঠক্রমের মেটাডাটা তে শব্দকোষ এর টীকা যোগ 
+      করে শিক্ষার্থীদের জানাতে পারবেন যে পাঠ্যক্রমে  কি শেখানো হচ্ছে, শেখা শুরু করার 
+      আগে তাদের কি কি জানা উচিৎ, এবং তা তারা কোথা থেকে শিখতে পারবে। লেখকরা 
+      লাইব্রেরি ফাংশন ব্যবহার করে তাদের পাঠ্যক্রমে  বিভিন্ন ভাষাতে শব্দ ও সংজ্ঞার 
+      সামঞ্জস্যপূর্ণ হাইপারলিঙ্ক যোগ করতে পারেন।
   - key: en
     name: English
     title: Glossary
