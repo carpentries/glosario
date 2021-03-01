@@ -4481,6 +4481,17 @@
       Phony targets are often used to store commonly-used commands in a [Makefile](#makefile).
 
 
+- slug: pip
+  ref:
+    - python
+  en:
+    term: "Pip Install Packages"
+    acronym: "PIP"
+    def: >
+      The standard [package manager](#package_manager) for [Python](#python). pip Enables the download and installation
+      of Python packages not included in the standard library.
+
+
 - slug: pipe_operator
   en:
     term: "pipe operator"
@@ -4738,6 +4749,17 @@
       specifies an [element](#element) of the result vector that gets the corresponding element of
       the source vector, i.e., `result[index[i]] = source[i]`. Push indexing can
       easily produce gaps and collisions.
+
+
+- slug: pypi
+  ref:
+    - python
+  en:
+    term: "Python Package Index"
+    acronym: "PyPI"
+    def: >
+      The official third-party software repository for [Python](#python). Anyone can upload a [package](#package)
+      to PyPI. PyPI packages may install via executed scripts or pre-compiled system-specific wheels.
 
 
 - slug: python
