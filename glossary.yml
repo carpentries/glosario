@@ -118,11 +118,6 @@
     def: >
       O valor absoluto da diferença entre um valor observado e o valor correto. O erro
       absoluto é normalmente menos útil do que o [erro relativo](#relative_error).
-  es:
-    term: "error absoluto"
-    def: >
-      El valor absoluto de la diferencia entre el valor observado y el correcto.
-      El error absoluto suele ser menos útil que el [error relativo](#relative_error).
   fr:
     term: "erreur absolue"
     def: >
