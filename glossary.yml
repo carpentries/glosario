@@ -4483,13 +4483,14 @@
 
 - slug: pip
   ref:
+    - pypi
     - python
   en:
     term: "Pip Install Packages"
     acronym: "PIP"
     def: >
-      The standard [package manager](#package_manager) for [Python](#python). pip Enables the download and installation
-      of Python packages not included in the standard library.
+      The standard [package manager](#package_manager) for [Python](#python). pip enables
+      the download and installation of Python packages not included in the standard library.
 
 
 - slug: pipe_operator
@@ -4754,12 +4755,14 @@
 - slug: pypi
   ref:
     - python
+    - pip
   en:
     term: "Python Package Index"
     acronym: "PyPI"
     def: >
-      The official third-party software repository for [Python](#python). Anyone can upload a [package](#package)
-      to PyPI. PyPI packages may install via executed scripts or pre-compiled system-specific wheels.
+      The official third-party software repository for [Python](#python). Anyone can upload
+      a [package](#package) to PyPI. PyPI packages may install via executed scripts or
+      pre-compiled, system-specific wheels.
 
 
 - slug: python
