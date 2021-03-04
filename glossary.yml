@@ -408,6 +408,11 @@
     def: >
       Un algortimo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
       En informática, un algoritmo es un conjunto de instrucciones en un programa informático que resuelve un problema computacional.
+  fr:
+    term: "algorithme"
+    def: >
+      Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
+      En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
 
 - slug: aliasing
   en:
