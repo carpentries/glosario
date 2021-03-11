@@ -3212,7 +3212,7 @@
     term: "label (an issue)"
     def: >
       A short textual tag associated with an [issue](#issue) to categorize it. Common
-      labels include `bug` and `feature request`.
+      labels include [`bug`](#bug) and `feature request`.
 
 
 - slug: issue_tracking_system
