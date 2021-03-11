@@ -2086,7 +2086,7 @@
     acronym: "DOI"
     def: >
       A unique persistent identifier for a book, paper, report, dataset, software release, or
-      other digital artifact.
+      other digital artefact.
   ja:
     term: "デジタルオブジェクト識別子"
     acronym: "DOI"
