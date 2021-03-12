@@ -622,10 +622,10 @@
       `assert` statement) or provided as functions (e.g., [R](#r_language)'s `stopifnot`). They are
       often used in testing, but are also put in [production code](#production_code)
       to check that it is behaving correctly. In many languages, assertions should not be
-      used to perform data-validation as they may be silently dropped by compilers and interpreters
+      used to perform data validation as they may be silently dropped by compilers and interpreters
       under optimization conditions. Using assertions for data validation can therefore
       introduce security risks. Unlike many languages, R does not have an `assert` statement
-      which can be disabled, and so use of [package](#package) such as `assertr` for data
+      which can be disabled, and so use of a [package](#package) such as `assertr` for data
       validation does not create security holes.
   af:
     term: "bewering"
@@ -695,8 +695,8 @@
   en:
     term: "auto-completion"
     def: >
-      A feature that allows the user to finish a word or code quickly through the use
-      of pressing the TAB key to list possible words or code from which the user can select.
+      A feature that allows the user to finish a word or code quickly
+      by pressing the TAB key to list possible words or code from which the user can select.
   fr:
     term: "auto-complétion"
     def: >
@@ -1171,7 +1171,7 @@
     term: "catch (an exception)"
     def: >
       To accept responsibility for handling an error or other unexpected event. [R](#r_language)
-      prefers "handling a condition" to "catching an exception". [Python](#python), on the other hand,
+      prefers "handling a condition" to "catching an exception." [Python](#python), on the other hand,
       encourages raising and catching exceptions, and in some situations, requires it.
   ar:
     term: "إستثناء"
@@ -1230,8 +1230,8 @@
       commercial purposes without the creator's permission; `-ND` (NoDerivatives): no
       derivative works (e.g., translations) can be created without the creator's
       permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use
-      commercially without permission". The term `CC-0` (zero, not letter 'O') is
-      sometimes used to mean "no restrictions", i.e., the work is in the public domain.
+      commercially without permission." The term `CC-0` (zero, not letter 'O') is
+      sometimes used to mean "no restrictions," i.e., the work is in the public domain.
   pt:
     term: "Licença Creative Commons"
     def: >
@@ -1438,7 +1438,7 @@
   en:
     term: "command history"
     def: >
-      An automatically-created list of previously-executed commands. Most read-eval-print loops
+      An automatically created list of previously executed commands. Most read-eval-print loops
       ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
       users to play back recent commands.
 
@@ -1558,7 +1558,7 @@
       A [ternary expression](#ternary_expression) that serves the role of an if/else
       statement. For example, C and similar languages use the syntax `test : ifTrue ?
       ifFalse` to mean "choose the value `ifTrue` if `test` is true, or the value
-      `ifFalse` if it is not".
+      `ifFalse` if it is not."
 
 
 - slug: confidence_interval
@@ -2066,7 +2066,7 @@
   en:
     term: "docstring"
     def: >
-      Short for "documentation string", a string appearing at the start of a module,
+      Short for "documentation string," a string appearing at the start of a module,
       class, or function in [Python](#python) that automatically becomes that object's documentation.
 
 
@@ -2074,7 +2074,7 @@
   en:
     term: "documentation generator"
     def: >
-      A software tool that extracts specially-formatted comments or
+      A software tool that extracts specially formatted comments or
       [dostrings](#docstring) from code and generates cross-referenced developer documentation.
 
 
@@ -2702,7 +2702,7 @@
     def: >
       Merging branches in [Git](#git) incorporates development
       histories of two [branches](#branch) in one. If changes are made to similar
-      parts of the branches on both branches a [conflict](#git_conflict) will occur and
+      parts of the branches on both branches, a [conflict](#git_conflict) will occur and
       this must be resolved before the merge will be completed.
 
 
@@ -3184,10 +3184,10 @@
   en:
     term: "invariant"
     def: >
-      Something that is must be [true](#true) at all times inside of a program or during the
+      Something that must be [true](#true) at all times inside of a program or during the
       [lifecycle](#lifecycle) of an [object](#object). Invariants are often expressed using [assertions](#assertion).
       If an invariant expression is not true, this is indicative of a problem, and
-      may result in failure or early temrination of the program.
+      may result in failure or early termination of the program.
 
 
 - slug: iso_date_format
@@ -3219,7 +3219,7 @@
   en:
     term: "issue tracking system"
     def: >
-      Similar to a [bug tracking system](#bug_tracker) in that it tracks ["issues"](#issue)
+      Similar to a [bug tracking system](#bug_tracker) in that it tracks [issues](#issue)
       made to a [repository](#repository), usually in the form of [feature
       requests](#feature_request), [bug reports](#bug_report), or some other to-do item.
 
@@ -3360,7 +3360,7 @@
     term: "LaTeX"
     def: >
       A typesetting system for document preparation that uses a specialized [markup language](#markup_language) to define a document structure
-      (e.g. headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
+      (e.g., headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
       used in academia, in particular for scientific papers and theses in mathematics, physics, engineering, and computer science.
   fr:
     term: "LaTeX"
@@ -3624,7 +3624,7 @@
   en:
     term: "long option"
     def: >
-      A full-word identifier for a [command line argument](#command_line_argument).
+      A full-word identifier for a [command-line argument](#command_line_argument).
       While most common flags are a single letter preceded by a dash, such as `-v`,
       long options typically use two dashes and a readable name, such as `--verbose`.
 
@@ -4483,7 +4483,7 @@
     term: "phony target"
     def: >
       A [build target](#build_target) that does not correspond to an actual file.
-      Phony targets are often used to store commonly-used commands in a [Makefile](#makefile).
+      Phony targets are often used to store commonly used commands in a [Makefile](#makefile).
 
 
 - slug: pip
@@ -4740,7 +4740,7 @@
     term: "pull request"
     def: >
       The request to merge a new feature or correction created on a user's [fork](#fork) of a
-      [Git](#git) [repository](#repository)repository into the [upstream repository](#upstream_repository).
+      [Git](#git) [repository](#repository) into the [upstream repository](#upstream_repository).
       The developer will be notified of the change, review it, make or suggest changes, and potentially
       [merge](#git_merge) it.
 
@@ -5455,7 +5455,7 @@
   en:
     term: "shell variable"
     def: >
-      A variable set and used in the [Unix shell](#shell). Commonly-used shell
+      A variable set and used in the [Unix shell](#shell). Commonly used shell
       variables include `HOME` (the user's home directory) and `PATH` (their [search path](#search_path)).
 
 
@@ -5488,7 +5488,7 @@
   en:
     term: "short option"
     def: >
-      A single-letter identifier for a [command line
+      A single-letter identifier for a [command-line
       argument](#command_line_argument). Most common flags are a single letter
       preceded by a dash, such as `-v`.
 
@@ -5856,7 +5856,7 @@
     term: "tag (in version control)"
     def: >
       A readable label attached to a specific [commit](#commit) so that it can easily
-      be referenced to later.
+      be referenced later.
 
 
 - slug: tdd
@@ -6079,7 +6079,7 @@
     term: "tuple"
     def: >
       A data type that has a fixed number of parts, such as the three color components of a
-      red-green-blue color specification. Tuples are immutable (their values can not be reset.)
+      red-green-blue color specification. Tuples are immutable (their values cannot be reset.)
 
 
 - slug: two_hard_problems
