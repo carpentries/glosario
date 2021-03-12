@@ -5856,7 +5856,7 @@
     term: "tag (in version control)"
     def: >
       A readable label attached to a specific [commit](#commit) so that it can easily
-      be referred to later.
+      be referenced later.
 
 
 - slug: tdd
