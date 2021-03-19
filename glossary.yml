@@ -6036,7 +6036,7 @@
 
 
 - slug: training_data
- ref:
+  ref:
     - machine_learning
   en:
     term: "training data"
