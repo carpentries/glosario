@@ -5898,9 +5898,9 @@
     term: "test data"
     def: >
       Test data is a portion of a dataset used to evaluate the correctness of a 
-      [machine learning](#machine_learning) algorithm after it has been trained. It should always
-      be separated from the [training data](#training_data) to ensure that the model is 
-      properly tested with unseen data.
+      [machine learning](#machine_learning) algorithm after it has been trained.
+      It should always be separated from the [training data](#training_data) to
+      ensure that the model is properly tested with unseen data.
 
 - slug: test_runner
   en:
@@ -6041,10 +6041,10 @@
   en:
     term: "training data"
     def: >
-      Training data is a portion of a dataset used to train a
-      [machine learning](#machine_learning) algorithm to recognize similar data. It should always
-      be separated from the [test data](#test_data) to ensure that the model is 
-      properly tested with data it has never seen before.
+      Training data is a portion of a dataset used to train [machine learning](#machine_learning)
+      algorithm to recognise similar data. It should always be separated from the
+      [test data](#test_data) to ensure that the model is properly tested with data it has
+      never seen before.
 
 - slug: transitive_dependency
   en:
