@@ -3337,6 +3337,15 @@
       such as a [dictionary](#dictionary).
 
 
+- slug: keyword
+  en:
+    term: "keyword"
+    def: >
+      A word which is reserved by a program because it has a special meaning and cannot
+      be used as variable names, function names, or other identifiers. Keywords can
+      be commands or parameters. Also known as reserved names or reserved words.
+      
+
 - slug: keyword_argument
   ref:
     - named_argument
