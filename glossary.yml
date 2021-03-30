@@ -6499,3 +6499,24 @@
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
       archivos de configuración y para definir [parámetros](#parameter) en varios estilos 
       de documentos en [Markdown](#markdown).
+
+- slug: soure code
+  en:
+    term: "source code"
+    def: >
+      Is a human-readable text written in a specific programming language created by a programmer 
+      with the goal of setting exact rules for a computer-executable application.
+
+- slug: execute
+  en:
+    term: "execute"
+    def: >
+      Is the process of running a computer software program, script, or command by reading and 
+      acting on the instructions converted into machine language.
+
+- slug: queue
+  en:
+    term: "queue"
+    def: >
+      Is a data structure in which elements are removed in the same order they are entered 
+     (FIFO)- first-in first-out abstract data type used in computing.
