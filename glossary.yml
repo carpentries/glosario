@@ -4816,7 +4816,7 @@
     term: "queue"
     def: >
       Is a data structure in which elements are removed in the same order they are entered 
-     (FIFO)- first-in first-out abstract data type used in computing.
+      (FIFO)- first-in first-out abstract data type used in computing.
     
 - slug: quosure
   en:
