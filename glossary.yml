@@ -3131,6 +3131,16 @@
 - slug: independent_variable
 
 
+- slug: infinite_loop
+  ref:
+    - loop
+  en:
+    term: "infinite loop"
+    def: >
+      A loop where the exit condition is never met, so the loop continues to repeat itself.
+      Often a programming error.
+
+
 - slug: inner_join
   ref:
     - anti_join
@@ -3627,6 +3637,18 @@
       A full-word identifier for a [command-line argument](#command_line_argument).
       While most common flags are a single letter preceded by a dash, such as `-v`,
       long options typically use two dashes and a readable name, such as `--verbose`.
+
+
+- slug: loop
+  ref:
+    - for_loop
+    - while_loop
+    - infinite_loop
+    - loop_body
+  en:
+    term: "loop"
+    def: >
+      A structure that repeatedly executes a section of code until a specific exit condition is met.
 
 
 - slug: loop_body
