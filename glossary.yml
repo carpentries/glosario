@@ -5596,7 +5596,7 @@
   en:
     term: "source code"
     def: >
-      Is a human-readable text written in a specific programming language created by a programmer 
+      Human-readable text written in a programming language 
       with the goal of setting exact rules for a computer-executable application.
 
 - slug: source_distribution
