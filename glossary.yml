@@ -3341,9 +3341,10 @@
   en:
     term: "keyword"
     def: >
-      A word which is reserved by a program because it has a special meaning and cannot
-      be used as variable names, function names, or other identifiers. Keywords can
-      be commands or parameters. Also known as reserved names or reserved words.
+      A word which has a special meaning in a programming language and therefore cannot be
+      used as a variable name, a [function](#function) name, or other identifier. Keywords can
+      be [commands](#command) or [parameters](#parameter). Also known as reserved names
+      or reserved words.
       
 
 - slug: keyword_argument
