@@ -2288,7 +2288,7 @@
   en:
     term: "execute"
     def: >
-      Is the process of running a computer software program, script, or command by reading and 
+      The process of running a computer software program, script, or command by reading and 
       acting on the instructions converted into machine language.
 
 - slug: exception
