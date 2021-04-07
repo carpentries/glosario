@@ -2865,6 +2865,11 @@
     def: >
       Opens a help page for the command. The system provides detailed information
       on how the command works and how it is used.
+  ja:
+    term: "ヘルプ(機能)"
+    def: >
+      コマンドのヘルプページ を開けます。
+      コマンドの使い方を伝えやどう動きの詳細説明を組み込まれています。
 
 - slug: heterogeneous
   ref:
