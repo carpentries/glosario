@@ -22,6 +22,14 @@
       val binne twee en 99.7% val binne drie standaardafwykings. Omgekeerd, in die
       meeste gevalle val 0.3% van die waardes meer as drie standaardafwykings bo of
       onder die gemiddelde.
+  es:
+    term: "regla 68-95-99.7"
+    def: >
+      Expresa el hecho de que el 68% de los valores se encuentran dentro de una
+      [desviación estándar](#standard_deviation) de la [media](#mean), el
+      95% está dentro de dos y el 99,7% está dentro de tres. Por el contrario,
+      aproximadamente el 0,3% de los valores se encuentran más de tres desviaciones
+      estándar por encima o por debajo de la media en la mayoría de los casos.
   pt:
     term: "regra 68-95-99,7"
     def: >
@@ -33,10 +41,10 @@
     term: "règle de 68-95-99.7"
     def: >
       Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
-      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de
+      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de 
       deux (2) écarts-types, et 99,7% à l'interieur de trois (3) écarts-types.
-      Inversement et dans la plupart des cas, environ 0.3% des valeurs se situent à
-      plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
+      Inversement et dans la plupart des cas, environ 0.3% des valeurs 
+      se situent à plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
   ar:
     term: "القاعدة ٩٩,٧-٩٥-٦٨"
     def: >
@@ -598,11 +606,15 @@
     term: "média aritmética"
     def: >
       Veja [média](#mean).
+  es:
+    term: "media aritmética"
+    def: >
+      Ver [media](#mean).
   af:
     term: "rekenkundige gemiddelde"
     def: >
       Sien [gemiddelde](#mean).
-
+      
 
 - slug: ascii
   en:
@@ -843,6 +855,11 @@
     def: >
       A statistic is biased if it is systematically or consistently different from the
       parameter it is supposed to estimate.
+  es:
+    term: "sesgo"
+    def: >
+      Un estadístico está sesgado si es sistemática o consistentemente diferente
+      del parámetro que se supone que debe estimar.
   pt:
     term: "viés"
     def: >
@@ -3807,6 +3824,11 @@
     term: "mean absolute error"
     def: >
       The average error of all predicted values compared with actual values.
+  es:
+    term: "error absoluto medio"
+    def: >
+      El error promedio de todos los valores predichos en comparación con los
+      valores reales.
 
 
 - slug: mean_squared_error
@@ -3819,6 +3841,13 @@
       with actual values. Squaring makes larger errors count for more,
       and transforms negative errors into positive values, making this a
       more popular measure than [mean absolute error](#mean_absolute_error).
+  es:
+    term: "error cuadrático medio"
+    def: >
+      El promedio de los cuadrados de todos los errores de todos los valores
+      predichos comparados con valores reales. El cuadrado hace que los errores
+      más grandes cuenten más, haciendo esta medida más popular que el
+      [error absoluto medio](#mean_absolute_error).
 
 
 - slug: median
@@ -3920,6 +3949,10 @@
     term: "mode"
     def: >
       The value, or values, that occurs most frequently in a dataset.
+  es:
+    term: "moda"
+    def: >
+      El valor que ocurre con más frecuencia en un conjunto de datos.
   af:
     term: "modus"
     def: >
@@ -5275,6 +5308,13 @@
       The square root of the [mean squared error](#mean_squared_error). Like the
       [standard deviation](#standard_deviation), it is in the same units as the
       original data.
+  es:
+    term: "raíz del error cuadrático medio"
+    acronym: RECM
+    def: >
+      La raíz cuadrada del [error cuadrático medio](#mean_squared_error). Como la
+      [desviación estándar](#standard_deviation), está en las mismas unidades que
+      los datos originales.
 
 
 - slug: root_tree
@@ -5692,6 +5732,11 @@
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the square root of the [variance](#variance).
+  es:
+    term: "desviación estándar"
+    def: >
+      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
+      Se calcula como la raíz cuadrada de la [varianza](#variance).
   pt:
     term: "desvio padrão"
     def: >
@@ -5705,7 +5750,15 @@
     def: >
       A [normal distribution](#normal_distribution) with a [mean](#mean) of 0 and a
       [standard deviation](#standard_deviation) of 1. Values from normal distributions
-      with other [parameters](#parameter) can easily be rescaled to be on a standard normal distribution.
+      with other [parameters](#parameter) can easily be rescaled to be on a standard
+      normal distribution.
+  es:
+    term: "distribución normal estándar"
+    def: >
+      Una [distribución normal](#normal_distribution) con una [media](#mean) de
+      0 y una [desviación estándar](#standard_deviation) de 1. Valores de
+      distribuciones normales con otros parámetros se puede reescalar fácilmente
+      para obtener una distribución normal estándar.
 
 
 - slug: stderr
@@ -6286,7 +6339,15 @@
       as the average of the squared differences between the values and the mean. The
       [standard deviation](#standard_deviation) is often used instead, since it has
       the same units as the data, while the variance is expressed in units squared.
-
+  es:
+    term: "varianza"
+    def: >
+      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
+      Se calcula como el promedio de las diferencias al cuadrado entre los valores
+      y la media. La [desviación estándar](#standard_deviation) se usa a menudo en
+      su lugar, ya que tiene las mismas unidades que los datos, mientras que la
+      varianza se expresa en unidades al cuadrado.
+  
 
 - slug: vector
   en:
