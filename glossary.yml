@@ -2855,6 +2855,17 @@
       not their data types or units).
 
 
+- slug: help_system
+  ref:
+    - documentation
+    - help_command
+    - help_function
+  en:
+    term: "help (command)"
+    def: >
+      Opens a help page for the command. The system provides detailed information
+      on how the command works and how it is used.
+
 - slug: heterogeneous
   ref:
     - homogeneous
