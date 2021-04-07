@@ -51,6 +51,10 @@
 
 
 - slug: abandonware
+  bn:
+    term: "বিসর্জনকৃত সফটওয়্যার"
+    def: >
+      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা। 
   de:
     term: "Abandonware"
     def: >
