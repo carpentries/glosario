@@ -1822,8 +1822,13 @@
     term: "data type"
     def: >
       An attribute of data which defines what operations can be performed
-     and defines the range of values that can be stored in a data object
-     of a given type.      
+      and defines the range of values that can be stored in a data object
+      of a given type.      
+  ja:
+    term: "データ型"
+    def: >
+      演算を使用出来って、データー実体に入られるの設定範囲を
+      定義するの属性のこと。
 
 
 - slug: data_wrangling
