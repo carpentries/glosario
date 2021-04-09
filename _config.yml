@@ -93,10 +93,6 @@ languages:
       les élèves peuvent aller pour trouver ces informations. Les auteurs de leçons
       peuvent aussi insérer des liens vers les définitions des termes utilisés dans leurs
       leçons, et ce, en plusieurs langages.
-  - key: ko
-    name: 한국어
-    title: 용어 사전
-    blurb: >-    
   - key: pt
     name: Português
     title: Glossário
@@ -132,6 +128,10 @@ languages:
       ngaphambi kokuthi baqale, nokuthi bangaya kuphi ukuthola lolu lwazi. Ababhali bangasebenzisa futhi
       imisebenzi yomtapo ukufaka izixhumanisi ezihambisanayo zamagama nezincazelo ezifundweni zabo nganoma
       yiziphi izilimi eziningana.
+  - key: he
+    name: עִבְרִית
+    title: מונחון
+    blurb: >-
   - key: am
     name: አማርኛ
     title: የቃላት ዝርዝር
@@ -154,6 +154,10 @@ languages:
       ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
       كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
       لغات
+  - key: ko
+    name: 한국어
+    title: 용어 사전
+    blurb: >-
   - key: ja
     name: 日本語
     title: グロサリオ
