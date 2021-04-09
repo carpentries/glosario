@@ -1291,6 +1291,14 @@
       propiedades y métodos. Los programadores generalmente definen comportamientos
       genéricos o reutilizables en [superclases](#parent_class) y comportamientos
       más específicos o detallados en [subclases](#child_class).
+  ja:
+    term: "クラス"
+      [オブジェクト指向プログラミング](#oop)時に、[メソッド](#method)というの
+      演算してデーターを組み合わさせる構造体のこと。
+      そうして、その特性とメソッドでプログラムは[コンストラクタ](#constructor)を
+      使って[オブジェクト](#object)が作る。
+      単純な[親クラス](#parent_class)から複雑な[子クラス](#child_class)は
+      特性を継承出来る。
 
 
 - slug: classification
