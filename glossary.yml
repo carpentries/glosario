@@ -1775,6 +1775,8 @@
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
       represent [records](#record) and columns represent [variables](#variable_data).
+      Each column in a data frame is an element of a list with the same length
+      so each column can have a different [type](#data_type).
   fr:
     term: "trame de données"
     def: >
