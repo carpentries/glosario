@@ -1293,6 +1293,7 @@
       más específicos o detallados en [subclases](#child_class).
   ja:
     term: "クラス"
+    def: >
       [オブジェクト指向プログラミング](#oop)時に、[メソッド](#method)というの
       演算してデーターを組み合わさせる構造体のこと。
       そうして、その特性とメソッドでプログラムは[コンストラクタ](#constructor)を
@@ -1834,8 +1835,8 @@
 
 - slug: data_type
   ref:
-   - type
-   - typeof
+    - type
+    - typeof
   en:
     term: "data type"
     def: >
