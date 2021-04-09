@@ -22,6 +22,14 @@
       val binne twee en 99.7% val binne drie standaardafwykings. Omgekeerd, in die
       meeste gevalle val 0.3% van die waardes meer as drie standaardafwykings bo of
       onder die gemiddelde.
+  es:
+    term: "regla 68-95-99.7"
+    def: >
+      Expresa el hecho de que el 68% de los valores se encuentran dentro de una
+      [desviación estándar](#standard_deviation) de la [media](#mean), el
+      95% está dentro de dos y el 99,7% está dentro de tres. Por el contrario,
+      aproximadamente el 0,3% de los valores se encuentran más de tres desviaciones
+      estándar por encima o por debajo de la media en la mayoría de los casos.
   pt:
     term: "regra 68-95-99,7"
     def: >
@@ -33,10 +41,10 @@
     term: "règle de 68-95-99.7"
     def: >
       Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
-      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de
+      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de 
       deux (2) écarts-types, et 99,7% à l'interieur de trois (3) écarts-types.
-      Inversement et dans la plupart des cas, environ 0.3% des valeurs se situent à
-      plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
+      Inversement et dans la plupart des cas, environ 0.3% des valeurs 
+      se situent à plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
   ar:
     term: "القاعدة ٩٩,٧-٩٥-٦٨"
     def: >
@@ -51,6 +59,10 @@
 
 
 - slug: abandonware
+  bn:
+    term: "বিসর্জনকৃত সফটওয়্যার"
+    def: >
+      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা। 
   de:
     term: "Abandonware"
     def: >
@@ -308,7 +320,7 @@
   af:
     term: "bekostigbaarheid"
     def: >
-      'n Einskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld 'n
+      'n Eienskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld 'n
       lêerhanteerder of 'n knoppie.
 
 
@@ -399,7 +411,20 @@
       An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific 
       task. In computer science, an algorithm is a set of instructions in a computer program that solves a 
       computational problem.
-
+  af:
+    term: "algoritme"
+    def: >
+      'n Algoritme is 'n stel instruksies wat gevolg moet word om 'n spesifieke taak uit te voer.
+  es:
+    term: "algoritmo"
+    def: >
+      Un algortimo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
+      En informática, un algoritmo es un conjunto de instrucciones en un programa informático que resuelve un problema computacional.
+  fr:
+    term: "algorithme"
+    def: >
+      Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
+      En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
 
 - slug: aliasing
   en:
@@ -511,6 +536,12 @@
       webdiens voorsien word vir gebruik deur ander toepassings om met die
       programmateek of webdiens te kommunikeer. Die API is nie die kode, die databasis
       of die bediener nie, dit is die koppelvlak.
+  es:
+    term: "Interfaz de Programación de Aplicaciones"
+    def: >
+      Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
+      atraves del cual otra aplicación se puede comunicar. Una API no es el código,
+      la base de datos o el servidor; es el punto de acceso.    
 
 
 - slug: append_mode
@@ -575,11 +606,15 @@
     term: "média aritmética"
     def: >
       Veja [média](#mean).
+  es:
+    term: "media aritmética"
+    def: >
+      Ver [media](#mean).
   af:
     term: "rekenkundige gemiddelde"
     def: >
       Sien [gemiddelde](#mean).
-
+      
 
 - slug: ascii
   en:
@@ -603,10 +638,10 @@
       `assert` statement) or provided as functions (e.g., [R](#r_language)'s `stopifnot`). They are
       often used in testing, but are also put in [production code](#production_code)
       to check that it is behaving correctly. In many languages, assertions should not be
-      used to perform data-validation as they may be silently dropped by compilers and interpreters
+      used to perform data validation as they may be silently dropped by compilers and interpreters
       under optimization conditions. Using assertions for data validation can therefore
       introduce security risks. Unlike many languages, R does not have an `assert` statement
-      which can be disabled, and so use of [package](#package) such as `assertr` for data
+      which can be disabled, and so use of a [package](#package) such as `assertr` for data
       validation does not create security holes.
   af:
     term: "bewering"
@@ -676,8 +711,8 @@
   en:
     term: "auto-completion"
     def: >
-      A feature that allows the user to finish a word or code quickly through the use
-      of pressing the TAB key to list possible words or code from which the user can select.
+      A feature that allows the user to finish a word or code quickly
+      by pressing the TAB key to list possible words or code from which the user can select.
   fr:
     term: "auto-complétion"
     def: >
@@ -786,6 +821,12 @@
       An equation for calculating the probability that something is [true](#true) if something
       related to it is true. If P(X) is the probability that X is true and P(X|Y) is
       the probability that X is true given Y is true, then P(X|Y) = P(Y|X) * P(X) / P(Y).
+  es:
+    term: "Teorema de Bayes"
+    def: >
+      Una ecuación para calcular la probabilidad de que algo sea [verdadero](#true) si algo    
+      relacionado con ello es verdadero. Si P(X) es la probabilidad de que X is verdadero y P(X|Y) es    
+      la probabilidad de que X es verdadero dado que Y sea verdadero, entonces P(X|Y) = P(Y|X) * P(X) / P(Y).
 
 
 - slug: bayesian_network
@@ -797,6 +838,10 @@
     term: "Bayesian network"
     def: >
       A graph that represents the relationships between random variables for a given problem.
+  es:
+    term: "Red Bayesiana"
+    def: >
+      Un grafo que representa la relacion entre las variables aleatorias para un determinado problema.
 
 
 - slug: bias
@@ -810,6 +855,11 @@
     def: >
       A statistic is biased if it is systematically or consistently different from the
       parameter it is supposed to estimate.
+  es:
+    term: "sesgo"
+    def: >
+      Un estadístico está sesgado si es sistemática o consistentemente diferente
+      del parámetro que se supone que debe estimar.
   pt:
     term: "viés"
     def: >
@@ -1073,6 +1123,11 @@
       The file(s) that a [build rule](#build_rule) will update if they are out-of-date
       compared to their [dependencies](#dependency).
 
+- slug: byte
+  en:
+    term: "byte"
+    def: >
+      A unit of digital information that typically consists of eight [binary](#binary) digits, or [bits](#bit).
 
 - slug: byte_code
   en:
@@ -1137,7 +1192,7 @@
     term: "catch (an exception)"
     def: >
       To accept responsibility for handling an error or other unexpected event. [R](#r_language)
-      prefers "handling a condition" to "catching an exception". [Python](#python), on the other hand,
+      prefers "handling a condition" to "catching an exception." [Python](#python), on the other hand,
       encourages raising and catching exceptions, and in some situations, requires it.
   ar:
     term: "إستثناء"
@@ -1147,6 +1202,16 @@
 
 
 - slug: causation
+  en:
+    term: "causation"
+    def: >
+      A relationship between distinct events, where it is asserted that one event is responsible for 
+      producing or affecting change in the other.
+  fr:
+    term: causalité
+    def: >
+      Une relation entre des événements distincts, où il est affirmé qu'un événement est responsable de 
+      produire ou d'affecter un changement dans l'autre.
 
 
 - slug: cc_0
@@ -1186,8 +1251,8 @@
       commercial purposes without the creator's permission; `-ND` (NoDerivatives): no
       derivative works (e.g., translations) can be created without the creator's
       permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use
-      commercially without permission". The term `CC-0` (zero, not letter 'O') is
-      sometimes used to mean "no restrictions", i.e., the work is in the public domain.
+      commercially without permission." The term `CC-0` (zero, not letter 'O') is
+      sometimes used to mean "no restrictions," i.e., the work is in the public domain.
   pt:
     term: "Licença Creative Commons"
     def: >
@@ -1387,6 +1452,10 @@
     term: "cognitive load"
     def: >
       The amount of working memory needed to accomplish a set of simultaneous tasks.
+  af:
+    term: "kognitiewe lading"
+    def: >
+      Die hoeveelheid werkgeheue wat nodig is om 'n stel gelyktydige take te verrig.
 
 
 - slug: command
@@ -1399,7 +1468,7 @@
   en:
     term: "command history"
     def: >
-      An automatically-created list of previously-executed commands. Most read-eval-print loops
+      An automatically created list of previously executed commands. Most read-eval-print loops
       ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
       users to play back recent commands.
 
@@ -1519,7 +1588,7 @@
       A [ternary expression](#ternary_expression) that serves the role of an if/else
       statement. For example, C and similar languages use the syntax `test : ifTrue ?
       ifFalse` to mean "choose the value `ifTrue` if `test` is true, or the value
-      `ifFalse` if it is not".
+      `ifFalse` if it is not."
 
 
 - slug: confidence_interval
@@ -1543,6 +1612,15 @@
       that simulates such a device.
 
 
+- slug: configuration file
+  en:
+    term: "configuration file"
+    def: >
+      A file that specifies the parameters and initial settings of a software program.
+      Configuration, or config, files are often used for information subject to changes,
+      such as environment-specific settings.
+      
+      
 - slug: constant
 
 
@@ -1658,6 +1736,17 @@
       correlação](#correlation_coefficient) é uma medida normalizada da covariância.
 
 
+- slug: cpu
+  en:
+    term: "Central Processing Unit"
+    acronym: "CPU"
+    def: >
+      The principal hardware of any digital computer. The CPU constitutes the 
+      essential electronic circuitry that interprets and executes instructions 
+      from the software or other hardware. Also called a central processor, 
+      main processor, or microprocessor.
+ 
+      
 - slug: cran
   ref:
     - base_r
@@ -1820,6 +1909,10 @@
     def: >
       A combinação de estatística, programação e trabalho duro usados para extrair
       conhecimento a partir de dados.
+  af:
+    term: "datawetenskap"
+    def: >
+      Die kombinasie van statistiek en programmering wat gebruik word om kennis vanuit data te ontgin.
 
 
 - slug: data_scientist
@@ -1831,7 +1924,19 @@
     term: "cientista de dados"
     def: >
       Alguém que usa habilidades de programação para resolver problemas estatísticos.
+  af:
+    term: "datawetenskaplike"
+    def: >
+      Iemand wat programmeringsvaardighede gebruik om statistiese probleme op te los.
 
+- slug: data_structure
+  en:
+    term: "data structure"
+    def: >
+      A format for the organisation, management, and efficient access of data. Typically it will
+      characterise a set of data values and their representation (or [encoding](#character_encoding)),
+      the relationships between values, and ways to access or manipulate those data, such as
+      reading, altering, or writing.
 
 - slug: data_type
   ref:
@@ -2028,7 +2133,7 @@
   en:
     term: "docstring"
     def: >
-      Short for "documentation string", a string appearing at the start of a module,
+      Short for "documentation string," a string appearing at the start of a module,
       class, or function in [Python](#python) that automatically becomes that object's documentation.
 
 
@@ -2036,7 +2141,7 @@
   en:
     term: "documentation generator"
     def: >
-      A software tool that extracts specially-formatted comments or
+      A software tool that extracts specially formatted comments or
       [dostrings](#docstring) from code and generates cross-referenced developer documentation.
 
 
@@ -2664,7 +2769,7 @@
     def: >
       Merging branches in [Git](#git) incorporates development
       histories of two [branches](#branch) in one. If changes are made to similar
-      parts of the branches on both branches a [conflict](#git_conflict) will occur and
+      parts of the branches on both branches, a [conflict](#git_conflict) will occur and
       this must be resolved before the merge will be completed.
 
 
@@ -2769,6 +2874,10 @@
     def: >
       Une variable définie en dehors d'une fonction donnée, qui est par conséquent
       visible pour toutes les fonctions.
+  ko:
+    term: "전역 변수"
+    def: >
+      소스 코드 상의 모든 곳에서 접근할 수 있는 변수.
 
 
 - slug: globbing
@@ -2872,13 +2981,22 @@
 - slug: harmonic_mean
 
 
+- slug: hardware
+  en:
+    term: "hardware"
+    acronym: "HW"
+    def: >
+      Any physical component of a computer system. Hardware can be internal, such as CPU, memory,
+      and graphics cards; or external, such as monitors and keyboards. Hardware operates in conjunction
+      with software to produce a functioning computer system.
+
+
 - slug: hash_function
   en:
     term: "hash function"
     def: >
       A function that turns arbitrary data into a bit array, or a [key](#key), of a fixed size. Hash
       functions are used to determine where data should be stored in a [hash table](#hash_table).
-
 
 - slug: hash_table
   en:
@@ -2889,7 +3007,6 @@
       at the cost of extra memory because hash tables must always be larger than the amount
       of information they need to store, to avoid the possibility of data collisions, when the
       hash function returns the same key for two different values.
-
 
 - slug: header_row
   ref:
@@ -2944,6 +3061,10 @@
     def: >
       A graphical representation of the distribution of a set of numeric data, usually
       a vertical bar graph.
+  af:
+    term: "histogram"
+    def: >
+     'n Grafiese voorstelling van die verspreiding van 'n data, gewoonlik 'n vertikale staafgrafiek.
 
 
 - slug: hitchhiker
@@ -3047,7 +3168,14 @@
     term: "import"
     def: >
       To bring things from a [module](#module) into a program for use. In most
-      languages, a program can only import things that the module explicitly [exports](#export).
+      languages a program can only import things that the module explicitly
+      [exports](#export).
+  es:
+    term: "importar"
+    def: >
+      traer cosas de un [módulo](#module) para incorporarlas al programa. En la mayoría
+      de las lenguajes, un programa solo puede importar cosas que el módulo 
+      [exporta](#export) explícitamente.
 
 
 - slug: impostor_syndrome
@@ -3068,6 +3196,16 @@
 
 
 - slug: independent_variable
+
+
+- slug: infinite_loop
+  ref:
+    - loop
+  en:
+    term: "infinite loop"
+    def: >
+      A loop where the exit condition is never met, so the loop continues to repeat itself.
+      Often a programming error.
 
 
 - slug: inner_join
@@ -3123,10 +3261,10 @@
   en:
     term: "invariant"
     def: >
-      Something that is must be [true](#true) at all times inside of a program or during the
+      Something that must be [true](#true) at all times inside of a program or during the
       [lifecycle](#lifecycle) of an [object](#object). Invariants are often expressed using [assertions](#assertion).
       If an invariant expression is not true, this is indicative of a problem, and
-      may result in failure or early temrination of the program.
+      may result in failure or early termination of the program.
 
 
 - slug: iso_date_format
@@ -3158,7 +3296,7 @@
   en:
     term: "issue tracking system"
     def: >
-      Similar to a [bug tracking system](#bug_tracker) in that it tracks ["issues"](#issue)
+      Similar to a [bug tracking system](#bug_tracker) in that it tracks [issues](#issue)
       made to a [repository](#repository), usually in the form of [feature
       requests](#feature_request), [bug reports](#bug_report), or some other to-do item.
 
@@ -3299,7 +3437,7 @@
     term: "LaTeX"
     def: >
       A typesetting system for document preparation that uses a specialized [markup language](#markup_language) to define a document structure
-      (e.g. headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
+      (e.g., headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
       used in academia, in particular for scientific papers and theses in mathematics, physics, engineering, and computer science.
   fr:
     term: "LaTeX"
@@ -3354,6 +3492,10 @@
     term: "library"
     def: >
       A reusable software [package](#package), also often called a [module](#module).
+  es:
+    term: "biblioteca"
+    def: >
+      un paquete de software reutilizable, también  se llama un [módulo](#module).
   pt:
     term: "biblioteca"
     def: >
@@ -3487,6 +3629,10 @@
     def: >
       Una variable definida dentro de una función, por lo que solo es visible dentro
       de ella.
+  ko:
+    term: "지역 변수"
+    def: >
+      특정 함수 내에서 정의되고 그 함수 내에서만 유효한 변수. 
 
 
 - slug: log
@@ -3555,9 +3701,21 @@
   en:
     term: "long option"
     def: >
-      A full-word identifier for a [command line argument](#command_line_argument).
+      A full-word identifier for a [command-line argument](#command_line_argument).
       While most common flags are a single letter preceded by a dash, such as `-v`,
       long options typically use two dashes and a readable name, such as `--verbose`.
+
+
+- slug: loop
+  ref:
+    - for_loop
+    - while_loop
+    - infinite_loop
+    - loop_body
+  en:
+    term: "loop"
+    def: >
+      A structure that repeatedly executes a section of code until a specific exit condition is met.
 
 
 - slug: loop_body
@@ -3712,6 +3870,11 @@
     term: "mean absolute error"
     def: >
       The average error of all predicted values compared with actual values.
+  es:
+    term: "error absoluto medio"
+    def: >
+      El error promedio de todos los valores predichos en comparación con los
+      valores reales.
 
 
 - slug: mean_squared_error
@@ -3724,6 +3887,13 @@
       with actual values. Squaring makes larger errors count for more,
       and transforms negative errors into positive values, making this a
       more popular measure than [mean absolute error](#mean_absolute_error).
+  es:
+    term: "error cuadrático medio"
+    def: >
+      El promedio de los cuadrados de todos los errores de todos los valores
+      predichos comparados con valores reales. El cuadrado hace que los errores
+      más grandes cuenten más, haciendo esta medida más popular que el
+      [error absoluto medio](#mean_absolute_error).
 
 
 - slug: median
@@ -3737,6 +3907,14 @@
       [mean](#mean), which can be influenced by a small number of extreme [outliers](#outlier).
       If the dataset contains an even number of elements, this is the average of the
       two central elements.
+  es:
+    term: "mediana"
+    def: >
+      Un valor que separa las mitades superior e inferior de un conjunto de datos ordenado. 
+      Frecuentemente, la mediana da una idea mejor de lo que es característico del conjunto de
+      datos que la [media](#mean), que puede estar influenciada por un pequeño número de [valores
+      atípicos](#outlier). Si el conjunto de datos contiene un número par de elementos, este es el
+      promedio de los dos elementos centrales.
   af:
     term: "mediaan"
     def: >
@@ -3817,6 +3995,10 @@
     term: "mode"
     def: >
       The value, or values, that occurs most frequently in a dataset.
+  es:
+    term: "moda"
+    def: >
+      El valor que ocurre con más frecuencia en un conjunto de datos.
   af:
     term: "modus"
     def: >
@@ -3828,6 +4010,10 @@
     term: "model"
     def: >
       A specification of the mathematical relationship between different variables.
+  af:
+    term: "model"
+    def: >
+      'n Spesifikasie van'n wiskundige verband tussen verskillende veranderlikes.
 
 
 - slug: module
@@ -3835,6 +4021,10 @@
     term: "module"
     def: >
       A reusable software [package](#package), also often called a [library](#library).
+  es:
+    term: "módulo"
+    def: >
+      un paquete de software reutilizable, también se llama una [biblioteca](#library).
 
 
 - slug: monte_carlo
@@ -3887,6 +4077,10 @@
     term: "NA"
     def: >
       A special value used to represent data that is not available.
+  af:
+    term: "NA"
+    def: >
+      'n Spesiale waarde wat gebruik word om data wat nie beskikbaar is nie, voor te stel.
   ar:
     term: "لاشيء"
     def: >
@@ -4394,7 +4588,19 @@
     term: "phony target"
     def: >
       A [build target](#build_target) that does not correspond to an actual file.
-      Phony targets are often used to store commonly-used commands in a [Makefile](#makefile).
+      Phony targets are often used to store commonly used commands in a [Makefile](#makefile).
+
+
+- slug: pip
+  ref:
+    - pypi
+    - python
+  en:
+    term: "Pip Install Packages"
+    acronym: "PIP"
+    def: >
+      The standard [package manager](#package_manager) for [Python](#python). pip enables
+      the download and installation of Python packages not included in the standard library.
 
 
 - slug: pipe_operator
@@ -4471,6 +4677,18 @@
     term: "pothole case"
     def: >
       A naming style that separates the parts of a name with underscores, as in `first_second_third`.
+
+- slug: preamble
+  ref:
+    - LaTeX
+  en:
+    term: "preamble"
+    def: >
+      A series of commands, either placed in the main document, or kept in a separate document,
+      that are included prior to the \begin{document} command. The preamble defines the type of
+      the document, along with other formatting attributes and parameters. This is also the section
+      of the document where packages are added using the command \usepackage{} to enable
+      additional functionalities, and where custom commands can be defined. 
 
 
 - slug: prerequisite
@@ -4627,7 +4845,7 @@
     term: "pull request"
     def: >
       The request to merge a new feature or correction created on a user's [fork](#fork) of a
-      [Git](#git) [repository](#repository)repository into the [upstream repository](#upstream_repository).
+      [Git](#git) [repository](#repository) into the [upstream repository](#upstream_repository).
       The developer will be notified of the change, review it, make or suggest changes, and potentially
       [merge](#git_merge) it.
 
@@ -4642,6 +4860,19 @@
       specifies an [element](#element) of the result vector that gets the corresponding element of
       the source vector, i.e., `result[index[i]] = source[i]`. Push indexing can
       easily produce gaps and collisions.
+
+
+- slug: pypi
+  ref:
+    - python
+    - pip
+  en:
+    term: "Python Package Index"
+    acronym: "PyPI"
+    def: >
+      The official third-party software repository for [Python](#python). Anyone can upload
+      a [package](#package) to PyPI. PyPI packages may install via executed scripts or
+      pre-compiled, system-specific wheels.
 
 
 - slug: python
@@ -4676,7 +4907,7 @@
   en:
     term: "query string"
     def: >
-      The portion of a [URL](#url) after the quesiton mark `?` that specifies extra
+      The portion of a [URL](#url) after the question mark `?` that specifies extra
       parameters for the [HTTP request](#http_request) as name-value pairs.
 
 
@@ -5123,6 +5354,13 @@
       The square root of the [mean squared error](#mean_squared_error). Like the
       [standard deviation](#standard_deviation), it is in the same units as the
       original data.
+  es:
+    term: "raíz del error cuadrático medio"
+    acronym: RECM
+    def: >
+      La raíz cuadrada del [error cuadrático medio](#mean_squared_error). Como la
+      [desviación estándar](#standard_deviation), está en las mismas unidades que
+      los datos originales.
 
 
 - slug: root_tree
@@ -5329,7 +5567,7 @@
   en:
     term: "shell variable"
     def: >
-      A variable set and used in the [Unix shell](#shell). Commonly-used shell
+      A variable set and used in the [Unix shell](#shell). Commonly used shell
       variables include `HOME` (the user's home directory) and `PATH` (their [search path](#search_path)).
 
 
@@ -5362,7 +5600,7 @@
   en:
     term: "short option"
     def: >
-      A single-letter identifier for a [command line
+      A single-letter identifier for a [command-line
       argument](#command_line_argument). Most common flags are a single letter
       preceded by a dash, such as `-v`.
 
@@ -5525,6 +5763,11 @@
     term: "Stack Overflow"
     def: >
       Um site de perguntas e respostas popular entre pessoas programadoras.
+  es:
+    term: "Stack Overflow"
+    def: >
+      Un sitio de preguntas y respuestas popular entre personas programadoras.
+         
 
 
 - slug: standard_deviation
@@ -5535,6 +5778,11 @@
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the square root of the [variance](#variance).
+  es:
+    term: "desviación estándar"
+    def: >
+      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
+      Se calcula como la raíz cuadrada de la [varianza](#variance).
   pt:
     term: "desvio padrão"
     def: >
@@ -5548,7 +5796,15 @@
     def: >
       A [normal distribution](#normal_distribution) with a [mean](#mean) of 0 and a
       [standard deviation](#standard_deviation) of 1. Values from normal distributions
-      with other [parameters](#parameter) can easily be rescaled to be on a standard normal distribution.
+      with other [parameters](#parameter) can easily be rescaled to be on a standard
+      normal distribution.
+  es:
+    term: "distribución normal estándar"
+    def: >
+      Una [distribución normal](#normal_distribution) con una [media](#mean) de
+      0 y una [desviación estándar](#standard_deviation) de 1. Valores de
+      distribuciones normales con otros parámetros se puede reescalar fácilmente
+      para obtener una distribución normal estándar.
 
 
 - slug: stderr
@@ -5725,7 +5981,7 @@
     term: "tag (in version control)"
     def: >
       A readable label attached to a specific [commit](#commit) so that it can easily
-      be referenced to later.
+      be referenced later.
 
 
 - slug: tdd
@@ -5761,7 +6017,15 @@
 
 
 - slug: test_data
-
+  ref:
+    - machine_learning
+  en:
+    term: "test data"
+    def: >
+      Test data is a portion of a dataset used to evaluate the correctness of a 
+      [machine learning](#machine_learning) algorithm after it has been trained.
+      It should always be separated from the [training data](#training_data) to
+      ensure that the model is properly tested with unseen data.
 
 - slug: test_runner
   en:
@@ -5897,7 +6161,15 @@
 
 
 - slug: training_data
-
+  ref:
+    - machine_learning
+  en:
+    term: "training data"
+    def: >
+      Training data is a portion of a dataset used to train [machine learning](#machine_learning)
+      algorithm to recognise similar data. It should always be separated from the
+      [test data](#test_data) to ensure that the model is properly tested with data it has
+      never seen before.
 
 - slug: transitive_dependency
   en:
@@ -5948,7 +6220,7 @@
     term: "tuple"
     def: >
       A data type that has a fixed number of parts, such as the three color components of a
-      red-green-blue color specification. Tuples are immutable (their values can not be reset.)
+      red-green-blue color specification. Tuples are immutable (their values cannot be reset.)
 
 
 - slug: two_hard_problems
@@ -6113,7 +6385,15 @@
       as the average of the squared differences between the values and the mean. The
       [standard deviation](#standard_deviation) is often used instead, since it has
       the same units as the data, while the variance is expressed in units squared.
-
+  es:
+    term: "varianza"
+    def: >
+      En qué medida los valores de un conjunto de datos difieren de la [media](#mean).
+      Se calcula como el promedio de las diferencias al cuadrado entre los valores
+      y la media. La [desviación estándar](#standard_deviation) se usa a menudo en
+      su lugar, ya que tiene las mismas unidades que los datos, mientras que la
+      varianza se expresa en unidades al cuadrado.
+  
 
 - slug: vector
   en:
@@ -6352,3 +6632,11 @@
       no lugar de parênteses e vírgulas usados em [JSON](#json). YAML é frequentemente usado em 
       arquivos de configuração e na definição de [parâmetros](#parameter) para vários estilos
       de documentos em [Markdown](#markdown).
+  es:
+    term: "YAML"
+    def: >
+      Acrónimo recursivo de "YAML Ain't Markup Language" (YAML no es un lenguaje de marcación),
+      es una manera de representar datos anidados usando identación en lugar de paréntesis   
+      y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
+      archivos de configuración y para definir [parámetros](#parameter) en varios estilos 
+      de documentos en [Markdown](#markdown).

@@ -1,3 +1,14 @@
+<!-- If you are adding terms, change the pull request title to mention the terms added and language, or if there are a lot of them, the number of terms and language.
+
+Examples:
+
+Add definition for 'byte' (English)
+Add definitions for 'agrégation', 'commentaire' (French)
+Translate 5 terms (Spanish)
+-->
+
+Fill in each of the sections (using NA for those that are not applicable).
+
 ## Author: 
 
 - 
@@ -11,17 +22,3 @@
 - 
 - 
 - 
-
-## Editor
-
-Assign the PR based on the language to the following person:
-
-| Language   | Person                       |
-|:----------:|:----------------------------:|
-| Afrikaans  | @jsteyn, @elletjies          |
-| Arabic     | @BatoolMM                    |
-| English    | @baileythegreen, @zkamvar    |
-| French     | @fmichonneau                 |
-| Japanese   | @tomkellygenetics, @masamiy  |
-| Portuguese | @beatrizmilz                 |
-| Spanish    | @ian-flores                  |
