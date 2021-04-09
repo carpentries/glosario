@@ -1313,6 +1313,8 @@
 
 
 - slug: child_class
+  ref:
+    - class
   en:
     term: "child class"
     def: >
@@ -4485,6 +4487,8 @@
 
 
 - slug: parent_class
+  ref:
+    - class
   en:
     term: "parent class"
     def: >
