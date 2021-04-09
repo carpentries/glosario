@@ -1870,8 +1870,8 @@
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
       represent [records](#record) and columns represent [variables](#variable_data).
-      Each column in a data frame is an element of a list with the same length
-      so each column can have a different [type](#data_type).
+      Every column in a data frame has the same length, and contains one type of 
+      [data](#data_type), allowing each column to have a different type.
   fr:
     term: "trame de données"
     def: >
@@ -1961,9 +1961,8 @@
     def: >
       An attribute of data which defines what operations can be performed
       and defines the range of values that can be stored in a data object
-      of a given type.
-      Data types include: boolean or logical, binary, integer, 
-      floating point numeric, character or string.     
+      of a given type. Examples of common types include: boolean or logical,
+      binary, integer,  floating point numeric, character or string.     
   ja:
     term: "データ型"
     def: >
@@ -3221,7 +3220,6 @@
       Often a programming error.
 
 
-- slug: inheritance
 
 
 - slug: inner_join
