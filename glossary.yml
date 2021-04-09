@@ -1782,6 +1782,20 @@
       science](#data_science) is now more commonly used.
 
 
+- slug: data_munging
+  ref:
+    - data_wrangling
+  en:
+    term: "data munging"
+    def: >
+      A colloquial name for small-scale [data engineering](#data_engineering).
+  ja:
+    term: "データマンギング"
+    def: >
+      データ解析に入る前にデータを整える必要があるとうい、口語の言葉のこと。
+      小型的に[データーエンジニアリング](#data_engineering)のように。
+
+
 - slug: data_package
   en:
     term: "data package"
@@ -1822,7 +1836,8 @@
     def: >
       A colloquial name for small-scale [data engineering](#data_engineering).
   ja:
-    term: "データマンギング"
+    term: "データラングリング"
+    def: >
       データ解析に入る前にデータを整える必要があるとうい、口語の言葉のこと。
       小型的に[データーエンジニアリング](#data_engineering)のように。
 
