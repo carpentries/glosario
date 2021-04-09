@@ -1725,6 +1725,11 @@
     def: >
       O quão bem duas variáveis concordam uma com a outra. O [coeficiente de
       correlação](#correlation_coefficient) é uma medida normalizada da covariância.
+  af:
+    term: "kovariansie"
+    def: >
+      Hoe goed twee veranderlikes met mekaar ooreenstem. Die [korrelasiekoëffisiënt](#correlation_coefficient)
+      is 'n genormaliseerde maatstaf vir kovariansie.
 
 
 - slug: cpu
@@ -3506,7 +3511,11 @@
     def: >
       A method for finding the best straight-line fit between two datasets, typically
       by minimizing the squares of the distances between the points and a regression line.
-
+  af:
+    term: "lineêre regressie"
+    def: >
+      'n Metode om die beste pas tussen twee datastelle te vind deur die vierkante van die 
+      afstande tussen die punte en 'n regressielyn te minimaliseer.
 
 - slug: linter
   en:
@@ -3638,6 +3647,11 @@
     def: >
       A method for fitting a model to some data that uses logistic (S-shaped) curves
       instead of straight lines.
+   af:
+    term: "logistiese regressie "
+    def: >
+      'n Metode om 'n model aan te pas tot data wat van logistieke (S-vormige) kurwes gebruik
+      maak.
 
 
 - slug: long_identifier_git
