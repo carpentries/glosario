@@ -1782,6 +1782,14 @@
     def: >
       Une structure bi-dimensionnelle pour enregistrer des données tabulaires. Les
       lignes représentent les [entrées](#record) et les colonnes représentent les [variables](#variable_data).
+  ja:
+    term: "データフレーム"
+    def: >
+      表形式のデーターを入られるのように、２次元のデーター構造のこと。
+      横列は[レコード](#record)か観測を表して、
+      縦列は[変数](#variable_data)を表する。
+      データフレームの毎縦列はリストの要素だから同じ長さ。
+      それで、縦列の違う[データ型](#data_type)でもいい。
 
 
 - slug: data_mining
