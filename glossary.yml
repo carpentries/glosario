@@ -1831,7 +1831,9 @@
     def: >
       An attribute of data which defines what operations can be performed
       and defines the range of values that can be stored in a data object
-      of a given type.      
+      of a given type.
+      Data types include: boolean or logical, binary, integer, 
+      floating point numeric, character or string.     
   ja:
     term: "データ型"
     def: >
