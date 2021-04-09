@@ -1338,6 +1338,9 @@
 
 
 - slug: class
+  ref:
+    - child_class
+    - parent_class
   en:
     term: "class"
     def: >
@@ -1889,6 +1892,18 @@
       The use of computers to search for patterns in large datasets. The term [data
       science](#data_science) is now more commonly used.
 
+- slug: data_munging
+  ref:
+    - data_wrangling
+  en:
+    term: "data wrangling"
+    def: >
+      A colloquial name for small-scale [data engineering](#data_engineering).
+  ja:
+    term: "データマンギング"
+    def: >
+      データ解析に入る前にデータを整える必要があるとうい、口語の言葉のこと。
+      小型的に[データーエンジニアリング](#data_engineering)のように。
 
 - slug: data_package
   en:
@@ -1939,9 +1954,6 @@
       reading, altering, or writing.
 
 - slug: data_type
-  ref:
-    - type
-    - typeof
   en:
     term: "data type"
     def: >
@@ -1965,11 +1977,6 @@
     term: "data wrangling"
     def: >
       A colloquial name for small-scale [data engineering](#data_engineering).
-  ja:
-    term: "データマンギング"
-    def: >
-      データ解析に入る前にデータを整える必要があるとうい、口語の言葉のこと。
-      小型的に[データーエンジニアリング](#data_engineering)のように。
 
 
 - slug: decision_tree
@@ -6413,7 +6420,7 @@
     def: >
       順番を付けられたもののリストです。
       ベクトルの中の全てのものは[同質的な](#homogeneous)本データ型でなければいけない。
-      [R言語](#r-language)に基本的なデーター型がある。
+      [R言語](#r_language)に基本的なデーター型がある。
       ベクトルが１長さ[スカラー](#scalar)のこと。
       ドイツ語で\「vektor\」\(ベクトル\)という。英語で\「vector\」\(ベクター\)という。
 
