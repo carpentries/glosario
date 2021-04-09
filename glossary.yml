@@ -2855,11 +2855,7 @@
       not their data types or units).
 
 
-- slug: help_system
-  ref:
-    - documentation
-    - help_command
-    - help_function
+- slug: help_command
   en:
     term: "help (command)"
     def: >
