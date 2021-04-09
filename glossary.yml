@@ -3217,6 +3217,9 @@
       Often a programming error.
 
 
+- slug: inheritance
+
+
 - slug: inner_join
   ref:
     - anti_join
