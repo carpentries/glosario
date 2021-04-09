@@ -1855,7 +1855,7 @@
 
 - slug: data_wrangling
   ref:
-   - data_munging
+    - data_munging
   en:
     term: "data wrangling"
     def: >
