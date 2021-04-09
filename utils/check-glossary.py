@@ -30,7 +30,7 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'de', 'en', 'es', 'fr', 'he', 'ja', 'nl', 'pt', 'zu'}
+ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'de', 'en', 'es', 'fr', 'he',  'ko', 'ja', 'nl', 'pt', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
