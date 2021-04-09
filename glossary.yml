@@ -1814,6 +1814,18 @@
       Alguém que usa habilidades de programação para resolver problemas estatísticos.
 
 
+- slug: data_type
+  ref:
+   - type
+   - typeof
+  en:
+    term: "data type"
+    def: >
+      An attribute of data which defines what operations can be performed
+     and defines the range of values that can be stored in a data object
+     of a given type.      
+
+
 - slug: data_wrangling
   en:
     term: "data wrangling"
