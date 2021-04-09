@@ -1815,10 +1815,16 @@
 
 
 - slug: data_wrangling
+  ref:
+   - data_munging
   en:
     term: "data wrangling"
     def: >
       A colloquial name for small-scale [data engineering](#data_engineering).
+  ja:
+    term:
+      データ解析に入る前にデータを整える必要があるとうい、口語の言葉のこと。
+      小型的に[データーエンジニアリング](#data_engineering)のように。
 
 
 - slug: decision_tree
