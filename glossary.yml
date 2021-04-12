@@ -41,9 +41,9 @@
     term: "règle de 68-95-99.7"
     def: >
       Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
-      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de 
+      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de
       deux (2) écarts-types, et 99,7% à l'interieur de trois (3) écarts-types.
-      Inversement et dans la plupart des cas, environ 0.3% des valeurs 
+      Inversement et dans la plupart des cas, environ 0.3% des valeurs
       se situent à plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
   ar:
     term: "القاعدة ٩٩,٧-٩٥-٦٨"
@@ -62,7 +62,7 @@
   bn:
     term: "বিসর্জনকৃত সফটওয়্যার"
     def: >
-      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা। 
+      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা।
   de:
     term: "Abandonware"
     def: >
@@ -408,8 +408,8 @@
   en:
     term: "algorithm"
     def: >
-      An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific 
-      task. In computer science, an algorithm is a set of instructions in a computer program that solves a 
+      An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific
+      task. In computer science, an algorithm is a set of instructions in a computer program that solves a
       computational problem.
   af:
     term: "algoritme"
@@ -466,6 +466,12 @@
       Em uma [expressão regular](#regular_expression), é um símbolo que fixa uma posição sem caracteres
       correspondentes. `^` identifica o começo de uma linha, enquanto `$` indica o fim de uma linha e
       `\b` identifica uma quebra entre caracteres que formam e que não formam uma palavra.
+  es:
+    term: "ancla"
+    def: >
+      En una [expresión regular](#regular_expression), el símbolo que fija una posición
+      sin coincidir con caracteres. `^` coincide con un inicio de línea, `$`
+      con el final y `\b` con un límite de palabra.
 
 
 - slug: anonymous_function
@@ -494,7 +500,7 @@
        وعادة ما يتم تحديدها في الموضع الذي يتم استخدامها ،مثل عمليات رد الإتصال
        (callback).
        لكن
-       في 
+       في
        لغة
        [Python](#python)
         تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
@@ -519,6 +525,11 @@
     def: >
       'n [Koppeling](#join) wat rye in tabel A bevat wie se sleutels *nie* die
       sleutels van tabel B bevat nie.
+  es:
+    term: "anti join"
+    def: >
+      Una [unión](#join) que conserva las filas de la tabla A cuyas claves *no*
+      coinciden con las de la tabla B.
 
 
 - slug: api
@@ -541,7 +552,7 @@
     def: >
       Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
       atraves del cual otra aplicación se puede comunicar. Una API no es el código,
-      la base de datos o el servidor; es el punto de acceso.    
+      la base de datos o el servidor; es el punto de acceso.
 
 
 - slug: append_mode
@@ -614,14 +625,14 @@
     term: "rekenkundige gemiddelde"
     def: >
       Sien [gemiddelde](#mean).
-      
+
 
 - slug: ascii
   en:
     term: "ASCII"
     def: >
       A standard way to represent the characters commonly used in the Western European
-      languages as 7- or 8-bit integers, now superceded by [Unicode](#unicode).
+      languages as 7- or 8-bit integers, now superseded by [Unicode](#unicode).
   af:
     term: "ASCII"
     def: >
@@ -684,8 +695,8 @@
   af:
     term: "asinchronies"
     def: >
-      Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer 
-      aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n 
+      Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer
+      aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n
       bewerking wat onafhanklik van 'n ander een plaasvind.
 
 
@@ -703,7 +714,7 @@
   af:
     term: "eienskap"
     def: >
-      'n Naam-waarde paar wat verband hou met 'n voorwerp en gebruik word om 
+      'n Naam-waarde paar wat verband hou met 'n voorwerp en gebruik word om
       metadata omtrent die voorwerp te stoor, bv. die afmetings van 'n skikking.
 
 
@@ -727,7 +738,7 @@
   af:
     term: "outomatiese voltooing"
     def: >
-      'n Funksie wat 'n gebruiker toelaat om 'n woord of 'n kode vinnig te voltooi deur die 
+      'n Funksie wat 'n gebruiker toelaat om 'n woord of 'n kode vinnig te voltooi deur die
       TAB sleutel te druk om 'n lys van moontlike woorde of kodes te vertoon waaruit die gebruiker
       kan kies.
 
@@ -745,8 +756,8 @@
   af:
     term: "outomatiese veranderlike"
     def: >
-      'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boureël](#build_rule). Byvoorbeeld, 
-      "Make" ken outomaties die naam van 'n reël se teiken aan die outomatiese veranderlike, '$@' toe. 
+      'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boureël](#build_rule). Byvoorbeeld,
+      "Make" ken outomaties die naam van 'n reël se teiken aan die outomatiese veranderlike, '$@' toe.
       Outomatiese veranderlikes word dikwels gebruik tydens die skryf van [patroonreëls](#pattern_rule).
 
 
@@ -755,7 +766,7 @@
     term: "backpropagation"
     def: >
       An algorithm that iteratively adjusts the weights used in a [neural
-      network](#neural_network). Backpropagation is often used to implement 
+      network](#neural_network). Backpropagation is often used to implement
       [gradient descent](#gradient_descent).
   af:
     term: "terugwaartse voortplanting"
@@ -769,7 +780,7 @@
     term: "backward-compatible"
     def: >
       A property of a system, hardware or software, that allows for interoperability
-      with an older legacy system, or with input designed for such a system. 
+      with an older legacy system, or with input designed for such a system.
       For example a [function](#function) written in [Python](#python) 3 that can be
       run successfully with Python version 2 is backward-compatible.
   fr:
@@ -801,7 +812,13 @@
       em `src/library` e não são atualizados fora do R; eles seguem a numeração de versão do
       próprio R. Pacotes de base são instalados e carregados junto do R, enquanto pacotes
       prioritários são instalados com o R base mas precisam ser carregados antes do uso.
-
+  es:
+    term: "R base"
+    def: >
+      Funciones básicas que conforman el lenguaje de programación [R](#r_language). Los paquetes base
+      pueden encontrarse en `src/library` y no son actualizados fuera de R; su número de versión
+      coincide con el de R. Los paquetes de R base se instalan y cargan junto con R, mientras que los
+      paquetes prioritarios se instalan con R, pero deben ser cargados antes de utilizarse.
 
 - slug: bayes_rule
   en:
@@ -936,7 +953,7 @@
   en:
     term: "bit"
     def: >
-      A unit of information representing representing alternatives, yes/no,
+      A unit of information representing alternatives, yes/no,
       [true](#true)/[false](#false). In computing a state of either 0 or 1.
   pt:
     term: "bit"
@@ -1152,7 +1169,10 @@
     term: "caching"
     def: >
       To save a copy of some data in a local [cache](#cache) to make future access faster.
-
+  es:
+    term: "caching"
+    def: >
+      Guardar una copia de algún dato en el [caché](#cache) local para hacer su acceso futuro más rápido.
 
 - slug: call_stack
   en:
@@ -1205,12 +1225,12 @@
   en:
     term: "causation"
     def: >
-      A relationship between distinct events, where it is asserted that one event is responsible for 
+      A relationship between distinct events, where it is asserted that one event is responsible for
       producing or affecting change in the other.
   fr:
     term: causalité
     def: >
-      Une relation entre des événements distincts, où il est affirmé qu'un événement est responsable de 
+      Une relation entre des événements distincts, où il est affirmé qu'un événement est responsable de
       produire ou d'affecter un changement dans l'autre.
 
 
@@ -1225,6 +1245,11 @@
     def: >
       Uma [licença](#license) [Creative Commons](#cc_license) que não impõe
       qualquer tipo de restrição, consequentemente colocando o trabalho em domínio público.
+  en:
+    term: "CC-0"
+    def: >
+      Una [licencia](#license) de [Creative Commons](#cc_license) que no impone ninguna
+      restricción, por lo que pone a la obra en dominio público.
 
 
 - slug: cc_by
@@ -1294,7 +1319,11 @@
        هو
        يو تي إف
        [(UTF-8)](#utf_8).
-
+  es:
+    term: "codificación de caracteres"
+    def: >
+      Especificación sobre cómo los caracteres están guardados como bytes. En la
+      actualidad, la codificación más utilizada es [UTF-8](#utf_8).
 
 - slug: chi_square_test
   en:
@@ -1610,8 +1639,8 @@
       A file that specifies the parameters and initial settings of a software program.
       Configuration, or config, files are often used for information subject to changes,
       such as environment-specific settings.
-      
-      
+
+
 - slug: constant
 
 
@@ -1728,7 +1757,7 @@
   af:
     term: "kovariansie"
     def: >
-      Hoe goed twee veranderlikes met mekaar ooreenstem. Die 
+      Hoe goed twee veranderlikes met mekaar ooreenstem. Die
       [korrelasiekoëffisiënt](#correlation_coefficient)
       is 'n genormaliseerde maatstaf vir kovariansie.
 
@@ -1738,12 +1767,12 @@
     term: "Central Processing Unit"
     acronym: "CPU"
     def: >
-      The principal hardware of any digital computer. The CPU constitutes the 
-      essential electronic circuitry that interprets and executes instructions 
-      from the software or other hardware. Also called a central processor, 
+      The principal hardware of any digital computer. The CPU constitutes the
+      essential electronic circuitry that interprets and executes instructions
+      from the software or other hardware. Also called a central processor,
       main processor, or microprocessor.
- 
-      
+
+
 - slug: cran
   ref:
     - base_r
@@ -2516,6 +2545,10 @@
     term: "folder"
     def: >
       Another term for a [directory](#directory).
+  es:
+    term: "carpeta"
+    def: >
+      Otro término para hacer referencia a un [directorio](#directory).
 
 
 - slug: for_loop
@@ -3134,7 +3167,7 @@
     term: "importar"
     def: >
       traer cosas de un [módulo](#module) para incorporarlas al programa. En la mayoría
-      de las lenguajes, un programa solo puede importar cosas que el módulo 
+      de las lenguajes, un programa solo puede importar cosas que el módulo
       [exporta](#export) explícitamente.
 
 
@@ -3515,7 +3548,7 @@
   af:
     term: "lineêre regressie"
     def: >
-      'n Metode om die beste pas tussen twee datastelle te vind deur die vierkante van die 
+      'n Metode om die beste pas tussen twee datastelle te vind deur die vierkante van die
       afstande tussen die punte en 'n regressielyn te minimaliseer.
 
 - slug: linter
@@ -3596,7 +3629,7 @@
   ko:
     term: "지역 변수"
     def: >
-      특정 함수 내에서 정의되고 그 함수 내에서만 유효한 변수. 
+      특정 함수 내에서 정의되고 그 함수 내에서만 유효한 변수.
 
 
 - slug: log
@@ -3879,7 +3912,7 @@
   es:
     term: "mediana"
     def: >
-      Un valor que separa las mitades superior e inferior de un conjunto de datos ordenado. 
+      Un valor que separa las mitades superior e inferior de un conjunto de datos ordenado.
       Frecuentemente, la mediana da una idea mejor de lo que es característico del conjunto de
       datos que la [media](#mean), que puede estar influenciada por un pequeño número de [valores
       atípicos](#outlier). Si el conjunto de datos contiene un número par de elementos, este es el
@@ -4222,23 +4255,23 @@
   en:
     term: "numpy"
     def: >
-      An open source Python package that works with arrays, vectors and matrices of dimension N, 
-      in a comparable method and with a syntax similar at Matlab software. You can find functions and 
-      sophisticated operations, focused in multidimensional arrays, linear algebra, Fourrier transform and 
-      generation of random values. 
+      An open source Python package that works with arrays, vectors and matrices of dimension N,
+      in a comparable method and with a syntax similar at Matlab software. You can find functions and
+      sophisticated operations, focused in multidimensional arrays, linear algebra, Fourrier transform and
+      generation of random values.
   es:
     term: "numpy"
     def: >
-      Es un paquete Python de código abierto que le permite trabajar con arreglos, vectores y matrices de 
-      dimensión N, en un método comparable y con una sintaxis similar al software Matlab. Puede encontrar 
-      funciones y operaciones sofisticadas, enfocadas en matrices multidimensionales, álgebra lineal, 
+      Es un paquete Python de código abierto que le permite trabajar con arreglos, vectores y matrices de
+      dimensión N, en un método comparable y con una sintaxis similar al software Matlab. Puede encontrar
+      funciones y operaciones sofisticadas, enfocadas en matrices multidimensionales, álgebra lineal,
       transformada de Fourrier y generación de valores aleatorios.
   pt:
     term: "numpy"
     def: >
-      É um pacote Python de código aberto que permite trabalhar com arrays, vetores e matrizes de dimensão N, 
-      em um método comparável e com uma sintaxe semelhante ao software Matlab. Você pode encontrar funções 
-      e operações sofisticadas, focadas em arrays multidimensionais, álgebra linear, transformada de Fourrier 
+      É um pacote Python de código aberto que permite trabalhar com arrays, vetores e matrizes de dimensão N,
+      em um método comparável e com uma sintaxe semelhante ao software Matlab. Você pode encontrar funções
+      e operações sofisticadas, focadas em arrays multidimensionais, álgebra linear, transformada de Fourrier
       e geração de valores aleatórios.
 
 - slug: object
@@ -4414,26 +4447,26 @@
       A program that displays a few lines of text at a time.
 
 - slug: pandas
-  ref: 
+  ref:
     - python
   en:
     term: "pandas"
     def: >
-      An open source Python package that offers fast, flexible, and expressive data 
-      structures to make working with structured data, and time series easy and intuitive. It is 
+      An open source Python package that offers fast, flexible, and expressive data
+      structures to make working with structured data, and time series easy and intuitive. It is
       a powerful tool for data analysis and data manipulation.
   es:
     term: "pandas"
     def: >
-      Es un paquete de Python de código abierto que ofrece estructuras de datos rápidas, 
-      flexibles y expresivas para que trabajar con series de tiempo estructuradas sea fácil 
-      e intuitivo. Se utiliza como una poderosa herramienta para el análisis y la manipulación 
+      Es un paquete de Python de código abierto que ofrece estructuras de datos rápidas,
+      flexibles y expresivas para que trabajar con series de tiempo estructuradas sea fácil
+      e intuitivo. Se utiliza como una poderosa herramienta para el análisis y la manipulación
       de datos.
   pt:
     term: "pandas"
     def: >
       É um pacote Python de código aberto que oferece estruturas de dados rápidas, flexíveis
-      e expressivas para tornar o trabalho com dados estruturados e séries temporais fácil e 
+      e expressivas para tornar o trabalho com dados estruturados e séries temporais fácil e
       intuitivo. É usado como uma ferramenta poderosa para análise e manipulação de dados.
 
 
@@ -4657,7 +4690,7 @@
       that are included prior to the \begin{document} command. The preamble defines the type of
       the document, along with other formatting attributes and parameters. This is also the section
       of the document where packages are added using the command \usepackage{} to enable
-      additional functionalities, and where custom commands can be defined. 
+      additional functionalities, and where custom commands can be defined.
 
 
 - slug: prerequisite
@@ -4781,12 +4814,12 @@
   en:
     term: "pseudo-random number"
     def: >
-      A value generated in a repeatable way that resembles the [true](#true) randomness of the 
+      A value generated in a repeatable way that resembles the [true](#true) randomness of the
       universe well enough to fool observers.
   es:
     term: "número pseudo-aleatorio"
     def: >
-      Un valor generado de forma repetible que refleja suficientemente bien a la 
+      Un valor generado de forma repetible que refleja suficientemente bien a la
       verdadera aleatoriedad del universo como para engañar a simples observadores mortales.
 
 
@@ -4853,12 +4886,12 @@
   es:
     term: "Python"
     def: >
-      Un lenguaje de programación de código abierto interpretado popular que 
+      Un lenguaje de programación de código abierto interpretado popular que
       se basa en la sangría para definir la estructura de control.
   pt:
     term: "Python"
     def: >
-      Uma popular linguagem de programação interpretada, de código aberto,  que 
+      Uma popular linguagem de programação interpretada, de código aberto,  que
       depende de indentação para definir a estrutura de controle.
 
 
@@ -5704,13 +5737,13 @@
     acronym: "SSH"
     def: >
       A protocol and the program that implements it which allows remote access to a server through a secure channel where all information
-      is encrypted. 
+      is encrypted.
   es:
     term: "Secure Shell"
     acronym: "SSH"
     def: >
-      Un protocolo y el programa que lo implementa cuya principal función es el 
-      acceso remoto a un servidor por medio de un canal seguro en el que toda la 
+      Un protocolo y el programa que lo implementa cuya principal función es el
+      acceso remoto a un servidor por medio de un canal seguro en el que toda la
       información está cifrada.
 
 
@@ -5744,7 +5777,7 @@
     term: "Stack Overflow"
     def: >
       Un sitio de preguntas y respuestas popular entre personas programadoras.
-         
+
 
 
 - slug: standard_deviation
@@ -5999,7 +6032,7 @@
   en:
     term: "test data"
     def: >
-      Test data is a portion of a dataset used to evaluate the correctness of a 
+      Test data is a portion of a dataset used to evaluate the correctness of a
       [machine learning](#machine_learning) algorithm after it has been trained.
       It should always be separated from the [training data](#training_data) to
       ensure that the model is properly tested with unseen data.
@@ -6370,7 +6403,7 @@
       y la media. La [desviación estándar](#standard_deviation) se usa a menudo en
       su lugar, ya que tiene las mismas unidades que los datos, mientras que la
       varianza se expresa en unidades al cuadrado.
-  
+
 
 - slug: vector
   en:
@@ -6528,7 +6561,7 @@
   pt:
     term: "curinga"
     def: >
-      Um curinga, ou caracter curinga, é um caracter que corresponde a qualquer texto, 
+      Um curinga, ou caracter curinga, é um caracter que corresponde a qualquer texto,
       como o `*` em `*.csv` (que corresponde a qualquer arquivo cujo nome termina em `*.csv`).
 
 
@@ -6564,7 +6597,7 @@
     term: "XML"
     def: >
       Um conjunto de regras para se definir etiquetas similares a [HTML](#html) e usá-las
-      para formatar documentos (normalmente, dados). XML foi popular no início dos anos 2000, 
+      para formatar documentos (normalmente, dados). XML foi popular no início dos anos 2000,
       mas sua complexidade fez com que muitas pessoas programadoras adotassem [JSON](#json) em
       seu lugar.
 
@@ -6596,9 +6629,9 @@
   pt:
     term: "YAML"
     def: >
-      Acrônimo recursivo de "YAML Ain't Markup Language" (YAML não é uma linguagem de marcação), 
+      Acrônimo recursivo de "YAML Ain't Markup Language" (YAML não é uma linguagem de marcação),
       é uma maneira de representar dados aninhados usando recuos (também chamados de indentações)
-      no lugar de parênteses e vírgulas usados em [JSON](#json). YAML é frequentemente usado em 
+      no lugar de parênteses e vírgulas usados em [JSON](#json). YAML é frequentemente usado em
       arquivos de configuração e na definição de [parâmetros](#parameter) para vários estilos
       de documentos em [Markdown](#markdown).
   es:
@@ -6607,5 +6640,5 @@
       Acrónimo recursivo de "YAML Ain't Markup Language" (YAML no es un lenguaje de marcación),
       es una manera de representar datos anidados usando identación en lugar de paréntesis   
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
-      archivos de configuración y para definir [parámetros](#parameter) en varios estilos 
+      archivos de configuración y para definir [parámetros](#parameter) en varios estilos
       de documentos en [Markdown](#markdown).
