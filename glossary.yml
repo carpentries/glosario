@@ -4561,8 +4561,13 @@
   en:
     term: "path (in filesystem)"
     def: >
-      A [string](#string) that specifies a location in a [filesystem](#filesystem). In Unix, the
-      [directories](#directory) in a path are joined using `/`.
+      A [string](#string) that specifies a location in a [filesystem](#filesystem).
+      In Unix, the [directories](#directory) in a path are joined using `/`.
+  ja:
+    term: "パス (ファイルシステム内)"
+    def: >
+　　　[ファイルシステム](#filesystem)内の所在地を指定する[文字列](string)のこと。
+      Unixでは、パス内の[ディレクトリ](directory)は、 `/`を分離されます。 
 
 
 - slug: pattern_rule
