@@ -2,15 +2,6 @@
 title: Setup
 ---
 
-Our lesson template is kept in the [`carpentries/styles` repository][styles]. The `styles`
-repository is carefully curated so that changes made to it are easily mergeable by downstream
-lessons. The `styles` repository contains various bits that take Markdown files and render them as a
-lesson web page. For more information on how to develop lessons and maintain them, see our
-[lesson-example][lesson-example]. It will walk you through the basics of lesson design and how to
-use GitHub, Markdown and Jekyll for lesson development. Follow the instructions below to make your
-own empty lesson in your own GitHub account. Once you've done that you can just write Markdown code
-and have lesson web pages just like the [lesson-example][lesson-example] and all of our other
-lessons, but with your lesson content.
 
 ## Requirements
 
