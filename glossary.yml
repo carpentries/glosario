@@ -4194,6 +4194,7 @@
       配布や再利用が可能なコード、データおよびソフトウェアドキュメンテーション集合体。
       プログラミング言語によっては、「[ライブラリー](#library)」や「[モジュール](#module)」と呼ぶこともある。
 
+
 - slug: package_manager
   en:
     term: "package manager"
