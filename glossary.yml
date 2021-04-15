@@ -2862,10 +2862,10 @@
       Opens a help page for the command. The system provides detailed information
       on how the command works and how it is used.
   ja:
-    term: "ヘルプ(機能)"
+    term: "ヘルプ(コマンド)"
     def: >
-      コマンドのヘルプページ を開けて、
-      コマンドの使い方を伝えやどう動きの詳細説明を組み込まれていのこと。
+      [コマンドラインインターフェース](#cli)において、調べたいコマンドのヘルプページ を開く時に使う。
+      コマンドの使い方や機能の詳細な説明を参照することができる。
 
 - slug: heterogeneous
   ref:
