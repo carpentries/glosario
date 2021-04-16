@@ -130,8 +130,9 @@ languages:
       yiziphi izilimi eziningana.
   - key: he
     name: עִבְרִית
-    title: מונחון
-    blurb: >-
+    title: מילון מונחים
+    blurb: >
+      in translation
   - key: am
     name: አማርኛ
     title: የቃላት ዝርዝር
