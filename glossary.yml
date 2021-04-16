@@ -1894,18 +1894,6 @@
       The use of computers to search for patterns in large datasets. The term [data
       science](#data_science) is now more commonly used.
 
-- slug: data_munging
-  ref:
-    - data_wrangling
-  en:
-    term: "data munging"
-    def: >
-      A colloquial name for small-scale [data engineering](#data_engineering).
-  ja:
-    term: "データマンジング"
-    def: >
-      データ解析を行う事前準備としてデータを整理、加工することを表す口語表現。
-      比較的小規模な[データーエンジニアリング](#data_engineering)という意味でも使われる。
 
 - slug: data_package
   en:
@@ -1970,19 +1958,6 @@
       定義した、データの属性のこと。
       一般的なデータ型の例として、ブーリアン型または論理型、バイナリ型 、整数型、浮動小数点数型、文字列型などが挙げられる。
 
-
-- slug: data_wrangling
-  ref:
-    - data_munging
-  en:
-    term: "data wrangling"
-    def: >
-      A colloquial name for small-scale [data engineering](#data_engineering).
-  ja:
-    term: "データラングリング"
-    def: >
-      データ解析を行う事前準備としてデータを整理、加工することを表す口語表現。
-      比較的小規模な[データーエンジニアリング](#data_engineering)という意味でも使われる。
 
 - slug: decision_tree
   ref:
