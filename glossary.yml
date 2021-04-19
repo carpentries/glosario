@@ -2695,7 +2695,27 @@
   en:
     term: "Geometric Mean"
     def: >
-       Calculated from a set of n numbers by first computing the product of those numbers, and then computing the n-th root of the result. In contrast to the [arithmetic mean](#arithmetic_mean), which measures central tendancy in an "additive" way, the geometric mean measures central tendancy in a "multiplicative" way, and hence is often appropriate when estimating an average rates of change or some other multiplicative constant. 
+      Calculated from a set of n numbers by first computing the product of those numbers, and then computing the n-th [root](#root_math) of the result. In contrast to the [arithmetic mean](#arithmetic_mean), which measures central tendancy in an "additive" way, the geometric mean measures central tendancy in a "multiplicative" way, and hence is often appropriate when estimating an average rates of change or some other multiplicative constant. 
+
+- slug: square_root
+  en:
+    term: "Square root"
+    def: >
+      A special case of the [n-th root](#root_math) for which n = 2, i.e. the 2-nd root has the special name "square root".
+
+- slug: root_math
+  ref: 
+    - square_root
+  en:
+    term: n-th root
+    def: >
+      The n-th root of a positive number x is the number that when multiplied by itself n times produces x. This can commonly be calculated by raising x to the power of the [reciprocal](#reciprocal) of n.
+
+- slug: reciprocal
+  en:
+    term: reciprocal
+    def: > 
+      The reciprocal of a number x is 1 / x, or alternatively x raised to the power of -1.
 
 - slug: git
   en:
@@ -2993,7 +3013,7 @@
   en:
     term: "Harmonic Mean"
     def: >
-       Calculated from a set of n numbers by first computing the sum of the reciprocals of those numbers, and then dividing n by the resulting sum. Alternatively, it can be computed as the reciprocal of the [arithmetic mean](#arithmetic_mean) of the reciprocal values. Similarly to the [geometric mean](#geometric_mean), the harmonic mean is often used as an alternative measure of central tendancy to the usual [arithmetic mean](#arithmetic_mean) when estimating an average rates of change or some other multiplicative constant. For a set of positive numbers that are not all equal, the min < HM < GM < AM < max where min is the minimum value, max is the maximum value, and HM GM and AM are the harmonic, [geometric](#geometric_mean), and [arithmetic](#arithmetic_mean) means respectively.
+      Calculated from a set of n numbers by first computing the sum of the [reciprocals](#reciprocal) of those numbers, and then dividing n by the resulting sum. Alternatively, it can be computed as the [reciprocal](#reciprocal) of the [arithmetic mean](#arithmetic_mean) of the [reciprocal](#reciprocal) values. Similarly to the [geometric mean](#geometric_mean), the harmonic mean is often used as an alternative measure of central tendancy to the usual [arithmetic mean](#arithmetic_mean) when estimating an average rates of change or some other multiplicative constant. For a set of positive numbers that are not all equal, the min < HM < GM < AM < max where min is the minimum value, max is the maximum value, and HM GM and AM are the harmonic, [geometric](#geometric_mean), and [arithmetic](#arithmetic_mean) means respectively.
 
 
 - slug: hardware
@@ -5375,7 +5395,7 @@
     term: "root mean squared error"
     acronym: "RMSE"
     def: >
-      The square root of the [mean squared error](#mean_squared_error). Like the
+      The [square root](#square_root) of the [mean squared error](#mean_squared_error). Like the
       [standard deviation](#standard_deviation), it is in the same units as the
       original data.
   es:
@@ -5808,7 +5828,7 @@
     term: "standard deviation"
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
-      as the square root of the [variance](#variance).
+      as the [square root](#square_root) of the [variance](#variance).
   es:
     term: "desviación estándar"
     def: >
