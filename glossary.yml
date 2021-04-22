@@ -4437,6 +4437,11 @@
     def: >
       A collection of code, data, and documentation that can be distributed and
       re-used. Also referred to in some languages as a [library](#library) or [module](#module).
+  ja:
+    term: パッケージ
+    def: >
+      配布や再利用が可能なコード、データおよびソフトウェアドキュメンテーションの集合体。
+      プログラミング言語によっては、「[ライブラリー](#library)」や「[モジュール](#module)」と呼ぶこともある。
 
 
 - slug: package_manager
