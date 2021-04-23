@@ -3018,6 +3018,18 @@
       not their data types or units).
 
 
+- slug: help_command
+  en:
+    term: "help (command)"
+    def: >
+      Opens a help page for the command. The system provides detailed information
+      on how the command works and how it is used.
+  ja:
+    term: "ヘルプ(コマンド)"
+    def: >
+      [コマンドラインインターフェース](#cli)において、調べたいコマンドのヘルプページ を開く時に使う。
+      コマンドの使い方や機能の詳細な説明を参照することができる。
+
 - slug: heterogeneous
   ref:
     - homogeneous
