@@ -2006,6 +2006,7 @@
     def: >
       Una operación unaria que disminuye el valor de una variable, generalmente en 1.
 
+
 - slug: deep_learning
   en:
     term: "deep learning"
