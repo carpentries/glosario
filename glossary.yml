@@ -1349,6 +1349,8 @@
 
 
 - slug: child_class
+  ref:
+    - class
   en:
     term: "child class"
     def: >
@@ -1374,6 +1376,9 @@
 
 
 - slug: class
+  ref:
+    - child_class
+    - parent_class
   en:
     term: "class"
     def: >
@@ -1392,6 +1397,15 @@
       propiedades y métodos. Los programadores generalmente definen comportamientos
       genéricos o reutilizables en [superclases](#parent_class) y comportamientos
       más específicos o detallados en [subclases](#child_class).
+  ja:
+    term: "クラス"
+    def: >
+      [オブジェクト指向プログラミング](#oop)において、データと操作
+      （[メソッド](#method)と呼ばれる）を結びつけた構造のこと。
+      プログラムは[コンストラクタ](#constructor)を用いて、クラスの持つ特性（プロパティ）
+      やメソッドを備えた[オブジェクト](#object)を作成する。通常プログラマは、
+      汎用のあるいは再利用可能な振る舞いを[親クラス](#parent_class)に、
+      より詳細なあるいは特定の振る舞いを[子クラス](#child_class)に定義する。
 
 
 - slug: classification
@@ -1902,11 +1916,21 @@
     def: >
       A two-dimensional data structure for storing tabular data in memory. Rows
       represent [records](#record) and columns represent [variables](#variable_data).
+      Every column in a data frame has the same length and each column can have
+      a different [type](#data_type) but each column must contain only one type of data.
   fr:
     term: "trame de données"
     def: >
       Une structure bi-dimensionnelle pour enregistrer des données tabulaires. Les
       lignes représentent les [entrées](#record) et les colonnes représentent les [variables](#variable_data).
+  ja:
+    term: "データフレーム"
+    def: >
+      表形式のデータをメモリに格納するための二次元データ構造のこと。
+      行は[観測](#record)、
+      列は[変数](#variable_data)を表す。
+      データフレームの列の長さは全て等しい。
+      各列の[データ型](#data_type)は異なっていても良いが、一つの列に用いられるデータ型は同じでなければならない。
 
 
 - slug: data_mining
@@ -1965,11 +1989,20 @@
       the relationships between values, and ways to access or manipulate those data, such as
       reading, altering, or writing.
 
-- slug: data_wrangling
+- slug: data_type
   en:
-    term: "data wrangling"
+    term: "data type"
     def: >
-      A colloquial name for small-scale [data engineering](#data_engineering).
+      An attribute of data which defines what operations can be performed
+      and defines the range of values that can be stored in a data object
+      of a given type. Examples of common types include: boolean or logical,
+      binary, integer,  floating point numeric, character or string.     
+  ja:
+    term: "データ型"
+    def: >
+      使用可能な操作、およびデータオブジェクトに格納できる値の設定範囲を
+      定義した、データの属性のこと。
+      一般的なデータ型の例として、ブーリアン型または論理型、バイナリ型 、整数型、浮動小数点数型、文字列型などが挙げられる。
 
 
 - slug: decision_tree
@@ -4496,6 +4529,8 @@
 
 
 - slug: parent_class
+  ref:
+    - class
   en:
     term: "parent class"
     def: >
@@ -4565,8 +4600,14 @@
   en:
     term: "path (in filesystem)"
     def: >
-      A [string](#string) that specifies a location in a [filesystem](#filesystem). In Unix, the
-      [directories](#directory) in a path are joined using `/`.
+      A [string](#string) that specifies a location in a [filesystem](#filesystem).
+      In Unix, the [directories](#directory) in a path are joined using `/`.
+  ja:
+    term: "パス(ファイルシステム内)"
+    def: >
+      [ファイルシステム](#filesystem)内の所在地を指定する[文字列](string)のこと。
+      Unixでは、パス内の[ディレクトリ](directory)は、 `/`で区切られる。
+      つまり、ドライブから順にディレクトリの階層毎に`/`で区切って表す。 
 
 
 - slug: pattern_rule
@@ -6437,6 +6478,13 @@
       Una secuencia de valores, normalmente de tipo [homogéneo](#homogeneous). Los
       vectores son la estructura de datos fundamental en [R](#r_language); un [escalar](#scalar) es
       solo un vector con exactamente un elemento.
+  ja:
+    term: "ベクトル"
+    def: >
+      順番を付けられた値のリスト（配列）のこと。
+      ベクトルを構成する値は全て[同質](#homogeneous)のデータ型でなければならない。
+      ベクトルは[R言語](#r_language)において基本となるデータ型である。
+      要素が一つしかないベクトル、つまり長さ1のベクトルは、[スカラー](#scalar)と呼ぶ。
 
 
 - slug: vectorize
