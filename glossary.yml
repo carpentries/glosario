@@ -1993,6 +1993,8 @@
 
 
 - slug: decrement
+  ref:
+    - increment
   en:
     term: "decrement"
     def: >
@@ -3212,6 +3214,23 @@
       An operator that updates one of its operands. For example, the expression
       `x += 2` uses the in-place operator `+=` to add 2 to the current value of `x` and
       assign the result back to `x`.
+
+
+- slug: increment
+  ref:
+    - decrement
+  en:
+    term: "increment"
+    def: >
+      A unary operation that increases the value of a variable, usually by 1.
+  pt:
+    term: "incrementar"
+    def: >
+      Um operação unária que aumenta o valor de uma variável, geralmente em um.
+  sp:
+    term: "incrementar"
+    def: >
+      Una operación unaria que aumenta el valor de una variable, generalmente en 1.
 
 
 - slug: independent_variable
