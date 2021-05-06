@@ -7,13 +7,15 @@ please take a moment to read the guidance below.
 
 ## Contribution Workflow
 
-When you are making your contribution(s) to Glosario, please:
+When you are making your contribution(s) to Glosario, please adhere to the following guidance:
 
 1. **check the [open Issues][issues] and [Pull Requests][pulls]** to see what terms and definitions other contributors are already working on. This will help you avoid accidentally spending time writing the same term(s)/definition(s) as someone else.
 2. **add one or a small number of related new terms or definitions per Pull Request.** We woud love to receive multiple contributions from you but please keep each new term or set of terms and definitions in a distinct Pull Request. This makes it much easier for the Glosario maintainers/editors to review your contributions. By [creating a new branch][github-branches] from the `master` branch and making a new Pull Request each time, you also reduce the chance of accidentally combining multiple contributions.
 3. If you plan to contribute a larger number of terms e.g. to cover a new domain, **[open an Issue][issues]** with a title in the format "[language]/domain" e.g. "Romanian/relational database terms." This will help others avoid devoting time to writing the same terms/definitions as you.
 
-## 1. Adding a new term to the glossary
+In the sections below, we detail common ways you can contribute to glosario.
+
+## Adding a new term to the glossary
 
 To add a new entry, please [fork][forking-guide] the [main Glosario repository][repo] and, on a new branch, add the term and definition to [`glossary.yml`][glossary]. This glossary file is written in [YAML]. If you already have a fork of the repository, then please [make sure your fork is up-to-date](https://happygitwithr.com/upstream-changes.html#upstream-changes) with the [main Glosario repository][repo].
 
@@ -59,7 +61,7 @@ Here is an example of how your glossary entry should be structured:
 
 Once your term and definition(s) are complete, [make a Pull Request][pr-guide] back to the main repository.
 
-## 2. Adding a definition in another language to an existing term
+## Adding a definition in another language to an existing term
 
 To add a new definition to an existing term in the glossary, please fork [the main Glosario repository][repo] and, on a new branch, find the term in [`glossary.yml`][glossary] and add the two-letter ISO 639 language code such as `en` or `fr` as a new top-level key. (Refer to [the "639-1" column of this table][iso639-table-en].)
 
@@ -86,12 +88,12 @@ You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that 
       toutes les fonctions.
 ```
 
-## 3. Adding a new language
+## Adding a new language
 
 If you want to add a term or define a term in a new language, you can quickly check if your language is defined in glosario by heading to `https://glosario.carpentries.org/[lang]`, replacing `[lang]` with the [two-letter ISO 639 language code][iso639-table-en]. If you see a 
 [page not found error][https://glosario.carpentries.org/not-found], then that means you are the first to add this language to glosario!
 
-To add your language, first follow the instructions for [adding a new term to the glossary](#1-adding-a-new-term-to-the-glossary) or [adding a definition in another language to an existing term](#2-adding-a-definition-in-another-language-to-an-existing-term). Next, you will:
+To add your language, first follow the instructions for [adding a new term to the glossary](#adding-a-new-term-to-the-glossary) or [adding a definition in another language to an existing term](#adding-a-definition-in-another-language-to-an-existing-term). Next, you will:
 
 1. create a landing page for your language;
 2. add the entry for the language in the `_config.yml` file
