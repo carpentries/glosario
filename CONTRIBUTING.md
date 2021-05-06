@@ -91,9 +91,18 @@ You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that 
 If you want to add a term or define a term in a new language, you can quickly check if your language is defined in glosario by heading to `https://glosario.carpentries.org/[lang]`, replacing `[lang]` with the [two-letter ISO 639 language code][iso639-table-en]. If you see a 
 [page not found error][https://glosario.carpentries.org/not-found], then that means you are the first to add this language to glosario!
 
-To add your language, first follow the instructions for [adding a new term to the glossary](#1-adding-a-new-term-to-the-glossary) or [adding a definition in another language to an existing term](#2-adding-a-definition-in-another-language-to-an-existing-term). Next, you will create a landing page for your language.
+To add your language, first follow the instructions for [adding a new term to the glossary](#1-adding-a-new-term-to-the-glossary) or [adding a definition in another language to an existing term](#2-adding-a-definition-in-another-language-to-an-existing-term). Next, you will:
 
-### Create the language landing page
+1. create a landing page for your language;
+2. add the entry for the language in the `_config.yml` file
+3. add the 2-letter code among the list of languages that are recognized when
+   checking the content of the glosary.
+
+To see an example of the changes required, you can look at the [Pull
+Request](https://github.com/carpentries/glosario/pull/313/files) that adds the
+required infrastructure to support entries in Italian.
+
+### 1. Create the language landing page
 
 To add a landing page for your language, create a new markdown file that is named with the two-letter ISO 639 code for your language. For example, if you wanted to add support for Italian, you would create a new markdown file called `it.md`. 
 
@@ -109,6 +118,30 @@ direction: ltr
 ```
 
 The direction yaml item indicates whether the text should be displayed left to right (ltr, default) or right to left (rtl). Change this parameter depending on what direction your language is normally read in. 
+
+### 2. Add the language entry in the `_config.yml` file
+
+For the language to appear on the main landing page for the site, add the
+following to the `_config.yml` file under the `language:` entry, respecting the alphabetical order of the two-letter ISO 639 code:
+
+```markdown
+  - key: { Two-letter code }
+    name: { Name of the language }
+    title: { Translation of "glossary" into the language }
+    blurb: >
+       { Translation of the blurb presenting the glosario project}
+```
+
+### 3. Add the two-letter code to the script checking the content of the glossary
+
+To make sure that entries in the glossary for the language added will be recognized, you need to add the two-letter ISO code for the language in the Python script `[utils/check-glossary.py](https://github.com/carpentries/glosario/blob/master/utils/check-glossary.py#L33)`:
+
+```python
+NTRY_OPTIONAL_KEYS = {'ref'}
+ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'bn', 'de', 'en', 'es', 'fr', 'he', 'it', 'ja', 'nl', 'pt', 'zu'}
+```
+
+
 
 [forking-guide]: https://guides.github.com/activities/forking/
 [github-branches]: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches
