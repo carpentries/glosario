@@ -59,7 +59,7 @@ Here is an example of how your glossary entry should be structured:
 
 Once your term and definition(s) are complete, [make a Pull Request][pr-guide] back to the main repository.
 
-### 2. Adding a definition in another language to an existing term
+## 2. Adding a definition in another language to an existing term
 
 To add a new definition to an existing term in the glossary, please fork [the main Glosario repository][repo] and, on a new branch, find the term in [`glossary.yml`][glossary] and add the two-letter ISO 639 language code such as `en` or `fr` as a new top-level key. (Refer to [the "639-1" column of this table][iso639-table-en].)
 
@@ -85,6 +85,22 @@ You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that 
       Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour
       toutes les fonctions.
 ```
+
+## Adding a new language
+
+If you want to add a term or define a term in a new language, you can quickly check if your language is defined in glosario by heading to `https://glosario.carpentries.org/[lang]`, replacing `[lang]` with the [two-letter ISO 639 language code][iso639-table-en]. If you see a 
+[page not found error][https://glosario.carpentries.org/not-found], then that means you are the first to add this language to glosario!
+
+To add your language, first follow the instructions for [adding a new term to the glossary](#1-adding-a-new-term-to-the-glossary) or [adding a definition in another language to an existing term](#2-adding-a-definition-in-another-language-to-an-existing-term). Next, you will create a landing page for your language.
+
+### Create the language landing page.
+
+To add a landing page for your language, create a new markdown file that is named with the two-letter ISO 639 code for your language. For example, if you wanted to add support for Italian, you would create a new markdown file called `it.md`. 
+
+Each markdown file requires two things: a yaml header and a Jekyll includes statment.
+
+### Yaml Header
+
 
 [forking-guide]: https://guides.github.com/activities/forking/
 [github-branches]: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches
