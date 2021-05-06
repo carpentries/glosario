@@ -86,21 +86,29 @@ You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that 
       toutes les fonctions.
 ```
 
-## Adding a new language
+## 3. Adding a new language
 
 If you want to add a term or define a term in a new language, you can quickly check if your language is defined in glosario by heading to `https://glosario.carpentries.org/[lang]`, replacing `[lang]` with the [two-letter ISO 639 language code][iso639-table-en]. If you see a 
 [page not found error][https://glosario.carpentries.org/not-found], then that means you are the first to add this language to glosario!
 
 To add your language, first follow the instructions for [adding a new term to the glossary](#1-adding-a-new-term-to-the-glossary) or [adding a definition in another language to an existing term](#2-adding-a-definition-in-another-language-to-an-existing-term). Next, you will create a landing page for your language.
 
-### Create the language landing page.
+### Create the language landing page
 
 To add a landing page for your language, create a new markdown file that is named with the two-letter ISO 639 code for your language. For example, if you wanted to add support for Italian, you would create a new markdown file called `it.md`. 
 
-Each markdown file requires two things: a yaml header and a Jekyll includes statment.
+Each markdown file requires two things: a yaml header that defines the permalink to the page and a Jekyll includes statment in the body. For example, if you wanted to create an entry for Italian, you would add `it.md` with the following content:
 
-### Yaml Header
+```markdown
+---
+permalink: /it/
+direction: ltr
+---
 
+{% include glossary.html %}
+```
+
+The direction yaml item indicates whether the text should be displayed left to right (ltr, default) or right to left (rtl). Change this parameter depending on what direction your language is normally read in. 
 
 [forking-guide]: https://guides.github.com/activities/forking/
 [github-branches]: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches
