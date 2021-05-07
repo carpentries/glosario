@@ -113,18 +113,17 @@ Each markdown file requires two things: a yaml header that defines the permalink
 ```markdown
 ---
 permalink: /it/
-layout: glossary-ltr
+layout: glossary
 direction: ltr
 ---
 
 {% include glossary.html %}
 ```
 
-The `layout` and `direction` yaml items are used to indicate the direction the language is read in:
-- for left-to-right (ltr) languages use `layout: glossary-ltr` and `direction:
-  ltr`;
-- for right-to-left (rtl) languages use `layout: glossary-rtl` and `direction:
-  rtl`.
+The `layout` yaml item specifies the template for the landing page and the 
+`direction` yaml item is used to indicate the direction the language is read in:
+- for left-to-right (ltr) languages, use `direction: ltr`;
+- for right-to-left (rtl) languages, use `direction: rtl`.
 
 ### 2. Add the language entry in the `_config.yml` file
 
