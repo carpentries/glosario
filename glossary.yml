@@ -14,6 +14,13 @@
       deviation](#standard_deviation) of the [mean](#mean), 95% lie within two, and
       99.7% lie within three. Conversely, about 0.3% of values lie more than three
       standard deviations above or below the mean in most cases.
+  it:
+    term: "regola 68-95-99,7"
+    def: >
+      Esprime il fatto che il 68% dei valori si trova entro una [deviazione
+      standard](#standard_deviation) dalla [media](#media), il 95% entro due deviazioni
+      standard e il 99,7% entro tre. Al contrario, circa lo 0,3% dei valori si trova oltre
+      tre deviazioni standard sopra o sotto la media. 
   af:
     term: "68-95-99.7 reël"
     def: >
@@ -106,6 +113,11 @@
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
+  it:
+    term: "errore assoluto"
+    def: >
+      La differenza in valore assoluto tra il valore osservato e il valore corretto. 
+      L'errore assoluto è in genere meno utile dell'[errore relativo](#relative_error).
   es:
     term: "error absoluto"
     def: >
@@ -613,6 +625,10 @@
     term: "arithmetic mean"
     def: >
       See [mean](#mean).
+  it:
+    term: "media aritmetica"
+    def: >
+      Vedi [media](#mean).
   pt:
     term: "média aritmética"
     def: >
@@ -3861,6 +3877,11 @@
       The average value of a dataset, more properly known as the [arithmetic
       mean](#arithmetic_mean) to distinguish it from the [geometric](#geometric_mean)
       and [harmonic](#harmonic_mean) means.
+  it:
+    term: "media"
+    def: >
+      Rapporto tra la somma dei valori e il numero di valori. Chiamata anche [media aritmetica](#arithmetic_mean)
+      per distinguerla dalla [media geometrica](#geometric_mean) e dalla [media armonica](#harmonic_mean).
   af:
     term: "gemiddeld"
     def: >
@@ -5174,6 +5195,12 @@
       divided by the correct value. For example, if the actual value is 9 and the
       correct value is 10, the relative error is 0.1. Relative error is usually more
       useful than [absolute error](#absolute_error).
+  it:
+    term: "errore relativo"
+    def: >
+      Errore assoluto diviso il valore assoluto del valore corretto. Ad esempio, se il
+      valore osservato è 9 e il valore corretto è 10, l'errore relativo è 0,1. L'errore
+      relativo è spesso più utile dell'[errore assoluto](#absolute_error).
   es:
     term: "error relativo"
     def: >
@@ -5803,6 +5830,11 @@
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the square root of the [variance](#variance).
+  it:
+    term: "deviazione standard"
+    def: >
+      Misura della distanza dei valori dalla loro [media](#media). È calcolata come
+      la radice quadrata della [varianza](#variance).
   es:
     term: "desviación estándar"
     def: >
@@ -6414,6 +6446,13 @@
       as the average of the squared differences between the values and the mean. The
       [standard deviation](#standard_deviation) is often used instead, since it has
       the same units as the data, while the variance is expressed in units squared.
+  it:
+    term: "varianza"
+    def: >
+      Misura della distanza dei valori dalla loro [media](#mean). È calcolata
+      come la media dei quadrati delle differenze tra i valori e la loro media. La [deviazione
+      standard](#standard_deviation) è spesso usata al posto della varianza, perché ha
+      la stessa unità di misura dei dati, mentre la varianza è misurata nell'unità al quadrato.
   es:
     term: "varianza"
     def: >
