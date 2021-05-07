@@ -20,12 +20,12 @@ body {
         margin-left: 1cm;
     }
 
-    .left {
+    .left-ltr {
         float: left;
         width: 100%;
     }
 
-    .right {
+    .right-ltr {
         float: left;
         width: 55%;
         padding-left: 10px;
@@ -59,12 +59,12 @@ body {
         margin-right: 1cm;
     }
 
-    .left {
+    .left-ltr {
         float: left;
         width: 90%;
     }
 
-    .right {
+    .right-ltr {
         float: left;
         width: 90%;
         padding-left: 10px;
