@@ -1,6 +1,6 @@
 ---
 permalink: /ar/
-layout: glossary-rtl
+layout: glossary
 direction: rtl
 ---
 {% include glossary.html %}
