@@ -1,5 +1,5 @@
 ---
 permalink: /am/
-layout: glossary-ltr
+layout: glossary
 ---
 {% include glossary.html %}

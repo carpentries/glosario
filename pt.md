@@ -1,5 +1,5 @@
 ---
 permalink: /pt/
-layout: glossary-ltr
+layout: glossary
 ---
 {% include glossary.html %}
