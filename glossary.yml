@@ -2006,7 +2006,7 @@
   pt:
     term: "decrementar"
     def: >
-      Um operação unária que diminui o valor de uma variável, geralmente em um.
+      Uma operação unária que diminui o valor de uma variável, geralmente em um.
 
 
 - slug: deep_learning
@@ -3230,7 +3230,7 @@
   pt:
     term: "incrementar"
     def: >
-      Um operação unária que aumenta o valor de uma variável, geralmente em um.
+      Uma operação unária que aumenta o valor de uma variável, geralmente em um.
 
 
 - slug: independent_variable
