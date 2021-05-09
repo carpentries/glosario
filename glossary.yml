@@ -1999,14 +1999,14 @@
     term: "decrement"
     def: >
       A unary operation that decreases the value of a variable, usually by 1.
+  es:
+    term: "decrementar"
+    def: >
+      Una operación unaria que disminuye el valor de una variable, generalmente en 1.
   pt:
     term: "decrementar"
     def: >
       Um operação unária que diminui o valor de uma variável, geralmente em um.
-  sp:
-    term: "decrementar"
-    def: >
-      Una operación unaria que disminuye el valor de una variable, generalmente en 1.
 
 
 - slug: deep_learning
@@ -3223,14 +3223,14 @@
     term: "increment"
     def: >
       A unary operation that increases the value of a variable, usually by 1.
+  es:
+    term: "incrementar"
+    def: >
+      Una operación unaria que aumenta el valor de una variable, generalmente en 1.  
   pt:
     term: "incrementar"
     def: >
       Um operação unária que aumenta o valor de uma variável, geralmente em um.
-  sp:
-    term: "incrementar"
-    def: >
-      Una operación unaria que aumenta el valor de una variable, generalmente en 1.
 
 
 - slug: independent_variable
