@@ -18,7 +18,7 @@
     term: "regola 68-95-99,7"
     def: >
       Esprime il fatto che il 68% dei valori si trova entro una [deviazione
-      standard](#standard_deviation) dalla [media](#media), il 95% entro due deviazioni
+      standard](#standard_deviation) dalla [media](#mean), il 95% entro due deviazioni
       standard e il 99,7% entro tre. Al contrario, circa lo 0,3% dei valori si trova oltre
       tre deviazioni standard sopra o sotto la media. 
   af:
@@ -5833,7 +5833,7 @@
   it:
     term: "deviazione standard"
     def: >
-      Misura della distanza dei valori dalla loro [media](#media). È calcolata come
+      Misura della distanza dei valori dalla loro [media](#mean). È calcolata come
       la radice quadrata della [varianza](#variance).
   es:
     term: "desviación estándar"
