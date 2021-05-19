@@ -5446,6 +5446,12 @@
       environment that is only allowed to perform a restricted set of operations for
       security reasons.
 
+- slug: sanity_check
+  en:
+    term: "sanity check"
+    def: >
+      A basic test to see if the outcome of a calculation, script or analysis makes sense or is true.  
+      This can be performed by visualisation or by simply inspecting the outcome. 
 
 - slug: scalar
   en:
