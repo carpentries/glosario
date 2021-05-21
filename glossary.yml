@@ -553,7 +553,13 @@
       Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
       atraves del cual otra aplicación se puede comunicar. Una API no es el código,
       la base de datos o el servidor; es el punto de acceso.
-
+      
+  fr: 
+    term: "Interface de Programmation d'application"
+    def: >
+      Un ensemble de fonctions et de procédures fournies par une bibliothèque de logiciels ou un service web
+      par lequel une autre application peut communiquer. Une API n'est ni le code, ni la base de données
+      ni le serveur, mais le point d'accès.
 
 - slug: append_mode
   en:
