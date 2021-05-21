@@ -2023,6 +2023,23 @@
       other languages as well.
 
 
+- slug: decrement
+  ref:
+    - increment
+  en:
+    term: "decrement"
+    def: >
+      A unary operation that decreases the value of a variable, usually by 1.
+  es:
+    term: "decrementar"
+    def: >
+      Una operación unaria que disminuye el valor de una variable, generalmente en 1.
+  pt:
+    term: "decrementar"
+    def: >
+      Uma operação unária que diminui o valor de uma variável, geralmente em um.
+
+
 - slug: deep_learning
   en:
     term: "deep learning"
@@ -3228,6 +3245,23 @@
       An operator that updates one of its operands. For example, the expression
       `x += 2` uses the in-place operator `+=` to add 2 to the current value of `x` and
       assign the result back to `x`.
+
+
+- slug: increment
+  ref:
+    - decrement
+  en:
+    term: "increment"
+    def: >
+      A unary operation that increases the value of a variable, usually by 1.
+  es:
+    term: "incrementar"
+    def: >
+      Una operación unaria que aumenta el valor de una variable, generalmente en 1.  
+  pt:
+    term: "incrementar"
+    def: >
+      Uma operação unária que aumenta o valor de uma variável, geralmente em um.
 
 
 - slug: independent_variable
