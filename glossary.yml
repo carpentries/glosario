@@ -1081,6 +1081,15 @@
       placed at the top of the page. Breadcrumbs show the users where the current page
       lies in the website; the term comes from a fairy tale in which children left a
       trail of breadcrumbs behind themselves so that they could find their way home.
+  es:
+    term: "guías de navegación"
+    def: >
+      Literalmente: “migas,” “migas de pan,” “migaja;” en esto contexto: “árbol de navegación,” 
+      “guías de navegación,” “navegación de migas,“ o “rastro de navegación.” Un grupo de enlaces 
+      de navegación incluidos en muchos sitios web, generalmente ubicados en la parte superior 
+      de una página. “Breadcrumbs” muestran a los usuarios dónde se encuentra la página 
+      en el sitio web; la palabra proviene de un cuento de hadas en que unos niños 
+      habían dejado atrás un rastro de migas de pan para que pudieran encontrar su camino a casa.  
 
 
 - slug: breadth_first
