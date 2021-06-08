@@ -660,6 +660,11 @@
     def: >
       'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
       voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
+  es:
+    term: "ASCII"
+    def: >
+      Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental 
+      como enteros de 7- u 8-bits, ahora reemplazado por [Unicode](#unicode).
 
 
 - slug: assertion
@@ -720,6 +725,11 @@
       Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer
       aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n
       bewerking wat onafhanklik van 'n ander een plaasvind.
+  es:
+    term: "asincrónico"
+    def: >
+      No sucediendo al mismo tiempo. En programación, una operación asincrónica es una que corre 
+      independientemente de otra, o que comienza en un tiempo y termina en otro.
 
 
 - slug: attribute
@@ -982,6 +992,11 @@
     def: >
       Uma unidade de informação representando alternativas, sim/não,
       [verdadeiro](#true)/[falso](#false). Em computação, um estado de 0 ou 1.
+  es:
+    term: "bit"
+    def: >
+      Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false). 
+      En computación, un estado de ser 0 ó 1.
 
 
 - slug: blob
@@ -1183,6 +1198,10 @@
     term: "byte"
     def: >
       A unit of digital information that typically consists of eight [binary](#binary) digits, or [bits](#bit).
+  es:
+    term: "byte"
+    def: >
+      Unidad de información digital que típicamente consiste de ocho dígitos [binarios](#binary), o [bits](#bit).
 
 - slug: byte_code
   en:
@@ -1938,6 +1957,11 @@
     def: >
       Une structure bi-dimensionnelle pour enregistrer des données tabulaires. Les
       lignes représentent les [entrées](#record) et les colonnes représentent les [variables](#variable_data).
+  es:
+    term: "marco de datos"
+    def: >
+      Una estructura de datos bi-dimensional para guardar datos tabulares en memoria. 
+      Líneas representan [entradas](#record) y columnas representan [variables](#variable_data).
 
 
 - slug: data_mining
