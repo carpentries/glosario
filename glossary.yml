@@ -663,7 +663,8 @@
   es:
     term: "ASCII"
     def: >
-      Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental como enteros de 7- u 8-bits, ahora reemplazado por [Unicode](#unicode).
+      Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental 
+      como enteros de 7- u 8-bits, ahora reemplazado por [Unicode](#unicode).
 
 
 - slug: assertion
@@ -727,7 +728,8 @@
   es:
     term: "asincrónico"
     def: >
-      No sucediendo al mismo tiempo. En programación, una operación asincrónica es una que corre independientemente de otra, o que comienza en un tiempo y termina en otro.
+      No sucediendo al mismo tiempo. En programación, una operación asincrónica es una que corre 
+      independientemente de otra, o que comienza en un tiempo y termina en otro.
 
 
 - slug: attribute
@@ -993,7 +995,8 @@
   es:
     term: "bit"
     def: >
-      Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false). En computación, un estado de ser 0 ó 1.
+      Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false). 
+      En computación, un estado de ser 0 ó 1.
 
 
 - slug: blob
@@ -1957,7 +1960,8 @@
   es:
     term: "marco de datos"
     def: >
-      Una estructura de datos bi-dimensional para guardar datos tabulares en memoria. Líneas representan [entradas](#record) y columnas representan [variables](#variable_data).
+      Una estructura de datos bi-dimensional para guardar datos tabulares en memoria. 
+      Líneas representan [entradas](#record) y columnas representan [variables](#variable_data).
 
 
 - slug: data_mining
