@@ -1118,6 +1118,13 @@
       by examining the first step of each possible solution, and then trying the next step
       for each.
 
+- slug: browser_cache
+  en:
+    term: "browser cache"
+    def: >
+      A place where web browsers keep copies of previously retrieved files (web pages, data files)
+      in order to save time when they're requested again. Sometimes, issues may arise if there is
+      a newer version of the file online, but the browser doesn't notice it.
 
 - slug: bug
   en:
