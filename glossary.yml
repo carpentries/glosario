@@ -1744,6 +1744,15 @@
     def: >
       A [variable](#variable_data) whose value can be any real value, either
       within a range, or unbounded, such as age or distance.
+      
+      
+- slug: control_flow
+  en:
+    term: "control flow"
+    def: >
+      The logical flow through a program's code. May be linear (i.e. just a series of 
+      commands), but may also include [loops](#loop) or conditional execution (i.e. if
+      a condition is met).
 
 
 - slug: copy_on_modify
