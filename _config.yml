@@ -180,7 +180,7 @@ languages:
       ライブラリの機能を使ってレッスンに多言語で、用語や定義に
       一貫したハイパーリンクを挿入することが可能になります。
       
-  - key: swa
+  - key: sw
     name: Kiswahili
     title: Faharasa
     blurb: >
