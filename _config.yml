@@ -132,9 +132,38 @@ languages:
       in een les wordt behandeld, wat studenten moeten weten voordat de les begint en waar studenten de informatie
       kunnen vinden. Auteurs kunnen de tekenfuncties van het programma ook gebruiken om consistente doorklik op
       te nemen, voor termen en definities in een van de verschillende talen, in hun lessen.
+  - key: tn
+    name: Setswana
+    title: thanodi ya mafoko
+    blurl: >-
+      Glosario ke sefalana sa thanodi ya mafoko a a dirisiwang mo dithutong tsa
+      maranyane a "data science". Sefalana se, se bonwa ntleng ga tuelo mo
+      kgolaganong ka mafaratlhatlha. Glosario e ka fitlhelwa gape ele nngwe ya
+      metlobo mo dibaleng makgolo tsa
+      "[R](https://github.com/carpentries/glosario-r/" le
+      "[Python](https://github.com/carpentries/glosario-py)". Mokwadi wa thuto e
+      e lebaganeng le maranyane a “data science” , o kgona go tsenya diteng mo
+      lekwalong la gagwe tse di supang; bokao le boleng ja thuto, se moithuti a
+      tshwanetseng go se itse pele ga thuto, le motlhala o moithuti a ka o
+      salang morago go fitlhelela kitso eo. Mokwadi o kgona go golaganya
+      tlhaloso ya mafoko a a botlhokwa mo lekwalong la gagwe le maranyane a
+      kaedi, a aka ranolang mafoko ao ka diteme tse di farologaneng.
+  - key: xh
+    name: isiXhosa
+    title: Uluhlu lwamagama
+    blurb: >-
+      Glosario ngumthombo ovulekileyo weglosari yamagama asetyenziswa
+      kwinzululwazi yedatha efumaneka kwi-intanethi kwaye nanjengethala
+      leencwadi kuzo zombini [R](https://github.com/carpentries/glosario-r/)
+      kunye [Python](https://github.com/carpentries/glosario-py/). Ngokudibanisa
+      amagama akhethiweyo kwimethadatha yesifundo, ababhali banokubonisa into
+      efundiswa sesi sifundo, ekufuneka abafundi bayazi phambi kokuba baqale,
+      nalapho banokuya khona ukufumana olo lwazi. Ababhali banokusebenzisa
+      imisebenzi yethala leencwadi ukufaka ii-hyperlink ezifanayo zemigaqo kunye
+      neenkcazo kwizifundo zabo ngalo naluphi na ulwimi.
   - key: zu
     name: IsiZulu
-    title: Uhlu Lwamagama
+    title: Uhlu lwamagama nezincasiselo
     blurb: >
       `I-glosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
       ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/)
