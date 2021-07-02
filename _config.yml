@@ -184,7 +184,7 @@ languages:
     name: Kiswahili
     title: Faharasa
     blurb: >
-      `glossario' ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi 
+      `glossario` ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi
       ya data na inapatikana mitandaoni na pia kama maktaba kwenye lugha ya 
       [R](https://github.com/carpentries/glosario-r/) na
       [Python](https://github.com/carpentries/glosario-py/) programu.
