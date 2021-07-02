@@ -179,3 +179,18 @@ languages:
       そしてその情報がどこにあるかが分かるようになります。また、
       ライブラリの機能を使ってレッスンに多言語で、用語や定義に
       一貫したハイパーリンクを挿入することが可能になります。
+      
+  - key: swa
+    name: Kiswahili
+    title: Faharasa
+    blurb: >
+      `glossario' ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi 
+      ya data na inapatikana mitandaoni na pia kama maktaba kwenye lugha ya 
+      [R](https://github.com/carpentries/glosario-r/) na
+      [Python](https://github.com/carpentries/glosario-py/) programu.
+      Kwa kuongeza funguo za faharasa kwenye metadata ya somo, 
+      waandishi wanaweza kuashiria funzo la somo, kile ambacho wanafunzi
+      wanapaswa kujua kabla ya somo kuanza na mahali ambapo wanaweza kupata
+      maarifa hayo. Waandishi wanaweza pia kutumia vipengele kwenye maktaba
+      kuweka viungo thabiti vinavyo ashiria masharti na ufafanuzi kwenye 
+      somo zao katika lugha yoyote ya kibinadamu.
