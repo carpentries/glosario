@@ -133,7 +133,7 @@ languages:
       kunnen vinden. Auteurs kunnen de tekenfuncties van het programma ook gebruiken om consistente doorklik op
       te nemen, voor termen en definities in een van de verschillende talen, in hun lessen.
   - key: tn
-    name: Tswana
+    name: Setswana
     title: thanodi ya mafoko
     blurl: >-
       Glosario ke sefalana sa thanodi ya mafoko a a dirisiwang mo dithutong tsa
@@ -149,7 +149,7 @@ languages:
       tlhaloso ya mafoko a a botlhokwa mo lekwalong la gagwe le maranyane a
       kaedi, a aka ranolang mafoko ao ka diteme tse di farologaneng.
   - key: xh
-    name: Xhosa
+    name: isiXhosa
     title: Uluhlu lwamagama
     blurb: >-
       Glosario ngumthombo ovulekileyo weglosari yamagama asetyenziswa
@@ -163,7 +163,7 @@ languages:
       neenkcazo kwizifundo zabo ngalo naluphi na ulwimi.
   - key: zu
     name: IsiZulu
-    title: Uhlu Lwamagama
+    title: Uhlu lwamagama nezincasiselo
     blurb: >
       `I-glosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
       ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/)
