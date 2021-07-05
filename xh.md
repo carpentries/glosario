@@ -1,6 +1,6 @@
 ---
 permalink: /xh/
-layout: glossary-ltr
+layout: glossary
 direction: ltr
 ---
 {% include glossary.html %}

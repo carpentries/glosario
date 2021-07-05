@@ -107,7 +107,8 @@ languages:
   - key: ko
     name: 한국어
     title: 용어 사전
-    blurb: >-    
+    blurb: >-
+      to be translated
   - key: pt
     name: Português
     title: Glossário
@@ -140,7 +141,7 @@ languages:
       maranyane a "data science". Sefalana se, se bonwa ntleng ga tuelo mo
       kgolaganong ka mafaratlhatlha. Glosario e ka fitlhelwa gape ele nngwe ya
       metlobo mo dibaleng makgolo tsa
-      "[R](https://github.com/carpentries/glosario-r/" le
+      "[R](https://github.com/carpentries/glosario-r/)" le
       "[Python](https://github.com/carpentries/glosario-py)". Mokwadi wa thuto e
       e lebaganeng le maranyane a “data science” , o kgona go tsenya diteng mo
       lekwalong la gagwe tse di supang; bokao le boleng ja thuto, se moithuti a
