@@ -135,7 +135,7 @@ languages:
   - key: tn
     name: Setswana
     title: thanodi ya mafoko
-    blurl: >-
+    blurb: >-
       Glosario ke sefalana sa thanodi ya mafoko a a dirisiwang mo dithutong tsa
       maranyane a "data science". Sefalana se, se bonwa ntleng ga tuelo mo
       kgolaganong ka mafaratlhatlha. Glosario e ka fitlhelwa gape ele nngwe ya
