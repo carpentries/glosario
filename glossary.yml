@@ -914,6 +914,10 @@
     def: >
       Uma estatística é enviesada se estiver sistemática ou consistentemente diferente
       do parâmetro que deveria estimar.
+  tn:
+    term: "go tsaya letlhakore"
+    def: >
+      Dipalopalo di tsaya letlhakore fa ele gore maduo a ditshakatsheko tsa tsone, gangwe le gape ga a ana neelano le maduo aa akanyeditsweng.
 
 
 - slug: big_data
