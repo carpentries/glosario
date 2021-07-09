@@ -929,6 +929,10 @@
       Any data that until recently was too big for most people to work with on a
       single computer.
 
+  ar:
+  term: "البيانات الضخمة"
+  def: >
+أي بيانات كانت حتى وقت قريب اكبر من ان يتم التعامل معها و انجازها بواسطة معظم الأشخاص على جهاز حاسوب واحد
 
 - slug: binary
   en:
@@ -3573,7 +3577,7 @@
       A does *not* match a key in table B, columns from table B are filled with
       [null](#null), [NA](#na), or some other [missing value](#missing_value). Keys from table B
       that do not match keys from table A are excluded for the result.
-
+      
 
 - slug: lexical_scoping
   en:
@@ -6777,3 +6781,6 @@
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
       archivos de configuración y para definir [parámetros](#parameter) en varios estilos
       de documentos en [Markdown](#markdown).
+      
+      
+   
