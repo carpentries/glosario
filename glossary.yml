@@ -437,6 +437,11 @@
     def: >
       Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
       En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
+  ar:
+    term: "الخوارزمية"
+    def: >
+       .الخوارزمية عبارة عن مجموعة من الخطوات أو التعليمات أو القواعد التي يجب اتباعها لتحقيق مهمة معينة
+       .في علوم الحاسوب، الخوارزمية عبارة عن مجموعة من التعليمات في برنامج الحاسوب لحل مشكلة حسابية
 
 - slug: aliasing
   en:
