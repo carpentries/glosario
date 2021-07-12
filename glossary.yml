@@ -918,6 +918,11 @@
     term: "go tsaya letlhakore"
     def: >
       Dipalopalo di tsaya letlhakore fa ele gore maduo a ditshakatsheko tsa tsone, gangwe le gape ga a ana neelano le maduo aa akanyeditsweng.
+  en:
+    term: "Umkhethe"
+    def: >
+      Ubalo-manani lunomkhethe ukuba lwenziwe ngendlela echanekileyo okanye ngokungaguquguqukiyo ngokwahlukileyo kwiparameter emele ukuba iqikelele.
+  
 
 
 - slug: big_data
@@ -4136,6 +4141,10 @@
     term: "módulo"
     def: >
       un paquete de software reutilizable, también se llama una [biblioteca](#library).
+  xh:
+    term: "Imodyuli"
+    def: >
+      Iphakheji yesoftware](#package) enokuphinda isebenze, ekwabizwa ngokuba [yilayibrari](#library)
 
 
 - slug: monte_carlo
