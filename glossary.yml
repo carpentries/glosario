@@ -157,6 +157,12 @@
       A path that points to the same location in the [filesystem](#filesystem)
       regardless of where it is evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
+ de: 
+    term: "absoluter Pfad"
+     def: >
+      Der absolute Pfad zeigt auf die gleiche Position im [filesystem](#filesystem),
+      unabhängig davon, wo er ausgewertet wird. Der absolute Pfad entspricht in der
+      Geographie der Angabe von Längen- und Breitengrad.   
   af:
     term: "absolute roete"
     def: >
