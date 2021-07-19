@@ -159,7 +159,7 @@
       latitude and longitude in geography.
  de: 
     term: "absoluter Pfad"
-     def: >
+    def: >
       Der absolute Pfad zeigt auf die gleiche Position im [filesystem](#filesystem),
       unabhängig davon, wo er ausgewertet wird. Der absolute Pfad entspricht in der
       Geographie der Angabe von Längen- und Breitengrad.   
