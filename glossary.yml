@@ -578,6 +578,12 @@
       Un ensemble de fonctions et de procédures fournies par une bibliothèque de logiciels ou un service web
       par lequel une autre application peut communiquer. Une API n'est ni le code, ni la base de données
       ni le serveur, mais le point d'accès.
+  pt: 
+    term: "Interface de Programação de Aplicações"
+    def: >
+      Um conjunto de funções e procedimentos fornecidos por uma biblioteca de software ou serviço web através
+      do qual outras aplicações podem comunicar. Uma API não é o código, a base de dados, ou o servidor: é
+      um ponto de acesso.
 
 - slug: append_mode
   en:
@@ -671,6 +677,11 @@
     def: >
       Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental 
       como enteros de 7- u 8-bits, ahora reemplazado por [Unicode](#unicode).
+  pt:
+    term: "ASCII"
+    def: >
+      Uma forma estandardizada de representar os caracteres comummente usados em línguas 
+      da Europa Ocidental como números inteiros de 7 ou 8 bits, agora suplantada por [Unicode](#unicode).
 
 
 - slug: assertion
@@ -6407,6 +6418,12 @@
       A standard that defines numeric codes for many thousands of characters and
       symbols. Unicode does not define how those numbers are stored; that is done by
       standards like [UTF-8](#utf_8).
+  pt:
+    term: "Unicode"
+    def: >
+      Um standard que define códigos numérico para milhares de caracteres e símbolos.
+      Unicode não define como esses números são armazenados; isso isso é feito por 
+      standards como [UTF-8](#utf_8).
 
 
 - slug: unit_test
@@ -6472,6 +6489,12 @@
     def: >
       A way to store the numeric codes representing [Unicode](#unicode) characters in memory that
       is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
+  pt:
+    term: "UTF-8"
+    def: >
+      Uma forma de armazenar os códigos numéricos que representam os caracteres [Unicode](#unicode) 
+      na memória, que tem [compatiblidade reversa](#backward_compatible) com o standard mais antigo 
+      [ASCII](#ascii).
 
 
 - slug: variable_arguments
