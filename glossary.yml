@@ -611,6 +611,13 @@
     def: >
       Un valor pasado a una función. Algunos autores usan el término como sinónimo de
       [parámetro](#parameter) y algunos no; Todo es muy confuso.
+  fr:
+    term: "argument"
+    def: >
+      Un argument est une expression donnée passée à une fonction.
+      Ce terme ne doit pas être confondu avec [paramètre](#parameter), et n'en est pas un
+      synonyme. Alors qu'un paramètre est une variable, un argument est une valeur associée
+      à cette variable. 
   pt:
     term: "argumento"
     def: >
