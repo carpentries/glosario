@@ -6485,10 +6485,11 @@
       capture the "extra" arguments. [Python](#python) uses `*args` and `**kwargs` to capture
       unnamed, and named, "extra" arguments, respectively.
   fr:
-    term: "arguments d'une variable"
+    term: "arguments en nombre variable"
     def: >
       La possibilité d'intégrer n'importe quel nombre d'arguments dans une fonction. [R](#r_language)
-      utilise `...` afin de capturer les arguments "additionnels".
+      utilise `...` afin de capturer les arguments "additionnels". [Python](#python) utilise `*args`
+      et `**kwargs` pour capturer respectivement les paramètres "additionnels" nommés et non nommés.
 
 
 - slug: variable_data
