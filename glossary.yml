@@ -1302,7 +1302,7 @@
       A relationship between distinct events, where it is asserted that one event is responsible for
       producing or affecting change in the other.
   fr:
-    term: causalité
+    term: "causalité"
     def: >
       Une relation entre des événements distincts, où il est affirmé qu'un événement est responsable de
       produire ou d'affecter un changement dans l'autre.
@@ -1587,7 +1587,7 @@
   fr:
     term: "commentaire"
     def: >
-      Text écrit dans un script qui n'est pas évalué lors de l'exécution du code. Il
+      Texte écrit dans un script, qui n'est pas évalué lors de l'exécution du code. Il
       est utilisé pour décrire ce qui se passe lorsque le code est évalué. Les
       commentaires sont en général des notes brèves, qui commencent après un `#` (dans
       plusieurs langages de programmation)
@@ -1906,6 +1906,7 @@
       colors, and layout.
   fr:
     term: "Feuilles de Style en Cascade"
+    acronym: "CSS"
     def: >
       Une manière de contrôler l'apparence du rendu HTML. Le CSS est généralement
       utilisé dans le but de spécifier les polices, les couleurs ainsi que la
@@ -1973,7 +1974,8 @@
     term: "trame de données"
     def: >
       Une structure bi-dimensionnelle pour enregistrer des données tabulaires. Les
-      lignes représentent les [entrées](#record) et les colonnes représentent les [variables](#variable_data).
+      lignes représentent les [entrées](#record) et les colonnes représentent les
+      [variables](#variable_data).
   es:
     term: "marco de datos"
     def: >
@@ -2394,8 +2396,8 @@
   fr:
     term: "vecteur vide"
     def: >
-      Un vecteur qui ne contient aucun élément. Les vecteurs vides peuvent être de
-      type logique ou caractère, et sont *differents* des vecteurs [null](#null).
+      Un vecteur qui ne contient aucun élément. Les vecteurs vides possèdent un type, par
+      exemple entier ou caractère, et sont *différents* de [null](#null).
 
 
 - slug: environment
@@ -2628,7 +2630,7 @@
   fr:
     term: "filtrer"
     def: >
-      Le fait de sélectionner un ensemble d'[observations](#record) (example,
+      Le fait de sélectionner un ensemble d'[observations](#record) (par exemple
       certaines lignes d'une table) en se basant sur leurs valeurs.
 
 
@@ -2834,8 +2836,8 @@
   fr:
     term: "Git clone"
     def: >
-      Permet de copier (et générallement de télécharger) un [dépôt
-      éloigné](#remote_repository) Git au niveau de l'ordinateur local.
+      Permet de copier (et généralement de télécharger) un [dépôt Git distant](#remote_repository)
+      sur l'ordinateur local.
 
 
 - slug: git_conflict
@@ -2875,8 +2877,8 @@
   fr:
     term: "Git pull"
     def: >
-      Télécharge et synchronise des modifications entre le [dépôt
-      éloigné](#remote_repository) et le [dépôt](#repository) local.
+      Télécharge et synchronise les modifications entre le [dépôt distant](#remote_repository)
+      et le [dépôt](#repository) local.
 
 
 - slug: git_push
@@ -2889,7 +2891,7 @@
     term: "Git push"
     def: >
       Charge et synchronise des modifications entre le [dépôt](#repository) local et
-      le [dépôt éloigné](#remote_repository).
+      le [dépôt distant](#remote_repository).
 
 
 - slug: git_remote
@@ -2928,7 +2930,7 @@
     term: "environnement global"
     def: >
       L'[environnement](#environment) qui contient des définitions de premier niveau
-      dans un langage de programmation, example, celles écrites directement dans l'intérpreteur.
+      dans un langage de programmation, par exemple celles écrites directement dans l'interpréteur.
 
 
 - slug: global_installation
@@ -2955,8 +2957,8 @@
   en:
     term: "global variable"
     def: >
-      A variable defined outside any particular function or [package](#package) namespace, which is therefore visible
-      to all functions.
+      A variable defined outside any particular function or [package](#package) namespace, which is
+      therefore visible to all functions.
   es:
     term: "variable global"
     def: >
@@ -2965,8 +2967,8 @@
   fr:
     term: "variable globale"
     def: >
-      Une variable définie en dehors d'une fonction donnée, qui est par conséquent
-      visible pour toutes les fonctions.
+      Une variable définie en dehors de l'espace de noms d'une quelconque fonction, qui est par 
+      conséquent visible pour toutes les fonctions.
   ko:
     term: "전역 변수"
     def: >
@@ -5117,7 +5119,7 @@
     def: >
       Un dialecte de [Markdown](#markdown) qui permet à ses auteurs de mélanger langage naturel et code
       (habituellement écrit en langage [R](#r_language)) dans un même document.
-      Voir aussi programmation lettrée.
+      Voir aussi [programmation lettrée](#literate_programming).
 
 
 - slug: raise_exception
@@ -5184,7 +5186,7 @@
     def: >
       Un groupe de valeurs liées qui sont enregistrées ensemble. Une entrée peut être
       représentée comme un [tuple](#tuple) ou une ligne dans une [table](#table); dans
-      ce dernier cas, chaque entrée dans la table comporte les même [champs](#field).
+      ce dernier cas, chaque entrée dans la table comporte les mêmes [champs](#field).
 
 
 - slug: recursion
@@ -5312,8 +5314,8 @@
     term: "erreur relative"
     def: >
       La valeur absolue de la différence entre la valeur observée et la valeur correcte,
-      divisée par la valeur désirée. Par exemple, si la valeur observée est 9 et la valeur
-      correcte est 10, l'erreur absolue est 0.1. L'erreur relative est généralement
+      divisée par la valeur correcte. Par exemple, si la valeur observée est 9 et la valeur
+      correcte est 10, l'erreur relative est 0.1. L'erreur relative est généralement
       plus utile que [l'erreur absolue](#absolute_error).
 
 
@@ -5864,8 +5866,9 @@
   fr:
     term: "SQL"
     def: >
-      Langage employé pour composer des requêtes dans une [base de données relationnelle](#relational_database).
-      Le terme était originellement l'acronyme de "Structured Query Language" (langage de requête structurée).
+      Langage employé pour composer des requêtes dans une
+      [base de données relationnelle](#relational_database).
+      Le terme est l'acronyme de "Structured Query Language" (langage de requête structuré).
 
 
 - slug: ssh
@@ -6209,7 +6212,7 @@
     term: "tibble"
     def: >
       Une alternative moderne du "data frame" en [R](#r_language) permettant de matérialiser des
-      données tabulaires en colonnes et en lignes, le "tibble" a été défini et est
+      données tabulaires en colonnes et en lignes. Le "tibble" a été défini et est
       utilisé dans le [tidyverse](#tidyverse).
   es:
     term: "tibble"
@@ -6261,7 +6264,7 @@
   fr:
     term: "Tidymodels"
     def: >
-      Une collection de packages [R](#r_language) pour la modélisation et l'analyse statistique
+      Une collection de packages [R](#r_language) pour la modélisation et l'analyse statistique,
       élaborés en prenant en considération une [philosophie partagée](https://tidymodels.github.io/model-implementation-principles/index.html)
 
 
@@ -6273,7 +6276,7 @@
   fr:
     term: "Tidyverse"
     def: >
-      Une collection de packages [R](#r_language) permettant le traitement des données tabulaire
+      Une collection de packages [R](#r_language) permettant le traitement des données tabulaires
       d'une manière cohérente.
   es:
     term: "Tidyverse"
