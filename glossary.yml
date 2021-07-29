@@ -383,7 +383,7 @@
     term: "fonction d'agrégation"
     def: >
       Une fonction qui permet de synthétiser plusieurs valeurs en une seule, comme par
-      example 'sum' ou 'max'.
+      exemple 'sum' ou 'max'.
   pt:
     term: "função de agregação"
     def: >
