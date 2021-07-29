@@ -750,7 +750,7 @@
     term: "attribut"
     def: >
       Un couple nom-valeur associé à un objet et utilisé pour stocker des métadonnées
-      concernant ce dernier, example, les dimensions d'un tableau.
+      concernant ce dernier, par exemple les dimensions d'un tableau.
   af:
     term: "eienskap"
     def: >
@@ -768,7 +768,7 @@
     term: "auto-complétion"
     def: >
       Une fonctionnalité permettant à l'utilisateur de finir rapidement un mot ou du
-      code à travers l'utilisation de la touche TAB qui liste le mot ou le code
+      code à travers l'utilisation de la touche TAB qui affiche le mot ou le code
       susceptible d'être choisi par l'utilisateur.
   pt:
     term: "auto-completar"
@@ -824,10 +824,12 @@
       For example a [function](#function) written in [Python](#python) 3 that can be
       run successfully with Python version 2 is backward-compatible.
   fr:
-    term: "compatibilité descendante"
+    term: "rétrocompatible"
     def: >
-      Ce dit d'un logiciel qui est capable d'être utilisé de la même manière que ses
-      versions précédentes sans difficulté.
+      Se dit d'un système, matériel ou logiciel, qui est capable d'être utilisé de la
+      même manière que ses versions précédentes sans difficulté.
+      Par exemple, une [fonction](#function) écrite en [Python](#python) 3 qui peut
+      être utilisée avec [Python](#python) 2 est rétrocompatible.
   pt:
     term: "compatibilidade reversa"
     def: >
