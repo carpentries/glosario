@@ -511,7 +511,7 @@
     def: >
       Une fonction qui ne s'est pas vue assignée de nom. Les fonctions anonymes sont
       en général courtes et définies là où elles sont utilisées, exemple: callbacks.
-      En [Python](#python), elles sont appelées fonctions lambda et sont crées en
+      En [Python](#python), elles sont appelées fonctions lambda et sont créées en
       utilisant le mot-clé `lambda`.
   ar:
     term: "دالة مجهولة"
