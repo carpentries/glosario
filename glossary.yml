@@ -4617,6 +4617,13 @@
       A variable specified in a function definition whose value is passed to the function
       when the function is called. Parameters and arguments are distinct, but related concepts.
       Parameters are variables and [arguments](#argument) are the values assigned to those variables.
+  fr:
+    term: "paramètre"
+    def: >
+      Une variable spécifiée dans la définition d'une fonction, dont la valeur est passée à
+      la fonction lorsque celle-ci est appelée.
+      À ne pas confondre avec le terme [argument](#argument). Un paramètre est une variable,
+      un argument est une valeur assignée à cette variable.
 
 
 - slug: parent_class
