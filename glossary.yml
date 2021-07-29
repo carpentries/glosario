@@ -5314,8 +5314,8 @@
     term: "erreur relative"
     def: >
       La valeur absolue de la différence entre la valeur observée et la valeur correcte,
-      divisée par la valeur désirée. Par exemple, si la valeur observée est 9 et la valeur
-      correcte est 10, l'erreur absolue est 0.1. L'erreur relative est généralement
+      divisée par la valeur correcte. Par exemple, si la valeur observée est 9 et la valeur
+      correcte est 10, l'erreur relative est 0.1. L'erreur relative est généralement
       plus utile que [l'erreur absolue](#absolute_error).
 
 
@@ -5866,8 +5866,9 @@
   fr:
     term: "SQL"
     def: >
-      Langage employé pour composer des requêtes dans une [base de données relationnelle](#relational_database).
-      Le terme était originellement l'acronyme de "Structured Query Language" (langage de requête structurée).
+      Langage employé pour composer des requêtes dans une
+      [base de données relationnelle](#relational_database).
+      Le terme est l'acronyme de "Structured Query Language" (langage de requête structuré).
 
 
 - slug: ssh
@@ -6211,7 +6212,7 @@
     term: "tibble"
     def: >
       Une alternative moderne du "data frame" en [R](#r_language) permettant de matérialiser des
-      données tabulaires en colonnes et en lignes, le "tibble" a été défini et est
+      données tabulaires en colonnes et en lignes. Le "tibble" a été défini et est
       utilisé dans le [tidyverse](#tidyverse).
   es:
     term: "tibble"
@@ -6263,7 +6264,7 @@
   fr:
     term: "Tidymodels"
     def: >
-      Une collection de packages [R](#r_language) pour la modélisation et l'analyse statistique
+      Une collection de packages [R](#r_language) pour la modélisation et l'analyse statistique,
       élaborés en prenant en considération une [philosophie partagée](https://tidymodels.github.io/model-implementation-principles/index.html)
 
 
@@ -6275,7 +6276,7 @@
   fr:
     term: "Tidyverse"
     def: >
-      Une collection de packages [R](#r_language) permettant le traitement des données tabulaire
+      Une collection de packages [R](#r_language) permettant le traitement des données tabulaires
       d'une manière cohérente.
   es:
     term: "Tidyverse"
