@@ -6408,8 +6408,16 @@
     term: "tuple"
     def: >
       A data type that has a fixed number of parts, such as the three color components of a
-      red-green-blue color specification. Tuples are immutable (their values cannot be reset.)
-
+      red-green-blue color specification. In "[Python](#python)", tuples are immutable (their
+      values cannot be reset.)
+  fr:
+    term: "tuple"
+    def: >
+      Un type de donnée correspondant à une collection d'objets en nombre fixé, par exemple
+      les trois composantes de la spécification rouge-vert-bleu d'une couleur. En "[Python](#python)",
+      les tuples sont immuables (leurs valeurs sont fixées à l'initialisation et ne peuvent plus être
+      modifiées par la suite). 
+      Les tuples contenant n objets sont aussi appelés n-uplets.
 
 - slug: two_hard_problems
   en:
