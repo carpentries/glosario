@@ -4456,6 +4456,10 @@
     term: "observation"
     def: >
       A value or property of a specific member of a population.
+  fr:
+    term: "observation"
+    def: >
+      Une valeur ou une propriété associée à un membre spécifique d'une population.
 
 
 - slug: off_by_one_error
