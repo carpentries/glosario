@@ -5046,6 +5046,11 @@
     def: >
       Un lenguaje de programación de código abierto interpretado popular que
       se basa en la sangría para definir la estructura de control.
+  fr:
+    term: "Python"
+    def: >
+      Un langage de programmation open-source interprété populaire qui utilise l'indentation pour
+      définir les structures de contrôle.
   pt:
     term: "Python"
     def: >
