@@ -4216,6 +4216,10 @@
     term: "NA"
     def: >
       A special value used to represent data that is not available.
+  fr:
+    term: "NA"
+    def: >
+      Une valeur spéciale utilisée pour représenter des données qui ne sont pas disponibles.
   af:
     term: "NA"
     def: >
@@ -4355,8 +4359,13 @@
   en:
     term: "null"
     def: >
-      A special value used to represent a missing object. Null is not the same as NA,
+      A special value used to represent a missing object. Null is not the same as [NA](#na),
       and neither is it the same as an [empty vector](#empty_vector).
+  fr:
+    term: "null"
+    def: >
+      Une valeur spéciale utilisée pour représenter l'absence de valeur. Null n'est pas équivalent à [NA](#na),
+      ni à un [vecteur vide](#empty_vector).
 
 
 - slug: null_hypothesis
