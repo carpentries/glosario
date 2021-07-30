@@ -2414,6 +2414,11 @@
     term: "environment"
     def: >
       A structure that stores a set of variable names and the values they refer to.
+  fr:
+    term: "environnement"
+    def: >
+      Une structure qui stocke un ensemble de noms de variables et les valeurs qui leur
+      sont associées.
 
 
 - slug: error_handling
