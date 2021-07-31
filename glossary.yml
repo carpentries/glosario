@@ -3206,6 +3206,12 @@
     def: >
       The standard [markup language](#markup_language) used for web pages. HTML is
       represented in memory using [DOM](#dom) (Digital Object Model).
+  de:
+    term: "Hypertext-Auszeichnungssprache"
+    acronym: "HTML"
+    def: >
+      Die Standard-[Auszeichnungssprache](#markup_language) für Webseiten. HTML wird
+      im Speicher durch das [Dokumenten-Objekt-Modell](#dom) repräsentiert.
 
 
 - slug: http
