@@ -20,7 +20,7 @@
       Esprime il fatto che il 68% dei valori si trova entro una [deviazione
       standard](#standard_deviation) dalla [media](#mean), il 95% entro due deviazioni
       standard e il 99,7% entro tre. Al contrario, circa lo 0,3% dei valori si trova oltre
-      tre deviazioni standard sopra o sotto la media. 
+      tre deviazioni standard sopra o sotto la media.
   af:
     term: "68-95-99.7 reël"
     def: >
@@ -116,7 +116,7 @@
   it:
     term: "errore assoluto"
     def: >
-      La differenza in valore assoluto tra il valore osservato e il valore corretto. 
+      La differenza in valore assoluto tra il valore osservato e il valore corretto.
       L'errore assoluto è in genere meno utile dell'[errore relativo](#relative_error).
   es:
     term: "error absoluto"
@@ -157,12 +157,12 @@
       A path that points to the same location in the [filesystem](#filesystem)
       regardless of where it is evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
-  de: 
+  de:
     term: "absoluter Pfad"
     def: >
       Der absolute Pfad zeigt auf die gleiche Position im [filesystem](#filesystem),
       unabhängig davon, wo er ausgewertet wird. Der absolute Pfad entspricht in der
-      Geographie der Angabe von Längen- und Breitengrad.   
+      Geographie der Angabe von Längen- und Breitengrad.
   af:
     term: "absolute roete"
     def: >
@@ -573,8 +573,8 @@
       Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
       atraves del cual otra aplicación se puede comunicar. Una API no es el código,
       la base de datos o el servidor; es el punto de acceso.
-      
-  fr: 
+
+  fr:
     term: "Interface de Programmation d'application"
     def: >
       Un ensemble de fonctions et de procédures fournies par une bibliothèque de logiciels ou un service web
@@ -617,7 +617,7 @@
       Un argument est une expression donnée passée à une fonction.
       Ce terme ne doit pas être confondu avec [paramètre](#parameter), et n'en est pas un
       synonyme. Alors qu'un paramètre est une variable, un argument est une valeur associée
-      à cette variable. 
+      à cette variable.
   pt:
     term: "argumento"
     def: >
@@ -678,7 +678,7 @@
   es:
     term: "ASCII"
     def: >
-      Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental 
+      Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental
       como enteros de 7- u 8-bits, ahora reemplazado por [Unicode](#unicode).
 
 
@@ -743,7 +743,7 @@
   es:
     term: "asincrónico"
     def: >
-      No sucediendo al mismo tiempo. En programación, una operación asincrónica es una que corre 
+      No sucediendo al mismo tiempo. En programación, una operación asincrónica es una que corre
       independientemente de otra, o que comienza en un tiempo y termina en otro.
 
 
@@ -939,7 +939,7 @@
     term: "Umkhethe"
     def: >
       Ubalo-manani lunomkhethe ukuba lwenziwe ngendlela echanekileyo okanye ngokungaguquguqukiyo ngokwahlukileyo kwiparameter emele ukuba iqikelele.
-  
+
 
 
 - slug: big_data
@@ -1021,7 +1021,7 @@
   es:
     term: "bit"
     def: >
-      Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false). 
+      Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false).
       En computación, un estado de ser 0 ó 1.
 
 
@@ -1091,10 +1091,10 @@
   es:
     term: "Booleano"
     def: >
-     Relacionado a una variable o tipo de dato que puede tomar un valor lógico. 
-     Un valor lógico puede ser [verdadero](#true) o [falso](#false). 
-     El termino "booleano" viene en honor a George Boole, un matematico del siglo XIX. 
-     El concepto del computador esta fundamentado en el sistema binario, 
+     Relacionado a una variable o tipo de dato que puede tomar un valor lógico.
+     Un valor lógico puede ser [verdadero](#true) o [falso](#false).
+     El termino "booleano" viene en honor a George Boole, un matematico del siglo XIX.
+     El concepto del computador esta fundamentado en el sistema binario,
      en el qual se evalua entre estados de verdedero o falso.
 
 - slug: branch
@@ -1125,12 +1125,12 @@
   es:
     term: "guías de navegación"
     def: >
-      Literalmente: “migas,” “migas de pan,” “migaja;” en esto contexto: “árbol de navegación,” 
-      “guías de navegación,” “navegación de migas,“ o “rastro de navegación.” Un grupo de enlaces 
-      de navegación incluidos en muchos sitios web, generalmente ubicados en la parte superior 
-      de una página. “Breadcrumbs” muestran a los usuarios dónde se encuentra la página 
-      en el sitio web; la palabra proviene de un cuento de hadas en que unos niños 
-      habían dejado atrás un rastro de migas de pan para que pudieran encontrar su camino a casa.  
+      Literalmente: “migas,” “migas de pan,” “migaja;” en esto contexto: “árbol de navegación,”
+      “guías de navegación,” “navegación de migas,“ o “rastro de navegación.” Un grupo de enlaces
+      de navegación incluidos en muchos sitios web, generalmente ubicados en la parte superior
+      de una página. “Breadcrumbs” muestran a los usuarios dónde se encuentra la página
+      en el sitio web; la palabra proviene de un cuento de hadas en que unos niños
+      habían dejado atrás un rastro de migas de pan para que pudieran encontrar su camino a casa.
 
 
 - slug: breadth_first
@@ -1988,7 +1988,7 @@
   es:
     term: "marco de datos"
     def: >
-      Una estructura de datos bi-dimensional para guardar datos tabulares en memoria. 
+      Una estructura de datos bi-dimensional para guardar datos tabulares en memoria.
       Líneas representan [entradas](#record) y columnas representan [variables](#variable_data).
 
 
@@ -2794,6 +2794,14 @@
 - slug: geometric_mean
 
 
+- slug: ggplot2
+  ref:
+    - tidyverse
+  en:
+    term: "ggplot2"
+    def: >
+      A [package](#package) in [R](#r_language) that implements a layered grammar of graphics for generating plots. It is a popular alternative to plotting with [base R](#base_r) and part of the [tidyverse](#tidyverse).
+
 - slug: git
   en:
     term: "Git"
@@ -2976,7 +2984,7 @@
   fr:
     term: "variable globale"
     def: >
-      Une variable définie en dehors de l'espace de noms d'une quelconque fonction, qui est par 
+      Une variable définie en dehors de l'espace de noms d'une quelconque fonction, qui est par
       conséquent visible pour toutes les fonctions.
   ko:
     term: "전역 변수"
@@ -3309,7 +3317,7 @@
   es:
     term: "incrementar"
     def: >
-      Una operación unaria que aumenta el valor de una variable, generalmente en 1.  
+      Una operación unaria que aumenta el valor de una variable, generalmente en 1.
   pt:
     term: "incrementar"
     def: >
