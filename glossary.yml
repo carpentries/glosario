@@ -3978,6 +3978,12 @@
       The average value of a dataset, more properly known as the [arithmetic
       mean](#arithmetic_mean) to distinguish it from the [geometric](#geometric_mean)
       and [harmonic](#harmonic_mean) means.
+  de:
+    term: "Mittelwert"
+    def: >
+      Der Durchschnitt eines Datensatzes, genauer auch bezeichnet als [arithmetischer
+      Mittelwert](#arithmetic_mean), um ihn zu unterscheiden vom [geometrischen](#geometric_mean)
+      und [harmonischen](#harmonic_mean) Mittelwert.
   it:
     term: "media"
     def: >
