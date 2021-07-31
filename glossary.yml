@@ -3566,6 +3566,13 @@
       A typesetting system for document preparation that uses a specialized [markup language](#markup_language) to define a document structure
       (e.g., headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
       used in academia, in particular for scientific papers and theses in mathematics, physics, engineering, and computer science.
+  de:
+    term: "LaTeX"
+    def: >
+      Ein Textsatzsystem zum Erstellen von Dokumenten, das eine spezielle [Auszeichnungssprache](#markup_language)
+      nutzt, um die Dokument-Struktur (z.B. Titel) zu definieren, Text zu setzen, mathematische Gleichungen einzufügen
+      und Zitate und Querverweise zu verwalten. LaTeX  wird häufig in der akademischen Welt verwendet, besonders für
+      wissenschaftliche Veröffentlichungen und Abschlussarbeiten in Mathematik, Physik, Maschinenbau und Informatik.
   fr:
     term: "LaTeX"
     def: >
