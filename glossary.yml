@@ -5943,6 +5943,11 @@
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
       as the square root of the [variance](#variance).
+  de:
+    term: "Standardabweichung"
+    def: >
+      Wie weit Werte in einem Datensatz vom [Mittelwert](#mean) abweichen. Die Standardabweichung
+      wird berechnet als Quadratwurzel der [Varianz](#variance).
   it:
     term: "deviazione standard"
     def: >
@@ -6560,6 +6565,13 @@
       as the average of the squared differences between the values and the mean. The
       [standard deviation](#standard_deviation) is often used instead, since it has
       the same units as the data, while the variance is expressed in units squared.
+  de:
+    term: "Varianz"
+    def: >
+      Wie weit Werte in einem Datensatz vom [Mittelwert](#mean) entfernt sind. Die Varianz wird
+      berechnet als die Differenz eines Wertes und des Mittelwerts im Quadrat. Stattdessen wird oft auch
+      die [Standardabweichung](#standard_deviation) verwendet, da sie dieselbe Einheit wie die Daten
+      hat, während die Varianz in der Einheit zum Quadrat ausgedrückt wird.
   it:
     term: "varianza"
     def: >
