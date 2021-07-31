@@ -2620,6 +2620,13 @@
       The part of the [operating system](#operating_system) that manages how files
       are stored and retrieved. Also used to refer to all of those files and
       [directories](#directory) or the specific way they are stored (as in "the Unix filesystem").
+  de:
+    term: "Dateisystem"
+    def: >
+      Der Teil des [Betriebssystems](#operating_system), der verwaltet wie Dateien gespeichert
+      und abgerufen werden. Der Begriff wird auch als Referenz für alle Dateien und
+      [Verzeichnisse](#directories) verwendet, oder für die spezifische Art, wie Dateien
+      gespeichert werden (z.B. "das Unix-Dateisystem").
   es:
     term: "sistema de archivos"
     def: >
@@ -2656,6 +2663,10 @@
     term: "folder"
     def: >
       Another term for a [directory](#directory).
+  de:
+    term: "Ordner"
+    def: >
+      Anderer Begriff für [Verzeichnis](#directory).
   es:
     term: "carpeta"
     def: >
@@ -4500,6 +4511,12 @@
       A program that provides a standard interface to whatever hardware it is running
       on. Theoretically, any program that only interacts with the operating system
       should run on any computer that operating system runs on.
+  de:
+    term: "Betriebssystem"
+    def: >
+      Ein Programm, das eine Standard-Oberfläche zu der Hardware, auf der es läuft,
+      zur Verfügung stellt. Theoretisch sollte ein Programm, dass nur mit dem Betriebssystem
+      interagiert, auf jedem Computer laufen, der dieses Betriebssystem nutzt.
 
 
 - slug: optional_parameter
