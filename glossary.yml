@@ -3936,6 +3936,8 @@
   ref:
     - latex
     - xml
+    - markdown
+    - html
   en:
     term: "markup language"
     def: >
@@ -3943,6 +3945,13 @@
       displayed. The markup is usually not displayed, but instead controls how the
       underlying text is interpreted or shown. [Markdown](#markdown) and [HTML](#html)
       are widely-used markup languages for web pages.
+  de:
+    term: "Auszeichnungssprache"
+    def: >
+      Ein Regelwerk zur Annotation von Text, um zu definieren, was er bedeutet oder wie er
+      dargestellt werden soll. Die Textauszeichnung wird in der Regel nicht dargestellt, sondern
+      kontrolliert wie der zu Grunde liegende Text interpretiert oder angezeigt wird. [Markdown](#markdown)
+      und [HTML](#html) sind weit verbreitete Auszeichnungssprachen für Internetseiten.
   fr:
     term: "langage de balisage"
     def: >
