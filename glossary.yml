@@ -3906,6 +3906,12 @@
     def: >
       A [markup language](#markup_language) with a simple syntax intended as a replacement for [HTML](#html).
       Markdown is often used for README files, and is the basis for [R markdown](#r_markdown).
+  de:
+    term: "Markdown"
+    def: >
+      Eine [Auszeichnungssprache](#markup_language) mit einfacher Syntax, die als Ersatz für [HTML](#html)
+      vorgesehen ist. Markdown wird oft für README (lies mich) Dateien verwendet und ist die Basis von
+      [R Markdown](#r_markdown).
   fr:
     term: "Markdown"
     def: >
