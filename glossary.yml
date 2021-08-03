@@ -3751,6 +3751,11 @@
     def: >
       El acto de ubicar un paquete en un proyecto en particular para que sólo sea accesible
       dentro de ese proyecto.
+  fr:
+    term: "installation locale"
+    def: >
+      Mettre un [paquet](#package) à l'intérieur d'un projet particulier, de façon à ce qu'il
+      ne soit accessible que depuis ce projet.
 
 
 - slug: local_variable
