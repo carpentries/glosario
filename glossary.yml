@@ -3632,7 +3632,7 @@
   fr:
     term: "bibliothèque"
     def: >
-      Un [paquet](#package) logiciel réutilisable, aussi souvent appelé [module](#module).
+      Un [paquet](#package) logiciel réutilisable, parfois aussi appelé [module](#module).
   pt:
     term: "biblioteca"
     def: >
