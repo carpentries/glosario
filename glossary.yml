@@ -4184,7 +4184,7 @@
   fr:
     term: "module"
     def: >
-      Un [paquet](#package) logiciel réutilisable, aussi souvent appelé [bibliothèque](#library).
+      Un [paquet](#package) logiciel réutilisable, parfois aussi appelé [bibliothèque](#library).
   xh:
     term: "Imodyuli"
     def: >
