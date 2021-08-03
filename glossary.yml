@@ -4601,6 +4601,11 @@
     def: >
       A collection of code, data, and documentation that can be distributed and
       re-used. Also referred to in some languages as a [library](#library) or [module](#module).
+  fr:
+    term: "paquet (logiciel)"
+    def: >
+      Un ensemble de code, données et documentation qui peut être distribué et réutilisé.
+      Est aussi appelé [bibliothèque](#library) ou [module](#module) dans certains langages.
   ja:
     term: パッケージ
     def: >
