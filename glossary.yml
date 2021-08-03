@@ -4181,6 +4181,10 @@
     term: "módulo"
     def: >
       un paquete de software reutilizable, también se llama una [biblioteca](#library).
+  fr:
+    term: "module"
+    def: >
+      Un [paquet](#package) logiciel réutilisable, aussi souvent appelé [bibliothèque](#library).
   xh:
     term: "Imodyuli"
     def: >
