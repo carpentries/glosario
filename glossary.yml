@@ -3782,6 +3782,11 @@
     def: >
       Una variable definida dentro de una función, por lo que solo es visible dentro
       de ella.
+  fr:
+    term: "variable locale"
+    def: >
+      Une variable définie à l'intérieur d'une fonction, qui n'est visible qu'au sein de
+      cette fonction.
   ko:
     term: "지역 변수"
     def: >
