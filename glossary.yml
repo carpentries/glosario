@@ -3629,6 +3629,10 @@
     term: "biblioteca"
     def: >
       un paquete de software reutilizable, también  se llama un [módulo](#module).
+  fr:
+    term: "bibliothèque"
+    def: >
+      Un [paquet](#package) logiciel réutilisable, parfois aussi appelé [module](#module).
   pt:
     term: "biblioteca"
     def: >
@@ -3751,6 +3755,11 @@
     def: >
       El acto de ubicar un paquete en un proyecto en particular para que sólo sea accesible
       dentro de ese proyecto.
+  fr:
+    term: "installation locale"
+    def: >
+      Mettre un [paquet](#package) à l'intérieur d'un projet particulier, de façon à ce qu'il
+      ne soit accessible que depuis ce projet.
 
 
 - slug: local_variable
@@ -4172,6 +4181,10 @@
     term: "módulo"
     def: >
       un paquete de software reutilizable, también se llama una [biblioteca](#library).
+  fr:
+    term: "module"
+    def: >
+      Un [paquet](#package) logiciel réutilisable, parfois aussi appelé [bibliothèque](#library).
   xh:
     term: "Imodyuli"
     def: >
@@ -4592,8 +4605,13 @@
     def: >
       A collection of code, data, and documentation that can be distributed and
       re-used. Also referred to in some languages as a [library](#library) or [module](#module).
+  fr:
+    term: "paquet (logiciel)"
+    def: >
+      Un ensemble de code, données et documentation qui peut être distribué et réutilisé.
+      Est aussi appelé [bibliothèque](#library) ou [module](#module) dans certains langages.
   ja:
-    term: パッケージ
+    term: "パッケージ"
     def: >
       配布や再利用が可能なコード、データおよびソフトウェアドキュメンテーションの集合体。
       プログラミング言語によっては、「[ライブラリー](#library)」や「[モジュール](#module)」と呼ぶこともある。
