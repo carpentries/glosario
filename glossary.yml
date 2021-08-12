@@ -842,6 +842,13 @@
     def: >
       Software que pode ser usado da mesma maneira que versão anteriores de si mesmo
       sem problemas. Também é chamado de retrocompatibilidade.
+  de:
+    term: "abwärtskompatibel"
+    def: >
+      Bezeichnet die Eigenschaft eines Systems (z.B. Hardware oder Software), das dessen Funktionsfähigkeit
+      auch in Zusammenarbeit mit älteren oder obsoleten Versionen eines Systems garantiert. Beispielsweise
+      ist eine [Funktion](#function) in [Python](#python) 3 abwärtskompatibel, wenn diese auch in Python 2
+      ausgeführt werden kann.
 
 
 - slug: base_r
@@ -6483,7 +6490,7 @@
       Un type de donnée correspondant à une collection d'objets en nombre fixé, par exemple
       les trois composantes de la spécification rouge-vert-bleu d'une couleur. En "[Python](#python)",
       les tuples sont immuables (leurs valeurs sont fixées à l'initialisation et ne peuvent plus être
-      modifiées par la suite). 
+      modifiées par la suite).
       Les tuples contenant n objets sont aussi appelés n-uplets.
 
 - slug: two_hard_problems
