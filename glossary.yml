@@ -6553,6 +6553,19 @@
       A unique address on the World-Wide Web. URLs originally identified web pages,
       but may also represent datasets or database queries, particularly if they
       include a [query string](#query_string).
+      
+    
+- slug: user_interface
+  ref:
+    - cli
+    - gui
+  en:
+    term: "user interface"
+    acronym: "UI"
+    def: >
+      Platform for interaction between a user and a machine. The interaction may occur via text 
+      (a [command line interface](#cli)), graphics and windows (a [graphical user interface](#gui)), 
+      or other methods such as voice-driven interfaces.
 
 
 - slug: utf_8
