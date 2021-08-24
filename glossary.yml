@@ -2535,6 +2535,32 @@
       logic and programming to represent a [binary](#binary) state of something.
 
 
+- slug: false_negative
+  ref:
+    - false_positive
+    - true_negative
+    - true_positive
+    - machine_learning
+    - classification
+  en:
+    term: "false negative"
+    def: >
+      Data points which are actually [true](#true) but incorrectly predicted as [false](#false).
+
+
+- slug: false_positive
+  ref:
+    - false_negative
+    - true_negative
+    - true_positive
+    - machine_learning
+    - classification
+  en:
+    term: "false positive"
+    def: >
+      Data points which are actually [false](#false) but incorrectly predicted as [true](#true).
+
+
 - slug: falsy
   ref:
     - truthy
@@ -6434,6 +6460,32 @@
     def: >
       The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in
       logic and programming to represent a [binary](#binary) state of something.
+
+
+- slug: true_negative
+  ref:
+    - true_positive
+    - false_negative
+    - false_positive
+    - machine_learning
+    - classification
+  en:
+    term: "true negative"
+    def: >
+      Data points which are actually [false](#false) and correctly predicted as [false](#false).
+
+
+- slug: true_positive
+  ref:
+    - true_negative
+    - false_negative
+    - false_positive
+    - machine_learning
+    - classification
+  en:
+    term: "true positive"
+    def: >
+      Data points which are actually [true](#true) and correctly predicted as [true](#true).
 
 
 - slug: truthy
