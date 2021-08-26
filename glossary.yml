@@ -524,7 +524,13 @@
        لغة
        [Python](#python)
         تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
-
+  es:
+    term: "Función anónima"
+    def: >
+      Es una función que no tiene asignado un nombre. Las funciones anónimas son usualmente cortas,
+      y se definen en el mismo lugar donde son utilizadas, por ejemplo: en callbacks.
+      En [Python](#python), estas funciones se conocen como funciones lambda
+      y son creadas con el uso de la palabra reservada lambda.
 
 - slug: anti_join
   ref:
