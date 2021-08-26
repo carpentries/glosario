@@ -253,9 +253,9 @@
   es:
     term: "método abstrato"
     def: >
-    En [programación orientada a objectos](#oop), es un [método](#method) definido pero no implementado. 
-    Programadores definen un método abstracto en una [superclase](#parent_class) para especificar operaciones 
-    que las [subclases](#child_class) deberán proveer.
+      En [programación orientada a objectos](#oop), es un [método](#method) definido pero no implementado.
+      Programadores definen un método abstracto en una [superclase](#parent_class) para especificar operaciones
+      que las [subclases](#child_class) deberán proveer.
   af:
     term: "abstrakte metode"
     def: >
