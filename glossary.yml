@@ -1216,6 +1216,12 @@
     def: >
       The study or application of computational methods for parsing or understanding
       human languages. Early approaches were algorithmic; most modern approaches are statistical.
+  es:
+    term: "lingüística computacional"
+    def: >
+      El estudio o aplicación de métodos computacionales para procesamiento o entendimiento
+      de lenguajes humanos. Los primeros acercamientos fueron algorítmicos; la mayoría
+      de los acercamientos modernos son estadísticos.
 
 
 - slug: computational_notebook
@@ -3502,6 +3508,11 @@
     acronym: NLP
     def: >
       See [computational linguistics](#computational_linguistics).
+  es:
+    term: "procesamiento de lenguaje natural"
+    acronym: PLN
+    def: >
+      Ver [lingüística computacional](#computational_linguistics).
 
 
 - slug: node
