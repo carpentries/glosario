@@ -175,6 +175,13 @@ A glossary entry is structured like this:
 -   **Why use Jekyll for the online version?**
     It is the default for GitHub Pages.
 
+## Collaborators
+
+SADiLaR is one of the collaborators in the finalisation and expansion of the Glosario
+Project to African Languages. SADiLaR is a research infrastructure established by the
+Department of Science and Innovation of the South African government as part of the
+South African Research Infrastructure Roadmap (SARIR).
+
 ## Credits
 
 -   Parrot logo by [restocktheshelves](https://www.deviantart.com/restocktheshelves).
