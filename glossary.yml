@@ -3336,6 +3336,11 @@
 
 
 - slug: independent_variable
+  en:
+    term: "independent variable"
+    def: > 
+      The factor that you purposely change or control in order to see what effect 
+      it has on the [dependent variable](#dependent_variable).
 
 
 - slug: infinite_loop
