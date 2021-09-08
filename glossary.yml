@@ -956,6 +956,11 @@
     def: >
       Any data that until recently was too big for most people to work with on a
       single computer.
+  de:
+    term: "Big Data"
+    def: >-
+      Alle Datenmengen, die bis Kurzem vor zu umfangreich für die Analyse mit
+      nur einem Computer waren.
 
 
 - slug: binary
@@ -1029,6 +1034,12 @@
     def: >
       Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false).
       En computación, un estado de ser 0 ó 1.
+  de:
+    term: "Bit"
+    def: >-
+      Ein Bit ist eine Informationseinheit, die nur zwei Alternativen
+      darstellen kann. Beispiele hierfür sind Ja/ Nein, Wahr / Falsch. In der
+      Computerwelt als 0 und 1 dargestellt.
 
 
 - slug: blob
@@ -1164,6 +1175,10 @@
     def: >
       A missing or undesirable [feature](#feature_software) of a piece of software;
       the digital equivalent of a weed.
+  de:
+    term: "Bug"
+    def: >-
+      Ein Bug ist ein Fehler oder Fehlfunktion einer Software.
 
 
 - slug: bug_report
@@ -1173,6 +1188,13 @@
       A collection of files, [logs](#log), or related information that describes either an
       unexpected output of some code or program, or an unexpected error or warning.
       This information is used to help find and fix a [bug](#bug) in the program or code.
+  de:
+    term: "Fehlerbericht"
+    def: >-
+      Ein Fehlerbericht ist eine Sammlung von Dateien / Einträgen oder damit
+      zusammenhängenden Informationen, die einen unbeabsichtigten Fehler
+      beschreiben. Der Fehlerbericht wird für die Identifikation und Behebung
+      seines Softwarefehlers / Codefehlers gebraucht.
 
 
 - slug: bug_tracker
@@ -1241,6 +1263,11 @@
     term: "byte"
     def: >
       Unidad de información digital que típicamente consiste de ocho dígitos [binarios](#binary), o [bits](#bit).
+  de:
+    term: "Byte"
+    def: >-
+      Ein Byte ist eine digitale Einheit, die aus acht Binärziffern oder Bits
+      besteht.
 
 - slug: byte_code
   en:
