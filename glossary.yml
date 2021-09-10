@@ -5979,9 +5979,9 @@
   en:
     term: "source code"
     def: >
-    Source code or, simply, code, is the origin of executed code (either by means of
-    an interpreter or compiler). It's the primarily human-produced series of commands
-    that make up a program. (Note: Automatic code generators exist for some applications)
+      Source code or, simply, code, is the origin of executed code (either by means of
+      an interpreter or compiler). It's the primarily human-produced series of commands
+      that make up a program. (Note: Automatic code generators exist for some applications)
 
 - slug: source_distribution
   en:
