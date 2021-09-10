@@ -70,14 +70,14 @@ A glossary entry is structured like this:
 
 ```
 - slug: cran
+  ref:
+    - base_r
+    - tidyverse
   en:
     term: "Comprehensive R Archive Network"
     acronym: "CRAN"
     def: >
       A public repository of R [packages](#package).
-  ref:
-    - base_r
-    - tidyverse
 ```
 
 -   The value associated with the `slug` key identifies the entry.
