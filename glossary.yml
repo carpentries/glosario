@@ -5751,6 +5751,11 @@
     def: >
       A preliminary vote used to determine whether further discussion is needed in a meeting.
 
+- slug: sequential_data
+  en:
+    term: "sequential data"
+    def: >
+      Any list of data items where the order is an inherent property of the list. Often the next item in the list is dependent on the previous item or items.
 
 - slug: server
   en:
