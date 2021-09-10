@@ -5520,6 +5520,13 @@
       pessoas pesquisadoras possam executar novamente o código de análise com os
       mesmos dados para obter os mesmos resultados.
 
+- slug: reserved_word
+  en:
+    term: "reserved word"
+    def: >
+      A word (character string) with a distinct meaning for a programming or scripting language.
+      Typically, reserved words cannot be used as names for variables or constants, as this would
+      confuse the compiler or interpreter.
 
 - slug: restructured_text
   ref:
