@@ -5975,7 +5975,7 @@
       A set of programs that are built, tested, and distributed as a collection so
       that they can run together.
 
--slug: source_code
+- slug: source_code
   en:
     term: "source code"
     def: >
