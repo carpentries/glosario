@@ -959,7 +959,7 @@
   de:
     term: "Big Data"
     def: >-
-      Alle Datenmengen, die bis Kurzem vor zu umfangreich für die Analyse mit
+      Alle Datenmengen, die bis vor Kurzem vor zu umfangreich für die Analyse mit
       nur einem Computer waren.
 
 
@@ -1194,7 +1194,7 @@
       Ein Fehlerbericht ist eine Sammlung von Dateien / Einträgen oder damit
       zusammenhängenden Informationen, die einen unbeabsichtigten Fehler
       beschreiben. Der Fehlerbericht wird für die Identifikation und Behebung
-      seines Softwarefehlers / Codefehlers gebraucht.
+      seines des Softwarefehlers / Codefehlers gebraucht.
 
 
 - slug: bug_tracker
