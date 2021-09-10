@@ -5848,6 +5848,13 @@
 
 
 - slug: shiny
+  en:
+    term: "Shiny"
+    def: >
+      A [R](#r_language) [package](#package) that makes it simple to build web applications to
+      interactively visualise and manipulate data. Often used to make interactive [graphs](graph) 
+      and [tables](#table) straight from [R](#r_language) without having 
+      to know [HTML](#html), [CSS](#css) or JavaScript.
 
 
 - slug: short_circuit_test
