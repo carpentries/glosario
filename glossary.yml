@@ -2259,6 +2259,11 @@
 
 
 - slug: directory
+  en:
+    term: "directory"
+    def: >
+      An item within a [filesystem](#filesystem) that can contain files and other
+      directories. Also known as a [folder](#folder).
 
 
 - slug: discrete_random_variable
