@@ -1656,15 +1656,12 @@
     def: >
       Anmerkungen in einem Programmcode oder Skript, die nicht vom Computer interpretiert oder ausgeführt werden. Kommentare dienen der Leserlichkeit und Dokumentation für Nutzer des Skripts. In vielen Programmiersprache werden Kommentare mit '#' am Zeilenanfang eingeleitet.
 
-
-
 - slug: commit
   en:
     term: "commit"
     def: >
       As a verb, the act of saving a set of changes to a database or [version control](#version_control_system)
       [repository](#repository). As a noun, the changes saved.
-
 
 - slug: commit_message
   en:
