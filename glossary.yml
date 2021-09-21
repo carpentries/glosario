@@ -1919,8 +1919,6 @@
     def: >
       Die zentrale Recheneinheit eines jeden digitalen Computers. Der Prozessor ist eine elektronische Schaltung, die anhand von übergebenen Befehlen andere Maschinen oder elektrische Schaltungen steuert und Rechenoperationen ausführt. Wird auch als Hauptprozessor, Zentrale Recheneinheit, Zentraleinheit oder Zentrale Verarbeitungseinheit (kurz ZVE, englisch central processing unit, kurz CPU) bezeichnet.
 
-
-
 - slug: cran
   ref:
     - base_r
