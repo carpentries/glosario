@@ -4132,6 +4132,14 @@
       'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
       gee dikwels 'n beter idee van wat tipies is vir die datastel as die
       [mediaan](#mean), wat beïnvloed kan word deur 'n klein aantal ekstreme uitskieters.
+  pt:
+    term: "mediana"
+    def: >
+      Trata-se do valor que separa as metades superior e inferior de um conjunto de dados. A 
+      mediana geralmente fornece uma ideia melhor do que é típico do conjunto de dados do que
+      a média, cujo valor pode ser influenciado por valores extremamente altos ou baixos 
+      (outliers). Se o conjunto de dados contém um número par de elementos, não há um único 
+      valor do meio. Neste caso, a mediana é a média dos dois elementos centrais. 
 
 
 - slug: merge_git
@@ -4214,6 +4222,10 @@
     term: "modus"
     def: >
       Die waarde wat die meeste in 'n datastel voorkom.
+  pt:
+    term: "moda"
+    def: >
+    O valor, ou valores, que ocorrem com maior frequência num conjunto de dados.
 
 
 - slug: model
