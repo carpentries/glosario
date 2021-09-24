@@ -4225,7 +4225,7 @@
   pt:
     term: "moda"
     def: >
-    O valor, ou valores, que ocorrem com maior frequência num conjunto de dados.
+      O valor, ou valores, que ocorrem com maior frequência num conjunto de dados.
 
 
 - slug: model
