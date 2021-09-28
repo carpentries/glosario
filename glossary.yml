@@ -2691,6 +2691,12 @@
       La parte del sistema operativo que administra cómo se almacenan y recuperan
       los archivos. También se usa para referirse a todos esos archivos y directorios
       o a la forma específica en que se almacenan (como en "el sistema de archivos Unix").
+  ja:
+    term: "ファイルシステム"
+    def: >
+      [オペレーティングシステム](#operating_system)におけるファイルの保存方法と取得方法を管理する部分。
+      また、それらファイルや[ディレクトリ](#directory)を参照するのに用いられたり、
+      それらが保存される特定の方法 (例えば「Unix ファイルシステム」において見られるようなもの)のこと。
 
 
 - slug: filter
@@ -4609,6 +4615,12 @@
       A program that provides a standard interface to whatever hardware it is running
       on. Theoretically, any program that only interacts with the operating system
       should run on any computer that operating system runs on.
+  ja:
+    term: "オペレーティングシステム"
+    def: >
+      動作させるハードウェアがどのようなものであっても標準的なインターフェイスを提供するプログラム。
+      理論的には、オペレーティングシステムとしかやりとりを行わないプログラムはどれでも、
+      そのオペレーティングシステムが搭載されているいかなるコンピューター上でも動作するはずである。
 
 
 - slug: optional_parameter
