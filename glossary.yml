@@ -3472,8 +3472,8 @@
   en:
     term: "IPython"
     def: >
-      Short for "Interactive [Python](#python)", a [console](#console) designed
-      to assist interactive and exploratory programming with the features such
+      Short for "Interactive [Python](#python)", it is a [console](#console) designed
+      to assist interactive and exploratory programming with features such
       as coloured text, [tab-completion](#tab_completion),
       [filesystem](#filesystem) navigation, quick access to
       [documentation](#docstring) and [shell commands](#shell).
