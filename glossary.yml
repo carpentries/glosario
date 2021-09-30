@@ -3466,6 +3466,17 @@
       If an invariant expression is not true, this is indicative of a problem, and
       may result in failure or early termination of the program.
 
+- slug: ipython
+  ref:
+    - jupyter
+  en:
+    term: "IPython"
+    def: >
+      Short for "Interactive [Python](#python)", a [console](#console) designed
+      to assist interactive and exploratory programming with the features such
+      as coloured text, [tab-completion](#tab_completion),
+      [filesystem](#filesystem) navigation, quick access to
+      [documentation](#docstring) and [shell commands](#shell).
 
 - slug: iso_date_format
   en:
@@ -3558,7 +3569,7 @@
     term: "Jupyter"
     def: >
       Project Jupyter is a non-profit, open-source project that was born out of the IPython Project
-      in 2014 as IPython evolved to support interactive [data science](#data_science) and scientific
+      in 2014 as [IPython](#ipython) evolved to support interactive [data science](#data_science) and scientific
       computing in many different programming languages.
 
 
