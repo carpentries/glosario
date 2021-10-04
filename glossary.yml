@@ -5688,6 +5688,15 @@
       other researchers depend on.
 
 
+- slug: rseng
+  en:
+    term: "research software engineering"
+    acronym: "RSEng"
+    def: >
+      The practice of and methods for building the specialized software that
+      other researchers depend on.
+
+
 - slug: s3
   en:
     term: "S3"
