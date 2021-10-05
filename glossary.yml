@@ -1184,7 +1184,11 @@
   en:
     term: "boilerplate"
     def: >
-      Standard text that is included in legal contracts, licenses, and so on.
+      Parts of the source code that have to be repeated very often to get basic functionality.
+      In [object-oriented programs](#oop) these segments are used to encapsulate variables
+      of objects. Some languages require a lot of these statements and are termed boilerplate
+      languages, e.g. Java, which means that they are frequently generated automatically or by
+      using [auto-completion](#auto_completion).
 
 
 - slug: boolean
