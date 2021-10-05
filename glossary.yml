@@ -1238,6 +1238,13 @@
      El termino "booleano" viene en honor a George Boole, un matematico del siglo XIX.
      El concepto del computador esta fundamentado en el sistema binario,
      en el qual se evalua entre estados de verdedero o falso.
+  de:
+    term: "Boolean"
+    def: >
+      Eine Art der Variable oder eines Datentyps welche entweder den logischen Wert [wahr](#true)
+      oder [falsch](#false) haben kann. Benannt nach George Boole, einem Mathematiker aus dem 19.
+      Jahrhundert. Binärsysteme, wie alle Computer, beruhen auf der Verarbeitung von logischen
+      Wahr-Falsch-Zuständen, 1 oder 0.
 
 - slug: branch
   en:
