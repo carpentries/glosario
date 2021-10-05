@@ -393,6 +393,11 @@
     def: >
       'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en `max`
       (maksimale waarde)
+  de:
+    term: "Aggregatfunktion"
+    def: >
+      Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst,
+      beispielsweise in einer Summe oder dem Maximalwert.
 
 
 - slug: agile
