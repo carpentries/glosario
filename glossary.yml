@@ -680,6 +680,12 @@
       sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie
       verskaf word in 'n lys van waardes wat deur kommas geskei word. Parameters is
       die veranderlikes en argumente is die waardes wat aan die veranderlikes toegeken is.
+  de:
+    term: "Argument"
+    def: >
+      Nicht zu verwechseln mit dem [Parameter](#parameter).  Parameter und Argumente sind
+      verwandt aber nicht identisch. Ein Argument ist der tatsächliche Wert eines Parameters
+      der beim Funktionsaufruf übergeben wird.
 
 
 - slug: arithmetic_mean
