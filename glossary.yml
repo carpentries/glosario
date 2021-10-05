@@ -1171,6 +1171,13 @@
       Um [comentário](#comment) que abrange múltiplas linhas. Blocos de comentários
       podem ser indicados com símbolos especiais, como `/*` e `*/` em C e linguagens
       herdeiras dessa sintaxe, ou cada linha pode ser prefixada com uma indicação como `#`.
+  de:
+    term: "Blockkommentar"
+    def: >
+      Ein [Kommentar](#comment) welcher mehrere Zeilen umfasst. Blockkommentare haben
+      spezifische Start- und Endsymbole, z.B. `/*` und `*/` in C und verwandten Sprachen.
+      Manche Sprachen kennen keine Blockkommentare und so werden diese mit einem
+      Einzelkommentarsymbol in jeder Zeile, z.B. `#`, gekennzeichnet.
 
 
 - slug: boilerplate
