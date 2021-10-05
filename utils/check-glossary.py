@@ -47,9 +47,9 @@ def main():
     '''Main driver.'''
     checkLang, configFile, glossaryFile = parseArgs()
     with open(configFile, 'r') as reader:
-        config = yaml.load(reader, Loader=yaml.FullLoader)
+        config = yaml.load(reader, Loader=yaml.SafeLoader)
     with open(glossaryFile, 'r') as reader:
-        gloss = yaml.load(reader, Loader=yaml.FullLoader)
+        gloss = yaml.load(reader, Loader=yaml.SafeLoader)
 
     checkLanguages(config)
     for entry in gloss:
