@@ -1499,6 +1499,16 @@
     def: >
       الإستثناء هو الشرط الخاص الذي يُعالج به الشذوذ أو الشيء الغير متوقع الذي حدث
       أثناء تنفيذ البرنامج.
+  de:
+    term: "abfangen (eines Fehlers)"
+    def: >
+      Möglichkeit einen Fehler oder andere unerwartete Ereignisse abzufangen
+      und Informationen darüber zu verarbeiten. In [R](#r_language) sollen
+      Fehler möglichst über vordefinierte Bedingungen abgefangen werden,
+      während in anderen Sprachen, z.B. in [Python](#python) Fehler und
+      Fehlermeldungen bewusst eingesetzt werden um Probleme einfacher zu lösen.
+      Häufig werden neben der Art des Fehlers auch weitere Daten erhoben um
+      mögliche Ursachen zu finden.
 
 
 - slug: causation
