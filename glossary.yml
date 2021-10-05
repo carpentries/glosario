@@ -475,6 +475,12 @@
     def: >
       Om twee of meer verwysing na dieselfde ding te hê, soos byvoorbeeld meer as een
       verwysing na 'n datastruktuur in geheue of na 'n lêer op 'n skyf.
+  de:
+    term: "Aliasing"
+    def: >
+      Aliasing bezeichnet die Überlappung mehrerer Deskriptoren, also z.B.
+      Speicheradressen (Zeiger) oder Referenzen, die den selben Ort für ein
+      Objekt, beispielsweise eine Datenstruktur, beschreiben.
 
 
 - slug: anchor
