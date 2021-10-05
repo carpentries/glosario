@@ -1545,6 +1545,12 @@
     def: >
       Una [licencia](#license) de [Creative Commons](#cc_license) que no impone ninguna
       restricción, por lo que pone a la obra en dominio público.
+  de:
+    term: "CC-0"
+    def: >
+      Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche den
+      Verzicht auf sämtliche Schutzrechte erklärt und das Werk in die
+      Gemeinfreiheit überführt.
 
 
 - slug: cc_by
