@@ -907,6 +907,12 @@
     def: >
       'n Algoritme wat die gewigte wat in 'n [neurale netwerk](#neural_network) gebruik word iteratief aanpas. Terugwaartse
       voortplanting word dikwels gebruik om [gradiënte afdaling](#gradient_descent) te implementeer.
+  de:
+    term: "Fehlerrückführung"
+    def: >
+      Ein Algoritmus der die Gewichtung in einem [neuralen Netzwerk](#neural_network) iterativ anpasst.
+      Die Rückwärtspropagierung ist ein Spezialfall eines [allgemeinen Gradientenverfahrens](#gradient_descent)
+      in der Optimierung, basierend auf dem mittleren quadratischen Fehler.
 
 
 - slug: backward_compatible
