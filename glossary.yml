@@ -1452,6 +1452,17 @@
       functions like `map` that invoke a callback function once for each element in a
       collection, or [asynchronously](#asynchronous), as in a [client](#client) that
       runs a callback when a [response](#http_response) is received in answer to a [request](#http_request).
+  de:
+    term: "Rückruffunktion"
+    def: >
+      Rückruffunktionen sind Funktionen, welche anderen Funktionen als
+      Parameter übergeben werden um sie zu einem späteren Zeitpunkt
+      auszuführen. Bei der Parallelisierung werden häufig durch den Befehl
+      `map` Rückruffunktionen [synchron/gleichzeitig](#synchronous) für mehrere
+      Elemente in einer Kollektion ausgeführt, während bei
+      [Klient](#client)/[Server](#server) Verbindungen auf
+      [Anrufe](#http_request) [asynchron](#asynchronous) eine
+      [Antwort](#http_response) geliefert wird.
 
 
 - slug: camel_case
