@@ -1564,6 +1564,12 @@
     def: >
       Uma [licença](#license) [Creative Commons](#cc_license) com Atribuição, que requer que
       seja dado crédito às pessoas autoras do trabalho, mas que não impõe outras restrições.
+  de:
+    term: "CC-BY"
+    def: >
+      Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche eine
+      Namensnennung der Urheber verlangt aber sonst keine weiteren
+      Restriktionen auferlegt.
 
 
 - slug: cc_license
