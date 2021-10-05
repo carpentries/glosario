@@ -2568,6 +2568,16 @@
       program can [import](#import) it. In most languages a module must export things
       explicitly in an attempt to avoid [name collision](#name_collision).
 
+- slug: factor
+  ref:
+    - base_r
+    - vector
+  en:
+    term: "factor"
+    def: >
+      An R data structure for efficiently storing vectors of categorical data, encoding 
+      categorical values as numerical indices into a lookup table with the respective 
+      category labels. 
 
 - slug: fail_test
   ref:
