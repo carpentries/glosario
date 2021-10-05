@@ -840,6 +840,11 @@
     def: >
       'n Naam-waarde paar wat verband hou met 'n voorwerp en gebruik word om
       metadata omtrent die voorwerp te stoor, bv. die afmetings van 'n skikking.
+  de:
+    term: "Attribut"
+    def: >
+      Ein Name-Wert Paar welches einem Objekt zugewiesen ist und in der Regel Metadaten
+      über das Objekt, wie beispielsweise seine Größe, speichert.
 
 
 - slug: auto_completion
