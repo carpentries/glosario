@@ -75,7 +75,12 @@ def parseArgs():
     to check may be 'ALL' (to check all), None (to check none), or
     a known 2-letter language code.
     '''
-    options, filenames = getopt.getopt(sys.argv[1:], 'Ac:')
+    try:
+        options, filenames = getopt.getopt(sys.argv[1:], 'Ac:')
+    except getopt.GetoptError as error:
+        print(f'Unknown flag {error.opt}', file=sys.stderr)
+        sys.exit(1)
+
     if (len(filenames) != 2):
         print(f'Usage: check [-A] [-c LL] configFile glossFile')
         sys.exit(1)
@@ -90,9 +95,6 @@ def parseArgs():
             if checkLang not in ENTRY_LANGUAGE_KEYS:
                 print(f'Unknown language {checkLang}', file=sys.stderr)
                 sys.exit(1)
-        else:
-            print(f'Unknown flag {opt}', file=sys.stderr)
-            sys.exit(1)
 
     return checkLang, configFile, glossFile
 
