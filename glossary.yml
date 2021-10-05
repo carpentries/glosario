@@ -425,6 +425,14 @@
       Um método de desenvolvimento de software que enfatiza vários passos pequenos e
       feedback contínuo ao invés de planejamento de longo prazo. [Programação exploratória](#exploratory_programming)
       costuma ser ágil.
+  de:
+    term: "Agile Softwareentwicklung"
+    def: >
+      Eine Methodik der Softwareentwicklung in der die Arbeit in viele
+      kleine Schritte aufgeteilt wird und mit ständigem Feedback innerhalb
+      selbstorganisierter Teams ein Program entwickelt wird. Im Gegensatz dazu
+      stehen klassische Ansätze die häufig aufwändiger Planung bedürfen.
+      [Explorative Programmierung](#exploratory_programming) ist oft agil.
 
 
 - slug: algorithm
