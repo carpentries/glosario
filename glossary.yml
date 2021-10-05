@@ -816,6 +816,12 @@
     def: >
       No sucediendo al mismo tiempo. En programación, una operación asincrónica es una que corre
       independientemente de otra, o que comienza en un tiempo y termina en otro.
+  de:
+    term: "asynchron"
+    def: >
+      Nicht gleichzeitige Ausführung. In der Programmierung ist eine asynchrone Operation
+      unabhängig von anderen Operationen, oder wird zu einem bestimmten Zeitpunkt gestartet
+      oder beendet.
 
 
 - slug: attribute
