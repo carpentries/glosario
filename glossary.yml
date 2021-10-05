@@ -1598,6 +1598,24 @@
       das pessoas criadoras. Assim, `CC-BY-NC` quer dizer "pessoas usuárias devem atribuir autoria
       e não podem o conteúdo de forma comercial sem permissão". O termo `CC-0` (zero, não a letra 'O')
       é às vezes usado com o sentido de "sem restrições", isto é, que o trabalho é de domínio público.
+  de:
+    term: "Creative Commons Lizenz"
+    def: >
+      Eine Sammlung von [Lizenzen](#license) welche verschiedene, einfache
+      Lizenzvereinbarungen für beliebige Werke bereitstellt. Jede Lizenz kann
+      zusätzlichen Bedingungen unterliegen:
+      `-BY` (Namensnennung): Nutzer müssen den Autor des Werks nennen.
+      `-SA` (Gleiche Bedingungen): Nutzer dürfen das Werk nur unter den
+      gleichen Bedingungen weiter verbreiten.
+      `-NC` (Nicht-Kommerziell): Ohne vorherige Zustimmung darf das Werk nur
+      nicht kommerziell verwendet werden.
+      `-ND` (Keine Bearbeitung): Ohne vorherige Zustimmung darf das Werk nicht
+      verändert werden.
+      Diese Bedingungen werden mit dem Prefix "CC" verknüpft um kombinierte
+      Lizenzen zu kreieren. So bedeutet `CC-BY-NC` das die Nutzer den Namen des
+      Autors nennen müssen und das Werk nur mit Zustimmung kommerziell nutzen
+      dürfen. Der Begriff [CC0](#cc_0) beschreibt ein Werk "ohne
+      Einschränkungen", d.h. das Werk ist gemeinfrei.
 
 
 - slug: centroid
