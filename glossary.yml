@@ -716,17 +716,17 @@
     term: "ASCII"
     def: >
       A standard way to represent the characters commonly used in the Western European
-      languages as 7- or 8-bit integers, now superseded by [Unicode](#unicode).
+      languages as 7- or 8-[bit](#bit) integers, now superseded by [Unicode](#unicode).
   af:
     term: "ASCII"
     def: >
       'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
-      voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
+      voor te stel as 7- of 8-[bis](#bit) heelgetalle. ASCII word vervang deur [Unicode](#unicode).
   es:
     term: "ASCII"
     def: >
       Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental
-      como enteros de 7- u 8-bits, ahora reemplazado por [Unicode](#unicode).
+      como enteros de 7- u 8-[bits](#bit), ahora reemplazado por [Unicode](#unicode).
 
 
 - slug: assertion
