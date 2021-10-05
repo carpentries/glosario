@@ -870,7 +870,12 @@
       'n Funksie wat 'n gebruiker toelaat om 'n woord of 'n kode vinnig te voltooi deur die
       TAB sleutel te druk om 'n lys van moontlike woorde of kodes te vertoon waaruit die gebruiker
       kan kies.
-
+  de:
+    term: "Autovervollständigung"
+    def: >
+      Eine Funktionalität welche es dem Nutzer erlaubt in einer Eingabemaske, z.B. in einer
+      Konsole oder Text-Editor, schnell Wörter oder Ausdrücke zu vervollständigen. Normalweise
+      ist diese Funktion der Tabulatortaste (TAB) zugewiesen.
 
 - slug: automatic_variable
   ref:
