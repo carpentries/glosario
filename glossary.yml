@@ -1039,6 +1039,11 @@
     term: "Umkhethe"
     def: >
       Ubalo-manani lunomkhethe ukuba lwenziwe ngendlela echanekileyo okanye ngokungaguquguqukiyo ngokwahlukileyo kwiparameter emele ukuba iqikelele.
+  de:
+    term: "Verzerrung"
+    def: >
+      Auch systematische Abweichung genannt. Ein Messwert wird dann als verzerrt beschrieben, wenn er
+      systematisch von dem wahren Wert einer Messgröße abweicht.
 
 
 - slug: big_data
