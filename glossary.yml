@@ -1076,6 +1076,13 @@
       sendo no estado 0 ou 1. Representado na lógica [Booleana](#boolean) como
       [falso](#false) (0) ou [verdadeiro](#true) (1). Computadores são construídos
       sobre sistemas que armazenam 0s e 1s como [bits](#bit).
+  de:
+    term: "Binärsystem"
+    def: >
+      Ein System welches nur aus zwei Zuständen besteht. In der Informationstechnik oft
+      in den Zuständen 0 oder 1 dargestellt. In der [Boolschen Logik](#boolean) auch als
+      [falsch](#false) (0) oder [wahr](#true) (1). Computer verwenden als kleinste
+      Speichereinheit ein [Bit](#bit) welches entweder eine 0 oder 1 enthalten kann.
 
 
 - slug: binary_expression
