@@ -1280,7 +1280,14 @@
       de una página. “Breadcrumbs” muestran a los usuarios dónde se encuentra la página
       en el sitio web; la palabra proviene de un cuento de hadas en que unos niños
       habían dejado atrás un rastro de migas de pan para que pudieran encontrar su camino a casa.
-
+  de:
+    term: "Brotkrümelnavigation"
+    def: >
+      Ein Entwurfsmuster für Webseiten welches zusätzliche Navigationslinks, normalerweise im oberen Bereich,
+      platziert. Brotkrümelnavigationslinks zeigen dem Nutzer wo er sich gerade relativ zum Rest
+      der Webseite befindet. Der Begriff ist in Anlehnung an das Märchen Hänsel und Gretel
+      entstanden, in welchem die Kinder eine Spur aus Brotkrümeln hinterlassen um den Weg zurück
+      zu finden.
 
 - slug: breadth_first
   ref:
