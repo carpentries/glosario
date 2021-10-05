@@ -791,6 +791,10 @@
     term: "assosiatiewe skikking"
     def: >
       Sien [woordeboek](#dictionary).
+  de:
+    term: "Assoziatives Array"
+    def: >
+      Siehe [Wörterbuch](#dictionary).
 
 
 - slug: asynchronous
