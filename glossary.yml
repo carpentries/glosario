@@ -1475,6 +1475,13 @@
       A style of writing code that involves naming variables and objects with no
       space, underscore (`_`), dot (`.`), or dash (`-`) characters, with each word being
       capitalized. Examples include `CalculateSum` and `findPattern`.
+  de:
+    term: "camel case (dt. Kamel-Schreibung)"
+    def: >
+      Schreibstil der die Benennung von Variablen und Objekten vorgibt. Bei
+      "camel case" werden keine Leerzeichen, Unterstriche (`_`), Punkte (`.`)
+      oder Bindestriche (`-`) verwandt und jedes Wort großgeschrieben.
+      Beispiele sind: `BerechneSumme` oder `findeMuster`.
 
 
 - slug: catch_exception
