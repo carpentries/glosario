@@ -4954,6 +4954,12 @@
       la fonction lorsque celle-ci est appelée.
       À ne pas confondre avec le terme [argument](#argument). Un paramètre est une variable,
       un argument est une valeur assignée à cette variable.
+  de:
+    term: "Parameter"
+    def: >
+      Die Parameter sind die Namen der Eingangswerte einer Funktion, welche beim Aufruf übergeben
+      werden. Parameter und Argumente sind verwandt aber nicht identisch. Ein Parameter ist eine
+      Variable und ein [Argument](#argument) ist dem der Variable zugewiesene Wert.
 
 
 - slug: parent_class
