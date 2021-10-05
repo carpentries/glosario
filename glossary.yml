@@ -1189,6 +1189,15 @@
       of objects. Some languages require a lot of these statements and are termed boilerplate
       languages, e.g. Java, which means that they are frequently generated automatically or by
       using [auto-completion](#auto_completion).
+  de:
+    term: "Boilerplate"
+    def: >
+      Codesegmente oder Textbausteine welche an mehreren Stellen wiederholt werden müssen um
+      ein funktionierendes Programm zu erhalten. Boilerplate Code enthält allerdings wichtige
+      informationen um beispielsweise Variablen in der [objektorientierten Programmierung](#oop)
+      zu kapseln. Manche Programmiersprachen sind sehr wortreich und erfordern viel Code um einfache
+      Funktionalitäten zu erhalten, z.B. Java, sodass dieser Code häufig automatisch oder mittels
+      [Autovervollständigung](#auto_completion) erstellt wird.
 
 
 - slug: boolean
