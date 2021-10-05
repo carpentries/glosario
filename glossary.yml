@@ -727,6 +727,12 @@
     def: >
       Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental
       como enteros de 7- u 8-[bits](#bit), ahora reemplazado por [Unicode](#unicode).
+  de:
+    term: "ASCII"
+    def: >
+      Eine standardisierte Methode um Zeichen und Ziffern, vornehmlich der Westeuropäischen
+      Sprachen, in 7 oder 8 [Bits](#bit) darzustellen. Heute weitgehend durch [Unicode](#unicode)
+      abgelöst.
 
 
 - slug: assertion
