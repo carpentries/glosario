@@ -550,6 +550,14 @@
        لغة
        [Python](#python)
         تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
+  de:
+    term: "Anonyme Funktion"
+    def: >
+      Eine Funktion ohne Namen. In der Regel sind anonyme Funktionen sehr kurz
+      und werden nur dort definiert wo sie verwendet werden, z.B. als
+      [Rückruffunktion](#callback). In [Python](#python) wird diese Art der Funktionen
+      als Lambda-Funktionen bezeichnet und mit dem reservierten Ausdruck
+      `lambda` definiert.
 
 
 - slug: anti_join
