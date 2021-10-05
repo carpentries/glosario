@@ -82,7 +82,7 @@ def parseArgs():
     configFile, glossFile = filenames
 
     checkLang = None
-    for (opt, args) in options:
+    for (opt, arg) in options:
         if opt == '-A':
             checkLang = 'ALL'
         elif opt == '-c':
