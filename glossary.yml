@@ -766,6 +766,20 @@
       beweringstelling wat gedeaktiveer kan word nie en dus sal die gebruik
       van 'n [pakket](#package) soos 'assertr' vir datageldigheid nie
       sekuriteitsgapings skep nie.
+  de:
+    term: "Assertion"
+    def: >
+      Eine [Boolscher Ausdruck](#boolean) welcher zu einem bestimmten Punkt während
+      der Programlaufzeit [wahr](#true) sein muss um fortzuschreiten. In verschiedenen
+      Sprachen (z.B. `assert` in [Python](#python)) sind diese Sicherstellungen fest integriert,
+      oder werden als Funktionen bereitgestellt (z.B. `stopifnot` in [R](#r_language)).
+      Sie werden häufig zum testen von code verwendet, können aber auch in [fertigen Quellcode](#production_code)
+      einfließen um eine korrekte Ausführung zu gewährleisten. In vielen Sprachen sollten
+      Assertionen jedoch nicht zur Datenvalidierung verwendet werden, da der Compiler je
+      nach Optimierungsgrad diese entfernen kann. Assertionen können ein Sicherheitsrisiko
+      darstellen. In R können Assertionen nicht deaktiviert werden, daher werden
+      externe [Pakete](#package) wie beispielsweise `assertr` zur Datenvalidierung verwendet
+      ohne ein Sicherheitsrisiko darzustellen.
 
 
 - slug: associative_array
