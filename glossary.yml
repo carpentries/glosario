@@ -1184,7 +1184,8 @@
   en:
     term: "boilerplate"
     def: >
-      Parts of the source code that have to be repeated very often to get basic functionality.
+      Standard text that is included in legal contracts, licenses, and so on.
+      Also parts of the source code that have to be repeated very often to get basic functionality.
       In [object-oriented programs](#oop) these segments are used to encapsulate variables
       of objects. Some languages require a lot of these statements and are termed boilerplate
       languages, e.g. Java, which means that they are frequently generated automatically or by
@@ -1192,9 +1193,10 @@
   de:
     term: "Boilerplate"
     def: >
-      Codesegmente oder Textbausteine welche an mehreren Stellen wiederholt werden müssen um
+      Standardisierte Texte welche sehr häufig Anwendung finden, beispielsweise für Verträge, Lizenzen, usw.
+      Desweiteren werden damit Codesegmente oder Textbausteine bezeichnet, welche an mehreren Stellen wiederholt werden müssen um
       ein funktionierendes Programm zu erhalten. Boilerplate Code enthält allerdings wichtige
-      informationen um beispielsweise Variablen in der [objektorientierten Programmierung](#oop)
+      Informationen um beispielsweise Variablen in der [objektorientierten Programmierung](#oop)
       zu kapseln. Manche Programmiersprachen sind sehr wortreich und erfordern viel Code um einfache
       Funktionalitäten zu erhalten, z.B. Java, sodass dieser Code häufig automatisch oder mittels
       [Autovervollständigung](#auto_completion) erstellt wird.
@@ -2018,13 +2020,13 @@
     def: >
       A [variable](#variable_data) whose value can be any real value, either
       within a range, or unbounded, such as age or distance.
-      
-      
+
+
 - slug: control_flow
   en:
     term: "control flow"
     def: >
-      The logical flow through a program's code. May be linear (i.e. just a series of 
+      The logical flow through a program's code. May be linear (i.e. just a series of
       commands), but may also include [loops](#loop) or conditional execution (i.e. if
       a condition is met).
 
@@ -5720,7 +5722,7 @@
   tn:
     term: "kgolagano kgakala"
     def: >
-      Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o dirisa [SSH](#ssh).  
+      Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o dirisa [SSH](#ssh).
 
 
 - slug: remote_repository
@@ -6088,8 +6090,8 @@
     term: "Shiny"
     def: >
       A [R](#r_language) [package](#package) that makes it simple to build web applications to
-      interactively visualise and manipulate data. Often used to make interactive [graphs](graph) 
-      and [tables](#table) straight from [R](#r_language) without having 
+      interactively visualise and manipulate data. Often used to make interactive [graphs](graph)
+      and [tables](#table) straight from [R](#r_language) without having
       to know [HTML](#html), [CSS](#css) or JavaScript.
 
 
