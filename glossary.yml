@@ -3203,7 +3203,7 @@
       von Anweisungen umfasst und mehrere optionale oder notwendige Eingansparameter akzeptieren
       kann. Funktionen haben einen eindeutigen Namen, der es erlaubt die Funktion durch einen
       Funktionsaufruf mehrfach in einem Programm zu verwenden. Eine Funktion kann mehrere optionale
-      oder notewendige Eingangsparameter akzeptieren. Eine Funktion kann Werte zurückgeben, deren
+      oder notwendige Eingangsparameter akzeptieren. Eine Funktion kann Werte zurückgeben, deren
       Datentypen in einer Funktionsdokumentation niedergeschrieben sein sollten.
 
 
