@@ -1820,6 +1820,10 @@
 
 
 - slug: constant
+  en:
+    term: "constant"
+    def: >-
+      A value that does not change.
 
 
 - slug: constructor
@@ -4122,6 +4126,10 @@
 
 
 - slug: masking
+  en:
+    term: "Masking"
+    def: >-
+      [TODO] to be defined
 
 
 - slug: master_branch
@@ -5031,6 +5039,12 @@
 
 
 - slug: posterior_distribution
+  ref:
+    - bayes_theorem
+  en:
+    term: "posterior distribution"
+    def: >-
+      Probability distribution summarizing the [prior distribution](#prior_distribution) and the likelihood function.
 
 
 - slug: pothole_case
