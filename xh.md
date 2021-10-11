@@ -1,5 +1,5 @@
 ---
-permalink: /es/
+permalink: /xh/
 layout: glossary
 direction: ltr
 ---
