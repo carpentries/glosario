@@ -177,9 +177,9 @@
   id:
     term: "path absolut"
     def: >
-    Sebuah path yang menunjukkan lokasi dalam [filesystem](#filesystem) terlepas
-    dari lokasi program dijalanakn. Path absolut sama dengan garis lintang dan
-    garis bujur dalam geografi.
+      Sebuah path yang menunjukkan lokasi dalam [filesystem](#filesystem) terlepas
+      dari lokasi program dijalanakn. Path absolut sama dengan garis lintang dan
+      garis bujur dalam geografi.
   de:
     term: "absoluter Pfad"
     def: >
