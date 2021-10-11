@@ -14,6 +14,13 @@
       deviation](#standard_deviation) of the [mean](#mean), 95% lie within two, and
       99.7% lie within three. Conversely, about 0.3% of values lie more than three
       standard deviations above or below the mean in most cases.
+  id:
+    term: "Aturan 68-95-99.7"
+    def: >
+      Menyatakan fakta bahwa 68% berkisar di satu [standar deviasi](#standar_deviasi)
+      dari mean(#mean), 95% berkisar di dua, dan 99.7% berkisar di tiga.
+      Sebaliknya, sekitar 0.3% berkisar lebih dari tiga standar deviasi
+      di atas atau di bawah mean dari kasus kebanyakan.
   it:
     term: "regola 68-95-99,7"
     def: >
@@ -67,9 +74,9 @@
 
 - slug: abandonware
   bn:
-    term: "বিসর্জনকৃত সফটওয়্যার"
+    term: "বিসর্জনকৃত সফটওয়্যার"
     def: >
-      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা।
+      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা।
   de:
     term: "Abandonware"
     def: >
@@ -78,6 +85,10 @@
     term: "abandonware"
     def: >
       Software that is no longer being maintained.
+  id:
+    term: "abandonware"
+    def: >
+      Perangkat lunak yang sudah tidak dikelola.
   pt:
     term: "abandonware"
     def: >
@@ -113,6 +124,12 @@
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
+  id:
+    term: "kesalahan absolut"
+    def: >
+      Nilai absolut dari perbedaan nilai yang diobservasi dan nilai yang benar.
+      Kesalahan absolut seringkali tidak terlalu berguna daripada
+      [kesalahan relatif](#kesalahan_relatif).
   it:
     term: "errore assoluto"
     def: >
@@ -157,6 +174,12 @@
       A path that points to the same location in the [filesystem](#filesystem)
       regardless of where it is evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
+  id:
+    term: "path absolut"
+    def: >
+      Sebuah path yang menunjukkan lokasi dalam [filesystem](#filesystem) terlepas
+      dari lokasi program dijalanakn. Path absolut sama dengan garis lintang dan
+      garis bujur dalam geografi.
   de:
     term: "absoluter Pfad"
     def: >
@@ -208,6 +231,11 @@
     def: >
       The sequential index of a row in a table, regardless of what sections of the
       table is being displayed.
+  id:
+    term: "nomor baris absolut"
+    def: >
+      Indeks berurutan dari sebuah baris dalam tabel, terlepas dari bagian apa
+      dari tabel yang ditampilkan.
   af:
     term: "absolute rynommer"
     def: >
@@ -250,6 +278,13 @@
       not implemented. Programmers will define an abstract method in a [parent
       class](#parent_class) to specify operations that [child classes](#child_class)
       must provide.
+  id:
+    term: "metode abstrak"
+    def: >
+      Dalam [pemrograman berorientasi objek](#oop), sebuah [metode](#metode)
+      yang didefinisikan tapi tidak diimplementasikan. Pemrogram akan mendefinisikan
+      metode abstrak dalam [parent class](#parent_class) untuk menspesifikasikan operasi
+      yang harus dimiliki oleh [child classes](#child_class).
   af:
     term: "abstrakte metode"
     def: >
@@ -288,6 +323,14 @@
       of a program. For example, the AST might have a [node](#node) representing a
       [`while` loop](#while_loop) with one [child](#child_tree) representing the loop
       condition and another representing the [loop body](#loop_body).
+  id:
+    term: "abstract syntax tree"
+    acronym: "AST"
+    def: >
+      Sebuah struktur data bersarang, atau [tree](#tree), yang merepresentasikan struktur
+      dari sebuah program. Sebagai contoh, AST bisa jadi memiliki sebuah (node)[#node]
+      merepresentasikan sebuah [`while` loop](#while_loop) degan sebuah [child](#child_tree)
+      merepresentasikan kondisi loop dan yang lain merepresentasikan [loop body](#loop_body).
   af:
     term: "abstrakte sintaksisontledingsboom"
     def: >
@@ -692,6 +735,8 @@
   en:
     term: "arithmetic mean"
     def: >
+      See [mean](#mean). Calculated from a set of n numbers by summing those 
+      numbers, and dividing the result by n.
       See [mean](#mean).
   it:
     term: "media aritmetica"
@@ -2384,6 +2429,16 @@
 
 
 - slug: degrees_of_freedom
+  en:
+    term: "degrees of freedom"
+    def: >
+      In statistics, the degrees of freedom (often "DF") is a measure of how much independent
+      information, in the form data and calculations, has been combined to produce a given
+      statistical parameter. Put another way, the DF is the number of values that are free to
+      vary in the calculation of a given statistical parameter. For a statistic calculated
+      from data which are indepdendent (i.e., the values are uncorrelated), the DF can be
+      generally estimated as the sample size minus the number of individual parameters
+      calculated to obtain the final statistic.
 
 
 - slug: delegate_pattern
@@ -3067,7 +3122,44 @@
 
 
 - slug: geometric_mean
+  ref:
+    - mean
+    - arithmetic_mean
+    - harmonic_mean
+  en:
+    term: "Geometric Mean"
+    def: >
+      Calculated from a set of n numbers by first computing the product of those
+      numbers, and then computing the n-th [root](#root_math) of the result. In 
+      contrast to the [arithmetic mean](#arithmetic_mean), which measures 
+      central tendancy in an "additive" way, the geometric mean measures central
+      tendancy in a "multiplicative" way, and hence is often appropriate when 
+      estimating an average rates of change or some other multiplicative 
+      constant. 
 
+- slug: square_root
+  en:
+    term: "Square root"
+    def: >
+      A special case of the [n-th root](#root_math) for which n = 2, i.e. the 
+      2-nd root has the special name "square root".
+
+- slug: root_math
+  ref: 
+    - square_root
+  en:
+    term: n-th root
+    def: >
+      The n-th root of a positive number x is the number that when multiplied by
+      itself n times produces x. This can commonly be calculated by raising x to
+      the power of the [reciprocal](#reciprocal) of n.
+
+- slug: reciprocal
+  en:
+    term: reciprocal
+    def: > 
+      The reciprocal of a number x is 1 / x, or alternatively x raised to the 
+      power of -1.
 
 - slug: ggplot2
   ref:
@@ -3366,6 +3458,26 @@
 
 
 - slug: harmonic_mean
+  ref:
+    - mean
+    - arithmetic_mean
+    - geometric_mean
+  en:
+    term: "Harmonic Mean"
+    def: >
+      Calculated from a set of n numbers by first computing the sum of the 
+      [reciprocals](#reciprocal) of those numbers, and then dividing n by the 
+      resulting sum. Alternatively, it can be computed as the 
+      [reciprocal](#reciprocal) of the [arithmetic mean](#arithmetic_mean) of 
+      the [reciprocal](#reciprocal) values. Similarly to the 
+      [geometric mean](#geometric_mean), the harmonic mean is often used as an 
+      alternative measure of central tendancy to the usual 
+      [arithmetic mean](#arithmetic_mean) when estimating an average rates of 
+      change or some other multiplicative constant. For a set of positive 
+      numbers that are not all equal, the min < HM < GM < AM < max where min is 
+      the minimum value, max is the maximum value, and HM GM and AM are the 
+      harmonic, [geometric](#geometric_mean), and [arithmetic](#arithmetic_mean)
+      means respectively.
 
 
 - slug: hardware
@@ -3600,6 +3712,11 @@
 
 
 - slug: independent_variable
+  en:
+    term: "independent variable"
+    def: > 
+      The factor that you purposely change or control in order to see what effect 
+      it has on the [dependent variable](#dependent_variable).
 
 
 - slug: infinite_loop
@@ -5860,7 +5977,7 @@
     term: "root mean squared error"
     acronym: "RMSE"
     def: >
-      The square root of the [mean squared error](#mean_squared_error). Like the
+      The [square root](#square_root) of the [mean squared error](#mean_squared_error). Like the
       [standard deviation](#standard_deviation), it is in the same units as the
       original data.
   es:
@@ -6313,7 +6430,7 @@
     term: "standard deviation"
     def: >
       How widely values in a dataset differ from the [mean](#mean). It is calculated
-      as the square root of the [variance](#variance).
+      as the [square root](#square_root) of the [variance](#variance).
   it:
     term: "deviazione standard"
     def: >
@@ -7193,3 +7310,10 @@
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
       archivos de configuración y para definir [parámetros](#parameter) en varios estilos
       de documentos en [Markdown](#markdown).
+  id:
+    term: "YAML"
+    def: >
+      Kependekan dari "YAML Ain't Markup Language", adalah cara menyatakan nested data menggunakan
+      indentasi alih-alih menggunakan tanda kurung dan koma pada [JSON] (#json). YAML sering kali
+      digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
+      untuk beragam tipe dokumen [Markdown](#markdown).
