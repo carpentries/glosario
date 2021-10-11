@@ -239,3 +239,16 @@ languages:
       maarifa hayo. Waandishi wanaweza pia kutumia vipengele kwenye maktaba
       kuweka viungo thabiti vinavyo ashiria masharti na ufafanuzi kwenye 
       somo zao katika lugha yoyote ya kibinadamu.
+  - key: id
+    name: Bahasa Indonesia
+    title: Glosarium
+    blurb: >
+      `glosario` adalah glosarium-kode-terbuka dari istilah yang digunakan dalam
+      data science yang tersedia daring dan juga sebagai library dalam bahasa pemrograman
+      [R](https://github.com/carpentries/glosario-r/) dan
+      [Python](https://github.com/carpentries/glosario-py/).
+      Dengan menambahkan glosarium dalam metadata pelajaran, penulis dapat melacak
+      apa yang diajarkan, apa yang harus dipelajari sebelumnya, dan di mana
+      mereka dapat menelusuri lebih lanjut. Penulis dapat juga menggunakan fungsi dalam
+      library untuk memasukkan hyperlink istilah secara konsisten berikut definisinya
+      dalam pelajaran dalam beberapa bahasa.

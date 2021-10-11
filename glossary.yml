@@ -14,6 +14,13 @@
       deviation](#standard_deviation) of the [mean](#mean), 95% lie within two, and
       99.7% lie within three. Conversely, about 0.3% of values lie more than three
       standard deviations above or below the mean in most cases.
+  id:
+    term: "Aturan 68-95-99.7"
+    def: >
+      Menyatakan fakta bahwa 68% berkisar di satu [standar deviasi](#standar_deviasi)
+      dari mean(#mean), 95% berkisar di dua, dan 99.7% berkisar di tiga.
+      Sebaliknya, sekitar 0.3% berkisar lebih dari tiga standar deviasi
+      di atas atau di bawah mean dari kasus kebanyakan.
   it:
     term: "regola 68-95-99,7"
     def: >
@@ -78,6 +85,10 @@
     term: "abandonware"
     def: >
       Software that is no longer being maintained.
+  id:
+    term: "abandonware"
+    def: >
+      Perangkat lunak yang sudah tidak dikelola.
   pt:
     term: "abandonware"
     def: >
@@ -113,6 +124,12 @@
     def: >
       The absolute value of the difference between the observed and the correct value.
       Absolute error is usually less useful than [relative error](#relative_error).
+  id:
+    term: "kesalahan absolut"
+    def: >
+      Nilai absolut dari perbedaan nilai yang diobservasi dan nilai yang benar.
+      Kesalahan absolut seringkali tidak terlalu berguna daripada
+      [kesalahan relatif](#kesalahan_relatif).
   it:
     term: "errore assoluto"
     def: >
@@ -157,6 +174,12 @@
       A path that points to the same location in the [filesystem](#filesystem)
       regardless of where it is evaluated. An absolute path is the equivalent of
       latitude and longitude in geography.
+  id:
+    term: "path absolut"
+    def: >
+      Sebuah path yang menunjukkan lokasi dalam [filesystem](#filesystem) terlepas
+      dari lokasi program dijalanakn. Path absolut sama dengan garis lintang dan
+      garis bujur dalam geografi.
   de:
     term: "absoluter Pfad"
     def: >
@@ -208,6 +231,11 @@
     def: >
       The sequential index of a row in a table, regardless of what sections of the
       table is being displayed.
+  id:
+    term: "nomor baris absolut"
+    def: >
+      Indeks berurutan dari sebuah baris dalam tabel, terlepas dari bagian apa
+      dari tabel yang ditampilkan.
   af:
     term: "absolute rynommer"
     def: >
@@ -250,6 +278,13 @@
       not implemented. Programmers will define an abstract method in a [parent
       class](#parent_class) to specify operations that [child classes](#child_class)
       must provide.
+  id:
+    term: "metode abstrak"
+    def: >
+      Dalam [pemrograman berorientasi objek](#oop), sebuah [metode](#metode)
+      yang didefinisikan tapi tidak diimplementasikan. Pemrogram akan mendefinisikan
+      metode abstrak dalam [parent class](#parent_class) untuk menspesifikasikan operasi
+      yang harus dimiliki oleh [child classes](#child_class).
   af:
     term: "abstrakte metode"
     def: >
@@ -288,6 +323,14 @@
       of a program. For example, the AST might have a [node](#node) representing a
       [`while` loop](#while_loop) with one [child](#child_tree) representing the loop
       condition and another representing the [loop body](#loop_body).
+  id:
+    term: "abstract syntax tree"
+    acronym: "AST"
+    def: >
+      Sebuah struktur data bersarang, atau [tree](#tree), yang merepresentasikan struktur
+      dari sebuah program. Sebagai contoh, AST bisa jadi memiliki sebuah (node)[#node]
+      merepresentasikan sebuah [`while` loop](#while_loop) degan sebuah [child](#child_tree)
+      merepresentasikan kondisi loop dan yang lain merepresentasikan [loop body](#loop_body).
   af:
     term: "abstrakte sintaksisontledingsboom"
     def: >
@@ -6989,3 +7032,10 @@
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
       archivos de configuración y para definir [parámetros](#parameter) en varios estilos
       de documentos en [Markdown](#markdown).
+  id:
+    term: "YAML"
+    def: >
+      Kependekan dari "YAML Ain't Markup Language", adalah cara menyatakan nested data menggunakan
+      indentasi alih-alih menggunakan tanda kurung dan koma pada [JSON] (#json). YAML sering kali
+      digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
+      untuk beragam tipe dokumen [Markdown](#markdown).
