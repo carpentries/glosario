@@ -5,18 +5,18 @@
 {%- assign the_title = site.languages | where: "key", language | map: "title" | first -%}
 {%- assign the_name = site.languages | where: "key", language | map: "name" | first -%}
 {%- endif -%}
-<!-- {%- if page.direction -%} -->
-<!-- {%- assign direction = page.direction -%} -->
-<!-- {%- else -%} -->
-<!-- {%- assign direction = 'ltr' %} -->
-<!-- {%- endif -%} -->
+{%- if page.direction -%}
+{%- assign direction = page.direction -%}
+{%- else -%}
+{%- assign direction = 'ltr' %}
+{%- endif -%}
 <header>
 <div class="row" dir="auto">
-  <div class="left">
+  <div class="left-{{ direction }}">
     <a href="{{'/' | relative_url}}"><img class="logo" src="{{'/static/parrot.svg' | relative_url}}" alt="Parrot logo"/></a>
-    <a href="{{ site.github.repository_url }}" class="button-ltr"><small><small>View project on </small></small>GitHub</a>
+    <a href="{{ site.repository_url }}" class="button-{{ direction }}"><small><small>View project on </small></small>GitHub</a>
   </div>
-  <div class="right">
+  <div class="right-{{ direction }}">
     <font class="title_font">
       <h1>{{the_title}}</h1>
       <div class="describe">
