@@ -17,7 +17,7 @@
   id:
     term: "Aturan 68-95-99.7"
     def: >
-      Menyatakan fakta bahwa 68% berkisar di satu [standar deviasi](#standar_deviasi)
+      Menyatakan fakta bahwa 68% berkisar di satu [standar deviasi](#standard_deviation)
       dari mean(#mean), 95% berkisar di dua, dan 99.7% berkisar di tiga.
       Sebaliknya, sekitar 0.3% berkisar lebih dari tiga standar deviasi
       di atas atau di bawah mean dari kasus kebanyakan.
@@ -129,7 +129,7 @@
     def: >
       Nilai absolut dari perbedaan nilai yang diobservasi dan nilai yang benar.
       Kesalahan absolut seringkali tidak terlalu berguna daripada
-      [kesalahan relatif](#kesalahan_relatif).
+      [kesalahan relatif](#relative_error).
   it:
     term: "errore assoluto"
     def: >
@@ -281,7 +281,7 @@
   id:
     term: "metode abstrak"
     def: >
-      Dalam [pemrograman berorientasi objek](#oop), sebuah [metode](#metode)
+      Dalam [pemrograman berorientasi objek](#oop), sebuah [metode](#method)
       yang didefinisikan tapi tidak diimplementasikan. Pemrogram akan mendefinisikan
       metode abstrak dalam [parent class](#parent_class) untuk menspesifikasikan operasi
       yang harus dimiliki oleh [child classes](#child_class).
@@ -1802,14 +1802,6 @@
        dat die werklike getal binne die skatting val.
 
 
-- slug: console
-  en:
-    term: "console"
-    def: >
-      A computer terminal where a user may enter commands, or a program, such as a shell
-      that simulates such a device.
-
-
 - slug: configuration file
   en:
     term: "configuration file"
@@ -1819,7 +1811,19 @@
       such as environment-specific settings.
 
 
+- slug: console
+  en:
+    term: "console"
+    def: >
+      A computer terminal where a user may enter commands, or a program, such as a shell
+      that simulates such a device.
+
+
 - slug: constant
+  en:
+    term: "constant"
+    def: >-
+      A value that does not change.
 
 
 - slug: constructor
@@ -2920,7 +2924,6 @@
 - slug: geometric_mean
   ref:
     - mean
-    - arithmetic_mean
     - harmonic_mean
   en:
     term: "Geometric Mean"
@@ -2933,33 +2936,8 @@
       estimating an average rates of change or some other multiplicative 
       constant. 
 
-- slug: square_root
-  en:
-    term: "Square root"
-    def: >
-      A special case of the [n-th root](#root_math) for which n = 2, i.e. the 
-      2-nd root has the special name "square root".
-
-- slug: root_math
-  ref: 
-    - square_root
-  en:
-    term: n-th root
-    def: >
-      The n-th root of a positive number x is the number that when multiplied by
-      itself n times produces x. This can commonly be calculated by raising x to
-      the power of the [reciprocal](#reciprocal) of n.
-
-- slug: reciprocal
-  en:
-    term: reciprocal
-    def: > 
-      The reciprocal of a number x is 1 / x, or alternatively x raised to the 
-      power of -1.
 
 - slug: ggplot2
-  ref:
-    - tidyverse
   en:
     term: "ggplot2"
     def: >
@@ -3252,12 +3230,19 @@
       prefers "handling a condition" to "[catching an exception](catch_exception)". [Python](#python), on the other hand,
       encourages raising and catching exceptions, and in some situations, requires it.
 
+- slug: hardware
+  en:
+    term: "hardware"
+    acronym: "HW"
+    def: >
+      Any physical component of a computer system. Hardware can be internal, such as CPU, memory,
+      and graphics cards; or external, such as monitors and keyboards. Hardware operates in conjunction
+      with software to produce a functioning computer system.
+
 
 - slug: harmonic_mean
   ref:
     - mean
-    - arithmetic_mean
-    - geometric_mean
   en:
     term: "Harmonic Mean"
     def: >
@@ -3274,16 +3259,6 @@
       the minimum value, max is the maximum value, and HM GM and AM are the 
       harmonic, [geometric](#geometric_mean), and [arithmetic](#arithmetic_mean)
       means respectively.
-
-
-- slug: hardware
-  en:
-    term: "hardware"
-    acronym: "HW"
-    def: >
-      Any physical component of a computer system. Hardware can be internal, such as CPU, memory,
-      and graphics cards; or external, such as monitors and keyboards. Hardware operates in conjunction
-      with software to produce a functioning computer system.
 
 
 - slug: hash_function
@@ -4151,6 +4126,10 @@
 
 
 - slug: masking
+  en:
+    term: "Masking"
+    def: >-
+      [TODO] to be defined
 
 
 - slug: master_branch
@@ -4988,7 +4967,6 @@
 - slug: pip
   ref:
     - pypi
-    - python
   en:
     term: "Pip Install Packages"
     acronym: "PIP"
@@ -5061,6 +5039,12 @@
 
 
 - slug: posterior_distribution
+  ref:
+    - bayes_theorem
+  en:
+    term: "posterior distribution"
+    def: >-
+      Probability distribution summarizing the [prior distribution](#prior_distribution) and the likelihood function.
 
 
 - slug: pothole_case
@@ -5074,7 +5058,7 @@
 
 - slug: preamble
   ref:
-    - LaTeX
+    - latex
   en:
     term: "preamble"
     def: >
@@ -5258,7 +5242,6 @@
 
 - slug: pypi
   ref:
-    - python
     - pip
   en:
     term: "Python Package Index"
@@ -5383,7 +5366,6 @@
     def: >
       Un dialecte de [Markdown](#markdown) qui permet à ses auteurs de mélanger langage naturel et code
       (habituellement écrit en langage [R](#r_language)) dans un même document.
-      Voir aussi [programmation lettrée](#literate_programming).
 
 
 - slug: raise_exception
@@ -5436,6 +5418,13 @@
     term: "README"
     def: >
       A plain text file containing important information about a project or software package.
+
+- slug: reciprocal
+  en:
+    term: reciprocal
+    def: >
+      The reciprocal of a number x is 1 / x, or alternatively x raised to the
+      power of -1.
 
 
 - slug: record
@@ -5758,6 +5747,17 @@
     def: >
       The [directory](#directory) that contains everything else, either directly or indirectly. The root
       directory is written `/` (a bare forward slash).
+
+
+- slug: root_math
+  ref:
+    - square_root
+  en:
+    term: n-th root
+    def: >
+      The n-th root of a positive number x is the number that when multiplied by
+      itself n times produces x. This can commonly be calculated by raising x to
+      the power of the [reciprocal](#reciprocal) of n.
 
 
 - slug: root_mean_squared_error
@@ -6164,6 +6164,11 @@
       [base de données relationnelle](#relational_database).
       Le terme est l'acronyme de "Structured Query Language" (langage de requête structuré).
 
+- slug: square_root
+  en:
+    term: "Square root"
+    def: >
+      A special case of the [n-th root](#root_math) for which n = 2, i.e. the 2-nd root has the special name "square root".
 
 - slug: ssh
   en:
@@ -6465,8 +6470,6 @@
 
 
 - slug: test_data
-  ref:
-    - machine_learning
   en:
     term: "test data"
     def: >
@@ -6609,8 +6612,6 @@
 
 
 - slug: training_data
-  ref:
-    - machine_learning
   en:
     term: "training data"
     def: >
