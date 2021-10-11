@@ -74,9 +74,9 @@
 
 - slug: abandonware
   bn:
-    term: "বিসর্জনকৃত সফটওয়্যার"
+    term: "বিসর্জনকৃত সফটওয়্যার"
     def: >
-      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা।
+      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা।
   de:
     term: "Abandonware"
     def: >
@@ -2223,6 +2223,16 @@
 
 
 - slug: degrees_of_freedom
+  en:
+    term: "degrees of freedom"
+    def: >
+      In statistics, the degrees of freedom (often "DF") is a measure of how much independent
+      information, in the form data and calculations, has been combined to produce a given
+      statistical parameter. Put another way, the DF is the number of values that are free to
+      vary in the calculation of a given statistical parameter. For a statistic calculated
+      from data which are indepdendent (i.e., the values are uncorrelated), the DF can be
+      generally estimated as the sample size minus the number of individual parameters
+      calculated to obtain the final statistic.
 
 
 - slug: delegate_pattern
