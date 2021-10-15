@@ -120,11 +120,12 @@ A glossary entry is structured like this:
     1.  She has defined the language to be Spanish using the `glossary/language` key
         in the YAML header,
         but has not changed any other settings.
-    1.  She adds an inline code block `` `r gdef('linear-model', 'Linear models')` ``
+    1.  She adds an inline code block `` `r gdef('linear_model', 'Linear models')` ``
         to her lesson.
     1.  When she knits her document,
         the inline code block produces the HTML
-        `<a href="http://carpentries.org/glossary/es/#linear-model" class="glossary-definition">Linear Models</a>`
+        `<span class="glosario_def"><a href="https://glosario.carpentries.org/en/#linear_model">Linear models</a></span>`
+
 
 1.  **Checking a lesson.**
     1.  *Beatriz* has made some changes to a lesson she inherited from *Amari*,
