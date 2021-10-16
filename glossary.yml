@@ -1829,7 +1829,7 @@
   en:
     term: "constant"
     def: >-
-      A value that cannot be change after it has been defined, as opposed 
+      A value that cannot be changed after it has been defined, as opposed 
       to a [variable](#variable_program).
 
 
