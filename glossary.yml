@@ -343,7 +343,7 @@
 
 - slug: actual_result
   de:
-    term: "Tatsächliche Ergebnis"
+    term: "Tatsächliches Ergebnis"
     def: >
       Der Wert, der durch Ausführen von Code in einem Test erzeugt
       wird. Wenn dieser Wert mit dem [erwarteten
@@ -7017,7 +7017,7 @@
     term: "Wildcard"
     def: >
       Ein Zeichenausdruck, der mit Text übereinstimmen kann, wie z.B. das `*` in `*.csv` (das
-      passt auf jeden Dateinamen, dessen Name mit `.csv`) endet.
+      passt auf jeden Dateinamen, der mit `.csv`) endet.
   en:
     term: "wildcard"
     def: >
@@ -7035,9 +7035,9 @@
     term: "XML"
     def: >
       Eine Reihe von Regeln zur Definition von [HTML](#html)-ähnlichen Tags und deren
-      Verwendung zur Formatierung Dokumente (typischerweise Daten). XML war in den
+      Verwendung zur Formatierung von Dokumenten (typischerweise Daten). XML war in den
       frühen 2000er Jahren populär, aber seine Komplexität veranlasste
-      viele Programmierer, stattdessen [JSON](#json) zu übernehmen.
+      viele Programmierer, stattdessen [JSON](#json) zu verwenden.
   en:
     term: "XML"
     def: >
@@ -7073,9 +7073,8 @@
     def: >
       Abkürzung für "YAML Ain't Markup Language", eine Methode zur Darstellung
       verschachtelter Daten mit Einrückung statt der Klammern und Kommas
-      von [JSON](#json). YAML ist oft in Konfigurationsdateien und zur Definition
-      von Parametern für verschiedene Geschmacksrichtungen verwendet
-      von [Markdown](#markdown)-Dokumenten.
+      von [JSON](#json). YAML wird oft in Konfigurationsdateien und zur Definition
+      von Parametern in verschiedenen Varianten von [Markdown](#markdown)-Dokumenten verwendet.
   en:
     term: "YAML"
     def: >
