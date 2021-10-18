@@ -1829,7 +1829,8 @@
   en:
     term: "constant"
     def: >-
-      A value that does not change.
+      A value that cannot be changed after it has been defined, as opposed 
+      to a [variable](#variable_program).
 
 
 - slug: constructor
