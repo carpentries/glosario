@@ -1047,6 +1047,10 @@
     term: "binary expression"
     def: >
       An expression which has two parameters and takes two arguments, such as `1 + 2`.
+  af:
+    term: "binêre uitdrukking"
+    def: >
+      'n Uitdrukking wat twee parameters het en twee argumente neem, soos bv. `1 + 2`.
   pt:
     term: "expressão binária"
     def: >
