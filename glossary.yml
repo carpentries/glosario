@@ -881,6 +881,13 @@
       with an older legacy system, or with input designed for such a system.
       For example a [function](#function) written in [Python](#python) 3 that can be
       run successfully with Python version 2 is backward-compatible.
+  af:
+    term: "terugwaarts versoenbaar"
+    def: >
+      'n Eienskap van 'n stelsel, hardeware of sagteware wat dit moontlik maak om
+      met 'n ouer weergawe van die stelsel, of met die toevoer ontwerp vir 'n ouer stelsel
+      te werk. Byvoorbeeld, 'n [funksie](#function) wat in [Python](#python) 3 geskryf is maar
+      sal werk in Python weergawe 2 is terugwaarts versoenbaar."
   fr:
     term: "rétrocompatible"
     def: >
