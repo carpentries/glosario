@@ -1012,6 +1012,14 @@
       `src/library` and are not updated outside of R; their version numbers follow R
       version numbering. Base packages are installed and loaded with R, while priority
       packages are installed with base R but must be loaded prior to use.
+  af:
+    term: "R basis"
+    def: >
+      Die basiese funksies van die [R](#r_language) programmeertaal. Die basispakette kan in 
+      `src/library`gevind word en kan nie onafhanklik van R opgedateer word nie. Die weergawenommers 
+      van die pakette volg die R weergawenummering. Basispakette word geinstalleer en gelaai as 
+      deel van R terwyl prioriteitpakette saam met R geinstalleer word maar moet gelaai word voor 
+      hulle gebruik kan word.
   pt:
     term: "R base"
     def: >
