@@ -436,6 +436,11 @@
     def: >
       'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en `max`
       (maksimale waarde)
+  de:
+    term: "Aggregatfunktion"
+    def: >
+      Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst,
+      beispielsweise in einer Summe oder dem Maximalwert.
 
 
 - slug: agile
@@ -463,6 +468,14 @@
       Um método de desenvolvimento de software que enfatiza vários passos pequenos e
       feedback contínuo ao invés de planejamento de longo prazo. [Programação exploratória](#exploratory_programming)
       costuma ser ágil.
+  de:
+    term: "Agile Softwareentwicklung"
+    def: >
+      Eine Methodik der Softwareentwicklung in der die Arbeit in viele
+      kleine Schritte aufgeteilt wird und mit ständigem Feedback innerhalb
+      selbstorganisierter Teams ein Program entwickelt wird. Im Gegensatz dazu
+      stehen klassische Ansätze die häufig aufwändiger Planung bedürfen.
+      [Explorative Programmierung](#exploratory_programming) ist oft agil.
 
 
 - slug: algorithm
@@ -486,6 +499,13 @@
     def: >
       Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
       En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
+  de:
+    term: "Algorithmus"
+    def: >
+      Ein Algorithmus ist in der Mathematik und der IT eine Vorgehensweise um
+      Probleme zu lösen. Ein Algorithmus ist ein schrittweiser, eindeutiger
+      Plan, oft in viele kleine Abschnitte unterteilt und mit Querverweisen
+      ausgestattet, um ein spezifisches Problem zu lösen.
   el:
     term: "αλγόριθμος"
     def: >
@@ -504,6 +524,12 @@
     def: >
       Om twee of meer verwysing na dieselfde ding te hê, soos byvoorbeeld meer as een
       verwysing na 'n datastruktuur in geheue of na 'n lêer op 'n skyf.
+  de:
+    term: "Aliasing"
+    def: >
+      Aliasing bezeichnet die Überlappung mehrerer Deskriptoren, also z.B.
+      Speicheradressen (Zeiger) oder Referenzen, die den selben Ort für ein
+      Objekt, beispielsweise eine Datenstruktur, beschreiben.
 
 
 - slug: anchor
@@ -573,6 +599,14 @@
        لغة
        [Python](#python)
         تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
+  de:
+    term: "Anonyme Funktion"
+    def: >
+      Eine Funktion ohne Namen. In der Regel sind anonyme Funktionen sehr kurz
+      und werden nur dort definiert wo sie verwendet werden, z.B. als
+      [Rückruffunktion](#callback). In [Python](#python) wird diese Art der Funktionen
+      als Lambda-Funktionen bezeichnet und mit dem reservierten Ausdruck
+      `lambda` definiert.
 
 
 - slug: anti_join
@@ -629,6 +663,13 @@
       Un ensemble de fonctions et de procédures fournies par une bibliothèque de logiciels ou un service web
       par lequel une autre application peut communiquer. Une API n'est ni le code, ni la base de données
       ni le serveur, mais le point d'accès.
+  de:
+    term: "Schnittstelle zur Programmierung von Anwendungen"
+    def: >
+      Eine Sammlung von Funktionen und Prozeduren die von einer
+      Softwarebibliothek bereitgestellt werden, sodass eine andere Software  damit
+      interagieren kann. Eine API ist nicht der Code, die Datenbasis oder ein Server
+      sie ist lediglich der Anküpfungspunkt.
 
 - slug: append_mode
   en:
@@ -688,6 +729,12 @@
       sinoniem daarvoor nie. 'n Argument is die spesifieke waarde wat aan 'n funksie
       verskaf word in 'n lys van waardes wat deur kommas geskei word. Parameters is
       die veranderlikes en argumente is die waardes wat aan die veranderlikes toegeken is.
+  de:
+    term: "Argument"
+    def: >
+      Nicht zu verwechseln mit dem [Parameter](#parameter).  Parameter und Argumente sind
+      verwandt aber nicht identisch. Ein Argument ist der tatsächliche Wert eines Parameters
+      der beim Funktionsaufruf übergeben wird.
 
 
 - slug: arithmetic_mean
@@ -720,17 +767,23 @@
     term: "ASCII"
     def: >
       A standard way to represent the characters commonly used in the Western European
-      languages as 7- or 8-bit integers, now superseded by [Unicode](#unicode).
+      languages as 7- or 8-[bit](#bit) integers, now superseded by [Unicode](#unicode).
   af:
     term: "ASCII"
     def: >
       'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
-      voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
+      voor te stel as 7- of 8-[bis](#bit) heelgetalle. ASCII word vervang deur [Unicode](#unicode).
   es:
     term: "ASCII"
     def: >
       Manera estándar de representar los caracteres comúnmente usados en lenguajes de Europa Occidental
-      como enteros de 7- u 8-bits, ahora reemplazado por [Unicode](#unicode).
+      como enteros de 7- u 8-[bits](#bit), ahora reemplazado por [Unicode](#unicode).
+  de:
+    term: "ASCII"
+    def: >
+      Eine standardisierte Methode um Zeichen und Ziffern, vornehmlich der Westeuropäischen
+      Sprachen, in 7 oder 8 [Bits](#bit) darzustellen. Heute weitgehend durch [Unicode](#unicode)
+      abgelöst.
 
 
 - slug: assertion
@@ -764,6 +817,20 @@
       beweringstelling wat gedeaktiveer kan word nie en dus sal die gebruik
       van 'n [pakket](#package) soos 'assertr' vir datageldigheid nie
       sekuriteitsgapings skep nie.
+  de:
+    term: "Assertion"
+    def: >
+      Eine [Boolscher Ausdruck](#boolean) welcher zu einem bestimmten Punkt während
+      der Programlaufzeit [wahr](#true) sein muss um fortzuschreiten. In verschiedenen
+      Sprachen (z.B. `assert` in [Python](#python)) sind diese Sicherstellungen fest integriert,
+      oder werden als Funktionen bereitgestellt (z.B. `stopifnot` in [R](#r_language)).
+      Sie werden häufig zum testen von code verwendet, können aber auch in [fertigen Quellcode](#production_code)
+      einfließen um eine korrekte Ausführung zu gewährleisten. In vielen Sprachen sollten
+      Assertionen jedoch nicht zur Datenvalidierung verwendet werden, da der Compiler je
+      nach Optimierungsgrad diese entfernen kann. Assertionen können ein Sicherheitsrisiko
+      darstellen. In R können Assertionen nicht deaktiviert werden, daher werden
+      externe [Pakete](#package) wie beispielsweise `assertr` zur Datenvalidierung verwendet
+      ohne ein Sicherheitsrisiko darzustellen.
 
 
 - slug: associative_array
@@ -775,6 +842,10 @@
     term: "assosiatiewe skikking"
     def: >
       Sien [woordeboek](#dictionary).
+  de:
+    term: "Assoziatives Array"
+    def: >
+      Siehe [Wörterbuch](#dictionary).
 
 
 - slug: asynchronous
@@ -796,6 +867,12 @@
     def: >
       No sucediendo al mismo tiempo. En programación, una operación asincrónica es una que corre
       independientemente de otra, o que comienza en un tiempo y termina en otro.
+  de:
+    term: "asynchron"
+    def: >
+      Nicht gleichzeitige Ausführung. In der Programmierung ist eine asynchrone Operation
+      unabhängig von anderen Operationen, oder wird zu einem bestimmten Zeitpunkt gestartet
+      oder beendet.
 
 
 - slug: attribute
@@ -814,6 +891,11 @@
     def: >
       'n Naam-waarde paar wat verband hou met 'n voorwerp en gebruik word om
       metadata omtrent die voorwerp te stoor, bv. die afmetings van 'n skikking.
+  de:
+    term: "Attribut"
+    def: >
+      Ein Name-Wert Paar welches einem Objekt zugewiesen ist und in der Regel Metadaten
+      über das Objekt, wie beispielsweise seine Größe, speichert.
 
 
 - slug: auto_completion
@@ -839,7 +921,12 @@
       'n Funksie wat 'n gebruiker toelaat om 'n woord of 'n kode vinnig te voltooi deur die
       TAB sleutel te druk om 'n lys van moontlike woorde of kodes te vertoon waaruit die gebruiker
       kan kies.
-
+  de:
+    term: "Autovervollständigung"
+    def: >
+      Eine Funktionalität welche es dem Nutzer erlaubt in einer Eingabemaske, z.B. in einer
+      Konsole oder Text-Editor, schnell Wörter oder Ausdrücke zu vervollständigen. Normalweise
+      ist diese Funktion der Tabulatortaste (TAB) zugewiesen.
 
 - slug: automatic_variable
   ref:
@@ -871,6 +958,12 @@
     def: >
       'n Algoritme wat die gewigte wat in 'n [neurale netwerk](#neural_network) gebruik word iteratief aanpas. Terugwaartse
       voortplanting word dikwels gebruik om [gradiënte afdaling](#gradient_descent) te implementeer.
+  de:
+    term: "Fehlerrückführung"
+    def: >
+      Ein Algoritmus der die Gewichtung in einem [neuralen Netzwerk](#neural_network) iterativ anpasst.
+      Die Rückwärtspropagierung ist ein Spezialfall eines [allgemeinen Gradientenverfahrens](#gradient_descent)
+      in der Optimierung, basierend auf dem mittleren quadratischen Fehler.
 
 
 - slug: backward_compatible
@@ -1004,6 +1097,11 @@
     term: "Umkhethe"
     def: >
       Ubalo-manani lunomkhethe ukuba lwenziwe ngendlela echanekileyo okanye ngokungaguquguqukiyo ngokwahlukileyo kwiparameter emele ukuba iqikelele.
+  de:
+    term: "Verzerrung"
+    def: >
+      Auch systematische Abweichung genannt. Ein Messwert wird dann als verzerrt beschrieben, wenn er
+      systematisch von dem wahren Wert einer Messgröße abweicht.
 
 
 - slug: big_data
@@ -1036,6 +1134,13 @@
       sendo no estado 0 ou 1. Representado na lógica [Booleana](#boolean) como
       [falso](#false) (0) ou [verdadeiro](#true) (1). Computadores são construídos
       sobre sistemas que armazenam 0s e 1s como [bits](#bit).
+  de:
+    term: "Binärsystem"
+    def: >
+      Ein System welches nur aus zwei Zuständen besteht. In der Informationstechnik oft
+      in den Zuständen 0 oder 1 dargestellt. In der [Boolschen Logik](#boolean) auch als
+      [falsch](#false) (0) oder [wahr](#true) (1). Computer verwenden als kleinste
+      Speichereinheit ein [Bit](#bit) welches entweder eine 0 oder 1 enthalten kann.
 
 
 - slug: binary_expression
@@ -1128,6 +1233,13 @@
       Um [comentário](#comment) que abrange múltiplas linhas. Blocos de comentários
       podem ser indicados com símbolos especiais, como `/*` e `*/` em C e linguagens
       herdeiras dessa sintaxe, ou cada linha pode ser prefixada com uma indicação como `#`.
+  de:
+    term: "Blockkommentar"
+    def: >
+      Ein [Kommentar](#comment) welcher mehrere Zeilen umfasst. Blockkommentare haben
+      spezifische Start- und Endsymbole, z.B. `/*` und `*/` in C und verwandten Sprachen.
+      Manche Sprachen kennen keine Blockkommentare und so werden diese mit einem
+      Einzelkommentarsymbol in jeder Zeile, z.B. `#`, gekennzeichnet.
 
 
 - slug: boilerplate
@@ -1135,6 +1247,21 @@
     term: "boilerplate"
     def: >
       Standard text that is included in legal contracts, licenses, and so on.
+      Also parts of the source code that have to be repeated very often to get basic functionality.
+      In [object-oriented programs](#oop) these segments are used to encapsulate variables
+      of objects. Some languages require a lot of these statements and are termed boilerplate
+      languages, e.g. Java, which means that they are frequently generated automatically or by
+      using [auto-completion](#auto_completion).
+  de:
+    term: "Boilerplate"
+    def: >
+      Standardisierte Texte welche sehr häufig Anwendung finden, beispielsweise für Verträge, Lizenzen, usw.
+      Desweiteren werden damit Codesegmente oder Textbausteine bezeichnet, welche an mehreren Stellen wiederholt werden müssen um
+      ein funktionierendes Programm zu erhalten. Boilerplate Code enthält allerdings wichtige
+      Informationen um beispielsweise Variablen in der [objektorientierten Programmierung](#oop)
+      zu kapseln. Manche Programmiersprachen sind sehr wortreich und erfordern viel Code um einfache
+      Funktionalitäten zu erhalten, z.B. Java, sodass dieser Code häufig automatisch oder mittels
+      [Autovervollständigung](#auto_completion) erstellt wird.
 
 
 - slug: boolean
@@ -1175,6 +1302,13 @@
      El termino "booleano" viene en honor a George Boole, un matematico del siglo XIX.
      El concepto del computador esta fundamentado en el sistema binario,
      en el qual se evalua entre estados de verdedero o falso.
+  de:
+    term: "Boolean"
+    def: >
+      Eine Art der Variable oder eines Datentyps welche entweder den logischen Wert [wahr](#true)
+      oder [falsch](#false) haben kann. Benannt nach George Boole, einem Mathematiker aus dem 19.
+      Jahrhundert. Binärsysteme, wie alle Computer, beruhen auf der Verarbeitung von logischen
+      Wahr-Falsch-Zuständen, 1 oder 0.
 
 - slug: branch
   en:
@@ -1210,7 +1344,14 @@
       de una página. “Breadcrumbs” muestran a los usuarios dónde se encuentra la página
       en el sitio web; la palabra proviene de un cuento de hadas en que unos niños
       habían dejado atrás un rastro de migas de pan para que pudieran encontrar su camino a casa.
-
+  de:
+    term: "Brotkrümelnavigation"
+    def: >
+      Ein Entwurfsmuster für Webseiten welches zusätzliche Navigationslinks, normalerweise im oberen Bereich,
+      platziert. Brotkrümelnavigationslinks zeigen dem Nutzer wo er sich gerade relativ zum Rest
+      der Webseite befindet. Der Begriff ist in Anlehnung an das Märchen Hänsel und Gretel
+      entstanden, in welchem die Kinder eine Spur aus Brotkrümeln hinterlassen um den Weg zurück
+      zu finden.
 
 - slug: breadth_first
   ref:
@@ -1375,6 +1516,17 @@
       functions like `map` that invoke a callback function once for each element in a
       collection, or [asynchronously](#asynchronous), as in a [client](#client) that
       runs a callback when a [response](#http_response) is received in answer to a [request](#http_request).
+  de:
+    term: "Rückruffunktion"
+    def: >
+      Rückruffunktionen sind Funktionen, welche anderen Funktionen als
+      Parameter übergeben werden um sie zu einem späteren Zeitpunkt
+      auszuführen. Bei der Parallelisierung werden häufig durch den Befehl
+      `map` Rückruffunktionen [synchron/gleichzeitig](#synchronous) für mehrere
+      Elemente in einer Kollektion ausgeführt, während bei
+      [Klient](#client)/[Server](#server) Verbindungen auf
+      [Anrufe](#http_request) [asynchron](#asynchronous) eine
+      [Antwort](#http_response) geliefert wird.
 
 
 - slug: camel_case
@@ -1387,6 +1539,13 @@
       A style of writing code that involves naming variables and objects with no
       space, underscore (`_`), dot (`.`), or dash (`-`) characters, with each word being
       capitalized. Examples include `CalculateSum` and `findPattern`.
+  de:
+    term: "camel case (dt. Kamel-Schreibung)"
+    def: >
+      Schreibstil der die Benennung von Variablen und Objekten vorgibt. Bei
+      "camel case" werden keine Leerzeichen, Unterstriche (`_`), Punkte (`.`)
+      oder Bindestriche (`-`) verwandt und jedes Wort großgeschrieben.
+      Beispiele sind: `BerechneSumme` oder `findeMuster`.
 
 
 - slug: catch_exception
@@ -1404,6 +1563,16 @@
     def: >
       الإستثناء هو الشرط الخاص الذي يُعالج به الشذوذ أو الشيء الغير متوقع الذي حدث
       أثناء تنفيذ البرنامج.
+  de:
+    term: "abfangen (eines Fehlers)"
+    def: >
+      Möglichkeit einen Fehler oder andere unerwartete Ereignisse abzufangen
+      und Informationen darüber zu verarbeiten. In [R](#r_language) sollen
+      Fehler möglichst über vordefinierte Bedingungen abgefangen werden,
+      während in anderen Sprachen, z.B. in [Python](#python) Fehler und
+      Fehlermeldungen bewusst eingesetzt werden um Probleme einfacher zu lösen.
+      Häufig werden neben der Art des Fehlers auch weitere Daten erhoben um
+      mögliche Ursachen zu finden.
 
 
 - slug: causation
@@ -1417,6 +1586,11 @@
     def: >
       Une relation entre des événements distincts, où il est affirmé qu'un événement est responsable de
       produire ou d'affecter un changement dans l'autre.
+  de:
+    term: "Kausalität"
+    def: >
+      Eine Beziehung zwischen zwei Ereignissen oder Zuständen, wobei klar ist,
+      dass es einen ursächlichen oder anlässlichen Zusammenhang zwischen den beiden gibt.
 
 
 - slug: cc_0
@@ -1435,6 +1609,12 @@
     def: >
       Una [licencia](#license) de [Creative Commons](#cc_license) que no impone ninguna
       restricción, por lo que pone a la obra en dominio público.
+  de:
+    term: "CC-0"
+    def: >
+      Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche den
+      Verzicht auf sämtliche Schutzrechte erklärt und das Werk in die
+      Gemeinfreiheit überführt.
 
 
 - slug: cc_by
@@ -1448,6 +1628,12 @@
     def: >
       Uma [licença](#license) [Creative Commons](#cc_license) com Atribuição, que requer que
       seja dado crédito às pessoas autoras do trabalho, mas que não impõe outras restrições.
+  de:
+    term: "CC-BY"
+    def: >
+      Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche eine
+      Namensnennung der Urheber verlangt aber sonst keine weiteren
+      Restriktionen auferlegt.
 
 
 - slug: cc_license
@@ -1476,6 +1662,24 @@
       das pessoas criadoras. Assim, `CC-BY-NC` quer dizer "pessoas usuárias devem atribuir autoria
       e não podem o conteúdo de forma comercial sem permissão". O termo `CC-0` (zero, não a letra 'O')
       é às vezes usado com o sentido de "sem restrições", isto é, que o trabalho é de domínio público.
+  de:
+    term: "Creative Commons Lizenz"
+    def: >
+      Eine Sammlung von [Lizenzen](#license) welche verschiedene, einfache
+      Lizenzvereinbarungen für beliebige Werke bereitstellt. Jede Lizenz kann
+      zusätzlichen Bedingungen unterliegen:
+      `-BY` (Namensnennung): Nutzer müssen den Autor des Werks nennen.
+      `-SA` (Gleiche Bedingungen): Nutzer dürfen das Werk nur unter den
+      gleichen Bedingungen weiter verbreiten.
+      `-NC` (Nicht-Kommerziell): Ohne vorherige Zustimmung darf das Werk nur
+      nicht kommerziell verwendet werden.
+      `-ND` (Keine Bearbeitung): Ohne vorherige Zustimmung darf das Werk nicht
+      verändert werden.
+      Diese Bedingungen werden mit dem Prefix "CC" verknüpft um kombinierte
+      Lizenzen zu kreieren. So bedeutet `CC-BY-NC` das die Nutzer den Namen des
+      Autors nennen müssen und das Werk nur mit Zustimmung kommerziell nutzen
+      dürfen. Der Begriff [CC0](#cc_0) beschreibt ein Werk "ohne
+      Einschränkungen", d.h. das Werk ist gemeinfrei.
 
 
 - slug: centroid
@@ -1883,13 +2087,13 @@
     def: >
       A [variable](#variable_data) whose value can be any real value, either
       within a range, or unbounded, such as age or distance.
-      
-      
+
+
 - slug: control_flow
   en:
     term: "control flow"
     def: >
-      The logical flow through a program's code. May be linear (i.e. just a series of 
+      The logical flow through a program's code. May be linear (i.e. just a series of
       commands), but may also include [loops](#loop) or conditional execution (i.e. if
       a condition is met).
 
@@ -4866,6 +5070,12 @@
       la fonction lorsque celle-ci est appelée.
       À ne pas confondre avec le terme [argument](#argument). Un paramètre est une variable,
       un argument est une valeur assignée à cette variable.
+  de:
+    term: "Parameter"
+    def: >
+      Die Parameter sind die Namen der Eingangswerte einer Funktion, welche beim Aufruf übergeben
+      werden. Parameter und Argumente sind verwandt aber nicht identisch. Ein Parameter ist eine
+      Variable und ein [Argument](#argument) ist dem der Variable zugewiesene Wert.
 
 
 - slug: parent_class
@@ -5636,7 +5846,7 @@
   tn:
     term: "kgolagano kgakala"
     def: >
-      Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o dirisa [SSH](#ssh).  
+      Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o dirisa [SSH](#ssh).
 
 
 - slug: remote_repository
@@ -6015,8 +6225,8 @@
     term: "Shiny"
     def: >
       A [R](#r_language) [package](#package) that makes it simple to build web applications to
-      interactively visualise and manipulate data. Often used to make interactive [graphs](graph) 
-      and [tables](#table) straight from [R](#r_language) without having 
+      interactively visualise and manipulate data. Often used to make interactive [graphs](graph)
+      and [tables](#table) straight from [R](#r_language) without having
       to know [HTML](#html), [CSS](#css) or JavaScript.
 
 
