@@ -5636,6 +5636,10 @@
     term: "raster image"
     def: >
       An image stored as a matrix of pixels.
+  es:
+    term: "imagen rasterizada"
+    def: >
+      Una imagen almacenada como una matriz de píxeles.
 
 
 - slug: reactive_programming
