@@ -4935,6 +4935,12 @@
       A [license](#license) that permits general re-use, such as the [MIT
       License](#mit_license) or [GPL](#gpl) for software and [CC-BY](#cc_by) or
       [CC-0](#cc_0) for data, prose, or other creative outputs.
+  es:
+    term: "licencia abierta"
+    def: >
+      Una [licencia](#license) que permite reuso en general, tal como la [Licencia MIT](#mit_license) 
+      o [GPL](#gpl) para software y [CC-BY](#cc_by) o
+      [CC-0](#cc_0) para datos, prosas u otros productos creativos.
 
 
 - slug: open_science
