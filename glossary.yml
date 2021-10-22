@@ -5206,6 +5206,10 @@
     term: "permalink"
     def: >
       Short for "permanent link", a URL that is intended to last forever.
+  es:
+    term: "permalink"
+    def: >
+      Abreviatura de "enlace permanente", una URL que se pretende que dure para siempre.
 
 
 - slug: phony_target
