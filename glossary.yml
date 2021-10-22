@@ -1865,6 +1865,10 @@
     term: "code review"
     def: >
       To check a program or a change to a program by inspecting its source code.
+  es:
+    term: "revisión de código"
+    def: >
+      Revisar un programa o un cambio a un programa inspeccionando su código fuente.
 
 
 - slug: coercion
