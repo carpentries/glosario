@@ -1040,7 +1040,10 @@
     term: "Bayes' Rule"
     def: >
       See [Bayes' Theorem](#bayes_theorem).
-
+  af:
+    term: "Bayes se rëel"
+    def: >
+      Sien [Bayes se stelling](#bayes_theorem).
 
 - slug: bayes_theorem
   ref:
