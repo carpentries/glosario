@@ -2447,6 +2447,10 @@
     term: "data scientist"
     def: >
       Someone who uses programming skills to solve statistical problems.
+  sw:
+    term: "mwanasayansi wa data"
+    def: >
+      mtu anayetumia ujuzi wa programu kutafuta suluhu/kusuluhisha matatizo ya takwimu.
   pt:
     term: "cientista de dados"
     def: >
