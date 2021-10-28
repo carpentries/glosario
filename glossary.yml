@@ -3699,6 +3699,10 @@
       traer cosas de un [módulo](#module) para incorporarlas al programa. En la mayoría
       de las lenguajes, un programa solo puede importar cosas que el módulo
       [exporta](#export) explícitamente.
+   tn:
+    term: "Go amogela go tswa ntle"
+    def: >
+     
 
 
 - slug: impostor_syndrome
