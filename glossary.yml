@@ -1134,6 +1134,11 @@
     def: >-
       Alle Datenmengen, die bis vor Kurzem vor zu umfangreich für die Analyse mit
       nur einem Computer waren.
+  af:
+    term: "Groot Data"
+    def: >
+      Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te
+      analiseer.
 
 
 - slug: binary
