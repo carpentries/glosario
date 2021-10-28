@@ -5039,10 +5039,11 @@
 
 - slug: package
   en:
-    term: "package"
+    term: "sephuthelo"
     def: >
-      A collection of code, data, and documentation that can be distributed and
-      re-used. Also referred to in some languages as a [library](#library) or [module](#module).
+      
+  tn:
+    term
   fr:
     term: "paquet (logiciel)"
     def: >
