@@ -2355,6 +2355,10 @@
     def: >
       Die gebruik van 'n rekendaar om te soek na patrone in groot datastelle. Die term [data wetenskap](#data_science) 
       word tans meer gebruik.
+  sw:
+    term: "Uchimbaji data"
+    def: >
+      Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia tarakilishi..
 
 
 - slug: data_package
