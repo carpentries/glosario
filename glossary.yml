@@ -835,6 +835,7 @@
       darstellen. In R können Assertionen nicht deaktiviert werden, daher werden
       externe [Pakete](#package) wie beispielsweise `assertr` zur Datenvalidierung verwendet
       ohne ein Sicherheitsrisiko darzustellen.
+      
 
 
 - slug: associative_array
@@ -1335,6 +1336,12 @@
       oder [falsch](#false) haben kann. Benannt nach George Boole, einem Mathematiker aus dem 19.
       Jahrhundert. Binärsysteme, wie alle Computer, beruhen auf der Verarbeitung von logischen
       Wahr-Falsch-Zuständen, 1 oder 0.
+  ind:
+    term: "Boolean"
+    def: >
+      Berkaitan dengan variabel atau tipe data yang dapat memiliki nilai logika benar atau salah. 
+      Istilah boolean diambil dari nama George Boole, seorang matematikawan abad ke-19. Sistem biner, 
+      seperti semua komputer, dibangun di atas dasar sistem evaluasi logis true / false, 1 atau 0.
 
 - slug: branch
   en:
