@@ -385,6 +385,10 @@
     term: "affordance"
     def: >
       A property of something that suggests how it can be used, such as a handle or button.
+  ind:
+    term: "keterjangkauan"
+    def: >
+      suatu properti yang menyatakan bagaimana suatu hal dapat digunakan, seperti pegangan atau tombol.
   af:
     term: "bekostigbaarheid"
     def: >
