@@ -901,6 +901,11 @@
     def: >
       Ein Name-Wert Paar welches einem Objekt zugewiesen ist und in der Regel Metadaten
       über das Objekt, wie beispielsweise seine Größe, speichert.
+  ind:
+    term: "atribut"
+    def: >
+      Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk menyimpan metadata tentang 
+      suatu objek seperti dimensi dari array.
 
 
 - slug: auto_completion
