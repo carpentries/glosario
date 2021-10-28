@@ -2363,6 +2363,11 @@
     def: >
       A software package that, mostly, contains only data. Is used to make it simpler
       to disseminate data for easier use.
+  af:
+    term: "data pakket"
+    def: >
+      'n Sagteware pakket wat meestal net data bevat. Word gebruik om dit eenvoudiger te maak
+      om data te versprei vir makliker gebruik.
 
 
 - slug: data_science
