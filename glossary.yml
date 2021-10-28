@@ -429,6 +429,10 @@
     term: "aggregation function"
     def: >
       A function that combines many values into one, such as `sum` or `max`.
+  ind:
+    term: "fungsi Agregasi"
+    def: >
+      Sebuah fungsi untuk memadatkan beberapa nilai menjadi sebuah nilai, misalnya `sum` atau `max`.
   es:
     term: "función de agregación"
     def: >
