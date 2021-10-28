@@ -2380,6 +2380,10 @@
     term: "datawetenskap"
     def: >
       Die kombinasie van statistiek en programmering wat gebruik word om kennis vanuit data te ontgin.
+  sw:
+    term: "sayansi ya data"
+    def: >
+      mchanganyiko wa takwimu, programu na kazi ngumu inayotumika kupata maarifa kutoka kwa data.
 
 
 - slug: data_scientist
