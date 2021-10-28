@@ -359,7 +359,10 @@
   sw:
     term: "matokeo halisi"
     def: >
-      
+      Huonyesha matokeo ya kujaribu msimbo kwenye tarakilishi. Ikiwa hili linafanana na [matokeo halisi]
+      (#expected_result), hilo jaribio [hupita](#pass_test); Ikiwa upatalo na matokeo halisi
+      sio sawa, huo msimbo huwa [jaribio lililoshindikana](#fail_test)
+
   af:
     term: "absolute resultaat (van 'n toets)"
     def: >
