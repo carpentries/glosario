@@ -362,8 +362,7 @@
       Huonyesha matokeo ya kujaribu msimbo kwenye tarakilishi. Ikiwa hili linafanana na [matokeo halisi]
       (#expected_result), hilo jaribio [hupita](#pass_test); Ikiwa upatalo na matokeo halisi
       sio sawa, huo msimbo huwa [jaribio lililoshindikana](#fail_test)
-      
-    
+
   af:
     term: "absolute resultaat (van 'n toets)"
     def: >
@@ -839,6 +838,7 @@
       darstellen. In R können Assertionen nicht deaktiviert werden, daher werden
       externe [Pakete](#package) wie beispielsweise `assertr` zur Datenvalidierung verwendet
       ohne ein Sicherheitsrisiko darzustellen.
+      
 
 
 - slug: associative_array
@@ -1237,6 +1237,11 @@
       Ein Bit ist eine Informationseinheit, die nur zwei Alternativen
       darstellen kann. Beispiele hierfür sind Ja/ Nein, Wahr / Falsch. In der
       Computerwelt als 0 und 1 dargestellt.
+  ind:
+    term: "bit"
+    def: >
+      Sebuah unit informasi yang merepresentasikan beberapa alternatif, ya/tidak, (true)[#true]/(false)[#false]. 
+      Di dalam komputasi, bit adalah 0 atau 1.
 
 
 - slug: blob
@@ -1339,6 +1344,12 @@
       oder [falsch](#false) haben kann. Benannt nach George Boole, einem Mathematiker aus dem 19.
       Jahrhundert. Binärsysteme, wie alle Computer, beruhen auf der Verarbeitung von logischen
       Wahr-Falsch-Zuständen, 1 oder 0.
+  ind:
+    term: "Boolean"
+    def: >
+      Berkaitan dengan variabel atau tipe data yang dapat memiliki nilai logika benar atau salah. 
+      Istilah boolean diambil dari nama George Boole, seorang matematikawan abad ke-19. Sistem biner, 
+      seperti semua komputer, dibangun di atas dasar sistem evaluasi logis true / false, 1 atau 0.
 
 - slug: branch
   en:
@@ -1535,6 +1546,10 @@
     term: "call stack"
     def: >
       A data structure that stores information about the active subroutines executed.
+  ind:
+    term: "call stack"
+    def: >
+     Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin aktif yang sedang dijalankan.
 
 
 - slug: callback
@@ -5622,8 +5637,10 @@
     term: "R (linguagem de programação)"
     def: >
       Uma linguagem de programação de código aberto usada principalmente para ciência de dados.
-
-
+  tn:
+    term: "R ( Puo e e laelang dibalamakgolo/dikhomphutara)"
+    def: >
+  
 - slug: r_markdown
   ref:
     - computational_notebook
