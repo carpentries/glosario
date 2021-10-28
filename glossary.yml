@@ -1234,6 +1234,11 @@
       Ein Bit ist eine Informationseinheit, die nur zwei Alternativen
       darstellen kann. Beispiele hierfür sind Ja/ Nein, Wahr / Falsch. In der
       Computerwelt als 0 und 1 dargestellt.
+  ind:
+    term: "bit"
+    def: >
+      Sebuah unit informasi yang merepresentasikan beberapa alternatif, ya/tidak, (true)[#true]/(false)[#false]. 
+      Di dalam komputasi, bit adalah 0 atau 1.
 
 
 - slug: blob
