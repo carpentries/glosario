@@ -2350,6 +2350,11 @@
     def: >
       The use of computers to search for patterns in large datasets. The term [data
       science](#data_science) is now more commonly used.
+  af:
+    term: "data-ontgining"
+    def: >
+      Die gebruik van 'n rekendaar om te soek na patrone in groot datastelle. Die term [data wetenskap](#data_science) 
+      word tans meer gebruik.
 
 
 - slug: data_package
