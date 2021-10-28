@@ -1527,6 +1527,10 @@
     term: "call stack"
     def: >
       A data structure that stores information about the active subroutines executed.
+  ind:
+    term: "call stack"
+    def: >
+     Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin aktif yang sedang dijalankan.
 
 
 - slug: callback
