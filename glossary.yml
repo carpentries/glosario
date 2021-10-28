@@ -2393,11 +2393,15 @@
     def: >
       Die gebruik van 'n rekendaar om te soek na patrone in groot datastelle. Die term [data wetenskap](#data_science) 
       word tans meer gebruik.
+  zu:
+    term: "ukumbiwa kwedatha"
+    def: >
+      The use of computers to search for patterns in large datasets. The term [data
+      science](#data_science) is now more commonly used.
   sw:
     term: "Uchimbaji data"
     def: >
-      Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia tarakilishi..
-
+      Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia tarakilishi.
 
 - slug: data_package
   en:
