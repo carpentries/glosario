@@ -140,7 +140,7 @@ following to the `_config.yml` file under the `language:` entry, respecting the 
 
 ### 3. Add the two-letter code to the script checking the content of the glossary
 
-To make sure that entries in the glossary for the language added will be recognized, you need to add the two-letter ISO code for the language in the Python script `[utils/check-glossary.py](https://github.com/carpentries/glosario/blob/master/utils/check-glossary.py#L33)`:
+To make sure that entries in the glossary for the language added will be recognized, you need to add the two-letter ISO code for the language in the Python script [`utils/check-glossary.py`](https://github.com/carpentries/glosario/blob/main/utils/check-glossary.py#L33):
 
 ```python
 ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'bn', 'de', 'en', 'es', 'fr', 'he', 'it', 'ja', 'nl', 'pt', 'zu'}
