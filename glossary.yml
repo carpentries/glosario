@@ -2480,6 +2480,15 @@
       characterise a set of data values and their representation (or [encoding](#character_encoding)),
       the relationships between values, and ways to access or manipulate those data, such as
       reading, altering, or writing.
+   
+   
+- slug: data_visualization
+  en:
+    term: "data visualization"
+    def: >
+      The creation of charts, maps, graphs, or infographics to translate datasets into something visual.
+      Sometimes called "dataviz" or "data viz."
+     
 
 - slug: data_wrangling
   en:
