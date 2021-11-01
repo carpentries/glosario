@@ -3214,6 +3214,12 @@
       meaning they do not modify the global program state, or do anything other than computing
       the return value, such as writing output to a [log](#log) file, or printing to the [console](#console).
 
+- slug: garbage_in_garbage_out
+  en:
+    term: "garbage in, garbage out"
+    acronym: "GIGO"
+    def: >
+      The idea that messy data as an input will result in messy data as an output.
 
 - slug: generator_function
   ref:
