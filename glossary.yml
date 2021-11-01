@@ -3762,6 +3762,14 @@
       archivos en el disco.
 
 
+- slug: immutable_type
+  en:
+    term: "immutable type"
+    def: >
+      Immutable is when no change is possible over time.
+      An object of this type can not be changed and its state can not be modified after it is created.
+
+
 - slug: import
   en:
     term: "import"
@@ -4713,6 +4721,12 @@
       are usually more efficient than [single-threaded](#single_threaded) ones, but
       also harder to understand and debug.
 
+
+- slug: mutable_type
+  en:
+    term: "mutable type"
+    def: >
+      An object of this type may be changed and its state can be modified after it is created.
 
 - slug: mutation
   en:
