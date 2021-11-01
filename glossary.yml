@@ -2398,13 +2398,6 @@
       Una estructura de datos bi-dimensional para guardar datos tabulares en memoria.
       Líneas representan [entradas](#record) y columnas representan [variables](#variable_data).
 
-- slug: data_masking
-  en:
-    term: "data masking"
-    def: >
-      Altering data in a dataset to anonymize or otherwise remove identifying information.
-      For example, real names might be swapped out with fictional names to provide name-based data
-      without referencing actual people.
 
 - slug: data_mining
   en:
