@@ -2964,6 +2964,10 @@
     term: "fail (a test)"
     def: >
       A test fails if the [actual result](#actual_result) does not match the [expected result](#expected_result).
+  tn:
+    term: "E tlholegile (teko)"
+    def: >
+      Teko e tlholega fa dipholo tsa tlhomamisho di sa chwane le dipholo tse di ne di letetswe.
 
 
 - slug: "false"
