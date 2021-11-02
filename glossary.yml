@@ -5748,10 +5748,7 @@
     term: "R (linguagem de programação)"
     def: >
       Uma linguagem de programação de código aberto usada principalmente para ciência de dados.
-  tn:
-    term: "R ( Puo e e laelang dibalamakgolo/dikhomphutara)"
-    def: >
-  
+
 - slug: r_markdown
   ref:
     - computational_notebook
