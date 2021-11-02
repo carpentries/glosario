@@ -3082,7 +3082,7 @@
     def: >
       Der Teil des [Betriebssystems](#operating_system), der verwaltet wie Dateien gespeichert
       und abgerufen werden. Der Begriff wird auch als Referenz für alle Dateien und
-      [Verzeichnisse](#directories) verwendet, oder für die spezifische Art, wie Dateien
+      [Verzeichnisse](#directory) verwendet, oder für die spezifische Art, wie Dateien
       gespeichert werden (z.B. "das Unix-Dateisystem").
   es:
     term: "sistema de archivos"
@@ -4474,8 +4474,6 @@
   ref:
     - latex
     - xml
-    - markdown
-    - html
   en:
     term: "markup language"
     def: >
