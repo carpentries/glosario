@@ -3714,6 +3714,12 @@
     def: >
       The standard [markup language](#markup_language) used for web pages. HTML is
       represented in memory using [DOM](#dom) (Digital Object Model).
+  de:
+    term: "Hypertext-Auszeichnungssprache"
+    acronym: "HTML"
+    def: >
+      Die Standard-[Auszeichnungssprache](#markup_language) für Webseiten. HTML wird
+      im Speicher durch das [Dokumenten-Objekt-Modell](#dom) repräsentiert.
 
 
 - slug: http
@@ -4073,6 +4079,13 @@
       A typesetting system for document preparation that uses a specialized [markup language](#markup_language) to define a document structure
       (e.g., headings), stylise text, insert mathematical equations, and manage citations and cross-references. LaTeX is widely
       used in academia, in particular for scientific papers and theses in mathematics, physics, engineering, and computer science.
+  de:
+    term: "LaTeX"
+    def: >
+      Ein Textsatzsystem zum Erstellen von Dokumenten, das eine spezielle [Auszeichnungssprache](#markup_language)
+      nutzt, um die Dokument-Struktur (z.B. Titel) zu definieren, Text zu setzen, mathematische Gleichungen einzufügen
+      und Zitate und Querverweise zu verwalten. LaTeX  wird häufig in der akademischen Welt verwendet, besonders für
+      wissenschaftliche Veröffentlichungen und Abschlussarbeiten in Mathematik, Physik, Maschinenbau und Informatik.
   fr:
     term: "LaTeX"
     def: >
@@ -4420,6 +4433,12 @@
     def: >
       A [markup language](#markup_language) with a simple syntax intended as a replacement for [HTML](#html).
       Markdown is often used for README files, and is the basis for [R markdown](#r_markdown).
+  de:
+    term: "Markdown"
+    def: >
+      Eine [Auszeichnungssprache](#markup_language) mit einfacher Syntax, die als Ersatz für [HTML](#html)
+      vorgesehen ist. Markdown wird oft für README (lies mich) Dateien verwendet und ist die Basis von
+      [R Markdown](#r_markdown).
   fr:
     term: "Markdown"
     def: >
@@ -4444,6 +4463,8 @@
   ref:
     - latex
     - xml
+    - markdown
+    - html
   en:
     term: "markup language"
     def: >
@@ -4451,6 +4472,13 @@
       displayed. The markup is usually not displayed, but instead controls how the
       underlying text is interpreted or shown. [Markdown](#markdown) and [HTML](#html)
       are widely-used markup languages for web pages.
+  de:
+    term: "Auszeichnungssprache"
+    def: >
+      Ein Regelwerk zur Annotation von Text, um zu definieren, was er bedeutet oder wie er
+      dargestellt werden soll. Die Textauszeichnung wird in der Regel nicht dargestellt, sondern
+      kontrolliert wie der zu Grunde liegende Text interpretiert oder angezeigt wird. [Markdown](#markdown)
+      und [HTML](#html) sind weit verbreitete Auszeichnungssprachen für Internetseiten.
   fr:
     term: "langage de balisage"
     def: >
