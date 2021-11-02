@@ -3196,6 +3196,15 @@
       コードブロックとして名前を付けて定義したもの。関数は任意の引数を使って、
       入力ともしあれば返された出力(返り値)を定義します。関数は定義されたタスクを、
       関数呼び出しと呼ばれる１つのコマンドで繰り返し使用することを可能にします。
+  de:
+    term: "Funktion"
+    def: >
+      Eine Funktion ist ein in sich abgeschlossener Teil eines Programmcodes, der eine Abfolge
+      von Anweisungen umfasst und mehrere optionale oder notwendige Eingansparameter akzeptieren
+      kann. Funktionen haben einen eindeutigen Namen, der es erlaubt die Funktion durch einen
+      Funktionsaufruf mehrfach in einem Programm zu verwenden. Eine Funktion kann mehrere optionale
+      oder notwendige Eingangsparameter akzeptieren. Eine Funktion kann Werte zurückgeben, deren
+      Datentypen in einer Funktionsdokumentation niedergeschrieben sein sollten.
 
 
 - slug: functional_programming
