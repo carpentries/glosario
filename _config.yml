@@ -112,6 +112,11 @@ languages:
     title: מילון מונחים
     blurb: >
       in translation
+  - key: in
+    name: bahasa Indonesia
+    title: Glosarium
+    blurb: >-
+      to translate
   - key: it
     name: Italiano
     title: Glossario
