@@ -72,6 +72,10 @@
         من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات.
 
 
+  am:
+    term: 68-95-99.7 ደንብ
+    def: >
+      68% የሥነ-ምግባር እሴቶች በአንድ [መሥፈርት) ውስጥ እንደሚመደቡ ይገልፃሉ:: የ[ማለት](#mean)[standard deviation](#standard_deviation) 95% በሁለት ውስጥ ያርፋል፣ እና 99.7% በሶስት ውስጥ ያርፋል. በተቃራኒው ደግሞ 0.3% ገደማ የሚሆኑት እሴቶች ከሦስት በላይ ናቸው አብዛኛውን ጊዜ ከዚያ በላይ ወይም ከዚያ በታች ያሉደረጃዎች።
 - slug: abandonware
   bn:
     term: "বিসর্জনকৃত সফটওয়্যার"
@@ -107,11 +111,14 @@
       Un logiciel qui n'est plus maintenu.
   ar:
     term: "البرمجيات المهجورة أو المتروكة"
+  am:
+    term: የተተወው ዌር
     def: >
        هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
        ولم تعد على قيد الصيانة.
 
 
+      ከአሁን በኋላ እየተስተካከለ ያለው ዌር።
 - slug: absolute_error
   de:
     term: "Absoluter Fehler"
@@ -165,6 +172,10 @@
        [الخطأ النسبي](#relative_error).
 
 
+  am:
+    term: ፍጹም ስህተት
+    def: >
+      በተመለከተው እና በትክክለኛው እሴት መካከል ያለው ልዩነት ፍጹም እሴት። ፍፁም ስህተት አብዛኛውን ጊዜ ከ [አንፃራዊ ስህተት](#relative_error) ያነሰ ጠቀሜታ አለው ፡፡
 - slug: absolute_path
   ref:
     - relative_path
@@ -220,6 +231,10 @@
         المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا.
 
 
+  am:
+    term: ፍጹም መንገድ
+    def: በ [የፋይል ስርዓት ውስጥ ወደ ተመሳሳይ ሥፍራ የሚጠቁም መንገድ የሚገመገምበት ቦታ ምንም ይሁን ምን ፡፡ ፍፁም ጎዳና
+      እኩል ነው ጂኦግራፊ ውስጥ ኬክሮስ እና ኬንትሮስ
 - slug: absolute_row_number
   de:
     term: "Absolute Zeilennummer"
@@ -261,6 +276,9 @@
         هو الفهرس المتسلسل لصف في جدول، بغض النظر عن أي قسم من اقسام الجدول يتم عرضها.
 
 
+  am:
+    term: ፍጹም ረድፍ ቁጥር
+    def: የትኞቹም ክፍሎች ቢኖሩ በሠንጠረዥ ውስጥ የአንድ ረድፍ ቅደም ተከተል ማውጫ ጠረጴዛ እየታየ ነው ፡፡
 - slug: abstract_method
   de:
     term: "Abstrakte Methode"
@@ -314,6 +332,11 @@
       [الفئات الفرعية](#child_class).
 
 
+  am:
+    term: abstract method
+    def: "በ [ነገር-ተኮር መርሃግብር](#oop) ውስጥ አንድ [ዘዴ](#method) ተገልፇል ነገር ግን አልተተገበረም ፡፡
+      መርሃግብሮች [ወላጅ] ውስጥ ረቂቅ ዘዴን ይገልፃሉ ክፍል](#parent_class) [የህፃናት ክፍሎች](#child_class)
+      ማቅረብ አለበት ፡፡ \n"
 - slug: abstract_syntax_tree
   en:
     term: "abstract syntax tree"
@@ -341,6 +364,10 @@
       'n ander nasaatontledingsboom wat die [lusraam](#loop_body) verteenwoordig.
 
 
+  am:
+    term: ረቂቅ አገባብ ዛፍ
+    def: >
+      አወቃቀሩን የሚወክል በጥልቀት የተቀመጠ የውሂብ መዋቅር ወይም [ዛፍ](#tree)ፕሮግራም ለምሳሌ ፣ AST ሀ ን የሚወክል [መስቀለኛ መንገድ](#node) ሊኖረው ይችላል ["while` loop](#while_loop) ከአንድ [ልጅ](#child_tree) ጋር ሁኔታ እና ሌላ የ [loop አካል](#loop_body ን የሚወክል)።
 - slug: actual_result
   de:
     term: "Tatsächliches Ergebnis"
@@ -396,6 +423,9 @@
       lêerhanteerder of 'n knoppie.
 
 
+  am:
+    term: አቅም
+    def: "የአንድ ነገር ንብረት እንደ መያዣ ወይም አዝራር እንዴት መጠቀም እንደሚቻል የሚጠቁም \n"
 - slug: aggregation
   en:
     term: "aggregation"
@@ -540,6 +570,11 @@
       Στην πληροφορική, αλγόριθμος είναι ένα σύνολο από εντολές σε κάποιο πρόγραμμα οι οποίες επιλύουν κάποιο
       υπολογιστικό πρόβλημα.
 
+  am:
+    term: ስልተ ቀመር
+    def: "አንድ ስልተ-ቀመር አንድን የተወሰነን ነገር ለማከናወን ሊከተሏቸው የሚገቡ እርምጃዎች ፣ ጥሰቶች ወይም ህጎች ስብስብነው
+      \ አልጎሪዝም  በኮምፒተር ሳይንስ ውስጥ  የሂሳብ ችግሮችን ለመፍታት የተቀመጡ የኮምፒተር ፕሮግራም መመሪያዎች ስብስብ ነው
+      \n"
 - slug: aliasing
   en:
     term: "aliasing"
@@ -643,6 +678,11 @@
       `lambda` definiert.
 
 
+  am:
+    term: ስም-አልባ ተግባር
+    def: "ስም ያልተመደበ ተግባር። ስም-አልባ ተግባራት ብዙውን ጊዜ  በጣም አጭር  እና አብዛኛውን ጊዜ ጥቅም ላይ በሚውሉበትን
+      ቦታ የሚገልፁ ናቸዉ  ፣ ለምሳሌ ፣ እንደ የመልሶ መደወያዎች። በ [Python](#python) ውስጥ እነዚህ ላምበዳ ተግባራት
+      ተብለው የሚጠሩ  እና በ lambda የተጠበቀ ቃል የተፈጠሩ ናቸው \n"
 - slug: anti_join
   ref:
     - anti_join
@@ -669,6 +709,9 @@
       coinciden con las de la tabla B.
 
 
+  am:
+    term: ፀረ መቀላቀል
+    def: "በረድፎች ሠንጠረዥ ሀን ከሠንጠረዥ ለ እንዳይቀላቀሉ የሚያግዱ (#join) ቁልፎች  *ቁልፎች* \n"
 - slug: api
   en:
     term: "Application Programming Interface"
@@ -700,11 +743,11 @@
   de:
     term: "Schnittstelle zur Programmierung von Anwendungen"
     def: >
-      Eine Sammlung von Funktionen und Prozeduren die von einer
-      Softwarebibliothek bereitgestellt werden, sodass eine andere Software  damit
-      interagieren kann. Eine API ist nicht der Code, die Datenbasis oder ein Server
-      sie ist lediglich der Anküpfungspunkt.
-
+      Eine Sammlung von Funktionen und Prozeduren die von einer Softwarebibliothek bereitgestellt werden, sodass eine andere Software  damit interagieren kann. Eine API ist nicht der Code, die Datenbasis oder ein Server sie ist lediglich der Anküpfungspunkt.
+  am:
+    term: የትግበራ ፕሮግራም በይነገጽ
+    def: >
+      በአንድ የሶፍትዌር ቤተ-መጽሐፍት ወይም ድር የሚሰጡ የተግባሮች እና የአሠራር ሂደቶች ስብስብ ሌላ መተግበሪያ ከእሱ ጋር መገናኘት የሚችልበት አገልግሎት። ኤፒ አይ ኮድ አይደለም  ፣ የመረጃ ቋቱ ወይም አገልጋዩ የመዳረሻ ነጥብ ነው ፡፡
 - slug: append_mode
   en:
     term: "append mode"
@@ -721,6 +764,10 @@
       bygevoeg inplaas van oorskryf moet word.
 
 
+  am:
+    term: አባሪ ሁነታ
+    def: >
+      በቀደመው ፋይል ይዘቶች ላይ ከመፃፍ ይልቅ አሁን ባለው ፋይል መጨረሻ ላይ ውሂብ ለማከል ። እንደገና መፃፍ የነበረዉ ነው ፣ ስለሆነም አብዛኛዎቹ የፕሮግራም ቋንቋዎች በምትኩ ለመተካት ፕሮግራሞች ግልጽ እንዲሆኑ ይጠይቃሉ።
 - slug: argument
   en:
     term: "argument"
@@ -771,6 +818,10 @@
       der beim Funktionsaufruf übergeben wird.
 
 
+  am:
+    term: ክርክር
+    def: >
+      ቃሉ ግራ መጋባት የለበትም ፣ ተመሳሳይ ቃልም  አይደለም ፣ [ግቤት](#parameter)። ክርክር ምናልባት ከበርካታ አገላለጾች አንዱ እና ወደ ተግባር የሚተላለፉ ነው ፡፡ እሱም  የተላለፈው ትክክለኛ እሴት ነው። መለኪያዎች እና ክርክሮች የተለዩ ናቸው ፣ ግን ተዛማጅ ፅንሰ ሀሳቦች ናቸው። መለኪያዎች ተለዋዋጮች ናቸው  ክርክሮች ደግሞ ለእነዚያ ተለዋዋጮች የተሰጡ እሴቶች ናቸው።
 - slug: arithmetic_mean
   en:
     term: "arithmetic mean"
@@ -796,6 +847,10 @@
       Sien [gemiddelde](#mean).
 
 
+  am:
+    term: የሂሳብ ሚዛን
+    def: >
+      ይመልከቱ [ማለት](#mean)
 - slug: ascii
   en:
     term: "ASCII"
@@ -820,6 +875,10 @@
       abgelöst.
 
 
+  am:
+    term: አስኪ
+    def: >
+      በምዕራብ አውሮፓ ቋንቋዎች ውስጥ ጥቅም ላይ የዋሉ ገጸ-ባህሪያትን ለመወከል የሚጠቅም መደበኛ መንገድ እንደ 7 ወይም 8 ቢት ቁጥሮች ፣ አሁን በ [ዩኒኮድ](#unicode) የሚተዳደሩ
 - slug: assertion
   en:
     term: "assertion"
@@ -868,6 +927,10 @@
       
 
 
+  am:
+    term: ማረጋገጫ
+    def: >
+      በአንድ [የተወሰነ] ቦታ ፕሮግራም ዉስጥ  ግዴታ  [እውነተኛ](#boolean) መሆን ያለበት የ [ቦሊያን](#true) አገላለጽ ነዉ.  ምልከታዎች በቋንቋው ውስጥ ሊገነቡ ይችላሉ (ለምሳሌ ፣ [ፓይቶን](#python) ዎቹ እንደ "ማረጋገጫ" መግለጫ ወይም እንደ ተግባራት ይቀርባሉ ል (ለምሳሌ ፣ [R](#r_language) 'stopifnot')።  ብዙውን ጊዜ ለሙከራ ጥቅም ላይ ይውላሉ ፣ ግን ደግሞ በትክክል እየሰራ መሆኑን ለማጣራት   [በምርት ኮድ](#production_code ውስጥ ይቀመጣሉ፡፡  በብዙ ቋንቋዎች ማረጋገጫዎች መሆን የለባቸውም በአቀነባባሪዎች እና በአስተርጓሚዎች በዝምታ ሊጣሉ ስለሚችሉ የውሂብ ማረጋገጫ ለማከናወን ያገለግል ነበር በማመቻቸት ሁኔታዎች ውስጥ. ለመረጃ ማረጋገጫ ማረጋገጫዎችን መጠቀም ይችላል የደህንነት አደጋዎችን ያስተዋውቁ ፡፡ ከብዙ ቋንቋዎች በተለየ መልኩ አር "ማረጋገጫ" መግለጫ የለውም ሊቦዝን ይችላል ፣ እና ስለዚህ እንደ "assertr`" የመሰለ [ጥቅል](#package) መጠቀም ማረጋገጫ የደህንነት ቀዳዳዎችን አይፈጥርም ፡፡
 - slug: associative_array
   en:
     term: "associative array"
@@ -883,6 +946,10 @@
       Siehe [Wörterbuch](#dictionary).
 
 
+  am:
+    term: ተጓዳኝ ድርድር
+    def: >
+      [መዝገበ-ቃላትን](#dictionary) ይመልከቱ (#dictionary)።
 - slug: asynchronous
   ref:
     - synchronous
@@ -910,6 +977,10 @@
       oder beendet.
 
 
+  am:
+    term: ያልተመሳሰለ
+    def: >
+      በተመሳሳይ ጊዜ አለመከሰት ፡፡ በፕሮግራም ውስጥ ያልተመሳሰለ አሠራር አንዱ  ከሌላው በተናጠል የሚሮጥ ፣ ወይም በተመሳሳይ  ጊዜ ተጀምሮ በሌላ ጊዜ ያበቃል ፡፡
 - slug: attribute
   en:
     term: "attribute"
@@ -933,11 +1004,14 @@
       über das Objekt, wie beispielsweise seine Größe, speichert.
   in:
     term: "atribut"
+  am:
+    term: አይነታ
     def: >
       Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk menyimpan metadata tentang 
       suatu objek seperti dimensi dari array.
 
 
+      የስም እሴት ጥንድ  ከእቃ ጋር የተዛመደ  እንደ ድርድር ልኬቶች ያሉ ነገሮች ለማከማቸት የሚጠቅም
 - slug: auto_completion
   en:
     term: "auto-completion"
@@ -968,6 +1042,10 @@
       Konsole oder Text-Editor, schnell Wörter oder Ausdrücke zu vervollständigen. Normalweise
       ist diese Funktion der Tabulatortaste (TAB) zugewiesen.
 
+  am:
+    term: ራስ-ማጠናቀቅ
+    def: >
+      ተጠቃሚው የ TAB ቁልፍን በመጫን በፍጥነት በአጠቃቀሙ አንድ ቃል ወይም ኮድ  እንዲጨርስ ተጠቃሚው ሊመርጥበት የሚያስችል ባህሪ ነዉ;;
 - slug: automatic_variable
   ref:
     - makefile
@@ -981,11 +1059,11 @@
   af:
     term: "outomatiese veranderlike"
     def: >
-      'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boureël](#build_rule). Byvoorbeeld,
-      "Make" ken outomaties die naam van 'n reël se teiken aan die outomatiese veranderlike, '$@' toe.
-      Outomatiese veranderlikes word dikwels gebruik tydens die skryf van [patroonreëls](#pattern_rule).
-
-
+      'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boureël](#build_rule). Byvoorbeeld, "Make" ken outomaties die naam van 'n reël se teiken aan die outomatiese veranderlike, '$@' toe. Outomatiese veranderlikes word dikwels gebruik tydens die skryf van [patroonreëls](#pattern_rule).
+  am:
+    term: ራስ-ሰር ተለዋዋጭ
+    def: >
+      በ [የግንባታ ደንብ](#build_rule) ውስጥ በራስ-ሰር ዋጋ የሚሰጠው ተለዋዋጭ። ለምሳሌ ፣ የደንቡን ስም በራስ-ሰር ይመድቡ [ዒላማ](#build_target) ወደ ራስ-ሰር ተለዋዋጭ "$ @"። ራስ-ሰር ተለዋዋጮች ናቸው በሚጽፉበት ጊዜ ብዙ ጊዜ ጥቅም ላይ ይውላሉ [የንድፍ ህጎች](#pattern_rule)።
 - slug: backpropagation
   en:
     term: "backpropagation"
@@ -1006,6 +1084,12 @@
       in der Optimierung, basierend auf dem mittleren quadratischen Fehler.
 
 
+  am:
+    term: የጀርባ ማሰራጨት
+    def: "በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው ስልተ ቀመር አውታረ መረብ](#neural_network)።
+      የጀርባ ማሰራጨት ለመተግበር ብዙውን ጊዜ ጥቅም ላይ ይውላል [የግራዲያንት ዝርያ](#gradient_descent) ስልተ ቀመር
+      አውታረ መረብ](#ነርቭ_አውታረ መረብ) በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው  የጀርባ
+      ማሰራጨት ብዙውን ጊዜ  [የግራዲያንት ዝርያ](#gradient_descent) ለመተግበር ጥቅም ላይ ይውላል \n"
 - slug: backward_compatible
   en:
     term: "backward-compatible"
@@ -1042,6 +1126,10 @@
       ausgeführt werden kann.
 
 
+  am:
+    term: ወደኋላ-ተኳሃኝ
+    def: >
+      እርስ በእርስ ለመተባበር የሚያስችል የአንድ ስርዓት ፣ ሃርድዌር ወይም ሶፍትዌር ንብረት በድሮው የቅርስ ስርዓት ወይም ለእንዲህ ዓይነቱ ስርዓት በተዘጋጀ ግብዓት። ለምሳሌ በ [ፓይዘን](#function) 3 ውስጥ የተፃፈ [ተግባር](#python) 3 ሊሆን ይችላል ከፓይዘን ስሪት 2 ጋር በተሳካ ሁኔታ ያሂዱ ከኋላ-ተኳሃኝ ነው። የአንድ ስርዓት ፣ ሃርድዌር ወይም ሶፍትዌር ንብረት በድሮው የቅርስ ስርዓት ወይም ለእንዲህ ዓይነቱ ስርዓት  እርስ በእርስ ለመተባበር እንዲያስችል የተዘጋጀ ግብዓት። ለምሳሌ [ተግባር](#python)  በ [ፓይዘን](#function) 3 ውስጥ የተፃፈ ከፓይዘን ስሪት 2 ጋር በተሳካ ሁኔታ የሚሄዱ ከኋላ-ተስማሚ ነው።
 - slug: base_r
   ref:
     - tidyverse
@@ -1075,6 +1163,10 @@
       coincide con el de R. Los paquetes de R base se instalan y cargan junto con R, mientras que los
       paquetes prioritarios se instalan con R, pero deben ser cargados antes de utilizarse.
 
+  am:
+    term: ቤዝ አር
+    def: >
+      የ [R](#r_language) ቋንቋን የመሠረቱ መሠረታዊ ተግባራት። የመሠረት እሽጎች በ ውስጥ ሊገኙ ይችላሉ "src / library" እና ከ R ውጭ አይዘመኑም; የእነሱ ስሪት ቁጥሮች አር የስሪት ቁጥር። የመሠረት ፓኬጆች ተጭነው በ R ተጭነዋል ፣ ቅድሚያ የሚሰጠው ግን ፓኬጆች ከመሠረታዊ አር ጋር ተጭነዋል ነገር ግን ከመጠቀምዎ በፊት መጫን አለባቸው ፡፡ የ [R](#r_language) ቋንቋን የመሠረቱ መሠረታዊ ተግባራት። የመሠረት እሽጎች በ "src/library" ውስጥ ሊገኙ ይችላሉ እና ከ R ውጭ አይሻሻሉም; የእነሱ ስሪት ቁጥሮች የአር  ስሪት ቁጥርን ይከተላሉ።  መሠረት ፓኬጆች ጋር ከR ተጭነዉ ይዘረጋሉ፣ ቅድሚያ የሚሰጠው ግን ፓኬጆች ከመሠረታዊ አር ጋር ተጭነዋል ነገር ግን ከመጠቀም በፊት መጫን አለባቸው ፡፡
 - slug: bayes_rule
   en:
     term: "Bayes' Rule"
@@ -1085,6 +1177,10 @@
     def: >
       Sien [Bayes se stelling](#bayes_theorem).
 
+  am:
+    term: የባየስ ደንብ
+    def: >
+      [የባየስ ቲዎረም](#bayes_theorem) ይመልከቱ።
 - slug: bayes_theorem
   ref:
     - bayesian_network
@@ -1125,6 +1221,10 @@
       Un grafo que representa la relacion entre las variables aleatorias para un determinado problema.
 
 
+  am:
+    term: የባዬያን አውታረመረብ
+    def: >
+      ለተሰጠው ችግር በዘፈቀደ ተለዋዋጮች መካከል ያሉትን ግንኙነቶች የሚወክል ግራፍ ፡፡ በዘፈቀደ ተለዋዋጮች እና በተሰጠው ችግር  መካከል ያሉትን ግንኙነቶች የሚወክል ግራፍ ፡፡
 - slug: bias
   ref:
     - variance
@@ -1161,6 +1261,10 @@
       systematisch von dem wahren Wert einer Messgröße abweicht.
 
 
+  am:
+    term: ወገንተኝነት
+    def: >
+      ስታትስቲክስ በስርዓት ወይም በወጥነት ከ ‹የተለየ› ከሆነ አድሏዊ ነው ልኬት ሊገምተው ይገባል ፡፡ በስርዓት ወይም በወጥነት ከ ‹የተለየ› ከሆነ  ስታትስቲክስ አድሏዊ ነው ልኬት ሊገምተው ይገባል ፡፡
 - slug: big_data
   ref:
     - three_vs
@@ -1177,10 +1281,11 @@
   af:
     term: "Groot Data"
     def: >
-      Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te
-      analiseer.
-
-
+      Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te analiseer.
+  am:
+    term: ትልቅ መረጃ
+    def: >
+      ብዙ ሰዎች እስከ ቅርብ ጊዜ ድረስ በጣም ትልቅ ለነበሩት ብዙ መረጃዎች በ ‹ሀ› ላይ ለመስራት ነጠላ ኮምፒተር. ብዙ ሰዎች እስከ ቅርብ ጊዜ ድረስ በነጠላ ኮምፒተር በጣም ትልቅ ለነበሩት ብዙ መረጃዎች ሰርተዋል::
 - slug: binary
   en:
     term: "binary"
@@ -1206,11 +1311,11 @@
   es:
     term: "Binärsystem"
     def: >
-      Un sistema donde puede haber dos posibilidades de estado. En la computación,
-      el sistema binario se representa con el estado de 0 ó 1. En el sistema lógico [Booleano](#boolean),
-      [falso](#false) se representa con (0) y [verdadero](#true) con (1). Las computadoras operan en sistemas 
-      binarios donde almacenan [bits](#bit).
-
+      Un sistema donde puede haber dos posibilidades de estado. En la computación, el sistema binario se representa con el estado de 0 ó 1. En el sistema lógico [Booleano](#boolean), [falso](#false) se representa con (0) y [verdadero](#true) con (1). Las computadoras operan en sistemas  binarios donde almacenan [bits](#bit).
+  am:
+    term: ሁለትዮሽ
+    def: >
+      ከሁለት ሊሆኑ ከሚችሉ ግዛቶች ውስጥ አንዱን ሊኖረው የሚችል ስርዓት ፡፡ በኮምፒተር ውስጥ ብዙ ጊዜ በክፍለ-ግዛቱ 0 ወይም 1. የተወከለው በ [ቦሊያን](#boolean) ውስጥ ተወክሏል አመክንዮ እንደ [ሐሰት](#false) (0) ወይም [እውነት](#true) (1)። ኮምፒውተሮች ተገንብተዋል 0s እና 1s እንደ [ቢት](#bit) የሚያከማቹ ስርዓቶች ከሁለት በአንዱ ግዛቶች ውስጥ ሊኖር የሚችል ስርዓት ፡፡ በኮምፒተር ውስጥ ብዙ ጊዜ በ 0 ወይም 1 ይወከላል.  በ [ቦሊያን](#boolean) ውስጥ የተወከለው አመክንዮ እንደ [ሐሰት](#false) (0) ወይም [እውነት](#true) (1)። ኮምፒውተሮች  0s እና 1s እንደ [ቢት](#bit) እንዲያከማቹ ተገንብተዋል::
 - slug: binary_expression
   ref:
     - nullary_expression
@@ -1230,6 +1335,10 @@
       Uma expressão com dois argumentos ou parâmetros, como `1 + 2`, por exemplo.
 
 
+  am:
+    term: ሁለትዮሽ አገላለጽ
+    def: >
+      ሁለት መለኪያዎች ያሉት እና እንደ "1 + 2" ያሉ ሁለት ክርክሮችን የሚወስድ አገላለጽ።
 - slug: binomial_distribution
   ref:
     - discrete_random_variable
@@ -1250,6 +1359,10 @@
       a distribuição binomial se aproxima da [distribuição normal](#normal_distribution).
 
 
+  am:
+    term: ቢኖሚያል ስርጭት
+    def: >
+      እዚያ ሲኖር የሚነሳ አንድ [ፕሮባቢሊቲ ስርጭት](#probability_distribution) እነዚህ እያንዳንዳቸው ከሁለት ውጤቶች አንዱን ሊያወጡ የሚችሉ የተወሰኑ የሙከራ ሙከራዎች ናቸው የእነዚህ ውጤቶች ዕድል አይለወጥም ፡፡ እንደ ሙከራዎች ብዛት ይጨምራል ፣ የሁለትዮሽ ስርጭት አንድ [መደበኛ ስርጭት](#normal_distribution) በግምት። የተስተካከለ የሙከራ ቁጥር ሲኖር የሚነሳ አንድ [ፕሮባቢሊቲ ስርጭት](#probability_distribution) እያንዳንዳቸው ከሁለቱ ውጤቶች አንዱን ሊያመጣ ይችላል ፣ እናም የእነዚህ ውጤቶች ዕድል አይቀየርም። የሙከራዎች ቁጥር እየጨመረ በሄደ መጠን የሁለትዮሽ ማሰራጫው ወደ [መደበኛ ስርጭት](#normal_distribution) በግምት
 - slug: bit
   ref:
     - binary
@@ -1282,6 +1395,10 @@
       Di dalam komputasi, bit adalah 0 atau 1.
 
 
+  am:
+    term: ቢት
+    def: >
+      አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡
 - slug: blob
   en:
     term: "binary large object"
@@ -1315,6 +1432,10 @@
       Einzelkommentarsymbol in jeder Zeile, z.B. `#`, gekennzeichnet.
 
 
+  am:
+    term: አግድ አስተያየት
+    def: >
+      በርካታ መስመሮችን የሚያልፍ [አስተያየት](#comment)። የማገጃ አስተያየቶች ምልክት ሊደረግባቸው ይችላል እንደ "/ *" እና "* /" ባሉ ልዩ የመጀመሪያ እና መጨረሻ ምልክቶች በ C እና በትውልዶቹ ፣ ወይም እያንዳንዱ መስመር እንደ ‹#› ባለው ጠቋሚ ቅድመ-ቅጥያ ሊሆን ይችላል ፡፡ [አስተያየት](#comment) የበርካታ መስመሮች rመzt ። የማገጃ አስተያየቶች mnአlባtምልክት ሊደረግባቸው ይችላል እንደ "/ *" እና "* /" ባሉ ልዩ የመጀመሪያ እና መጨረሻ ምልክቶች በ C እና በትውልዶቹ ፣ ወይም እያንዳንዱ መስመር እንደ ‹#› ባለው ጠቋሚ ቅድመ-ቅጥያ ሊሆን ይችላል ፡፡
 - slug: boilerplate
   en:
     term: "boilerplate"
@@ -1337,6 +1458,10 @@
       [Autovervollständigung](#auto_completion) erstellt wird.
 
 
+  am:
+    term: ቦይለር ፕሌት
+    def: >
+      በሕጋዊ ኮንትራቶች ፣ ፈቃዶች ፣ ወዘተ ውስጥ የተካተተ መደበኛ ጽሑፍ ፡፡
 - slug: boolean
   ref:
     - truthy
@@ -1389,6 +1514,14 @@
       Istilah boolean diambil dari nama George Boole, seorang matematikawan abad ke-19. Sistem biner, 
       seperti semua komputer, dibangun di atas dasar sistem evaluasi logis true / false, 1 atau 0.
 
+  am:
+    term: ቡሊያን
+    def: "የሎጂካዊ እሴት ሊኖረው ከሚችለው ተለዋዋጭ ወይም የውሂብ ዓይነት ጋር ማዛመድ (እውነት) (#true) ወይም [ሐሰት](#false)
+      ፡፡ ለ 19 ኛ ጆርጅ ቡሌ ተብሎ ተሰይሟል ክፍለ ዘመን የሂሳብ ሊቅ የሁለትዮሽ ስርዓቶች ልክ እንደ ሁሉም ኮምፒውተሮች በዚህ
+      ላይ ተገንብተዋል በእውነተኛ እና በሐሰት ግዛቶች መካከል የሎጂካዊ ግምገማዎች ስርዓት መሠረት ፣ 1 የሎጂካዊ እሴት ሊኖረው
+      ከሚችለው ተለዋዋጭ ወይም የውሂብ ዓይነት ጋር ማዛመድ (እውነት)(#true) ወይም [ሐሰት](#false) ፡፡ የ19 ኛ ክፍለ
+      ዘመን የሂሳብ ሊቅ ጆርጅ ቡሌ ተብሎ ይጠራል :: የሁለትዮሽ ስርዓቶች ልክ እንደ ሁሉም ኮምፒውተሮች  በእውነተኛ,1 እና
+      በሐሰት,0  መሠረት ተገንብተዋል \n"
 - slug: branch
   en:
     term: "branch"
@@ -1396,6 +1529,10 @@
       See [Git branch](#git_branch).
 
 
+  am:
+    term: ቅርንጫፍ
+    def: >
+      [Git ቅርንጫፍ](#git_branch) ይመልከቱ።
 - slug: branch_per_feature_workflow
   en:
     term: "branch-per-feature workflow"
@@ -1406,6 +1543,10 @@
       is completed. This isolates changes from one another until they are completed.
 
 
+  am:
+    term: የቅርንጫፍ-በእያንዳንዱ-ባህርይ የስራ ፍሰት
+    def: >
+      ሥራን በ [Git](#git) እና በሌሎች [ስሪት ቁጥጥር] ጋር ለማስተዳደር የተለመደ ስልት ስርዓቶች] (#version_control_system) የተለየ [ቅርንጫፍ](#git_branch) ባለበት ለእያንዳንዱ አዲስ ባህሪ ወይም ለእያንዳንዱ [ሳንካ](#git) ጥገና እና ሥራ ሲሠራ ተዋህዷል ተጠናቅቋል ፡፡ ይህ እስኪጠናቀቁ ድረስ ለውጦች እርስ በእርስ ይለየዋቸዋል።
 - slug: breadcrumbs
   en:
     term: "breadcrumbs"
@@ -1443,6 +1584,13 @@
       by examining the first step of each possible solution, and then trying the next step
       for each.
 
+  am:
+    term: መጀመሪያ ስፋት
+    def: "ሁሉንም በመዳሰስ እንደ [ዛፍ](#tree) ያለ ጎጆ ባለው የውሂብ መዋቅር ውስጥ ማለፍ የአንድ ደረጃ ፣ ከዚያ ወደ
+      ቀጣዩ ደረጃ እና የመሳሰሉት መሄድ ፣ ወይም አንድ ችግርን ለመዳሰስ የእያንዳንዱን መፍትሄ የመጀመሪያ እርምጃ በመመርመር
+      እና ቀጣዩን እርምጃ በመሞከር ለእያንዳንድ. የእያንዳንዱን መፍትሄ የመጀመሪያ እርምጃ በመመርመር እና ቀጣዩን እርምጃ በመሞከር
+      ለእያንዳንድ. ሁሉንም በመዳሰስ እንደ [ዛፍ](#tree) ያለ ጎጆ ባለው የውሂብ መዋቅር ውስጥ ማለፍ የአንድ ደረጃ ፣ ከዚያ
+      ወደ ቀጣዩ ደረጃ እና የመሳሰሉት መሄድ ፣ ወይም አንድ ችግርን ለመዳሰስ \n"
 - slug: browser_cache
   en:
     term: "browser cache"
@@ -1463,6 +1611,10 @@
       Ein Bug ist ein Fehler oder Fehlfunktion einer Software.
 
 
+  am:
+    term: ሳንካ
+    def: >
+      የአንድ ሶፍትዌር ቁራጭ የጠፋ ወይም የማይፈለግ [ባህሪ](#feature_software); የአንድ አረም ዲጂታል አቻ ፡፡ የአንድ አረም ዲጂታል አቻ ; የአንድ ሶፍትዌር ቁራጭ የጠፋ ወይም የማይፈለግ [ባህሪ](#feature_software) ፡፡
 - slug: bug_report
   en:
     term: "bug report"
@@ -1479,6 +1631,10 @@
       seines des Softwarefehlers / Codefehlers gebraucht.
 
 
+  am:
+    term: የሳንካ ሪፖርት
+    def: >
+      የፋይሎች ስብስብ ፣ [መዝገቦች](#log) ፣ ወይም አንድን የሚገልጽ ተዛማጅ መረጃ የአንዳንድ ኮድ ወይም ፕሮግራም ያልተጠበቀ ውጤት ፣ ወይም ያልተጠበቀ ስህተት ወይም ማስጠንቀቂያ።  ይህ መረጃ በፕሮግራሙ ወይም በኮዱ ውስጥ [ሳንካ](#bug) ፈልጎ እንዲያስተካክል ለማገዝ ይጠቅማል ፡፡ የአንዳንድ ኮድ ወይም ፕሮግራም ያልተጠበቀ ውጤት ፣ ወይም ያልተጠበቀ ስህተት ወይም ማስጠንቀቂያ ወይም ተዛማጅ መረጃ የሚገልጽ  የፋይሎች ስብስብ ፣ [መዝገቦች](#log) ።  ይህ መረጃ በፕሮግራሙ ወይም በኮዱ ውስጥ [ሳንካ](#bug) ፈልጎ እንዲያስተካክል ለማገዝ ይጠቅማል ፡፡
 - slug: bug_tracker
   en:
     term: "bug tracker"
@@ -1487,6 +1643,11 @@
       program, to make it easier to address and fix the [bugs](#bug).
 
 
+  am:
+    term: ሳንካ መከታተያ
+    def: "ለሶፍትዌር [ሪፖርት የተደረጉ ስህተቶችን](#bug_report) የሚከታተል እና የሚያስተዳድር ስርዓት ፕሮግራሙን ፣
+      \"ሳንካዎቹን\" [bugs](#bug) ለማስተካከል እና ለማስተካከል ቀላል ለማድረግ። ሪፖርት የተደረጉ ስህተቶችን (#bug_report)
+      ለማስተካከል እና ቀላል ለማድረግ የሶፍትዌር ፕሮግራም የሚከታተል እና የሚያስተዳድር ስርዓት :: \n"
 - slug: build_manager
   ref:
     - build_rule
@@ -1502,6 +1663,10 @@
       in turn depend on raw data files or configuration files.
 
 
+  am:
+    term: የግንባታ ሥራ አስኪያጅ
+    def: >
+      ፋይሎች እንዴት እርስ በእርስ እንደሚተያዩ የሚከታተል እና ትዕዛዞችን የሚያከናውን ፕሮግራም ጊዜ ያለፈባቸውን ማናቸውንም ፋይሎች ለማዘመን ፡፡ የግንባታ ሥራ አስኪያጆች ተፈለሰፉባቸው እነዚያን የተለወጡ የፕሮግራሞቹን ክፍሎች ብቻ ያጠናቅሩ (ግን ያጠናቅሩ) ፣ ግን አሁን ናቸው ሴራዎች በውጤቶች ፋይሎች ላይ የሚመረኮዙባቸውን የሥራ ፍሰቶች ለመተግበር ብዙ ጊዜ ጥቅም ላይ ይውላሉ በምላሹ በጥሬ መረጃ ፋይሎች ወይም በውቅር ፋይሎች ላይ የተመሠረተ ነው። ጊዜ ያለፈባቸውን ማናቸውንም ፋይሎች ለማዘመን ፋይሎች እንዴት እርስ በእርስ እንደሚተያዩ የሚከታተል እና ትዕዛዞችን የሚያከናውን ፕሮግራም  ፡፡  የግንባታ ሥራ አስኪያጆች ተፈለሰፉባቸው እነዚያን የተለወጡ የፕሮግራሞቹን ክፍሎች ብቻ ያጠናቅሩ (ግን ያጠናቅሩ) ፣ ግን አሁን ናቸው ሴራዎች በውጤቶች ፋይሎች ላይ የሚመረኮዙባቸውን የሥራ ፍሰቶች ለመተግበር ብዙ ጊዜ ጥቅም ላይ ይውላሉ በምላሹ በጥሬ መረጃ ፋይሎች ወይም በውቅር ፋይሎች ላይ የተመሠረተ ነው።
 - slug: build_recipe
   en:
     term: "build recipe"
@@ -1510,6 +1675,10 @@
       that has fallen out-of-date.
 
 
+  am:
+    term: ግንባታ የምግብ አሰራር
+    def: >
+      አንድን ነገር እንዴት ማዘመን እንደሚቻል የሚገልጽ የ [የግንባታ ደንብ](#build_rule) ክፍል ጊዜው ያለፈበት ነው ፡፡ ክፍል ጊዜው ያለፈበትን አንድን ነገር እንዴት ማዘመን እንደሚቻል የሚገልጽ የ [የግንባታ ደንብ](#build_rule)  ነው ፡፡
 - slug: build_rule
   en:
     term: "build rule"
@@ -1518,6 +1687,10 @@
       files depend on others and what to do if those files are out-of-date.
 
 
+  am:
+    term: ደንብ ይገንቡ
+    def: >
+      የተወሰኑትን እንዴት እንደሚገልፅ ለ [የግንባታ ሥራ አስኪያጅ](#build_manager) ዝርዝር ፋይሎች በሌሎች ላይ ይወሰናሉ እና እነዚያ ፋይሎች ጊዜው ያለፈባቸው ከሆኑ ምን ማድረግ እንዳለባቸው ፡፡ የተወሰኑትን ፋይሎች በሌሎች ላይ ይወሰናሉ  እና እነዚያ ፋይሎች ጊዜው ያለፈባቸው ከሆኑ ምን ማድረግ እንዳለባቸው የሚገልፅ [የግንባታ ሥራ አስኪያጅ](#build_manager) ዝርዝር ነዉ ::
 - slug: build_stale
   en:
     term: "stale (in build)"
@@ -1526,6 +1699,10 @@
       manager](#build_manager)'s job is to find and update things that are stale.
 
 
+  am:
+    term: የቆየ (በግንባታ ላይ)
+    def: >
+      ከ [ቅድመ ሁኔታ](#prerequisite) ጋር ሲነፃፀር ጊዜው ያለፈበት መሆን። አንድ [ግንባታ አስተዳዳሪ](#build_manager) ሥራ የቆዩ ነገሮችን ፈልጎ ማዘመን ነው ፡፡
 - slug: build_target
   ref:
     - makefile
@@ -1536,6 +1713,10 @@
       The file(s) that a [build rule](#build_rule) will update if they are out-of-date
       compared to their [dependencies](#dependency).
 
+  am:
+    term: ግንባታ ዒላ ግንባታ ዒላማ
+    def: >
+      ጊዜው ያለፈባቸው ከሆኑ [የግንባታ ደንብ](#build_rule) የሚዘመኑ ፋይሎች (ሎች) ከእነሱ [ጥገኞች] ጋር ሲነፃፀር[dependencies](#dependency)።
 - slug: byte
   en:
     term: "byte"
@@ -1558,6 +1739,10 @@
       A set of instructions designed to be executed efficiently by an [interpreter](#interpreter).
 
 
+  am:
+    term: ባይት ኮድ
+    def: >
+      በ [አስተርጓሚ](#interpreter) በብቃት ለመፈፀም የታቀዱ መመሪያዎች ስብስብ።
 - slug: cache
   en:
     term: "cache"
@@ -1569,6 +1754,10 @@
       and should be replaced is one of the [two hard problems in computer science](#two_hard_problems).
 
 
+  am:
+    term: መሸጎጫ
+    def: >
+      ለወደፊቱ የሚጠየቁ ጥያቄዎች በበለጠ ፍጥነት እንዲረካ  የውሂብ ቅጅዎችን የሚያከማች ነገር :: በኮምፒተር ውስጥ ያለው ሲፒዩ ለመያዝ የሃርድዌር መሸጎጫ ይጠቀማል በቅርብ ጊዜ የተደረሱ እሴቶች; ብዙ ፕሮግራሞች ለመቀነስ በሶፍትዌር መሸጎጫ ላይ ይተማመናሉ የኔትወርክ ትራፊክ እና መዘግየት። በመሸጎጫ ውስጥ አንድ ነገር ጊዜው ያለፈበት መሆኑን ማወቅ መተካት ያለበት ከ [በኮምፒተር ሳይንስ ውስጥ ሁለት ከባድ ችግሮች] አንዱ ነው (#two_hard_problems) ፡፡
 - slug: caching
   en:
     term: "caching"
@@ -1590,6 +1779,9 @@
      Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin aktif yang sedang dijalankan.
 
 
+  am:
+    term: የጥሪ ቁልል
+    def: "የተተገበሩ  ንቁ ንዑስ አንቀጾች መረጃን የሚያከማች የውሂብ መዋቅር ።\t\n"
 - slug: callback
   en:
     term: "callback function"
@@ -1612,6 +1804,10 @@
       [Antwort](#http_response) geliefert wird.
 
 
+  am:
+    term: የመልሶ መደወያ ተግባር
+    def: >
+      ተግባር ሀ ወደ ሌላ ተግባር ለ እንዲተላለፍ ስለዚህ ተግባር ለን ተመሳሳይ ነዉ ይሉታል ።  እንደ ጀነሬክ ሁሉ ኮልባክ [synchronously](#synchronous) መጠቀም ይቻላል እንደ 'ካርታ' ያሉ ተግባሮች ለእያንዳንዱ ንጥረ ነገር አንድ ጊዜ የጥሪ ተግባራትን የሚሰሩ ናቸው ስብስብ, ወይም [asynchronously](#asynchronous), ልክ እንደ [ደንበኛ](#client) አንድ [ምላሽ] (#http_response) ለአንድ [ጥያቄ](#http_request) መልስ ሲደርሰው ጥሪውን ያካሄዳሉ።
 - slug: camel_case
   ref:
     - kebab_case
@@ -1658,6 +1854,10 @@
       mögliche Ursachen zu finden.
 
 
+  am:
+    term: ማጥመድ (ለየት ያለ)
+    def: >
+      አንድን ስህተት ወይም ሌላ ያልተጠበቀ ክስተት የመፍታት ኃላፊነትን መቀበል። [R](#r_language)"ለየት ያለ ነገር ከመያዝ"ይልቅ"ሁኔታን መያዝ"ይመርጣል። [Python](#python) በሌላ በኩል፣ ለየት ያሉ ሁኔታዎችን ማሳደግና መያዝን ያበረታታል ፤ በአንዳንድ ሁኔታዎች ደግሞ ይህን ማድረግ ያስፈልጋል ።
 - slug: causation
   en:
     term: "causation"
@@ -1676,6 +1876,10 @@
       dass es einen ursächlichen oder anlässlichen Zusammenhang zwischen den beiden gibt.
 
 
+  am:
+    term: causation
+    def: >
+      አንድ ክስተት ተጠያቂ ነው ተብሎ በሚነገርበት በልዩ ልዩ ክስተቶች መካከል ያለው ግንኙነት በሌላው ላይ ለውጥ መፍጠር ወይም ተፅዕኖ ማሳደር።
 - slug: cc_0
   en:
     term: "CC-0"
@@ -1700,6 +1904,10 @@
       Gemeinfreiheit überführt.
 
 
+  am:
+    term: ሲሲ-0
+    def: >
+      [Creative Commons](#cc_license)ምንም የማይጥል ፍቃድ] ይህ ደግሞ በሕዝብ ክልል ውስጥ ሥራ እንዲከናውን ያደርጋል ።
 - slug: cc_by
   en:
     term: "CC-BY"
@@ -1719,185 +1927,152 @@
       Restriktionen auferlegt.
 
 
+  am:
+    term: ሲሲ-ባይ
+    def: >
+      [Creative Commons](#cc_license) - Attribution [license](#license) ፈጠራ ኮመንስ ሲሲ-ፍቃድ- አበይት ፍቃድ ሰዎች ለአንድ ጽሑፍ ደራሲ ክብር እንዲሰጡ የሚጠይቅ ቢሆንም ሌላ ምንም ዓይነት እገዳ አይጥልም ።
 - slug: cc_license
   en:
-    term: "Creative Commons license"
+    term: Creative Commons license
     def: >
-      A set of [licenses](#license) that can be applied to published work. Each
-      license is formed by concatenating one or more of `-BY` (Attribution): users
-      must cite the original source; `-SA` (ShareAlike): users must share their own
-      work under a similar license; `-NC` (NonCommercial): work may not be used for
-      commercial purposes without the creator's permission; `-ND` (NoDerivatives): no
-      derivative works (e.g., translations) can be created without the creator's
-      permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use
-      commercially without permission." The term `CC-0` (zero, not letter 'O') is
-      sometimes used to mean "no restrictions," i.e., the work is in the public domain.
+      A set of [licenses](#license) that can be applied to published work. Each license is formed by concatenating one or more of `-BY` (Attribution): users must cite the original source; `-SA` (ShareAlike): users must share their own work under a similar license; `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission; `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission." The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions," i.e., the work is in the public domain.
   pt:
-    term: "Licença Creative Commons"
+    term: Licença Creative Commons
     def: >
-      Um conjunto de [licenças](#license) que podem ser aplicadas à trabalhos publicados.
-      Cada licença é formada pela concatenação de um ou mais dos termos a seguir:
-      `-BY` (Atribuição): pessoas usuárias devem citar a fonte original;
-      `-SA` (CompartilhaIgual): pessoas usuárias devem compartilhar o seu próprio trabalho
-      utilizando uma licença similar; `-NC` (NãoComercial): o trabalho não pode ser usado
-      para fins comerciais sem a permissão das pessoas criadoras; `-ND` (SemDerivações):
-      nenhum trabalho derivado (como traduções, por exemplo) pode ser criado sem a permissão
-      das pessoas criadoras. Assim, `CC-BY-NC` quer dizer "pessoas usuárias devem atribuir autoria
-      e não podem o conteúdo de forma comercial sem permissão". O termo `CC-0` (zero, não a letra 'O')
-      é às vezes usado com o sentido de "sem restrições", isto é, que o trabalho é de domínio público.
+      Um conjunto de [licenças](#license) que podem ser aplicadas à trabalhos publicados. Cada licença é formada pela concatenação de um ou mais dos termos a seguir: `-BY` (Atribuição): pessoas usuárias devem citar a fonte original; `-SA` (CompartilhaIgual): pessoas usuárias devem compartilhar o seu próprio trabalho utilizando uma licença similar; `-NC` (NãoComercial): o trabalho não pode ser usado para fins comerciais sem a permissão das pessoas criadoras; `-ND` (SemDerivações): nenhum trabalho derivado (como traduções, por exemplo) pode ser criado sem a permissão das pessoas criadoras. Assim, `CC-BY-NC` quer dizer "pessoas usuárias devem atribuir autoria e não podem o conteúdo de forma comercial sem permissão". O termo `CC-0` (zero, não a letra 'O') é às vezes usado com o sentido de "sem restrições", isto é, que o trabalho é de domínio público.
   de:
-    term: "Creative Commons Lizenz"
+    term: Creative Commons Lizenz
     def: >
-      Eine Sammlung von [Lizenzen](#license) welche verschiedene, einfache
-      Lizenzvereinbarungen für beliebige Werke bereitstellt. Jede Lizenz kann
-      zusätzlichen Bedingungen unterliegen:
-      `-BY` (Namensnennung): Nutzer müssen den Autor des Werks nennen.
-      `-SA` (Gleiche Bedingungen): Nutzer dürfen das Werk nur unter den
-      gleichen Bedingungen weiter verbreiten.
-      `-NC` (Nicht-Kommerziell): Ohne vorherige Zustimmung darf das Werk nur
-      nicht kommerziell verwendet werden.
-      `-ND` (Keine Bearbeitung): Ohne vorherige Zustimmung darf das Werk nicht
-      verändert werden.
-      Diese Bedingungen werden mit dem Prefix "CC" verknüpft um kombinierte
-      Lizenzen zu kreieren. So bedeutet `CC-BY-NC` das die Nutzer den Namen des
-      Autors nennen müssen und das Werk nur mit Zustimmung kommerziell nutzen
-      dürfen. Der Begriff [CC0](#cc_0) beschreibt ein Werk "ohne
-      Einschränkungen", d.h. das Werk ist gemeinfrei.
-
-
+      Eine Sammlung von [Lizenzen](#license) welche verschiedene, einfache Lizenzvereinbarungen für beliebige Werke bereitstellt. Jede Lizenz kann zusätzlichen Bedingungen unterliegen: `-BY` (Namensnennung): Nutzer müssen den Autor des Werks nennen. `-SA` (Gleiche Bedingungen): Nutzer dürfen das Werk nur unter den gleichen Bedingungen weiter verbreiten. `-NC` (Nicht-Kommerziell): Ohne vorherige Zustimmung darf das Werk nur nicht kommerziell verwendet werden. `-ND` (Keine Bearbeitung): Ohne vorherige Zustimmung darf das Werk nicht verändert werden. Diese Bedingungen werden mit dem Prefix "CC" verknüpft um kombinierte Lizenzen zu kreieren. So bedeutet `CC-BY-NC` das die Nutzer den Namen des Autors nennen müssen und das Werk nur mit Zustimmung kommerziell nutzen dürfen. Der Begriff [CC0](#cc_0) beschreibt ein Werk "ohne Einschränkungen", d.h. das Werk ist gemeinfrei.
+  am:
+    term: የፈጠራ ኮመንስ ፍቃድ
+    def: >
+      ለህትመት ሥራ ሊመለከቱ የሚችሉ [ፍቃዶች](#license) እያንዳንዳቸው ፍቃድ ሚመሰረተው የ '-ባይ' (Attribution) ተጠቃሚዎችን አንድ ወይም ከዚያ በላይ በመመደብ ነው must cite cite the original source; '-SA' (ShareAlike) ተጠቃሚዎች የራሳቸውን ማጋራት አለባቸው በተመሳሳይ ፈቃድ ሥራ መሥራት፤ '-ኤን ሲ' (NonCommercial) ስራ ላይውል ይችላል ያለ ፈጣሪ ፈቃድ የንግድ ዓላማዎች፤ '-ND' (NoDerivatives) አይደለም የተዋሕዶ ስራዎች (ለምሳሌ፣ ትርጉሞች) ያለ ፈጣሪ ሊፈጠሩ ይችላሉ ፍቃድ። በመሆኑም 'CC-BY-ኤንሲ' ማለት"ተጠቃሚዎች ባህሪ መስጠት አለባቸው እና መጠቀም አይችሉም ለንግድ ያለ ፈቃድ". 'ሲሲ-0' (ዜሮ እንጂ ፊደል 'ኦ' አይደለም) የሚለው ቃል ነው አንዳንድ ጊዜ"እገዳ የለም"ማለትም ሥራው በሕዝብ ክልል ውስጥ ይገኛል።
 - slug: centroid
   en:
-    term: "centroid"
+    term: centroid
     def: >
       The center or anchor of a group created by a [clustering](#clustering) algorithm.
   pt:
-    term: "centróide"
+    term: centróide
     def: >
       O centro ou âncora de um grupo criado por um algoritmo de [agrupamento](#clustering).
-
-
+  am:
+    term: ሴንትሮይድ
+    def: >
+      በ [ክምችት](#clustering) አልጎሪዝም የተፈጠረ ቡድን ማእከል ወይም መልህቅ። የተፈጠረ ቡድን ማእከል ወይም መልህቅ በ [ክምችት](#clustering) አልጎሪዝም ።
 - slug: character_encoding
   en:
-    term: "character encoding"
+    term: character encoding
     def: >
-      A specification of how characters are stored as bytes. The most commonly-used
-      encoding today is [UTF-8](#utf_8).
+      A specification of how characters are stored as bytes. The most commonly-used encoding today is [UTF-8](#utf_8).
   ar:
-    term: "ترميز"
+    term: ترميز
     def: >
-      إعادة تمثيل البيانات بصياغة أُخرى ليسهل التعامل معها وحفظها كبايت
-      (bytes)
+      إعادة تمثيل البيانات بصياغة أُخرى ليسهل التعامل معها وحفظها كبايت (bytes)
        ولا علاقة للترميز بالسرية والتشفير مطلقا، ومن صيغ ترميز البيانات المشهورة
        هو
        يو تي إف
        [(UTF-8)](#utf_8).
   es:
-    term: "codificación de caracteres"
+    term: codificación de caracteres
     def: >
-      Especificación sobre cómo los caracteres están guardados como bytes. En la
-      actualidad, la codificación más utilizada es [UTF-8](#utf_8).
-
+      Especificación sobre cómo los caracteres están guardados como bytes. En la actualidad, la codificación más utilizada es [UTF-8](#utf_8).
+  am:
+    term: የባህርይ ኮድ
+    def: >
+      ባለታሪኮች እንደ ባይት እንዴት እንደሚቀመጡ የሚገልጽ መመሪያ። ዛሬ በብዛት ጥቅም ላይ የሚውለው encoding  [UTF-8](#utf_8).
 - slug: chi_square_test
   en:
-    term: "chi-square test"
+    term: chi-square test
     def: >
-      A statistical method for estimating whether two variables in a cross tabulation
-      are [correlated](#correlation). A chi-square distribution varies from a [normal
-      distribution](#normal_distribution) based on the [degrees of
-      freedom](#degrees_of_freedom) used to calculate it.
+      A statistical method for estimating whether two variables in a cross tabulation are [correlated](#correlation). A chi-square distribution varies from a [normal distribution](#normal_distribution) based on the [degrees of freedom](#degrees_of_freedom) used to calculate it.
   af:
-    term: "chi-kwadraattoets"
+    term: chi-kwadraattoets
     def: >
-      'n Statistiese metode om te bepaal of twee veranderlikes in 'n kruistabellering
-      gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreiding
-      gebaseer op die vryheidsgrade wat gebruik word om dit te bereken.
-
-
+      'n Statistiese metode om te bepaal of twee veranderlikes in 'n kruistabellering gekorreleerd is. 'n Chi-kwadraatverdeling wissel vanaf 'n normale verspreiding gebaseer op die vryheidsgrade wat gebruik word om dit te bereken.
+  am:
+    term: ቺ-እስኬር ፈተና
+    def: >
+      በመስቀል ጠረፍ ውስጥ ሁለት ተለዋዋጭ ዎችን ለመገመት የሚያስችል አሃዛዊ ዘዴ (#correlation) ናቸው።  የቺ-ካሬ ስርጭት ከ[የተለመደ) የስርጭት ](#normal_distribution) ይለያያል በ[ዲግሪ)  ነፃነት](#degrees_of_freedom) መሰረት ለማስላት ይጠቀሙበት ነበር።
 - slug: child_class
   en:
-    term: "child class"
+    term: child class
     def: >
-      In [object-oriented programming](#oop), a [class](#class) derived from another class
-      (called the [parent class](#parent_class)).
+      In [object-oriented programming](#oop), a [class](#class) derived from another class (called the [parent class](#parent_class)).
   es:
-    term: "subclase"
+    term: subclase
     def: >
-      En [programación orientada a objetos](#oop), es la extensión de otra
-      clase (denominada [superclase](#parent_class)).
+      En [programación orientada a objetos](#oop), es la extensión de otra clase (denominada [superclase](#parent_class)).
   pt:
-    term: "classe derivada"
+    term: classe derivada
     def: >
-      Em [programação orientada a objetos](#oop), a classe derivada de uma outra classe
-      (chamada de [classe base](#parent_class)).
-
-
+      Em [programação orientada a objetos](#oop), a classe derivada de uma outra classe (chamada de [classe base](#parent_class)).
+  am:
+    term: ልጅ መደብ
+    def: >
+      በዕቃ ተኮር ፕሮግራም(#oop) ውስጥ ከሌላ መደብ የተገኘ [መደብ](#class) ([የወላጅ ክፍል](#parent_class)።
 - slug: child_tree
   en:
-    term: "child (in a tree)"
+    term: child (in a tree)
     def: >
       A [node](#node) in a [tree](#node) that is below another node (call the [parent](#parent_tree)).
-
-
+  am:
+    term: child (in a tree)
+    def: >
+      [ኖድ](#node) በ [ዛፍ](#node) ውስጥ ከሌላው ቁልቁል በታች ([ወላጁን](#parent_tree) ይሉታል።)
 - slug: class
   en:
-    term: "class"
+    term: class
     def: >
-      In [object-oriented programming](#oop), a structure that combines data and
-      operations (called [methods](#method)). The program then uses a
-      [constructor](#constructor) to create an [object](#object) with those
-      properties and methods. Programmers generally put generic or reusable
-      behavior in [parent classes](#parent_class), and more detailed or specific
-      behavior in [child classes](#child_class).
+      In [object-oriented programming](#oop), a structure that combines data and operations (called [methods](#method)). The program then uses a [constructor](#constructor) to create an [object](#object) with those properties and methods. Programmers generally put generic or reusable behavior in [parent classes](#parent_class), and more detailed or specific behavior in [child classes](#child_class).
   es:
-    term: "clase"
+    term: clase
     def: >
-      En [programación orientada a objetos](#oop), es una estructura que combina
-      datos y operaciones (denominadas [métodos](#method)). El programa emplea un
-      [constructor](#constructor) para crear un [objeto](#object) con esas
-      propiedades y métodos. Los programadores generalmente definen comportamientos
-      genéricos o reutilizables en [superclases](#parent_class) y comportamientos
-      más específicos o detallados en [subclases](#child_class).
-
-
+      En [programación orientada a objetos](#oop), es una estructura que combina datos y operaciones (denominadas [métodos](#method)). El programa emplea un [constructor](#constructor) para crear un [objeto](#object) con esas propiedades y métodos. Los programadores generalmente definen comportamientos genéricos o reutilizables en [superclases](#parent_class) y comportamientos más específicos o detallados en [subclases](#child_class).
+  am:
+    term: ክፍል
+    def: >
+      በዕቃ ተኮር ፕሮግራም (#oop) ውስጥ, መረጃዎችን እና ክንውኖች ([ዘዴዎች](#method)። ፕሮግራሙ ከዚያ ምክኒያት የሚጠቀምበት [ኮንሰርተር](#constructor]) ከነዚህ ጋር [አካል](#object) ለመፍጠር ባህሪያት እና ዘዴዎች. ፕሮግራም አዘጋጆች በአብዛኛው ጀነሬክ ወይም እንደገና ሊጠቀሙ የሚችሉ ናቸው ባህሪ በ[ወላጅ መደብ](#parent_class)፣ እና በዝርዝር ወይም በግልጽ ጠባይ በ[ልጆች መደብ](#child_class).
 - slug: classification
   ref:
     - supervised_learning
     - clustering
   en:
-    term: "classification"
+    term: classification
     def: >
-      The process of identifying which predefined category an item belongs to, such as
-      deciding whether an email message is spam or not. Many [machine
-      learning](#machine_learning) algorithms perform classification.
-
-
+      The process of identifying which predefined category an item belongs to, such as deciding whether an email message is spam or not. Many [machine learning](#machine_learning) algorithms perform classification.
+  am:
+    term: መደብ
+    def: >
+      አንድ ዕቃ ከየትኛው ቅድመ ምድብ ጋር እንደሆነ የመለየት ሂደት, ለምሳሌ የኢሜይል መልዕክት የመልዕክት መልዕክት እስፓም ወይም አይደለም መወሰን. ብዙ [ማሽን መማር](#machine_learning) አልጎሪቶች የመደብ ልዩነትን ያከናውናሉ።
 - slug: cli
   en:
-    term: "command-line interface"
-    acronym: "CLI"
+    term: command-line interface
     def: >
-      A user interface that relies solely on text for commands and output, typically
-      running in a [shell](#shell).
-
-
+      A user interface that relies solely on text for commands and output, typically running in a [shell](#shell).
+  am:
+    term: ትዕዛዝ-መስመር አገናኝ
+    def: >
+      ኢንተርፌት በ[ዛጎል](#shell) ውስጥ ለመሮጥ ትዕዛዞች እና ውጤቶች ለማግኘት በጽሁፍ ላይ ብቻ የሚደገፍ  ።
 - slug: client
   en:
-    term: "client"
+    term: client
     def: >
-      Typically, a program such as a web browser that gets data from a
-      [server](#server) and displays it to, or interacts with, users. The term is used
-      more generally to refer to any program A that makes requests of another program
-      B. A single program can be both a client and a server.
-
-
+      Typically, a program such as a web browser that gets data from a [server](#server) and displays it to, or interacts with, users. The term is used more generally to refer to any program A that makes requests of another program B. A single program can be both a client and a server.
+  am:
+    term: ደንበኛ
+    def: >
+      አብዛኛውን ጊዜ መረጃን ከአንድ ድረ ገጽ የሚያገኝ እንደ ዌብ ብራውዘር ያለ ፕሮግራም [ሰርቨር](#server) እና ለተጠቃሚዎች, ወይም ግንኙነት ለማሳየት. ቃሉ ጥቅም ላይ ይውላል የበለጠ በአጠቃላይ ሌላ ፕሮግራም ጥያቄዎችን የሚያደርግ ማንኛውም ፕሮግራም ሀ ለማመልከት ለ. አንድ ፕሮግራም ደንበኛም ሆነ ሰርቨር ሊሆን ይችላል።
 - slug: closure
   en:
-    term: "closure"
+    term: closure
     def: >
-      A set of variables defined in the same [scope](#scope) whose existence has been
-      preserved after that scope has ended.
-
-
+      A set of variables defined in the same [scope](#scope) whose existence has been preserved after that scope has ended.
+  am:
+    term: መዘጋት
+    def: >
+      ህልውናቸው በዚሁ [ስፋት](#scope) የተገለፁ ተለዋዋጭዎች ይህ ስፋት ካበቃ በኋላ ተጠብቆ እንዲቆይ ተደርጓል ።
 - slug: clustering
   ref:
     - centroid
@@ -1920,6 +2095,10 @@
       データをどのように分類するかは不明のまま、グループに分割するプロセスのこと。
 
 
+  am:
+    term: መከፋፈል
+    def: >
+      ቡድኖቹ ራሳቸው በማይሆንበት ጊዜ መረጃዎችን በቡድን የመከፋፈል ሂደት አስቀድሞ የታወቀ ነው ።
 - slug: code_coverage
   en:
     term: "code coverage (in testing)"
@@ -1929,6 +2108,10 @@
       a file are run during testing, those tests have 80% code coverage.
 
 
+  am:
+    term: ኮድ ሽፋን (በፈተና)
+    def: >
+      ፈተና ሲከናውን ምን ያህል [ቤተ መጻሕፍት](#library) ወይም ፕሮግራም ይፈፀም።  ይህ የተለመደ ነው እንደ አንድ በመቶ የኮድ መስመሮች ሪፖርት ተደርጓል ለምሳሌ, ከ 50 መስመሮች ውስጥ 40 ከሆነ አንድ ፋይል በፈተና ወቅት ይሰራል, እነዚያ ምርመራዎች 80% ኮድ ሽፋን አላቸው::
 - slug: code_review
   en:
     term: "code review"
@@ -1940,6 +2123,10 @@
       Revisar un programa o un cambio a un programa inspeccionando su código fuente.
 
 
+  am:
+    term: የኮድ ክለሳ
+    def: >
+      ከምንጭ ኮዱ በመፈተሽ የአንድን ፕሮግራም ማጣራት ወይም አንድን ፕሮግራም መለወጥ ::
 - slug: coercion
   en:
     term: "coercion"
@@ -1947,6 +2134,10 @@
       See [type coercion](#type_coercion).
 
 
+  am:
+    term: ማስገደድ
+    def: >
+      [ዓይነት አስገዳጅነትን](#[type_coercion]) ተመልከት።
 - slug: cognitive_load
   en:
     term: "cognitive load"
@@ -1958,12 +2149,20 @@
       Die hoeveelheid werkgeheue wat nodig is om 'n stel gelyktydige take te verrig.
 
 
+  am:
+    term: የማሰብ ችሎታ ጭነት
+    def: >
+      አንድ አይነት ስራዎችን ለማከናወን የሚያስፈልገው የስራ ትውስታ መጠን.
 - slug: command
   en:
     term: "command"
     def: >
       An instruction telling a computer program to perform a specific task.
 
+  am:
+    term: ትዕዛዝ
+    def: >
+      አንድ የኮምፒውተር ፕሮግራም አንድ የተወሰነ ሥራን እንዲሠራ የሚነግረው መመሪያ።
 - slug: command_history
   en:
     term: "command history"
@@ -1972,6 +2171,10 @@
       ([REPLs](#repl)), including the [Unix shell](#shell), record history and allow
       users to play back recent commands.
 
+  am:
+    term: ትዕዛዝ ታሪክ
+    def: >
+      ቀደም ሲል ተፈጻሚ የነበሩ ትዕዛዞች በራሱ የተፈጠሩ ዝርዝር. አብዛኛዎቹ የንባብ-eቫል-የህትመት ልጥፎች ([REPLs](#repl)፣ የ[ዩኒክስ ዛጎልን](#shell)፣ ታሪክን መዝግበው እንዲፈቅዱ ተጠቃሚዎች የቅርብ ጊዜ ትዕዛዞች መልሰው ለማጫወት.
 - slug: command_line_argument
   en:
     term: "command-line argument"
@@ -1979,6 +2182,10 @@
       A filename or control flag given to a command-line program when it is run.
 
 
+  am:
+    term: ትዕዛዝ-መስመር ክርክር
+    def: >
+      በሚሰራበት ጊዜ ለትዕዛዝ-መስመር ፕሮግራም የተሰጠ የፋይል ስም ወይም የቁጥጥር ባንዲራ.
 - slug: comment
   en:
     term: "comment"
@@ -2001,6 +2208,10 @@
       notas curtas, frequentemente começando com um `#` (em várias linguagens de programação).
 
 
+  am:
+    term: አስተያየት
+    def: >
+      እንደ ኮድ ተደርጎ በማይታይ ጽሁፍ የተፃፈ ጽሑፍ ይልቁንስ ኮዱን ምን እያደረገ እንዳለ የሚገልጽ ጽሑፍ።  እነዚህ ብዙውን ጊዜ አጫጭር ማስታወሻዎች ናቸው፣ ብዙ ጊዜ በ '፩' (በብዙ የፕሮግራም ቋንቋዎች) መጀመር።
 - slug: commit
   en:
     term: "commit"
@@ -2009,6 +2220,10 @@
       [repository](#repository). As a noun, the changes saved.
 
 
+  am:
+    term: ቃል
+    def: >
+      እንደ ግስ፣ በዳታቤዝ ወይም በ[ቨርዥን መቆጣጠሪያ](#version_control_system) ላይ የተወሰኑ ለውጦችን የማስቀመጥ ተግባር [መዝገበ](#repository) ::እነዚህ ለውጦች እንደ ስም ተቀምጠዋል ።
 - slug: commit_message
   en:
     term: "commit message"
@@ -2016,6 +2231,10 @@
       A comment attached to a [commit](#commit) that explains what was done and why.
 
 
+  am:
+    term: ቃል መልዕክት
+    def: >
+      ምን እንደተከናወነና ለምን እንደሆነ የሚያብራራ [commit](#commit) ላይ የተጠቀሰ ሐሳብ።
 - slug: compile
   en:
     term: "compile"
@@ -2026,6 +2245,10 @@
       [HTML](#html) for display.
 
 
+  am:
+    term: ያቀናበረው ንረት
+    def: >
+      የጽሁፍ ምንጭን ወደ ሌላ መልክ ለመተርጎም። ፕሮግራሞች በ[የተጠናቀረ] ቋንቋዎች](#compiled_language) ለa ማሽን መመሪያዎች ይተረጎማሉ ኮምፒዩተር ሊሰራ ና [Markdown](#markdown) ብዙ ጊዜ ይተረጎማል [HTML](#html) ለእይታ።
 - slug: compiled_language
   en:
     term: "compiled language"
@@ -2037,6 +2260,10 @@
       are compiled to byte code on the fly.
 
 
+  am:
+    term: የተጠናቀረ ቋንቋ
+    def: >
+      መጀመርያ ወደ ማሽን የሚተረጎም እንደ ሲ ወይም ፎርትራን ያለ ቋንቋ የሞት ቅጣትን የሚወነጅሉ መመሪያዎች። እንደ ጃቫ ያሉ ቋንቋዎችም ከዚህ በፊት የተጠናቀሩ ናቸው አፈፃፀም, ነገር ግን በማሽን መመሪያ ይልቅ ወደ [ባይት ኮድ](#byte_code), ሲኾን [የተረጎሙት ቋንቋዎች](#interpreted_language) እንደ [ፓጥተን](#python) በራሪ ኮድ የተጠናቀሩ ናቸው።
 - slug: compiler
   en:
     term: "compiler"
@@ -2052,6 +2279,10 @@
       [رموز البايت](#byte_code).
 
 
+  am:
+    term: አቃፊ
+    def: >
+      በአንዳንድ ቋንቋዎች የተጻፉ ፕሮግራሞችን ወደ ማሽን የሚተረጉም መተግበሪያ መመሪያዎች ወይም [ባይት ኮድ](#byte_code).
 - slug: computational_linguistics
   ref:
     - nlp
@@ -2068,6 +2299,10 @@
       de los acercamientos modernos son estadísticos.
 
 
+  am:
+    term: የሒሳብ ልሳነ-ቋንቋ
+    def: >
+      ለ[ፓርስቲንግ](#parse) ወይም ለመረዳት የሂሳብ ዘዴዎች ጥናት ወይም ተግባራዊነት የሰው ልጆች ቋንቋዎች ። የመጀመሪያ አቀራረቦች አልጎሪዝሚክ ነበሩ; አብዛኞቹ ዘመናዊ አቀራረቦች አኃዛዊ መረጃዎች ናቸው.
 - slug: computational_notebook
   en:
     term: "computational notebook"
@@ -2078,6 +2313,10 @@
       files are both examples of computational notebooks.
 
 
+  am:
+    term: የሒሳብ ማስታወሻ ደብተር
+    def: >
+      ተጠቃሚዎች የጽሁፍ እና ኮድን በአንድ ውስጥ ለማቀላቀፍ የሚያስችል የሰነድ ቅርጸት ድምር ነጠላ ፋይል, እና ያንን ኮድ በተሳታፊነት እና ውስጥ የሚፈፅም መተግበሪያ ቦታ ።  የ[Jupyter Notebook](#jupyter_notebook) እና [R Markdown](#r_markdown) ፋይሎች ሁለቱም የሒሳብ ማስታወሻ ደብተሮች ምሳሌዎች ናቸው።
 - slug: condition
   ref:
     - handle_condition
@@ -2087,6 +2326,10 @@
       An error or other unexpected event that disrupts the normal flow of control.
 
 
+  am:
+    term: ሁኔታ
+    def: >
+      የተለመደውን የመቆጣጠሪያ ፍሰት የሚያደናቅፍ ስህተት ወይም ሌላ ያልተጠበቀ ክስተት።
 - slug: conditional_expression
   en:
     term: "conditional expression"
@@ -2097,6 +2340,10 @@
       `ifFalse` if it is not."
 
 
+  am:
+    term: የሁኔታዎች አገላለጽ
+    def: >
+      የአንድን /ሌላ) ሚና የሚያገለግል [ተርናሪ መግለጫ](#[ternary_expression) መግለጫ።  ለምሳሌ C እና ተመሳሳይ ቋንቋዎች የsyntax 'ፈተና ይጠቀሙ እውነትከሆነ ? ውሸትከሆነ ' ማለት"'ፈተና' እውነት ከሆነ 'ifTrue' የሚለውን ዋጋ ምረጥ ወይም ዋጋው ካልሆነ 'የውሸት' ነው".
 - slug: confidence_interval
   en:
     term: "confidence interval"
@@ -2110,6 +2357,10 @@
        dat die werklike getal binne die skatting val.
 
 
+  am:
+    term: በራስ የመተማመን ጊዜ
+    def: >
+      የስህተቱን ኅዳግ ከሚጠቁም ግምት ዙሪያ የሚገኝ ክልል፣ ከa ጋር ተደምሮ ትክክለኛው ዋጋ በዚህ ክልል ውስጥ የመውደቁ አጋጣሚ ሰፊ ነው።
 - slug: configuration file
   en:
     term: "configuration file"
@@ -2119,6 +2370,10 @@
       such as environment-specific settings.
 
 
+  am:
+    term: የቅንብር ፋይል
+    def: >
+      የሶፍትዌሩን ፕሮግራም መስፈሪያዎች እና የመጀመሪያ አቀማመዶች የሚወስን ፋይል. ቅንብር ወይም config, ፋይሎች ብዙውን ጊዜ ለውጦች ለሚታዩበት መረጃ ጥቅም ላይ ይውላሉ, እንደ አካባቢ-የተለየ አቀማመጥ.
 - slug: console
   en:
     term: "console"
@@ -2127,6 +2382,10 @@
       that simulates such a device.
 
 
+  am:
+    term: ኮንሶል
+    def: >
+      አንድ ተጠቃሚ ትዕዛዞች ሊገባበት የሚችልበት የኮምፒውተር ተርሚናል ወይም እንደ ዛጎል ያለ ፕሮግራም እንዲህ ያለውን መሣሪያ የሚኮርጅ ነው።
 - slug: constant
   en:
     term: "constant"
@@ -2150,6 +2409,10 @@
       son más una convención que un requisito.
 
 
+  am:
+    term: ገንቢ
+    def: >
+      የአንድ የተለየ [ዕቃ](#object) የሚፈጥር ተግባር [ክፍል](#class)::  በ[S3](#s3) ከግዴታ ይልቅ የአውራጃ ስብሰባ የእቃ ስርዓት ውስጥ ገንቢዎች ናቸው ::
 - slug: continuation_prompt
   en:
     term: "continuation prompt"
@@ -2158,6 +2421,10 @@
       yet complete, and will not be run until it is.
 
 
+  am:
+    term: ቀጣይነት ያለው እርምጃ
+    def: >
+      በአሁኑ ጊዜ እየተለፈፈ ያለው ትዕዛዝ አለመሆኑን የሚያመለክት [አፋጣኝ](#prompt) ገና ሙሉ እስከሆነ ድረስ አይሮጥም
 - slug: continuous_integration
   en:
     term: "continuous integration"
@@ -2176,6 +2443,10 @@
       within a range, or unbounded, such as age or distance.
 
 
+  am:
+    term: ቀጣይ ድንገተኛ ተለዋዋጭ
+    def: >
+      ዋጋው ማንኛውም እውነተኛ ዋጋ ሊኖረው የሚችል [ተለዋዋጭ](#variable_data) ሁለቱም እንደ ዕድሜ ወይም ርቀት ባሉ የተለያዩ ወይም ገደብ የሌላቸው ነገሮች ውስጥ ነው።
 - slug: control_flow
   en:
     term: "control flow"
@@ -2195,6 +2466,10 @@
       to modify it so that each reference will believe theirs is the only one.
 
 
+  am:
+    term: ኮፒ በ ማስተካከያ
+    def: >
+      ሙከራ በሚኖርበት ጊዜ ሁሉ አዲስ የተሰሩ መረጃዎችን የመፍጠር ልማድ እያንዳንዱ ማመሳከሪያ የእነርሱ ብቻ መሆኑን እንዲያምን የማስተካከል ሂደት ነዉ።
 - slug: correlation
   en:
     term: "correlation"
@@ -2216,6 +2491,10 @@
       impliseer nie oorsaaklikheid.
 
 
+  am:
+    term: ተዛማጅነት
+    def: >
+      ሁለት መለዋወጫዎች እርስ በርስ ምን ያህል እንደሚስማሙ የሚያሳይ ልኬት ነዉ። ተዛማጅነት አብዛኛውን ጊዜ የሚለካው አንድን [የዝምድና ቅንጅት](#correlation_coefficient) ማስላት፣ እናም አይደለም [#ምክንያት](#causation) ማለት ነው።
 - slug: correlation_coefficient
   en:
     term: "correlation coefficient"
@@ -2243,6 +2522,10 @@
       X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde verandering in Y.
 
 
+  am:
+    term: የግንኙነት መጠን
+    def: >
+      ሁለት ተለዋዋጮች ምን ያህል በጥሩ ሁኔታ [[ተዛማጅ](#correlation) ልኬት ናቸው። ከሆነ እ.ኤ.አ. በ ኤክስ እና በ ዋይ መካከል [ትስስር Coefficient](#correlation_coefficient) 1.0 ፣ ኤክስን ማወቅ የ ዋይ ን ፍጹም ትንበያ ይፈቅዳል ፡፡ የግንኙነቱ መጠን 0.0 ከሆነ ፣ ኤክስ ን ማወቅ ስለ ዋይ ምንም አይነግርዎትም ፣ እና -1.0 ከሆነ ፣ ከዚያ ኤክስ ይተነብያል ፣ ግን የ ኤክስ ለውጥ በ ‹ዋይ› ተቃራኒ ለውጥ ያስከትላል ፡፡
 - slug: covariance
   en:
     term: "covariance"
@@ -2262,6 +2545,10 @@
       is 'n genormaliseerde maatstaf vir kovariansie.
 
 
+  am:
+    term: መለዋወጥ
+    def: >
+      ሁለት ተለዋዋጮች እርስ በእርሳቸው እንዴት እንደተስማሙ ። ግንኙነቱ ትስስር](#correlation_coefficient) መደበኛ የሆነ የመለዋወጥ ልኬት ነው።
 - slug: cpu
   en:
     term: "Central Processing Unit"
@@ -2273,6 +2560,10 @@
       main processor, or microprocessor.
 
 
+  am:
+    term: ማዕከላዊ ማቀነባበሪያ ክፍል
+    def: >
+      የማንኛውም ዲጂታል ኮምፒውተር ዋና ሃርድዌር. ሲፒዩ ነው::  መመሪያዎችን የሚተረጉም እና የሚፈፅም አስፈላጊ የኤሌክትሮኒክ ስረሰር ከሶፍትዌሩ ወይም ከሌላ ሃርድዌር የተወሰደ።በተጨማሪም ማዕከላዊ ፕሮሲሰር ተብሎ ይጠራል፤ ዋና ፕሮሲሰር ወይም ማይክሮፕሮሰሰር ::
 - slug: cran
   ref:
     - base_r
@@ -2284,6 +2575,9 @@
       A public repository of [R](#r_language) packages.
 
 
+  am:
+    term: ሁሉን አቀፍ R መዝገብ ቤት አውታረ መረብ
+    def: የ [R](#r_language) ጥቅሎች የህዝብ ማከማቻ።
 - slug: cross_join
   ref:
     - anti_join
@@ -2299,6 +2593,9 @@
       A [join](#join) that produces all possible combinations of rows from two tables.
 
 
+  am:
+    term: ማቀናጀት
+    def: ሁሉንም ሊሆኑ የሚችሉ የረድፎች ጥምረት የሚያመጣ አንድ [ተቀላቀል](#join) ከ ሁለት ጠረጴዛዎች፡፡
 - slug: cross_validation
   ref:
     - machine_learning
@@ -2311,6 +2608,10 @@
       answers it gives on the test data.
 
 
+  am:
+    term: ማረጋገጫ
+    def: >
+      መረጃን ወደ [የሥልጠና ውሂብ](#የሥልጠና_ዳታ) እና [የሙከራ ውሂብ] የሚከፍል ዘዴ ፡፡ የሥልጠናው መረጃ እና ትክክለኛ መልሶች [መለኪያዎች] ለማግኘት ጥቅም ላይ ይውላሉ ፣ እና የአልጎሪዝም እና #39 ውጤታማነት የሚለካው በፈተናው መረጃ ላይ የሚሰጡትን መልሶች በመመርመር ነው።
 - slug: cryptographic_hash_function
   en:
     term: "cryptographic hash function"
@@ -2319,6 +2620,10 @@
       any input.
 
 
+  am:
+    term: ምስጠራ ሃሽ ተግባር
+    def: >
+      ለማንኛውም ግብዓት የዘፈቀደ እሴት የሚያመጣ ተግባር ::
 - slug: css
   en:
     term: "Cascading Style Sheets"
@@ -2335,6 +2640,10 @@
       structure d'une page web.
 
 
+  am:
+    term: ሲ.ኤስ.ኤስ.
+    def: >
+      የኤችቲኤምኤልን ገጽታ የሚቆጣጠርበት መንገድ። ሲ.ኤስ.ኤስ በተለምዶ ጥቅም ላይ ይውላል ቅርጸ-ቁምፊዎችን ፣ ቀለሞችን እና አቀማመጥን ይጥቀሱ ፡፡
 - slug: csv
   en:
     term: "comma-separated values"
@@ -2345,6 +2654,10 @@
       quoting of [strings](#string).
 
 
+  am:
+    term: ሲ.ኤስ.ቪ.
+    def: >
+      እያንዳንዱ [መዝገብ](#record) የሚገኝበት ለሠንጠረዥ መረጃ የጽሑፍ ቅርጸት አንድ ረድፍ እና የመስክ ሳራ በኮማዎች ተለያይተዋል ፡፡ ብዙ ጥቃቅን ልዩነቶች አሉ ፣ በተለይም ሕብረቁምፊዎችን በመጥቀስ ፡፡
 - slug: current_working_directory
   en:
     term: "current working directory"
@@ -2363,6 +2676,10 @@
       Chaque opération effectuée par le programme se fait relativement à cet emplacement.
 
 
+  am:
+    term: የአሁኑ የሥራ ማውጫ
+    def: >
+      ፕሮግራሙ የሚሠራበትን [አቃፊ](#folder) ወይም ማውጫ ቦታ። ማንኛውም እርምጃ የተወሰደው በፕሮግራሙ የተወሰደው ከዚህ ማውጫ አንጻር ነው ፡፡
 - slug: data_engineer
   ref:
     - data_scientist
@@ -2374,6 +2691,10 @@
       for installing software, managing databases, generating reports, and archiving results.
 
 
+  am:
+    term: የውሂብ መሐንዲስ
+    def: >
+      መረጃ ትንታኔዎችን የሚያዘጋጅ እና የሚያከናውን ሰው ፡፡ የመረጃ መሐንዲሶች ብዙውን ጊዜ ናቸው ሶፍትዌርን ለመጫን ፣ የውሂብ ጎታዎችን ለማስተዳደር ፣ ሪፖርቶችን ለማመንጨት እና ውጤቶችን በማህደር ማስቀመጥ።
 - slug: data_engineering
   ref:
     - data_science
@@ -2384,6 +2705,10 @@
       put mailing addresses in a uniform format.
 
 
+  am:
+    term: የውሂብ ምህንድስና
+    def: >
+      እንደ አጭር መጻፍ ያሉ መረጃዎችን ለመጠቀም እንዲችሉ የተደረጉ ተግባራዊ ተግባራት የመልእክት አድራሻዎችን በአንድ ወጥ ቅርጸት ለማስቀመጥ ፕሮግራሞች ፡፡
 - slug: data_frame
   ref:
     - tidy_data
@@ -2405,6 +2730,10 @@
       Líneas representan [entradas](#record) y columnas representan [variables](#variable_data).
 
 
+  am:
+    term: የውሂብ ክፈፍ
+    def: >
+      በትር ውስጥ ሰንጠረዥ መረጃዎችን ለማከማቸት ባለ ሁለት አቅጣጫዊ የውሂብ መዋቅር። ረድፎች [መዝገቦችን](#record) ይወክላሉ  እና አምዶች ይወክላሉ [variables](#variable_data)።
 - slug: data_mining
   en:
     term: "data mining"
@@ -2426,6 +2755,10 @@
     def: >
       Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia tarakilishi.
 
+  am:
+    term: መረጃ ማውጣት
+    def: >
+      በትላልቅ የውሂብ ስብስቦች ውስጥ ቅጦችን ለመፈለግ የኮምፒተር አጠቃቀም። ዘ ቃል [ዳታ ሳይንስ](#data_science) አሁን በብዛት ጥቅም ላይ ውሏል ፡፡
 - slug: data_package
   en:
     term: "data package"
@@ -2439,6 +2772,10 @@
       om data te versprei vir makliker gebruik.
 
 
+  am:
+    term: የውሂብ ጥቅል
+    def: >
+      የሶፍትዌር ፓኬጅ ፣ በአብዛኛው ፣ መረጃዎችን ብቻ የያዘ። ለመሥራት ያገለገለ ነው ለቀላል አጠቃቀም መረጃን ለማሰራጨት የበለጠ ቀላል ነው።
 - slug: data_science
   en:
     term: "data science"
@@ -2463,6 +2800,10 @@
     def: >
       La combinación de estadísticas, programación y trabajo duro que se utiliza para extraer información de los datos.
 
+  am:
+    term: የውሂብ ሳይንስ
+    def: >
+      ጥቅም ላይ የዋለው የስታቲስቲክስ ፣ የፕሮግራም እና ከባድ ሥራ ጥምረት ከመረጃ ዕውቀትን ያውጡ።
 - slug: data_scientist
   en:
     term: "data scientist"
@@ -2485,6 +2826,10 @@
     def: >
       Alguien que usa habilidades de programación para resolver problemas de estadísticas.
 
+  am:
+    term: የውሂብ ሳይንቲስት
+    def: >
+      የስታቲስቲክስ ችግሮችን ለመፍታት የፕሮግራም ችሎታን የሚጠቀም ሰው ፡፡
 - slug: data_structure
   en:
     term: "data structure"
@@ -2494,6 +2839,10 @@
       the relationships between values, and ways to access or manipulate those data, such as
       reading, altering, or writing.
 
+  am:
+    term: የውሂብ መዋቅር
+    def: >
+      ለድርጅቱ ቅርጸት ፣ አስተዳደር እና ቀልጣፋ ተደራሽነት መረጃ በተለምዶ ያደርገዋል የውሂብ እሴቶችን ስብስብ እና የእነሱ ውክልና (ወይም።) [ኢንኮዲንግ](#character_encoding)) ፣ በእሴቶች መካከል ያሉ ግንኙነቶች እና ለመድረስ ወይም ለማታለል መንገዶች እነዚያ መረጃዎች ፣ እንደ ማንበብ ፣ መለወጥ ወይም መጻፍ ፡፡
 - slug: data_wrangling
   en:
     term: "data wrangling"
@@ -2501,6 +2850,10 @@
       A colloquial name for small-scale [data engineering](#data_engineering).
 
 
+  am:
+    term: የውሂብ ክርክር
+    def: >
+      ለአነስተኛ መጠን [የመረጃ ምህንድስና](#data_engineering) የትብብር ስም።
 - slug: decision_tree
   ref:
     - random_forests
@@ -2511,6 +2864,10 @@
       decision or [classification](#classification).
 
 
+  am:
+    term: የውሳኔ ዛፍ
+    def: >
+      [አንጓዎቹ](#node) ጥያቄዎቹ እና [ቅርንጫፎቹ](#branch) ውሎ አድሮ ወደ ውሳኔ ወይም [ምደባ](#classification) የሚወስድ ዛፍ።
 - slug: decorator_pattern
   en:
     term: "Decorator pattern"
@@ -2521,6 +2878,10 @@
       other languages as well.
 
 
+  am:
+    term: የማስዋቢያ ንድፍ
+    def: >
+      አንድ ተግባር የሚጨምርበት የ [ዲዛይን ንድፍ](#design_pattern) ተጨማሪ ባህሪያትን ለሌላ ተግባር ወይም ከመጀመሪያው (ክፍል)(#class) ትርጉም ማስዋቢያዎች የ [Python](#python) ገጽታ ናቸው እና ሊተገበሩ ይችላሉ በአብዛኞቹ ሌሎች ቋንቋዎችም እንዲሁ ፡፡
 - slug: decrement
   ref:
     - increment
@@ -2546,6 +2907,10 @@
       layers to extract features at successively higher levels.
 
 
+  am:
+    term: ጥልቅ ትምህርት
+    def: >
+      የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
 - slug: default_target
   en:
     term: "default target"
@@ -2553,6 +2918,10 @@
       The [build target](#build_target) that is used when none is specified explicitly.
 
 
+  am:
+    term: ነባሪ ዒላማ
+    def: >
+      ምንም በማይሆንበት ጊዜ ጥቅም ላይ የሚውለው [የግንባታ ዒላማ](#build_target) በግልፅ ተገልጻል ፡፡
 - slug: default_value
   en:
     term: "default value"
@@ -2561,6 +2930,10 @@
       value. Default values are specified as part of the function's definition.
 
 
+  am:
+    term: ነባሪ እሴት
+    def: >
+      መቼ ለአንድ ተግባር [parameter](#ልኬት) የተመደበ እሴት ደዋዩ ዋጋ አይገልጽም። ነባሪ እሴቶች እንደ የተግባሩ አካል ሆነው ተገልፀዋል ትርጉም
 - slug: defensive_programming
   en:
     term: "defensive programming"
@@ -2570,6 +2943,10 @@
       situations that are not ever supposed to occur.
 
 
+  am:
+    term: የመከላከል  መርሃግብር
+    def: >
+      ስህተቶችን የሚወስድ የፕሮግራም አሰራሮች ስብስብ ይከሰታል እና እንደ ሪፖርት (እንደ ማረጋገጫ) ማስገባት (#assertion) ወይ ሪፖርት ያድርጉ ወይም ያስተካክሉዋቸው መከሰት ፈጽሞ የማይታሰቡ ሁኔታዎችን ሪፖርት ለማድረግ ፡፡
 - slug: degrees_of_freedom
   en:
     term: "degrees of freedom"
@@ -2593,6 +2970,10 @@
       customize objects' behavior.
 
 
+  am:
+    term: የውክልና ንድፍ
+    def: >
+      \ አንድ [ንድፍ ንድፍ](#design_pattern) በውስጡ አንድ [ነገር](#object) አብዛኛውን ሥራ ይሠራልሥራን ማጠናቀቅ ፣ ግን ለማጠናቀቅ ከሌሎች ነገሮች ስብስብ ውስጥ አንዱን ይጠቀማል የተወሰኑ የተወሰኑ የሥራ ክፍሎች. ውክልና ብዙውን ጊዜ ጥቅም ላይ ይውላል ዕቃዎችን ለማበጀት ውርስ ባህሪ ::
 - slug: dependency
   en:
     term: "dependency"
@@ -2600,6 +2981,9 @@
       See [prerequisite](#prerequisite).
 
 
+  am:
+    term: ጥገኝነት
+    def: "[ቅድመ ሁኔታ](#prerequisite) ን ይመልከቱ \n"
 - slug: dependent_variable
   en:
     term: "dependent variable"
@@ -2613,6 +2997,10 @@
       [variável independente](#independent_variable).
 
 
+  am:
+    term: ጥገኛ ተለዋዋጭ
+    def: >
+      ዋጋው በሌላ ተለዋዋጭ እሴት ላይ የሚመረኮዝ ተለዋዋጭ ፣ [ገለልተኛ ተለዋዋጭ](#independent_variable) ተብሎ የሚጠራው።
 - slug: depth_first
   en:
     term: "depth first"
@@ -2623,6 +3011,10 @@
       the next.
 
 
+  am:
+    term: ጥልቀት በመጀመሪያ
+    def: >
+      እንደ [tree](#tree)ያሉ ጎጆዎች በተዘረጋው የውሂብ መዋቅር ውስጥ ለማለፍ  በተቻለ መጠን በአንድ ጎዳና መሄድ ፣ ከዚያ በተቻለ መጠን በሚቀጥለው እና በመሳሰሉት መንገዶች ላይ ፣ ወይም ለመደምደሚያው አንድ መፍትሄን በመከተል እና ቀጣዩን በመሞከር አንድ ችግርን ለመመርመር ፡፡
 - slug: design_pattern
   ref:
     - iterator_pattern
@@ -2638,6 +3030,10 @@
       [tables](#table) are instances of the same pattern.
 
 
+  am:
+    term: የንድፍ ንድፍ
+    def: >
+      የንድፍ ንድፍ  ለሶስተኛ ደረጃ መሰየሚያ ተብሎ በተጠቀሰው የሶፍትዌር ዲዛይን ውስጥ ተደጋጋሚ ንድፍ ፣ ግን በጣም የተለየ አይደለም ፣ አንድ ምርጥ አተገባበር በ [ቤተ-መጽሐፍት](#library) ሊቀርብ ይችላል ፡፡ ለምሳሌ ፣ [የውሂብ ክፈፎች] እና የመረጃ ቋት [ጠረጴዛዎች](#data_frame) ተመሳሳይ ንድፍ ምሳሌዎች ናቸው።
 - slug: destructuring_assignment
   en:
     term: "destructuring assignment"
@@ -2646,6 +3042,10 @@
       in a single statement.
 
 
+  am:
+    term: የሚያጠፋ ተግባር
+    def: >
+      እሴቶችን ከመረጃ መዋቅሮች ማራገፍ እና ለብዙዎች መመደብ ተለዋዋጮች በአንድ መግለጫ ፡፡
 - slug: dictionary
   en:
     term: "dictionary"
@@ -2655,6 +3055,10 @@
       using [hash tables](#hash_table).
 
 
+  am:
+    term: መዝገበ-ቃላት
+    def: >
+      ዕቃዎችን በእሴት እንዲመለከቱ የሚያስችላቸው የውሂብ አወቃቀር ፣ አንዳንድ ጊዜ [associative array](#associative_array) ይባላል። መዝገበ ቃላት ብዙውን ጊዜ [hash tables](#hash_table) በመጠቀም ይተገበራሉ ፡፡
 - slug: dimension_reduction
   ref:
     - principal_component_analysis
@@ -2665,6 +3069,10 @@
       dimensions along which it varies most.
 
 
+  am:
+    term: ልኬት ቅነሳ
+    def: >
+      በውሂብ ስብስብ ውስጥ ያሉትን ልኬቶች ብዛት መቀነስ ፣ በተለምዶ በማግኘት
 - slug: directory
   en:
     term: "directory"
@@ -2683,6 +3091,10 @@
       set of values, such as [true](#true) or [false](#false).
 
 
+  am:
+    term: ልዩ ራንደም ተለዋዋጭ
+    def: >
+      : እንደ [እውነተኛ](#እውነተኛ) ወይም [ሐሰት](#true) ያሉ እሴቶቹ ከተወሰኑ የእሴቶች ስብስብ በአንዱ ላይ ብቻ ሊወስድ የሚችል አንድ [ተለዋዋጭ](#false)።
 - slug: distro
   en:
     term: "distro"
@@ -2690,6 +3102,10 @@
       See [software distribution](#software_distribution).
 
 
+  am:
+    term: ዲስትሮ
+    def: >
+      ይመልከቱ [የሶፍትዌር ስርጭት](#software_distribution)
 - slug: docstring
   en:
     term: "docstring"
@@ -2698,6 +3114,10 @@
       class, or function in [Python](#python) that automatically becomes that object's documentation.
 
 
+  am:
+    term: ዶስተስተሪንግ
+    def: >
+      አጭር ለ "የሰነድ ሕብረቁምፊ", በ [Python](#Python) ውስጥ ሞጁል ፣ ክፍል ወይም ተግባር ሲጀመር የሚታየው አንድ ሕብረቁምፊ በራስ-ሰር የዚያ ነገር ሰነድ ይሆናል።
 - slug: documentation_generator
   en:
     term: "documentation generator"
@@ -2706,6 +3126,10 @@
       [dostrings](#docstring) from code and generates cross-referenced developer documentation.
 
 
+  am:
+    term: የሰነድ ማመንጫ
+    def: >
+      በልዩ ሁኔታ የተቀረጹ አስተያየቶችን የሚያወጣ የሶፍትዌር መሣሪያ ወይም [dostrings](#docstring)  ከኮድ እና በመስቀለኛ ማጣቀሻ ያመነጫል  የገንቢ ሰነድ ::
 - slug: doi
   ref:
     - orcid
@@ -2722,6 +3146,10 @@
       本、文献、レポート、ソフトウェアリリースや他のデジタル媒体が持つ、固有かつ恒久的な識別子のこと。
 
 
+  am:
+    term: ዲጂታል የነገር መለያ
+    def: >
+      ለመጽሃፍ ፣ ወረቀት ፣ ሪፖርት ፣ የውሂብ ስብስብ ልዩ ልዩ የማያቋርጥ መለያ የሶፍትዌር መለቀቅ ወይም ሌላ ዲጂታል ቅርሶች።
 - slug: dom
   en:
     term: "Document Object Model"
@@ -2734,6 +3162,10 @@
       searching and modifying the DOM.
 
 
+  am:
+    term: ዶም
+    def: >
+      የ [HTML](#ኤችቲኤምኤል) መደበኛ እና ማህደረ ትውስታ ውክልና እና [XML](#xml) እያንዳንዱ [ንጥረ ነገር](#አባል) በአንድ [ዛፍ](#ዛፍ) ውስጥ እንደ [node](#node) ይቀመጣል ከተሰየመ [ባህሪዎች](#(#tree)ብስብ ጋር; የተካተቱ አካላት [የህፃናት ኖዶች](#attribute) ናቸው ፡፡ DOM ን ለመፈለግ እና ለማሻሻል ዘመናዊ የፕሮግራም ቋንቋዎች ብዙ [ቤተ-መጻሕፍት](#child_tree) ይሰጣሉ ፡፡
 - slug: dom_selector
   ref:
     - regular_expression
@@ -2745,6 +3177,10 @@
       while `.beta` matches nodes whose `class` [attribute](#attribute) is "beta".
 
 
+  am:
+    term: የዶም  መራጭ
+    def: በ [DOM](#dom) [ዛፍ] ውስጥ [nodes](#node) ን የሚለይ ንድፍ። ለምሳሌ ፣ "#አልፋ" "መታወቂያቸው"
+      (አይነታ) አስፈላጊ ሆኖ ከተገኘባቸው አንጓዎች ጋር ይዛመዳል።
 - slug: domain_knowledge
   en:
     term: "domain knowledge"
@@ -2752,6 +3188,10 @@
       Understanding of a specific problem domain, e.g., knowledge of transportation logistics.
 
 
+  am:
+    term: የጎራ እውቀት
+    def: >
+      ስለ አንድ የተወሰነ የችግር ጎራ መረዳትን ፣ ለምሳሌ ፣ ስለ የትራንስፖርት ሎጂስቲክስ.
 - slug: double
   en:
     term: "double"
@@ -2760,6 +3200,10 @@
       value with a fractional part and an exponent.
 
 
+  am:
+    term: ድርብ
+    def: >
+      አጭር ለ & quot; ድርብ ትክክለኛነት ተንሳፋፊ-ነጥብ ቁጥር & quot ;, ማለት 64-ቢት ነው ቁጥራዊ እሴት ከፋፋይ ክፍል እና አንድ አክሲዮን ጋር።
 - slug: double_square_brackets
   ref:
     - single_square_brackets
@@ -2769,6 +3213,10 @@
       An index enclosed in `[[...]]`, used to return a single value of the underlying type.
 
 
+  am:
+    term: ባለ ሁለት ካሬ ቅንፎች
+    def: >
+      በ [[...]] ውስጥ የተካተተ መረጃ ጠቋሚ ፣ የአንድ ነጠላ ዋጋን ለመመለስ ያገለግል ነበር የመነሻ ዓይነት::
 - slug: down_vote
   ref:
     - up_vote
@@ -2778,6 +3226,10 @@
       A vote against something.
 
 
+  am:
+    term: ወደታች ድምጽ መስጠት
+    def: >
+      በአንድ ነገር ላይ የሚደረግ ድምጽ
 - slug: dry
   en:
     term: "Don't Repeat Yourself principle"
@@ -2791,6 +3243,10 @@
       one part of the code. The goal is to create code that is easier to maintain.
 
 
+  am:
+    term: የራስዎን መርህ አይድገሙ
+    def: >
+      የራስዎን (ደረቅ) መርህ አይደገምም የሚለው - እያንዳንዱ ቁራጭ የእውቀት በውስጡ አንድ ነጠላ ፣ የማያሻማ ፣ ስልጣን ያለው ውክልና ሊኖረው ይገባል አንድ ስርዓት. ቃሉ የመጣው ከፕራግማዊ መርሃግብሩ ፣ በአንድሪው ሁንት እና ዴቪድ ቶማስ ፡፡ የ "ደረቅ" መርህን የሚከተሉ ፕሮግራሞች የ ‹ብዜትን› ያስወግዳሉ ትርጓሜዎች እና አመክንዮዎች ፣ ስለሆነም በባህሪያቸው ላይ የሚደረገው ለውጥ እያንዳንዱን ማሻሻያ ብቻ ይፈልጋል በኮዱ አንድ ክፍል ውስጥ እንዲሠራ ፡፡ ግቡ ቀለል ያለ ኮድ መፍጠር ነው ጠብቅ ::
 - slug: dynamic_loading
   en:
     term: "dynamic loading"
@@ -2801,6 +3257,10 @@
       dynamically to configure themselves.
 
 
+  am:
+    term: ተለዋዋጭ ጭነት
+    def: >
+      አንድን (ሞዱል)(#import)ቀድሞውኑ በሚሰራበት ጊዜ ወደ ማህደረ ትውስታ ለማስገባት (ለማስመጣት)(#module) ፡፡ አብዛኛዎቹ [የተተረጎሙ ቋንቋዎች](#interpreted_language) ተለዋዋጭ ጭነት ይጠቀማሉ ፣ እና ፕሮግራሞች ሞጁሎችን ማግኘት እና መጫን እንዲችሉ መሣሪያዎችን ያቅርቡ ተለዋዋጭ በሆነ መልኩ ራሳቸውን ለማዋቀር ፡፡
 - slug: dynamic_lookup
   en:
     term: "dynamic lookup"
@@ -2811,6 +3271,10 @@
       could hold `"name"` or some other property name.
 
 
+  am:
+    term: ተለዋዋጭ ፍለጋ
+    def: >
+      የአንድ [ዕቃ](#object) ተግባር ወይም ንብረት በስም ለማግኘት ፕሮግራም እየሰራ እያለ ፡፡ ለምሳሌ ፣ የተወሰነ ንብረት ከማግኘት ይልቅ የ አንድ ነገር "obj.name` ን በመጠቀም አንድ ፕሮግራም" obj [someVariable] "ን ፣ የት ሊጠቀም ይችላል "someVariable`" & quot; name & quot; ወይም ሌላ ሌላ የንብረት ስም መያዝ ይችላል።
 - slug: dynamic_scoping
   en:
     term: "dynamic scoping"
@@ -2821,6 +3285,10 @@
       is more predictable.
 
 
+  am:
+    term: ተለዋዋጭ ስኮፒንግ
+    def: >
+      ምን እንደ ሆነ በማየት የአንድ [ተለዋዋጭ](#variable_program) ዋጋ ለማግኘት ፍለጋው በተጠናቀቀበት ጊዜ [የጥሪ ቁልል](#call_stack) ፡፡ ሁሉም ማለት ይቻላል የበለጠ ሊተነበይ ስለሚችል የፕሮግራም ቋንቋዎች ይልቁንስ [lexical_scoping](#lexical_scoping) ን ይጠቀማሉ ፡፡
 - slug: edge
   en:
     term: "edge"
@@ -2829,6 +3297,10 @@
       data associated with it, such as a name or distance.
 
 
+  am:
+    term: ጠርዝ
+    def: >
+      በ [ግራፍ](#node)ውስጥ በሁለት [ኖዶች](#graph) መካከል ያለ ግንኙነት። አንድ ጠርዝ እንደ ስም ወይም ርቀት ያለ ከዚህ ጋር የተጎዳኘ ውሂብ ሊኖረው ይችላል።
 - slug: element
   ref:
     - empty_element
@@ -2840,6 +3312,10 @@
       element. Elements often have [attributes](#attribute).
 
 
+  am:
+    term: ንጥረ ነገር
+    def: >
+      በ [HTML](#html) ወይም [XML](#xml) ሰነድ ውስጥ የተሰየመ አካል ንጥረ ነገሮች ብዙውን ጊዜ የተጻፉት "& lt; name & gt;" ... "& lt; / name & gt;", የት & quot; ... & quot; የንጥሉን ይዘት ይወክላል። ንጥረ ነገሮች ብዙውን ጊዜ [ባህሪዎች] አላቸው (#ባህሪ)።
 - slug: emacs
   en:
     term: "Emacs (editor)"
@@ -2857,6 +3333,10 @@
       (with a slash after the name inside the angle brackets).
 
 
+  am:
+    term: ባዶ አካል
+    def: >
+      የ [ኤችቲኤምኤል](#ኤችቲኤምኤል) ወይም የ [XML](#xml) ሰነድ [አባል](#child_tree) ምንም [ልጆች] የሌሉት (#የልጁ_ ዛፍ)። ባዶ አባሎች ሁል ጊዜ እንደ"& lt; name & gt; & lt; / name & gt;"ተብሎ ሊፃፉ ይችላሉ ፣ ነገር ግን በአጭሩ ማሳወቂያ በመጠቀም ሊፃፍ ይችላል & (lt; name / & gt;
 - slug: empty_vector
   en:
     term: "empty vector"
@@ -2870,6 +3350,10 @@
       exemple entier ou caractère, et sont *différents* de [null](#null).
 
 
+  am:
+    term: ባዶ ቬክተር
+    def: >
+      ምንም ንጥረ ነገሮችን ያልያዘ ቬክተር። ባዶ ቬክተሮች እንደ ሎጂካዊ ወይም ቁምፊ ዓይነት አላቸው ፣ እና እንደ [null](#null) * ተመሳሳይ * አይደሉም።
 - slug: environment
   en:
     term: "environment"
@@ -2882,6 +3366,10 @@
       sont associées.
 
 
+  am:
+    term: አካባቢ
+    def: >
+      ተለዋዋጭ ስሞችን እና የሚጠቅሷቸውን እሴቶች የሚያከማች መዋቅር።
 - slug: error_handling
   en:
     term: "error handling"
@@ -2891,6 +3379,10 @@
       cannot be found.
 
 
+  am:
+    term: ስህተትን  መቆጣጠር
+    def: >
+      አንድ ፕሮግራም ስህተቶችን ለመመርመር እና ለማረም ምን ያደርጋል። ምሳሌዎች በተጠቃሚ የተገለጸ ውቅር ሊገኝ የማይችል ከሆነ መልእክት ማተም እና ነባሪ ውቅረትን መጠቀምን ያካትታሉ።
 - slug: error_test
   en:
     term: "error (in a test)"
@@ -2900,6 +3392,10 @@
       correctness of the system.
 
 
+  am:
+    term: የስህተት አያያዝ
+    def: >
+      አንድ ፕሮግራም ስህተቶችን ለመመርመር እና ለማረም ምን ያደርጋል። ምሳሌዎች በተጠቃሚ የተገለጸ ውቅር ሊገኝ የማይችል ከሆነ መልእክት ማተም እና ነባሪ ውቅረትን መጠቀምን ያካትታሉ።
 - slug: escape_sequence
   en:
     term: "escape sequence"
@@ -2910,6 +3406,10 @@
       inside a double-quoted string.
 
 
+  am:
+    term: የማምለጫ ቅደም ተከተል
+    def: >
+      ለሌላ ገጸ-ባህሪ እንደ ቅድመ-ቅጥያ የታከሉ የቁምፊዎች ቅደም ተከተል ያ ማለት ትርጉሙን ለጊዜው የሚቀይር ልዩ ትርጉም ይኖረዋል የባህሪው ለምሳሌ ፣ የማምለጫ ቅደም ተከተል "\ & quot;"በድርብ በተጠቀሰው ገመድ ውስጥ ባለ ሁለት ጥቅስ ቁምፊን ለመወከል ጥቅም ላይ ይውላል።
 - slug: evaluation
   en:
     term: "evaluation"
@@ -2918,6 +3418,10 @@
       single, irreducible value.
 
 
+  am:
+    term: ግምገማ
+    def: >
+      እንደ "1 + 2 * 3/4" ያለ አገላለጽን የመውሰድ እና የማዞር ሂደት ወደ አንድ ፣ የማይቀለበስ እሴት።
 - slug: exception
   en:
     term: "exception"
@@ -2928,6 +3432,10 @@
       another part will [catch](#catch_exception) it.
 
 
+  am:
+    term: በስተቀር
+    def: >
+      ስለ ስህተት ወይም ሌላ ያልተለመደ መረጃን የሚያከማች ዕቃ ክስተት በፕሮግራም ውስጥ ፡፡ አንድ የፕሮግራም አንድ ክፍል ይፈጥራል እና አንድ ያሳድጋል በስተቀር] አንድ ያልተጠበቀ ነገር እንዳለው ለማመልከት (#raise_exception) ተከስቷል; ሌላ ክፍል [ይይዛል](#catch_exception) ፡፡
 - slug: exception_handler
   en:
     term: "exception handler"
@@ -2937,6 +3445,10 @@
       retrying the operation that failed, or performing an alternate operation.
 
 
+  am:
+    term: ልዩ ተቆጣጣሪ
+    def: >
+      ከእሱ በኋላ [በስተቀር](#exception) ጋር የሚዛመድ የቁጥር ቁራጭ ተይ [ል (#catch_exception) ፣ ለምሳሌ ፣ አንድ [የምዝግብ ማስታወሻ](#log_message) በመጻፍ  ፣ ያልተሳካውን ክወና እንደገና በመሞከር ወይም ተለዋጭ ክዋኔን በማከናወን ላይ።
 - slug: expected_result
   ref:
     - actual_result
@@ -2947,6 +3459,10 @@
       certain way, or the state in which it is supposed to leave the system.
 
 
+  am:
+    term: የተጠበቀው ውጤት (የሙከራ)
+    def: >
+      አንድ ቁራጭ ሶፍትዌር መቼ ያወጣል ተብሎ የሚታሰበው ዋጋ በ ውስጥ ተፈትኗል አንድን መንገድ ፣ ወይም መተው ያለበት ሁኔታ ስርዓት::
 - slug: exploratory_programming
   en:
     term: "exploratory programming"
@@ -2961,6 +3477,10 @@
       corridas previas.
 
 
+  am:
+    term: ተመራማሪ መርሃግብር
+    def: >
+      ሶፍትዌሩ በሚጻፍበት ጊዜ መስፈርቶች ብቅ የሚሉበት ወይም የሚለወጡበት የሶፍትዌር ልማት ዘዴ ፣ ብዙውን ጊዜ ከቀደሙት ሥራዎች ለሚመጡ ውጤቶች ምላሽ ይሰጣል ፡፡
 - slug: export
   en:
     term: "export"
@@ -2970,6 +3490,10 @@
       explicitly in an attempt to avoid [name collision](#name_collision).
 
 
+  am:
+    term: ወደ ውጭ መላክ
+    def: >
+      ከ [ሞዱል](#module) ውጭ የሆነ ነገር እንዲታይ ለማድረግ ሌላ የፕሮግራሙ ክፍሎች (ማስመጣት)(#import) ይችላሉ። በአብዛኛዎቹ ቋንቋዎች ሞዱል መሆን አለበት [የስም ግጭት](#name_collision) ን ለማስወገድ #ነገሮችን በግልፅ ወደ ውጭ ይላኩ ።
 - slug: fail_test
   ref:
     - pass_test
@@ -2984,6 +3508,10 @@
 
 
 - slug: "false"
+  am:
+    term: መውደቅ (ፈተና)
+    def: >
+      [ትክክለኛው ውጤት](#actual_result) የማይዛመድ ከሆነ አንድ ሙከራ አልተሳካም የተጠበቀው ውጤት (#expected_result)።
   ref:
     - truthy
     - falsy
@@ -2994,6 +3522,10 @@
       logic and programming to represent a [binary](#binary) state of something.
 
 
+  am:
+    term: ውሸት
+    def: >
+      የ ሎጂካዊ ([ቦሊያን]ሁኔታ ከ [እውነተኛ](#boolean) ውስጥ ጥቅም ላይ ውሏልየ [ሁለትዮሽ](#true) ሁኔታን ለመወከል አመክንዮ እና መርሃግብር አንድ ነገር ::
 - slug: falsy
   ref:
     - truthy
@@ -3003,6 +3535,10 @@
       Evaluating to [false](#false) in a [Boolean](#boolean) context.
 
 
+  am:
+    term: ሐሰተኛ
+    def: >
+      በ [ቦሊያን](#false) አውድ ውስጥ ወደ [ሐሰት](#boolean) መገምገም።
 - slug: faq
   en:
     term: "Frequently Asked Questions"
@@ -3011,6 +3547,10 @@
       A curated list of questions commonly asked about a subject, along with answers.
 
 
+  am:
+    term: ተደጋግሞ የሚነሱ ጥያቄዎች አህጽሮተ ቃል-ተደጋጋሚ ጥያቄዎች
+    def: >
+      ስለ አንድ ርዕሰ ጉዳይ በተለምዶ የሚጠየቁ የተጠናቀሩ የጥያቄዎች ዝርዝር በመልሶች ::
 - slug: feature_branch
   ref:
     - master_branch
@@ -3022,6 +3562,10 @@
       [bug](#bug) fix or a new function. This branch can be merged into another branch.
 
 
+  am:
+    term: የባህሪ ቅርንጫፍ
+    def: >
+      አንድ [ቅርንጫፍ](በአንድ ቅርንጫፍ) ውስጥ በአንድ [Git](#git) [ማከማቻ](#repository) ለተለየ ባህሪ የተሰጠ [ተግባሮች](#commit) የያዘ ፣ ለምሳሌ ፣ አንድ [bug](#bug) ማስተካከል ወይም አዲስ ተግባር። ይህ ቅርንጫፍ ወደ ሌላ ቅርንጫፍ ሊዋሃድ ይችላል ፡፡
 - slug: feature_data
   en:
     term: "feature (in data)"
@@ -3029,6 +3573,10 @@
       A variable or observable in a dataset.
 
 
+  am:
+    term: ባህሪ (በመረጃ ውስጥ)
+    def: >
+      በውሂብ ስብስብ ውስጥ ተለዋዋጭ ወይም ታዛቢ።
 - slug: feature_engineering
   en:
     term: "feature engineering"
@@ -3037,6 +3585,10 @@
       Choosing good features often depends on [domain knowledge](#domain_knowledge).
 
 
+  am:
+    term: የባህሪ ምህንድስና
+    def: >
+      ለ ‹ግብዓት› ጥቅም ላይ የሚውሉ ተለዋዋጮችን የመምረጥ ሂደት [ሞዴል](#model) ጥሩ ባህሪያትን መምረጥ ብዙውን ጊዜ በ [ጎራ ላይ የተመሠረተ ነው እውቀት](#domain_knowledge)።
 - slug: feature_request
   en:
     term: "feature request"
@@ -3045,6 +3597,10 @@
       specific functionality (a feature) to that program.
 
 
+  am:
+    term: የባህሪ ጥያቄ
+    def: >
+      ለሶፍትዌር ፕሮግራም ተጠባባቂዎች ወይም ገንቢዎች የቀረበ ጥያቄ ለዚያ ፕሮግራም አንድ የተወሰነ ተግባር (ባህሪ) ያክሉ።
 - slug: feature_software
   en:
     term: "feature (in software)"
@@ -3053,6 +3609,10 @@
       is an undesired feature.
 
 
+  am:
+    term: ባህሪ (በሶፍትዌር ውስጥ)
+    def: >
+      ሆን ተብሎ የተቀየሰ ወይም የተገነባ የሶፍትዌር አንዳንድ ገጽታ። ሀ [bug](#bug) የማይፈለግ ባህሪ ነው።
 - slug: field
   en:
     term: "field"
@@ -3066,6 +3626,10 @@
       une [tibble](#tibble) ou [table](#table) de base de données contient les mêmes champs.
 
 
+  am:
+    term: መስክ
+    def: >
+      አንድ ነጠላ እሴት የያዘ የ [መዝገብ](#record) አንድ አካል። እያንዳንዱ መዝገብ በ [tibble](#tibble) ወይም በመረጃ ቋት [ሰንጠረዥ](#table) ተመሳሳይ መስኮች አሉት ፡፡
 - slug: filename_extension
   en:
     term: "filename extension"
@@ -3075,6 +3639,10 @@
       there is no guarantee that this is correct.
 
 
+  am:
+    term: የፋይል ስም ቅጥያ
+    def: >
+      የፋይል ስም የመጨረሻው ክፍል ፣ ብዙውን ጊዜ & #39 ን ይከተላል & #39; ምልክት የፋይል ስም ቅጥያዎች በ ውስጥ ያለውን የይዘት አይነት ለማመልከት በተለምዶ ያገለግላሉ ምንም እንኳን ይህ ትክክል ስለመሆኑ ምንም ማረጋገጫ ባይኖርም ፋይል ያድርጉ ፡፡
 - slug: filename_stem
   en:
     term: "filename stem"
@@ -3083,6 +3651,10 @@
       For example, the stem of `glossary.yml` is `glossary`.
 
 
+  am:
+    term: የፋይል ስም ግንድ
+    def: >
+      [ቅጥያውን](#filename_extension) የማያካትት የፋይል ስም ክፍል። ለምሳሌ ፣ የ "መዝገበ-ቃላት .yml` ግንድ" የቃላት መፍቻ "ነው።
 - slug: filesystem
   en:
     term: "filesystem"
@@ -3111,6 +3683,10 @@
       それらが保存される特定の方法 (例えば「Unix ファイルシステム」において見られるようなもの)のこと。
 
 
+  am:
+    term: የፋይል ስርዓት
+    def: >
+      የሚያስተዳድረው የ [ኦፐሬቲንግ ሲስተም](#operating_system) ክፍል filesm እንዴት እንደሚከማች እና እንደተገኘ። እነዚያን ሁሉ ፋይሎች ለማመልከትም እንዲሁ እና [ማውጫዎች](#directory) ወይም የሚቀመጡበት የተወሰነ መንገድ (እንደ ውስጥ የዩኒክስ የፋይል ስርዓት).
 - slug: filter
   en:
     term: "filter"
@@ -3126,6 +3702,10 @@
       certaines lignes d'une table) en se basant sur leurs valeurs.
 
 
+  am:
+    term: ማጣሪያ
+    def: >
+      እንደ ግስ ፣ የ [መዝገቦችን] ስብስብ ለመምረጥ (#record) (ማለትም ፣ የ ሀ ረድፎች) ሰንጠረዥ) በያዙት እሴቶች ላይ በመመርኮዝ ፡፡ እንደ ስም ፣ የትእዛዝ-መስመር ፕሮግራም የጽሑፍ መስመሮችን ከፋይሎች ወይም [መደበኛ ግቤት](#stdin) ያነባል ፣ የተወሰኑትን ያከናውናል በእነሱ ላይ ክዋኔ (እንደ ማጣሪያ) ፣ እና ወደ ፋይል ወይም [stdout](#stdout) ይጽፋል።
 - slug: fixture
   en:
     term: "fixture"
@@ -3134,6 +3714,10 @@
       tested or the file being processed.
 
 
+  am:
+    term: መሰኪያ
+    def: >
+      አንድ ሙከራ የሚካሄድበት ነገር ለምሳሌ [መለኪያዎች](#parameter) ወደ ሚፈተነው ተግባር ወይም ፋይሉ እየተሰራ ነው።
 - slug: folder
   en:
     term: "folder"
@@ -3149,6 +3733,10 @@
       Otro término para hacer referencia a un [directorio](#directory).
 
 
+  am:
+    term: አቃፊ
+    def: >
+      ሌላ ቃል ለ [ማውጫ](#directory) ::
 - slug: for_loop
   ref:
     - while_loop
@@ -3160,6 +3748,10 @@
       range or each element of a list.
 
 
+  am:
+    term: ለሉፕ(ፎር ሉፕ)
+    def: >
+      አንድ ወይም ከዚያ በላይ መግለጫዎችን በሚደግመው ፕሮግራም ውስጥ አንድ ግንባታ (የ [loop body](#loop_body)) አንድ ጊዜ ለእያንዳንዱ ንጥል በቅደም ተከተል እንደ እያንዳንዱ በአንድ ክልል ውስጥ ወይም በእያንዳንዱ የዝርዝር አካል ውስጥ ቁጥር።
 - slug: fork
   ref:
     - branch
@@ -3172,6 +3764,10 @@
       [pull request](#pull_request).
 
 
+  am:
+    term: ሹካ
+    def: >
+      በሌላ ሰው የ GitHub አካውንት ውስጥ የሚኖር የአንድ ሰው [Git](#git) [ማከማቻ](#repository) ቅጅ። በሹካ ይዘት ላይ የተደረጉ ለውጦች በ [ጎትት ጥያቄ](#upstream_repository) በኩል ወደ [ወደ ላይኛው መጋዘን](#pull_request) ሊቀርቡ ይችላሉ ፡፡
 - slug: full_identifier_git
   en:
     term: "full identifier (of a commit)"
@@ -3181,6 +3777,10 @@
       [hexadecimal](#hexadecimal) character [string](#string).
 
 
+  am:
+    term: ሙሉ መለያ (የአንድ ቃል)
+    def: >
+      በ [Git](#git) [ማከማቻ](#commit) ውስጥ ለ [ቃል](#repository) ልዩ የ 160 ቢት መለያ ለይቶ የሚታወቅ ፣ ብዙውን ጊዜ እንደ 20-ቁምፊ [ሄክሳዴሲማል](#hexadecimal) ቁምፊ [ክር](#string)
 - slug: full_join
   ref:
     - anti_join
@@ -3199,6 +3799,10 @@
       some other [missing value](#missing_value) signifier.
 
 
+  am:
+    term: ሙሉ መቀላቀል
+    def: >
+      ሁሉንም ረድፎች እና ሁሉንም አምዶች ከሁለት የሚመልስ [መቀላቀል](#join) ሰንጠረ Aች ሀ እና ቢ የ "A" እና "ቢ" (ቁልፎች)(#key) የሚዛመዱበት ፣ እሴቶች የተዋሃዱ ናቸው ፤ እነሱ ከሌሉበት ፣ ከየትኛውም ሰንጠረዥ የሚጎድሉ እሴቶች በ [null](#null) ፣ [NA](#na) ፣ ወይም በሌላ ሌላ [የጠፋ እሴት](#missing_value) አመላካች ተሞልተዋል።
 - slug: fully_qualified_name
   en:
     term: "fully-qualified name"
@@ -3207,6 +3811,10 @@
       of the [object](#object) in question.
 
 
+  am:
+    term: ሙሉ ብቃት ያለው ስም
+    def: >
+      የቅጹን ጥቅል የማያሻማ ስም :: ነገር " በጥያቄ ውስጥ ያለው (ነገር)(#object) የመጀመሪያ ምንጭ።
 - slug: function
   ref:
     - command
@@ -3235,6 +3843,10 @@
       Datentypen in einer Funktionsdokumentation niedergeschrieben sein sollten.
 
 
+  am:
+    term: ተግባር
+    def: >
+      ከዜሮ ወይም ከዚያ በላይ የሚፈለጉ እና አማራጭ ክርክሮችን የሚወስዱ የተወሰኑ ተግባሮችን እንደ ግብዓቶች እና የሚመልሱ ውጤቶችን (ተመላሽ እሴቶችን) የሚመልሱ ተግባሮችን በመለየት ለቀጣይ አገልግሎት የሚጠብቅ የኮድ ብሎክ ፣ ካለ ፡፡ ተግባራት የተገለጹ ተግባሮችን እንደ አንድ ተግባር ጥሪ በመባል በሚታወቀው በአንድ ትእዛዝ መድገምን ያስችሉታል ፡፡
 - slug: functional_programming
   ref:
     - higher_order_function
@@ -3252,6 +3864,10 @@
       the return value, such as writing output to a [log](#log) file, or printing to the [console](#console).
 
 
+  am:
+    term: ተግባራዊ ፕሮግራም
+    def: >
+      መረጃዎች በሚቀየሩበት የፕሮግራም ዘይቤ እንደ ቀለበቶች ያሉ የመቆጣጠሪያ አሠራሮችን ከመጠቀም ይልቅ የተግባሮችን ትግበራ በመተግበር ላይ በተግባራዊ መርሃግብር ውስጥ በግብአት መካከል ቀጥተኛ ግንኙነት መኖር አለበት ወደ ተግባር እና በተግባሩ የሚመረተው ውጤት ፣ ውጤቱ በአለምአቀፍ ተለዋዋጮች ወይም በሌሎች የዓለም ክፍሎች የፕሮግራም ሁኔታ](#global_environment). እንዲሁም ተግባራት [የጎንዮሽ ጉዳቶች](#side_effect) እንዳያወጡ ይጠይቃል ፡፡ ማለትም የዓለም አቀፍ ፕሮግራሙን ሁኔታ አያሻሽሉም ፣ ወይም የመመለሻውን ዋጋ ከማስላት ውጭ ሌላ ነገር አያደርጉም ፣ ለምሳሌ ውጤትን በ [መዝገብ](#log) ፋይል ላይ መጻፍ ፣ ወይም ወደ [ኮንሶል](#console) ማተም።
 - slug: generator_function
   ref:
     - iterator_pattern
@@ -3264,6 +3880,10 @@
       streams of values that can be processed by [for loops](#for_loop).
 
 
+  am:
+    term: ጄነሬተር ተግባር
+    def: >
+      ሀ ሲመለስ ሁኔታው በራስ-ሰር የሚቀመጥ ተግባር በሚቀጥለው ጊዜ በሚጠራበት ጊዜ አፈፃፀም ከዚያ ነጥብ እንደገና እንዲጀመር ዋጋ ይስጡ ፡፡ የጄነሬተር ተግባራት አጠቃቀም አንዱ ምሳሌ በ [ለ loops](#for_loop) ሊሠሩ የሚችሉ የእሴቶችን ጅረቶች ማምረት ነው ፡፡
 - slug: generic_function
   en:
     term: "generic function"
@@ -3287,6 +3907,10 @@
       diferente de datos.
 
 
+  am:
+    term: አጠቃላይ ተግባር
+    def: >
+      ተመሳሳይ ዓላማ ያላቸው የተግባሮች ስብስብ ፣ እያንዳንዱ በተለየ የውሂብ ክፍል ላይ ይሠራል።
 - slug: geometric_mean
   ref:
     - mean
@@ -3329,6 +3953,10 @@
       Uma ferramenta de controle de versão para registrar e gerenciar mudanças em um projeto.
 
 
+  am:
+    term: ጋት
+    def: >
+      ለመቅረጽ እና [የስሪት መቆጣጠሪያ መሳሪያ](#version_control_system) በፕሮጀክት ላይ ለውጦችን ማስተዳደር።
 - slug: git_branch
   ref:
     - feature_branch
@@ -3351,6 +3979,10 @@
       capturar múltiplas versões de um mesmo repositório.
 
 
+  am:
+    term: የጊት ቅርንጫፍ
+    def: >
+      የአንድ [Git](#git) [ማከማቻ](#repository) ስሪት ቅጽበታዊ ገጽ እይታ። በርካታ ቅርንጫፎች አንድ ዓይነት ማከማቻ ብዙ ስሪቶችን መያዝ ይችላሉ።
 - slug: git_clone
   en:
     term: "Git clone"
@@ -3364,6 +3996,10 @@
       sur l'ordinateur local.
 
 
+  am:
+    term: የጌት ክሎኒ
+    def: የ [Git](#ጂት) [የርቀት) ቅጂዎች (እና አብዛኛውን ጊዜ ውርዶች) ማከማቻ](#(#remote_repository))
+      በአካባቢያዊ ኮምፒተር ላይ ፡፡
 - slug: git_conflict
   en:
     term: "Git conflict"
@@ -3372,6 +4008,9 @@
       different [branches](#branch) that are now being [merged](#git_merge).
 
 
+  am:
+    term: የጂት ግጭት
+    def: 'አሁን ባሉ የተለያዩ [ቅርንጫፎች](#branch) ላይ የማይጣጣሙ ወይም ተደራራቢ ለውጦች የተደረጉበት ሁኔታ [ተዋህዷል](#git_merge)::'
 - slug: git_fork
   ref:
     - git_clone
@@ -3382,6 +4021,10 @@
       on a [server](#server), or the copy that is made.
 
 
+  am:
+    term: የጂት ሹካ
+    def: በ [አገልጋይ](#repository) ላይ የ [Git](#git) [ማከማቻ](#server) አዲስ ቅጅ ወይም የተሰራውን
+      ቅጅ ለማድረግ።
 - slug: git_merge
   en:
     term: "Git merge"
@@ -3392,6 +4035,11 @@
       this must be resolved before the merge will be completed.
 
 
+  am:
+    term: Git ውህደት
+    def: በ [Git](#git) ውስጥ ቅርንጫፎችን ማዋሃድ በአንዱ ውስጥ የሁለት [ቅርንጫፎች](#branch) የልማት ታሪኮችን
+      ያካትታል ፡፡ በሁለቱም ቅርንጫፎች ላይ ባሉ ተመሳሳይ ቅርንጫፎች ላይ ለውጦች ከተደረጉ አንድ "ግጭት" (#git_conflict)
+      ይከሰታል እናም ውህደቱ ከመጠናቀቁ በፊት ይህ መፍትሄ ማግኘት አለበት ፡፡
 - slug: git_pull
   en:
     term: "Git pull"
@@ -3405,6 +4053,10 @@
       et le [dépôt](#repository) local.
 
 
+  am:
+    term: Git መጎተት
+    def: በአንድ [የርቀት ማከማቻ](#remote_repository) እና በአከባቢው [ማከማቻ](#repository) መካከል ለውጦችን
+      ያውርዳል እና ያመሳስላል።
 - slug: git_push
   en:
     term: "Git push"
@@ -3418,13 +4070,17 @@
       le [dépôt distant](#remote_repository).
 
 
+  am:
+    term: Git መግፋት
+    def: በአካባቢያዊ [ማከማቻ](#repository) እና ሀ መካከል ለውጦችን ይሰቅላል እና ያመሳስላቸዋል [የርቀት ማከማቻ](#remote_repository)።
 - slug: git_remote
   en:
     term: "Git remote"
     def: >
       A short name for a [remote repository](#remote_repository) (like a bookmark).
-
-
+  am:
+    term: ጌት በርቀት
+    def: ለ [የርቀት ማከማቻ] አጭር ስም (#remote_repository) (እንደ ዕልባት)።
 - slug: github
   en:
     term: "GitHub"
@@ -3444,6 +4100,10 @@
       salvar versões do seu projeto online e colaborar com outras pessoas usuárias do Git.
 
 
+  am:
+    term: ጊት ሀብ
+    def: የፕሮጀክትዎን ስሪቶች በመስመር ላይ እንዲያስቀምጡ እና ከሌሎች የጂት ተጠቃሚዎች ጋር እንዲተባበሩ የሚያስችልዎ በ [Git](#git)
+      ዙሪያ የተገነባ ደመና-ተኮር መድረክ።
 - slug: global_environment
   en:
     term: "global environment"
@@ -3457,6 +4117,10 @@
       dans un langage de programmation, par exemple celles écrites directement dans l'interpréteur.
 
 
+  am:
+    term: ዓለም አቀፍ አካባቢ
+    def: በፕሮግራም ቋንቋ የከፍተኛ ደረጃ ትርጓሜዎችን የሚይዝ (አካባቢው)(#environment) ፣ ለምሳሌ በቀጥታ በአስተርጓሚው
+      ውስጥ የተፃፉ ፡፡
 - slug: global_installation
   ref:
     - local_installation
@@ -3475,6 +4139,9 @@
       par tous les utilisateurs ainsi que tous les projets.
 
 
+  am:
+    term: ዓለም አቀፍ ጭነት
+    def: አንድ ጥቅል በሁሉም ተጠቃሚዎች እና ፕሮጀክቶች ሊደረስበት በሚችልበት ቦታ ላይ መጫን።
 - slug: global_variable
   ref:
     - local_variable
@@ -3499,6 +4166,10 @@
       소스 코드 상의 모든 곳에서 접근할 수 있는 변수.
 
 
+  am:
+    term: ዓለም አቀፍ ተለዋዋጭ
+    def: 'ከማንኛውም የተለየ ተግባር ወይም [ጥቅል](#package) የስም ቦታ ውጭ የተገለጸ ተለዋዋጭ ፣ ስለሆነም የሚታየው
+      ወደ ሁሉም ተግባራት::'
 - slug: globbing
   en:
     term: "globbing"
@@ -3508,6 +4179,10 @@
       names end in `.dat`". The name is derived from "global".
 
 
+  am:
+    term: ግሎባልንግ
+    def: >
+      ቀለል ያለ የ [መደበኛ] ቅጽ በመጠቀም የፋይል ስሞችን ስብስብ ለመለየት መግለጫዎች](#regular_expression) ፣ እንደ"* .dat`"ማለት"ስማቸው በ".dat`"የሚያበቃ ሁሉም ፋይሎች ማለት ነው። ስሙ የተገኘው ከ "ዓለምአቀፋዊ" ነው ፡፡
 - slug: gnu
   ref:
     - gpl
@@ -3531,6 +4206,10 @@
       distribute the source of their changes.
 
 
+  am:
+    term: የጂኤንዩ የህዝብ ፈቃድ
+    def: >
+      ሰዎች የለውጦቻቸውን ምንጭ እስካሰራጩ ድረስ ሶፍትዌሮችን እንደገና እንዲጠቀሙ የሚያስችል (ፈቃድ)፡፡
 - slug: gradient_boosting
   en:
     term: "gradient boosting"
@@ -3540,6 +4219,10 @@
       stepwise fashion.
 
 
+  am:
+    term: የቀስታ መጨመር
+    def: >
+      አንድ ስብስብ የሚያመነጭ [የማሽን መማሪያ] ዘዴ ደካማ የትንበያ ሞዴሎች (በተለምዶ [የውሳኔ ዛፎች](#የውሳኔ_ ዛፍ)) በ ደረጃ በደረጃ ፋሽን.
 - slug: gradient_descent
   ref:
     - backpropagation
@@ -3551,6 +4234,10 @@
       and then recalculates the gradient.
 
 
+  am:
+    term: የግራዲያንት ዝርያ
+    def: >
+      በአሁኑ ጊዜ የግራዲያተሩን ደጋግሞ የሚያሰላ የማመቻቸት ስልተ ቀመር ነጥብ ቀስ በቀስ እየቀነሰ በሚሄድበት አቅጣጫ ትንሽ ደረጃን ይወስዳል እና ከዚያ የግራዲየሙን እንደገና ያሰላል።
 - slug: graph
   ref:
     - tree
@@ -3561,6 +4248,10 @@
       [nodes](#node) are connected to one another by [edges](#edge).
 
 
+  am:
+    term: ቀመር
+    def: >
+      1. መረጃን የሚያሳይ ሴራ ወይም ገበታ ፣ ወይም 2. በውስጡ የውሂብ መዋቅር [nodes](#node) እርስ በእርሳቸው በ [ጠርዞች](#edge) ተገናኝተዋል።
 - slug: group
   en:
     term: "group"
@@ -3569,6 +4260,10 @@
       a single structure.
 
 
+  am:
+    term: ቡድን
+    def: >
+      በአንድ መዋቅር ውስጥ መዝገቦችን በሚተዉበት ጊዜ መረጃን እንደ መስፈርት ስብስብ በንዑስ ክፍልፋዮች ለመከፋፈል ፡፡
 - slug: gui
   en:
     term: "graphical user interface"
@@ -3596,6 +4291,10 @@
       prefers "handling a condition" to "[catching an exception](catch_exception)". [Python](#python), on the other hand,
       encourages raising and catching exceptions, and in some situations, requires it.
 
+  am:
+    term: እጀታ (ሁኔታ)
+    def: >
+      ስህተት ወይም ሌላ ያልተጠበቀ ክስተት ለማስተናገድ ሃላፊነትን ለመቀበል። [R](#r_language) "ሁኔታን ማስተናገድ"ከሚለው ይልቅ"(ለየት ያለ ሁኔታ ለመያዝ) (catch_exception)"ን ይመርጣል። [Python](#python) ፣ በሌላ በኩል ፣ ልዩነቶችን ማሳደግ እና መያዝን ያበረታታል ፣ እና በአንዳንድ ሁኔታዎችም ይጠይቃል ፡፡
 - slug: hardware
   en:
     term: "hardware"
@@ -3606,6 +4305,10 @@
       with software to produce a functioning computer system.
 
 
+  am:
+    term: ሃርድዌር(ከብረት የተሰሩ እቃዎች)
+    def: >
+      የኮምፒተር ስርዓት ማንኛውም አካላዊ አካል። ሃርድዌር እንደ ሲፒዩ ፣ ማህደረ ትውስታ ፣ ውስጣዊ ሊሆን ይችላል እና ግራፊክስ ካርዶች; ወይም እንደ ማሳያ እና የቁልፍ ሰሌዳዎች ያሉ ውጫዊ። ሃርድዌር አብሮ ይሠራል የሚሰራ የኮምፒተር ስርዓት ለማምረት ከሶፍትዌር ጋር ፡፡
 - slug: harmonic_mean
   ref:
     - mean
@@ -3634,6 +4337,10 @@
       A function that turns arbitrary data into a bit array, or a [key](#key), of a fixed size. Hash
       functions are used to determine where data should be stored in a [hash table](#hash_table).
 
+  am:
+    term: ሃሽ ተግባር
+    def: >
+      የዘፈቀደ ውሂብን ወደ ትንሽ ድርድር ወይም ወደ አንድ የተወሰነ መጠን [ቁልፍ](#key) የሚቀይር ተግባር። ሃሽ ተግባራት በ [ሃሽ ሰንጠረዥ] ውስጥ የት እንደሚቀመጡ ለመወሰን ተግባሮች ጥቅም ላይ ይውላሉ (#hash_table) ፡፡
 - slug: hash_table
   en:
     term: "hash table"
@@ -3644,6 +4351,10 @@
       of information they need to store, to avoid the possibility of data collisions, when the
       hash function returns the same key for two different values.
 
+  am:
+    term: ሃሽ ጠረጴዛ
+    def: >
+      ለእሱ ለተላለፈው ለእያንዳንዱ እሴት የሐሰት-የዘፈቀደ ቁልፍ (ሥፍራ) የሚሰላ የውሂብ መዋቅር በዚያ ቦታ ያለው እሴት። የሃሽ ሰንጠረ arች የዘፈቀደ ውሂብ ፈጣን ፍለጋን ያንቁ ፡፡ ይህ ይከሰታል ተጨማሪ የማስታወስ ችሎታ ባለው ወጪ ፣ ምክንያቱም የሃሽ ሰንጠረ alwaysች ሁል ጊዜ ከቁጥር የበለጠ መሆን አለባቸው የመረጃ ግጭቶች እንዳይከሰቱ ለማስቀመጥ የሚፈልጉትን መረጃ ፣ መቼ ሃሽ ተግባር ለሁለት የተለያዩ እሴቶች ተመሳሳይ ቁልፍን ይመልሳል።
 - slug: header_row
   ref:
     - csv
@@ -3654,6 +4365,10 @@
       not their data types or units).
 
 
+  am:
+    term: የራስጌ ረድፍ
+    def: >
+      የሚገኝ ከሆነ ፣ የዓምድ ስሞችን (ግን የውሂብ አይነቶቻቸውን ወይም አሃዶቻቸውን ሳይሆን) የሚወስን የመረጃ ፋይል የመጀመሪያ ረድፍ።
 - slug: heterogeneous
   ref:
     - homogeneous
@@ -3664,6 +4379,10 @@
       strings, and values of other types.
 
 
+  am:
+    term: የተለያዩ
+    def: >
+      የተደባለቀ የውሂብ አይነቶችን የያዘ። ለምሳሌ ፣ በ [Python](#python እና [R](#r_language) ውስጥ [ዝርዝር](#list) የቁጥሮች ፣ የቁምፊ ሕብረቁምፊዎች እና የሌሎች ዓይነቶች እሴቶች ድብልቅ ሊይዝ ይችላል ፡፡
 - slug: hexadecimal
   en:
     term: "hexadecimal"
@@ -3674,6 +4393,10 @@
       one byte of storage.
 
 
+  am:
+    term: አስራስድስትዮሽ
+    def: >
+      የመሠረት-16 ቁጥር ስርዓት. ሄክሳዴሲማል እሴቶች ብዙውን ጊዜ አሃዞችን በመጠቀም ይጻፋሉ 0-9 እና ቁምፊዎች A-F በሁለቱም በላይኛው ወይም በታችኛው ጉዳይ። ሄክሳዴሲማል ብዙ ጊዜ ነው ሁለት ሄክሳዴሲማል አሃዞች በትክክል አንድ ባይት ክምችት ስለሚጠቀሙ የ [ሁለትዮሽ](#binary) እሴቶችን ይወክላል።
 - slug: higher_order_function
   en:
     term: "higher-order function"
@@ -3683,6 +4406,10 @@
       Higher-order functions are heavily used in [functional programming](#functional_programming).
 
 
+  am:
+    term: ከፍተኛ-ትዕዛዝ ተግባር
+    def: >
+      በሌሎች ተግባራት ላይ የሚሰራ ተግባር ፡፡ ለምሳሌ ፣ ከፍተኛ-ትዕዛዝ ተግባር "ካርታ` በ [ዝርዝር](#list) ውስጥ በእያንዳንዱ እሴት ላይ አንድ ጊዜ የተሰጠ ተግባርን ያከናውናል። የከፍተኛ ትዕዛዝ ተግባራት [በተግባራዊ መርሃግብር](#functional_programming) ውስጥ በጣም ያገለግላሉ።
 - slug: hippocratic_license
   en:
     term: "Hippocratic License"
@@ -3691,6 +4418,10 @@
       that does not contravene the Universal Declaration of Human Rights.
 
 
+  am:
+    term: የሂፖክራሲያዊ ፈቃድ
+    def: >
+      ለማንኛውም ዓላማ ነፃ አጠቃቀምን የሚፈቅድ የስነምግባር ሶፍትዌር [ፈቃድ](#license) ዓለም አቀፍ የሰብአዊ መብቶች ድንጋጌን አይቃረንም ፡፡
 - slug: histogram
   en:
     term: "histogram"
@@ -3703,6 +4434,10 @@
      'n Grafiese voorstelling van die verspreiding van 'n data, gewoonlik 'n vertikale staafgrafiek.
 
 
+  am:
+    term: ግጥም ጥርብ ግራፍ
+    def: >
+      የቁጥር ውሂብ ስብስብ ስርጭት ግራፊክ ውክልና ፣ ብዙውን ጊዜ ቀጥ ያለ የአሞሌ ግራፍ
 - slug: hitchhiker
   en:
     term: "hitchhiker"
@@ -3710,6 +4445,10 @@
       Someone who is part of a project but does not actually do any work on it.
 
 
+  am:
+    term: ሂቼቺከር
+    def: >
+      አንድ የፕሮጀክት አካል የሆነ ነገር ግን በእውነቱ በእሱ ላይ ምንም ሥራ የማይሠራ ሰው ፡፡
 - slug: home_directory
   en:
     term: "home directory"
@@ -3719,6 +4458,10 @@
       home directory.
 
 
+  am:
+    term: መኖሪያ ሀጸ ማውጫ
+    def: >
+      የተጠቃሚ ፋይሎችን የያዘ ማውጫ. እያንዳንዱ ተጠቃሚ በብዙ ተጠቃሚ ኮምፒተር ላይ የራሳቸው ቤት ማውጫ ይኖራቸዋል; የግል ኮምፒተር ብዙ ጊዜ አንድ የቤት ማውጫ ብቻ ይኖረዋል ፡፡
 - slug: homogeneous
   ref:
     - heterogeneous
@@ -3729,6 +4472,10 @@
       values must all be numeric, logical, etc.
 
 
+  am:
+    term: ተመሳሳይነት ያለው
+    def: >
+      አንድ ነጠላ የውሂብ አይነት የያዘ። ለምሳሌ ፣ አንድ [ቬክተር](#vector) ተመሳሳይ መሆን አለበት-የእሱ እሴቶች ሁሉም ቁጥራዊ ፣ ሎጂካዊ ፣ ወዘተ መሆን አለባቸው ፡፡
 - slug: html
   ref:
     - xml
@@ -3746,6 +4493,10 @@
       im Speicher durch das [Dokumenten-Objekt-Modell](#dom) repräsentiert.
 
 
+  am:
+    term: የሃይፐር ጽሑፍ ምልክት ማድረጊያ ቋንቋ
+    def: >
+      ለድር ገጾች ጥቅም ላይ የዋለው መደበኛው [ምልክት ማድረጊያ ቋንቋ](#markup_language) ኤችቲኤምኤል ነው [DOM](#dom) (ዲጂታል ነገር ሞዴል) በመጠቀም በማስታወስ ውስጥ ተወክሏል።
 - slug: http
   en:
     term: "HyperText Transfer Protocol"
@@ -3756,6 +4507,10 @@
       the meanings of standard error codes, and other features.
 
 
+  am:
+    term: የሃይፐር ጽሑፍ ማስተላለፍ ፕሮቶኮል
+    def: >
+      በአለም አቀፍ ድር ላይ ለመረጃ ማስተላለፍ መደበኛ [ፕሮቶኮል](#protocol)። ኤች.ቲ.ፒ.ፒ. የ [ጥያቄዎች](#http_request) ቅርጸት እና [ምላሾች](#http_response) ፣ የመደበኛ ስህተት ኮዶች ትርጓሜዎች እና ሌሎች ባህሪዎች ይገልፃል።
 - slug: http_header
   en:
     term: "HTTP header"
@@ -3765,6 +4520,10 @@
       user's preferred language or the length of the data being transferred.
 
 
+  am:
+    term: የኤችቲቲፒ ራስጌ
+    def: >
+      በ [HTTP] አናት ላይ የቁልፍ እሴት ጥንድ (#http) [ጥያቄ](#http_request) ወይም እንደ "መረጃ" ተጨማሪ መረጃዎችን የሚያስተላልፍ [ምላሽ](#http_response) የተጠቃሚው ተመራጭ ቋንቋ ወይም የተላለፈው የውሂብ ርዝመት።
 - slug: http_request
   ref:
     - http_response
@@ -3776,6 +4535,11 @@
       a web page, image, or other data.
 
 
+  am:
+    term: የኤችቲቲፒ ጥያቄ
+    def: >
+      በመጠቀም ከ [ደንበኛ](#client) ወደ [አገልጋይ](#server) የተላከ መልእክት
+      [HTTP](#http) [ፕሮቶኮል](#protocol) መረጃን በመጠየቅ ላይ። ጥያቄ ብዙውን ጊዜ ይጠይቃል አንድ ድር ገጽ ፣ ምስል ወይም ሌላ ውሂብ።
 - slug: http_response
   en:
     term: "HTTP response"
@@ -3785,6 +4549,10 @@
       The response usually contains a web page, image, or data.
 
 
+  am:
+    term: የኤችቲቲፒ ምላሽ
+    def: >
+      በመጠቀም ከ [አገልጋይ](#server) ለ [ደንበኛ](#client) የተላከ መልስ [HTTP](#http) [ፕሮቶኮል](#protocol) ለ [ጥያቄ] ምላሽ ለመስጠት (#http_request)። ምላሹ ብዙውን ጊዜ የድር ገጽን ፣ ምስልን ወይም መረጃን ይ containsል።
 - slug: ide
   ref:
     - repl
@@ -3805,6 +4573,10 @@
       archivos en el disco.
 
 
+  am:
+    term: የተቀናጀ የልማት አካባቢ
+    def: >
+      ፕሮግራም ሰሪዎች ሶፍትዌሮችን እንዲያዳብሩ የሚያግዝ መተግበሪያ ፡፡ መታወቂያዎች በተለምዶ ሀ አብሮገነብ አርታዒ ፣ ኮዱን ወዲያውኑ ለማስፈፀም [ኮንሶል](#console) እና አሳሾች ለ በማስታወሻ ውስጥ እና በዲስክ ላይ ባሉ ፋይሎች ውስጥ የውሂብ መዋቅሮችን ማሰስ ፡፡
 - slug: import
   en:
     term: "import"
@@ -3820,6 +4592,10 @@
       [exporta](#export) explícitamente.
 
 
+  am:
+    term: ማስመጣት
+    def: >
+      ነገሮችን ከ [ሞጁል](#module) ወደ አገልግሎት ፕሮግራም ለማምጣት ፡፡ በአብዛኛዎቹ ቋንቋዎች አንድ ፕሮግራም ሞጁሉን በግልፅ የሚያስገቡ ነገሮችን ብቻ ማስመጣት ይችላል [ወደ ውጭ መላክ](#export)
 - slug: impostor_syndrome
   en:
     term: "impostor syndrome"
@@ -3828,6 +4604,10 @@
       than ability.
 
 
+  am:
+    term: አስመሳይ ሲንድሮም
+    def: >
+      የአንድ ሰው ስኬቶች በአጋጣሚ ወይም በእድል ዕድል የተገኙ ናቸው የሚለው [ውሸት](#false) እምነት ከችሎታ ይልቅ ፡፡
 - slug: in_place_operator
   en:
     term: "in-place operator"
@@ -3837,6 +4617,10 @@
       assign the result back to `x`.
 
 
+  am:
+    term: በቦታው ውስጥ ኦፕሬተር
+    def: >
+      አንዱን ኦፕሬዶቹን የሚያሻሽል ኦፕሬተር ፡፡ ለምሳሌ አገላለፁ "x + = 2` አሁን ባለው የ" x` እና "እሴት ላይ 2 ለመጨመር የቦታውን ኦፕሬተር ይጠቀማል ውጤቱን ወደ ‹x` ይመልሱ ፡፡
 - slug: increment
   ref:
     - decrement
@@ -3888,6 +4672,10 @@
       [keys](#key) exist in both tables.
 
 
+  am:
+    term: ውስጣዊ መቀላቀል
+    def: >
+      የሁለት ጠረጴዛዎች ሀ እና ቢ የማን ረድፎችን ጥምር የሚመልስ [መቀላቀል](#join) [ቁልፎች](#key) በሁለቱም ጠረጴዛዎች ውስጥ አሉ ፡፡
 - slug: instance
   en:
     term: "instance"
@@ -3895,6 +4683,10 @@
       An [object](#object) of a particular [class](#class).
 
 
+  am:
+    term: አብነት
+    def: >
+      የአንድ የተወሰነ (ክፍል)(#object) (#ነገር)(#class)።
 - slug: integration_test
   ref:
     - unit_test
@@ -3904,6 +4696,10 @@
       A test that checks whether the parts of a system work properly when put together.
 
 
+  am:
+    term: የውህደት ሙከራ
+    def: >
+      አንድ ሲስተም ሲስተም አካላት በትክክል መሥራታቸውን የሚያረጋግጥ ሙከራ።
 - slug: interpreted_language
   en:
     term: "interpreted language"
@@ -3913,6 +4709,10 @@
       into machine commands on the fly.
 
 
+  am:
+    term: የተተረጎመ ቋንቋ
+    def: >
+      በቀጥታ በኮምፒተር የማይተገበር የከፍተኛ ደረጃ ቋንቋ ፣ ግን ይልቁንስ የሚከናወነው የፕሮግራም መመሪያዎችን በሚተረጎም በ [አስተርጓሚ](#interpreter) ነው በመብረር ላይ ወደ ማሽን ትዕዛዞች ፡፡
 - slug: interpreter
   en:
     term: "interpreter"
@@ -3921,6 +4721,10 @@
       Interpreters can run interactively, but may also execute commands saved in a file.
 
 
+  am:
+    term: አስተርጓሚ
+    def: >
+      በከፍተኛ ደረጃ [በተተረጎመ ቋንቋ] የተጻፉ ፕሮግራሞችን ማካሄድ ሥራው የሆነ ፕሮግራም (#interpreted_language) ፡፡ አስተርጓሚዎች በይነተገናኝ ሆነው ሊሰሩ ይችላሉ ፣ ግን ደግሞ በአንድ ፋይል ውስጥ የተቀመጡ ትዕዛዞችን ያስፈጽሙ ይሆናል።
 - slug: invariant
   en:
     term: "invariant"
@@ -3931,6 +4735,10 @@
       may result in failure or early termination of the program.
 
 
+  am:
+    term: የማይለዋወጥ
+    def: >
+      የሆነ ነገር በማንኛውም ጊዜ በፕሮግራሙ ውስጥ ወይም በ ውስጥ (እውነት)(#true) መሆን አለበት [የሕይወት ዑደት](#lifecycle) የአንድ [ነገር](#object)። ተለዋዋጭነት ብዙውን ጊዜ የሚገለጸው [ማረጋገጫዎችን](#assertion) በመጠቀም ነው  ፡፡
 - slug: iso_date_format
   en:
     term: "ISO date format"
@@ -3940,6 +4748,10 @@
       and a two-digit day, separated by hyphens.
 
 
+  am:
+    term: የ ISO ቀን ቅርጸት
+    def: >
+      ቀኖችን ለመቅረጽ ዓለም አቀፍ ፡፡ ሙሉው መስፈርት ውስብስብ ቢሆንም ፣ እ.ኤ.አ. በጣም የተለመደው ቅጽ "YYYY-MM-DD" ነው ፣ ማለትም ፣ ባለ አራት አሃዝ ዓመት ፣ ባለ ሁለት አሃዝ ወር ፣ እና በሰልፍ ተለያይተው ባለ ሁለት አሃዝ ቀን።
 - slug: issue
   en:
     term: "issue"
@@ -3948,6 +4760,10 @@
       with a project. Also called a [ticket](#ticket).
 
 
+  am:
+    term: ርዕሰ ጉዳይ
+    def: >
+      አንድ [የሳንካ ዘገባ](#bug_report) ፣ የባህሪይ ጥያቄ ወይም ሌላ የሚደረገው ንጥል ከአንድ ፕሮጀክት ጋር. እንዲሁም [ትኬት] ተብሎ ይጠራል (#ticket)።
 - slug: issue_label
   en:
     term: "label (an issue)"
@@ -3956,6 +4772,10 @@
       labels include [`bug`](#bug) and `feature request`.
 
 
+  am:
+    term: መለያ (ጉዳይ)
+    def: >
+      ለመመደብ ከ [ጉዳይ](#issue) ጋር የተቆራኘ አጭር የጽሑፍ መለያ። የተለመደ መለያዎች ["bug`]" (#bug) እና "feature request` ን ያካትታሉ።
 - slug: issue_tracking_system
   en:
     term: "issue tracking system"
@@ -3965,6 +4785,10 @@
       requests](#feature_request), [bug reports](#bug_report), or some other to-do item.
 
 
+  am:
+    term: ጉዳይ የመከታተያ ስርዓት
+    def: >
+      ከ "ሳንካ መከታተያ ስርዓት](#bug_tracker) ጋር ተመሳሳይ ነው [" ጉዳዮች "](#issue) ወደ [ማከማቻ](#repository) የተሰራ ፣ ብዙውን ጊዜ በ [ባህሪይ] ጥያቄዎች](#feature_request) ፣ [የሳንካ ሪፖርቶች](#bug_report) ፣ ወይም ሌላ የሚደረጉ ነገሮች።
 - slug: iterator_pattern
   ref:
     - visitor_pattern
@@ -3977,6 +4801,10 @@
       structures so that everything can be processed using loops.
 
 
+  am:
+    term: የኢተራክተር ንድፍ
+    def: >
+      ጊዜያዊ [ነገር](#design_pattern) ወይም [ጄኔሬተር) ውስጥ አንድ [ንድፍ ንድፍ](#object) ተግባር](#generator_function) እያንዳንዱን እሴት ከአንድ ክምችት በተራ ያወጣል ማቀነባበር. ይህ ንድፍ በተለያዩ የውሂብ ዓይነቶች መካከል ያለውን ልዩነት ይደብቃል ሁሉም ነገሮች ቀለበቶችን በመጠቀም እንዲከናወኑ መዋቅሮች ፡፡
 - slug: join
   ref:
     - anti_join
@@ -3992,6 +4820,10 @@
       One of several operations that combine values from two [tables](#table).
 
 
+  am:
+    term: ተቀላቀል
+    def: >
+      እሴቶችን ከሁለት [ሰንጠረ ](#table)ች] ከሚያጣምሩ በርካታ ክዋኔዎች አንዱ ፡፡
 - slug: json
   ref:
     - yaml
@@ -4015,6 +4847,10 @@
       de données, ni ne supporte l'ajout de commentaires.
 
 
+  am:
+    term: የጃቫስክሪፕት ነገር ማስታወሻ
+    def: >
+      እንደ ቁጥሮች እና ባህሪ ያሉ መሰረታዊ እሴቶችን በማጣመር መረጃን ለመወከል የሚያስችል መንገድ [ዝርዝሮች](#list) እና [ቁልፍ / እሴት](#dictionary) መዋቅሮች ውስጥ ሕብረቁምፊዎች። አህጽሮተ ቃል "ጃቫስክሪፕት" ማለት ነው የነገር ማሳወቂያ"፤ እንደ [XML](#xml) ካሉ በተሻለ ከተገለጹ ደረጃዎች በተለየ ፣ እሱ ነው ለአስተያየቶች አገባብ (ሰነድ) ያልተመዘገበ ወይም [መርሃግብር](#schema) ን የሚገልጹ መንገዶች ።
 - slug: jupyter
   ref:
     - jupyter_notebook
@@ -4026,6 +4862,10 @@
       computing in many different programming languages.
 
 
+  am:
+    term: ጁፒተር
+    def: >
+      ፕሮጀክት ጁፒተር ከ ‹አይፒን› ፕሮጀክት የተወለደው ለትርፍ ያልተቋቋመ ፣ ክፍት ምንጭ ፕሮጀክት ነው እ.ኤ.አ በ 2014 አይፒንቶን በይነተገናኝ [ዳታ ሳይንስ](#data_science) እና ሳይንሳዊን ለመደገፍ እንደተሻሻለ በበርካታ የተለያዩ የፕሮግራም ቋንቋዎች ማስላት።
 - slug: jupyter_notebook
   ref:
     - jupyter
@@ -4036,6 +4876,10 @@
       that allows the user to write and share live code, equations, visualisations, and narrative text.
 
 
+  am:
+    term: የጁፒተር ማስታወሻ ደብተር
+    def: >
+      የጁፒተር ማስታወሻ ደብተር ክፍት ምንጭ ፣ በድር ላይ የተመሠረተ [የሂሳብ ማስታወሻ ደብተር](#computational_notebook) ነው  ተጠቃሚው የቀጥታ ኮድ ፣ እኩልታዎች ፣ ምስላዊ እይታዎች እና የትረካ ጽሑፍን እንዲጽፍ እና እንዲያጋራ ያስችለዋል።
 - slug: k_means_clustering
   ref:
     - clustering
@@ -4048,6 +4892,10 @@
       longer move.
 
 
+  am:
+    term: k-ማለት ማሰባሰብ ማለት
+    def: >
+      * ቁጥጥር * ያልተደረገበት ትምህርት (#unsupervised_learning) ስልተ ቀመር * k * የወቅቱን ቡድኖች [ሴንትሮይድ](#centroid) በተደጋጋሚ በማስላት ቡድኖች እና ከዚያ የመረጃ ማከፋፈያ ቦታ ወደ ሴንትሮይድ ቁ ረዘም ያለ እንቅስቃሴ።
 - slug: k_nearest_neighbors
   en:
     term: "k-nearest neighbors"
@@ -4056,6 +4904,10 @@
       on their similarity to their *k* nearest neighbours.
 
 
+  am:
+    term: k-ቅርብ ጎረቤቶች
+    def: >
+      የመረጃ ነጥቦችን በመለየት የሚመደብ አንድ [ምደባ](#classification) ስልተ ቀመር ከቅርብ ጎረቤቶቻቸው *k* ተመሳሳይነት ላይ።
 - slug: kebab_case
   ref:
     - camel_case
@@ -4067,6 +4919,10 @@
       in `first-second-third`.
 
 
+  am:
+    term: kebab ጉዳይ
+    def: >
+      የስም ክፍሎች ከዳሽን ጋር የሚለዩበት የስያሜ ስብሰባ ፣ እንደ በ ‹የመጀመሪያ-ሁለተኛ-ሦስተኛ› ውስጥ ፡፡
 - slug: key
   en:
     term: "key"
@@ -4078,6 +4934,10 @@
       such as a [dictionary](#dictionary).
 
 
+  am:
+    term: ቁልፍ
+    def: >
+      1. ዋጋቸው (ቸው) በልዩ ሁኔታ የሚለዩት አንድ [መስክ](#field) ወይም የመስኮች ጥምረት ሀ [መዝገብ](#መዝገብ) በአንድ [ጠረጴዛ](#record) ወይም የውሂብ ስብስብ ውስጥ። ቁልፎች ብዙውን ጊዜ ጥቅም ላይ ይውላሉ የተወሰኑ መዝገቦችን ይምረጡ እና በ [ተቀላቀል](#table)። በመረጃ አወቃቀር ውስጥ እንደ ልዩ መለያ ጥቅም ላይ የዋለ የቁልፍ / እሴት ጥንድ ክፍል እንደ [መዝገበ-ቃላት](#dictionary)።
 - slug: keyword_argument
   ref:
     - named_argument
@@ -4088,6 +4948,10 @@
       Extra (often optional) arguments given to a function as key/value pairs.
 
 
+  am:
+    term: ቁልፍ ቃል ክርክሮች
+    def: >
+      እንደ ቁልፍ / እሴት ጥንዶች ለአንድ ተግባር የተሰጡ ተጨማሪ (ብዙውን ጊዜ አማራጭ) ክርክሮች።
 - slug: latent_variable
   en:
     term: "latent variable"
@@ -4096,6 +4960,10 @@
       or values of other variables.
 
 
+  am:
+    term: ድብቅ ተለዋዋጭ
+    def: >
+      በቀጥታ የማይታይ ተለዋዋጭ በምትኩ ከክልሎች የመነጨ ነው ወይም የሌሎች ተለዋዋጮች እሴቶች።
 - slug: latex
   en:
     term: "LaTeX"
@@ -4118,6 +4986,10 @@
       dans les domaines scientifiques et techniques pour la production d'articles et de mémoires.
 
 
+  am:
+    term: 'ላቲኤክስ '
+    def: >
+      የሰነድ አወቃቀርን ለመግለፅ ልዩ [ምልክት ማድረጊያ ቋንቋ](#markup_language) የሚጠቀም የሰነድ ዝግጅት አጻጻፍ ስርዓት (ለምሳሌ አርእስቶች) ፣ የቅጥ ጽሑፍ ፣ የሂሳብ እኩልታዎችን ያስገቡ ፣ እና ጥቅሶችን እና ማጣቀሻዎችን ያቀናብሩ። ላቲኤክስ በሰፊው ነው በአካዳሚክ ውስጥ በተለይም ለሳይንሳዊ ወረቀቶች እና በሂሳብ ፣ በፊዚክስ ፣ በኢንጂነሪንግ እና በኮምፒተር ሳይንስ ፡፡
 - slug: lazy_evaluation
   ref:
     - short_circuit_test
@@ -4130,6 +5002,10 @@
       will only be evaluated if A is [truthy](#truthy).
 
 
+  am:
+    term: ሰነፍ ግምገማ
+    def: >
+      እሴቱ በትክክል እስኪፈለግ ድረስ የአንድን አገላለጽ ግምገማ መዘግየት ወይም በሁኔታዊ አገላለጽ ሁኔታ ፣ የሚገመገሙትን ያህል ብቻ አገላለጹ እንደአስፈላጊነቱ ፡፡ ለምሳሌ ፣ የ "ሀ እና ቢ" ሁለተኛ አጋማሽ የሚገመገመው ሀ [እውነት](#truthy) ከሆነ  ከሆነ ብቻ ነው።
 - slug: left_join
   ref:
     - anti_join
@@ -4149,6 +5025,10 @@
       that do not match keys from table A are excluded for the result.
 
 
+  am:
+    term: ግራ መቀላቀል
+    def: >
+      በሰንጠረ in ውስጥ [ቁልፎች](#join) ከሁለት ጠረጴዛዎች ፣ ሀ እና ቢ መረጃዎችን የሚያጣምር አንድ [ተቀላቀል](#key) በሠንጠረዥ B ፣ [ሜዳዎች](#field) ውስጥ የግጥሚያ ቁልፎች ተጣምረዋል። በጠረጴዛ ውስጥ ቁልፍ የት አለ በሠንጠረዥ B ውስጥ አንድ ቁልፍን * አይመሳሰልም * ፣ ከሠንጠረዥ B አምዶች ይሞላሉ [null](#null) ፣ [NA](#ና) ፣ ወይም ሌላ (የጠፋ ዋጋ) (missing_value)። ከጠረጴዛ B ውስጥ ቁልፎች ከሠንጠረዥ ሀ ቁልፎችን የማይዛመዱ ለውጤቱ ተገልለዋል ፡፡
 - slug: lexical_scoping
   en:
     term: "lexical scoping"
@@ -4158,6 +5038,10 @@
       scoping](#dynamic_scoping) because the latter is less predictable.
 
 
+  am:
+    term: የቃላት ክልል
+    def: >
+      በጽሑፍ አሠራሩ መሠረት ከስም ጋር የተጎዳኘውን እሴት ለመፈለግ የፕሮግራም አብዛኛዎቹ የፕሮግራም ቋንቋዎች ከ [ተለዋዋጭ] ይልቅ የቃላት አጻጻፍ አጠቃቀምን ይጠቀማሉ የኋላ ኋላ ብዙም ሊተነብይ የማይችል ስለሆነ [dynamic scoping](#dynamic_scoping))።
 - slug: library
   en:
     term: "library"
@@ -4177,6 +5061,10 @@
       Um pacote de programas reutilizáveis, também frequentemente referido como um [módulo](#module).
 
 
+  am:
+    term: ቤተ መጻሕፍት
+    def: >
+      እንደገና ጥቅም ላይ ሊውል የሚችል ሶፍትዌር [ጥቅል](#ጥቅል) ፣ ብዙውን ጊዜ [ሞዱል](#module) ተብሎም ይጠራል።
 - slug: license
   en:
     term: "license"
@@ -4184,6 +5072,10 @@
       A legal document describing how something can be used, and by whom.
 
 
+  am:
+    term: ፈቃድ
+    def: >
+      አንድ ነገር እንዴት ጥቅም ላይ እንደሚውል የሚገልጽ የሕግ ሰነድ ፣ እና በማን ፡፡
 - slug: lifecycle
   en:
     term: "lifecycle"
@@ -4195,6 +5087,11 @@
       and "completed".
 
 
+  am:
+    term: የህይወት ኡደት
+    def: አንድ ነገር እንዲያልፍ የተፈቀደለት ወይም የሚፈለግበት ደረጃዎች። የሕይወት ዑደት አንድ (ነገር) (#object) ከሱ
+      (ከገንቢው)(#constructor) በኩል በ ከመጥፋቱ በፊት ሊያከናውን ወይም ሊያከናውንባቸው የሚገቡ ክዋኔዎች; የአንድ
+      [ጉዳይ](#ጉዳይ) ምናልባት "ተፈጠረ" ፣ "ተመድቧል" ፣ "በሂደት ላይ" ፣ "ለግምገማ ዝግጁ" ፣ እና"ተጠናቅቋል".
 - slug: lift
   en:
     term: "lift"
@@ -4205,6 +5102,10 @@
       model is doing better.
 
 
+  am:
+    term: ማንሳት
+    def: >
+      እንደ አንድ ጥምርታ የሚለካ አንድ ሞዴል ምን ያህል ነገሮችን በደንብ ይተነብያል ወይም [ይመድባል](#classification) በአጠቃላይ በሕዝቡ ውስጥ ለሚገኘው ምላሽ በተጠቀሰው ክፍል ውስጥ ምላሽ ፡፡ የ 1 ማንሳት ማለት ሞዴሉ ከአጋጣሚ የተሻለ አይሆንም ማለት ነው ፡፡ ከፍተኛ ማንሻ ማለት ሞዴል በተሻለ ሁኔታ እየሰራ ነው ፡፡
 - slug: line_comment
   en:
     term: "line comment"
@@ -4219,6 +5120,10 @@
       mútiplas linhas.
 
 
+  am:
+    term: የመስመር አስተያየት
+    def: >
+      በተቃራኒው የአንድ መስመርን ክፍል በሚዘረጋ ፕሮግራም ውስጥ አንድ [አስተያየት](#comment) ወደ [አግድ አስተያየት](#block_comment) ብዙ መስመሮችን ሊዘረጋ ይችላል።
 - slug: linear_regression
   ref:
     - logistic_regression
@@ -4233,6 +5138,10 @@
       'n Metode om die beste pas tussen twee datastelle te vind deur die vierkante van die
       afstande tussen die punte en 'n regressielyn te minimaliseer.
 
+  am:
+    term: መስመራዊ ማፈግፈግ
+    def: >
+      በተለይም በሁለት የውሂብ ስብስቦች መካከል በጣም ጥሩውን ቀጥተኛ መስመር የሚመጥን ዘዴ በነጥቦች እና በድጋሜ መስመር መካከል ያሉ ርቀቶችን ካሬዎች በመቀነስ ፡፡
 - slug: linter
   en:
     term: "linter"
@@ -4242,6 +5151,10 @@
       tool of its kind, called `lint`.
 
 
+  am:
+    term: ተልባ
+    def: >
+      እንደ ጥሰቶች ያሉ በሶፍትዌሮች ውስጥ የተለመዱ ችግሮችን የሚያጣራ ፕሮግራም የመግቢያ ደንቦች ወይም ተለዋዋጭ የስም ስምምነቶች። ስሙ የመጣው ከመጀመሪያው ነው የዚህ ዓይነት መሣሪያ ፣ "lint"።
 - slug: lisp
   en:
     term: "Lisp"
@@ -4250,6 +5163,10 @@
       lists. Many other programming languages have borrowed ideas from Lisp.
 
 
+  am:
+    term: ሊፕስ
+    def: >
+      እንደ ጎጆ ፕሮግራሞችን እና መረጃዎችን የሚወክሉ የፕሮግራም ቋንቋዎች ቤተሰብ ዝርዝሮች. ሌሎች ብዙ የፕሮግራም ቋንቋዎች ሀሳቦችን ከሊስፕ ተውሰዋል ፡፡
 - slug: list
   en:
     term: "list"
@@ -4257,6 +5174,10 @@
       A [vector](#vector) that can contain values of many different ([heterogeneous](#heterogeneous)) types.
 
 
+  am:
+    term: ዝርዝር
+    def: >
+      የብዙ የተለያዩ ([የተለያዩ)(#vector) እሴቶችን ሊይዝ የሚችል አንድ ([heterogeneous](#heterogeneous))።
 - slug: list_comprehension
   en:
     term: "list comprehension"
@@ -4266,6 +5187,10 @@
       of those in `values`.
 
 
+  am:
+    term: የዝርዝር ግንዛቤ
+    def: >
+      በ [Python](#python) ውስጥ በቦታው አዲስ ዝርዝርን የሚፈጥሩ አገላለጾች ፡፡ ለ ለምሳሌ ፣ "[2 * x ለ x በእሴቶች]" ንጥሎቹ ሁለት እጥፍ የሚሆኑበትን አዲስ ዝርዝር ይፈጥራል በ ‹እሴቶች› ውስጥ ካሉ ፡፡
 - slug: literate_programming
   ref:
     - computational_notebook
@@ -4280,6 +5205,10 @@
       Une approche de la programmation qui mélange langage naturel (prose) et code.
 
 
+  am:
+    term: ማንበብና መጻፍ መርሃግብር
+    def: >
+      ጽሑፍ እና ኮድን የሚቀላቀል የፕሮግራም ዘይቤ ፡፡
 - slug: local_installation
   ref:
     - global_installation
@@ -4300,6 +5229,10 @@
       ne soit accessible que depuis ce projet.
 
 
+  am:
+    term: አካባቢያዊ ጭነት
+    def: >
+      በዚያ ፕሮጀክት ውስጥ ብቻ ተደራሽ እንዲሆን በአንድ የተወሰነ ፕሮጀክት ውስጥ [ጥቅል](#package) በማስቀመጥ ላይ።
 - slug: local_variable
   ref:
     - closure
@@ -4324,6 +5257,10 @@
       특정 함수 내에서 정의되고 그 함수 내에서만 유효한 변수.
 
 
+  am:
+    term: አካባቢያዊ ተለዋዋጭ
+    def: >
+      በዚያ ተግባር ውስጥ ብቻ በሚታየው ተግባር ውስጥ የተገለፀ ተለዋዋጭ።
 - slug: log
   en:
     term: "log"
@@ -4332,6 +5269,10 @@
       via a [logging framework](#logging_framework) for later inspection.
 
 
+  am:
+    term: መዝገብ
+    def: >
+      የተፃፈ [መልዕክቶች](#log_message) የያዘ የፕሮግራም አፈፃፀም መዝገብ በኋላ ለማጣራት [የምዝግብ ማስታወሻ ማዕቀፍ](#logging_framework)
 - slug: log_message
   en:
     term: "log message"
@@ -4341,6 +5282,10 @@
       recovered later.
 
 
+  am:
+    term: የምዝግብ ማስታወሻ
+    def: >
+      በፕሮግራሙ አፈፃፀም [መዝገብ](#log) ውስጥ አንድ ነጠላ ግቤት የምዝግብ ማስታወሻ መልዕክቶች ናቸው መረጃ (እንደ ጊዜ ወይም ክብደት ያሉ) በኋላ ላይ መልሶ ማግኘት እንዲችል ብዙውን ጊዜ በጣም የተዋቀረ ነው።
 - slug: logging_framework
   en:
     term: "logging framework"
@@ -4348,6 +5293,10 @@
       A software [library](#library) that manages internal reporting for programs.
 
 
+  am:
+    term: የምዝግብ ማስታወሻ ማዕቀፍ
+    def: >
+      ለፕሮግራሞች ውስጣዊ ሪፖርትን የሚያስተዳድር ሶፍትዌር [ቤተ-መጽሐፍት](#library) ፡፡
 - slug: logging_level
   en:
     term: "logging level"
@@ -4357,6 +5306,10 @@
       `WARNING`, and `ERROR`.
 
 
+  am:
+    term: የምዝግብ ማስታወሻ ደረጃ
+    def: >
+      በ [ምዝግብ ማስታወሻ] ምን ያህል መረጃ እንደሚመነጭ የሚቆጣጠር ቅንብር ማዕቀፍ](#logging_framework)። የተለመዱ የምዝግብ ማስታወሻዎች ደረጃዎች «DEBUG` ን ያካትታሉ ፣ ማስጠንቀቂያ ፣ እና "ስህተት"።
 - slug: logical_indexing
   en:
     term: "logical indexing"
@@ -4365,6 +5318,10 @@
       values that correspond to [true](#true) values. Also referred to as [masking](#masking).
 
 
+  am:
+    term: አመክንዮአዊ ማውጫ
+    def: >
+      አንድን [ቬክተር](#ቬክተር) ወይም ሌላ መዋቅርን ከ [ቦሌያን] ቬክተር (#ቦሌን) ጋር ለማቆጣጠር ፣ የ ከ [እውነተኛ](#እውነተኛ) እሴቶች ጋር የሚዛመዱ እሴቶች። እንደዚሁም [ማስክ] ተብሎ ይጠራል (#ማስክ)
 - slug: logistic_regression
   ref:
     - linear_regression
@@ -4380,6 +5337,10 @@
       maak.
 
 
+  am:
+    term: የሎጂስቲክ ማሽቆልቆል
+    def: >
+      ከቀጥታ መስመሮች ይልቅ የሎጂስቲክስ (ኤስ-ቅርጽ) ኩርባን ከሚጠቀም አንዳንድ መረጃዎች ጋር ሞዴልን ለመግጠም ዘዴ ፡፡
 - slug: long_identifier_git
   ref:
     - short_identifier_git
@@ -4389,6 +5350,10 @@
       See [full identifier](#full_identifier_git).
 
 
+  am:
+    term: ረጅም መለያ (የቁርጠኝነት)
+    def: >
+      ይመልከቱ [ሙሉ መለያ](#full_identifier_git)።
 - slug: long_option
   ref:
     - short_option
@@ -4400,6 +5365,10 @@
       long options typically use two dashes and a readable name, such as `--verbose`.
 
 
+  am:
+    term: ረጅም አማራጭ
+    def: >
+      ለ [የትእዛዝ መስመር ክርክር](#command_line_argument የሙሉ ቃል መለያ )። ምንም እንኳን ብዙ የተለመዱ ባንዲራዎች እንደ--V ያሉ እንደ ሰረዝ የቀደመ አንድ ነጠላ ፊደል ናቸው ፣ ረዥም አማራጮች በተለምዶ ሁለት ዳሽዎችን እና የሚነበብ ስም ይጠቀማሉ ፣ ለምሳሌ - - ‹bobose ›፡፡
 - slug: loop
   ref:
     - for_loop
@@ -4419,6 +5388,10 @@
       The statement or statements executed by a loop.
 
 
+  am:
+    term: የሉፍ አካል
+    def: >
+      በሉፕ የተተገበረው መግለጫ ወይም መግለጫዎች።
 - slug: machine_learning
   en:
     term: "machine learning"
@@ -4429,6 +5402,10 @@
       predict the properties of [test data](#test_data).
 
 
+  am:
+    term: ማሽን መማር
+    def: >
+      የበለጠ ሲሰጣቸው አፈፃፀማቸው የሚሻሻል ስልተ ቀመር ጥናት ወይም አጠቃቀም መረጃ የማሽን መማሪያ ስልተ ቀመሮች ብዙውን ጊዜ [የሥልጠና መረጃ](#training_data) እስከ ይጠቀማሉ አንድ ግንባታ (ሞዴል) (#model)። የእነሱ አፈፃፀም የሚለካው እነሱ በጥሩነታቸው ነው የ [የሙከራ ውሂብ](#test_data) ባህሪያትን ይተነብይ ።
 - slug: magic_number
   en:
     term: "magic number"
@@ -4436,6 +5413,10 @@
       An unnamed numerical constant that appears in a program without explanation.
 
 
+  am:
+    term: አስማት ቁጥር
+    def: >
+      ያለምንም ማብራሪያ በፕሮግራም ውስጥ የሚታየውን ያልተሰየመ የቁጥር ቋት ፡፡
 - slug: make
   en:
     term: "Make"
@@ -4444,6 +5425,10 @@
       more than forty years.
 
 
+  am:
+    term: አድርግ
+    def: >
+      ለዩኒክስ የመጀመሪያው [የግንባታ ሥራ አስኪያጅ](#build_manager) ፣ አሁንም በኋላ በየቀኑ ጥቅም ላይ ይውላል ከአርባ ዓመት በላይ ፡፡
 - slug: makefile
   en:
     term: "Makefile"
@@ -4451,6 +5436,10 @@
       A file containing commands for [Make](#make), often actually called `Makefile`.
 
 
+  am:
+    term: የመገለጫ ጽሑፍ
+    def: >
+      ለ "Make" (#make) ትዕዛዞችን የያዘ ፋይል ፣ ብዙውን ጊዜ በትክክል "Makefile`" ተብሎ ይጠራል።
 - slug: markdown
   en:
     term: "Markdown"
@@ -4471,6 +5460,10 @@
       [R markdown](#r_markdown).
 
 
+  am:
+    term: ምልክት ማድረጊያ
+    def: >
+      ለ [HTML](#html) ምትክ ተብሎ የታቀደ ቀለል ያለ አገባብ ያለው አንድ [የምልክት ቋንቋ](#markup_language) ምልክት ማድረጊያ ብዙውን ጊዜ ለ README ፋይሎች ጥቅም ላይ ይውላል ፣ እና ለ [R markdown](#r_markdown) መሠረት ነው።
 - slug: markov_chain
   ref:
     - bayesian_network
@@ -4483,6 +5476,10 @@
       taken to reach that state.
 
 
+  am:
+    term: የማርኮቭ ሰንሰለት
+    def: >
+      የተከታታይ ክስተቶችን የሚገልጽ ማንኛውም [ሞዴል](#ሞዴል) የእያንዳንዱ ክስተት ዕድል የሚወሰነው አሁን ባለው ሁኔታ ላይ ብቻ ነው ፣ ወደዚያ ሁኔታ ለመድረስ በሚወስደው መንገድ ላይ አይደለም ፡፡
 - slug: markup_language
   ref:
     - latex
@@ -4510,6 +5507,10 @@
       sont des exemples de langages de balisage utilisés pour des pages web.
 
 
+  am:
+    term: ምልክት ማድረጊያ ቋንቋ
+    def: >
+      ትርጉሙን ወይም እንዴት መሆን እንዳለበት ለመግለጽ ጽሑፍን ለማብራራት የደንብ ስብስብ ታይቷል ምልክቱ ብዙውን ጊዜ አይታይም ፣ ግን ይልቁንስ እንዴት እንደሚቆጣጠር መሰረታዊ ጽሑፍ ተተርጉሟል ወይም ታይቷል። [Markdown](#markdown) እና [HTML](#html) ለድረ-ገፆች በሰፊው ጥቅም ላይ የዋሉ የማውጫ ቋንቋዎች ናቸው ፡፡
 - slug: marthas_rules
   en:
     term: "Martha's Rules"
@@ -4517,6 +5518,10 @@
       A simple set of rules for making decisions in small groups.
 
 
+  am:
+    term: የማርት ደንቦች
+    def: >
+      በትንሽ ቡድኖች ውስጥ ውሳኔዎችን የማድረግ ቀላል የህጎች ስብስብ።
 - slug: masking
   en:
     term: "Masking"
@@ -4535,6 +5540,10 @@
       code, it can be [merged](#git_merge) into the master branch.
 
 
+  am:
+    term: ዋና ቅርንጫፍ
+    def: >
+      "ዝግጁ ምርት" መያዝ ያለበት ራሱን የወሰነ ፣ ቋሚ ፣ ማዕከላዊ [ቅርንጫፍ](#branch)። ዋናውን ኮድ ላለማፍረስ በተለየ አካል ላይ አዲስ ባህሪ ከተሰራ በኋላ ወደ ዋናው ቅርንጫፍ ውስጥ [ሊዋሃድ](#git_merge) ሊሆን ይችላል ፡፡
 - slug: maximum_likelihood_estimation
   en:
     term: "maximum likelihood estimation"
@@ -4549,6 +5558,10 @@
       te verkry, te maksimeer.
 
 
+  am:
+    term: ከፍተኛ የእድል ግምት
+    def: >
+      ለ [ፕሮባቢሊቲ] [መለኪያዎች](#parameter) ለመምረጥ የመሆን እድልን ከፍ ለማድረግ (#ፕሮባቢሊቲ_ ስርጭት) የታየ መረጃን ማግኘት ፡፡
 - slug: mean
   ref:
     - median
@@ -4584,6 +5597,10 @@
       [geométrica](#geometric_mean) e da [harmônica](#harmonic_mean).
 
 
+  am:
+    term: ማለት
+    def: >
+      የውሂብ ስብስብ አማካይ ዋጋ ፣ ይበልጥ በትክክል በትክክል "ሂሳብ" ተብሎ ይጠራል ከ [ጂኦሜትሪክ](#ጂኦሜትሪክ_ማለት) ለመለየት[የሂሳብ_ማለት]#geometric_mean) እና [harmonic](#harmonic_mean) ማለት ነው።
 - slug: mean_absolute_error
   ref:
     - mean_squared_error
@@ -4599,6 +5616,10 @@
       valores reales.
 
 
+  am:
+    term: ፍጹም ስህተት
+    def: >
+      ከእውነተኛ እሴቶች ጋር ሲነፃፀር የሁሉም የተነበዩ እሴቶች አማካይ ስህተት።
 - slug: mean_squared_error
   ref:
     - root_mean_squared_error
@@ -4618,6 +5639,10 @@
       [error absoluto medio](#mean_absolute_error).
 
 
+  am:
+    term: አማካይ ስኩዌር ስህተት
+    def: >
+      የሁሉም ትንበያ እሴቶች ሁሉ ስህተቶች አደባባዮች አማካይ ሲነፃፀሩ ከትክክለኛ ዋጋዎች ጋር. መቧጨር ትላልቅ ስህተቶች ለተጨማሪ እንዲቆጠሩ ያደርጋቸዋል ፣ እና አሉታዊ ስህተቶችን ወደ አወንታዊ እሴቶች ይቀይረዋል ፣ ይህም ሀ ከ [ፍጹም ፍፁም ስህተት] የበለጠ ታዋቂ ልኬት (#mean_absolute_error)።
 - slug: median
   ref:
     - mode
@@ -4645,6 +5670,10 @@
       [mediaan](#mean), wat beïnvloed kan word deur 'n klein aantal ekstreme uitskieters.
 
 
+  am:
+    term: መካከለኛ
+    def: >
+      የተስተካከለ የውሂብ ስብስብ የላይኛው እና የታችኛው ግማሾችን የሚለይ እሴት። መካከለኛ ብዙውን ጊዜ ከ ‹ዳታ› ስብስቡ ምን ዓይነት እንደሚሆን የተሻለ ሀሳብ ይሰጣል (አማካይ)(#mean) ፣ በትንሽ ቁጥር ጽንፈኛ [አውጪዎች](#outlier) ተጽዕኖ ሊኖረው ይችላል። የውሂብ ስብስቡ አንድ እንኳን ብዛት ያላቸውን ንጥረ ነገሮችን ከያዘ ይህ የሁለቱ ማዕከላዊ አካላት አማካይ ነው።
 - slug: merge_git
   en:
     term: "merge (Git)"
@@ -4652,6 +5681,10 @@
       See [Git merge](#git_merge)
 
 
+  am:
+    term: ማዋሃድ (ጌት)
+    def: >
+      ይመልከቱ [Git merge](#git_merge)
 - slug: method
   en:
     term: "method"
@@ -4665,6 +5698,10 @@
       manipula objetos de una clase específica.
 
 
+  am:
+    term: ዘዴ
+    def: >
+      የሚያስተናግደው የ [አጠቃላይ ተግባር](#generic_function) የአንድ የተወሰነ ክፍል ዕቃዎች።
 - slug: milestone
   en:
     term: "milestone"
@@ -4673,6 +5710,10 @@
       [issues](#issue) that all have to be resolved by a certain time.
 
 
+  am:
+    term: ወሳኝ ምዕራፍ
+    def: >
+      አንድ ፕሮጀክት ሊያሟላ እየሞከረ ያለው ዒላማ ፣ ብዙውን ጊዜ እንደ ስብስብ ይወከላል [ጉዳዮች](#issue) ሁሉም በተወሰነ ጊዜ መፍታት አለባቸው ፡፡
 - slug: mime_type
   en:
     term: "MIME type"
@@ -4683,6 +5724,10 @@
       PNG-formatted images.
 
 
+  am:
+    term: MIME ዓይነት
+    def: >
+      በይነመረቡ ላይ የፋይሎችን ይዘት ለመለየት መደበኛ መንገድ። ቃሉ አንድ ነው የ "ሁለገብ በይነመረብ መልእክት ማራዘሚያ" ምህፃረ ቃል ፣ እና MIME ዓይነቶች ብዙ ጊዜ ናቸው እንደ".png` ለ"በ [የፋይል ስም ቅጥያዎች](#filename_extension) ተለይቷል በ PNG የተቀረጹ ምስሎች።
 - slug: missing_value
   en:
     term: "missing value"
@@ -4693,6 +5738,10 @@
       have one).
 
 
+  am:
+    term: የጠፋ እሴት
+    def: >
+      መቅረቱን ለማመልከት ጥቅም ላይ የዋለው እንደ [null](#null) ወይም [NA](#ና) ያሉ ልዩ እሴት የውሂብ. የጠፋ እሴቶች መረጃው እንዳልተሰበሰበ ወይም እንደዚያ መረጃ ሊያመለክቱ ይችላሉ በመጀመሪያ ደረጃ አልነበረም (ለምሳሌ ፣ የሌለ ሰው መካከለኛ ስም) አንድ አለኝ) ፡፡
 - slug: mit_license
   en:
     term: "MIT License"
@@ -4700,6 +5749,10 @@
       A [license](#license) that allows people to re-use software with no restrictions.
 
 
+  am:
+    term: MIT ፈቃድ
+    def: >
+      ሰዎች ያለምንም ገደብ ሶፍትዌሮችን እንደገና እንዲጠቀሙ የሚያስችል (ፈቃድ)(#license)።
 - slug: mock_object
   en:
     term: "mock object"
@@ -4709,6 +5762,10 @@
       databases, web services, and other complex systems.
 
 
+  am:
+    term: አስቂኝ ነገር
+    def: >
+      ባህሪያቱን ለመቆጣጠር ቀላል የሆነ የፕሮግራም አካል ቀለል ያለ ምትክ እና መተንበይ. አስቂኝ ነገሮች በ [ዩኒት ሙከራዎች](#unit_test) ውስጥ ለማስመሰል ያገለግላሉ የመረጃ ቋቶች ፣ የድር አገልግሎቶች እና ሌሎች ውስብስብ ስርዓቶች።
 - slug: mode
   ref:
     - mean
