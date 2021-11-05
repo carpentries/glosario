@@ -1204,7 +1204,7 @@
       [falsch](#false) (0) oder [wahr](#true) (1). Computer verwenden als kleinste
       Speichereinheit ein [Bit](#bit) welches entweder eine 0 oder 1 enthalten kann.
   es:
-    term: "Binärsystem"
+    term: "sistema binario"
     def: >
       Un sistema donde puede haber dos posibilidades de estado. En la computación,
       el sistema binario se representa con el estado de 0 ó 1. En el sistema lógico [Booleano](#boolean),
