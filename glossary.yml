@@ -111,13 +111,12 @@
       Un logiciel qui n'est plus maintenu.
   ar:
     term: "البرمجيات المهجورة أو المتروكة"
+    def: >-
+      هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
+       ولم تعد على قيد الصيانة.
   am:
     term: የተተወው ዌር
     def: >
-       هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
-       ولم تعد على قيد الصيانة.
-
-
       ከአሁን በኋላ እየተስተካከለ ያለው ዌር።
 - slug: absolute_error
   de:
@@ -367,7 +366,7 @@
   am:
     term: ረቂቅ አገባብ ዛፍ
     def: >
-      አወቃቀሩን የሚወክል በጥልቀት የተቀመጠ የውሂብ መዋቅር ወይም [ዛፍ](#tree)ፕሮግራም ለምሳሌ ፣ AST ሀ ን የሚወክል [መስቀለኛ መንገድ](#node) ሊኖረው ይችላል ["while` loop](#while_loop) ከአንድ [ልጅ](#child_tree) ጋር ሁኔታ እና ሌላ የ [loop አካል](#loop_body ን የሚወክል)።
+      አወቃቀሩን የሚወክል በጥልቀት የተቀመጠ የውሂብ መዋቅር ወይም [ዛፍ](#tree)ፕሮግራም ለምሳሌ ፣ AST ሀ ን የሚወክል [መስቀለኛ መንገድ](#node) ሊኖረው ይችላል ["while` loop](#while_loop) ከአንድ [ልጅ](#child_tree) ጋር ሁኔታ እና ሌላ የ [loop አካል](#loop_body)።
 - slug: actual_result
   de:
     term: "Tatsächliches Ergebnis"
@@ -930,7 +929,7 @@
   am:
     term: ማረጋገጫ
     def: >
-      በአንድ [የተወሰነ] ቦታ ፕሮግራም ዉስጥ  ግዴታ  [እውነተኛ](#boolean) መሆን ያለበት የ [ቦሊያን](#true) አገላለጽ ነዉ.  ምልከታዎች በቋንቋው ውስጥ ሊገነቡ ይችላሉ (ለምሳሌ ፣ [ፓይቶን](#python) ዎቹ እንደ "ማረጋገጫ" መግለጫ ወይም እንደ ተግባራት ይቀርባሉ ል (ለምሳሌ ፣ [R](#r_language) 'stopifnot')።  ብዙውን ጊዜ ለሙከራ ጥቅም ላይ ይውላሉ ፣ ግን ደግሞ በትክክል እየሰራ መሆኑን ለማጣራት   [በምርት ኮድ](#production_code ውስጥ ይቀመጣሉ፡፡  በብዙ ቋንቋዎች ማረጋገጫዎች መሆን የለባቸውም በአቀነባባሪዎች እና በአስተርጓሚዎች በዝምታ ሊጣሉ ስለሚችሉ የውሂብ ማረጋገጫ ለማከናወን ያገለግል ነበር በማመቻቸት ሁኔታዎች ውስጥ. ለመረጃ ማረጋገጫ ማረጋገጫዎችን መጠቀም ይችላል የደህንነት አደጋዎችን ያስተዋውቁ ፡፡ ከብዙ ቋንቋዎች በተለየ መልኩ አር "ማረጋገጫ" መግለጫ የለውም ሊቦዝን ይችላል ፣ እና ስለዚህ እንደ "assertr`" የመሰለ [ጥቅል](#package) መጠቀም ማረጋገጫ የደህንነት ቀዳዳዎችን አይፈጥርም ፡፡
+      በአንድ [የተወሰነ] ቦታ ፕሮግራም ዉስጥ  ግዴታ  [እውነተኛ](#boolean) መሆን ያለበት የ [ቦሊያን](#true) አገላለጽ ነዉ.  ምልከታዎች በቋንቋው ውስጥ ሊገነቡ ይችላሉ (ለምሳሌ ፣ [ፓይቶን](#python) ዎቹ እንደ "ማረጋገጫ" መግለጫ ወይም እንደ ተግባራት ይቀርባሉ ል (ለምሳሌ ፣ [R](#r_language) 'stopifnot')።  ብዙውን ጊዜ ለሙከራ ጥቅም ላይ ይውላሉ ፣ ግን ደግሞ በትክክል እየሰራ መሆኑን ለማጣራት   [በምርት ኮድ](#production_code) ውስጥ ይቀመጣሉ፡፡  በብዙ ቋንቋዎች ማረጋገጫዎች መሆን የለባቸውም በአቀነባባሪዎች እና በአስተርጓሚዎች በዝምታ ሊጣሉ ስለሚችሉ የውሂብ ማረጋገጫ ለማከናወን ያገለግል ነበር በማመቻቸት ሁኔታዎች ውስጥ. ለመረጃ ማረጋገጫ ማረጋገጫዎችን መጠቀም ይችላል የደህንነት አደጋዎችን ያስተዋውቁ ፡፡ ከብዙ ቋንቋዎች በተለየ መልኩ አር "ማረጋገጫ" መግለጫ የለውም ሊቦዝን ይችላል ፣ እና ስለዚህ እንደ "assertr`" የመሰለ [ጥቅል](#package) መጠቀም ማረጋገጫ የደህንነት ቀዳዳዎችን አይፈጥርም ፡፡
 - slug: associative_array
   en:
     term: "associative array"
@@ -961,9 +960,9 @@
   af:
     term: "asinchronies"
     def: >
-      Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer
+      "Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer
       aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n
-      bewerking wat onafhanklik van 'n ander een plaasvind.
+      bewerking wat onafhanklik van 'n ander een plaasvind."
   es:
     term: "asincrónico"
     def: >
@@ -975,12 +974,11 @@
       Nicht gleichzeitige Ausführung. In der Programmierung ist eine asynchrone Operation
       unabhängig von anderen Operationen, oder wird zu einem bestimmten Zeitpunkt gestartet
       oder beendet.
-
-
   am:
     term: ያልተመሳሰለ
     def: >
       በተመሳሳይ ጊዜ አለመከሰት ፡፡ በፕሮግራም ውስጥ ያልተመሳሰለ አሠራር አንዱ  ከሌላው በተናጠል የሚሮጥ ፣ ወይም በተመሳሳይ  ጊዜ ተጀምሮ በሌላ ጊዜ ያበቃል ፡፡
+
 - slug: attribute
   en:
     term: "attribute"
@@ -1004,14 +1002,14 @@
       über das Objekt, wie beispielsweise seine Größe, speichert.
   in:
     term: "atribut"
+    def: >
+      Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk menyimpan metadata tentang
+      suatu objek seperti dimensi dari array.
   am:
     term: አይነታ
-    def: >
-      Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk menyimpan metadata tentang 
-      suatu objek seperti dimensi dari array.
-
-
+    def: >-
       የስም እሴት ጥንድ  ከእቃ ጋር የተዛመደ  እንደ ድርድር ልኬቶች ያሉ ነገሮች ለማከማቸት የሚጠቅም
+
 - slug: auto_completion
   en:
     term: "auto-completion"
@@ -2033,7 +2031,7 @@
   am:
     term: ክፍል
     def: >
-      በዕቃ ተኮር ፕሮግራም (#oop) ውስጥ, መረጃዎችን እና ክንውኖች ([ዘዴዎች](#method)። ፕሮግራሙ ከዚያ ምክኒያት የሚጠቀምበት [ኮንሰርተር](#constructor]) ከነዚህ ጋር [አካል](#object) ለመፍጠር ባህሪያት እና ዘዴዎች. ፕሮግራም አዘጋጆች በአብዛኛው ጀነሬክ ወይም እንደገና ሊጠቀሙ የሚችሉ ናቸው ባህሪ በ[ወላጅ መደብ](#parent_class)፣ እና በዝርዝር ወይም በግልጽ ጠባይ በ[ልጆች መደብ](#child_class).
+      በዕቃ ተኮር ፕሮግራም (#oop) ውስጥ, መረጃዎችን እና ክንውኖች ([ዘዴዎች](#method)። ፕሮግራሙ ከዚያ ምክኒያት የሚጠቀምበት [ኮንሰርተር](#constructor) ከነዚህ ጋር [አካል](#object) ለመፍጠር ባህሪያት እና ዘዴዎች. ፕሮግራም አዘጋጆች በአብዛኛው ጀነሬክ ወይም እንደገና ሊጠቀሙ የሚችሉ ናቸው ባህሪ በ[ወላጅ መደብ](#parent_class)፣ እና በዝርዝር ወይም በግልጽ ጠባይ በ[ልጆች መደብ](#child_class).
 - slug: classification
   ref:
     - supervised_learning
@@ -2132,12 +2130,11 @@
     term: "coercion"
     def: >
       See [type coercion](#type_coercion).
-
-
   am:
     term: ማስገደድ
     def: >
-      [ዓይነት አስገዳጅነትን](#[type_coercion]) ተመልከት።
+      [ዓይነት አስገዳጅነትን](#type_coercion) ተመልከት።
+
 - slug: cognitive_load
   en:
     term: "cognitive load"
@@ -2280,7 +2277,7 @@
 
 
   am:
-    term: አቃፊ
+    term: አጠናቃሪ
     def: >
       በአንዳንድ ቋንቋዎች የተጻፉ ፕሮግራሞችን ወደ ማሽን የሚተረጉም መተግበሪያ መመሪያዎች ወይም [ባይት ኮድ](#byte_code).
 - slug: computational_linguistics
@@ -2343,7 +2340,7 @@
   am:
     term: የሁኔታዎች አገላለጽ
     def: >
-      የአንድን /ሌላ) ሚና የሚያገለግል [ተርናሪ መግለጫ](#[ternary_expression) መግለጫ።  ለምሳሌ C እና ተመሳሳይ ቋንቋዎች የsyntax 'ፈተና ይጠቀሙ እውነትከሆነ ? ውሸትከሆነ ' ማለት"'ፈተና' እውነት ከሆነ 'ifTrue' የሚለውን ዋጋ ምረጥ ወይም ዋጋው ካልሆነ 'የውሸት' ነው".
+      የአንድን /ሌላ) ሚና የሚያገለግል [ተርናሪ መግለጫ](#ternary_expression) መግለጫ።  ለምሳሌ C እና ተመሳሳይ ቋንቋዎች የsyntax 'ፈተና ይጠቀሙ እውነትከሆነ ? ውሸትከሆነ ' ማለት"'ፈተና' እውነት ከሆነ 'ifTrue' የሚለውን ዋጋ ምረጥ ወይም ዋጋው ካልሆነ 'የውሸት' ነው".
 - slug: confidence_interval
   en:
     term: "confidence interval"
@@ -2602,16 +2599,16 @@
   en:
     term: "cross-validation"
     def: >
-      A technique that divides data into [training data](#training_data) and [test
+      A technique that divides data into [training data](t#raining_data) and [test
       data](#test_data). The training data and correct answers are used to find
       [parameters](#parameter), and the algorithm's effectiveness is then measured by examining the
       answers it gives on the test data.
 
 
   am:
-    term: ማረጋገጫ
+    term: መስቀል-ማረጋገጫ ማሽን መማር
     def: >
-      መረጃን ወደ [የሥልጠና ውሂብ](#የሥልጠና_ዳታ) እና [የሙከራ ውሂብ] የሚከፍል ዘዴ ፡፡ የሥልጠናው መረጃ እና ትክክለኛ መልሶች [መለኪያዎች] ለማግኘት ጥቅም ላይ ይውላሉ ፣ እና የአልጎሪዝም እና #39 ውጤታማነት የሚለካው በፈተናው መረጃ ላይ የሚሰጡትን መልሶች በመመርመር ነው።
+      መረጃን ወደ [የሥልጠና ውሂብ](#training_data) እና [የሙከራ ውሂብ](#test_data) የሚከፍል ዘዴ ፡፡ የሥልጠናው መረጃ እና ትክክለኛ መልሶች [መለኪያዎች](#parameter) ለማግኘት ጥቅም ላይ ይውላሉ ፣ እና የአልጎሪዝም እና #39 ውጤታማነት የሚለካው በፈተናው መረጃ ላይ የሚሰጡትን መልሶች በመመርመር ነው።
 - slug: cryptographic_hash_function
   en:
     term: "cryptographic hash function"
@@ -2933,7 +2930,7 @@
   am:
     term: ነባሪ እሴት
     def: >
-      መቼ ለአንድ ተግባር [parameter](#ልኬት) የተመደበ እሴት ደዋዩ ዋጋ አይገልጽም። ነባሪ እሴቶች እንደ የተግባሩ አካል ሆነው ተገልፀዋል ትርጉም
+      መቼ ለአንድ ተግባር [ልኬት](#parameter) የተመደበ እሴት ደዋዩ ዋጋ አይገልጽም። ነባሪ እሴቶች እንደ የተግባሩ አካል ሆነው ተገልፀዋል ትርጉም
 - slug: defensive_programming
   en:
     term: "defensive programming"
@@ -3094,7 +3091,7 @@
   am:
     term: ልዩ ራንደም ተለዋዋጭ
     def: >
-      : እንደ [እውነተኛ](#እውነተኛ) ወይም [ሐሰት](#true) ያሉ እሴቶቹ ከተወሰኑ የእሴቶች ስብስብ በአንዱ ላይ ብቻ ሊወስድ የሚችል አንድ [ተለዋዋጭ](#false)።
+      : እንደ [እውነተኛ](#variable_data) ወይም [ሐሰት](#true) ያሉ እሴቶቹ ከተወሰኑ የእሴቶች ስብስብ በአንዱ ላይ ብቻ ሊወስድ የሚችል አንድ [ተለዋዋጭ](#false)።
 - slug: distro
   en:
     term: "distro"
@@ -3117,7 +3114,7 @@
   am:
     term: ዶስተስተሪንግ
     def: >
-      አጭር ለ "የሰነድ ሕብረቁምፊ", በ [Python](#Python) ውስጥ ሞጁል ፣ ክፍል ወይም ተግባር ሲጀመር የሚታየው አንድ ሕብረቁምፊ በራስ-ሰር የዚያ ነገር ሰነድ ይሆናል።
+      አጭር ለ "የሰነድ ሕብረቁምፊ", በ [Python](#python) ውስጥ ሞጁል ፣ ክፍል ወይም ተግባር ሲጀመር የሚታየው አንድ ሕብረቁምፊ በራስ-ሰር የዚያ ነገር ሰነድ ይሆናል።
 - slug: documentation_generator
   en:
     term: "documentation generator"
@@ -3165,7 +3162,7 @@
   am:
     term: ዶም
     def: >
-      የ [HTML](#ኤችቲኤምኤል) መደበኛ እና ማህደረ ትውስታ ውክልና እና [XML](#xml) እያንዳንዱ [ንጥረ ነገር](#አባል) በአንድ [ዛፍ](#ዛፍ) ውስጥ እንደ [node](#node) ይቀመጣል ከተሰየመ [ባህሪዎች](#(#tree)ብስብ ጋር; የተካተቱ አካላት [የህፃናት ኖዶች](#attribute) ናቸው ፡፡ DOM ን ለመፈለግ እና ለማሻሻል ዘመናዊ የፕሮግራም ቋንቋዎች ብዙ [ቤተ-መጻሕፍት](#child_tree) ይሰጣሉ ፡፡
+      የ [HTML](#html) መደበኛ እና ማህደረ ትውስታ ውክልና እና [XML](#xml) እያንዳንዱ [ንጥረ ነገር](#element) በአንድ [ዛፍ](#tree) ውስጥ እንደ [node](#node) ይቀመጣል ከተሰየመ [ባህሪዎች](#tree) ብስብ ጋር; የተካተቱ አካላት [የህፃናት ኖዶች](#attribute) ናቸው ፡፡ DOM ን ለመፈለግ እና ለማሻሻል ዘመናዊ የፕሮግራም ቋንቋዎች ብዙ [ቤተ-መጻሕፍት](#child_tree) ይሰጣሉ ፡፡
 - slug: dom_selector
   ref:
     - regular_expression
@@ -3336,7 +3333,7 @@
   am:
     term: ባዶ አካል
     def: >
-      የ [ኤችቲኤምኤል](#ኤችቲኤምኤል) ወይም የ [XML](#xml) ሰነድ [አባል](#child_tree) ምንም [ልጆች] የሌሉት (#የልጁ_ ዛፍ)። ባዶ አባሎች ሁል ጊዜ እንደ"& lt; name & gt; & lt; / name & gt;"ተብሎ ሊፃፉ ይችላሉ ፣ ነገር ግን በአጭሩ ማሳወቂያ በመጠቀም ሊፃፍ ይችላል & (lt; name / & gt;
+      የ [ኤችቲኤምኤል](#element) ወይም የ [XML](#xml) ሰነድ [አባል](#child_tree) ምንም [ልጆች] የሌሉት (#የልጁ_ ዛፍ)። ባዶ አባሎች ሁል ጊዜ እንደ"& lt; name & gt; & lt; / name & gt;"ተብሎ ሊፃፉ ይችላሉ ፣ ነገር ግን በአጭሩ ማሳወቂያ በመጠቀም ሊፃፍ ይችላል & (lt; name / & gt;
 - slug: empty_vector
   en:
     term: "empty vector"
@@ -3505,13 +3502,13 @@
     term: "E tlholegile (teko)"
     def: >
       Teko e tlholega fa dipholo tsa tlhomamisho di sa chwane le dipholo tse di ne di letetswe.
-
-
-- slug: "false"
   am:
     term: መውደቅ (ፈተና)
     def: >
       [ትክክለኛው ውጤት](#actual_result) የማይዛመድ ከሆነ አንድ ሙከራ አልተሳካም የተጠበቀው ውጤት (#expected_result)።
+
+
+- slug: "false"
   ref:
     - truthy
     - falsy
@@ -3520,12 +3517,11 @@
     def: >
       The logical ([Boolean](#boolean)) state opposite of "[true](#true)". Used in
       logic and programming to represent a [binary](#binary) state of something.
-
-
   am:
     term: ውሸት
     def: >
       የ ሎጂካዊ ([ቦሊያን]ሁኔታ ከ [እውነተኛ](#boolean) ውስጥ ጥቅም ላይ ውሏልየ [ሁለትዮሽ](#true) ሁኔታን ለመወከል አመክንዮ እና መርሃግብር አንድ ነገር ::
+
 - slug: falsy
   ref:
     - truthy
@@ -3994,11 +3990,10 @@
     def: >
       Permet de copier (et généralement de télécharger) un [dépôt Git distant](#remote_repository)
       sur l'ordinateur local.
-
-
   am:
     term: የጌት ክሎኒ
-    def: የ [Git](#ጂት) [የርቀት) ቅጂዎች (እና አብዛኛውን ጊዜ ውርዶች) ማከማቻ](#(#remote_repository))
+    def: >
+      የ [ጂት](#git) [የርቀት) ቅጂዎች (እና አብዛኛውን ጊዜ ውርዶች) ማከማቻ](#remote_repository)
       በአካባቢያዊ ኮምፒተር ላይ ፡፡
 - slug: git_conflict
   en:
@@ -4222,7 +4217,7 @@
   am:
     term: የቀስታ መጨመር
     def: >
-      አንድ ስብስብ የሚያመነጭ [የማሽን መማሪያ] ዘዴ ደካማ የትንበያ ሞዴሎች (በተለምዶ [የውሳኔ ዛፎች](#የውሳኔ_ ዛፍ)) በ ደረጃ በደረጃ ፋሽን.
+      አንድ ስብስብ የሚያመነጭ [የማሽን መማሪያ](#machine_learning) ዘዴ ደካማ የትንበያ ሞዴሎች (በተለምዶ [የውሳኔ ዛፎች](#decision_tree)) በ ደረጃ በደረጃ ፋሽን.
 - slug: gradient_descent
   ref:
     - backpropagation
@@ -4382,7 +4377,7 @@
   am:
     term: የተለያዩ
     def: >
-      የተደባለቀ የውሂብ አይነቶችን የያዘ። ለምሳሌ ፣ በ [Python](#python እና [R](#r_language) ውስጥ [ዝርዝር](#list) የቁጥሮች ፣ የቁምፊ ሕብረቁምፊዎች እና የሌሎች ዓይነቶች እሴቶች ድብልቅ ሊይዝ ይችላል ፡፡
+      የተደባለቀ የውሂብ አይነቶችን የያዘ። ለምሳሌ ፣ በ [Python](#python) እና [R](#r_language) ውስጥ [ዝርዝር](#list) የቁጥሮች ፣ የቁምፊ ሕብረቁምፊዎች እና የሌሎች ዓይነቶች እሴቶች ድብልቅ ሊይዝ ይችላል ፡፡
 - slug: hexadecimal
   en:
     term: "hexadecimal"
@@ -4937,7 +4932,7 @@
   am:
     term: ቁልፍ
     def: >
-      1. ዋጋቸው (ቸው) በልዩ ሁኔታ የሚለዩት አንድ [መስክ](#field) ወይም የመስኮች ጥምረት ሀ [መዝገብ](#መዝገብ) በአንድ [ጠረጴዛ](#record) ወይም የውሂብ ስብስብ ውስጥ። ቁልፎች ብዙውን ጊዜ ጥቅም ላይ ይውላሉ የተወሰኑ መዝገቦችን ይምረጡ እና በ [ተቀላቀል](#table)። በመረጃ አወቃቀር ውስጥ እንደ ልዩ መለያ ጥቅም ላይ የዋለ የቁልፍ / እሴት ጥንድ ክፍል እንደ [መዝገበ-ቃላት](#dictionary)።
+      1. ዋጋቸው (ቸው) በልዩ ሁኔታ የሚለዩት አንድ [መስክ](#field) ወይም የመስኮች ጥምረት ሀ መዝገብ በአንድ [ጠረጴዛ](#record) ወይም የውሂብ ስብስብ ውስጥ። ቁልፎች ብዙውን ጊዜ ጥቅም ላይ ይውላሉ የተወሰኑ መዝገቦችን ይምረጡ እና በ [ተቀላቀል](#table)። በመረጃ አወቃቀር ውስጥ እንደ ልዩ መለያ ጥቅም ላይ የዋለ የቁልፍ / እሴት ጥንድ ክፍል እንደ [መዝገበ-ቃላት](#dictionary)።
 - slug: keyword_argument
   ref:
     - named_argument
@@ -5028,7 +5023,7 @@
   am:
     term: ግራ መቀላቀል
     def: >
-      በሰንጠረ in ውስጥ [ቁልፎች](#join) ከሁለት ጠረጴዛዎች ፣ ሀ እና ቢ መረጃዎችን የሚያጣምር አንድ [ተቀላቀል](#key) በሠንጠረዥ B ፣ [ሜዳዎች](#field) ውስጥ የግጥሚያ ቁልፎች ተጣምረዋል። በጠረጴዛ ውስጥ ቁልፍ የት አለ በሠንጠረዥ B ውስጥ አንድ ቁልፍን * አይመሳሰልም * ፣ ከሠንጠረዥ B አምዶች ይሞላሉ [null](#null) ፣ [NA](#ና) ፣ ወይም ሌላ (የጠፋ ዋጋ) (missing_value)። ከጠረጴዛ B ውስጥ ቁልፎች ከሠንጠረዥ ሀ ቁልፎችን የማይዛመዱ ለውጤቱ ተገልለዋል ፡፡
+      በሰንጠረ in ውስጥ [ቁልፎች](#join) ከሁለት ጠረጴዛዎች ፣ ሀ እና ቢ መረጃዎችን የሚያጣምር አንድ [ተቀላቀል](#key) በሠንጠረዥ B ፣ [ሜዳዎች](#field) ውስጥ የግጥሚያ ቁልፎች ተጣምረዋል። በጠረጴዛ ውስጥ ቁልፍ የት አለ በሠንጠረዥ B ውስጥ አንድ ቁልፍን * አይመሳሰልም * ፣ ከሠንጠረዥ B አምዶች ይሞላሉ [null](#null) ፣ [NA](#na) ፣ ወይም ሌላ (የጠፋ ዋጋ) (missing_value)። ከጠረጴዛ B ውስጥ ቁልፎች ከሠንጠረዥ ሀ ቁልፎችን የማይዛመዱ ለውጤቱ ተገልለዋል ፡፡
 - slug: lexical_scoping
   en:
     term: "lexical scoping"
@@ -5064,7 +5059,7 @@
   am:
     term: ቤተ መጻሕፍት
     def: >
-      እንደገና ጥቅም ላይ ሊውል የሚችል ሶፍትዌር [ጥቅል](#ጥቅል) ፣ ብዙውን ጊዜ [ሞዱል](#module) ተብሎም ይጠራል።
+      እንደገና ጥቅም ላይ ሊውል የሚችል ሶፍትዌር [ጥቅል](#package) ፣ ብዙውን ጊዜ [ሞዱል](#module) ተብሎም ይጠራል።
 - slug: license
   en:
     term: "license"
@@ -5091,7 +5086,7 @@
     term: የህይወት ኡደት
     def: አንድ ነገር እንዲያልፍ የተፈቀደለት ወይም የሚፈለግበት ደረጃዎች። የሕይወት ዑደት አንድ (ነገር) (#object) ከሱ
       (ከገንቢው)(#constructor) በኩል በ ከመጥፋቱ በፊት ሊያከናውን ወይም ሊያከናውንባቸው የሚገቡ ክዋኔዎች; የአንድ
-      [ጉዳይ](#ጉዳይ) ምናልባት "ተፈጠረ" ፣ "ተመድቧል" ፣ "በሂደት ላይ" ፣ "ለግምገማ ዝግጁ" ፣ እና"ተጠናቅቋል".
+      [ጉዳይ](#issue) ምናልባት "ተፈጠረ" ፣ "ተመድቧል" ፣ "በሂደት ላይ" ፣ "ለግምገማ ዝግጁ" ፣ እና"ተጠናቅቋል".
 - slug: lift
   en:
     term: "lift"
@@ -5321,7 +5316,7 @@
   am:
     term: አመክንዮአዊ ማውጫ
     def: >
-      አንድን [ቬክተር](#ቬክተር) ወይም ሌላ መዋቅርን ከ [ቦሌያን] ቬክተር (#ቦሌን) ጋር ለማቆጣጠር ፣ የ ከ [እውነተኛ](#እውነተኛ) እሴቶች ጋር የሚዛመዱ እሴቶች። እንደዚሁም [ማስክ] ተብሎ ይጠራል (#ማስክ)
+      አንድን [ቬክተር](#vector) ወይም ሌላ መዋቅርን ከ [ቦሌያን](#boolean) ጋር ለማቆጣጠር ፣ የ ከ [እውነተኛ](#true) እሴቶች ጋር የሚዛመዱ እሴቶች። እንደዚሁም [ማስክ](#masking) ተብሎ ይጠራል
 - slug: logistic_regression
   ref:
     - linear_regression
@@ -5368,7 +5363,7 @@
   am:
     term: ረጅም አማራጭ
     def: >
-      ለ [የትእዛዝ መስመር ክርክር](#command_line_argument የሙሉ ቃል መለያ )። ምንም እንኳን ብዙ የተለመዱ ባንዲራዎች እንደ--V ያሉ እንደ ሰረዝ የቀደመ አንድ ነጠላ ፊደል ናቸው ፣ ረዥም አማራጮች በተለምዶ ሁለት ዳሽዎችን እና የሚነበብ ስም ይጠቀማሉ ፣ ለምሳሌ - - ‹bobose ›፡፡
+      ለ [የትእዛዝ መስመር ክርክር](#command_line_argument)። ምንም እንኳን ብዙ የተለመዱ ባንዲራዎች እንደ--V ያሉ እንደ ሰረዝ የቀደመ አንድ ነጠላ ፊደል ናቸው ፣ ረዥም አማራጮች በተለምዶ ሁለት ዳሽዎችን እና የሚነበብ ስም ይጠቀማሉ ፣ ለምሳሌ - - ‹bobose ›፡፡
 - slug: loop
   ref:
     - for_loop
@@ -5479,7 +5474,7 @@
   am:
     term: የማርኮቭ ሰንሰለት
     def: >
-      የተከታታይ ክስተቶችን የሚገልጽ ማንኛውም [ሞዴል](#ሞዴል) የእያንዳንዱ ክስተት ዕድል የሚወሰነው አሁን ባለው ሁኔታ ላይ ብቻ ነው ፣ ወደዚያ ሁኔታ ለመድረስ በሚወስደው መንገድ ላይ አይደለም ፡፡
+      የተከታታይ ክስተቶችን የሚገልጽ ማንኛውም [ሞዴል](#model) የእያንዳንዱ ክስተት ዕድል የሚወሰነው አሁን ባለው ሁኔታ ላይ ብቻ ነው ፣ ወደዚያ ሁኔታ ለመድረስ በሚወስደው መንገድ ላይ አይደለም ፡፡
 - slug: markup_language
   ref:
     - latex
@@ -5600,7 +5595,8 @@
   am:
     term: ማለት
     def: >
-      የውሂብ ስብስብ አማካይ ዋጋ ፣ ይበልጥ በትክክል በትክክል "ሂሳብ" ተብሎ ይጠራል ከ [ጂኦሜትሪክ](#ጂኦሜትሪክ_ማለት) ለመለየት[የሂሳብ_ማለት]#geometric_mean) እና [harmonic](#harmonic_mean) ማለት ነው።
+      የውሂብ ስብስብ አማካይ ዋጋ ፣ ይበልጥ በትክክል በትክክል "ሂሳብ" ተብሎ ይጠራል ከ [ጂኦሜትሪክ](#arithmetic_mean) ለመለየት[የሂሳብ_ማለት]#geometric_mean) እና [harmonic](#harmonic_mean) ማለት ነው።
+
 - slug: mean_absolute_error
   ref:
     - mean_squared_error
@@ -5614,12 +5610,11 @@
     def: >
       El error promedio de todos los valores predichos en comparación con los
       valores reales.
-
-
   am:
-    term: ፍጹም ስህተት
+    term: ፍፁም ስህተት ማለት ነው።
     def: >
       ከእውነተኛ እሴቶች ጋር ሲነፃፀር የሁሉም የተነበዩ እሴቶች አማካይ ስህተት።
+
 - slug: mean_squared_error
   ref:
     - root_mean_squared_error
@@ -5741,7 +5736,7 @@
   am:
     term: የጠፋ እሴት
     def: >
-      መቅረቱን ለማመልከት ጥቅም ላይ የዋለው እንደ [null](#null) ወይም [NA](#ና) ያሉ ልዩ እሴት የውሂብ. የጠፋ እሴቶች መረጃው እንዳልተሰበሰበ ወይም እንደዚያ መረጃ ሊያመለክቱ ይችላሉ በመጀመሪያ ደረጃ አልነበረም (ለምሳሌ ፣ የሌለ ሰው መካከለኛ ስም) አንድ አለኝ) ፡፡
+      መቅረቱን ለማመልከት ጥቅም ላይ የዋለው እንደ [null](#null) ወይም [NA](#na) ያሉ ልዩ እሴት የውሂብ. የጠፋ እሴቶች መረጃው እንዳልተሰበሰበ ወይም እንደዚያ መረጃ ሊያመለክቱ ይችላሉ በመጀመሪያ ደረጃ አልነበረም (ለምሳሌ ፣ የሌለ ሰው መካከለኛ ስም) አንድ አለኝ) ፡፡
 - slug: mit_license
   en:
     term: "MIT License"
