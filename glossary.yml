@@ -385,7 +385,7 @@
     term: "affordance"
     def: >
       A property of something that suggests how it can be used, such as a handle or button.
-  in:
+  id:
     term: "keterjangkauan"
     def: >
       suatu properti yang menyatakan bagaimana suatu hal dapat digunakan, seperti pegangan atau tombol.
@@ -429,7 +429,7 @@
     term: "aggregation function"
     def: >
       A function that combines many values into one, such as `sum` or `max`.
-  in:
+  id:
     term: "fungsi Agregasi"
     def: >
       Sebuah fungsi untuk memadatkan beberapa nilai menjadi sebuah nilai, misalnya `sum` atau `max`.
@@ -500,7 +500,7 @@
       An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific
       task. In computer science, an algorithm is a set of instructions in a computer program that solves a
       computational problem.
-  in:
+  id:
     term: "algoritma"
     def: >
       Rangkaian langkah, perintah, atau aturan yang harus diikuti untuk menyelesaikan suatu tugas spesifik. 
@@ -931,7 +931,7 @@
     def: >
       Ein Name-Wert Paar welches einem Objekt zugewiesen ist und in der Regel Metadaten
       über das Objekt, wie beispielsweise seine Größe, speichert.
-  in:
+  id:
     term: "atribut"
     def: >
       Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk menyimpan metadata tentang 
@@ -1275,7 +1275,7 @@
       Ein Bit ist eine Informationseinheit, die nur zwei Alternativen
       darstellen kann. Beispiele hierfür sind Ja/ Nein, Wahr / Falsch. In der
       Computerwelt als 0 und 1 dargestellt.
-  in:
+  id:
     term: "bit"
     def: >
       Sebuah unit informasi yang merepresentasikan beberapa alternatif, ya/tidak, (true)[#true]/(false)[#false]. 
@@ -1382,7 +1382,7 @@
       oder [falsch](#false) haben kann. Benannt nach George Boole, einem Mathematiker aus dem 19.
       Jahrhundert. Binärsysteme, wie alle Computer, beruhen auf der Verarbeitung von logischen
       Wahr-Falsch-Zuständen, 1 oder 0.
-  in:
+  id:
     term: "Boolean"
     def: >
       Berkaitan dengan variabel atau tipe data yang dapat memiliki nilai logika benar atau salah. 
@@ -1584,7 +1584,7 @@
     term: "call stack"
     def: >
       A data structure that stores information about the active subroutines executed.
-  in:
+  id:
     term: "call stack"
     def: >
      Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin aktif yang sedang dijalankan.
