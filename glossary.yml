@@ -405,7 +405,13 @@
       [تم نجاحه](#pass_test)
       و اذا كان النتيجتين مختلفتين فان الاختبار قد
       [فشل](#fail_test).
-
+  tn:
+    term: "Dipholo tsa tlhomamiso (tsa teko)"
+    def: >
+      Ke palo e e bonwang ka go fetisa "khoutu" mo tekong. Fa palo e, e tsamaelana le dipholo tse 
+      [di solofetsweng](#expected_result), go raya gore teko e falotse; fa palo e le dipholo tse di solofetsweng 
+      di sa tsamaelane, go raya gore teko [e tlholegile](#fail_test).
+   
 
 - slug: affordance
   en:
