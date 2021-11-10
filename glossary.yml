@@ -411,8 +411,14 @@
       Ke palo e e bonwang ka go fetisa "khoutu" mo tekong. Fa palo e, e tsamaelana le dipholo tse 
       [di solofetsweng](#expected_result), go raya gore teko e falotse; fa palo e le dipholo tse di solofetsweng 
       di sa tsamaelane, go raya gore teko [e tlholegile](#fail_test).
-   
-
+  id: 
+    term: "hasil aktual (dari sebuah pengujian)"
+    def: >
+      Nilai yang dihasilkan dari kode yang dijalankan di dalam sebuah pengujian. 
+      Jika hasil pengujian sesuai dengan [hasil yang diharapkan](#expected_result), 
+      maka pengujian dianggap [lulus](#passes); 
+      namun jika hasil keduanya berbeda, maka pengujian dianggap [gagal](#fail_test).    
+    
 - slug: affordance
   en:
     term: "affordance"
