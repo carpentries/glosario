@@ -416,7 +416,7 @@
     def: >
       Nilai yang dihasilkan dari kode yang dijalankan di dalam sebuah pengujian. 
       Jika hasil pengujian sesuai dengan [hasil yang diharapkan](#expected_result), 
-      maka pengujian dianggap [lulus](#passes); 
+      maka pengujian dianggap [lulus](#pass_test); 
       namun jika hasil keduanya berbeda, maka pengujian dianggap [gagal](#fail_test).    
     
 - slug: affordance
