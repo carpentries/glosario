@@ -20,6 +20,12 @@ jobs:
     - name: inspect content of folder
       run: ls -alh _gh-site && ls -alh _gh-site/_data
 
+    - name: Deploy to site
+      uses: JamesIves/github-pages-deploy-action@4.1.5
+      with:
+        branch: site
+        folder: _gh-site
+
     - name: Deploy
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'carpentries/glosario' }}
       uses: maxheld83/ghpages@v0.3.0
