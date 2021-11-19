@@ -337,8 +337,12 @@
     term: "agregação"
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
-      concatenando um conjunto de caracteres.
-
+   concatenando um conjunto de caracteres.
+  ar:
+    term: "تجميع"
+    def: >
+   دمج مجموعة من القيم في قيمة واحدة، مثال، حمع مجموعة من الأرقام
+   أو تحميع مجموعة من السلاسل.
 
 - slug: aggregation_function
   en:
@@ -363,7 +367,13 @@
     def: >
       'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en `max`
       (maksimale waarde)
-
+  ar:
+  term: "دالة التجميع"
+  def: >
+  دالة تدمج العديد من القيم في قيمة واحدة ، مثل
+  [جمع](#sum)
+  أو
+  [أقصى](#max).
 
 - slug: agile
   en:
@@ -413,6 +423,11 @@
     def: >
       Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
       En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
+   ar:
+   term: "خوارزمية"
+   def: >
+   الخوارزمية عبارة عن مجموعة من الخطوات والمقدمات أوالقواعد التي يجب اتباعها لتحقيق مهمة معين.
+   في علوم الحاسب، الخوارزمية هي مجموعة من التعليمات في برنامج كمبيوتر تحل مشكلة حاسوبية.
 
 - slug: aliasing
   en:
@@ -530,7 +545,11 @@
       Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
       atraves del cual otra aplicación se puede comunicar. Una API no es el código,
       la base de datos o el servidor; es el punto de acceso.    
-
+   ar:
+   term: "واجهة التطبيق البرمجية"
+   def: >
+   مجموعة من الوظائف والإجراءات التي توفرها مكتبات البرامج أو خدمة الويب والتي يمكن من خلالها  لتطبيق آخر التواصل معها.
+   واجهة التطبيق البرمجية ليست الكود أو قاعدة البيانات أو الخادم: إنها نقطة الوصول.
 
 - slug: append_mode
   en:
@@ -611,8 +630,12 @@
     def: >
       'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
       voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
-
-
+  ar:
+    term: "أسكي"
+    def: >
+  طريقة قياسية لتمثيل الأحرف المستخدمة بشكل شائع في لغات أوروبا الغربية كأعداد صحيحة من 7 أو 8 بت،
+   يحل محلها الآن   [الترميز الموحد] (#unicode).
+   
 - slug: assertion
   en:
     term: "assertion"
@@ -671,7 +694,12 @@
       Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer 
       aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n 
       bewerking wat onafhanklik van 'n ander een plaasvind.
-
+ ar:
+   term:"غير متزامن"
+   def: >
+       لا يحدث في نفس الوقت.
+       في البرمجة، العملية غير المتزامنة هي العملية التي يتم تنفيذها بشكل مستقل عن الأخرى
+       أو تلك التي تبدأ في وقت معين وتنتهي في وقت آخر.
 
 - slug: attribute
   en:
@@ -854,6 +882,10 @@
     def: >
       Any data that until recently was too big for most people to work with on a
       single computer.
+  ar:
+    term:"البيانات الضخمة"
+    def: > 
+      أي بيانات كانت حتى وقت قريب أكبر من أن يشتغل عليها معظم الأشخاص على جهاز كمبيوتر واحد.
 
 
 - slug: binary
