@@ -896,7 +896,7 @@
       'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
       voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
   ar:
-    term: "أسكي"
+    term: "آسكي"
     def: >
   طريقة قياسية لتمثيل الأحرف المستخدمة بشكل شائع في لغات أوروبا الغربية كأعداد صحيحة من 7 أو 8 بت،
    يحل محلها الآن   [الترميز الموحد] (#unicode).
