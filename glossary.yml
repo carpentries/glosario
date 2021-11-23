@@ -28,7 +28,7 @@
       standard](#standard_deviation) dalla [media](#mean), il 95% entro due deviazioni
       standard e il 99,7% entro tre. Al contrario, circa lo 0,3% dei valori si trova oltre
       tre deviazioni standard sopra o sotto la media.
-  af:
+  af :
     term: "68-95-99.7 reël"
     def: >
       Beskryf die beginsel dat 68% van alle waardes binne een
