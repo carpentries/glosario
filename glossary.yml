@@ -8641,3 +8641,12 @@
       indentasi alih-alih menggunakan tanda kurung dan koma pada [JSON] (#json). YAML sering kali
       digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
       untuk beragam tipe dokumen [Markdown](#markdown).
+     
+     
+- slug: data_collison
+  en:
+    term: "Data Collison"
+    def: >
+      Occurs when  when two or more devices or nodes try to transmit signals at the same time on
+      the same network. Similarly a data collision can also occur when hashing if two distinct
+      pieces of data have the same hash value. 
