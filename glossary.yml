@@ -4490,6 +4490,11 @@
     def: >
       አንድ የፕሮጀክት አካል የሆነ ነገር ግን በእውነቱ በእሱ ላይ ምንም ሥራ የማይሠራ ሰው ፡፡
 
+  sot:
+    term: "mohahlaudi"
+    def: >
+      Motho a leng karolo ya letsema empa a sa etse letho ho lona.
+      
 - slug: home_directory
   en:
     term: "home directory"
@@ -4643,6 +4648,11 @@
     def: >
       The [false](#false) belief that one's successes are a result of accident or luck rather
       than ability.
+
+  sot:
+    term: "lefu la kaketso"
+    def: >
+      Tumelo e fosahetseng ya hore katleho ya emong e tlile ka lehlohonolo eseng hobane a tshwanetswe kapa a sebeditse ka thata.
 
   am:
     term: አስመሳይ ሲንድሮም
