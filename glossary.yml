@@ -1403,7 +1403,7 @@
       En computación, un estado de ser 0 ó 1.
   de:
     term: "Bit"
-    def: >-
+    def: >
       Ein Bit ist eine Informationseinheit, die nur zwei Alternativen
       darstellen kann. Beispiele hierfür sind Ja/ Nein, Wahr / Falsch. In der
       Computerwelt als 0 und 1 dargestellt.
@@ -1417,6 +1417,11 @@
     term: ቢት
     def: >
       አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡
+  fr:
+    term: "bit"
+    def: >
+      Une unité d'information ne pouvant prendre que deux valeurs, souvent désignées par les alternatives oui/non 
+      ou vrai/faux. En informatique cela représente un état de 0 ou 1.
 
 - slug: blob
   en:
@@ -8242,7 +8247,18 @@
       A standard that defines numeric codes for many thousands of characters and
       symbols. Unicode does not define how those numbers are stored; that is done by
       standards like [UTF-8](#utf_8).
-
+  de:
+    term: "Unicode"
+    def: >
+      Ein Standard, der einen numerischen Zeichensatz für viele tausend Zeichen und 
+      Symbole definiert. Unicode definiert nicht, wie diese Zahlen gespeichert werden; 
+      das geschieht durch Standards wie [UTF-8](#utf_8).
+  fr:
+    term: "Unicode"
+    def: >
+      Une norme qui définit des codes numériques pour plusieurs milliers de caractères 
+      et de symboles. Unicode ne définit pas comment ces nombres sont stockés ; cela est 
+      fait par des normes comme [UTF-8](#utf_8).
 
 - slug: unit_test
   ref:
