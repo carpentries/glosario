@@ -6018,7 +6018,7 @@
     term: "node, nodus"
     def: >
       'n Element in 'n [grafiese voorstelling](#graph), soos 'n grafiek of 'n netwerk, wat 
-      deur ander 'n node/nodus met 'n [skakel](#edge) verbind is. Nodes/Nodusse is spesifieke data, 
+      deur ander 'n node/nodus met 'n [skakel](#edge) verbind is. Nodes/Nodusse het spesifieke data, 
       soos byvoorbeeld name of gewigte, gekoppel. 
 
 
