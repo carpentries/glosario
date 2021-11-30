@@ -6081,8 +6081,8 @@
   af:
     term: "null"
     def: >
-     'n Spesiale waarde wat gebruik word om 'n vermiste voorwerp voor te stel. Nul is nie dieselfde as [NA](#NA) nie, 
-     en dit is ook nie dieselfde as 'n [leë vektor](#empty_vector) nie..
+     'n Spesiale waarde wat gebruik word om 'n vermiste voorwerp voor te stel. Nul is nie dieselfde as [NA](#na) nie, 
+     en dit is ook nie dieselfde as 'n [leë vektor](#empty_vector) nie.
       
 
 
