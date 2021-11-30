@@ -2358,6 +2358,12 @@
     term: "condition"
     def: >
       An error or other unexpected event that disrupts the normal flow of control.
+  en:
+    term: "toestand"
+    def: >
+      'n Fout of ander onverwagte gebeurtenis wat die normale vloei van beheer ontwrig.
+      
+      
 
   am:
     term: ሁኔታ
@@ -5749,6 +5755,11 @@
     def: >
       A target that a project is trying to meet, often represented as a set of
       [issues](#issue) that all have to be resolved by a certain time.
+  af:
+    term: "mylpaal"
+    def: >
+      'n Teiken wat 'n projek probeer bereik, dikwels voorgestel as 'n stel [kwessies](#issues) 
+      wat almal teen 'n sekere tyd opgelos moet wees.
 
   am:
     term: ወሳኝ ምዕራፍ
@@ -5853,6 +5864,10 @@
     term: "Imodyuli"
     def: >
       [Iphakheji yesoftware](#package) enokuphinda isebenze, ekwabizwa ngokuba [yilayibrari](#library)
+  en:
+    term: "module"
+    def: >
+     'n Herbruikbare [sagtewarepakket](#package), ook dikwels 'n [biblioteek](#library) genoem.
 
 
 - slug: monte_carlo
@@ -5918,6 +5933,9 @@
     def: >
       هو رمز مميز يٌمثِل حرفاً بلا قيمة أو قيمة مفقودة أي انه يرمز إلى عدم وجود أي
       قيمة على الإطلاق.
+
+      
+      
 
 
 - slug: naive_bayes_classifier
@@ -6060,6 +6078,12 @@
     def: >
       Une valeur spéciale utilisée pour représenter l'absence de valeur. Null n'est pas équivalent à [NA](#na),
       ni à un [vecteur vide](#empty_vector).
+  af:
+    term: "null"
+    def: >
+     'n Spesiale waarde wat gebruik word om 'n vermiste voorwerp voor te stel. Nul is nie dieselfde as [NA](#NA) nie, 
+     en dit is ook nie dieselfde as 'n [leë vektor](#empty_vector) nie..
+      
 
 
 - slug: null_hypothesis
@@ -6204,6 +6228,10 @@
     term: "open science"
     def: >
       A generic term for making scientific software, data, and publications generally available.
+  af:
+    term: "oop wetenskap"
+    def: >
+     'n Generiese term om wetenskaplike sagteware, data en publikasies toegangklik te maak.
 
 
 - slug: operating_system
