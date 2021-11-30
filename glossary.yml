@@ -437,7 +437,6 @@
     def: >
       'n Eienskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld 'n
       lêerhanteerder of 'n knoppie.
-
   am:
     term: አቅም
     def: "የአንድ ነገር ንብረት እንደ መያዣ ወይም አዝራር እንዴት መጠቀም እንደሚቻል የሚጠቁም \n"
@@ -468,6 +467,11 @@
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
       concatenando um conjunto de caracteres.
+  sw:
+    term: "mchanganyiko"
+    def: >
+      Kugawana vitu mingi pamoja, kwa mfano, kujumlisha nambari au
+      kunganisha matini.
 
 
 - slug: aggregation_function
@@ -724,7 +728,6 @@
     def: >
       Una [unión](#join) que conserva las filas de la tabla A cuyas claves *no*
       coinciden con las de la tabla B.
-
   am:
     term: ፀረ መቀላቀል
     def: "በረድፎች ሠንጠረዥ ሀን ከሠንጠረዥ ለ እንዳይቀላቀሉ የሚያግዱ (#join) ቁልፎች  *ቁልፎች* \n"
@@ -750,7 +753,6 @@
       Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
       atraves del cual otra aplicación se puede comunicar. Una API no es el código,
       la base de datos o el servidor; es el punto de acceso.
-
   fr:
     term: "Interface de Programmation d'application"
     def: >
@@ -780,7 +782,6 @@
       dielêer te oorskryf. Oorskryf is die verstek, wat beteken dat
       meesteprogrammeertale verwag dat programme eksplisiet moet aandui dat daar
       bygevoeg inplaas van oorskryf moet word.
-
   am:
     term: አባሪ ሁነታ
     def: >
@@ -891,7 +892,6 @@
       Eine standardisierte Methode um Zeichen und Ziffern, vornehmlich der Westeuropäischen
       Sprachen, in 7 oder 8 [Bits](#bit) darzustellen. Heute weitgehend durch [Unicode](#unicode)
       abgelöst.
-
   am:
     term: አስኪ
     def: >
@@ -942,8 +942,6 @@
       darstellen. In R können Assertionen nicht deaktiviert werden, daher werden
       externe [Pakete](#package) wie beispielsweise `assertr` zur Datenvalidierung verwendet
       ohne ein Sicherheitsrisiko darzustellen.
-      
-
   am:
     term: ማረጋገጫ
     def: >
