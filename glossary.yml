@@ -2642,6 +2642,12 @@
     term: ማቀናጀት
     def: ሁሉንም ሊሆኑ የሚችሉ የረድፎች ጥምረት የሚያመጣ አንድ [ተቀላቀል](#join) ከ ሁለት ጠረጴዛዎች፡፡
 
+  af:
+    term: "kruiskoppeling"
+    def: >
+      'n [Koppeling](#join) wat alle moontlike kombinasies van rye uit twee tabelle A en B oplewer.
+      
+
 - slug: cross_validation
   ref:
     - machine_learning
@@ -3852,6 +3858,12 @@
     def: >
       ሁሉንም ረድፎች እና ሁሉንም አምዶች ከሁለት የሚመልስ [መቀላቀል](#join) ሰንጠረ Aች ሀ እና ቢ የ "A" እና "ቢ" (ቁልፎች)(#key) የሚዛመዱበት ፣ እሴቶች የተዋሃዱ ናቸው ፤ እነሱ ከሌሉበት ፣ ከየትኛውም ሰንጠረዥ የሚጎድሉ እሴቶች በ [null](#null) ፣ [NA](#na) ፣ ወይም በሌላ ሌላ [የጠፋ እሴት](#missing_value) አመላካች ተሞልተዋል።
 
+  af:
+    term: "volle koppeling"
+    def: >
+      'n [Koppeling](#join) wat alle rye en alle kolomme uit twee tabelle A en B oplewer. Waar die [ID-sleutels](#key) van A en B by mekaar pas, word die waardes gekombineer; waar dit nie die geval is nie, word ontbrekende waardes uit enige van die twee tabelle gevul met [nul](#null), [NA](#na), of enige ander aanduier van 'n [ontbrekende waarde](#missing_value).
+
+
 - slug: fully_qualified_name
   en:
     term: "fully-qualified name"
@@ -4739,6 +4751,12 @@
     def: >
       የሁለት ጠረጴዛዎች ሀ እና ቢ የማን ረድፎችን ጥምር የሚመልስ [መቀላቀል](#join) [ቁልፎች](#key) በሁለቱም ጠረጴዛዎች ውስጥ አሉ ፡፡
 
+  af:
+    term: "binnekoppeling"
+    def: >
+      'n [Koppeling](#join) wat die kombinasie van rye uit twee tabelle A en B oplewer, waarvan die [ID-sleutels](#key) in beide tabelle bestaan.
+      
+
 - slug: instance
   en:
     term: "instance"
@@ -4887,6 +4905,12 @@
     def: >
       እሴቶችን ከሁለት [ሰንጠረ ](#table)ች] ከሚያጣምሩ በርካታ ክዋኔዎች አንዱ ፡፡
 
+  af:
+    term: "koppeling"
+    def: >
+      Een van verskeie bewerkings wat waardes uit twee [tabelle](#table) aan mekaar koppel.
+
+
 - slug: json
   ref:
     - yaml
@@ -5000,6 +5024,13 @@
     term: ቁልፍ
     def: >
       1. ዋጋቸው (ቸው) በልዩ ሁኔታ የሚለዩት አንድ [መስክ](#field) ወይም የመስኮች ጥምረት ሀ መዝገብ በአንድ [ጠረጴዛ](#record) ወይም የውሂብ ስብስብ ውስጥ። ቁልፎች ብዙውን ጊዜ ጥቅም ላይ ይውላሉ የተወሰኑ መዝገቦችን ይምረጡ እና በ [ተቀላቀል](#table)። በመረጃ አወቃቀር ውስጥ እንደ ልዩ መለያ ጥቅም ላይ የዋለ የቁልፍ / እሴት ጥንድ ክፍል እንደ [መዝገበ-ቃላት](#dictionary)።
+
+  af:
+    term: "ID-sleutel"
+    def: >
+      1. 'n [Veld](#field) of kombinasie van velde waarvan die waarde(s) 'n [rekord](#record) in 'n [tabel](#table) of datastel uniek identifiseer. ID-sleutels word dikwels gebruik om spesifieke rekords te kies, asook in [koppelings](#join).
+      2. 'n Deel van 'n ID-sleutel/waardepaar, wat as 'n unieke identifiseerder gebruik word in 'n datastruktuur soos 'n [woordeboek](#dictionary).
+      
 
 - slug: keyword_argument
   ref:
@@ -6674,7 +6705,12 @@
     acronym: "PRNG"
     def: >
       A function that can generate [pseudo-random numbers](#pseudo_random_number).
-
+  af:
+    term: "pseudolukrakenommergenereerder"
+    acronym: "PLNG"
+    def: >
+      'n Funksie wat [pseudo- lukrake nommers](#pseudo_random_number) kan genereer.
+      
 
 - slug: probability_distribution
   en:
@@ -6765,6 +6801,10 @@
     def: >
       Un valor generado de forma repetible que refleja suficientemente bien a la
       verdadera aleatoriedad del universo como para engañar a simples observadores mortales.
+  af:
+    term: "pseudo- lukrake nommer"
+    def: >
+      'n Waarde wat op so 'n wyse gegenereer is dat dit lyk op die [ware](#true) lukraakheid van die heelal, tot so 'n mate dat dit waarnemers fop.
 
 
 - slug: psf
@@ -7475,14 +7515,22 @@
     term: "seed"
     def: >
       A value used to initialize a [pseudo-random number generator](#prng).
-
+  af:
+    term: "saadjie"
+    def: >
+      'n Waarde wat gebruik word om 'n [pseudolukrakenommergenereerder](#prng) te begin.
+      
 
 - slug: select
   en:
     term: "select"
     def: >
       To choose entire columns or rows from a table by name or location.
-
+  af:
+    term: "kies"
+    def: >
+      Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
+      
 
 - slug: self_join
   ref:
@@ -7529,7 +7577,10 @@
     def: >
       Typically, a program such as a database manager or web server that provides data
       to a [client](#client) upon request.
-
+  af:
+    term: "bediener"
+    def: >
+      'n Program soos 'n databasisbeheerder of webbediener wat op versoek data aan 'n [kliënt](#client) verskaf.
 
 - slug: shebang
   en:
