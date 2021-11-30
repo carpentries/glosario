@@ -5758,7 +5758,7 @@
   af:
     term: "mylpaal"
     def: >
-      'n Teiken wat 'n projek probeer bereik, dikwels voorgestel as 'n stel [kwessies](#issues) 
+      'n Teiken wat 'n projek probeer bereik, dikwels voorgestel as 'n stel [kwessies](#issue) 
       wat almal teen 'n sekere tyd opgelos moet wees.
 
   am:
@@ -6079,7 +6079,7 @@
       Une valeur spéciale utilisée pour représenter l'absence de valeur. Null n'est pas équivalent à [NA](#na),
       ni à un [vecteur vide](#empty_vector).
   af:
-    term: "null"
+    term: "nul"
     def: >
      'n Spesiale waarde wat gebruik word om 'n vermiste voorwerp voor te stel. Nul is nie dieselfde as [NA](#na) nie, 
      en dit is ook nie dieselfde as 'n [leë vektor](#empty_vector) nie.
