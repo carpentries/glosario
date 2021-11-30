@@ -1294,7 +1294,7 @@
       single computer.
   de:
     term: "Big Data"
-    def: >-
+    def: >
       Alle Datenmengen, die bis vor Kurzem vor zu umfangreich für die Analyse mit
       nur einem Computer waren.
   af:
@@ -1305,6 +1305,10 @@
     term: ትልቅ መረጃ
     def: >
       ብዙ ሰዎች እስከ ቅርብ ጊዜ ድረስ በጣም ትልቅ ለነበሩት ብዙ መረጃዎች በ ‹ሀ› ላይ ለመስራት ነጠላ ኮምፒተር. ብዙ ሰዎች እስከ ቅርብ ጊዜ ድረስ በነጠላ ኮምፒተር በጣም ትልቅ ለነበሩት ብዙ መረጃዎች ሰርተዋል::
+  sw:
+    term: "Data kubwa"
+    def: >
+      Data inahitaji kutumikwa kwa kichakato kizito.
 
 - slug: binary
   en:
