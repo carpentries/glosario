@@ -2358,7 +2358,7 @@
     term: "condition"
     def: >
       An error or other unexpected event that disrupts the normal flow of control.
-  en:
+  af:
     term: "toestand"
     def: >
       'n Fout of ander onverwagte gebeurtenis wat die normale vloei van beheer ontwrig.
