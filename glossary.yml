@@ -887,11 +887,15 @@
       Eine standardisierte Methode um Zeichen und Ziffern, vornehmlich der Westeuropäischen
       Sprachen, in 7 oder 8 [Bits](#bit) darzustellen. Heute weitgehend durch [Unicode](#unicode)
       abgelöst.
-
-  am:
-    term: አስኪ
+ am:
+    term: "አስኪ"
     def: >
       በምዕራብ አውሮፓ ቋንቋዎች ውስጥ ጥቅም ላይ የዋሉ ገጸ-ባህሪያትን ለመወከል የሚጠቅም መደበኛ መንገድ እንደ 7 ወይም 8 ቢት ቁጥሮች ፣ አሁን በ [ዩኒኮድ](#unicode) የሚተዳደሩ
+ fr:
+    term: "ASCII"
+    def: >
+      Une norme informatique de codage qui représente les caractères couramment utilisés dans les langues d'Europe occidentale à 7 ou 8 
+      [bits](#bit), aujourd'hui largement remplacé par [Unicode](#unicode).
 
 - slug: assertion
   en:
