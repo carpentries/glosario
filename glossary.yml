@@ -170,11 +170,15 @@
        مع العِلم أن
        الخطأ المُطلق عادة مايكون أقل فائدة من
        [الخطأ النسبي](#relative_error).
-
   am:
     term: ፍጹም ስህተት
     def: >
       በተመለከተው እና በትክክለኛው እሴት መካከል ያለው ልዩነት ፍጹም እሴት። ፍፁም ስህተት አብዛኛውን ጊዜ ከ [አንፃራዊ ስህተት](#relative_error) ያነሰ ጠቀሜታ አለው ፡፡
+  sw:
+    term: "ukubwa wa nambari ya ukosefu "
+    def: >
+      Ukubwa wa hesabu ya kutoa jibu umepata kutoka jibu sahihi. 
+      Dhani ingine kama hii, ni [uwiano wa ukosefu](#relative_error).
 
 - slug: absolute_path
   ref:
