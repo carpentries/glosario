@@ -6030,6 +6030,12 @@
     def: >
       An element of a [graph](#graph) that is connected to other nodes by
       [edges](#edge). Nodes typically have data associated with them, such as names or weights.
+  af:
+    term: "node, nodus"
+    def: >
+      'n Element in 'n [grafiese voorstelling](#graph), soos 'n grafiek of 'n netwerk, wat 
+      deur ander 'n node/nodus met 'n [skakel](#edge) verbind is. Nodes/Nodusse het spesifieke data, 
+      soos byvoorbeeld name of gewigte, gekoppel. 
 
 
 - slug: non_blocking_execution
