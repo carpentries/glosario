@@ -2719,8 +2719,8 @@
     term: "data collison"
     def: >
       Occurs when  when two or more devices or nodes try to transmit signals at the same time on
-      the same network. Similarly a data collision can also occur when hashing if two distinct
-      pieces of data have the same hash value. 
+      the same network. Similarly a data collision can also occur when [hashing](#hash_function) 
+      if two distinct pieces of data have the same hash value. 
 
 - slug: data_engineer
   ref:
