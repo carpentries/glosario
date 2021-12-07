@@ -2714,6 +2714,14 @@
     def: >
       ፕሮግራሙ የሚሠራበትን [አቃፊ](#folder) ወይም ማውጫ ቦታ። ማንኛውም እርምጃ የተወሰደው በፕሮግራሙ የተወሰደው ከዚህ ማውጫ አንጻር ነው ፡፡
 
+- slug: data_collison
+  en:
+    term: "data collison"
+    def: >
+      Occurs when  when two or more devices or nodes try to transmit signals at the same time on
+      the same network. Similarly a data collision can also occur when hashing if two distinct
+      pieces of data have the same hash value. 
+
 - slug: data_engineer
   ref:
     - data_scientist
@@ -8642,11 +8650,4 @@
       digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
       untuk beragam tipe dokumen [Markdown](#markdown).
      
-     
-- slug: data_collison
-  en:
-    term: "Data Collison"
-    def: >
-      Occurs when  when two or more devices or nodes try to transmit signals at the same time on
-      the same network. Similarly a data collision can also occur when hashing if two distinct
-      pieces of data have the same hash value. 
+    
