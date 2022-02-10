@@ -463,7 +463,7 @@
     term: "agregação"
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
-   concatenando um conjunto de caracteres.
+      concatenando um conjunto de caracteres.
   ar:
     term: "تجميع"
     def: >
