@@ -508,7 +508,7 @@
       'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en `max`
       (maksimale waarde)
   ar:
-  term: "دالة التجميع"
+    term: "دالة التجميع"
   def: >
      دالة تدمج العديد من القيم في قيمة واحدة ، مثل
      [جمع](#sum)
