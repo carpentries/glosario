@@ -170,11 +170,15 @@
        مع العِلم أن
        الخطأ المُطلق عادة مايكون أقل فائدة من
        [الخطأ النسبي](#relative_error).
-
   am:
     term: ፍጹም ስህተት
     def: >
       በተመለከተው እና በትክክለኛው እሴት መካከል ያለው ልዩነት ፍጹም እሴት። ፍፁም ስህተት አብዛኛውን ጊዜ ከ [አንፃራዊ ስህተት](#relative_error) ያነሰ ጠቀሜታ አለው ፡፡
+  sw:
+    term: "ukubwa wa nambari ya ukosefu "
+    def: >
+      Ukubwa wa hesabu ya kutoa jibu umepata kutoka jibu sahihi. 
+      Dhani ingine kama hii, ni [uwiano wa ukosefu](#relative_error).
 
 - slug: absolute_path
   ref:
@@ -433,7 +437,6 @@
     def: >
       'n Eienskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld 'n
       lêerhanteerder of 'n knoppie.
-
   am:
     term: አቅም
     def: "የአንድ ነገር ንብረት እንደ መያዣ ወይም አዝራር እንዴት መጠቀም እንደሚቻል የሚጠቁም \n"
@@ -464,11 +467,18 @@
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
       concatenando um conjunto de caracteres.
+
   ar:
     term: "تجميع"
     def: >
       دمج مجموعة من القيم في قيمة واحدة، مثال، حمع مجموعة من الأرقام
    أو تحميع مجموعة من السلاسل.
+
+  sw:
+    term: "mchanganyiko"
+    def: >
+      Kugawana vitu mingi pamoja, kwa mfano, kujumlisha nambari au
+      kunganisha matini.
 
 - slug: aggregation_function
   en:
@@ -734,7 +744,6 @@
     def: >
       Una [unión](#join) que conserva las filas de la tabla A cuyas claves *no*
       coinciden con las de la tabla B.
-
   am:
     term: ፀረ መቀላቀል
     def: "በረድፎች ሠንጠረዥ ሀን ከሠንጠረዥ ለ እንዳይቀላቀሉ የሚያግዱ (#join) ቁልፎች  *ቁልፎች* \n"
@@ -795,7 +804,6 @@
       dielêer te oorskryf. Oorskryf is die verstek, wat beteken dat
       meesteprogrammeertale verwag dat programme eksplisiet moet aandui dat daar
       bygevoeg inplaas van oorskryf moet word.
-
   am:
     term: አባሪ ሁነታ
     def: >
@@ -916,6 +924,11 @@
     term: አስኪ
     def: >
       በምዕራብ አውሮፓ ቋንቋዎች ውስጥ ጥቅም ላይ የዋሉ ገጸ-ባህሪያትን ለመወከል የሚጠቅም መደበኛ መንገድ እንደ 7 ወይም 8 ቢት ቁጥሮች ፣ አሁን በ [ዩኒኮድ](#unicode) የሚተዳደሩ
+  fr:
+    term: "ASCII"
+    def: >
+      Une norme informatique de codage qui représente les caractères couramment utilisés dans les langues d'Europe occidentale à 7 ou 8 
+      [bits](#bit), aujourd'hui largement remplacé par [Unicode](#unicode).
 
 - slug: assertion
   en:
@@ -962,8 +975,6 @@
       darstellen. In R können Assertionen nicht deaktiviert werden, daher werden
       externe [Pakete](#package) wie beispielsweise `assertr` zur Datenvalidierung verwendet
       ohne ein Sicherheitsrisiko darzustellen.
-      
-
   am:
     term: ማረጋገጫ
     def: >
@@ -1326,7 +1337,7 @@
       أي بيانات كانت حتى وقت قريب أكبر من أن يشتغل عليها معظم الأشخاص على جهاز كمبيوتر واحد.
   de:
     term: "Big Data"
-    def: >-
+    def: >
       Alle Datenmengen, die bis vor Kurzem vor zu umfangreich für die Analyse mit
       nur einem Computer waren.
   af:
@@ -1337,7 +1348,12 @@
     term: ትልቅ መረጃ
     def: >
       ብዙ ሰዎች እስከ ቅርብ ጊዜ ድረስ በጣም ትልቅ ለነበሩት ብዙ መረጃዎች በ ‹ሀ› ላይ ለመስራት ነጠላ ኮምፒተር. ብዙ ሰዎች እስከ ቅርብ ጊዜ ድረስ በነጠላ ኮምፒተር በጣም ትልቅ ለነበሩት ብዙ መረጃዎች ሰርተዋል::
-      
+  sw:
+    term: "Data kubwa"
+    def: >
+      Data inahitaji kutumikwa kwa kichakato kizito.
+
+
 - slug: binary
   en:
     term: "binary"
@@ -1391,6 +1407,10 @@
     term: ሁለትዮሽ አገላለጽ
     def: >
       ሁለት መለኪያዎች ያሉት እና እንደ "1 + 2" ያሉ ሁለት ክርክሮችን የሚወስድ አገላለጽ።
+  nl:
+    term: "binaire expressie"
+    def: >
+      Een expressie met twee parameters of argumenten, zoals `1 + 2`.
 
 - slug: binomial_distribution
   ref:
@@ -1437,7 +1457,7 @@
       En computación, un estado de ser 0 ó 1.
   de:
     term: "Bit"
-    def: >-
+    def: >
       Ein Bit ist eine Informationseinheit, die nur zwei Alternativen
       darstellen kann. Beispiele hierfür sind Ja/ Nein, Wahr / Falsch. In der
       Computerwelt als 0 und 1 dargestellt.
@@ -1451,6 +1471,16 @@
     term: ቢት
     def: >
       አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡
+  fr:
+    term: "bit"
+    def: >
+      Une unité d'information ne pouvant prendre que deux valeurs, souvent désignées par les alternatives oui/non 
+      ou vrai/faux. En informatique cela représente un état de 0 ou 1.
+      አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡]
+  nl:
+    term: bit
+    def: >
+      Een eenheid van informatie, die alternatieven representeert, zoals ja/nee, waar/onwaar. In de informatica wordt dit gerepresenteerd als een 0 of een 1.
 
 - slug: blob
   en:
@@ -2392,6 +2422,12 @@
     term: "condition"
     def: >
       An error or other unexpected event that disrupts the normal flow of control.
+  af:
+    term: "toestand"
+    def: >
+      'n Fout of ander onverwagte gebeurtenis wat die normale vloei van beheer ontwrig.
+      
+      
 
   am:
     term: ሁኔታ
@@ -2663,6 +2699,12 @@
   am:
     term: ማቀናጀት
     def: ሁሉንም ሊሆኑ የሚችሉ የረድፎች ጥምረት የሚያመጣ አንድ [ተቀላቀል](#join) ከ ሁለት ጠረጴዛዎች፡፡
+
+  af:
+    term: "kruiskoppeling"
+    def: >
+      'n [Koppeling](#join) wat alle moontlike kombinasies van rye uit twee tabelle A en B oplewer.
+      
 
 - slug: cross_validation
   ref:
@@ -3874,6 +3916,12 @@
     def: >
       ሁሉንም ረድፎች እና ሁሉንም አምዶች ከሁለት የሚመልስ [መቀላቀል](#join) ሰንጠረ Aች ሀ እና ቢ የ "A" እና "ቢ" (ቁልፎች)(#key) የሚዛመዱበት ፣ እሴቶች የተዋሃዱ ናቸው ፤ እነሱ ከሌሉበት ፣ ከየትኛውም ሰንጠረዥ የሚጎድሉ እሴቶች በ [null](#null) ፣ [NA](#na) ፣ ወይም በሌላ ሌላ [የጠፋ እሴት](#missing_value) አመላካች ተሞልተዋል።
 
+  af:
+    term: "volle koppeling"
+    def: >
+      'n [Koppeling](#join) wat alle rye en alle kolomme uit twee tabelle A en B oplewer. Waar die [ID-sleutels](#key) van A en B by mekaar pas, word die waardes gekombineer; waar dit nie die geval is nie, word ontbrekende waardes uit enige van die twee tabelle gevul met [nul](#null), [NA](#na), of enige ander aanduier van 'n [ontbrekende waarde](#missing_value).
+
+
 - slug: fully_qualified_name
   en:
     term: "fully-qualified name"
@@ -4524,6 +4572,11 @@
     def: >
       አንድ የፕሮጀክት አካል የሆነ ነገር ግን በእውነቱ በእሱ ላይ ምንም ሥራ የማይሠራ ሰው ፡፡
 
+  sot:
+    term: "mohahlaudi"
+    def: >
+      Motho a leng karolo ya letsema empa a sa etse letho ho lona.
+      
 - slug: home_directory
   en:
     term: "home directory"
@@ -4678,6 +4731,11 @@
       The [false](#false) belief that one's successes are a result of accident or luck rather
       than ability.
 
+  sot:
+    term: "lefu la kaketso"
+    def: >
+      Tumelo e fosahetseng ya hore katleho ya emong e tlile ka lehlohonolo eseng hobane a tshwanetswe kapa a sebeditse ka thata.
+
   am:
     term: አስመሳይ ሲንድሮም
     def: >
@@ -4750,6 +4808,12 @@
     term: ውስጣዊ መቀላቀል
     def: >
       የሁለት ጠረጴዛዎች ሀ እና ቢ የማን ረድፎችን ጥምር የሚመልስ [መቀላቀል](#join) [ቁልፎች](#key) በሁለቱም ጠረጴዛዎች ውስጥ አሉ ፡፡
+
+  af:
+    term: "binnekoppeling"
+    def: >
+      'n [Koppeling](#join) wat die kombinasie van rye uit twee tabelle A en B oplewer, waarvan die [ID-sleutels](#key) in beide tabelle bestaan.
+      
 
 - slug: instance
   en:
@@ -4899,6 +4963,12 @@
     def: >
       እሴቶችን ከሁለት [ሰንጠረ ](#table)ች] ከሚያጣምሩ በርካታ ክዋኔዎች አንዱ ፡፡
 
+  af:
+    term: "koppeling"
+    def: >
+      Een van verskeie bewerkings wat waardes uit twee [tabelle](#table) aan mekaar koppel.
+
+
 - slug: json
   ref:
     - yaml
@@ -5012,6 +5082,13 @@
     term: ቁልፍ
     def: >
       1. ዋጋቸው (ቸው) በልዩ ሁኔታ የሚለዩት አንድ [መስክ](#field) ወይም የመስኮች ጥምረት ሀ መዝገብ በአንድ [ጠረጴዛ](#record) ወይም የውሂብ ስብስብ ውስጥ። ቁልፎች ብዙውን ጊዜ ጥቅም ላይ ይውላሉ የተወሰኑ መዝገቦችን ይምረጡ እና በ [ተቀላቀል](#table)። በመረጃ አወቃቀር ውስጥ እንደ ልዩ መለያ ጥቅም ላይ የዋለ የቁልፍ / እሴት ጥንድ ክፍል እንደ [መዝገበ-ቃላት](#dictionary)።
+
+  af:
+    term: "ID-sleutel"
+    def: >
+      1. 'n [Veld](#field) of kombinasie van velde waarvan die waarde(s) 'n [rekord](#record) in 'n [tabel](#table) of datastel uniek identifiseer. ID-sleutels word dikwels gebruik om spesifieke rekords te kies, asook in [koppelings](#join).
+      2. 'n Deel van 'n ID-sleutel/waardepaar, wat as 'n unieke identifiseerder gebruik word in 'n datastruktuur soos 'n [woordeboek](#dictionary).
+      
 
 - slug: keyword_argument
   ref:
@@ -5783,6 +5860,11 @@
     def: >
       A target that a project is trying to meet, often represented as a set of
       [issues](#issue) that all have to be resolved by a certain time.
+  af:
+    term: "mylpaal"
+    def: >
+      'n Teiken wat 'n projek probeer bereik, dikwels voorgestel as 'n stel [kwessies](#issue) 
+      wat almal teen 'n sekere tyd opgelos moet wees.
 
   am:
     term: ወሳኝ ምዕራፍ
@@ -5887,6 +5969,10 @@
     term: "Imodyuli"
     def: >
       [Iphakheji yesoftware](#package) enokuphinda isebenze, ekwabizwa ngokuba [yilayibrari](#library)
+  af:
+    term: "module"
+    def: >
+     'n Herbruikbare [sagtewarepakket](#package), ook dikwels 'n [biblioteek](#library) genoem.
 
 
 - slug: monte_carlo
@@ -5952,6 +6038,9 @@
     def: >
       هو رمز مميز يٌمثِل حرفاً بلا قيمة أو قيمة مفقودة أي انه يرمز إلى عدم وجود أي
       قيمة على الإطلاق.
+
+      
+      
 
 
 - slug: naive_bayes_classifier
@@ -6048,6 +6137,12 @@
     def: >
       An element of a [graph](#graph) that is connected to other nodes by
       [edges](#edge). Nodes typically have data associated with them, such as names or weights.
+  af:
+    term: "node, nodus"
+    def: >
+      'n Element in 'n [grafiese voorstelling](#graph), soos 'n grafiek of 'n netwerk, wat 
+      deur ander 'n node/nodus met 'n [skakel](#edge) verbind is. Nodes/Nodusse het spesifieke data, 
+      soos byvoorbeeld name of gewigte, gekoppel. 
 
 
 - slug: non_blocking_execution
@@ -6094,6 +6189,12 @@
     def: >
       Une valeur spéciale utilisée pour représenter l'absence de valeur. Null n'est pas équivalent à [NA](#na),
       ni à un [vecteur vide](#empty_vector).
+  af:
+    term: "nul"
+    def: >
+     'n Spesiale waarde wat gebruik word om 'n vermiste voorwerp voor te stel. Nul is nie dieselfde as [NA](#na) nie, 
+     en dit is ook nie dieselfde as 'n [leë vektor](#empty_vector) nie.
+      
 
 
 - slug: null_hypothesis
@@ -6238,6 +6339,10 @@
     term: "open science"
     def: >
       A generic term for making scientific software, data, and publications generally available.
+  af:
+    term: "oop wetenskap"
+    def: >
+     'n Generiese term om wetenskaplike sagteware, data en publikasies toegangklik te maak.
 
 
 - slug: operating_system
@@ -6658,7 +6763,12 @@
     acronym: "PRNG"
     def: >
       A function that can generate [pseudo-random numbers](#pseudo_random_number).
-
+  af:
+    term: "pseudolukrakenommergenereerder"
+    acronym: "PLNG"
+    def: >
+      'n Funksie wat [pseudo- lukrake nommers](#pseudo_random_number) kan genereer.
+      
 
 - slug: probability_distribution
   en:
@@ -6749,6 +6859,10 @@
     def: >
       Un valor generado de forma repetible que refleja suficientemente bien a la
       verdadera aleatoriedad del universo como para engañar a simples observadores mortales.
+  af:
+    term: "pseudo- lukrake nommer"
+    def: >
+      'n Waarde wat op so 'n wyse gegenereer is dat dit lyk op die [ware](#true) lukraakheid van die heelal, tot so 'n mate dat dit waarnemers fop.
 
 
 - slug: psf
@@ -7459,14 +7573,22 @@
     term: "seed"
     def: >
       A value used to initialize a [pseudo-random number generator](#prng).
-
+  af:
+    term: "saadjie"
+    def: >
+      'n Waarde wat gebruik word om 'n [pseudolukrakenommergenereerder](#prng) te begin.
+      
 
 - slug: select
   en:
     term: "select"
     def: >
       To choose entire columns or rows from a table by name or location.
-
+  af:
+    term: "kies"
+    def: >
+      Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
+      
 
 - slug: self_join
   ref:
@@ -7513,7 +7635,10 @@
     def: >
       Typically, a program such as a database manager or web server that provides data
       to a [client](#client) upon request.
-
+  af:
+    term: "bediener"
+    def: >
+      'n Program soos 'n databasisbeheerder of webbediener wat op versoek data aan 'n [kliënt](#client) verskaf.
 
 - slug: shebang
   en:
@@ -8276,7 +8401,18 @@
       A standard that defines numeric codes for many thousands of characters and
       symbols. Unicode does not define how those numbers are stored; that is done by
       standards like [UTF-8](#utf_8).
-
+  de:
+    term: "Unicode"
+    def: >
+      Ein Standard, der einen numerischen Zeichensatz für viele tausend Zeichen und 
+      Symbole definiert. Unicode definiert nicht, wie diese Zahlen gespeichert werden; 
+      das geschieht durch Standards wie [UTF-8](#utf_8).
+  fr:
+    term: "Unicode"
+    def: >
+      Une norme qui définit des codes numériques pour plusieurs milliers de caractères 
+      et de symboles. Unicode ne définit pas comment ces nombres sont stockés ; cela est 
+      fait par des normes comme [UTF-8](#utf_8).
 
 - slug: unit_test
   ref:
