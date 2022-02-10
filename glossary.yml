@@ -590,7 +590,7 @@
       En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
    ar:
    term: "خوارزمية"
-   def: >
+   <span class="x x-first x-last">  </span>def: &gt;
       الخوارزمية عبارة عن مجموعة من الخطوات والمقدمات أوالقواعد التي يجب اتباعها لتحقيق مهمة معين.
       في علوم الحاسب، الخوارزمية هي مجموعة من التعليمات في برنامج كمبيوتر تحل مشكلة حاسوبية.
   de:
