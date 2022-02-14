@@ -8032,7 +8032,7 @@
     term: synchrone
     def: >
       Qui se produit en même temps. En programmation, des opérations synchrones
-      sont des opérations qui doivent s'exécute simultanémment ou se terminer en même temps.
+      sont des opérations qui doivent s'exécuter simultanémment ou se terminer en même temps.
 
 - slug: systematic_error
   en:
