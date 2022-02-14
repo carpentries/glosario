@@ -1000,7 +1000,12 @@
     term: ያልተመሳሰለ
     def: >
       በተመሳሳይ ጊዜ አለመከሰት ፡፡ በፕሮግራም ውስጥ ያልተመሳሰለ አሠራር አንዱ  ከሌላው በተናጠል የሚሮጥ ፣ ወይም በተመሳሳይ  ጊዜ ተጀምሮ በሌላ ጊዜ ያበቃል ፡፡
-
+  fr:
+    term: asynchrone
+    def: >
+      Qui ne se produit pas en même temps. En programmation, une opération asynchrone
+      est une opération qui s'exécute indépendamment d'une autre, ou qui commence
+      à un moment et se termine à un autre.
 - slug: attribute
   en:
     term: "attribute"
