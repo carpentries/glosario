@@ -8028,7 +8028,11 @@
     def: >
       To happen at the same time. In programming, synchronous operations are ones that
       have to run simultaneously, or complete at the same time.
-
+  fr:
+    term: synchrone
+    def: >
+      Qui se produit en même temps. En programmation, des opérations synchrones
+      sont des opérations qui doivent s'exécuter simultanémment ou se terminer en même temps.
 
 - slug: systematic_error
   en:
