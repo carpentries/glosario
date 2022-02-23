@@ -510,9 +510,9 @@
     term: "دالة التجميع"
     def: >
        دالة تدمج العديد من القيم في قيمة واحدة ، مثل
-       [جمع](#sum)
+       جمع
        أو
-       [أقصى](#max).
+       أقصى.
   de:
     term: "Aggregatfunktion"
     def: >
@@ -4574,7 +4574,7 @@
     def: >
       አንድ የፕሮጀክት አካል የሆነ ነገር ግን በእውነቱ በእሱ ላይ ምንም ሥራ የማይሠራ ሰው ፡፡
 
-  sot:
+  st:
     term: "mohahlaudi"
     def: >
       Motho a leng karolo ya letsema empa a sa etse letho ho lona.
@@ -4733,7 +4733,7 @@
       The [false](#false) belief that one's successes are a result of accident or luck rather
       than ability.
 
-  sot:
+  st:
     term: "lefu la kaketso"
     def: >
       Tumelo e fosahetseng ya hore katleho ya emong e tlile ka lehlohonolo eseng hobane a tshwanetswe kapa a sebeditse ka thata.
