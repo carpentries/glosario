@@ -467,12 +467,17 @@
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
       concatenando um conjunto de caracteres.
+
+  ar:
+    term: "تجميع"
+    def: >
+      دمج مجموعة من القيم في قيمة واحدة، مثال، حمع مجموعة من الأرقام أو تجميع مجموعة من السلاسل.
+
   sw:
     term: "mchanganyiko"
     def: >
       Kugawana vitu mingi pamoja, kwa mfano, kujumlisha nambari au
       kunganisha matini.
-
 
 - slug: aggregation_function
   en:
@@ -501,12 +506,18 @@
     def: >
       'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en `max`
       (maksimale waarde)
+  ar:
+    term: "دالة التجميع"
+    def: >
+       دالة تدمج العديد من القيم في قيمة واحدة ، مثل
+       [جمع](#sum)
+       أو
+       [أقصى](#max).
   de:
     term: "Aggregatfunktion"
     def: >
       Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst,
       beispielsweise in einer Summe oder dem Maximalwert.
-
 
 - slug: agile
   en:
@@ -576,6 +587,11 @@
     def: >
       Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
       En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
+  ar:
+    term: "خوارزمية"
+    def: >
+      الخوارزمية عبارة عن مجموعة من الخطوات والمقدمات أوالقواعد التي يجب اتباعها لتحقيق مهمة معين.
+      في علوم الحاسب، الخوارزمية هي مجموعة من التعليمات في برنامج كمبيوتر تحل مشكلة حاسوبية.
   de:
     term: "Algorithmus"
     def: >
@@ -589,7 +605,6 @@
       Αλγόριθμος είναι ένα σύνολο από βήματα ή κανόνες για τη διεκπεραίωση μιας συγκεκριμένης εργασίας.
       Στην πληροφορική, αλγόριθμος είναι ένα σύνολο από εντολές σε κάποιο πρόγραμμα οι οποίες επιλύουν κάποιο
       υπολογιστικό πρόβλημα.
-
   am:
     term: ስልተ ቀመር
     def: "አንድ ስልተ-ቀመር አንድን የተወሰነን ነገር ለማከናወን ሊከተሏቸው የሚገቡ እርምጃዎች ፣ ጥሰቶች ወይም ህጎች ስብስብነው
@@ -752,7 +767,12 @@
     def: >
       Un conjunto de funciones y procedimientos proporcionados por una libreria de software o servicio web
       atraves del cual otra aplicación se puede comunicar. Una API no es el código,
-      la base de datos o el servidor; es el punto de acceso.
+      la base de datos o el servidor; es el punto de acceso.    
+  ar:
+    term: "واجهة التطبيق البرمجية"
+    def: >
+      مجموعة من الوظائف والإجراءات التي توفرها مكتبات البرامج أو خدمة الويب والتي يمكن من خلالها  لتطبيق آخر التواصل معها.
+      واجهة التطبيق البرمجية ليست الكود أو قاعدة البيانات أو الخادم: إنها نقطة الوصول.
   fr:
     term: "Interface de Programmation d'application"
     def: >
@@ -880,7 +900,12 @@
     term: "ASCII"
     def: >
       'n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik word,
-      voor te stel as 7- of 8-[bis](#bit) heelgetalle. ASCII word vervang deur [Unicode](#unicode).
+      voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
+  ar:
+    term: "آسكي"
+    def: >
+       طريقة قياسية لتمثيل الأحرف المستخدمة بشكل شائع في لغات أوروبا الغربية كأعداد صحيحة من ٧ أو ٨ بت،
+       يحل محلها الآن   [الترميز الموحد] (#unicode).
   es:
     term: "ASCII"
     def: >
@@ -982,9 +1007,15 @@
   af:
     term: "asinchronies"
     def: >
-      "Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer
-      aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n
-      bewerking wat onafhanklik van 'n ander een plaasvind."
+      Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee of meer 
+      aktiwiteite tergelykertyd plaasvind. In programering is 'n asinchorniese bewerking 'n 
+      bewerking wat onafhanklik van 'n ander een plaasvind.
+  ar:
+    term: "غير متزامن"
+    def: >
+       لا يحدث في نفس الوقت.
+       في البرمجة، العملية غير المتزامنة هي العملية التي يتم تنفيذها بشكل مستقل عن الأخرى
+       أو تلك التي تبدأ في وقت معين وتنتهي في وقت آخر.
   es:
     term: "asincrónico"
     def: >
@@ -1302,6 +1333,10 @@
     def: >
       Any data that until recently was too big for most people to work with on a
       single computer.
+  ar:
+    term: "البيانات الضخمة"
+    def: > 
+      أي بيانات كانت حتى وقت قريب أكبر من أن يشتغل عليها معظم الأشخاص على جهاز كمبيوتر واحد.
   de:
     term: "Big Data"
     def: >
@@ -1319,6 +1354,7 @@
     term: "Data kubwa"
     def: >
       Data inahitaji kutumikwa kwa kichakato kizito.
+
 
 - slug: binary
   en:
