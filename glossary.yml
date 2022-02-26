@@ -3584,6 +3584,11 @@
     term: የተጠበቀው ውጤት (የሙከራ)
     def: >
       አንድ ቁራጭ ሶፍትዌር መቼ ያወጣል ተብሎ የሚታሰበው ዋጋ በ ውስጥ ተፈትኗል አንድን መንገድ ፣ ወይም መተው ያለበት ሁኔታ ስርዓት::
+  es:
+    term: "resultado esperado (de una prueba)"
+    def: >
+      El valor que se supone debe producir una sección de código cuando se prueba de una 
+      manera determinada, o el estado en el que se supone debe dejar el sistema.
 
 - slug: exploratory_programming
   en:
