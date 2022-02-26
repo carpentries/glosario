@@ -422,7 +422,13 @@
       Jika hasil pengujian sesuai dengan [hasil yang diharapkan](#expected_result), 
       maka pengujian dianggap [lulus](#pass_test); 
       namun jika hasil keduanya berbeda, maka pengujian dianggap [gagal](#fail_test).    
-    
+  es:
+    term: "resultado real (de una prueba)"
+    def: >
+      El valor generado ejecutando el código en una prueba. Si coincide con el 
+      [resultado esperado] (#expected_result), la prueba [pasa] (#pass_test); 
+      si son diferentes, la prueba [falla] (#fail_test).
+
 - slug: affordance
   en:
     term: "affordance"
