@@ -3528,6 +3528,13 @@
     term: ባዶ ቬክተር
     def: >
       ምንም ንጥረ ነገሮችን ያልያዘ ቬክተር። ባዶ ቬክተሮች እንደ ሎጂካዊ ወይም ቁምፊ ዓይነት አላቸው ፣ እና እንደ [null](#null) * ተመሳሳይ * አይደሉም።
+      
+- slug: encoding
+  en:
+    term: "encoding"
+    def: >
+      The process of putting a sequence of characters such as letters, numbers, punctuation, 
+      and certain symbols, into a specialized format for efficient transmission or storage. 
 
 - slug: environment
   en:
