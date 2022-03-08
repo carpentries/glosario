@@ -2841,6 +2841,12 @@
     def: >
       The pragmatic steps taken to make data usable, such as writing short programs to
       put mailing addresses in a uniform format.
+  el:
+    term: "μηχανικός δεδομένων"
+    def: >
+      Ένα άτομο που υλοποιεί και τρέχει αναλύσεις δεδομένων. Οι μηχανικοί δεδομένων
+      είναι συνήθως υπεύθυνοι για την εγκατάσταση λογισμικού, τη διαχείριση βάσεων
+      δεδομένων, τη δημιουργία αναφορών και την αρχειοθέτηση των αποτελεσμάτων.
 
   am:
     term: የውሂብ ምህንድስና
@@ -2948,6 +2954,10 @@
     term: "ciencia de datos"
     def: >
       La combinación de estadísticas, programación y trabajo duro que se utiliza para extraer información de los datos.
+  el:
+    term: "επιστήμη δεδομένων"
+    def: >
+      Ο συνδυασμός στατιστικής, προγραμματισμού και σκληρής δουλειάς που χρειάζεται για να εξαχθούν συμπεράσματα από δεδομένα.
 
   am:
     term: የውሂብ ሳይንስ
@@ -2975,6 +2985,10 @@
     term: "cientifico/cientifica de datos"
     def: >
       Alguien que usa habilidades de programación para resolver problemas de estadísticas.
+  el:
+    term: "επιστήμονας δεδομένων"
+    def: >
+      Ένα άτομο που χρησιμοποιεί προγραμματισμό για να λύσει προβλήματα στατιστικής.
 
   am:
     term: የውሂብ ሳይንቲስት
