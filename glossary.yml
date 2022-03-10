@@ -3639,7 +3639,7 @@
   es:
     term: "fallar (una prueba)"
     def: >
-      Una prueba falla si el [resultado real](#actual_result) no coincide con el [resultado esperado](#expected result).  
+      Una prueba falla si el [resultado real](#actual_result) no coincide con el [resultado esperado](#expected_result).  
 
 - slug: "false"
   ref:
