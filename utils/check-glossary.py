@@ -30,7 +30,7 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'bn', 'de', 'en', 'es', 'fr', 'he', 'it', 'ja', 'ko', 'nl', 'pt', 'sw', 'tn', 'xh', 'zu'}
+ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'bn', 'de', 'el', 'en', 'es', 'fr', 'he', 'id', 'it', 'ja', 'ko', 'nl', 'pt', 'st', 'sw', 'tn', 'xh', 'zu'}
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
@@ -47,9 +47,9 @@ def main():
     '''Main driver.'''
     checkLang, configFile, glossaryFile = parseArgs()
     with open(configFile, 'r') as reader:
-        config = yaml.load(reader, Loader=yaml.FullLoader)
+        config = yaml.load(reader, Loader=yaml.SafeLoader)
     with open(glossaryFile, 'r') as reader:
-        gloss = yaml.load(reader, Loader=yaml.FullLoader)
+        gloss = yaml.load(reader, Loader=yaml.SafeLoader)
 
     checkLanguages(config)
     for entry in gloss:
@@ -75,14 +75,19 @@ def parseArgs():
     to check may be 'ALL' (to check all), None (to check none), or
     a known 2-letter language code.
     '''
-    options, filenames = getopt.getopt(sys.argv[1:], 'Ac:')
+    try:
+        options, filenames = getopt.getopt(sys.argv[1:], 'Ac:')
+    except getopt.GetoptError as error:
+        print(f'Unknown flag {error.opt}', file=sys.stderr)
+        sys.exit(1)
+
     if (len(filenames) != 2):
         print(f'Usage: check [-A] [-c LL] configFile glossFile')
         sys.exit(1)
     configFile, glossFile = filenames
 
     checkLang = None
-    for (opt, args) in options:
+    for (opt, arg) in options:
         if opt == '-A':
             checkLang = 'ALL'
         elif opt == '-c':
@@ -90,9 +95,6 @@ def parseArgs():
             if checkLang not in ENTRY_LANGUAGE_KEYS:
                 print(f'Unknown language {checkLang}', file=sys.stderr)
                 sys.exit(1)
-        else:
-            print(f'Unknown flag {opt}', file=sys.stderr)
-            sys.exit(1)
 
     return checkLang, configFile, glossFile
 
