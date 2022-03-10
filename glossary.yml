@@ -8757,6 +8757,15 @@
       como o `*` em `*.csv` (que corresponde a qualquer arquivo cujo nome termina em `*.csv`).
 
 
+- slug: workflow
+  en:
+    term: "workflow"
+    def: >
+      A way of describing work to be done as a set of tasks, typically with dependencies on
+      external inputs or the outputs of other tasks, which can be later be executed by a program.
+      An example is a Makefiles, which can be executed by the make Unix command.
+
+
 - slug: xml
   de:
     term: "XML"
