@@ -311,6 +311,12 @@
       not implemented. Programmers will define an abstract method in a [parent
       class](#parent_class) to specify operations that [child classes](#child_class)
       must provide.
+  es:
+    term: "método abstrato"
+    def: >
+      En [programación orientada a objectos](#oop), es un [método](#method) definido pero no implementado.
+      Programadores definen un método abstracto en una [superclase](#parent_class) para especificar operaciones
+      que las [subclases](#child_class) deberán proveer.
   id:
     term: "metode abstrak"
     def: >
