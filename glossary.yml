@@ -1,3 +1,15 @@
+- slug: concatenate
+  ref:
+    - aggregation
+    - creative_commons_license
+    - left_join
+    - right_join
+  en:
+    term: "Concatenate"
+    acronym: "concat"
+    def: >
+      Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
+
 - slug: 68_95_997_rule
   de:
     term: "68-95-99.7 Regel"
