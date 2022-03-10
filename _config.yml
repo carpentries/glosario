@@ -257,3 +257,8 @@ languages:
       mereka dapat menelusuri lebih lanjut. Penulis dapat juga menggunakan fungsi dalam
       library untuk memasukkan hyperlink istilah secara konsisten berikut definisinya
       dalam pelajaran dalam beberapa bahasa.
+  - key: st
+    name: Southern Sotho
+    title: Glossary
+    blurb: >-
+      In translation
