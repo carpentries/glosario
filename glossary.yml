@@ -4031,10 +4031,19 @@
       meaning they do not modify the global program state, or do anything other than computing
       the return value, such as writing output to a [log](#log) file, or printing to the [console](#console).
 
+
+- slug: garbage_in_garbage_out
+  en:
+    term: "garbage in, garbage out"
+    acronym: "GIGO"
+    def: >
+      The idea that messy data as an input will result in messy data as an output.
+
   am:
     term: ተግባራዊ ፕሮግራም
     def: >
       መረጃዎች በሚቀየሩበት የፕሮግራም ዘይቤ እንደ ቀለበቶች ያሉ የመቆጣጠሪያ አሠራሮችን ከመጠቀም ይልቅ የተግባሮችን ትግበራ በመተግበር ላይ በተግባራዊ መርሃግብር ውስጥ በግብአት መካከል ቀጥተኛ ግንኙነት መኖር አለበት ወደ ተግባር እና በተግባሩ የሚመረተው ውጤት ፣ ውጤቱ በአለምአቀፍ ተለዋዋጮች ወይም በሌሎች የዓለም ክፍሎች የፕሮግራም ሁኔታ](#global_environment). እንዲሁም ተግባራት [የጎንዮሽ ጉዳቶች](#side_effect) እንዳያወጡ ይጠይቃል ፡፡ ማለትም የዓለም አቀፍ ፕሮግራሙን ሁኔታ አያሻሽሉም ፣ ወይም የመመለሻውን ዋጋ ከማስላት ውጭ ሌላ ነገር አያደርጉም ፣ ለምሳሌ ውጤትን በ [መዝገብ](#log) ፋይል ላይ መጻፍ ፣ ወይም ወደ [ኮንሶል](#console) ማተም።
+
 
 - slug: generator_function
   ref:
