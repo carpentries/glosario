@@ -3292,7 +3292,7 @@
       UNIX command to see the list of open files being used by [processes](#process). 
   es:
     term: "lsof"
-      def: >
+    def: >
       Comando en UNIX para ver la lista de archivos abiertos siendo utilizados por [procesos](#process).
 
 - slug: machine_learning
