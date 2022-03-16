@@ -8885,7 +8885,7 @@
   nl:
     term: "joker"
     def: >
-      Een teken dat gebruikt kan worden om een overeenkomst met een bepaalde (reeks van) tekens
+      Een teken dat gebruikt kan worden om een overeenkomst met een reeks van tekens
       uit te drukken. Bijvoorbeeld, de `*` in `*.csv` (welke overeenkomt met elke bestandsnaam
       die eindigt in `.csv`).
   pt:
