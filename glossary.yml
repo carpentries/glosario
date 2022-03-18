@@ -2524,6 +2524,10 @@
     def: >-
       A value that cannot be changed after it has been defined, as opposed 
       to a [variable](#variable_program).
+  fr:
+    term: "constante"
+    def: >
+      Une valeur qui ne peut pas être modifiée après avoir été définie, par opposition à une [variable](#variable_program).
 
 
 - slug: constructor
