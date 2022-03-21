@@ -439,7 +439,13 @@
       Jika hasil pengujian sesuai dengan [hasil yang diharapkan](#expected_result), 
       maka pengujian dianggap [lulus](#pass_test); 
       namun jika hasil keduanya berbeda, maka pengujian dianggap [gagal](#fail_test).    
-    
+  es:
+    term: "resultado real (de una prueba)"
+    def: >
+      El valor generado ejecutando el código en una prueba. Si coincide con el 
+      [resultado esperado] (#expected_result), la prueba [pasa] (#pass_test); 
+      si son diferentes, la prueba [falla] (#fail_test).
+
 - slug: affordance
   en:
     term: "affordance"
@@ -3644,6 +3650,11 @@
     term: የተጠበቀው ውጤት (የሙከራ)
     def: >
       አንድ ቁራጭ ሶፍትዌር መቼ ያወጣል ተብሎ የሚታሰበው ዋጋ በ ውስጥ ተፈትኗል አንድን መንገድ ፣ ወይም መተው ያለበት ሁኔታ ስርዓት::
+  es:
+    term: "resultado esperado (de una prueba)"
+    def: >
+      El valor que se supone debe producir una sección de código cuando se prueba de una 
+      manera determinada, o el estado en el que se supone debe dejar el sistema.
 
 - slug: exploratory_programming
   en:
@@ -3691,7 +3702,10 @@
     term: መውደቅ (ፈተና)
     def: >
       [ትክክለኛው ውጤት](#actual_result) የማይዛመድ ከሆነ አንድ ሙከራ አልተሳካም የተጠበቀው ውጤት (#expected_result)።
-
+  es:
+    term: "fallar (una prueba)"
+    def: >
+      Una prueba falla si el [resultado real](#actual_result) no coincide con el [resultado esperado](#expected_result).  
 
 - slug: "false"
   ref:
@@ -6686,7 +6700,10 @@
     term: "pass (a test)"
     def: >
       A test passes if the [actual result](#actual_result) matches the [expected result](#expected_result).
-
+  es:
+    term: "pasar (una prueba)"
+    def: >
+      Una prueba pasa si el [resultado real](#actual_result) coincide con el [resultado esperado](#expected_result).
 
 - slug: patch
   en:
