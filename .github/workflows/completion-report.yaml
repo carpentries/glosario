@@ -5,6 +5,9 @@ on:
         description: "Date of Today"
         required: false
         default: "2022-03-21"
+  push:
+    - completion-ci-cd
+    - main
 
 name: generate-completion-report
 
