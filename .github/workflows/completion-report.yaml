@@ -2,8 +2,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 2 * * *"
-    
-
 
 name: generate-completion-report
 
