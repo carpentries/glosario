@@ -5,8 +5,8 @@ on:
         description: "Date of Today"
         required: false
         default: "2022-03-21"
-  schedule:
-    - cron: "0 2 * * *"
+  # schedule:
+  #  - cron: "0 2 * * *"
 
 name: generate-completion-report
 
