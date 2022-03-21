@@ -1,7 +1,7 @@
 on:
-  schedule:
-  - cron: "0 2 * * *"
-  workflow_dispatch
+  - schedule:
+    - cron: "0 2 * * *"
+  - workflow_dispatch
 
 
 name: generate-completion-report
@@ -43,7 +43,7 @@ jobs:
           git pull origin ${{ github.head_ref }} --autostash --rebase -X ours
           git commit --allow-empty -am "AUTO-GH ACTION: ${{ github.workflow }}"
           NO_PAGER=1 git --no-pager diff HEAD^
-          
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
