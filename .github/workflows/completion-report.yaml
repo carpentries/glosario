@@ -6,8 +6,9 @@ on:
         required: false
         default: "2022-03-21"
   push:
-    - completion-ci-cd
-    - main
+    branches:
+      - completion-ci-cd
+      - main
 
 name: generate-completion-report
 
