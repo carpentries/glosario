@@ -27,14 +27,10 @@ jobs:
           install.packages("renv")
         shell: Rscript {0}
 
-      - name: Restore environment
+      - name: Restore environment & Render RMarkdown
         run: |
           renv::consent(TRUE)
           renv::restore("utils/renv.lock")
-        shell: Rscript {0}
-
-      - name: Render RMarkdown
-        run: |
           rmarkdown::render("utils/completion-report.Rmd", 
           output_format = "html_document", 
           output_file = "static/completion-report.Rmd")
