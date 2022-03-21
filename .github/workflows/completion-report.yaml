@@ -1,5 +1,10 @@
 on:
   workflow_dispatch:
+  inputs:
+    date:
+      description: "Date of Today"
+      required: false
+      default: "2022-03-21"
   schedule:
     - cron: "0 2 * * *"
 
