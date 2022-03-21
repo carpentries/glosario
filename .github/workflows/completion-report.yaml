@@ -1,0 +1,52 @@
+on:
+  schedule:
+  - cron: "0 2 * * *"
+  workflow_dispatch
+
+
+name: generate-completion-report
+
+jobs:
+  generate-completion-report:
+    runs-on: macOS-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-r@master
+
+      - name: Install renv
+        run: |
+          install.packages("renv")
+        shell: Rscript {0}
+
+      - name: Restore environment
+        run: |
+          renv::consent(TRUE)
+          renv::restore("utils/renv.lock")
+        shell: Rscript {0}
+
+      - name: Render RMarkdown
+        run: |
+          rmarkdown::render("utils/completion-report.Rmd", 
+          output_format = "html_document", 
+          output_file = "static/completion-report.Rmd")
+        shell: Rscript {0}
+
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.head_ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "AUTO-GH ACTION: ${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      

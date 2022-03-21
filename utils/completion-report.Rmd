@@ -1,0 +1,102 @@
+---
+title: "Glosario Completion Report"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, message=FALSE}
+library(glosario)
+library(tidyverse)
+library(forcats)
+library(gt)
+glossary <- glosario::get_glossary()
+terms <- glossary$list_slugs()
+terms_per_language <- list()
+for (term in terms){
+  terms_per_language[term] = glossary$list_languages(key = term)
+}
+languages <- terms_per_language[[names(which.max(purrr::map_dbl(terms_per_language, length)))]]
+languages <- sort(languages)
+df <- data.frame(matrix(ncol = length(languages), nrow = length(terms)))
+colnames(df) <- languages
+rownames(df) <- terms
+for (term in terms){
+  languages_of_the_term <- terms_per_language[term]
+  for (language in languages_of_the_term){
+    df[term, language] <- TRUE
+  }
+}
+tibble_df <- as_tibble(df, rownames = 'term') %>%
+  arrange(term)
+```
+
+```{r, warning=FALSE}
+tibble_df %>%
+  pivot_longer(-term) %>%
+  filter(value == TRUE) %>%
+  group_by(name) %>%
+  count() %>%
+  mutate(pct = n/length(terms)) %>%
+  ungroup() %>%
+  rename(`Language` = name,
+         `# of Terms` = n, 
+         `% of Completeness` = pct) %>%
+  gt() %>%
+  data_color(
+    columns = c(`% of Completeness`, `# of Terms`),
+    colors = scales::col_numeric(
+      palette = paletteer::paletteer_d(palette = "DresdenColor::provenguilty") %>% 
+        as.character(),
+      domain = NULL)
+  ) %>%
+  fmt_percent(columns = vars(`% of Completeness`)) %>%
+  tab_header(title = md("**Completion Percentages by Language**")) %>%
+  tab_source_note(md("*This analysis is looking at the Glosario file hosted by
+                     The Carpentries*")) %>%
+  tab_options(data_row.padding = px(5))
+```
+
+# Completion Plots for All Terms and Languages
+
+> If a given language column doesn't appear in the plot it means that **all** of the terms listed in that plot lack a definition in that language only
+```{r}
+n = 35 #size of groups
+split <- tibble_df %>% group_by(row_number() %/% n) %>% group_map(~ .x)
+for (idx in 1:length(split)){
+  p <- split[[idx]] %>%
+    pivot_longer(-term) %>%
+    filter(value == TRUE) %>%
+    ggplot(aes(x = name, y = fct_rev(term))) +
+    geom_tile(aes(fill = value)) +
+    xlab("Language") +
+    ylab("Term") +
+    ggtitle(glue::glue("Plot {idx} of {length(split)}")) +
+    theme_light() +
+    paletteer::scale_fill_paletteer_d("DresdenColor::provenguilty") +
+    theme(legend.position = "none")
+    
+  print(p)
+}
+```
+
+
+# Terms missing by language
+
+```{r}
+missing_terms <- tibble_df %>%
+  pivot_longer(-term) %>%
+  filter(is.na(value)) %>%
+  select(term, name) %>%
+  arrange(term)
+for (language in languages){
+  message(language)
+  missing_terms %>%
+    filter(name == language) %>%
+    pull(term) %>%
+    print()
+}
+```
