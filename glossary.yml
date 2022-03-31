@@ -8896,6 +8896,11 @@
     def: >
       A statement in a program that repeats one or more other statements (the [loop
       body](#loop_body)) as long as a condition is [true](#true).
+  de:
+    term: "while Schleife"
+    def: >
+      Eine Kontrollstruktur, die Anweisungs-Block oder [Schleifenkörper](#loop_body) wiederholt,
+      solange die Schleifenbedingung als Laufbedingung gültig oder [wahr](#true) bleibt.
 
 
 - slug: whitespace
