@@ -2449,6 +2449,17 @@
     def: >
       ተጠቃሚዎች የጽሁፍ እና ኮድን በአንድ ውስጥ ለማቀላቀፍ የሚያስችል የሰነድ ቅርጸት ድምር ነጠላ ፋይል, እና ያንን ኮድ በተሳታፊነት እና ውስጥ የሚፈፅም መተግበሪያ ቦታ ።  የ[Jupyter Notebook](#jupyter_notebook) እና [R Markdown](#r_markdown) ፋይሎች ሁለቱም የሒሳብ ማስታወሻ ደብተሮች ምሳሌዎች ናቸው።
 
+- slug: compute_shader
+  ref:
+    - gpu
+    - shader
+  en:
+    term: "compute shader"
+    def: >
+      A general purpose [shader][#shader] program for use in parallel processing. Often used
+      for [machine learning][#machine_learning], simulations, and other fields which benifit
+      from parallel computation.
+
 - slug: condition
   ref:
     - handle_condition
@@ -4013,6 +4024,20 @@
     def: >
       በሌላ ሰው የ GitHub አካውንት ውስጥ የሚኖር የአንድ ሰው [Git](#git) [ማከማቻ](#repository) ቅጅ። በሹካ ይዘት ላይ የተደረጉ ለውጦች በ [ጎትት ጥያቄ](#upstream_repository) በኩል ወደ [ወደ ላይኛው መጋዘን](#pull_request) ሊቀርቡ ይችላሉ ፡፡
 
+- slug: fragment_shader
+  ref:
+    - gpu
+    - geometry_shader
+    - shader
+    - vertex_shader
+  en:
+    term: "fragment shader"
+    def: >
+      The [shader][#shader] stage in the rendering pipeline designated towards calculating
+      colours for each fragment on the screen. For each pixel covered by a primitive, a
+      fragment is generated. All fragments for each pixel will have their colours combined
+      based on depth and opacity after the fragment shader stage is complete.
+
 - slug: full_identifier_git
   en:
     term: "full identifier (of a commit)"
@@ -4186,6 +4211,18 @@
       estimating an average rates of change or some other multiplicative 
       constant. 
 
+- slug: geomtry_shader
+  ref:
+    - gpu
+    - shader
+    - tessellation_shader
+  en:
+    term: "geometry shader"
+    def: >
+      The [shader][#shader] stage in the rendering pipeline designated towards processing
+      primitives. Not to be confused with [tessellation shaders][#tessellation_shader], geometry
+      shaders are focused on modifying the shape of primitives to create new results. For
+      example, pixels may be converted into particles using a geometry shader.
 
 - slug: ggplot2
   en:
@@ -4517,6 +4554,8 @@
 - slug: gpu
   ref:
     - cpu
+    - shader
+    - compute_shader
   en:
     term: "Graphics Processing Unit"
     acronym: "GPU"
@@ -4524,7 +4563,7 @@
       Specialized processor designed to run many instances of
       a single program in parallel. Orginally designed for use
       in graphics, but is also used for general computation in
-      the form of compute shaders.
+      the form of [compute shaders][#compute_shader].
     
 - slug: group
   en:
@@ -7728,6 +7767,12 @@
       environment that is only allowed to perform a restricted set of operations for
       security reasons.
 
+- slug: sanity_check
+  en:
+    term: "sanity check"
+    def: >
+      A basic test to see if the outcome of a calculation, script or analysis makes sense or is true.  
+      This can be performed by visualisation or by simply inspecting the outcome. 
 
 - slug: scalar
   en:
@@ -7854,6 +7899,20 @@
     term: "bediener"
     def: >
       'n Program soos 'n databasisbeheerder of webbediener wat op versoek data aan 'n [kliënt](#client) verskaf.
+
+- slug: shader
+  ref:
+    - compute_shader
+    - gpu
+    - fragment_shader
+    - vertex_shader
+    - geometry_shader
+    - tessellation_shader
+  en:
+    term: "shader"
+    def: >
+      A program designed to run on the [GPU][gpu]. Generally used in graphics to calculate lighting or position vertices
+      in a scene, though can be used for more general programming through the use of [compute shaders][#compute_shader].
 
 - slug: shebang
   en:
@@ -8055,7 +8114,18 @@
       typically so that programs can be recompiled on the target computer when they
       are installed.
 
-
+- slug: spectral analysis 
+  ref:
+    - python
+    - data analysis
+    - bayesian inference 
+    - bayesian statistics
+  en:
+    term: "spectral analysis/ spectrum analysis problem"
+    def: >
+      From a finite record of a stationary data sequence, estimate how
+      the total power is distributed over frequency.
+      
 - slug: sprint
   en:
     term: "sprint"
@@ -8397,6 +8467,17 @@
       An expression that has three parts. [Conditional expressions](#conditional_expression)
       are the only ternary expressions in most languages.
 
+- slug: tessellation_shader
+  ref:
+    - geometry_shader
+    - gpu
+    - shader
+  en:
+    term: "tessellation shader"
+    def: >
+      The [shader][#shader] stage in the rendering pipeline designated towards subdividing
+      primitives to increase the resolution of a mesh without impacting memory. Not to be
+      confused with [geometry shaders][#geometry_shader] which change the overall shape.
 
 - slug: test_data
   en:
@@ -8907,6 +8988,20 @@
     def: >
       Um sistema para gerenciar as mudanças feitas em um software durante o seu desenvolvimento.
 
+- slug: vertex_shader
+  ref:
+    - gpu
+    - fragment_shader
+    - geometry_shader
+    - shader
+  en:
+    term: "vertex shader"
+    def: >
+      The [shader][#shader] stage in the rendering pipeline designated towards handling
+      operations on individual vertices in a scene. A vertex shader can be used to calculate
+      properties of a single vertex, such as position and per-vertex lighting. Not to be
+      confused with [fragment shaders][#fragment_shader] which are used to determine the
+      actual colour being rendered to each pixel of the screen.
 
 - slug: vignette
   en:
