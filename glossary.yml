@@ -2692,6 +2692,8 @@
       ሁለት ተለዋዋጮች እርስ በእርሳቸው እንዴት እንደተስማሙ ። ግንኙነቱ ትስስር](#correlation_coefficient) መደበኛ የሆነ የመለዋወጥ ልኬት ነው።
 
 - slug: cpu
+  ref:
+    - gpu
   en:
     term: "Central Processing Unit"
     acronym: "CPU"
@@ -4451,6 +4453,7 @@
     def: >
       ሰዎች የለውጦቻቸውን ምንጭ እስካሰራጩ ድረስ ሶፍትዌሮችን እንደገና እንዲጠቀሙ የሚያስችል (ፈቃድ)፡፡
 
+
 - slug: gradient_boosting
   en:
     term: "gradient boosting"
@@ -4493,6 +4496,18 @@
     def: >
       1. መረጃን የሚያሳይ ሴራ ወይም ገበታ ፣ ወይም 2. በውስጡ የውሂብ መዋቅር [nodes](#node) እርስ በእርሳቸው በ [ጠርዞች](#edge) ተገናኝተዋል።
 
+- slug: gpu
+  ref:
+    - cpu
+  en:
+    term: "Graphics Processing Unit"
+    acronym: "GPU"
+    def: >
+      Specialized processor designed to run many instances of
+      a single program in parallel. Orginally designed for use
+      in graphics, but is also used for general computation in
+      the form of compute shaders.
+    
 - slug: group
   en:
     term: "group"
