@@ -8044,7 +8044,18 @@
       typically so that programs can be recompiled on the target computer when they
       are installed.
 
-
+- slug: spectral analysis 
+  ref:
+    - python
+    - data analysis
+    - bayesian inference 
+    - bayesian statistics
+  en:
+    term: "spectral analysis/ spectrum analysis problem"
+    def: >
+      From a finite record of a stationary data sequence, estimate how
+      the total power is distributed over frequency.
+      
 - slug: sprint
   en:
     term: "sprint"
