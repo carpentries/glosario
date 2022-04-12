@@ -6578,7 +6578,6 @@
     - tidy data
   en:
     term: "OpenRefine"
-    acronym: 
     def: >
      A standalone, open source desktop application for data cleanup and transformations, also know as data wrangling.
 
