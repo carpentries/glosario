@@ -5832,8 +5832,8 @@
       typically so that programs can be recompiled on the target computer when they
       are installed.
 
-slug: spectral analysis 
-ref:
+- slug: spectral analysis 
+  ref:
     - python
     - data analysis
     - bayesian inference 
