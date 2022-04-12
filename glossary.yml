@@ -3510,6 +3510,16 @@
       A text editor that is popular among Unix programmers.
 
 
+- slug: email
+  en:
+    term: "Electronic mail"
+    acronym: "email"
+    def: >
+      Electronic mail is a method for delivering messages between people over a computer network.
+      Messages are sent via an [SMTP](#smtp) server and retrieved using either an [IMAP](#imap) or
+      [POP](#pop) server.
+
+
 - slug: empty_element
   en:
     term: "empty element"
@@ -4835,11 +4845,21 @@
       usualmente tiene un editor incorporado, una consola que ejecuta el código
       inmediatamente y navegadores para explorar estructuras de datos en la memoria y
       archivos en el disco.
-
   am:
     term: የተቀናጀ የልማት አካባቢ
     def: >
       ፕሮግራም ሰሪዎች ሶፍትዌሮችን እንዲያዳብሩ የሚያግዝ መተግበሪያ ፡፡ መታወቂያዎች በተለምዶ ሀ አብሮገነብ አርታዒ ፣ ኮዱን ወዲያውኑ ለማስፈፀም [ኮንሶል](#console) እና አሳሾች ለ በማስታወሻ ውስጥ እና በዲስክ ላይ ባሉ ፋይሎች ውስጥ የውሂብ መዋቅሮችን ማሰስ ፡፡
+
+- slug: imap
+  ref:
+    - pop
+    - smtp
+  en:
+    term: "Internet Message Access Protocol"
+    acronym: "IMAP"
+    def: >
+      A standard internet protocol used by email clients to retrieve messages from an email server.
+      Messages are left on the server so that they can be accessed from multiple email clients.
 
 - slug: immutable_type
   en:
@@ -4847,7 +4867,6 @@
     def: >
       Immutable is when no change is possible over time.
       An object of this type can not be changed and its state can not be modified after it is created.
-
 
 - slug: import
   en:
@@ -6870,6 +6889,19 @@
       Probability distribution summarizing the [prior distribution](#prior_distribution) and the likelihood function.
 
 
+- slug: pop
+  ref:
+    - imap
+    - smtp
+  en:
+    term: "Post Office Protocol"
+    acronym: "POP"
+    def: >
+      A standard internet protocol used by email clients to retrieve messages from an email server.
+      Messages are generally downloaded and deleted from the server, making it difficult to access
+      messages from multiple email clients. POP3 (version 3) is the version of POP in common use.
+
+
 - slug: pothole_case
   ref:
     - camel_case
@@ -7956,6 +7988,30 @@
       example `https://www.mysite.com/category/post-name`, the slug is `post-name`.
 
 
+- slug: smtp
+  ref:
+    - smtps
+    - imap
+    - pop
+  en:
+    term: "Simple Mail Transfer Protocol"
+    acronym: "SMTP"
+    def: >
+      A standard internet communication protocol for transmitting [email](#email).
+
+
+- slug: smtps
+  ref:
+    - smtp
+    - imap
+    - pop
+  en:
+    term: "Simple Mail Transfer Protocol Secure"
+    acronym: "SMTPS"
+    def: >
+      A method for securing [SMTP](#smtp) using [TLS](#tls).
+
+
 - slug: snake_case
   ref:
     - camel_case
@@ -8465,6 +8521,14 @@
     def: >
       A digital identifier showing the time at which something was created or
       accessed. Timestamps should use [ISO date format](#iso_date_format) for portability.
+
+
+- slug: tls
+  en:
+    term: "Transport Layer Security"
+    acronym: "TLS"
+    def: >
+      A cryptographic protocol for securing communications over a computer network.
 
 
 - slug: tolerance
