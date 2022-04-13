@@ -6573,6 +6573,14 @@
     def: >
      'n Generiese term om wetenskaplike sagteware, data en publikasies toegangklik te maak.
 
+- slug: openrefine
+  ref:
+    - tidy data
+  en:
+    term: "OpenRefine"
+    def: >
+     A standalone, open source desktop application for data cleanup and transformations, also know as data wrangling.
+
 
 - slug: operating_system
   en:
