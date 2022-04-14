@@ -5234,6 +5234,17 @@
     def: >
       ፕሮጀክት ጁፒተር ከ ‹አይፒን› ፕሮጀክት የተወለደው ለትርፍ ያልተቋቋመ ፣ ክፍት ምንጭ ፕሮጀክት ነው እ.ኤ.አ በ 2014 አይፒንቶን በይነተገናኝ [ዳታ ሳይንስ](#data_science) እና ሳይንሳዊን ለመደገፍ እንደተሻሻለ በበርካታ የተለያዩ የፕሮግራም ቋንቋዎች ማስላት።
 
+- slug: jupyterlab
+  ref:
+    - jupyter
+    - jupyter_notebook
+  en:
+    term: "JupyterLab"
+    def: >
+      JupyterLab is a next-generation interface to [Jupyter Notebooks](#jupyter_notebook).
+      JupyterLab is open-source, web-based and has a multiple-document interface which supports working with multiple notebooks and [Markdown](#markdown) files in a single browser tab.
+      JupyterLab also supports opening terminal/[console](#console) windows in the browser.
+
 - slug: jupyter_notebook
   ref:
     - jupyter
