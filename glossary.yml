@@ -1386,6 +1386,11 @@
     term: "Data kubwa"
     def: >
       Data inahitaji kutumikwa kwa kichakato kizito.
+  zn:
+    term: "Idatha Enkulu"
+    def: >
+      Noma iyiphi idatha kuze kube kamuva nje ibinkulu kakhulu ukuthi abantu abaningi basebenze ngayo kukhompuyutha eyodwa..
+  
 
 
 - slug: binary
