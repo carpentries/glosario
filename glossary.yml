@@ -1135,6 +1135,15 @@
     def: >
       ተጠቃሚው የ TAB ቁልፍን በመጫን በፍጥነት በአጠቃቀሙ አንድ ቃል ወይም ኮድ  እንዲጨርስ ተጠቃሚው ሊመርጥበት የሚያስችል ባህሪ ነዉ;;
 
+- slug: autocorrelation
+  en:
+    term: "autocorrelation"
+    def: >
+      The degree of similarity between observations in the same series but separated by a time interval 
+      (known as the "lag"). Autocorrelation analysis can be used to gain insight into time series 
+      datasets by detecting repeating patterns that may be partially concealed by random noise, among 
+      other uses.
+
 - slug: automatic_variable
   ref:
     - makefile
