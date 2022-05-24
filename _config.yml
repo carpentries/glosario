@@ -124,6 +124,19 @@ languages:
       dove possono trovare tali informazioni. 
       Gli autori possono anche usare le funzioni della libreria per inserire collegamenti ipertestuali
       ai termini e alle definizioni nella lezione in una qualsiasi tra le diverse lingue.
+  - key: hr
+    name: Hrvatski
+    title: Rječnik
+    blurb: >
+       `glosario` je rječnik otvorenog koda ("open source") koji se koristi u podatkovnoj znanosti ("data science"), 
+       a koji je dostupan online i kao korisnički paket u jezicima
+       [R](https://github.com/carpentries/glosario-r/) i
+       [Python](https://github.com/carpentries/glosario-py/). Dodavanjem pojmova iz rječnika
+       u metapodatake lekcija, autori mogu naznačiti što lekcija podučava,
+       što bi učenici trebali znati prije nego što počnu i gdje mogu ići pronaći
+       to znanje. Autori također mogu koristiti funkcije rječnika za umetanje
+       dosljedne hiperveze za pojmove i definicije u svojim lekcijama na bilo kojem od
+       nekoliko jezika.
   - key: ko
     name: 한국어
     title: 용어 사전
