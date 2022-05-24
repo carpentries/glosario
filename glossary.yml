@@ -9,7 +9,7 @@
     def: >
       Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
 
-- slug: 68_95_997_rule
+- slug: 68_95_997_rulef
   de:
     term: "68-95-99.7 Regel"
     def: >
@@ -2296,17 +2296,28 @@
     term: የማሰብ ችሎታ ጭነት
     def: >
       አንድ አይነት ስራዎችን ለማከናወን የሚያስፈልገው የስራ ትውስታ መጠን.
+      
+  la:
+    term: "limites memoriae"
+    def: > 
+      Haec est quanta memoria homo utitur in perficiendo munere.
+
 
 - slug: command
   en:
     term: "command"
     def: >
       An instruction telling a computer program to perform a specific task.
+      
 
   am:
     term: ትዕዛዝ
     def: >
       አንድ የኮምፒውተር ፕሮግራም አንድ የተወሰነ ሥራን እንዲሠራ የሚነግረው መመሪያ።
+      
+ la:
+  term: "iussum"
+  def: > ordo vel edictum
 
 - slug: command_history
   en:
@@ -6703,6 +6714,8 @@
     def: >
       配布や再利用が可能なコード、データおよびソフトウェアドキュメンテーションの集合体。
       プログラミング言語によっては、「[ライブラリー](#library)」や「[モジュール](#module)」と呼ぶこともある。
+      
+  
 
 
 - slug: package_manager
