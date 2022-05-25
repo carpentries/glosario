@@ -4476,7 +4476,7 @@
     term: "전역 변수"
     def: >
       소스 코드 상의 모든 곳에서 접근할 수 있는 변수.
- hr:
+  hr:
     term: "globalna varijabla"
     def: >
       Varijabla definirana izvan bilo koje određene funkcije, koja je stoga vidljiva svim funkcijama.
