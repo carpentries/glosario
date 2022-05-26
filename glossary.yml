@@ -7882,8 +7882,11 @@
     term: "saadjie"
     def: >
       'n Waarde wat gebruik word om 'n [pseudolukrakenommergenereerder](#prng) te begin.
+  es:
+    term: "semilla"
+    def: >
+      Un valor utilizado para inicializar un [generador de números pseudoaleatorios](#prng).
       
-
 - slug: select
   en:
     term: "select"
