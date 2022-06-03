@@ -3781,6 +3781,10 @@
     term: "false negative"
     def: >
       Data points which are actually [true](#true) but incorrectly predicted as [false](#false).
+  pt:
+    term: "falso negativo"
+    def: >
+      Dados ou resultados que na realidade são [verdadeiro](#true) mas que são incorretamente considerados ou determinados como [falso](#false) pelo algoritmo.
 
 
 - slug: false_positive
@@ -3794,6 +3798,10 @@
     term: "false positive"
     def: >
       Data points which are actually [false](#false) but incorrectly predicted as [true](#true).
+  pt:
+    term: "falso positivo"
+    def: >
+      Dados ou resultados que na realidade são [falso](#false) mas que são incorretamente considerados ou determinados como [verdadeiro](#true) pelo algoritmo.
 
 
 - slug: falsy
