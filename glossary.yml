@@ -3821,6 +3821,15 @@
     def: >
       ስለ አንድ ርዕሰ ጉዳይ በተለምዶ የሚጠየቁ የተጠናቀሩ የጥያቄዎች ዝርዝር በመልሶች ::
 
+- slug: feature
+  en:
+    term: "Feature"
+    def: >
+      An individual characteristic or property of a phenomenon that is measurable 
+      (e.g. length, height, number of petals) and used as the input to a model.  
+      Finding or selecting features that are highly independent and discriminatory 
+      is a fundamental part of classification.
+      
 - slug: feature_branch
   ref:
     - master_branch
