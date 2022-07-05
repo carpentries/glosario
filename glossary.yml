@@ -5074,9 +5074,9 @@
     term: የውህደት ሙከራ
     def: >
       አንድ ሲስተም ሲስተም አካላት በትክክል መሥራታቸውን የሚያረጋግጥ ሙከራ።
-      
- - slug: interface
-   en:
+
+- slug: interface
+  en:
     term: "interface"
     def: >
       A ubiquitously used phrase in computing that describes a point of contact. This could be
