@@ -8832,7 +8832,7 @@
   en:
     term: "UNIX"
     def: >
-      UNIX is a family of [operating systems](#operating-system) developed during
+      UNIX is a family of [operating systems](#operating_system) developed during
       1969 at AT&T Bell Labs. Its main features are simple tools, well-defined functionality
       and being portable by nature.
 
