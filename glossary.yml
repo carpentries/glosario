@@ -628,6 +628,11 @@
       Αλγόριθμος είναι ένα σύνολο από βήματα ή κανόνες για τη διεκπεραίωση μιας συγκεκριμένης εργασίας.
       Στην πληροφορική, αλγόριθμος είναι ένα σύνολο από εντολές σε κάποιο πρόγραμμα οι οποίες επιλύουν κάποιο
       υπολογιστικό πρόβλημα.
+  it:
+    term: "algoritmo"
+    def: >
+      Un algoritmo è una sequenza finita di regole ed operazioni da eseguire al fine di realizzare un certo compito.
+      In informatica, un algoritmo è un insieme di istruzioni presenti in un programma che permette di risolvere un problema computazionale.
       
 - slug: algorithmic_bias
   ref:
@@ -7247,6 +7252,11 @@
     def: >
       Uma popular linguagem de programação interpretada, de código aberto,  que
       depende de indentação para definir a estrutura de controle.
+  it:
+    term: "Python"
+    def: >
+      Un linguaggio di programmazione open-source (pubblicamente accessibile), orientato a oggetti, interpretato (non necessita di compilazione) e 
+      che utlizza l'indentazione per definire le strutture di controllo.
 
 
 - slug: quantile
