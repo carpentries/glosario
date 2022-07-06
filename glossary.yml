@@ -5075,6 +5075,15 @@
     def: >
       አንድ ሲስተም ሲስተም አካላት በትክክል መሥራታቸውን የሚያረጋግጥ ሙከራ።
 
+- slug: interface
+  en:
+    term: "interface"
+    def: >
+      A ubiquitously used phrase in computing that describes a point of contact. This could be
+      a user interface (e.g. [graphical user interface](#gui) or [command line](#cli)), the 
+      interface of an [object](#object) with the rest of the [code](#source_code) or how a 
+      program can interact with web services through an [API](#api).
+
 - slug: interpreted_language
   en:
     term: "interpreted language"
