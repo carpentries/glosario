@@ -182,6 +182,6 @@ Project to African Languages. SADiLaR is a research infrastructure established b
 Department of Science and Innovation of the South African government as part of the
 South African Research Infrastructure Roadmap (SARIR).
 
-## Credits
+# Credits
 
 -   Parrot logo by [restocktheshelves](https://www.deviantart.com/restocktheshelves).
