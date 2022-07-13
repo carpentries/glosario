@@ -185,3 +185,7 @@ South African Research Infrastructure Roadmap (SARIR).
 ## Credits
 
 -   Parrot logo by [restocktheshelves](https://www.deviantart.com/restocktheshelves).
+
+## FAQ
+
+-   **Why not just link to Wikipedia?**
