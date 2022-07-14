@@ -9223,9 +9223,8 @@
     term: "workflow"
     def: >
       A way of describing work to be done as a set of tasks, typically with dependencies on
-      external inputs or the outputs of other tasks, which can be later be executed by a program.
-      An example is a Makefiles, which can be executed by the make Unix command.
-
+      external inputs or the outputs of other tasks, which can later be executed by a program.
+      An example is a Makefile which can be executed by the make Unix command.
 
 - slug: xml
   de:
