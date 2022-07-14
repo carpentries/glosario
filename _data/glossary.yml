@@ -9111,7 +9111,10 @@
     def: >
       A long-form guide used to provide details of a [package](#package) beyond the README.md or
       function documentation.
-
+  es:
+    term: "viñeta"
+    def: >
+      Una guía de formato extenso utilizada para proporcionar detalles de un [paquete](#package) más allá del README.md o de la documentación de una función.
 
 - slug: vim
   en:
