@@ -5485,6 +5485,10 @@
     term: ቤተ መጻሕፍት
     def: >
       እንደገና ጥቅም ላይ ሊውል የሚችል ሶፍትዌር [ጥቅል](#package) ፣ ብዙውን ጊዜ [ሞዱል](#module) ተብሎም ይጠራል።
+  de:
+    term: "Bibliothek"
+    def: >
+      Ein wiederverwendbares [Softwarepaket](#package), oft auch [Modul] (#module) genannt.
 
 - slug: license
   en:
@@ -5496,6 +5500,12 @@
     term: ፈቃድ
     def: >
       አንድ ነገር እንዴት ጥቅም ላይ እንደሚውል የሚገልጽ የሕግ ሰነድ ፣ እና በማን ፡፡
+      
+  de:
+    term: "Lizenz"
+    def: >
+      Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und von wem.
+      
 
 - slug: lifecycle
   en:
