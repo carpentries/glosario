@@ -1731,6 +1731,14 @@
       A place where web browsers keep copies of previously retrieved files (web pages, data files)
       in order to save time when they're requested again. Sometimes, issues may arise if there is
       a newer version of the file online, but the browser doesn't notice it.
+  de:
+    term: "Browser-Cache"
+    def: >
+      Ein [Puffer-Speicherort](#cache) auf dem Rechner des Benutzers, an dem der Webbrowser bereits
+      abgerufene Ressourcen wie z.B. Texte und Bilder als Kopie aufbewahrt. Dadurch können Zeit und
+      Netzwerkverkehr reduziert werden, wenn die Ressourcen erneut angefragt werden. Es kann durch
+      die Verwendung des Browser-Caches jedoch auch passieren, dass veraltete Informationen angezeigt
+      werden, wenn sich die Ressourcen in der Zwischenzeit geändert haben.
 
 - slug: bug
   en:
@@ -1891,6 +1899,14 @@
     term: መሸጎጫ
     def: >
       ለወደፊቱ የሚጠየቁ ጥያቄዎች በበለጠ ፍጥነት እንዲረካ  የውሂብ ቅጅዎችን የሚያከማች ነገር :: በኮምፒተር ውስጥ ያለው ሲፒዩ ለመያዝ የሃርድዌር መሸጎጫ ይጠቀማል በቅርብ ጊዜ የተደረሱ እሴቶች; ብዙ ፕሮግራሞች ለመቀነስ በሶፍትዌር መሸጎጫ ላይ ይተማመናሉ የኔትወርክ ትራፊክ እና መዘግየት። በመሸጎጫ ውስጥ አንድ ነገር ጊዜው ያለፈበት መሆኑን ማወቅ መተካት ያለበት ከ [በኮምፒተር ሳይንስ ውስጥ ሁለት ከባድ ችግሮች] አንዱ ነው (#two_hard_problems) ፡፡
+  de:
+    term: "Cache"
+    def: >
+      Cache ist ein Pufferspeicher, der (wiederholte) Datenzugriffe und -berechnungen
+      zu vermeiden hilft. Im Cache abgelegte Daten können schneller abgerufen werden.
+      Ein Hardware-Cache wird beispielsweise in Computerprozessoren verwendet und ein
+      Beispiel für einen Software-Cache ist der [Browser-Cache](#browser_cache).
+
 
 - slug: caching
   en:
