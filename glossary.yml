@@ -8899,7 +8899,7 @@
   de:
     term: "while Schleife"
     def: >
-      Eine Kontrollstruktur, die Anweisungs-Block oder [Schleifenkörper](#loop_body) wiederholt,
+      Eine Anweisung, die einen Anweisungs-Block oder [Schleifenkörper](#loop_body) wiederholt,
       solange die Schleifenbedingung als Laufbedingung gültig oder [wahr](#true) bleibt.
 
 
