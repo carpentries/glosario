@@ -1136,8 +1136,7 @@
       ተጠቃሚው የ TAB ቁልፍን በመጫን በፍጥነት በአጠቃቀሙ አንድ ቃል ወይም ኮድ  እንዲጨርስ ተጠቃሚው ሊመርጥበት የሚያስችል ባህሪ ነዉ;;
   
   es:
-
-	term: "auto-completar"
+    term: "auto-completar"
     def: >
      Funcionalidad que le permite a una persona usuaria terminar una palabra o código rapidamente 
      pulsando la tecla TAB para que aparezca una lista de posibles palabras o códigos entre los que 
