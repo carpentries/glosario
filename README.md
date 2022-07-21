@@ -10,6 +10,10 @@ Authors can also use the library's functions
 to insert consistent hyperlinks for terms and definitions in their lessons
 in any of several (human) languages.
 
+## Contributing
+
+You do not need to know any particular programming language to contribute to Glosario: anyone possessing a basic familiarity with the GitHub web interface can get involved! We have prepared a [detailed and accessible guide for contributing](https://docs.google.com/document/d/18gTFR1Pw2Mk3PeNTMS0IHgFnJy-F4PBCGJQ1aMrDHPE/edit?usp=sharing), which has been translated into several languages. Contributions are welcome in any language, not only those represented in that document. If you need help with your contribution, feel free to come ask questions on the [#glosario](https://swcarpentry.slack.com/archives/C01G4HYGAQ6) Slack channel (if you are not a member of The Carpentries Slack you can join by filling [this form](https://swc-slack-invite.herokuapp.com/)).
+
 ## Lessons
 
 R Markdown and Jupyter notebooks allow authors to place structured metadata in files.
