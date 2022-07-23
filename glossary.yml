@@ -603,7 +603,7 @@
   es:
     term: "algoritmo"
     def: >
-      Un algortimo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
+      Un algoritmo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
       En informática, un algoritmo es un conjunto de instrucciones en un programa informático que resuelve un problema computacional.
   fr:
     term: "algorithme"
@@ -1134,6 +1134,13 @@
     term: ራስ-ማጠናቀቅ
     def: >
       ተጠቃሚው የ TAB ቁልፍን በመጫን በፍጥነት በአጠቃቀሙ አንድ ቃል ወይም ኮድ  እንዲጨርስ ተጠቃሚው ሊመርጥበት የሚያስችል ባህሪ ነዉ;;
+  
+  es:
+    term: "auto-completar"
+    def: >
+     Funcionalidad que le permite a una persona usuaria terminar una palabra o código rapidamente 
+     pulsando la tecla TAB para que aparezca una lista de posibles palabras o códigos entre los que 
+     el usuario puede seleccionar la función que necesite.  
 
 - slug: autocorrelation
   en:
@@ -1731,6 +1738,14 @@
       A place where web browsers keep copies of previously retrieved files (web pages, data files)
       in order to save time when they're requested again. Sometimes, issues may arise if there is
       a newer version of the file online, but the browser doesn't notice it.
+  de:
+    term: "Browser-Cache"
+    def: >
+      Ein [Puffer-Speicherort](#cache) auf dem Rechner des Benutzers, an dem der Webbrowser bereits
+      abgerufene Ressourcen wie z.B. Texte und Bilder als Kopie aufbewahrt. Dadurch können Zeit und
+      Netzwerkverkehr reduziert werden, wenn die Ressourcen erneut angefragt werden. Es kann durch
+      die Verwendung des Browser-Caches jedoch auch passieren, dass veraltete Informationen angezeigt
+      werden, wenn sich die Ressourcen in der Zwischenzeit geändert haben.
 
 - slug: bug
   en:
@@ -1891,6 +1906,14 @@
     term: መሸጎጫ
     def: >
       ለወደፊቱ የሚጠየቁ ጥያቄዎች በበለጠ ፍጥነት እንዲረካ  የውሂብ ቅጅዎችን የሚያከማች ነገር :: በኮምፒተር ውስጥ ያለው ሲፒዩ ለመያዝ የሃርድዌር መሸጎጫ ይጠቀማል በቅርብ ጊዜ የተደረሱ እሴቶች; ብዙ ፕሮግራሞች ለመቀነስ በሶፍትዌር መሸጎጫ ላይ ይተማመናሉ የኔትወርክ ትራፊክ እና መዘግየት። በመሸጎጫ ውስጥ አንድ ነገር ጊዜው ያለፈበት መሆኑን ማወቅ መተካት ያለበት ከ [በኮምፒተር ሳይንስ ውስጥ ሁለት ከባድ ችግሮች] አንዱ ነው (#two_hard_problems) ፡፡
+  de:
+    term: "Cache"
+    def: >
+      Cache ist ein Pufferspeicher, der (wiederholte) Datenzugriffe und -berechnungen
+      zu vermeiden hilft. Im Cache abgelegte Daten können schneller abgerufen werden.
+      Ein Hardware-Cache wird beispielsweise in Computerprozessoren verwendet und ein
+      Beispiel für einen Software-Cache ist der [Browser-Cache](#browser_cache).
+
 
 - slug: caching
   en:
@@ -5485,6 +5508,10 @@
     term: ቤተ መጻሕፍት
     def: >
       እንደገና ጥቅም ላይ ሊውል የሚችል ሶፍትዌር [ጥቅል](#package) ፣ ብዙውን ጊዜ [ሞዱል](#module) ተብሎም ይጠራል።
+  de:
+    term: "Bibliothek"
+    def: >
+      Ein wiederverwendbares [Softwarepaket](#package), oft auch [Modul] (#module) genannt.
 
 - slug: license
   en:
@@ -5496,6 +5523,12 @@
     term: ፈቃድ
     def: >
       አንድ ነገር እንዴት ጥቅም ላይ እንደሚውል የሚገልጽ የሕግ ሰነድ ፣ እና በማን ፡፡
+      
+  de:
+    term: "Lizenz"
+    def: >
+      Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und von wem.
+      
 
 - slug: lifecycle
   en:
@@ -5808,11 +5841,20 @@
     term: "loop body"
     def: >
       The statement or statements executed by a loop.
-
   am:
     term: የሉፍ አካል
     def: >
       በሉፕ የተተገበረው መግለጫ ወይም መግለጫዎች።
+      
+- slug: lsof
+  en:
+    term: "lsof"
+    def: >
+      UNIX command to see the list of open files being used by [processes](#process). 
+  es:
+    term: "lsof"
+    def: >
+      Comando en UNIX para ver la lista de archivos abiertos siendo utilizados por [procesos](#process).
 
 - slug: machine_learning
   en:
@@ -7900,8 +7942,11 @@
     term: "saadjie"
     def: >
       'n Waarde wat gebruik word om 'n [pseudolukrakenommergenereerder](#prng) te begin.
+  es:
+    term: "semilla"
+    def: >
+      Un valor utilizado para inicializar un [generador de números pseudoaleatorios](#prng).
       
-
 - slug: select
   en:
     term: "select"
@@ -9082,7 +9127,10 @@
     def: >
       A long-form guide used to provide details of a [package](#package) beyond the README.md or
       function documentation.
-
+  es:
+    term: "viñeta"
+    def: >
+      Una guía de formato extenso utilizada para proporcionar detalles de un [paquete](#package) más allá del README.md o de la documentación de una función.
 
 - slug: vim
   en:
@@ -9197,9 +9245,8 @@
     term: "workflow"
     def: >
       A way of describing work to be done as a set of tasks, typically with dependencies on
-      external inputs or the outputs of other tasks, which can be later be executed by a program.
-      An example is a Makefiles, which can be executed by the make Unix command.
-
+      external inputs or the outputs of other tasks, which can later be executed by a program.
+      An example is a Makefile which can be executed by the make Unix command.
 
 - slug: xml
   de:
