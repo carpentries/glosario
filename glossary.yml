@@ -545,6 +545,10 @@
     def: >
       Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst,
       beispielsweise in einer Summe oder dem Maximalwert.
+  tn:
+    term: "Bokao/Tiriso ya ditlhopha"
+    def: >
+      Ke boranyane jwa boleng jo khompiutara/sebalamakgolo e bo balang ka go dirisa dipalo go tsentswe le kitso ya tlhomamo.
 
 - slug: agile
   en:
@@ -664,6 +668,10 @@
       Aliasing bezeichnet die Überlappung mehrerer Deskriptoren, also z.B.
       Speicheradressen (Zeiger) oder Referenzen, die den selben Ort für ein
       Objekt, beispielsweise eine Datenstruktur, beschreiben.
+  tn:
+    term: "Melawana_tiriso"
+    def: >
+      Melawana e e salwang morago ke khompiutara/sebalamakgolo go rarabolola dikgwetlho tse di amang tiriso ya tse di mo boranyaneng.
 
 
 - slug: anchor
@@ -1099,6 +1107,10 @@
     def: >
       Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk menyimpan metadata tentang
       suatu objek seperti dimensi dari array.
+  tn:
+    term: "Tlhaloso_boleng jwa dilo/diteng"
+    def: >
+      Tlhaloso ya mokgwa kana tsela ya mabeelo a kitso ka e nngwe,go lebeletswe   popego ya kitso eo.
   am:
     term: አይነታ
     def: >-
@@ -1397,6 +1409,13 @@
   af:
     term: "Groot Data"
     def: >
+      Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te
+      analiseer.
+  tn:
+    term: "kitso_ kgolo"
+    def: >
+      Tsamaiso e e tlhatlhobang kana e kanoka mekgwa ya ka fa kitso e ka ntshiwang ka teng.
+      Tsamaiso e,e ama go kanokowa ga kitso e ntsi e e mo ditlhopheng mme e bile go se motlhofo gore e ka kanokiwa ka tsamaiso e e tlwaelesegileng.
       Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te analiseer.
   am:
     term: ትልቅ መረጃ
@@ -1410,8 +1429,6 @@
     term: "Idatha Enkulu"
     def: >
       Noma iyiphi idatha kuze kube kamuva nje ibinkulu kakhulu ukuthi abantu abaningi basebenze ngayo kukhompuyutha eyodwa.
-  
-
 
 - slug: binary
   en:
@@ -1461,6 +1478,10 @@
     term: "expressão binária"
     def: >
       Uma expressão com dois argumentos ou parâmetros, como `1 + 2`, por exemplo.
+  tn:
+    term: "Tlhaloso ka go tlhakanya dilo tse pedi."
+    def: >
+      Ke tlhaloso e e supagalang mo diemong tse pedi.sekai...go ka tlhakanngwa bongwe le bobedi.
 
   am:
     term: ሁለትዮሽ አገላለጽ
@@ -1525,7 +1546,10 @@
     def: >
       Sebuah unit informasi yang merepresentasikan beberapa alternatif, ya/tidak, (true)[#true]/(false)[#false]. 
       Di dalam komputasi, bit adalah 0 atau 1.
-
+  tn:
+    term: "Kitso_ potlana"
+    def: >
+      Ke selekanyo sa kitso e nnye kana e e kwa tlase. Selekanyo se sa kitso, se ka emelwa ke lefela kana bongwe.
   am:
     term: ቢት
     def: >
@@ -1550,7 +1574,10 @@
       an audio file. The term is also now used to refer to data transferred over a
       network or stored in a [version control](#version_control_system)
       [repository](#repository) as uninterpreted bits.
-
+  tn:
+    term: "Selekanyo sa kitso e e mo sedirisiweng se segolo"
+    def: >
+      Ke kitso e e beilweng e le mo seemong kana sedirisiweng se setona mo lefelong le le lengwe fela.
 
 - slug: block_comment
   en:
@@ -1761,7 +1788,10 @@
     term: "Bug"
     def: >-
       Ein Bug ist ein Fehler oder Fehlfunktion einer Software.
-
+  tn:
+    term: "Mogare o o borai mo boranyaneng"
+    def: >-
+      Sengwe se se sa siamang, se le borai mo khompiutareng/sebalamakgolo. Se ka ama khompiutara/ sebalamakgolo le kitso e e mo go yone.
   am:
     term: ሳንካ
     def: >
@@ -1884,12 +1914,20 @@
     def: >-
       Ein Byte ist eine digitale Einheit, die aus acht Binärziffern oder Bits
       besteht.
+  tn:
+    term: "Selekanyetso_ kitso ya boranyane"
+    def: >-
+      Selekanyetso sa kitso ya boranyane se se agiwang ka kitso ya dipalo tse di ferang bobedi.
 
 - slug: byte_code
   en:
     term: "byte code"
     def: >
       A set of instructions designed to be executed efficiently by an [interpreter](#interpreter).
+  tn:
+    term: "Setlhopha sa melawana"
+    def: >
+      Melawana e e kaetsweng ka sekao e le mo setlhopheng go ka ntshiwa ke moranodi ka tolamo.
 
   am:
     term: ባይት ኮድ
