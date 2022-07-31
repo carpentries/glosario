@@ -545,7 +545,7 @@
     def: >
       Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst,
       beispielsweise in einer Summe oder dem Maximalwert.
-tn:
+  tn:
     term: "Bokao/Tiriso ya ditlhopha"
     def: >
       Ke boranyane jwa boleng jo khompiutara/sebalamakgolo e bo balang ka go dirisa dipalo go tsentswe le kitso ya tlhomamo.
@@ -668,7 +668,7 @@ tn:
       Aliasing bezeichnet die Überlappung mehrerer Deskriptoren, also z.B.
       Speicheradressen (Zeiger) oder Referenzen, die den selben Ort für ein
       Objekt, beispielsweise eine Datenstruktur, beschreiben.
-   tn:
+  tn:
     term: "Melawana_tiriso"
     def: >
       Melawana e e salwang morago ke khompiutara/sebalamakgolo go rarabolola dikgwetlho tse di amang tiriso ya tse di mo boranyaneng.
@@ -1478,9 +1478,9 @@ tn:
     term: "expressão binária"
     def: >
       Uma expressão com dois argumentos ou parâmetros, como `1 + 2`, por exemplo.
-   tn:
+  tn:
     term: "Tlhaloso ka go tlhakanya dilo tse pedi."
-     def: >
+    def: >
       Ke tlhaloso e e supagalang mo diemong tse pedi.sekai...go ka tlhakanngwa bongwe le bobedi.
 
   am:
@@ -1914,7 +1914,7 @@ tn:
     def: >-
       Ein Byte ist eine digitale Einheit, die aus acht Binärziffern oder Bits
       besteht.
-   tn:
+  tn:
     term: "Selekanyetso_ kitso ya boranyane"
     def: >-
       Selekanyetso sa kitso ya boranyane se se agiwang ka kitso ya dipalo tse di ferang bobedi.
@@ -1924,7 +1924,7 @@ tn:
     term: "byte code"
     def: >
       A set of instructions designed to be executed efficiently by an [interpreter](#interpreter).
-   tn:
+  tn:
     term: "Setlhopha sa melawana"
     def: >
       Melawana e e kaetsweng ka sekao e le mo setlhopheng go ka ntshiwa ke moranodi ka tolamo.
