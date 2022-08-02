@@ -478,6 +478,10 @@
   am:
     term: አቅም
     def: "የአንድ ነገር ንብረት እንደ መያዣ ወይም አዝራር እንዴት መጠቀም እንደሚቻል የሚጠቁም \n"
+  fr:
+    term: "affordance"
+    def: >
+      La caractéristique d'un objet qui suggère à son utilisateur son mode d'usage ou autre pratique. 
 
 - slug: aggregation
   en:
