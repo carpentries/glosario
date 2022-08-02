@@ -1199,7 +1199,11 @@
       (known as the "lag"). Autocorrelation analysis can be used to gain insight into time series 
       datasets by detecting repeating patterns that may be partially concealed by random noise, among 
       other uses.
-
+  fr:
+    term: "autocorrélation"
+    def: >
+      Le degré de similarité entre les observations d'une même série mais séparées par un intervalle de temps (appelé « décalage »). L'analyse d'autocorrélation peut être utilisée pour mieux comprendre les ensembles de données de séries chronologiques en détectant des modèles répétitifs qui peuvent être partiellement masqués par un bruit aléatoire.
+      
 - slug: automatic_variable
   ref:
     - makefile
