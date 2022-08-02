@@ -816,7 +816,11 @@
   am:
     term: ፀረ መቀላቀል
     def: "በረድፎች ሠንጠረዥ ሀን ከሠንጠረዥ ለ እንዳይቀላቀሉ የሚያግዱ (#join) ቁልፎች  *ቁልፎች* \n"
-
+  fr:
+    term: "anti join"
+    def: >
+      Une jointure qui conserve les lignes de la table A dont les clés ne correspondent pas aux clés de la table B.
+      
 - slug: api
   en:
     term: "Application Programming Interface"
