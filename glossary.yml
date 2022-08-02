@@ -455,7 +455,12 @@
       El valor generado ejecutando el código en una prueba. Si coincide con el 
       [resultado esperado] (#expected_result), la prueba [pasa] (#pass_test); 
       si son diferentes, la prueba [falla] (#fail_test).
-
+  fr:
+    term: "résultat réel (du test)"
+    def: >
+      Valeur générée par l'exécution de code dans une phase de test.
+      Si cela correspond au résultat attendu, le test réussit; si les deux sont différents, le test échoue.
+      
 - slug: affordance
   en:
     term: "affordance"
