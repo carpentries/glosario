@@ -695,7 +695,10 @@
     term: "Melawana_tiriso"
     def: >
       Melawana e e salwang morago ke khompiutara/sebalamakgolo go rarabolola dikgwetlho tse di amang tiriso ya tse di mo boranyaneng.
-
+  fr:
+    term: "aliasing"
+    def: >
+      Le fait d'avoir deux ou plusieurs références au même objet, comme par exemple une structure de données en mémoire ou un fichier sur disque.
 
 - slug: anchor
   en:
