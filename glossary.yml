@@ -1475,7 +1475,11 @@
     term: "Idatha Enkulu"
     def: >
       Noma iyiphi idatha kuze kube kamuva nje ibinkulu kakhulu ukuthi abantu abaningi basebenze ngayo kukhompuyutha eyodwa.
-
+  fr:
+    term: "big data"
+    def: >
+      Toutes les données qui, jusqu'à récemment, étaient trop volumineuses pour que la plupart des gens puissent les utiliser sur un seul ordinateur.
+      
 - slug: binary
   en:
     term: "binary"
