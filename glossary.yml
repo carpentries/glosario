@@ -602,7 +602,11 @@
       selbstorganisierter Teams ein Program entwickelt wird. Im Gegensatz dazu
       stehen klassische Ansätze die häufig aufwändiger Planung bedürfen.
       [Explorative Programmierung](#exploratory_programming) ist oft agil.
-
+  fr:
+    term: "développement agile"
+    def: >
+      Une méthodologie de développement logiciel qui met l'accent sur de nombreuses petites étapes et une rétroaction continue au lieu d'une planification initiale et d'une planification à long terme. 
+      La programmation exploratoire est souvent agile.
 
 - slug: algorithm
   en:
