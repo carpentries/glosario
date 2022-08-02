@@ -294,6 +294,11 @@
     term: ፍጹም ረድፍ ቁጥር
     def: የትኞቹም ክፍሎች ቢኖሩ በሠንጠረዥ ውስጥ የአንድ ረድፍ ቅደም ተከተል ማውጫ ጠረጴዛ እየታየ ነው ፡፡
 
+  pt:
+    term: "numéro de ligne absolu"
+    def: >
+      L'index séquentiel d'une ligne dans une table, quelles que soient les sections de la table affichées.
+      
 - slug: abstract_method
   de:
     term: "Abstrakte Methode"
