@@ -1324,12 +1324,15 @@
       pueden encontrarse en `src/library` y no son actualizados fuera de R; su número de versión
       coincide con el de R. Los paquetes de R base se instalan y cargan junto con R, mientras que los
       paquetes prioritarios se instalan con R, pero deben ser cargados antes de utilizarse.
-
   am:
     term: ቤዝ አር
     def: >
       የ [R](#r_language) ቋንቋን የመሠረቱ መሠረታዊ ተግባራት። የመሠረት እሽጎች በ ውስጥ ሊገኙ ይችላሉ "src / library" እና ከ R ውጭ አይዘመኑም; የእነሱ ስሪት ቁጥሮች አር የስሪት ቁጥር። የመሠረት ፓኬጆች ተጭነው በ R ተጭነዋል ፣ ቅድሚያ የሚሰጠው ግን ፓኬጆች ከመሠረታዊ አር ጋር ተጭነዋል ነገር ግን ከመጠቀምዎ በፊት መጫን አለባቸው ፡፡ የ [R](#r_language) ቋንቋን የመሠረቱ መሠረታዊ ተግባራት። የመሠረት እሽጎች በ "src/library" ውስጥ ሊገኙ ይችላሉ እና ከ R ውጭ አይሻሻሉም; የእነሱ ስሪት ቁጥሮች የአር  ስሪት ቁጥርን ይከተላሉ።  መሠረት ፓኬጆች ጋር ከR ተጭነዉ ይዘረጋሉ፣ ቅድሚያ የሚሰጠው ግን ፓኬጆች ከመሠረታዊ አር ጋር ተጭነዋል ነገር ግን ከመጠቀም በፊት መጫን አለባቸው ፡፡
-
+  fr:
+    term: "base R"
+    def: >
+      Les fonctions de base composant le langage R. Les packages de base peuvent être trouvés dans src/library et ne sont pas mis à jour en dehors de R; leurs numéros de version suivent la numérotation des versions R. Les packages de base sont installés et chargés avec R, tandis que les packages prioritaires sont installés avec base R mais doivent être chargés avant utilisation.
+      
 - slug: bayes_rule
   en:
     term: "Bayes' Rule"
