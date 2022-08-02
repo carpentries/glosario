@@ -1241,14 +1241,17 @@
       Ein Algoritmus der die Gewichtung in einem [neuralen Netzwerk](#neural_network) iterativ anpasst.
       Die Rückwärtspropagierung ist ein Spezialfall eines [allgemeinen Gradientenverfahrens](#gradient_descent)
       in der Optimierung, basierend auf dem mittleren quadratischen Fehler.
-
   am:
     term: የጀርባ ማሰራጨት
     def: "በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው ስልተ ቀመር አውታረ መረብ](#neural_network)።
       የጀርባ ማሰራጨት ለመተግበር ብዙውን ጊዜ ጥቅም ላይ ይውላል [የግራዲያንት ዝርያ](#gradient_descent) ስልተ ቀመር
       አውታረ መረብ](#ነርቭ_አውታረ መረብ) በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው  የጀርባ
       ማሰራጨት ብዙውን ጊዜ  [የግራዲያንት ዝርያ](#gradient_descent) ለመተግበር ጥቅም ላይ ይውላል \n"
-
+  fr:
+    term: "backpropagation"
+    def: >
+     C'est un algorithme qui ajuste de manière itérative les pondérations utilisées dans un réseau de neurones. La rétropropagation est souvent utilisée pour implémenter la descente de gradient.
+      
 - slug: backward_compatible
   en:
     term: "backward-compatible"
