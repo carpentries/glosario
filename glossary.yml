@@ -1,6 +1,639 @@
 - slug: concatenate
   ref:
+    - aggregation- slug: concatenate
+  ref:
     - aggregation
+    - left_join
+    - right_join
+  en:
+    term: "Concatenate"
+    acronym: "concat"
+    def: >
+      Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
+
+- slug: 68_95_997_rule
+  de:
+    term: "68-95-99.7 Regel"
+    def: >
+      Drückt die Tatsache aus, dass 68% der Werte innerhalb einer
+      [Standardabweichung](#standard_deviation) vom Mittelwert liegen,
+      95% innerhalb von zwei und 99,7% innerhalb von drei. Umgekehrt
+      liegen etwa 0,3% der Werte in den meisten Fällen mehr als drei
+      Standardabweichungen über oder unterhalb des Mittelwerts.
+  en:
+    term: "68-95-99.7 rule"
+    def: >
+      Expresses the fact that 68% of values lie within one [standard
+      deviation](#standard_deviation) of the [mean](#mean), 95% lie within two, and
+      99.7% lie within three. Conversely, about 0.3% of values lie more than three
+      standard deviations above or below the mean in most cases.
+  id:
+    term: "Aturan 68-95-99.7"
+    def: >
+      Menyatakan fakta bahwa 68% berkisar di satu [standar deviasi](#standard_deviation)
+      dari mean(#mean), 95% berkisar di dua, dan 99.7% berkisar di tiga.
+      Sebaliknya, sekitar 0.3% berkisar lebih dari tiga standar deviasi
+      di atas atau di bawah mean dari kasus kebanyakan.
+  it:
+    term: "regola 68-95-99,7"
+    def: >
+      Esprime il fatto che il 68% dei valori si trova entro una [deviazione
+      standard](#standard_deviation) dalla [media](#mean), il 95% entro due deviazioni
+      standard e il 99,7% entro tre. Al contrario, circa lo 0,3% dei valori si trova oltre
+      tre deviazioni standard sopra o sotto la media.
+  af:
+    term: "68-95-99.7 reël"
+    def: >
+      Beskryf die beginsel dat 68% van alle waardes binne een
+      [standaardafwyking](#standard_deviation) van die [gemiddelde](#mean) val, 95%
+      val binne twee en 99.7% val binne drie standaardafwykings. Omgekeerd, in die
+      meeste gevalle val 0.3% van die waardes meer as drie standaardafwykings bo of
+      onder die gemiddelde.
+  es:
+    term: "regla 68-95-99.7"
+    def: >
+      Expresa el hecho de que el 68% de los valores se encuentran dentro de una
+      [desviación estándar](#standard_deviation) de la [media](#mean), el
+      95% está dentro de dos y el 99,7% está dentro de tres. Por el contrario,
+      aproximadamente el 0,3% de los valores se encuentran más de tres desviaciones
+      estándar por encima o por debajo de la media en la mayoría de los casos.
+  pt:
+    term: "regra 68-95-99,7"
+    def: >
+      Expressa o fato de que 68% dos valores estão dentro de um [desvio padrão](#standard_deviation)
+      da [média](#mean), 95% estão dentro de dois e 99,7% estão dentro de três. Inversamente,
+      aproximadamente 0,3% dos valores estão mais do que três desvios padrões acima ou abaixo da média
+      na maioria dos casos.
+  fr:
+    term: "règle de 68-95-99.7"
+    def: >
+      Exprime le fait que 68% des valeurs sont localisées à l'intérieur d'un (1)
+      [écart-type](#standard_deviation) de la [moyenne](#mean), 95% à l'intérieur de
+      deux (2) écarts-types, et 99,7% à l'intérieur de trois (3) écarts-types.
+      Inversement et dans la plupart des cas, environ 0.3% des valeurs
+      se situent à plus de 3 écarts-types au-dessus ou au-dessous de la moyenne.
+  ar:
+    term: "القاعدة ٩٩,٧-٩٥-٦٨"
+    def: >
+        يُعبِر عن حقيقة أن ٦٨٪ من القيم تقع ضمن وحدة واحدة من
+        [الانحراف المعياري](#standard_deviation)
+        من
+        [الوسط](#mean)
+        ، بينما ٩٥٪ تقع ضمن وحدتين،
+        و٩٩,٧٪ تقع ضمن ثلاث وحدات
+        بالمقابل ، حوالي ٠,٣ ٪  من القيم تقع  في أكثر من ثلاثة وحدات
+        من الانحرافات المعيارية أعلى أو أقل من المتوسط في معظم الحالات.
+
+  am:
+    term: 68-95-99.7 ደንብ
+    def: >
+      68% የሥነ-ምግባር እሴቶች በአንድ [መሥፈርት) ውስጥ እንደሚመደቡ ይገልፃሉ:: የ[ማለት](#mean)[standard deviation](#standard_deviation) 95% በሁለት ውስጥ ያርፋል፣ እና 99.7% በሶስት ውስጥ ያርፋል. በተቃራኒው ደግሞ 0.3% ገደማ የሚሆኑት እሴቶች ከሦስት በላይ ናቸው አብዛኛውን ጊዜ ከዚያ በላይ ወይም ከዚያ በታች ያሉደረጃዎች።
+
+- slug: abandonware
+  bn:
+    term: "বিসর্জনকৃত সফটওয়্যার"
+    def: >
+      যে সফটওয়্যার আর সক্রিয়ভাবে রক্ষনাবেক্ষন করা হচ্ছেনা।
+  de:
+    term: "Abandonware"
+    def: >
+      Software die nicht länger weiterentwickelt wird.
+  en:
+    term: "abandonware"
+    def: >
+      Software that is no longer being maintained.
+  id:
+    term: "abandonware"
+    def: >
+      Perangkat lunak yang sudah tidak dikelola.
+  pt:
+    term: "abandonware"
+    def: >
+      Software que não é mais mantido.
+  af:
+    term: "afgooiware"
+    def: >
+      Sagteware wat nie meer onderhou word nie.
+  es:
+    term: "abandonware"
+    def: >
+      Software cuyo mantenimiento ha sido abandonado.
+  fr:
+    term: "abandonware"
+    def: >
+      Un logiciel qui n'est plus maintenu.
+  ar:
+    term: "البرمجيات المهجورة أو المتروكة"
+    def: >-
+      هي البرامج التى لايتوفر لها دعم من أي برمجيات أُخرى
+       ولم تعد على قيد الصيانة.
+  am:
+    term: የተተወው ዌር
+    def: >
+      ከአሁን በኋላ እየተስተካከለ ያለው ዌር።
+
+- slug: absolute_error
+  de:
+    term: "Absoluter Fehler"
+    def: >
+      Der absolute Wert der Differenz zwischen dem beobachteten und
+      dem korrekten Wert. Der absolute Fehler ist normalerweise
+      weniger nützlich als der [relative Fehler](#relative_error).
+  en:
+    term: "absolute error"
+    def: >
+      The absolute value of the difference between the observed and the correct value.
+      Absolute error is usually less useful than [relative error](#relative_error).
+  id:
+    term: "kesalahan absolut"
+    def: >
+      Nilai absolut dari perbedaan nilai yang diobservasi dan nilai yang benar.
+      Kesalahan absolut seringkali tidak terlalu berguna daripada
+      [kesalahan relatif](#relative_error).
+  it:
+    term: "errore assoluto"
+    def: >
+      La differenza in valore assoluto tra il valore osservato e il valore corretto.
+      L'errore assoluto è in genere meno utile dell'[errore relativo](#relative_error).
+  es:
+    term: "error absoluto"
+    def: >
+      El valor absoluto de la diferencia entre el valor observado y el valor correcto.
+      El error absoluto suele ser menos útil que el [error relativo](#relative_error).
+  af:
+    term: "absolute fout"
+    def: >
+      Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
+      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as die
+      [relatiewe](#relative_error) fout.
+  pt:
+    term: "erro absoluto"
+    def: >
+      O valor absoluto da diferença entre um valor observado e o valor correto. O erro
+      absoluto é normalmente menos útil do que o [erro relativo](#relative_error).
+  fr:
+    term: "erreur absolue"
+    def: >
+      La valeur absolue de la différence entre la valeur observée et la valeur
+      correcte. L'erreur absolue est généralement moins pertinente que l'[erreur relative](#relative_error).
+  ar:
+    term: "الخطأ المُطلق"
+    def: >
+       هو عبارة عن القيمة المطلقة للفرق بين القيمة المرصودة والقيمة الواقعية الصحيحة،
+       مع العِلم أن
+       الخطأ المُطلق عادة مايكون أقل فائدة من
+       [الخطأ النسبي](#relative_error).
+  am:
+    term: ፍጹም ስህተት
+    def: >
+      በተመለከተው እና በትክክለኛው እሴት መካከል ያለው ልዩነት ፍጹም እሴት። ፍፁም ስህተት አብዛኛውን ጊዜ ከ [አንፃራዊ ስህተት](#relative_error) ያነሰ ጠቀሜታ አለው ፡፡
+  sw:
+    term: "ukubwa wa nambari ya ukosefu "
+    def: >
+      Ukubwa wa hesabu ya kutoa jibu umepata kutoka jibu sahihi. 
+      Dhani ingine kama hii, ni [uwiano wa ukosefu](#relative_error).
+
+- slug: absolute_path
+  ref:
+    - relative_path
+  en:
+    term: "absolute path"
+    def: >
+      A path that points to the same location in the [filesystem](#filesystem)
+      regardless of where it is evaluated. An absolute path is the equivalent of
+      latitude and longitude in geography.
+  id:
+    term: "path absolut"
+    def: >
+      Sebuah path yang menunjukkan lokasi dalam [filesystem](#filesystem) terlepas
+      dari lokasi program dijalanakn. Path absolut sama dengan garis lintang dan
+      garis bujur dalam geografi.
+  de:
+    term: "absoluter Pfad"
+    def: >
+      Der absolute Pfad zeigt auf die gleiche Position im [filesystem](#filesystem),
+      unabhängig davon, wo er ausgewertet wird. Der absolute Pfad entspricht in der
+      Geographie der Angabe von Längen- und Breitengrad.
+  af:
+    term: "absolute roete"
+    def: >
+      'n Roete wat dieselfde posisie in die [lêerstelsel](#filesystem) aandui ongeag
+      die posisie vanwaar dit geëvalueer word. Die absolute roete is die ekwivalent
+      van lengtegraad en breedtegraad in geografie.
+  fr:
+    term: "chemin d'accès absolu"
+    def: >
+      Un chemin d'accès absolu indique la même position dans le système de fichier
+      quel que soit l'emplacement où il est evalué. Un chemin d'accès absolu est
+      l'équivalent de la latitude et longitude en géographie.
+  es:
+    term: "ruta absoluta"
+    def: >
+      Una ruta que dirige a la misma ubicación en el sistema de archivos
+      independientemente del contexto donde sea evaluada. Una ruta absoluta es el
+      equivalente a la latitud y longitud en geografía.
+  pt:
+    term: "caminho absoluto"
+    def: >
+      Um caminho que leva ao mesmo local no sistema de arquivos independente do
+      contexto em que é avaliado. Um caminho absoluto pode ser comparado com a
+      latitude e longitude em geografia.
+  ar:
+    term: "المسار المُطلق"
+    def: >
+        المسار الذي يُشير إلى ذات الموقع في
+        [نظام الملفات](#filesystem)،
+        بغض النظر عن مكان تقييمها،
+        وللتبسيط يمكن أن يُقال أن
+        المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا.
+
+  am:
+    term: ፍጹም መንገድ
+    def: በ [የፋይል ስርዓት ውስጥ ወደ ተመሳሳይ ሥፍራ የሚጠቁም መንገድ የሚገመገምበት ቦታ ምንም ይሁን ምን ፡፡ ፍፁም ጎዳና
+      እኩል ነው ጂኦግራፊ ውስጥ ኬክሮስ እና ኬንትሮስ
+
+- slug: absolute_row_number
+  de:
+    term: "Absolute Zeilennummer"
+    def: >
+      Der sequentielle Index einer Zeile in einer Tabelle, unabhängig
+      davon, welche Abschnitte der Tabelle angezeigt werden.
+  en:
+    term: "absolute row number"
+    def: >
+      The sequential index of a row in a table, regardless of what sections of the
+      table is being displayed.
+  id:
+    term: "nomor baris absolut"
+    def: >
+      Indeks berurutan dari sebuah baris dalam tabel, terlepas dari bagian apa
+      dari tabel yang ditampilkan.
+  af:
+    term: "absolute rynommer"
+    def: >
+      Die opeenvolgende indeks van 'n ry in 'n tabel, ongeag die gedeelte van die
+      tabel wat vertoon word.
+  es:
+    term: "número de fila absoluto"
+    def: >
+      El índice secuencial que indentifica una fila en un tablero, sin importar qué
+      secciones se estén mostrando.
+  pt:
+    term: "número de linha absoluto"
+    def: >
+      O índice sequencial de uma linha em uma tabela, independente de qual seção da
+      tabela está sendo exibida.
+  he:
+    term: "מספר שורה מוחלט"
+    def: >
+      המספר הסידורי של שורה בטבלה, ללא קשר לאילו חלקים של הטבלה מוצגים
+  ar:
+    term: "رقم الصف المُطلق"
+    def: >
+        هو الفهرس المتسلسل لصف في جدول، بغض النظر عن أي قسم من اقسام الجدول يتم عرضها.
+
+  am:
+    term: ፍጹም ረድፍ ቁጥር
+    def: የትኞቹም ክፍሎች ቢኖሩ በሠንጠረዥ ውስጥ የአንድ ረድፍ ቅደም ተከተል ማውጫ ጠረጴዛ እየታየ ነው ፡፡
+
+- slug: abstract_method
+  de:
+    term: "Abstrakte Methode"
+    def: >
+      In der [objektorientierten Programmierung](#oop) eine
+      [Methode](#method), die zwar definiert, aber nicht implementiert
+      ist. Programmierer definieren eine abstrakte Methode in einer
+      [übergeordneten Klasse](#parent_class), um Operationen zu
+      spezifizieren, die die [untergeordneten Klassen](#child_class)
+      bereitstellen müssen.
+  en:
+    term: "abstract method"
+    def: >
+      In [object-oriented programming](#oop), a [method](#method) that is defined but
+      not implemented. Programmers will define an abstract method in a [parent
+      class](#parent_class) to specify operations that [child classes](#child_class)
+      must provide.
+  es:
+    term: "método abstrato"
+    def: >
+      En [programación orientada a objectos](#oop), es un [método](#method) definido pero no implementado.
+      Programadores definen un método abstracto en una [superclase](#parent_class) para especificar operaciones
+      que las [subclases](#child_class) deberán proveer.
+  id:
+    term: "metode abstrak"
+    def: >
+      Dalam [pemrograman berorientasi objek](#oop), sebuah [metode](#method)
+      yang didefinisikan tapi tidak diimplementasikan. Pemrogram akan mendefinisikan
+      metode abstrak dalam [parent class](#parent_class) untuk menspesifikasikan operasi
+      yang harus dimiliki oleh [child classes](#child_class).
+  af:
+    term: "abstrakte metode"
+    def: >
+      'n [Metode](#method), in [objekgeoriënteerde programmering](#oop), wat
+      gedefiniëer maar nie geïmplementeer is nie. Programmeerders sal 'n abstrakte
+      metode in 'n [voorsaatklas](#parent_class) definiëer wat in
+      [nasaatklasse](#child_class) geïmplementeer moet word.
+  pt:
+    term: "método abstrato"
+    def: >
+      In [programação orientada a objetos](#oop), um [método](#method) que é definido
+      mas não implementado. Pessoas programadoras definem um método abstrato em uma [classe base](#parent_class)
+      para especificar operações que as [classes derivadas](#child_class) devem prover.
+  ar:
+    term: "الطريقة المجردة"
+    def: >
+      الطريقة المجردة هو تعبير يُتخدم
+      في
+      [البرمجة الشيئية](#oop)
+      ،
+      هذه
+       [الطريقة](#method)
+      يتم تعريفها ولكن لم لايتم تنفيذها،
+      بمعنى آخر، المبرمجون يُعرِفون عادة طريقة مجردة في
+      [الفئه الرئيسية](#parent_class)
+      لتحديد العمليات التي يجب أن تقدمها
+      [الفئات الفرعية](#child_class).
+
+  am:
+    term: abstract method
+    def: "በ [ነገር-ተኮር መርሃግብር](#oop) ውስጥ አንድ [ዘዴ](#method) ተገልፇል ነገር ግን አልተተገበረም ፡፡
+      መርሃግብሮች [ወላጅ] ውስጥ ረቂቅ ዘዴን ይገልፃሉ ክፍል](#parent_class) [የህፃናት ክፍሎች](#child_class)
+      ማቅረብ አለበት ፡፡ \n"
+
+- slug: abstract_syntax_tree
+  en:
+    term: "abstract syntax tree"
+    acronym: "AST"
+    def: >
+      A deeply nested data structure, or [tree](#tree), that represents the structure
+      of a program. For example, the AST might have a [node](#node) representing a
+      [`while` loop](#while_loop) with one [child](#child_tree) representing the loop
+      condition and another representing the [loop body](#loop_body).
+  id:
+    term: "abstract syntax tree"
+    acronym: "AST"
+    def: >
+      Sebuah struktur data bersarang, atau [tree](#tree), yang merepresentasikan struktur
+      dari sebuah program. Sebagai contoh, AST bisa jadi memiliki sebuah (node)[#node]
+      merepresentasikan sebuah [`while` loop](#while_loop) degan sebuah [child](#child_tree)
+      merepresentasikan kondisi loop dan yang lain merepresentasikan [loop body](#loop_body).
+  af:
+    term: "abstrakte sintaksisontledingsboom"
+    def: >
+      'n Diepgeneste datastruktuur, of [boom](#tree), wat die struktuur van 'n program
+      verteenwoordig. Byvoorbeeld, as die abstrakte sintaksontledingsboom 'n
+      [nodus](#node) het wat 'n [`doen` terwyl-lus](#while_loop) verteenwoordig wat
+      met een [naasaatontledingsboom](#child_tree) die lustoestand verteenwoordig en
+      'n ander nasaatontledingsboom wat die [lusraam](#loop_body) verteenwoordig.
+
+  am:
+    term: ረቂቅ አገባብ ዛፍ
+    def: >
+      አወቃቀሩን የሚወክል በጥልቀት የተቀመጠ የውሂብ መዋቅር ወይም [ዛፍ](#tree)ፕሮግራም ለምሳሌ ፣ AST ሀ ን የሚወክል [መስቀለኛ መንገድ](#node) ሊኖረው ይችላል ["while` loop](#while_loop) ከአንድ [ልጅ](#child_tree) ጋር ሁኔታ እና ሌላ የ [loop አካል](#loop_body)።
+
+- slug: actual_result
+  de:
+    term: "Tatsächliches Ergebnis"
+    def: >
+      Der Wert, der durch Ausführen von Code in einem Test erzeugt
+      wird. Wenn dieser Wert mit dem [erwarteten
+      Ergebnis](#expected_result) übereinstimmt, ist der Test
+      bestanden; wenn die beiden Werte unterschiedlich sind, [schlägt
+      der Test fehl](#fail_test).
+  en:
+    term: "actual result (of test)"
+    def: >
+      The value generated by running code in a test. If this matches the [expected
+      result](#expected_result), the test [passes](#pass_test); if the two are
+      different, the test [fails](#fail_test).
+  sw:
+    term: "matokeo halisi"
+    def: >
+      Huonyesha matokeo ya kujaribu msimbo kwenye tarakilishi. Ikiwa hili linafanana na [matokeo halisi]
+      (#expected_result), hilo jaribio [hupita](#pass_test); Ikiwa upatalo na matokeo halisi
+      sio sawa, huo msimbo huwa [jaribio lililoshindikana](#fail_test)
+
+  af:
+    term: "absolute resultaat (van 'n toets)"
+    def: >
+      Die waarde wat deur 'n toets gegenereer is. Indien dié waarde gelyk is aan die
+      [verwagte resultaat](#actual_result), is die toets suksesvol; as die twee
+      waardes verskil het die toets gefaal.
+  ar:
+    term: "النتيجة الفعلية للإختِبار"
+    def: >
+      القيمة الناتجة عن تشغيل إختبار للتعليمات البرمجية، إذا كانت هذه النتيجة تُطابِق
+      [النتيجة المتوقعة](#expected_result)
+      فإن الإختبار
+      [تم نجاحه](#pass_test)
+      و اذا كان النتيجتين مختلفتين فان الاختبار قد
+      [فشل](#fail_test).
+  tn:
+    term: "Dipholo tsa tlhomamiso (tsa teko)"
+    def: >
+      Ke palo e e bonwang ka go fetisa "khoutu" mo tekong. Fa palo e, e tsamaelana le dipholo tse 
+      [di solofetsweng](#expected_result), go raya gore teko e falotse; fa palo e le dipholo tse di solofetsweng 
+      di sa tsamaelane, go raya gore teko [e tlholegile](#fail_test).
+  id: 
+    term: "hasil aktual (dari sebuah pengujian)"
+    def: >
+      Nilai yang dihasilkan dari kode yang dijalankan di dalam sebuah pengujian. 
+      Jika hasil pengujian sesuai dengan [hasil yang diharapkan](#expected_result), 
+      maka pengujian dianggap [lulus](#pass_test); 
+      namun jika hasil keduanya berbeda, maka pengujian dianggap [gagal](#fail_test).    
+  es:
+    term: "resultado real (de una prueba)"
+    def: >
+      El valor generado ejecutando el código en una prueba. Si coincide con el 
+      [resultado esperado] (#expected_result), la prueba [pasa] (#pass_test); 
+      si son diferentes, la prueba [falla] (#fail_test).
+
+- slug: affordance
+  en:
+    term: "affordance"
+    def: >
+      A property of something that suggests how it can be used, such as a handle or button.
+  id:
+    term: "keterjangkauan"
+    def: >
+      suatu properti yang menyatakan bagaimana suatu hal dapat digunakan, seperti pegangan atau tombol.
+  af:
+    term: "bekostigbaarheid"
+    def: >
+      'n Eienskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld 'n
+      lêerhanteerder of 'n knoppie.
+  am:
+    term: አቅም
+    def: "የአንድ ነገር ንብረት እንደ መያዣ ወይም አዝራር እንዴት መጠቀም እንደሚቻል የሚጠቁም \n"
+
+- slug: aggregation
+  en:
+    term: "aggregation"
+    def: >
+      To combine many values into one, e.g., by summing a set of numbers or
+      concatenating a set of strings.
+  es:
+    term: "agregación"
+    def: >
+      Combinar muchos valores en uno, por ejemplo, sumando una serie de números o
+      concatenando un conjunto de cadenas de caracteres.
+  fr:
+    term: "agrégation"
+    def: >
+      Synthétise plusieurs valeurs en une seule, example, en sommant plusieurs nombres
+      ou en concaténant un ensemble de caractères.
+  af:
+    term: "samevoeging"
+    def: >
+      Om 'n groep waardes in een te kombineer bv. om 'n versameling getalle op te som
+      of om 'n versameling alfabetiese stringe aaneen te skakel.
+  pt:
+    term: "agregação"
+    def: >
+      Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
+      concatenando um conjunto de caracteres.
+
+  ar:
+    term: "تجميع"
+    def: >
+      دمج مجموعة من القيم في قيمة واحدة، مثال، حمع مجموعة من الأرقام أو تجميع مجموعة من السلاسل.
+
+  sw:
+    term: "mchanganyiko"
+    def: >
+      Kugawana vitu mingi pamoja, kwa mfano, kujumlisha nambari au
+      kunganisha matini.
+
+- slug: aggregation_function
+  en:
+    term: "aggregation function"
+    def: >
+      A function that combines many values into one, such as `sum` or `max`.
+  id:
+    term: "fungsi Agregasi"
+    def: >
+      Sebuah fungsi untuk memadatkan beberapa nilai menjadi sebuah nilai, misalnya `sum` atau `max`.
+  es:
+    term: "función de agregación"
+    def: >
+      Una función que combina varios valores en uno, como `sum` o `max`.
+  fr:
+    term: "fonction d'agrégation"
+    def: >
+      Une fonction qui permet de synthétiser plusieurs valeurs en une seule, comme par
+      exemple 'sum' ou 'max'.
+  pt:
+    term: "função de agregação"
+    def: >
+      Uma função que combina muitos valores em um só, como `sum` ou `max`.
+  af:
+    term: "aggregaatfunksie"
+    def: >
+      'n Funksie wat 'n groep waardes saamvoeg, bv. `sum` (summering) en `max`
+      (maksimale waarde)
+  ar:
+    term: "دالة التجميع"
+    def: >
+       دالة تدمج العديد من القيم في قيمة واحدة ، مثل
+       جمع
+       أو
+       أقصى.
+  de:
+    term: "Aggregatfunktion"
+    def: >
+      Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst,
+      beispielsweise in einer Summe oder dem Maximalwert.
+
+- slug: agile
+  en:
+    term: "agile development"
+    def: >
+      A software development methodology that emphasizes lots of small steps and
+      continuous feedback instead of up-front planning and long-term scheduling.
+      [Exploratory programming](#exploratory_programming) is often agile.
+  es:
+    term: "desarrollo ágil"
+    def: >
+      Una metodología de desarrollo de software que enfatiza muchos pasos pequeños y
+      feedback continuo en vez de planificación por adelantado y a largo plazo.
+      [Programación exploratoria](#exploratory_programming) suele ser ágil.
+  af:
+    term: "lenige ontwikkeling"
+    def: >
+      'n Sagteware-ontwikkelingsmetode wat die klem lê op vele klein stappies en
+      deurlopende terugvoering in plaas van vooraf beplanning en langtermyn
+      skeduluering. [Verkennende programmering](#exploratory_programming) is dikwel lenig.
+  pt:
+    term: "desenvolvimento ágil"
+    def: >
+      Um método de desenvolvimento de software que enfatiza vários passos pequenos e
+      feedback contínuo ao invés de planejamento de longo prazo. [Programação exploratória](#exploratory_programming)
+      costuma ser ágil.
+  de:
+    term: "Agile Softwareentwicklung"
+    def: >
+      Eine Methodik der Softwareentwicklung in der die Arbeit in viele
+      kleine Schritte aufgeteilt wird und mit ständigem Feedback innerhalb
+      selbstorganisierter Teams ein Program entwickelt wird. Im Gegensatz dazu
+      stehen klassische Ansätze die häufig aufwändiger Planung bedürfen.
+      [Explorative Programmierung](#exploratory_programming) ist oft agil.
+
+
+- slug: algorithm
+  en:
+    term: "algorithm"
+    def: >
+      An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific
+      task. In computer science, an algorithm is a set of instructions in a computer program that solves a
+      computational problem.
+  id:
+    term: "algoritma"
+    def: >
+      Rangkaian langkah, perintah, atau aturan yang harus diikuti untuk menyelesaikan suatu tugas spesifik. 
+      Di dalam ilmu komputer, algoritma adalah rangkaian perintah di dalam sebuah program komputer yang 
+      bertujuan untuk menyelesaikan permasalahan komputasi.
+  zu:
+    term: "I-algorithm"
+    def: >
+      An algorithm is a set of steps, intructions, or rules to be followed to accomplish a specific
+      task. In computer science, an algorithm is a set of instructions in a computer program that solves a
+      computational problem.
+  af:
+    term: "algoritme"
+    def: >
+      'n Algoritme is 'n stel instruksies wat gevolg moet word om 'n spesifieke taak uit te voer.
+  es:
+    term: "algoritmo"
+    def: >
+      Un algoritmo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
+      En informática, un algoritmo es un conjunto de instrucciones en un programa informático que resuelve un problema computacional.
+  fr:
+    term: "algorithme"
+    def: >
+      Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
+      En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
+  ar:
+    term: "خوارزمية"
+    def: >
+      الخوارزمية عبارة عن مجموعة من الخطوات والمقدمات أوالقواعد التي يجب اتباعها لتحقيق مهمة معين.
+      في علوم الحاسب، الخوارزمية هي مجموعة من التعليمات في برنامج كمبيوتر تحل مشكلة حاسوبية.
+  de:
+    term: "Algorithmus"
+    def: >
+      Ein Algorithmus ist in der Mathematik und der IT eine Vorgehensweise um
+      Probleme zu lösen. Ein Algorithmus ist ein schrittweiser, eindeutiger
+      Plan, oft in viele kleine Abschnitte unterteilt und mit Querverweisen
+      ausgestattet, um ein spezifisches Problem zu lösen.
+  el:
+    term: "αλγόριθμος"
+    def: >
+      Αλγόριθμος είναι ένα σύνολο από βήματα ή κανόνες για τη διεκπεραίωση μιας συγκεκριμένης εργασίας.
+      Στην πληροφορική, αλγόριθμος είναι ένα σύνολο από εντολές σε κάποιο πρόγραμμα οι οποίες επιλύουν κάποιο
+      υπολογιστικό πρόβλημα.
+      
+- slug: algorithmic_bias
+  ref:
+    - algorithm
     - left_join
     - right_join
   en:
@@ -643,11 +1276,10 @@
       \ አልጎሪዝም  በኮምፒተር ሳይንስ ውስጥ  የሂሳብ ችግሮችን ለመፍታት የተቀመጡ የኮምፒተር ፕሮግራም መመሪያዎች ስብስብ ነው
       \n"
   ar:
-    term: " الخوارزمية المتحيزة"
-   def: >
-  النتائج المتكررة التي تظهر التحيز أو المعالجة المنحرفة ، الموجودة في [الخوارزمية] (# الخوارزمية).
-       على سبيل المثال ، قد تعطي خوارزميات وسائل التواصل الاجتماعي الأولوية أو الوسم للمحتوى الخاص بمجموعات معينة من المستخدمين.
-       
+    term: "الخوارزمية المتحيزة"
+    def: >
+  النتائج المتكررة التي تظهر التحيز أو المعالجة المنحرفة ، الموجودة في [الخوارزمية] (#algorithm).
+       على سبيل المثال، قد تعطي خوارزميات وسائل التواصل الاجتماعي الأولوية أو الوسم للمحتوى الخاص بمجموعات معينة من المستخدمين.
 - slug: aliasing
   en:
     term: "aliasing"
