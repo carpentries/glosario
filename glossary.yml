@@ -1426,12 +1426,15 @@
     def: >
       Auch systematische Abweichung genannt. Ein Messwert wird dann als verzerrt beschrieben, wenn er
       systematisch von dem wahren Wert einer Messgröße abweicht.
-
   am:
     term: ወገንተኝነት
     def: >
       ስታትስቲክስ በስርዓት ወይም በወጥነት ከ ‹የተለየ› ከሆነ አድሏዊ ነው ልኬት ሊገምተው ይገባል ፡፡ በስርዓት ወይም በወጥነት ከ ‹የተለየ› ከሆነ  ስታትስቲክስ አድሏዊ ነው ልኬት ሊገምተው ይገባል ፡፡
-
+  fr:
+    term: "bias"
+    def: >
+      Une statistique est biaisée si elle est systématiquement ou régulièrement différente du paramètre qu'elle est censée estimer.
+      
 - slug: big_data
   ref:
     - three_vs
