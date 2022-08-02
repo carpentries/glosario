@@ -1510,7 +1510,11 @@
     term: ሁለትዮሽ
     def: >
       ከሁለት ሊሆኑ ከሚችሉ ግዛቶች ውስጥ አንዱን ሊኖረው የሚችል ስርዓት ፡፡ በኮምፒተር ውስጥ ብዙ ጊዜ በክፍለ-ግዛቱ 0 ወይም 1. የተወከለው በ [ቦሊያን](#boolean) ውስጥ ተወክሏል አመክንዮ እንደ [ሐሰት](#false) (0) ወይም [እውነት](#true) (1)። ኮምፒውተሮች ተገንብተዋል 0s እና 1s እንደ [ቢት](#bit) የሚያከማቹ ስርዓቶች ከሁለት በአንዱ ግዛቶች ውስጥ ሊኖር የሚችል ስርዓት ፡፡ በኮምፒተር ውስጥ ብዙ ጊዜ በ 0 ወይም 1 ይወከላል.  በ [ቦሊያን](#boolean) ውስጥ የተወከለው አመክንዮ እንደ [ሐሰት](#false) (0) ወይም [እውነት](#true) (1)። ኮምፒውተሮች  0s እና 1s እንደ [ቢት](#bit) እንዲያከማቹ ተገንብተዋል::
-
+  fr:
+    term: "binaire"
+    def: >
+      Un système qui peut avoir l'un des deux états possibles. En informatique souvent représenté comme étant à l'état 0 ou 1. Représenté en logique booléenne comme faux (0) ou vrai (1). Les ordinateurs sont construits sur des systèmes qui stockent les 0 et les 1 sous forme de bits.
+      
 - slug: binary_expression
   ref:
     - nullary_expression
