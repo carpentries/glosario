@@ -362,7 +362,12 @@
     def: "በ [ነገር-ተኮር መርሃግብር](#oop) ውስጥ አንድ [ዘዴ](#method) ተገልፇል ነገር ግን አልተተገበረም ፡፡
       መርሃግብሮች [ወላጅ] ውስጥ ረቂቅ ዘዴን ይገልፃሉ ክፍል](#parent_class) [የህፃናት ክፍሎች](#child_class)
       ማቅረብ አለበት ፡፡ \n"
-
+  fr:
+    term: "méthode abstraite"
+    def: >
+      En programmation orientée objet, c'est la méthode définie mais non implémentée. 
+      Les programmeurs définiront une méthode abstraite dans une classe parente pour spécifier les opérations que les classes enfants doivent fournir.
+      
 - slug: abstract_syntax_tree
   en:
     term: "abstract syntax tree"
