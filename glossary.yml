@@ -958,12 +958,15 @@
     term: "rekenkundige gemiddelde"
     def: >
       Sien [gemiddelde](#mean).
-
   am:
     term: የሂሳብ ሚዛን
     def: >
       ይመልከቱ [ማለት](#mean)
-
+  fr:
+    term: "moyenne arithmétique"
+    def: >
+      Calculé à partir d'un ensemble de n nombres en additionnant ces nombres et en divisant le résultat par n.
+      
 - slug: ascii
   en:
     term: "ASCII"
