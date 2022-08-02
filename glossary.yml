@@ -876,7 +876,11 @@
     term: አባሪ ሁነታ
     def: >
       በቀደመው ፋይል ይዘቶች ላይ ከመፃፍ ይልቅ አሁን ባለው ፋይል መጨረሻ ላይ ውሂብ ለማከል ። እንደገና መፃፍ የነበረዉ ነው ፣ ስለሆነም አብዛኛዎቹ የፕሮግራም ቋንቋዎች በምትኩ ለመተካት ፕሮግራሞች ግልጽ እንዲሆኑ ይጠይቃሉ።
-
+  fr:
+    term: "append mode"
+    def: >
+      Le fait d'ajouter des données à la fin d'un fichier existant au lieu d'écraser le contenu précédent de ce fichier. L'écrasement est la valeur par défaut, donc la plupart des langages de programmation exigent que les programmes soient explicites sur le fait de vouloir ajouter des données à la place.
+      
 - slug: argument
   en:
     term: "argument"
