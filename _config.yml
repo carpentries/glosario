@@ -274,3 +274,11 @@ languages:
     title: Glossary
     blurb: >-
       In translation
+  - key: zh
+    name: Chinese
+    title: 术语表
+    blurb: >
+      `glosario`是开源的数据科学术语表，也可作为[R](https://github.com/carpentries/glosario-r/)
+      和[Python](https://github.com/carpentries/glosario-py/)的软件包使用。课程作者可
+      以在课程元数据中添加术语名词，让学习者提前了解课程的前提要求以及去哪里学习这些前提知识。
+      利用软件包，课程作者也可以在课程内容中插入不同语言的术语名词和解释的永久链接。
