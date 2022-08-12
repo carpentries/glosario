@@ -6707,7 +6707,10 @@
     term: "oop wetenskap"
     def: >
      'n Generiese term om wetenskaplike sagteware, data en publikasies toegangklik te maak.
-
+  fr:   
+term: "science ouverte"
+    def: >
+     Mouvement cherchant à rendre les produits de la recherche scientifique (logiciels, données, publications, etc.) librement accessibles à tous.
 - slug: openrefine
   ref:
     - tidy data
