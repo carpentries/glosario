@@ -3,6 +3,7 @@
 .Rproj.user
 .jekyll-cache
 .jekyll-metadata
+.vendor/
 Glossary.egg-info
 MANIFEST
 R/sysdata.rda
