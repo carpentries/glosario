@@ -2724,7 +2724,7 @@
   fr:  
     term: "corrélation"
     def: >
-      Mesure à quel point deux variables sont en accord l'une avec l'auttre. La corrélation 
+      Mesure à quel point deux variables sont en accord l'une avec l'autre. La corrélation 
       est habituellement mesurée en calculant un [coefficient de corrélation](#correlation_coefficient)
       et n'implique pas nécessairement un lien de [causalité](#causation).
   am:
