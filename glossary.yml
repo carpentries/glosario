@@ -3897,7 +3897,7 @@
     term: ሐሰተኛ
     def: >
       በ [ቦሊያን](#false) አውድ ውስጥ ወደ [ሐሰት](#boolean) መገምገም።
-
+      
 - slug: faq
   en:
     term: "Frequently Asked Questions"
@@ -3909,6 +3909,25 @@
     term: ተደጋግሞ የሚነሱ ጥያቄዎች አህጽሮተ ቃል-ተደጋጋሚ ጥያቄዎች
     def: >
       ስለ አንድ ርዕሰ ጉዳይ በተለምዶ የሚጠየቁ የተጠናቀሩ የጥያቄዎች ዝርዝር በመልሶች ::
+
+- slug: fasta
+  en:
+    term: "FASTA"
+    def: >
+      A file format for storing amino acid or genomic sequence information. 
+      Information for each sequence is broken up into a block of 2 lines. Line 1 contains 
+      information about the sequence and begins with a greater than symbol, ‘>’. Line 2 
+      contains the actual amino acid or genomic sequence using single-letter codes. 
+      
+- slug: fastq
+  en:
+    term: "FASTQ"
+    def: >
+      A file format for storing genomic sequence information and the corresponding quality scores. 
+      Information for each sequence is broken up into a block of four lines. Line 1 contains information about
+      the sequence and begins with ‘@’. Line 2 contains the actual genomic sequence using single-letter codes to 
+      represent nucleotides. Line 3 is a separator that begins with a `+`. Line 4 has a string of 
+      quality characters for each base in the genomic sequence. 
 
 - slug: feature
   en:
