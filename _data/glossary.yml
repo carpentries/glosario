@@ -2726,7 +2726,12 @@
       Hoe sterk twee veranderlikes met mekaar ooreenstem. Korrelasie word gewoonlik gemeet aan
       die berekening van 'n [korrelasiekoëffisiënt](#correlation_coefficient), maar
       impliseer nie oorsaaklikheid.
-
+  fr:  
+    term: "corrélation"
+    def: >
+      Mesure à quel point deux variables sont en accord l'une avec l'autre. La corrélation 
+      est habituellement mesurée en calculant un [coefficient de corrélation](#correlation_coefficient)
+      et n'implique pas nécessairement un lien de [causalité](#causation).
   am:
     term: ተዛማጅነት
     def: >
@@ -2757,12 +2762,21 @@
       dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt
       0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel
       X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde verandering in Y.
-
   am:
     term: የግንኙነት መጠን
     def: >
       ሁለት ተለዋዋጮች ምን ያህል በጥሩ ሁኔታ [[ተዛማጅ](#correlation) ልኬት ናቸው። ከሆነ እ.ኤ.አ. በ ኤክስ እና በ ዋይ መካከል [ትስስር Coefficient](#correlation_coefficient) 1.0 ፣ ኤክስን ማወቅ የ ዋይ ን ፍጹም ትንበያ ይፈቅዳል ፡፡ የግንኙነቱ መጠን 0.0 ከሆነ ፣ ኤክስ ን ማወቅ ስለ ዋይ ምንም አይነግርዎትም ፣ እና -1.0 ከሆነ ፣ ከዚያ ኤክስ ይተነብያል ፣ ግን የ ኤክስ ለውጥ በ ‹ዋይ› ተቃራኒ ለውጥ ያስከትላል ፡፡
-
+  fr:  
+    term: "coefficient de corrélation"
+    def: >
+      Une mesure de la [corrélation](#correlation) entre deux variables. 
+      Si le [coefficient de corrélation](#correlation_coefficient) entre X et Y vaut 1.0,
+      alors connaître X permet de connaître parfaitement Y. 
+      Si le [coefficient de corrélation](#correlation_coefficient) vaut 0.0,
+      alors connaître X ne nous dit rien sur Y.
+      Enfin, si le [coefficient de corrélation](#correlation_coefficient) vaut -1.0, 
+      alors X permet de prédire Y, mais un changement en X cause un changement opposé sur Y.
+      
 - slug: covariance
   en:
     term: "covariance"
@@ -2780,11 +2794,16 @@
       Hoe goed twee veranderlikes met mekaar ooreenstem. Die
       [korrelasiekoëffisiënt](#correlation_coefficient)
       is 'n genormaliseerde maatstaf vir kovariansie.
-
   am:
     term: መለዋወጥ
     def: >
       ሁለት ተለዋዋጮች እርስ በእርሳቸው እንዴት እንደተስማሙ ። ግንኙነቱ ትስስር](#correlation_coefficient) መደበኛ የሆነ የመለዋወጥ ልኬት ነው።
+  fr:
+    term: "covariance"
+    def: >
+      Mesure à quel point deux variables sont en accord l'une avec l'autre.
+      Le [coefficient de corrélation](#correlation_coefficient) est une mesure 
+      normalisée de la covariance.
 
 - slug: cpu
   ref:
