@@ -2593,6 +2593,11 @@
     term: በራስ የመተማመን ጊዜ
     def: >
       የስህተቱን ኅዳግ ከሚጠቁም ግምት ዙሪያ የሚገኝ ክልል፣ ከa ጋር ተደምሮ ትክክለኛው ዋጋ በዚህ ክልል ውስጥ የመውደቁ አጋጣሚ ሰፊ ነው።
+      
+  ar:
+    term:"فترة الثقة"
+    def: >
+    فترة الثقة تتكون من التقدير المعلمة وهامش الخطأ, وهي الفترة التي ننثق بأن قيمة التقدير تكون داخل هذه الفترة
 
 - slug: configuration file
   en:
@@ -2629,6 +2634,10 @@
     term: "constante"
     def: >
       Une valeur qui ne peut pas être modifiée après avoir été définie, par opposition à une [variable](#variable_program).
+  ar:
+    term: "الثابت"
+    def: >
+      قيمة عددية ثابتة لا يمكن أن تتغير وهي عكس المتغير الذي يمكن أن يأخذ أكثر من قيمة.
 
 
 - slug: constructor
@@ -2736,7 +2745,11 @@
     term: ተዛማጅነት
     def: >
       ሁለት መለዋወጫዎች እርስ በርስ ምን ያህል እንደሚስማሙ የሚያሳይ ልኬት ነዉ። ተዛማጅነት አብዛኛውን ጊዜ የሚለካው አንድን [የዝምድና ቅንጅት](#correlation_coefficient) ማስላት፣ እናም አይደለም [#ምክንያት](#causation) ማለት ነው።
-
+  ar:
+    term: "constant"
+    def: >
+      مقياس يوضح مدى ارتباط وقوة العلاقة بين متغيرين ويتم حاسبه بايجاد قيمة معامل الارتباط الذي تترواح قيمته بين 1-و +1.
+      
 - slug: correlation_coefficient
   en:
     term: "correlation coefficient"
