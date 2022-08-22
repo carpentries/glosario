@@ -8,6 +8,10 @@
     acronym: "concat"
     def: >
       Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
+  es:
+    term: "concatenar"
+    def: >
+      Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
 
 - slug: 68_95_997_rule
   de:
@@ -312,7 +316,7 @@
       class](#parent_class) to specify operations that [child classes](#child_class)
       must provide.
   es:
-    term: "método abstrato"
+    term: "método abstracto"
     def: >
       En [programación orientada a objectos](#oop), es un [método](#method) definido pero no implementado.
       Programadores definen un método abstracto en una [superclase](#parent_class) para especificar operaciones
@@ -656,6 +660,13 @@
       النتائج المتكررة التي تظهر التحيز أو المعالجة المنحرفة الموجودة في
       .[الخوارزمية](#algorithm)
       .على سبيل المثال، قد تعطي خوارزميات وسائل التواصل الاجتماعي الأولوية أو الوسم للمحتوى الخاص بمجموعات معينة من المستخدمين
+  es:
+    term: "sesgo algorítmico"
+    def: >
+      Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado en un [algoritmo](#algorithm).
+      Por ejemplo, algoritmos de redes sociales pueden priorizar o estigmatizar contenido de ciertos grupos de usuarios.
+
+
 - slug: aliasing
   en:
     term: "aliasing"
@@ -747,7 +758,7 @@
        [Python](#python)
         تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
   es:
-    term: "Función anónima"
+    term: "función anónima"
     def: >
       Es una función que no tiene asignado un nombre. Las funciones anónimas son usualmente cortas,
       y se definen en el mismo lugar donde son utilizadas, por ejemplo: en callbacks.
@@ -868,8 +879,11 @@
   es:
     term: "argumento"
     def: >
-      Un valor pasado a una función. Algunos autores usan el término como sinónimo de
-      [parámetro](#parameter) y algunos no; Todo es muy confuso.
+      El término no debe ser confundido con, ni es sinónimo de, [parámetro](#parameter).
+      Un argumento es una de posiblemente varias expresiones que son pasadas a una función.
+      Es el valor real que se pasa.
+      Parámetros y argumentos son conceptos distintos pero relacionados.
+      Los parámetros son variables y los argumentos son los valores asignados a esas variables.
   fr:
     term: "argument"
     def: >
@@ -928,7 +942,8 @@
   es:
     term: "media aritmética"
     def: >
-      Ver [media](#mean).
+      Ver [media](#mean). Calculado por un grupo de n números realizando la suma
+      de esos números y dividiendo el resultado entre n.
   af:
     term: "rekenkundige gemiddelde"
     def: >
@@ -1120,6 +1135,11 @@
     term: አይነታ
     def: >-
       የስም እሴት ጥንድ  ከእቃ ጋር የተዛመደ  እንደ ድርድር ልኬቶች ያሉ ነገሮች ለማከማቸት የሚጠቅም
+  es:
+    term: "atributo"
+    def: >
+      Una pareja nombre-valor asociada a un objeto, usada para almacenar metadatos sobre
+      el objeto como, por ejemplo, las dimensiones de un arreglo.
 
 - slug: auto_completion
   en:
@@ -1251,7 +1271,13 @@
       auch in Zusammenarbeit mit älteren oder obsoleten Versionen eines Systems garantiert. Beispielsweise
       ist eine [Funktion](#function) in [Python](#python) 3 abwärtskompatibel, wenn diese auch in Python 2
       ausgeführt werden kann.
-
+  es:
+    term: "retrocompatible"
+    def: >
+      Una propiedad de un sistema, hardware o software, que permite la interoperabilidad
+      con un sistema heredado más antiguo, o con la entrada diseñada para un sistema así.
+      Por ejemplo, una [función](#function) escrita en [Python](#python) 3 que puede ser ejecutada exitosamente en
+      Python versión 2 es retrocompatible.
   am:
     term: ወደኋላ-ተኳሃኝ
     def: >
@@ -1538,7 +1564,7 @@
   es:
     term: "bit"
     def: >
-      Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false).
+      Unidad de información representando alternativas sí/no, [verdadero](#true)/[falso](#false).
       En computación, un estado de ser 0 ó 1.
   de:
     term: "Bit"
@@ -1801,6 +1827,10 @@
     term: ሳንካ
     def: >
       የአንድ ሶፍትዌር ቁራጭ የጠፋ ወይም የማይፈለግ [ባህሪ](#feature_software); የአንድ አረም ዲጂታል አቻ ፡፡ የአንድ አረም ዲጂታል አቻ ; የአንድ ሶፍትዌር ቁራጭ የጠፋ ወይም የማይፈለግ [ባህሪ](#feature_software) ፡፡
+  es:
+    term: "bug"
+    def: >
+      Una [carasterística](#feature_software) faltante o indeseada de un software.
 
 - slug: bug_report
   en:
@@ -1960,7 +1990,13 @@
       zu vermeiden hilft. Im Cache abgelegte Daten können schneller abgerufen werden.
       Ein Hardware-Cache wird beispielsweise in Computerprozessoren verwendet und ein
       Beispiel für einen Software-Cache ist der [Browser-Cache](#browser_cache).
-
+  es:
+    term: "cache"
+    def: >
+      Algo que guarda copias de datos para que futuras consultas puedan ser respondidas más rápido.
+      El CPU de una computadora usa un cache de hardware para guardar valores recientemente accedidos;
+      muchos programas dependen de un cache de software para disminuir el tráfico y latencia de red.
+      Averiguar cuando algo en cache se ha vuelto anticuado y debe ser reemplazado es uno de los [dos problemas difíciles de la ciencia de computación](#two_hard_problems).
 
 - slug: caching
   en:
@@ -2257,6 +2293,11 @@
     term: መደብ
     def: >
       አንድ ዕቃ ከየትኛው ቅድመ ምድብ ጋር እንደሆነ የመለየት ሂደት, ለምሳሌ የኢሜይል መልዕክት የመልዕክት መልዕክት እስፓም ወይም አይደለም መወሰን. ብዙ [ማሽን መማር](#machine_learning) አልጎሪቶች የመደብ ልዩነትን ያከናውናሉ።
+  es:
+    term: "clasificación"
+    def: >
+      El proceso de identificar a que categoría predefinida pertenece un objeto, como, por ejemplo, decidir si un mensaje de correo electrónico es spam o no.
+      Muchos algoritmos de [machine learning](#machine_learning) realizan clasificación.
 
 - slug: cli
   en:
@@ -3380,6 +3421,11 @@
     term: መዝገበ-ቃላት
     def: >
       ዕቃዎችን በእሴት እንዲመለከቱ የሚያስችላቸው የውሂብ አወቃቀር ፣ አንዳንድ ጊዜ [associative array](#associative_array) ይባላል። መዝገበ ቃላት ብዙውን ጊዜ [hash tables](#hash_table) በመጠቀም ይተገበራሉ ፡፡
+  es:
+    term: "diccionario"
+    def: >
+      Una estructura de datos que contiene parejas llave-valor, a veces llamados [arreglos asociativos](#associative_array).
+      Los diccionarios en ocasiones son implementados usando [tablas hash](#hash_table).
 
 - slug: dimension_reduction
   ref:
@@ -3401,7 +3447,11 @@
     def: >
       An item within a [filesystem](#filesystem) that can contain files and other
       directories. Also known as a [folder](#folder).
-
+  es:
+    term: "directorio"
+    def: >
+      Un objeto dentro de un [sistema de archivos](#filesystem) que contiene archivos y otros directorios.
+      También conocido como un [folder](#folder).
 
 - slug: discrete_random_variable
   ref:
@@ -8563,7 +8613,10 @@
       A [machine learning](#machine_learning) algorithm in which a system is taught to
       [classify](#classification) values given [training data](#training_data) containing
       previously-classified values.
-
+  es:
+    term: "aprendizaje supervisado"
+    def: >
+      Tipo de algoritmos en los que el sistema aprende patrones a partir de [datos de entrenamiento](#training_data) anotados/etiquetados.
 
 - slug: svm
   en:
@@ -8890,6 +8943,10 @@
     term: "true negative"
     def: >
       Data points which are actually [false](#false) and correctly predicted as [false](#false).
+  es:
+    term: "verdadero negativo"
+    def: >
+      Resultado en el que el valor real es [negativo](#false) y es correctamente predicho como [negativo](#false).
 
 
 - slug: true_positive
@@ -8903,6 +8960,10 @@
     term: "true positive"
     def: >
       Data points which are actually [true](#true) and correctly predicted as [true](#true).
+  es:
+    term: "verdadero positivo"
+    def: >
+      Resultado en el que el valor real es [verdadero](#true) y es correctamente predicho como [verdadero](#true).
 
 
 - slug: truthy
@@ -8956,6 +9017,10 @@
     term: "unary expression"
     def: >
       An expression with one argument, such as `log 5`.
+  es:
+    term: "expresión unaria"
+    def: >
+      Una expresión con un único argumento, como `log 5`.
 
 
 - slug: unicode
@@ -8996,7 +9061,11 @@
       UNIX is a family of [operating systems](#operating_system) developed during
       1969 at AT&T Bell Labs. Its main features are simple tools, well-defined functionality
       and being portable by nature.
-
+  es:
+    term: "UNIX"
+    def: >
+      UNIX es una familia de [sistemas operativos](#operating_system) desarrollada en 1969 en AT&T Bell Labs.
+      Sus principales características son herramientas sencillas, funcionalidad bien definida y portabilidad.
 
 - slug: unsupervised_learning
   ref:
@@ -9007,7 +9076,10 @@
     def: >
       Algorithms that [cluster](#clustering) data without knowing in advance what the
       groups will be.
-
+  es:
+    term: "aprendizaje no supervisado"
+    def: >
+      Un tipo de algoritmos que aprenden patrones a partir de datos sin anotar/etiquetar.
 
 - slug: up_vote
   ref:
@@ -9056,7 +9128,13 @@
       Platform for interaction between a user and a machine. The interaction may occur via text 
       (a [command line interface](#cli)), graphics and windows (a [graphical user interface](#gui)), 
       or other methods such as voice-driven interfaces.
-
+  es:
+    term: "interfaz de usuario"
+    def: >
+      Plataforma para la interacción entre un usuario y una máquina.
+      Una interacción puede ocurrir mediante texto (una [interfaz de línea de comandos](#cli)),
+      gráficamente y con ventanas (una [interfaz gráfica de usuario](#gui)),
+      u otros métodos tal como interfaces manejadas por voz.
 
 - slug: utf_8
   en:
@@ -9237,6 +9315,12 @@
       The default text editor on Unix. Vim is a very powerful text editor, with a steeper
       learning curve than [nano](#nano_editor), but that allows the user to execute shell
       commands and use [regular expressions](#regular_expression) to alter files programmatically.
+  es:
+    term: "Vim (editor)"
+    def: >
+      El editor de texto por defecto en Unix. Vim es un poderoso editor de texto
+      que permite al usuario ejecutar comandos de shell y usar [expresiones regulares](#regular_expression) para
+      editar archivos programáticamente.
 
 
 - slug: virtual_environment
@@ -9248,7 +9332,12 @@
       and versions of packages you want to use for a particular project or task, and
       to install new packages into the environment without affecting other virtual
       environments, or the system-wide default environment.
-
+  es:
+    term: "entorno virtual"
+    def: >
+      En [Python](#python), el [paquete](#package) `virtualenv` permite crear entornos virtuales de Python
+      para contener paquetes y versiones de esos paquetes que uno quiere usar para un proyecto o tarea particular
+      sin afectar otros entornos virtuales o el entorno por defecto del sistema.
 
 - slug: virtual_machine
   en:
