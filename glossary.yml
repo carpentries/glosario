@@ -657,7 +657,7 @@
   es:
     term: "sesgo algorítmico"
     def: >
-      Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado en un algoritmo.
+      Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado en un [algoritmo](#algorithm).
       Por ejemplo, algoritmos de redes sociales pueden priorizar o estigmatizar contenido de ciertos grupos de usuarios.
 
 - slug: aliasing
@@ -872,7 +872,7 @@
   es:
     term: "argumento"
     def: >
-      El término no debe ser confundido con, ni es sinónimo de, parámetro.
+      El término no debe ser confundido con, ni es sinónimo de, [parámetro](#parameter).
       Un argumento es una de posiblemente varias expresiones que son pasadas a una función.
       Es el valor real que se pasa.
       Parámetros y argumentos son conceptos distintos pero relacionados.
@@ -1269,7 +1269,7 @@
     def: >
       Una propiedad de un sistema, hardware o software, que permite la interoperabilidad
       con un sistema heredado más antiguo, o con la entrada diseñada para un sistema así.
-      Por ejemplo, una función escrita en Python 3 que puede ser ejecutada exitosamente en
+      Por ejemplo, una [función](#function) escrita en [Python](#python) 3 que puede ser ejecutada exitosamente en
       Python versión 2 es retrocompatible.
   am:
     term: ወደኋላ-ተኳሃኝ
@@ -1823,7 +1823,7 @@
   es:
     term: "bug"
     def: >
-      Una carasterística faltante o indeseada de un software.
+      Una [carasterística](#feature_software) faltante o indeseada de un software.
 
 - slug: bug_report
   en:
@@ -1989,6 +1989,7 @@
       Algo que guarda copias de datos para que futuras consultas puedan ser respondidas más rápido.
       El CPU de una computadora usa un cache de hardware para guardar valores recientemente accedidos;
       muchos programas dependen de un cache de software para disminuir el tráfico y latencia de red.
+      Averiguar cuando algo en cache se ha vuelto anticuado y debe ser reemplazado es uno de los [dos problemas difíciles de la ciencia de computación](#two_hard_problems).
 
 - slug: caching
   en:
@@ -2289,7 +2290,7 @@
     term: "clasificación"
     def: >
       El proceso de identificar a que categoría predefinida pertenece un objeto, como, por ejemplo, decidir si un mensaje de correo electrónico es spam o no.
-      Muchos algoritmos de [machine learning](#machine_learning realizan clasificación.
+      Muchos algoritmos de [machine learning](#machine_learning) realizan clasificación.
 
 - slug: cli
   en:
@@ -8557,7 +8558,7 @@
   es:
     term: "aprendizaje supervisado"
     def: >
-      Tipo de algoritmos en los que el sistema aprende patrones a partir de datos anotados/etiquetados.
+      Tipo de algoritmos en los que el sistema aprende patrones a partir de [datos de entrenamiento](#training_data) anotados/etiquetados.
 
 - slug: svm
   en:
@@ -8887,7 +8888,7 @@
   es:
     term: "verdadero negativo"
     def: >
-      Resultado en el que el valor real es negativo y es correctamente predicho como negativo.
+      Resultado en el que el valor real es [negativo](#false) y es correctamente predicho como [negativo](#false).
 
 
 - slug: true_positive
@@ -8904,7 +8905,7 @@
   es:
     term: "verdadero positivo"
     def: >
-      Resultado en el que el valor real es verdadero y es correctamente predicho como verdadero.
+      Resultado en el que el valor real es [verdadero](#true) y es correctamente predicho como [verdadero](#true).
 
 
 - slug: truthy
@@ -9276,7 +9277,7 @@
   es:
     term: "entorno virtual"
     def: >
-      En [Python](#python), el paquete `virtualenv` permite crear entornos virtuales de Python
+      En [Python](#python), el [paquete](#package) `virtualenv` permite crear entornos virtuales de Python
       para contener paquetes y versiones de esos paquetes que uno quiere usar para un proyecto o tarea particular
       sin afectar otros entornos virtuales o el entorno por defecto del sistema.
 
