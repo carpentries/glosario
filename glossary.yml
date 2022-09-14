@@ -5806,6 +5806,16 @@
     term: "programmation lettrée"
     def: >
       Une approche de la programmation qui mélange langage naturel (prose) et code.
+  de:
+    term: "literarisches Programmieren"
+    def: >
+      Ein Programmierparadigma, dass Dokumentation und Programmkode in einer
+      gemeinsamen Datei handelt.
+  es:
+    term: "programación literaria"
+    def: >
+      Un paradigma de programación que combina código y documentación en un solo
+      archivo.
 
   am:
     term: ማንበብና መጻፍ መርሃግብር
