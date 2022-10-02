@@ -2165,12 +2165,14 @@
       Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche eine
       Namensnennung der Urheber verlangt aber sonst keine weiteren
       Restriktionen auferlegt.
-
   am:
     term: ሲሲ-ባይ
     def: >
       [Creative Commons](#cc_license) - Attribution [license](#license) ፈጠራ ኮመንስ ሲሲ-ፍቃድ- አበይት ፍቃድ ሰዎች ለአንድ ጽሑፍ ደራሲ ክብር እንዲሰጡ የሚጠይቅ ቢሆንም ሌላ ምንም ዓይነት እገዳ አይጥልም ።
-
+  es:
+    term: "CC-BY"
+    def: >
+        Una [licencia](#licencia) [Creative Commons](#cc-license) con Atribución, que requiere que se de crédito a las personas autoras del trabajo, pero que no impone ninguna otra restricción.
 - slug: cc_license
   en:
     term: Creative Commons license
@@ -2188,7 +2190,10 @@
     term: የፈጠራ ኮመንስ ፍቃድ
     def: >
       ለህትመት ሥራ ሊመለከቱ የሚችሉ [ፍቃዶች](#license) እያንዳንዳቸው ፍቃድ ሚመሰረተው የ '-ባይ' (Attribution) ተጠቃሚዎችን አንድ ወይም ከዚያ በላይ በመመደብ ነው must cite cite the original source; '-SA' (ShareAlike) ተጠቃሚዎች የራሳቸውን ማጋራት አለባቸው በተመሳሳይ ፈቃድ ሥራ መሥራት፤ '-ኤን ሲ' (NonCommercial) ስራ ላይውል ይችላል ያለ ፈጣሪ ፈቃድ የንግድ ዓላማዎች፤ '-ND' (NoDerivatives) አይደለም የተዋሕዶ ስራዎች (ለምሳሌ፣ ትርጉሞች) ያለ ፈጣሪ ሊፈጠሩ ይችላሉ ፍቃድ። በመሆኑም 'CC-BY-ኤንሲ' ማለት"ተጠቃሚዎች ባህሪ መስጠት አለባቸው እና መጠቀም አይችሉም ለንግድ ያለ ፈቃድ". 'ሲሲ-0' (ዜሮ እንጂ ፊደል 'ኦ' አይደለም) የሚለው ቃል ነው አንዳንድ ጊዜ"እገዳ የለም"ማለትም ሥራው በሕዝብ ክልል ውስጥ ይገኛል።
-
+  es:
+    term: Licencia Creative Commons
+    def: >
+      Conjunto de [licencias](#license) que pueden ser aplicadas a trabajos publicados. Cada licencia está formada por la concatenación de uno o más de: -BY (Atribución): las usuarias deben citar la fuente original; -SA (CompartirIgual): las usuarias deben compartir su trabajo bajo una licencia similar; -NC (NoComercial): el trabajo no se puede usar con fines comerciales sin la autorización de las personas creadoras; -ND (NoDerivaciones): no se pueden crear derivativos (por ejemplo, traducciones) sin el permiso de la creadora. Así, CC-BY-NC significa "las usuarias deben atribuir el trabajo a la creadora y no lo pueden utilizar comercialmente sin permiso". El término CC-0 (cero, no letra O), se utiliza a menudo para referirse a "sin restricciones", en el que el trabajo es de dominio público.
 - slug: centroid
   en:
     term: centroid
@@ -4704,6 +4709,11 @@
     term: የጂኤንዩ የህዝብ ፈቃድ
     def: >
       ሰዎች የለውጦቻቸውን ምንጭ እስካሰራጩ ድረስ ሶፍትዌሮችን እንደገና እንዲጠቀሙ የሚያስችል (ፈቃድ)፡፡
+  es:
+    term: "Licencia Pública GNU"
+    acronym: "GPL"
+    def: >
+    Una [licencia](#license) que permite a las usuarias re-utilizar software siempre y cuando distribuyan el origen de sus cambios 
 
 
 - slug: gradient_boosting
@@ -4934,6 +4944,10 @@
     term: የሂፖክራሲያዊ ፈቃድ
     def: >
       ለማንኛውም ዓላማ ነፃ አጠቃቀምን የሚፈቅድ የስነምግባር ሶፍትዌር [ፈቃድ](#license) ዓለም አቀፍ የሰብአዊ መብቶች ድንጋጌን አይቃረንም ፡፡
+  es:
+    term: "Licencia Hippocrática"
+    def: >
+        Una [licencia](#license) para software ético que permite el uso gratuïto para cualquier objetivo que no contradiga la Declaración Universal de los Derechos Humanos
 
 - slug: histogram
   en:
@@ -5676,6 +5690,10 @@
     term: "Lizenz"
     def: >
       Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und von wem.
+  es:
+    term: "Licencia"
+    def: >
+      Documento legal que describe como algo puede ser usado y por quién.
       
 
 - slug: lifecycle
@@ -6368,6 +6386,10 @@
     term: MIT ፈቃድ
     def: >
       ሰዎች ያለምንም ገደብ ሶፍትዌሮችን እንደገና እንዲጠቀሙ የሚያስችል (ፈቃድ)(#license)።
+  es:
+    term: "Licencia MIT"
+    def: >
+      Una [licencia](#license) que permite a las usuarias re-utilizar el software sin restricciones
 
 - slug: mock_object
   en:
