@@ -690,6 +690,15 @@
       Melawana e e salwang morago ke khompiutara/sebalamakgolo go rarabolola dikgwetlho tse di amang tiriso ya tse di mo boranyaneng.
 
 
+- slug: anaconda
+  ref:
+    - pip
+    - conda
+  en:
+    term: "Anaconda"
+    def: >
+      A [repository] (#repository) of open-source Python and R programs for data science, packaged using the [conda](#conda) [package manager] (#package_manager). Anaconda also creates Anaconda Navigator, a suite of desktop tools including an [IDE] (#ide) and the [Jupyter Notebook](#jupyter_notebook) application.  
+     
 - slug: anchor
   en:
     term: "anchor"
@@ -2585,6 +2594,14 @@
       for [machine learning][#machine_learning], simulations, and other fields which benifit
       from parallel computation.
 
+- slug: conda
+  ref:
+    - pip
+    - anaconda
+  en:
+    term: "conda"
+    def: >
+      A [package manager] [#package_manager] and environment management system, particularly popular for Python programs.
 - slug: condition
   ref:
     - handle_condition
