@@ -3219,9 +3219,9 @@
 
 - slug: debug
   en:
-  term: "debug"
-  def: >
-    In a computer environment 'debug' refers to the process of finding and resolving errors (also known as 'bugs') within computer programs or systems.
+    term: "debug"
+    def: >
+      In a computer environment 'debug' refers to the process of finding and resolving errors (also known as 'bugs') within computer programs or systems.
 
 - slug: decision_tree
   ref:
