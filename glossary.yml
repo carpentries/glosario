@@ -3217,6 +3217,12 @@
     def: >
       ለአነስተኛ መጠን [የመረጃ ምህንድስና](#data_engineering) የትብብር ስም።
 
+- slug: debug
+  en:
+    term: "debug"
+    def: >
+      In a computer environment 'debug' refers to the process of finding and resolving errors (also known as 'bugs') within computer programs or systems.
+
 - slug: decision_tree
   ref:
     - random_forests
