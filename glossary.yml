@@ -393,6 +393,14 @@
     def: >
       አወቃቀሩን የሚወክል በጥልቀት የተቀመጠ የውሂብ መዋቅር ወይም [ዛፍ](#tree)ፕሮግራም ለምሳሌ ፣ AST ሀ ን የሚወክል [መስቀለኛ መንገድ](#node) ሊኖረው ይችላል ["while` loop](#while_loop) ከአንድ [ልጅ](#child_tree) ጋር ሁኔታ እና ሌላ የ [loop አካል](#loop_body)።
 
+- slug: accuracy
+  en:
+    term: "accuracy"
+    def: >
+      Statistical measure of a classification model which gives the proportion 
+      of correct predictions among total number of cases. It is calculated as 
+      Accuracy = (TP+TN)/(TP+TN+FP+FN)
+
 - slug: actual_result
   de:
     term: "Tatsächliches Ergebnis"
