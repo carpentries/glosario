@@ -8419,6 +8419,14 @@
       typically so that programs can be recompiled on the target computer when they
       are installed.
 
+- slug: specificity
+  en:
+    term: "specificity"
+    def: >
+      Statistical measure of a classification model which gives the False Negative rate. 
+      For example, the proportion of people who do not have a disease that test negative. 
+      Calculated as Specificity = TN/(TN+FP).
+
 - slug: spectral analysis 
   ref:
     - python
