@@ -8180,6 +8180,14 @@
     def: >
       A preliminary vote used to determine whether further discussion is needed in a meeting.
 
+- slug: sensitivity
+  en:
+    term: "sensitivity"
+    def: >
+      Statistical measure of a classification model which gives the True Positive rate. For 
+      example, the proportion of people who have a disease that test positive. Calculated 
+      as Sensitivity = TP/(TP+FN).
+
 - slug: sequential_data
   en:
     term: "sequential data"
