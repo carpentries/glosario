@@ -2669,8 +2669,8 @@
   en:
     term: "confusion matrix"
     def: >
-      A  matrix that describes the performance of a classification model, where  is the number of 
-      classes. Each row in the matrix represents the instances of actual classes and each column 
+      A NxN matrix that describes the performance of a classification model, where N is the number 
+      of classes or outputs. Each row in the matrix represents the instances of actual classes and each column 
       represents the predicted classes. For a binary classification model the confusion matrix 
       gives the True Positives (TP), False Negatives (FN), False Positives (FP) and True Negatives 
       (TN) in the 1st, 2nd, 3rd and 4th quadrants, respectively. The table can be used to calculate 
