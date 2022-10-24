@@ -2690,6 +2690,17 @@
     def: >
       አንድ ተጠቃሚ ትዕዛዞች ሊገባበት የሚችልበት የኮምፒውተር ተርሚናል ወይም እንደ ዛጎል ያለ ፕሮግራም እንዲህ ያለውን መሣሪያ የሚኮርጅ ነው።
 
+- slug: confusion_matrix
+  en:
+    term: "confusion matrix"
+    def: >
+      A NxN matrix that describes the performance of a classification model, where N is the number 
+      of classes or outputs. Each row in the matrix represents the instances of actual classes and each column 
+      represents the predicted classes. For a binary classification model the confusion matrix 
+      gives the True Positives (TP), False Negatives (FN), False Positives (FP) and True Negatives 
+      (TN) in the 1st, 2nd, 3rd and 4th quadrants, respectively. The table can be used to calculate 
+      Accuracy, Sensitivity and Specificity amongst other measures of the model.
+
 - slug: constant
   en:
     term: "constant"
