@@ -9463,6 +9463,11 @@
       The space, newline, carriage return, and horizontal and vertical tab characters
       that take up space but do not create a visible mark. The name comes from their
       appearance on a printed page in the era of typewriters.
+  de:
+    term: "whitespace"
+    def: >
+      Auch als "Leerraum" bekannt, eine Bezeichnung für Zeichen ohne sichtbares Symbol. 
+      Typischerweise beinhaltet dies Leerzeichen, Tabulatorzeichen und Zeilenumbrüche. 
   pt:
     term: "espaço em branco"
     def: >
