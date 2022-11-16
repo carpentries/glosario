@@ -5,6 +5,7 @@
 {%- else -%}
 {%- assign direction = 'ltr' %}
 {%- endif -%}
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>{{site.title}}</title>
@@ -12,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/glossary.css" />
     <link rel="stylesheet" type="text/css" href="{{ relative_root_path }}/assets/css/glossary.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    {% include matomo.html %}
 </head>
 <body>
 <main>
@@ -39,7 +41,11 @@
         -
         <a href="{{'/license/' | relative_url}}">License</a>
         -
-        <a href="https://github.com/carpentries/glosario/">GitHub</a>
+        <a href="{{'/conduct/' | relative_url}}">Code of Conduct</a>
+        -
+        <a href="{{ site.repository_url }}">GitHub</a>
+        -
+        <a href="https://www.netlify.com">This site is powered by Netlify</a>
     </p>
 </footer>
 </body>

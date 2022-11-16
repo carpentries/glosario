@@ -124,6 +124,19 @@ languages:
       dove possono trovare tali informazioni. 
       Gli autori possono anche usare le funzioni della libreria per inserire collegamenti ipertestuali
       ai termini e alle definizioni nella lezione in una qualsiasi tra le diverse lingue.
+  - key: hr
+    name: Hrvatski
+    title: Rječnik
+    blurb: >
+       `glosario` je rječnik otvorenog koda ("open source") koji se koristi u podatkovnoj znanosti ("data science"), 
+       a koji je dostupan online i kao korisnički paket u jezicima
+       [R](https://github.com/carpentries/glosario-r/) i
+       [Python](https://github.com/carpentries/glosario-py/). Dodavanjem pojmova iz rječnika
+       u metapodatake lekcija, autori mogu naznačiti što lekcija podučava,
+       što bi učenici trebali znati prije nego što počnu i gdje mogu ići pronaći
+       to znanje. Autori također mogu koristiti funkcije rječnika za umetanje
+       dosljedne hiperveze za pojmove i definicije u svojim lekcijama na bilo kojem od
+       nekoliko jezika.
   - key: ko
     name: 한국어
     title: 용어 사전
@@ -146,13 +159,12 @@ languages:
     name: Nederlands
     title: Woordenlijst
     blurb: >
-      `glosario` is een openbron verklarende woordenlijst van terminologie die wordt gebruikt
-      in de informatica en online beschikbaar wordt gesteld, evenals een programmabibliotheek in
-      [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/).
-      Door woordenlijstsleutels op te nemen in de metadata van een les, kunnen auteurs aangeven welke informatie
-      in een les wordt behandeld, wat studenten moeten weten voordat de les begint en waar studenten de informatie
-      kunnen vinden. Auteurs kunnen de tekenfuncties van het programma ook gebruiken om consistente doorklik op
-      te nemen, voor termen en definities in een van de verschillende talen, in hun lessen.
+      `glosario` is een open source woordenlijst met termen uit de data science die online en als bibliotheek 
+      in [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/) 
+      beschikbaar is. Door termen uit de woordenlijst op te nemen in de metadata van een les, kunnen auteurs 
+      aangeven welke informatie in een les wordt behandeld, wat studenten moeten weten voordat de les begint en 
+      waar studenten de informatie kunnen vinden. Auteurs kunnen de functionaliteiten van de woordenlijst ook 
+      gebruiken om consistente hyperlinks naar termen en definities op te nemen in hun lessen in een of meerdere talen.
   - key: tn
     name: Setswana
     title: thanodi ya mafoko
@@ -257,3 +269,16 @@ languages:
       mereka dapat menelusuri lebih lanjut. Penulis dapat juga menggunakan fungsi dalam
       library untuk memasukkan hyperlink istilah secara konsisten berikut definisinya
       dalam pelajaran dalam beberapa bahasa.
+  - key: st
+    name: Southern Sotho
+    title: Glossary
+    blurb: >-
+      In translation
+  - key: zh
+    name: Chinese
+    title: 术语表
+    blurb: >
+      `glosario`是开源的数据科学术语表，也可作为[R](https://github.com/carpentries/glosario-r/)
+      和[Python](https://github.com/carpentries/glosario-py/)的软件包使用。课程作者可
+      以在课程元数据中添加术语名词，让学习者提前了解课程的前提要求以及去哪里学习这些前提知识。
+      利用软件包，课程作者也可以在课程内容中插入不同语言的术语名词和解释的永久链接。
