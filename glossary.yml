@@ -4713,7 +4713,7 @@
     term: "Licencia Pública GNU"
     acronym: "GPL"
     def: >
-    Una [licencia](#license) que permite a las usuarias re-utilizar software siempre y cuando distribuyan el origen de sus cambios 
+    Una [licencia](#license) que permite re-utilizar software siempre y cuando distribuyan el código funte de sus cambios. 
 
 
 - slug: gradient_boosting
