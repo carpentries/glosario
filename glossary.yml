@@ -2193,7 +2193,7 @@
   es:
     term: Licencia Creative Commons
     def: >
-      Conjunto de [licencias](#license) que pueden ser aplicadas a trabajos publicados. Cada licencia está formada por la concatenación de uno o más de: -BY (Atribución): las usuarias deben citar la fuente original; -SA (CompartirIgual): las usuarias deben compartir su trabajo bajo una licencia similar; -NC (NoComercial): el trabajo no se puede usar con fines comerciales sin la autorización de las personas creadoras; -ND (NoDerivaciones): no se pueden crear derivativos (por ejemplo, traducciones) sin el permiso de la creadora. Así, CC-BY-NC significa "las usuarias deben atribuir el trabajo a la creadora y no lo pueden utilizar comercialmente sin permiso". El término CC-0 (cero, no letra O), se utiliza a menudo para referirse a "sin restricciones", en el que el trabajo es de dominio público.
+      Conjunto de [licencias](#license) que pueden ser aplicadas a trabajos publicados. Cada licencia está formada por la concatenación de uno o más de: -BY (Atribución): se debe citar la fuente original; -SA (CompartirIgual): se debe compartir el trabajo bajo una licencia similar; -NC (NoComercial): el trabajo no se puede usar con fines comerciales sin la autorización de las personas creadoras; -ND (NoDerivaciones): no se pueden crear trabajos derivados (por ejemplo, traducciones) sin el permiso de las personas autoras. Así, CC-BY-NC significa "se debe atribuir el trabajo a las personas creadoras y no se puede utilizar comercialmente sin permiso". El término CC-0 (cero, no letra O), se utiliza a menudo para referirse a "sin restricciones", en el que el trabajo es de dominio público.
 - slug: centroid
   en:
     term: centroid
