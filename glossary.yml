@@ -6389,7 +6389,7 @@
   es:
     term: "Licencia MIT"
     def: >
-      Una [licencia](#license) que permite a las usuarias re-utilizar el software sin restricciones
+      Una [licencia](#license) que permite re-utilizar el software sin restricciones
 
 - slug: mock_object
   en:
