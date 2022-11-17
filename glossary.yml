@@ -639,13 +639,6 @@
     def: >
       الخوارزمية عبارة عن مجموعة من الخطوات والمقدمات أوالقواعد التي يجب اتباعها لتحقيق مهمة معين.
       في علوم الحاسب، الخوارزمية هي مجموعة من التعليمات في برنامج كمبيوتر تحل مشكلة حاسوبية.
-  de:
-    term: "Algorithmus"
-    def: >
-      Ein Algorithmus ist in der Mathematik und der IT eine Vorgehensweise um
-      Probleme zu lösen. Ein Algorithmus ist ein schrittweiser, eindeutiger
-      Plan, oft in viele kleine Abschnitte unterteilt und mit Querverweisen
-      ausgestattet, um ein spezifisches Problem zu lösen.
   el:
     term: "αλγόριθμος"
     def: >
