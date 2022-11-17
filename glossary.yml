@@ -633,7 +633,9 @@
   de:
     term: "Algorithmus"
     def: >
-      Ein Algorithmus beschreibt eine Handlungsvorschrift, ein Verfahren oder einen Regelsatz zum Lösen eines Problems. In der Informatik ist ein Algorithmus eine eindeutige, ausführbare Folge von Anweisungen endlicher Länge zur Lösung eines Problems, welche immer das gleiche Ergebnis liefern.
+      Ein Algorithmus beschreibt eine Handlungsvorschrift, ein Verfahren oder einen Regelsatz zum Lösen eines Problems.
+      In der Informatik ist ein Algorithmus eine eindeutige, ausführbare Folge von Anweisungen endlicher Länge zur Lösung eines Problems, 
+      welche immer das gleiche Ergebnis liefern.
   ar:
     term: "خوارزمية"
     def: >
