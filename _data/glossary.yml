@@ -630,18 +630,17 @@
     def: >
       Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
       En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
+  de:
+    term: "Algorithmus"
+    def: >
+      Ein Algorithmus beschreibt eine Handlungsvorschrift, ein Verfahren oder einen Regelsatz zum Lösen eines Problems.
+      In der Informatik ist ein Algorithmus eine eindeutige, ausführbare Folge von Anweisungen endlicher Länge zur Lösung eines Problems, 
+      welche immer das gleiche Ergebnis liefern.
   ar:
     term: "خوارزمية"
     def: >
       الخوارزمية عبارة عن مجموعة من الخطوات والمقدمات أوالقواعد التي يجب اتباعها لتحقيق مهمة معين.
       في علوم الحاسب، الخوارزمية هي مجموعة من التعليمات في برنامج كمبيوتر تحل مشكلة حاسوبية.
-  de:
-    term: "Algorithmus"
-    def: >
-      Ein Algorithmus ist in der Mathematik und der IT eine Vorgehensweise um
-      Probleme zu lösen. Ein Algorithmus ist ein schrittweiser, eindeutiger
-      Plan, oft in viele kleine Abschnitte unterteilt und mit Querverweisen
-      ausgestattet, um ein spezifisches Problem zu lösen.
   el:
     term: "αλγόριθμος"
     def: >
@@ -2480,7 +2479,10 @@
       Texto escrito em um script que não é tratado como código a ser executado, e sim
       como texto que descreve o que o código está fazendo. Normalmente é formado por
       notas curtas, frequentemente começando com um `#` (em várias linguagens de programação).
-
+  de:
+    term: "Kommentar"
+    def: >
+      Anmerkungen in einem Programmcode oder Skript, die nicht vom Computer interpretiert oder ausgeführt werden. Kommentare dienen der Leserlichkeit und Dokumentation für Nutzer des Skripts. In vielen Programmiersprache werden Kommentare mit '#' am Zeilenanfang eingeleitet.
   am:
     term: አስተያየት
     def: >
@@ -2906,6 +2908,10 @@
       essential electronic circuitry that interprets and executes instructions
       from the software or other hardware. Also called a central processor,
       main processor, or microprocessor.
+  de:
+    term: "Prozessor"
+    def: >
+      Die zentrale Recheneinheit eines jeden digitalen Computers. Der Prozessor ist eine elektronische Schaltung, die anhand von übergebenen Befehlen andere Maschinen oder elektrische Schaltungen steuert und Rechenoperationen ausführt. Wird auch als Hauptprozessor, Zentrale Recheneinheit, Zentraleinheit oder Zentrale Verarbeitungseinheit (kurz ZVE, englisch central processing unit, kurz CPU) bezeichnet.
 
   am:
     term: ማዕከላዊ ማቀነባበሪያ ክፍል
