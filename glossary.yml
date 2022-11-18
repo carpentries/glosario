@@ -3316,7 +3316,11 @@
     def: >
       A family of [neural network](#neural_network) algorithms that use multiple
       layers to extract features at successively higher levels.
-
+  de:
+    term: "Deep Learning"
+    def: >
+      Eine Sammlung an Methoden des maschinellen Lernens, die künstliche neuronale Netze mit mehreren Zwischenschichten 
+      nutzen, um damit komplexere, zusammengesetzte Eigenschaften stückweise aus rohen Eingabedaten zu extrahieren (z.B. Gesichter aus den Pixelwerten in Bildern). 
   am:
     term: ጥልቅ ትምህርት
     def: >
