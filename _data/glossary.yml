@@ -6402,6 +6402,13 @@
     def: >
       በይነመረቡ ላይ የፋይሎችን ይዘት ለመለየት መደበኛ መንገድ። ቃሉ አንድ ነው የ "ሁለገብ በይነመረብ መልእክት ማራዘሚያ" ምህፃረ ቃል ፣ እና MIME ዓይነቶች ብዙ ጊዜ ናቸው እንደ".png` ለ"በ [የፋይል ስም ቅጥያዎች](#filename_extension) ተለይቷል በ PNG የተቀረጹ ምስሎች።
 
+- slug: minimum_spanning_tree
+  en:
+    term: "minimum spanning tree"
+    acronym: "MST"
+    def: >
+      A minimum spanning tree is a data structure that describes the unique set of [edges](#edge) that connect all of the [nodes](#node) in a [graph](#graph) while minimizing the weights of all included [edges](#edge). The minimum spanning tree may refer to either the algorithm to calculate the structure or the resulting structure itself. 
+
 - slug: missing_value
   en:
     term: "missing value"
