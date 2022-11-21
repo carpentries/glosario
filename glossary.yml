@@ -9605,4 +9605,14 @@
       digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
       untuk beragam tipe dokumen [Markdown](#markdown).
      
-    
+  - slug: Debug
+  
+  en:
+    term: "Debug"
+    def: >
+    The process of identifying and removing errors (as for example those while using a software).
+  pt:
+    term: "depurar"
+    def: >
+      O processo de identificar e remover erros (como por exemplo erros referentes a quando se usa um programa).
+  
