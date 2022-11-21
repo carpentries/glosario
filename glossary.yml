@@ -2099,9 +2099,9 @@
   tn:
     term: "Mokwalo wa Kamela"
     def: >
-      Ke mokgwa wa go kwala khoutu ka go sa tsenye matshwao a sekgala (space), 
-      thalela (`_`), khutlo (`.`) kana thaladi (`-`) mo maineng a di’variable kana a dilo (objects). 
-      Mo godimo ga moo, lefoko lengwe le lengwe mo maineng a le similolola ka tlhakakgolo. 
+      Ke mokgwa wa go kwala dikaelo tsa khomputara ka go sa tsenye matshwao a sekgala (space), 
+      thalela (`_`), khutlo (`.`) kana thaladi (`-`) mo maineng a maemedi a boleng jo bo fetogang (variables) kana a dilo (objects). 
+      Mo godimo ga moo, lefoko lengwe le lengwe mo maineng a le simolola ka tlhakakgolo. 
       Dikai tsa mokwalo o ke `CalculateSum` le `findPattern`.
 
 - slug: catch_exception
