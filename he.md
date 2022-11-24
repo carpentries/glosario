@@ -1,6 +1,5 @@
 ---
-permalink: /es/
+permalink: /he/
 layout: glossary
-direction: ltr
 ---
 {% include glossary.html %}

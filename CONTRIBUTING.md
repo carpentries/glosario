@@ -7,13 +7,15 @@ please take a moment to read the guidance below.
 
 ## Contribution Workflow
 
-When you are making your contribution(s) to Glosario, please:
+When you are making your contribution(s) to Glosario, please adhere to the following guidance:
 
 1. **check the [open Issues][issues] and [Pull Requests][pulls]** to see what terms and definitions other contributors are already working on. This will help you avoid accidentally spending time writing the same term(s)/definition(s) as someone else.
 2. **add one or a small number of related new terms or definitions per Pull Request.** We woud love to receive multiple contributions from you but please keep each new term or set of terms and definitions in a distinct Pull Request. This makes it much easier for the Glosario maintainers/editors to review your contributions. By [creating a new branch][github-branches] from the `master` branch and making a new Pull Request each time, you also reduce the chance of accidentally combining multiple contributions.
 3. If you plan to contribute a larger number of terms e.g. to cover a new domain, **[open an Issue][issues]** with a title in the format "[language]/domain" e.g. "Romanian/relational database terms." This will help others avoid devoting time to writing the same terms/definitions as you.
 
-## 1. Adding a new term to the glossary
+In the sections below, we detail common ways you can contribute to glosario.
+
+## Adding a new term to the glossary
 
 To add a new entry, please [fork][forking-guide] the [main Glosario repository][repo] and, on a new branch, add the term and definition to [`glossary.yml`][glossary]. This glossary file is written in [YAML]. If you already have a fork of the repository, then please [make sure your fork is up-to-date](https://happygitwithr.com/upstream-changes.html#upstream-changes) with the [main Glosario repository][repo].
 
@@ -59,7 +61,7 @@ Here is an example of how your glossary entry should be structured:
 
 Once your term and definition(s) are complete, [make a Pull Request][pr-guide] back to the main repository.
 
-### 2. Adding a definition in another language to an existing term
+## Adding a definition in another language to an existing term
 
 To add a new definition to an existing term in the glossary, please fork [the main Glosario repository][repo] and, on a new branch, find the term in [`glossary.yml`][glossary] and add the two-letter ISO 639 language code such as `en` or `fr` as a new top-level key. (Refer to [the "639-1" column of this table][iso639-table-en].)
 
@@ -85,6 +87,66 @@ You can then fill in the `term`, `def`, and (if appropriate) `acronym` for that 
       Une variable définie en dehors d'une fonction donnée, qui est par conséquent visible pour
       toutes les fonctions.
 ```
+
+## Adding a new language
+
+If you want to add a term or define a term in a new language, you can quickly check if your language is defined in glosario by heading to `https://glosario.carpentries.org/[lang]`, replacing `[lang]` with the [two-letter ISO 639 language code][iso639-table-en]. If you see a 
+[page not found error][https://glosario.carpentries.org/not-found], then that means you are the first to add this language to glosario!
+
+To add your language, first follow the instructions for [adding a new term to the glossary](#adding-a-new-term-to-the-glossary) or [adding a definition in another language to an existing term](#adding-a-definition-in-another-language-to-an-existing-term). Next, you will:
+
+1. create a landing page for your language;
+2. add the entry for the language in the `_config.yml` file
+3. add the 2-letter code among the list of languages that are recognized when
+   checking the content of the glosary.
+
+To see an example of the changes required, you can look at the [Pull
+Request](https://github.com/carpentries/glosario/pull/313/files) that adds the
+required infrastructure to support entries in Italian.
+
+### 1. Create the language landing page
+
+To add a landing page for your language, create a new markdown file that is named with the two-letter ISO 639 code for your language. For example, if you wanted to add support for Italian, you would create a new markdown file called `it.md`. 
+
+Each markdown file requires two things: a yaml header that defines the permalink to the page and a Jekyll includes statment in the body. For example, if you wanted to create an entry for Italian, you would add `it.md` with the following content:
+
+```markdown
+---
+permalink: /it/
+layout: glossary
+direction: ltr
+---
+
+{% include glossary.html %}
+```
+
+The `layout` yaml item specifies the template for the landing page and the 
+`direction` yaml item is used to indicate the direction the language is read in:
+- for left-to-right (ltr) languages, use `direction: ltr`;
+- for right-to-left (rtl) languages, use `direction: rtl`.
+
+### 2. Add the language entry in the `_config.yml` file
+
+For the language to appear on the main landing page for the site, add the
+following to the `_config.yml` file under the `language:` entry, respecting the alphabetical order of the two-letter ISO 639 code:
+
+```markdown
+  - key: { Two-letter code }
+    name: { Name of the language }
+    title: { Translation of "glossary" into the language }
+    blurb: >
+       { Translation of the blurb presenting the glosario project}
+```
+
+### 3. Add the two-letter code to the script checking the content of the glossary
+
+To make sure that entries in the glossary for the language added will be recognized, you need to add the two-letter ISO code for the language in the Python script [`utils/check-glossary.py`](https://github.com/carpentries/glosario/blob/main/utils/check-glossary.py#L33):
+
+```python
+ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'bn', 'de', 'en', 'es', 'fr', 'he', 'it', 'ja', 'nl', 'pt', 'zu'}
+```
+
+
 
 [forking-guide]: https://guides.github.com/activities/forking/
 [github-branches]: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches
