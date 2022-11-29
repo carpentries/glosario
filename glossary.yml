@@ -2130,6 +2130,11 @@
     def: >
       Eine Beziehung zwischen zwei Ereignissen oder Zuständen, wobei klar ist,
       dass es einen ursächlichen oder anlässlichen Zusammenhang zwischen den beiden gibt.
+  sw:
+    term: "Kusababisha"
+    def: >
+      Uhusiano kati ya matukio tofauti, ambapo inadaiwa kuwa tukio moja linawajibika
+      kuzalisha au kuathiri mabadiliko katika nyingine.
 
   am:
     term: causation
@@ -2370,6 +2375,10 @@
     term: መከፋፈል
     def: >
       ቡድኖቹ ራሳቸው በማይሆንበት ጊዜ መረጃዎችን በቡድን የመከፋፈል ሂደት አስቀድሞ የታወቀ ነው ።
+  sw:
+    term: "kugawanya"
+    def: >
+      Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa mapema.
 
 - slug: code_coverage
   en:
@@ -2434,6 +2443,10 @@
     term: ትዕዛዝ
     def: >
       አንድ የኮምፒውተር ፕሮግራም አንድ የተወሰነ ሥራን እንዲሠራ የሚነግረው መመሪያ።
+  sw:
+    term: "amri"
+    def: >
+      Agizo la kuiambia programu ya kompyuta kufanya kazi maalum.
 
 - slug: command_history
   en:
@@ -2487,6 +2500,12 @@
     term: አስተያየት
     def: >
       እንደ ኮድ ተደርጎ በማይታይ ጽሁፍ የተፃፈ ጽሑፍ ይልቁንስ ኮዱን ምን እያደረገ እንዳለ የሚገልጽ ጽሑፍ።  እነዚህ ብዙውን ጊዜ አጫጭር ማስታወሻዎች ናቸው፣ ብዙ ጊዜ በ '፩' (በብዙ የፕሮግራም ቋንቋዎች) መጀመር።
+  sw:
+    term: "maoni"
+    def: >
+      Maandishi yaliyoandikwa kwa hati ambayo hayachukuliwi kama kanuni ya kutekelezwa, lakini kama
+      maandishi ambayo yanaelezea kile kanuni hufanya nini. Mara nyingi, hati hizi huwa na maelezo mafupi, 
+      yanayoanza na `#` (katika lugha nyingi za programu).
 
 - slug: commit
   en:
