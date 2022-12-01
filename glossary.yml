@@ -2602,8 +2602,7 @@
   sw:
     term: "isimu ya hesabu"
     def: >
-      Utafiti au utumiaji wa mbinu za kukokotoa na [kuchanganua](#kuchanganua) au kuelewa
-      lugha za binadamu. Mbinu za awali zilikuwa za algorithmic; mbinu nyingi za kisasa ni za takwimu.
+      Utafiti au utumiaji wa mbinu za kukokotoa na [kuchanganua](#parse) au kuelewa lugha za binadamu. Mbinu za awali zilikuwa za algorithmic; mbinu nyingi za kisasa ni za takwimu.
            
 
 - slug: computational_notebook
