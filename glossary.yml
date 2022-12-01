@@ -2597,6 +2597,14 @@
     term: የሒሳብ ልሳነ-ቋንቋ
     def: >
       ለ[ፓርስቲንግ](#parse) ወይም ለመረዳት የሂሳብ ዘዴዎች ጥናት ወይም ተግባራዊነት የሰው ልጆች ቋንቋዎች ። የመጀመሪያ አቀራረቦች አልጎሪዝሚክ ነበሩ; አብዛኞቹ ዘመናዊ አቀራረቦች አኃዛዊ መረጃዎች ናቸው.
+      
+  
+  sw:
+    term: "isimu ya hesabu"
+    def: >
+      Utafiti au utumiaji wa mbinu za kukokotoa na [kuchanganua](#kuchanganua) au kuelewa
+      lugha za binadamu. Mbinu za awali zilikuwa za algorithmic; mbinu nyingi za kisasa ni za takwimu.
+           
 
 - slug: computational_notebook
   en:
