@@ -6284,12 +6284,16 @@
       O valor médio de um conjunto de dados, mais apropriadamente conhecido como
       [média aritmética](#arithmetic_mean) para que seja distinguido da média
       [geométrica](#geometric_mean) e da [harmônica](#harmonic_mean).
-
   am:
     term: ማለት
     def: >
       የውሂብ ስብስብ አማካይ ዋጋ ፣ ይበልጥ በትክክል በትክክል "ሂሳብ" ተብሎ ይጠራል ከ [ጂኦሜትሪክ](#arithmetic_mean) ለመለየት[የሂሳብ_ማለት]#geometric_mean) እና [harmonic](#harmonic_mean) ማለት ነው።
-
+  sw:
+    term: "wastani"
+    def: >
+      Namba ya katikati kwa data.  Kuikokotoa, jumla nambari halafu gawana na nambari
+      za nambari.
+      
 - slug: mean_absolute_error
   ref:
     - mean_squared_error
@@ -9331,7 +9335,11 @@
       y la media. La [desviación estándar](#standard_deviation) se usa a menudo en
       su lugar, ya que tiene las mismas unidades que los datos, mientras que la
       varianza se expresa en unidades al cuadrado.
-
+  sw:
+    term: "achano"
+    def: >
+      Mraba ya mbali ya kawaida kutoka [wastani](#mean). Kuipata, tengua nambari na
+      wastani ya nambari hizo, halafu kokotoa wastani ya mraba.
 
 - slug: vector
   en:
