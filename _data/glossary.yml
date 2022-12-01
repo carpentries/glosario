@@ -1607,6 +1607,10 @@
       Une unité d'information ne pouvant prendre que deux valeurs, souvent désignées par les alternatives oui/non 
       ou vrai/faux. En informatique cela représente un état de 0 ou 1.
       አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡]
+  af:
+    term: bit
+    def: >
+      'n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals. Dit kan voorgestel work as 0 of 1.
   nl:
     term: bit
     def: >
@@ -1847,6 +1851,10 @@
     term: "bug"
     def: >
       Una [carasterística](#feature_software) faltante o indeseada de un software.
+  af:
+    term: bug
+    def: >
+      'n Ontbrekende of ongewenste kenmerk van 'n stuk sagteware; die digitale ekwivalent van 'n onkruid.
 
 - slug: bug_report
   en:
@@ -7246,6 +7254,10 @@
     term: "+1"
     def: >
       Un voto a favor de alguna cosa.
+  af:
+    term: :+1"
+    def: >
+      Om ten gunste van iets te stem.
 
 
 - slug: poisson_distribution
