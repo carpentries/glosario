@@ -3302,6 +3302,11 @@
     def: >
       In a computer environment 'debug' refers to the process of finding and resolving errors (also known as 'bugs') within computer programs or systems.
 
+  sw:
+    term: "utatuzi"
+    def: >
+      Katika mazingira ya kompyuta 'utatuzi' inarejelea mchakato wa kutafuta na kutatua makosa (pia hujulikana kama hitilafu) ndani ya programu au mifumo ya kompyuta.
+
 - slug: decision_tree
   ref:
     - random_forests
@@ -3346,6 +3351,11 @@
     def: >
       Uma operação unária que diminui o valor de uma variável, geralmente em um.
 
+  sw:
+    term: "kupunguza"
+    def: >
+      Operesheni isiyo ya kawaida ambayo hupunguza thamani ya kigezo, kwa kawaida kwa 1.
+      
 
 - slug: deep_learning
   en:
@@ -3358,6 +3368,13 @@
     term: ጥልቅ ትምህርት
     def: >
       የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
+      
+    sw:
+    term: "kujifunza kwa kina"
+    def: >
+      Familia ya algoriti za mtandao wa neva (#neural_network) ambazo hutumia tabaka nyingi 
+      ili kutoa vipengele katika viwango vya juu.
+      
 
 - slug: default_target
   en:
