@@ -3648,6 +3648,11 @@
     term: የጎራ እውቀት
     def: >
       ስለ አንድ የተወሰነ የችግር ጎራ መረዳትን ፣ ለምሳሌ ፣ ስለ የትራንስፖርት ሎጂስቲክስ.
+  
+  sw:
+    term: "maarifa ya kikoa"
+    def: >
+     Uelewa wa kikoa maalum, kwa mfano, ujuzi wa vifaa vya usafiri.
 
 - slug: double
   en:
@@ -3686,6 +3691,11 @@
     term: ወደታች ድምጽ መስጠት
     def: >
       በአንድ ነገር ላይ የሚደረግ ድምጽ
+      
+  sw:
+    term: "kura ya chini"
+    def: >
+      Kura dhidi ya kitu.
 
 - slug: dry
   en:
@@ -3843,6 +3853,11 @@
     term: አካባቢ
     def: >
       ተለዋዋጭ ስሞችን እና የሚጠቅሷቸውን እሴቶች የሚያከማች መዋቅር።
+      
+   sw:
+    term: "mazingira"
+    def: >
+      Muundo unaohifadhi seti ya majina tofauti na thamani wanazorejelea.
 
 - slug: error_handling
   en:
@@ -3895,6 +3910,11 @@
     term: ግምገማ
     def: >
       እንደ "1 + 2 * 3/4" ያለ አገላለጽን የመውሰድ እና የማዞር ሂደት ወደ አንድ ፣ የማይቀለበስ እሴት።
+      
+  sw:
+    term: "tathmini"
+    def: >
+      Mchakato wa kuchukua usemi kama vile `1+2*3/4` na kuugeuza kuwa thamani moja isiyoweza kupunguzwa.
 
 - slug: exception
   en:
@@ -3941,6 +3961,11 @@
     def: >
       El valor que se supone debe producir una sección de código cuando se prueba de una 
       manera determinada, o el estado en el que se supone debe dejar el sistema.
+  sw:
+    term: "matokeo yanayotarajiwa (ya majaribio)"
+    def: >
+      Thamani ambayo kipande cha programu kinatakiwa kutoa kinapojaribiwa kwa njia fulani, 
+      au hali ambayo kinatakiwa kuondoka kwenye mfumo.
 
 - slug: exploratory_programming
   en:
@@ -3959,6 +3984,11 @@
     term: ተመራማሪ መርሃግብር
     def: >
       ሶፍትዌሩ በሚጻፍበት ጊዜ መስፈርቶች ብቅ የሚሉበት ወይም የሚለወጡበት የሶፍትዌር ልማት ዘዴ ፣ ብዙውን ጊዜ ከቀደሙት ሥራዎች ለሚመጡ ውጤቶች ምላሽ ይሰጣል ፡፡
+  sw:
+    term: "programu ya uchunguzi"
+    def: >
+      Mbinu ya uundaji wa programu ambayo mahitaji huibuka au kubadilika jinsi programu inavyoandikwa, 
+      mara nyingi kwa kujibu matokeo ya uendeshaji wa mapema.
 
 - slug: export
   en:
