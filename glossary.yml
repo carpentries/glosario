@@ -2717,7 +2717,7 @@
     def: >
       የሶፍትዌሩን ፕሮግራም መስፈሪያዎች እና የመጀመሪያ አቀማመዶች የሚወስን ፋይል. ቅንብር ወይም config, ፋይሎች ብዙውን ጊዜ ለውጦች ለሚታዩበት መረጃ ጥቅም ላይ ይውላሉ, እንደ አካባቢ-የተለየ አቀማመጥ.
       
-   sw:
+  sw:
     term: "faili ya usanidi"
     def: >
       Faili inayobainisha vigezo na mipangilio ya awali ya programu. 
