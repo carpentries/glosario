@@ -3964,8 +3964,7 @@
   sw:
     term: "matokeo yanayotarajiwa (ya majaribio)"
     def: >
-      Thamani ambayo kipande cha programu kinatakiwa kutoa kinapojaribiwa kwa njia fulani, 
-      au hali ambayo kinatakiwa kuondoka kwenye mfumo.
+      Thamani ambayo kipande cha programu kinatakiwa kutoa kinapojaribiwa kwa njia fulani, au hali ambayo kinatakiwa kuondoka kwenye mfumo.
 
 - slug: exploratory_programming
   en:
@@ -3987,8 +3986,7 @@
   sw:
     term: "programu ya uchunguzi"
     def: >
-      Mbinu ya uundaji wa programu ambayo mahitaji huibuka au kubadilika jinsi programu inavyoandikwa, 
-      mara nyingi kwa kujibu matokeo ya uendeshaji wa mapema.
+      Mbinu ya uundaji wa programu ambayo mahitaji huibuka au kubadilika jinsi programu inavyoandikwa, mara nyingi kwa kujibu matokeo ya uendeshaji wa mapema.
 
 - slug: export
   en:
