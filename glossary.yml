@@ -2724,6 +2724,13 @@
     term: የቅንብር ፋይል
     def: >
       የሶፍትዌሩን ፕሮግራም መስፈሪያዎች እና የመጀመሪያ አቀማመዶች የሚወስን ፋይል. ቅንብር ወይም config, ፋይሎች ብዙውን ጊዜ ለውጦች ለሚታዩበት መረጃ ጥቅም ላይ ይውላሉ, እንደ አካባቢ-የተለየ አቀማመጥ.
+      
+  sw:
+    term: "faili ya usanidi"
+    def: >
+      Faili inayobainisha vigezo na mipangilio ya awali ya programu. Faili ya usanidi hutumiwa kwa habari  zinazobadilika mara nyingi, 
+      kama vile mipangilio iambatanayo ya mazingira.
+
 
 - slug: console
   en:
@@ -2736,6 +2743,13 @@
     term: ኮንሶል
     def: >
       አንድ ተጠቃሚ ትዕዛዞች ሊገባበት የሚችልበት የኮምፒውተር ተርሚናል ወይም እንደ ዛጎል ያለ ፕሮግራም እንዲህ ያለውን መሣሪያ የሚኮርጅ ነው።
+      
+  sw:
+    term: "koni ya kompyuta"
+    def: >
+      Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama vile shell
+      ambayo huiga kifaa kama hicho.
+      
 
 - slug: confusion_matrix
   en:
@@ -2763,6 +2777,12 @@
     def: >
       قيمة عددية ثابتة لا يمكن أن تتغير وهي عكس المتغير الذي يمكن أن يأخذ أكثر من قيمة.
 
+  sw:
+    term: "thabiti"
+    def: >-
+      Thamani ambayo haiwezi kubadilishwa baada ya kubainishwa, 
+      ukilinganisha na [kigeu](#variable_program) ambayo hubadilika.
+      
 
 - slug: constructor
   en:
@@ -2794,6 +2814,12 @@
     term: ቀጣይነት ያለው እርምጃ
     def: >
       በአሁኑ ጊዜ እየተለፈፈ ያለው ትዕዛዝ አለመሆኑን የሚያመለክት [አፋጣኝ](#prompt) ገና ሙሉ እስከሆነ ድረስ አይሮጥም
+
+  sw:
+    term: "kishawishi endelevu"
+    def: >
+       [kishawishi](#prompt) kinachoashiria kwamba amri inayochapwa kwa sasa bado haijakamilika, 
+       na itaendeshwa mara tu itakapokamilika.
 
 - slug: continuous_integration
   en:
@@ -2962,6 +2988,13 @@
     term: ማዕከላዊ ማቀነባበሪያ ክፍል
     def: >
       የማንኛውም ዲጂታል ኮምፒውተር ዋና ሃርድዌር. ሲፒዩ ነው::  መመሪያዎችን የሚተረጉም እና የሚፈፅም አስፈላጊ የኤሌክትሮኒክ ስረሰር ከሶፍትዌሩ ወይም ከሌላ ሃርድዌር የተወሰደ።በተጨማሪም ማዕከላዊ ፕሮሲሰር ተብሎ ይጠራል፤ ዋና ፕሮሲሰር ወይም ማይክሮፕሮሰሰር ::
+
+  sw:
+    term: "Central Processing Unit"
+    def: >
+      Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha
+      sakiti muhimu za kielektroniki zinazotafsiri na kutekeleza maagizo
+      kutoka kwa programu au maunzi mengine.
 
 - slug: cran
   ref:
