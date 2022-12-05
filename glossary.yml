@@ -3265,6 +3265,13 @@
     def: >
       In a computer environment 'debug' refers to the process of finding and resolving errors (also known as 'bugs') within computer programs or systems.
 
+  pt:
+    term: "depurar"
+    def: >
+      O processo de identificar e remover erros (como por exemplo erros referentes a quando se usa um programa).
+  
+
+
 - slug: decision_tree
   ref:
     - random_forests
