@@ -2736,7 +2736,7 @@
     def: >
       አንድ ተጠቃሚ ትዕዛዞች ሊገባበት የሚችልበት የኮምፒውተር ተርሚናል ወይም እንደ ዛጎል ያለ ፕሮግራም እንዲህ ያለውን መሣሪያ የሚኮርጅ ነው።
       
-    sw:
+  sw:
     term: "koni ya kompyuta"
     def: >
       Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama vile shell
@@ -2769,11 +2769,11 @@
     def: >
       قيمة عددية ثابتة لا يمكن أن تتغير وهي عكس المتغير الذي يمكن أن يأخذ أكثر من قيمة.
 
- sw:
+  sw:
     term: "thabiti"
     def: >-
       Thamani ambayo haiwezi kubadilishwa baada ya kubainishwa, 
-      ukilinganisha na [kigeu](#programu_kigeugeu) ambayo hubadilika.
+      ukilinganisha na [kigeu](#variable_program) ambayo hubadilika.
       
 
 - slug: constructor
@@ -2810,7 +2810,7 @@
   sw:
     term: "kishawishi endelevu"
     def: >
-       [kishawishi](#kishawishi) kinachoashiria kwamba amri inayochapwa kwa sasa bado haijakamilika, 
+       [kishawishi](#prompt) kinachoashiria kwamba amri inayochapwa kwa sasa bado haijakamilika, 
        na itaendeshwa mara tu itakapokamilika.
 
 - slug: continuous_integration
