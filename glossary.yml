@@ -13,7 +13,7 @@
     def: >
       Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
 
-- slug: 68_95_997_rulef
+- slug: 68_95_997_rule
   de:
     term: "68-95-99.7 Regel"
     def: >
