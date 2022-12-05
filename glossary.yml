@@ -1607,6 +1607,10 @@
       Une unité d'information ne pouvant prendre que deux valeurs, souvent désignées par les alternatives oui/non 
       ou vrai/faux. En informatique cela représente un état de 0 ou 1.
       አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡]
+  af:
+    term: bit
+    def: >
+      'n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals. Dit kan voorgestel work as 0 of 1.
   nl:
     term: bit
     def: >
@@ -1847,6 +1851,10 @@
     term: "bug"
     def: >
       Una [carasterística](#feature_software) faltante o indeseada de un software.
+  af:
+    term: bug
+    def: >
+      'n Ontbrekende of ongewenste kenmerk van 'n stuk sagteware; die digitale ekwivalent van 'n onkruid.
 
 - slug: bug_report
   en:
@@ -2130,6 +2138,11 @@
     def: >
       Eine Beziehung zwischen zwei Ereignissen oder Zuständen, wobei klar ist,
       dass es einen ursächlichen oder anlässlichen Zusammenhang zwischen den beiden gibt.
+  sw:
+    term: "Kusababisha"
+    def: >
+      Uhusiano kati ya matukio tofauti, ambapo inadaiwa kuwa tukio moja linawajibika
+      kuzalisha au kuathiri mabadiliko katika nyingine.
 
   am:
     term: causation
@@ -2370,6 +2383,10 @@
     term: መከፋፈል
     def: >
       ቡድኖቹ ራሳቸው በማይሆንበት ጊዜ መረጃዎችን በቡድን የመከፋፈል ሂደት አስቀድሞ የታወቀ ነው ።
+  sw:
+    term: "kugawanya"
+    def: >
+      Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa mapema.
 
 - slug: code_coverage
   en:
@@ -2383,7 +2400,15 @@
     term: ኮድ ሽፋን (በፈተና)
     def: >
       ፈተና ሲከናውን ምን ያህል [ቤተ መጻሕፍት](#library) ወይም ፕሮግራም ይፈፀም።  ይህ የተለመደ ነው እንደ አንድ በመቶ የኮድ መስመሮች ሪፖርት ተደርጓል ለምሳሌ, ከ 50 መስመሮች ውስጥ 40 ከሆነ አንድ ፋይል በፈተና ወቅት ይሰራል, እነዚያ ምርመራዎች 80% ኮድ ሽፋን አላቸው::
-
+      
+  sw:
+    term: "kuasisi msimbo (majaribuni)"
+    def: >
+       Ni kiasi gani [maktaba](#library) au programu imetekelezwa wakati wa majaribio. 
+       kwa mfano, ikiwa mistari 40 kati ya 50 ndani faili imetekelezwa wakati wa majaribio, 
+       majaribio hayo yana kiwango cha asilimia 80%.
+    
+  
 - slug: code_review
   en:
     term: "code review"
@@ -2434,6 +2459,10 @@
     term: ትዕዛዝ
     def: >
       አንድ የኮምፒውተር ፕሮግራም አንድ የተወሰነ ሥራን እንዲሠራ የሚነግረው መመሪያ።
+  sw:
+    term: "amri"
+    def: >
+      Agizo la kuiambia programu ya kompyuta kufanya kazi maalum.
 
 - slug: command_history
   en:
@@ -2487,6 +2516,12 @@
     term: አስተያየት
     def: >
       እንደ ኮድ ተደርጎ በማይታይ ጽሁፍ የተፃፈ ጽሑፍ ይልቁንስ ኮዱን ምን እያደረገ እንዳለ የሚገልጽ ጽሑፍ።  እነዚህ ብዙውን ጊዜ አጫጭር ማስታወሻዎች ናቸው፣ ብዙ ጊዜ በ '፩' (በብዙ የፕሮግራም ቋንቋዎች) መጀመር።
+  sw:
+    term: "maoni"
+    def: >
+      Maandishi yaliyoandikwa kwa hati ambayo hayachukuliwi kama kanuni ya kutekelezwa, lakini kama
+      maandishi ambayo yanaelezea kile kanuni hufanya nini. Mara nyingi, hati hizi huwa na maelezo mafupi, 
+      yanayoanza na `#` (katika lugha nyingi za programu).
 
 - slug: commit
   en:
@@ -2578,6 +2613,13 @@
     term: የሒሳብ ልሳነ-ቋንቋ
     def: >
       ለ[ፓርስቲንግ](#parse) ወይም ለመረዳት የሂሳብ ዘዴዎች ጥናት ወይም ተግባራዊነት የሰው ልጆች ቋንቋዎች ። የመጀመሪያ አቀራረቦች አልጎሪዝሚክ ነበሩ; አብዛኞቹ ዘመናዊ አቀራረቦች አኃዛዊ መረጃዎች ናቸው.
+      
+  
+  sw:
+    term: "isimu ya hesabu"
+    def: >
+      Utafiti au utumiaji wa mbinu za kukokotoa na [kuchanganua](#parse) au kuelewa lugha za binadamu. Mbinu za awali zilikuwa za algorithmic; mbinu nyingi za kisasa ni za takwimu.
+           
 
 - slug: computational_notebook
   en:
@@ -2624,7 +2666,10 @@
     def: >
       'n Fout of ander onverwagte gebeurtenis wat die normale vloei van beheer ontwrig.
       
-      
+  sw:
+    term: "hali"
+    def: >
+      Hitilafu au tukio lingine lisilotarajiwa ambalo linatatiza mtiririko wa kawaida wa udhibiti.
 
   am:
     term: ሁኔታ
@@ -2679,6 +2724,13 @@
     term: የቅንብር ፋይል
     def: >
       የሶፍትዌሩን ፕሮግራም መስፈሪያዎች እና የመጀመሪያ አቀማመዶች የሚወስን ፋይል. ቅንብር ወይም config, ፋይሎች ብዙውን ጊዜ ለውጦች ለሚታዩበት መረጃ ጥቅም ላይ ይውላሉ, እንደ አካባቢ-የተለየ አቀማመጥ.
+      
+  sw:
+    term: "faili ya usanidi"
+    def: >
+      Faili inayobainisha vigezo na mipangilio ya awali ya programu. Faili ya usanidi hutumiwa kwa habari  zinazobadilika mara nyingi, 
+      kama vile mipangilio iambatanayo ya mazingira.
+
 
 - slug: console
   en:
@@ -2691,6 +2743,13 @@
     term: ኮንሶል
     def: >
       አንድ ተጠቃሚ ትዕዛዞች ሊገባበት የሚችልበት የኮምፒውተር ተርሚናል ወይም እንደ ዛጎል ያለ ፕሮግራም እንዲህ ያለውን መሣሪያ የሚኮርጅ ነው።
+      
+  sw:
+    term: "koni ya kompyuta"
+    def: >
+      Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama vile shell
+      ambayo huiga kifaa kama hicho.
+      
 
 - slug: confusion_matrix
   en:
@@ -2718,6 +2777,12 @@
     def: >
       قيمة عددية ثابتة لا يمكن أن تتغير وهي عكس المتغير الذي يمكن أن يأخذ أكثر من قيمة.
 
+  sw:
+    term: "thabiti"
+    def: >-
+      Thamani ambayo haiwezi kubadilishwa baada ya kubainishwa, 
+      ukilinganisha na [kigeu](#variable_program) ambayo hubadilika.
+      
 
 - slug: constructor
   en:
@@ -2749,6 +2814,12 @@
     term: ቀጣይነት ያለው እርምጃ
     def: >
       በአሁኑ ጊዜ እየተለፈፈ ያለው ትዕዛዝ አለመሆኑን የሚያመለክት [አፋጣኝ](#prompt) ገና ሙሉ እስከሆነ ድረስ አይሮጥም
+
+  sw:
+    term: "kishawishi endelevu"
+    def: >
+       [kishawishi](#prompt) kinachoashiria kwamba amri inayochapwa kwa sasa bado haijakamilika, 
+       na itaendeshwa mara tu itakapokamilika.
 
 - slug: continuous_integration
   en:
@@ -2917,6 +2988,13 @@
     term: ማዕከላዊ ማቀነባበሪያ ክፍል
     def: >
       የማንኛውም ዲጂታል ኮምፒውተር ዋና ሃርድዌር. ሲፒዩ ነው::  መመሪያዎችን የሚተረጉም እና የሚፈፅም አስፈላጊ የኤሌክትሮኒክ ስረሰር ከሶፍትዌሩ ወይም ከሌላ ሃርድዌር የተወሰደ።በተጨማሪም ማዕከላዊ ፕሮሲሰር ተብሎ ይጠራል፤ ዋና ፕሮሲሰር ወይም ማይክሮፕሮሰሰር ::
+
+  sw:
+    term: "Central Processing Unit"
+    def: >
+      Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha
+      sakiti muhimu za kielektroniki zinazotafsiri na kutekeleza maagizo
+      kutoka kwa programu au maunzi mengine.
 
 - slug: cran
   ref:
@@ -3270,6 +3348,10 @@
     def: >
       O processo de identificar e remover erros (como por exemplo erros referentes a quando se usa um programa).
   
+  sw:
+    term: "utatuzi"
+    def: >
+      Katika mazingira ya kompyuta 'utatuzi' inarejelea mchakato wa kutafuta na kutatua makosa (pia hujulikana kama hitilafu) ndani ya programu au mifumo ya kompyuta.
 
 
 - slug: decision_tree
@@ -3316,6 +3398,11 @@
     def: >
       Uma operação unária que diminui o valor de uma variável, geralmente em um.
 
+  sw:
+    term: "kupunguza"
+    def: >
+      Operesheni isiyo ya kawaida ambayo hupunguza thamani ya kigezo, kwa kawaida kwa 1.
+      
 
 - slug: deep_learning
   en:
@@ -3328,6 +3415,13 @@
     term: ጥልቅ ትምህርት
     def: >
       የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
+      
+  sw:
+    term: "kujifunza kwa kina"
+    def: >
+      Familia ya algoriti za mtandao wa neva [neural network](#neural_network) ambazo hutumia tabaka nyingi 
+      ili kutoa vipengele katika viwango vya juu.
+      
 
 - slug: default_target
   en:
@@ -3618,6 +3712,11 @@
     term: የጎራ እውቀት
     def: >
       ስለ አንድ የተወሰነ የችግር ጎራ መረዳትን ፣ ለምሳሌ ፣ ስለ የትራንስፖርት ሎጂስቲክስ.
+  
+  sw:
+    term: "maarifa ya kikoa"
+    def: >
+      Uelewa wa kikoa maalum, kwa mfano, ujuzi wa vifaa vya usafiri.
 
 - slug: double
   en:
@@ -3656,6 +3755,11 @@
     term: ወደታች ድምጽ መስጠት
     def: >
       በአንድ ነገር ላይ የሚደረግ ድምጽ
+      
+  sw:
+    term: "kura ya chini"
+    def: >
+      Kura dhidi ya kitu.
 
 - slug: dry
   en:
@@ -3813,6 +3917,12 @@
     term: አካባቢ
     def: >
       ተለዋዋጭ ስሞችን እና የሚጠቅሷቸውን እሴቶች የሚያከማች መዋቅር።
+      
+   
+  sw:
+    term: "mazingira"
+    def: >
+      Muundo unaohifadhi seti ya majina tofauti na thamani wanazorejelea.
 
 - slug: error_handling
   en:
@@ -3865,6 +3975,11 @@
     term: ግምገማ
     def: >
       እንደ "1 + 2 * 3/4" ያለ አገላለጽን የመውሰድ እና የማዞር ሂደት ወደ አንድ ፣ የማይቀለበስ እሴት።
+      
+  sw:
+    term: "tathmini"
+    def: >
+      Mchakato wa kuchukua usemi kama vile `1+2*3/4` na kuugeuza kuwa thamani moja isiyoweza kupunguzwa.
 
 - slug: exception
   en:
@@ -3911,6 +4026,10 @@
     def: >
       El valor que se supone debe producir una sección de código cuando se prueba de una 
       manera determinada, o el estado en el que se supone debe dejar el sistema.
+  sw:
+    term: "matokeo yanayotarajiwa (ya majaribio)"
+    def: >
+      Thamani ambayo kipande cha programu kinatakiwa kutoa kinapojaribiwa kwa njia fulani, au hali ambayo kinatakiwa kuondoka kwenye mfumo.
 
 - slug: exploratory_programming
   en:
@@ -3929,6 +4048,10 @@
     term: ተመራማሪ መርሃግብር
     def: >
       ሶፍትዌሩ በሚጻፍበት ጊዜ መስፈርቶች ብቅ የሚሉበት ወይም የሚለወጡበት የሶፍትዌር ልማት ዘዴ ፣ ብዙውን ጊዜ ከቀደሙት ሥራዎች ለሚመጡ ውጤቶች ምላሽ ይሰጣል ፡፡
+  sw:
+    term: "programu ya uchunguzi"
+    def: >
+      Mbinu ya uundaji wa programu ambayo mahitaji huibuka au kubadilika jinsi programu inavyoandikwa, mara nyingi kwa kujibu matokeo ya uendeshaji wa mapema.
 
 - slug: export
   en:
@@ -6272,12 +6395,16 @@
       O valor médio de um conjunto de dados, mais apropriadamente conhecido como
       [média aritmética](#arithmetic_mean) para que seja distinguido da média
       [geométrica](#geometric_mean) e da [harmônica](#harmonic_mean).
-
   am:
     term: ማለት
     def: >
       የውሂብ ስብስብ አማካይ ዋጋ ፣ ይበልጥ በትክክል በትክክል "ሂሳብ" ተብሎ ይጠራል ከ [ጂኦሜትሪክ](#arithmetic_mean) ለመለየት[የሂሳብ_ማለት]#geometric_mean) እና [harmonic](#harmonic_mean) ማለት ነው።
-
+  sw:
+    term: "wastani"
+    def: >
+      Namba ya katikati kwa data.  Kuikokotoa, jumla nambari halafu gawana na nambari
+      za nambari.
+      
 - slug: mean_absolute_error
   ref:
     - mean_squared_error
@@ -7220,6 +7347,10 @@
     term: "+1"
     def: >
       Un voto a favor de alguna cosa.
+  af:
+    term: :+1"
+    def: >
+      Om ten gunste van iets te stem.
 
 
 - slug: poisson_distribution
@@ -9319,7 +9450,11 @@
       y la media. La [desviación estándar](#standard_deviation) se usa a menudo en
       su lugar, ya que tiene las mismas unidades que los datos, mientras que la
       varianza se expresa en unidades al cuadrado.
-
+  sw:
+    term: "achano"
+    def: >
+      Mraba ya mbali ya kawaida kutoka [wastani](#mean). Kuipata, tengua nambari na
+      wastani ya nambari hizo, halafu kokotoa wastani ya mraba.
 
 - slug: vector
   en:
