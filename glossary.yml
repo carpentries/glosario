@@ -3369,10 +3369,10 @@
     def: >
       የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
       
-    sw:
+  sw:
     term: "kujifunza kwa kina"
     def: >
-      Familia ya algoriti za mtandao wa neva (#neural_network) ambazo hutumia tabaka nyingi 
+      Familia ya algoriti za mtandao wa neva [neural network](#neural_network) ambazo hutumia tabaka nyingi 
       ili kutoa vipengele katika viwango vya juu.
       
 
