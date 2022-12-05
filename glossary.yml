@@ -8,6 +8,10 @@
     acronym: "concat"
     def: >
       Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
+  es:
+    term: "concatenar"
+    def: >
+      Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
 
 - slug: 68_95_997_rulef
   de:
@@ -312,7 +316,7 @@
       class](#parent_class) to specify operations that [child classes](#child_class)
       must provide.
   es:
-    term: "método abstrato"
+    term: "método abstracto"
     def: >
       En [programación orientada a objectos](#oop), es un [método](#method) definido pero no implementado.
       Programadores definen un método abstracto en una [superclase](#parent_class) para especificar operaciones
@@ -388,6 +392,14 @@
     term: ረቂቅ አገባብ ዛፍ
     def: >
       አወቃቀሩን የሚወክል በጥልቀት የተቀመጠ የውሂብ መዋቅር ወይም [ዛፍ](#tree)ፕሮግራም ለምሳሌ ፣ AST ሀ ን የሚወክል [መስቀለኛ መንገድ](#node) ሊኖረው ይችላል ["while` loop](#while_loop) ከአንድ [ልጅ](#child_tree) ጋር ሁኔታ እና ሌላ የ [loop አካል](#loop_body)።
+
+- slug: accuracy
+  en:
+    term: "accuracy"
+    def: >
+      Statistical measure of a classification model which gives the proportion 
+      of correct predictions among total number of cases. It is calculated as 
+      Accuracy = (TP+TN)/(TP+TN+FP+FN)
 
 - slug: actual_result
   de:
@@ -470,6 +482,10 @@
     def: >
       To combine many values into one, e.g., by summing a set of numbers or
       concatenating a set of strings.
+  tn: 
+    term: "Ditlhopha tsa boleng"
+    def: > 
+      Karolo ya boranyane bo kopane go aga ditlhophana tsa boleng jo bo rileng/ seemo se se rileng sa kitso. Sekai, e ka nna setlhopha sa mafoko a boleng jo bo tshwanang.
   es:
     term: "agregación"
     def: >
@@ -541,6 +557,10 @@
     def: >
       Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst,
       beispielsweise in einer Summe oder dem Maximalwert.
+  tn:
+    term: "Bokao/Tiriso ya ditlhopha"
+    def: >
+      Ke boranyane jwa boleng jo khompiutara/sebalamakgolo e bo balang ka go dirisa dipalo go tsentswe le kitso ya tlhomamo.
 
 - slug: agile
   en:
@@ -603,25 +623,24 @@
   es:
     term: "algoritmo"
     def: >
-      Un algortimo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
+      Un algoritmo es un conjunto de pasos, instrucciones o reglas que se han de seguir para llevar a cabo una tarea específica.
       En informática, un algoritmo es un conjunto de instrucciones en un programa informático que resuelve un problema computacional.
   fr:
     term: "algorithme"
     def: >
       Un algorithme est un ensemble d'étapes ou de règles à suivre pour réaliser une certaine tâche.
       En informatique, un algorithme est un ensemble d'instructions présentes dans un programme qui permet de résoudre un problème informatique.
+  de:
+    term: "Algorithmus"
+    def: >
+      Ein Algorithmus beschreibt eine Handlungsvorschrift, ein Verfahren oder einen Regelsatz zum Lösen eines Problems.
+      In der Informatik ist ein Algorithmus eine eindeutige, ausführbare Folge von Anweisungen endlicher Länge zur Lösung eines Problems, 
+      welche immer das gleiche Ergebnis liefern.
   ar:
     term: "خوارزمية"
     def: >
       الخوارزمية عبارة عن مجموعة من الخطوات والمقدمات أوالقواعد التي يجب اتباعها لتحقيق مهمة معين.
       في علوم الحاسب، الخوارزمية هي مجموعة من التعليمات في برنامج كمبيوتر تحل مشكلة حاسوبية.
-  de:
-    term: "Algorithmus"
-    def: >
-      Ein Algorithmus ist in der Mathematik und der IT eine Vorgehensweise um
-      Probleme zu lösen. Ein Algorithmus ist ein schrittweiser, eindeutiger
-      Plan, oft in viele kleine Abschnitte unterteilt und mit Querverweisen
-      ausgestattet, um ein spezifisches Problem zu lösen.
   el:
     term: "αλγόριθμος"
     def: >
@@ -642,6 +661,18 @@
     def: "አንድ ስልተ-ቀመር አንድን የተወሰነን ነገር ለማከናወን ሊከተሏቸው የሚገቡ እርምጃዎች ፣ ጥሰቶች ወይም ህጎች ስብስብነው
       \ አልጎሪዝም  በኮምፒተር ሳይንስ ውስጥ  የሂሳብ ችግሮችን ለመፍታት የተቀመጡ የኮምፒተር ፕሮግራም መመሪያዎች ስብስብ ነው
       \n"
+  ar:
+    term: "الخوارزمية المتحيزة"
+    def: >
+      النتائج المتكررة التي تظهر التحيز أو المعالجة المنحرفة الموجودة في
+      .[الخوارزمية](#algorithm)
+      .على سبيل المثال، قد تعطي خوارزميات وسائل التواصل الاجتماعي الأولوية أو الوسم للمحتوى الخاص بمجموعات معينة من المستخدمين
+  es:
+    term: "sesgo algorítmico"
+    def: >
+      Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado en un [algoritmo](#algorithm).
+      Por ejemplo, algoritmos de redes sociales pueden priorizar o estigmatizar contenido de ciertos grupos de usuarios.
+
 
 - slug: aliasing
   en:
@@ -660,8 +691,21 @@
       Aliasing bezeichnet die Überlappung mehrerer Deskriptoren, also z.B.
       Speicheradressen (Zeiger) oder Referenzen, die den selben Ort für ein
       Objekt, beispielsweise eine Datenstruktur, beschreiben.
+  tn:
+    term: "Melawana_tiriso"
+    def: >
+      Melawana e e salwang morago ke khompiutara/sebalamakgolo go rarabolola dikgwetlho tse di amang tiriso ya tse di mo boranyaneng.
 
 
+- slug: anaconda
+  ref:
+    - pip
+    - conda
+  en:
+    term: "Anaconda"
+    def: >
+      Anaconda is a [software distribution] (#software_distribution) of R and Python. It is also a [repository] (#repository) of open-source Python and R programs for data science, packaged using the [conda](#conda) [package manager] (#package_manager). Anaconda also creates Anaconda Navigator, a suite of desktop tools including an [IDE] (#ide) and the [Jupyter Notebook](#jupyter_notebook) application.  
+     
 - slug: anchor
   en:
     term: "anchor"
@@ -730,7 +774,7 @@
        [Python](#python)
         تسمى هذه وظائف lambda ويتم إنشاؤها من خلال استخدام كلمة lambda المتداوله.
   es:
-    term: "Función anónima"
+    term: "función anónima"
     def: >
       Es una función que no tiene asignado un nombre. Las funciones anónimas son usualmente cortas,
       y se definen en el mismo lugar donde son utilizadas, por ejemplo: en callbacks.
@@ -851,8 +895,11 @@
   es:
     term: "argumento"
     def: >
-      Un valor pasado a una función. Algunos autores usan el término como sinónimo de
-      [parámetro](#parameter) y algunos no; Todo es muy confuso.
+      El término no debe ser confundido con, ni es sinónimo de, [parámetro](#parameter).
+      Un argumento es una de posiblemente varias expresiones que son pasadas a una función.
+      Es el valor real que se pasa.
+      Parámetros y argumentos son conceptos distintos pero relacionados.
+      Los parámetros son variables y los argumentos son los valores asignados a esas variables.
   fr:
     term: "argument"
     def: >
@@ -911,7 +958,8 @@
   es:
     term: "media aritmética"
     def: >
-      Ver [media](#mean).
+      Ver [media](#mean). Calculado por un grupo de n números realizando la suma
+      de esos números y dividiendo el resultado entre n.
   af:
     term: "rekenkundige gemiddelde"
     def: >
@@ -1095,10 +1143,19 @@
     def: >
       Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk menyimpan metadata tentang
       suatu objek seperti dimensi dari array.
+  tn:
+    term: "Tlhaloso_boleng jwa dilo/diteng"
+    def: >
+      Tlhaloso ya mokgwa kana tsela ya mabeelo a kitso ka e nngwe,go lebeletswe   popego ya kitso eo.
   am:
     term: አይነታ
     def: >-
       የስም እሴት ጥንድ  ከእቃ ጋር የተዛመደ  እንደ ድርድር ልኬቶች ያሉ ነገሮች ለማከማቸት የሚጠቅም
+  es:
+    term: "atributo"
+    def: >
+      Una pareja nombre-valor asociada a un objeto, usada para almacenar metadatos sobre
+      el objeto como, por ejemplo, las dimensiones de un arreglo.
 
 - slug: auto_completion
   en:
@@ -1134,6 +1191,13 @@
     term: ራስ-ማጠናቀቅ
     def: >
       ተጠቃሚው የ TAB ቁልፍን በመጫን በፍጥነት በአጠቃቀሙ አንድ ቃል ወይም ኮድ  እንዲጨርስ ተጠቃሚው ሊመርጥበት የሚያስችል ባህሪ ነዉ;;
+  
+  es:
+    term: "auto-completar"
+    def: >
+     Funcionalidad que le permite a una persona usuaria terminar una palabra o código rapidamente 
+     pulsando la tecla TAB para que aparezca una lista de posibles palabras o códigos entre los que 
+     el usuario puede seleccionar la función que necesite.  
 
 - slug: autocorrelation
   en:
@@ -1223,7 +1287,13 @@
       auch in Zusammenarbeit mit älteren oder obsoleten Versionen eines Systems garantiert. Beispielsweise
       ist eine [Funktion](#function) in [Python](#python) 3 abwärtskompatibel, wenn diese auch in Python 2
       ausgeführt werden kann.
-
+  es:
+    term: "retrocompatible"
+    def: >
+      Una propiedad de un sistema, hardware o software, que permite la interoperabilidad
+      con un sistema heredado más antiguo, o con la entrada diseñada para un sistema así.
+      Por ejemplo, una [función](#function) escrita en [Python](#python) 3 que puede ser ejecutada exitosamente en
+      Python versión 2 es retrocompatible.
   am:
     term: ወደኋላ-ተኳሃኝ
     def: >
@@ -1386,6 +1456,13 @@
   af:
     term: "Groot Data"
     def: >
+      Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te
+      analiseer.
+  tn:
+    term: "kitso_ kgolo"
+    def: >
+      Tsamaiso e e tlhatlhobang kana e kanoka mekgwa ya ka fa kitso e ka ntshiwang ka teng.
+      Tsamaiso e,e ama go kanokowa ga kitso e ntsi e e mo ditlhopheng mme e bile go se motlhofo gore e ka kanokiwa ka tsamaiso e e tlwaelesegileng.
       Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te analiseer.
   am:
     term: ትልቅ መረጃ
@@ -1399,8 +1476,6 @@
     term: "Idatha Enkulu"
     def: >
       Noma iyiphi idatha kuze kube kamuva nje ibinkulu kakhulu ukuthi abantu abaningi basebenze ngayo kukhompuyutha eyodwa.
-  
-
 
 - slug: binary
   en:
@@ -1450,6 +1525,10 @@
     term: "expressão binária"
     def: >
       Uma expressão com dois argumentos ou parâmetros, como `1 + 2`, por exemplo.
+  tn:
+    term: "Tlhaloso ka go tlhakanya dilo tse pedi."
+    def: >
+      Ke tlhaloso e e supagalang mo diemong tse pedi.sekai...go ka tlhakanngwa bongwe le bobedi.
 
   am:
     term: ሁለትዮሽ አገላለጽ
@@ -1501,7 +1580,7 @@
   es:
     term: "bit"
     def: >
-      Unidad de información representando alternativas si/no, [verdadero](#true)/[falso](#false).
+      Unidad de información representando alternativas sí/no, [verdadero](#true)/[falso](#false).
       En computación, un estado de ser 0 ó 1.
   de:
     term: "Bit"
@@ -1514,7 +1593,10 @@
     def: >
       Sebuah unit informasi yang merepresentasikan beberapa alternatif, ya/tidak, (true)[#true]/(false)[#false]. 
       Di dalam komputasi, bit adalah 0 atau 1.
-
+  tn:
+    term: "Kitso_ potlana"
+    def: >
+      Ke selekanyo sa kitso e nnye kana e e kwa tlase. Selekanyo se sa kitso, se ka emelwa ke lefela kana bongwe.
   am:
     term: ቢት
     def: >
@@ -1525,6 +1607,10 @@
       Une unité d'information ne pouvant prendre que deux valeurs, souvent désignées par les alternatives oui/non 
       ou vrai/faux. En informatique cela représente un état de 0 ou 1.
       አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡]
+  af:
+    term: bit
+    def: >
+      'n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals. Dit kan voorgestel work as 0 of 1.
   nl:
     term: bit
     def: >
@@ -1539,7 +1625,10 @@
       an audio file. The term is also now used to refer to data transferred over a
       network or stored in a [version control](#version_control_system)
       [repository](#repository) as uninterpreted bits.
-
+  tn:
+    term: "Selekanyo sa kitso e e mo sedirisiweng se segolo"
+    def: >
+      Ke kitso e e beilweng e le mo seemong kana sedirisiweng se setona mo lefelong le le lengwe fela.
 
 - slug: block_comment
   en:
@@ -1731,6 +1820,14 @@
       A place where web browsers keep copies of previously retrieved files (web pages, data files)
       in order to save time when they're requested again. Sometimes, issues may arise if there is
       a newer version of the file online, but the browser doesn't notice it.
+  de:
+    term: "Browser-Cache"
+    def: >
+      Ein [Puffer-Speicherort](#cache) auf dem Rechner des Benutzers, an dem der Webbrowser bereits
+      abgerufene Ressourcen wie z.B. Texte und Bilder als Kopie aufbewahrt. Dadurch können Zeit und
+      Netzwerkverkehr reduziert werden, wenn die Ressourcen erneut angefragt werden. Es kann durch
+      die Verwendung des Browser-Caches jedoch auch passieren, dass veraltete Informationen angezeigt
+      werden, wenn sich die Ressourcen in der Zwischenzeit geändert haben.
 
 - slug: bug
   en:
@@ -1742,11 +1839,22 @@
     term: "Bug"
     def: >-
       Ein Bug ist ein Fehler oder Fehlfunktion einer Software.
-
+  tn:
+    term: "Mogare o o borai mo boranyaneng"
+    def: >-
+      Sengwe se se sa siamang, se le borai mo khompiutareng/sebalamakgolo. Se ka ama khompiutara/ sebalamakgolo le kitso e e mo go yone.
   am:
     term: ሳንካ
     def: >
       የአንድ ሶፍትዌር ቁራጭ የጠፋ ወይም የማይፈለግ [ባህሪ](#feature_software); የአንድ አረም ዲጂታል አቻ ፡፡ የአንድ አረም ዲጂታል አቻ ; የአንድ ሶፍትዌር ቁራጭ የጠፋ ወይም የማይፈለግ [ባህሪ](#feature_software) ፡፡
+  es:
+    term: "bug"
+    def: >
+      Una [carasterística](#feature_software) faltante o indeseada de un software.
+  af:
+    term: bug
+    def: >
+      'n Ontbrekende of ongewenste kenmerk van 'n stuk sagteware; die digitale ekwivalent van 'n onkruid.
 
 - slug: bug_report
   en:
@@ -1865,12 +1973,20 @@
     def: >-
       Ein Byte ist eine digitale Einheit, die aus acht Binärziffern oder Bits
       besteht.
+  tn:
+    term: "Selekanyetso_ kitso ya boranyane"
+    def: >-
+      Selekanyetso sa kitso ya boranyane se se agiwang ka kitso ya dipalo tse di ferang bobedi.
 
 - slug: byte_code
   en:
     term: "byte code"
     def: >
       A set of instructions designed to be executed efficiently by an [interpreter](#interpreter).
+  tn:
+    term: "Setlhopha sa melawana"
+    def: >
+      Melawana e e kaetsweng ka sekao e le mo setlhopheng go ka ntshiwa ke moranodi ka tolamo.
 
   am:
     term: ባይት ኮድ
@@ -1891,6 +2007,20 @@
     term: መሸጎጫ
     def: >
       ለወደፊቱ የሚጠየቁ ጥያቄዎች በበለጠ ፍጥነት እንዲረካ  የውሂብ ቅጅዎችን የሚያከማች ነገር :: በኮምፒተር ውስጥ ያለው ሲፒዩ ለመያዝ የሃርድዌር መሸጎጫ ይጠቀማል በቅርብ ጊዜ የተደረሱ እሴቶች; ብዙ ፕሮግራሞች ለመቀነስ በሶፍትዌር መሸጎጫ ላይ ይተማመናሉ የኔትወርክ ትራፊክ እና መዘግየት። በመሸጎጫ ውስጥ አንድ ነገር ጊዜው ያለፈበት መሆኑን ማወቅ መተካት ያለበት ከ [በኮምፒተር ሳይንስ ውስጥ ሁለት ከባድ ችግሮች] አንዱ ነው (#two_hard_problems) ፡፡
+  de:
+    term: "Cache"
+    def: >
+      Cache ist ein Pufferspeicher, der (wiederholte) Datenzugriffe und -berechnungen
+      zu vermeiden hilft. Im Cache abgelegte Daten können schneller abgerufen werden.
+      Ein Hardware-Cache wird beispielsweise in Computerprozessoren verwendet und ein
+      Beispiel für einen Software-Cache ist der [Browser-Cache](#browser_cache).
+  es:
+    term: "cache"
+    def: >
+      Algo que guarda copias de datos para que futuras consultas puedan ser respondidas más rápido.
+      El CPU de una computadora usa un cache de hardware para guardar valores recientemente accedidos;
+      muchos programas dependen de un cache de software para disminuir el tráfico y latencia de red.
+      Averiguar cuando algo en cache se ha vuelto anticuado y debe ser reemplazado es uno de los [dos problemas difíciles de la ciencia de computación](#two_hard_problems).
 
 - slug: caching
   en:
@@ -2008,6 +2138,11 @@
     def: >
       Eine Beziehung zwischen zwei Ereignissen oder Zuständen, wobei klar ist,
       dass es einen ursächlichen oder anlässlichen Zusammenhang zwischen den beiden gibt.
+  sw:
+    term: "Kusababisha"
+    def: >
+      Uhusiano kati ya matukio tofauti, ambapo inadaiwa kuwa tukio moja linawajibika
+      kuzalisha au kuathiri mabadiliko katika nyingine.
 
   am:
     term: causation
@@ -2187,6 +2322,11 @@
     term: መደብ
     def: >
       አንድ ዕቃ ከየትኛው ቅድመ ምድብ ጋር እንደሆነ የመለየት ሂደት, ለምሳሌ የኢሜይል መልዕክት የመልዕክት መልዕክት እስፓም ወይም አይደለም መወሰን. ብዙ [ማሽን መማር](#machine_learning) አልጎሪቶች የመደብ ልዩነትን ያከናውናሉ።
+  es:
+    term: "clasificación"
+    def: >
+      El proceso de identificar a que categoría predefinida pertenece un objeto, como, por ejemplo, decidir si un mensaje de correo electrónico es spam o no.
+      Muchos algoritmos de [machine learning](#machine_learning) realizan clasificación.
 
 - slug: cli
   en:
@@ -2243,6 +2383,10 @@
     term: መከፋፈል
     def: >
       ቡድኖቹ ራሳቸው በማይሆንበት ጊዜ መረጃዎችን በቡድን የመከፋፈል ሂደት አስቀድሞ የታወቀ ነው ።
+  sw:
+    term: "kugawanya"
+    def: >
+      Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa mapema.
 
 - slug: code_coverage
   en:
@@ -2256,7 +2400,15 @@
     term: ኮድ ሽፋን (በፈተና)
     def: >
       ፈተና ሲከናውን ምን ያህል [ቤተ መጻሕፍት](#library) ወይም ፕሮግራም ይፈፀም።  ይህ የተለመደ ነው እንደ አንድ በመቶ የኮድ መስመሮች ሪፖርት ተደርጓል ለምሳሌ, ከ 50 መስመሮች ውስጥ 40 ከሆነ አንድ ፋይል በፈተና ወቅት ይሰራል, እነዚያ ምርመራዎች 80% ኮድ ሽፋን አላቸው::
-
+      
+  sw:
+    term: "kuasisi msimbo (majaribuni)"
+    def: >
+       Ni kiasi gani [maktaba](#library) au programu imetekelezwa wakati wa majaribio. 
+       kwa mfano, ikiwa mistari 40 kati ya 50 ndani faili imetekelezwa wakati wa majaribio, 
+       majaribio hayo yana kiwango cha asilimia 80%.
+    
+  
 - slug: code_review
   en:
     term: "code review"
@@ -2319,6 +2471,12 @@
   term: "iussum"
   def: > ordo vel edictum
 
+  sw:
+    term: "amri"
+    def: >
+      Agizo la kuiambia programu ya kompyuta kufanya kazi maalum.
+
+
 - slug: command_history
   en:
     term: "command history"
@@ -2363,11 +2521,20 @@
       Texto escrito em um script que não é tratado como código a ser executado, e sim
       como texto que descreve o que o código está fazendo. Normalmente é formado por
       notas curtas, frequentemente começando com um `#` (em várias linguagens de programação).
-
+  de:
+    term: "Kommentar"
+    def: >
+      Anmerkungen in einem Programmcode oder Skript, die nicht vom Computer interpretiert oder ausgeführt werden. Kommentare dienen der Leserlichkeit und Dokumentation für Nutzer des Skripts. In vielen Programmiersprache werden Kommentare mit '#' am Zeilenanfang eingeleitet.
   am:
     term: አስተያየት
     def: >
       እንደ ኮድ ተደርጎ በማይታይ ጽሁፍ የተፃፈ ጽሑፍ ይልቁንስ ኮዱን ምን እያደረገ እንዳለ የሚገልጽ ጽሑፍ።  እነዚህ ብዙውን ጊዜ አጫጭር ማስታወሻዎች ናቸው፣ ብዙ ጊዜ በ '፩' (በብዙ የፕሮግራም ቋንቋዎች) መጀመር።
+  sw:
+    term: "maoni"
+    def: >
+      Maandishi yaliyoandikwa kwa hati ambayo hayachukuliwi kama kanuni ya kutekelezwa, lakini kama
+      maandishi ambayo yanaelezea kile kanuni hufanya nini. Mara nyingi, hati hizi huwa na maelezo mafupi, 
+      yanayoanza na `#` (katika lugha nyingi za programu).
 
 - slug: commit
   en:
@@ -2459,6 +2626,13 @@
     term: የሒሳብ ልሳነ-ቋንቋ
     def: >
       ለ[ፓርስቲንግ](#parse) ወይም ለመረዳት የሂሳብ ዘዴዎች ጥናት ወይም ተግባራዊነት የሰው ልጆች ቋንቋዎች ። የመጀመሪያ አቀራረቦች አልጎሪዝሚክ ነበሩ; አብዛኞቹ ዘመናዊ አቀራረቦች አኃዛዊ መረጃዎች ናቸው.
+      
+  
+  sw:
+    term: "isimu ya hesabu"
+    def: >
+      Utafiti au utumiaji wa mbinu za kukokotoa na [kuchanganua](#parse) au kuelewa lugha za binadamu. Mbinu za awali zilikuwa za algorithmic; mbinu nyingi za kisasa ni za takwimu.
+           
 
 - slug: computational_notebook
   en:
@@ -2485,6 +2659,14 @@
       for [machine learning][#machine_learning], simulations, and other fields which benifit
       from parallel computation.
 
+- slug: conda
+  ref:
+    - pip
+    - anaconda
+  en:
+    term: "conda"
+    def: >
+      A [package manager] (#package_manager) and environment management system, particularly popular for Python programs.
 - slug: condition
   ref:
     - handle_condition
@@ -2497,7 +2679,10 @@
     def: >
       'n Fout of ander onverwagte gebeurtenis wat die normale vloei van beheer ontwrig.
       
-      
+  sw:
+    term: "hali"
+    def: >
+      Hitilafu au tukio lingine lisilotarajiwa ambalo linatatiza mtiririko wa kawaida wa udhibiti.
 
   am:
     term: ሁኔታ
@@ -2534,6 +2719,11 @@
     term: በራስ የመተማመን ጊዜ
     def: >
       የስህተቱን ኅዳግ ከሚጠቁም ግምት ዙሪያ የሚገኝ ክልል፣ ከa ጋር ተደምሮ ትክክለኛው ዋጋ በዚህ ክልል ውስጥ የመውደቁ አጋጣሚ ሰፊ ነው።
+      
+  ar:
+    term: "فترة الثقة"
+    def: >
+      فترة الثقة تتكون من التقدير المعلمة وهامش الخطأ, وهي الفترة التي نثق بأن قيمة التقدير تكون داخل هذه الفترة
 
 - slug: configuration file
   en:
@@ -2547,6 +2737,13 @@
     term: የቅንብር ፋይል
     def: >
       የሶፍትዌሩን ፕሮግራም መስፈሪያዎች እና የመጀመሪያ አቀማመዶች የሚወስን ፋይል. ቅንብር ወይም config, ፋይሎች ብዙውን ጊዜ ለውጦች ለሚታዩበት መረጃ ጥቅም ላይ ይውላሉ, እንደ አካባቢ-የተለየ አቀማመጥ.
+      
+  sw:
+    term: "faili ya usanidi"
+    def: >
+      Faili inayobainisha vigezo na mipangilio ya awali ya programu. Faili ya usanidi hutumiwa kwa habari  zinazobadilika mara nyingi, 
+      kama vile mipangilio iambatanayo ya mazingira.
+
 
 - slug: console
   en:
@@ -2559,6 +2756,24 @@
     term: ኮንሶል
     def: >
       አንድ ተጠቃሚ ትዕዛዞች ሊገባበት የሚችልበት የኮምፒውተር ተርሚናል ወይም እንደ ዛጎል ያለ ፕሮግራም እንዲህ ያለውን መሣሪያ የሚኮርጅ ነው።
+      
+  sw:
+    term: "koni ya kompyuta"
+    def: >
+      Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama vile shell
+      ambayo huiga kifaa kama hicho.
+      
+
+- slug: confusion_matrix
+  en:
+    term: "confusion matrix"
+    def: >
+      A NxN matrix that describes the performance of a classification model, where N is the number 
+      of classes or outputs. Each row in the matrix represents the instances of actual classes and each column 
+      represents the predicted classes. For a binary classification model the confusion matrix 
+      gives the True Positives (TP), False Negatives (FN), False Positives (FP) and True Negatives 
+      (TN) in the 1st, 2nd, 3rd and 4th quadrants, respectively. The table can be used to calculate 
+      Accuracy, Sensitivity and Specificity amongst other measures of the model.
 
 - slug: constant
   en:
@@ -2570,7 +2785,17 @@
     term: "constante"
     def: >
       Une valeur qui ne peut pas être modifiée après avoir été définie, par opposition à une [variable](#variable_program).
+  ar:
+    term: "الثابت"
+    def: >
+      قيمة عددية ثابتة لا يمكن أن تتغير وهي عكس المتغير الذي يمكن أن يأخذ أكثر من قيمة.
 
+  sw:
+    term: "thabiti"
+    def: >-
+      Thamani ambayo haiwezi kubadilishwa baada ya kubainishwa, 
+      ukilinganisha na [kigeu](#variable_program) ambayo hubadilika.
+      
 
 - slug: constructor
   en:
@@ -2602,6 +2827,12 @@
     term: ቀጣይነት ያለው እርምጃ
     def: >
       በአሁኑ ጊዜ እየተለፈፈ ያለው ትዕዛዝ አለመሆኑን የሚያመለክት [አፋጣኝ](#prompt) ገና ሙሉ እስከሆነ ድረስ አይሮጥም
+
+  sw:
+    term: "kishawishi endelevu"
+    def: >
+       [kishawishi](#prompt) kinachoashiria kwamba amri inayochapwa kwa sasa bado haijakamilika, 
+       na itaendeshwa mara tu itakapokamilika.
 
 - slug: continuous_integration
   en:
@@ -2667,12 +2898,21 @@
       Hoe sterk twee veranderlikes met mekaar ooreenstem. Korrelasie word gewoonlik gemeet aan
       die berekening van 'n [korrelasiekoëffisiënt](#correlation_coefficient), maar
       impliseer nie oorsaaklikheid.
-
+  fr:  
+    term: "corrélation"
+    def: >
+      Mesure à quel point deux variables sont en accord l'une avec l'autre. La corrélation 
+      est habituellement mesurée en calculant un [coefficient de corrélation](#correlation_coefficient)
+      et n'implique pas nécessairement un lien de [causalité](#causation).
   am:
     term: ተዛማጅነት
     def: >
       ሁለት መለዋወጫዎች እርስ በርስ ምን ያህል እንደሚስማሙ የሚያሳይ ልኬት ነዉ። ተዛማጅነት አብዛኛውን ጊዜ የሚለካው አንድን [የዝምድና ቅንጅት](#correlation_coefficient) ማስላት፣ እናም አይደለም [#ምክንያት](#causation) ማለት ነው።
-
+  ar:
+    term: "constant"
+    def: >
+      مقياس يوضح مدى ارتباط وقوةالعلاقة بين متغيرين ويتم حسابه بايجاد قيمة معامل الارتباط الذي تترواح قيمته بين 1-و +1.
+      
 - slug: correlation_coefficient
   en:
     term: "correlation coefficient"
@@ -2698,12 +2938,21 @@
       dui dit aan dat X die perfekte voorspelling van Y is. As die korrelasiekoëffisiënt
       0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0 is, dan voorspel
       X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde verandering in Y.
-
   am:
     term: የግንኙነት መጠን
     def: >
       ሁለት ተለዋዋጮች ምን ያህል በጥሩ ሁኔታ [[ተዛማጅ](#correlation) ልኬት ናቸው። ከሆነ እ.ኤ.አ. በ ኤክስ እና በ ዋይ መካከል [ትስስር Coefficient](#correlation_coefficient) 1.0 ፣ ኤክስን ማወቅ የ ዋይ ን ፍጹም ትንበያ ይፈቅዳል ፡፡ የግንኙነቱ መጠን 0.0 ከሆነ ፣ ኤክስ ን ማወቅ ስለ ዋይ ምንም አይነግርዎትም ፣ እና -1.0 ከሆነ ፣ ከዚያ ኤክስ ይተነብያል ፣ ግን የ ኤክስ ለውጥ በ ‹ዋይ› ተቃራኒ ለውጥ ያስከትላል ፡፡
-
+  fr:  
+    term: "coefficient de corrélation"
+    def: >
+      Une mesure de la [corrélation](#correlation) entre deux variables. 
+      Si le [coefficient de corrélation](#correlation_coefficient) entre X et Y vaut 1.0,
+      alors connaître X permet de connaître parfaitement Y. 
+      Si le [coefficient de corrélation](#correlation_coefficient) vaut 0.0,
+      alors connaître X ne nous dit rien sur Y.
+      Enfin, si le [coefficient de corrélation](#correlation_coefficient) vaut -1.0, 
+      alors X permet de prédire Y, mais un changement en X cause un changement opposé sur Y.
+      
 - slug: covariance
   en:
     term: "covariance"
@@ -2721,11 +2970,16 @@
       Hoe goed twee veranderlikes met mekaar ooreenstem. Die
       [korrelasiekoëffisiënt](#correlation_coefficient)
       is 'n genormaliseerde maatstaf vir kovariansie.
-
   am:
     term: መለዋወጥ
     def: >
       ሁለት ተለዋዋጮች እርስ በእርሳቸው እንዴት እንደተስማሙ ። ግንኙነቱ ትስስር](#correlation_coefficient) መደበኛ የሆነ የመለዋወጥ ልኬት ነው።
+  fr:
+    term: "covariance"
+    def: >
+      Mesure à quel point deux variables sont en accord l'une avec l'autre.
+      Le [coefficient de corrélation](#correlation_coefficient) est une mesure 
+      normalisée de la covariance.
 
 - slug: cpu
   ref:
@@ -2738,11 +2992,22 @@
       essential electronic circuitry that interprets and executes instructions
       from the software or other hardware. Also called a central processor,
       main processor, or microprocessor.
+  de:
+    term: "Prozessor"
+    def: >
+      Die zentrale Recheneinheit eines jeden digitalen Computers. Der Prozessor ist eine elektronische Schaltung, die anhand von übergebenen Befehlen andere Maschinen oder elektrische Schaltungen steuert und Rechenoperationen ausführt. Wird auch als Hauptprozessor, Zentrale Recheneinheit, Zentraleinheit oder Zentrale Verarbeitungseinheit (kurz ZVE, englisch central processing unit, kurz CPU) bezeichnet.
 
   am:
     term: ማዕከላዊ ማቀነባበሪያ ክፍል
     def: >
       የማንኛውም ዲጂታል ኮምፒውተር ዋና ሃርድዌር. ሲፒዩ ነው::  መመሪያዎችን የሚተረጉም እና የሚፈፅም አስፈላጊ የኤሌክትሮኒክ ስረሰር ከሶፍትዌሩ ወይም ከሌላ ሃርድዌር የተወሰደ።በተጨማሪም ማዕከላዊ ፕሮሲሰር ተብሎ ይጠራል፤ ዋና ፕሮሲሰር ወይም ማይክሮፕሮሰሰር ::
+
+  sw:
+    term: "Central Processing Unit"
+    def: >
+      Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha
+      sakiti muhimu za kielektroniki zinazotafsiri na kutekeleza maagizo
+      kutoka kwa programu au maunzi mengine.
 
 - slug: cran
   ref:
@@ -3085,6 +3350,17 @@
     def: >
       ለአነስተኛ መጠን [የመረጃ ምህንድስና](#data_engineering) የትብብር ስም።
 
+- slug: debug
+  en:
+    term: "debug"
+    def: >
+      In a computer environment 'debug' refers to the process of finding and resolving errors (also known as 'bugs') within computer programs or systems.
+
+  sw:
+    term: "utatuzi"
+    def: >
+      Katika mazingira ya kompyuta 'utatuzi' inarejelea mchakato wa kutafuta na kutatua makosa (pia hujulikana kama hitilafu) ndani ya programu au mifumo ya kompyuta.
+
 - slug: decision_tree
   ref:
     - random_forests
@@ -3129,6 +3405,11 @@
     def: >
       Uma operação unária que diminui o valor de uma variável, geralmente em um.
 
+  sw:
+    term: "kupunguza"
+    def: >
+      Operesheni isiyo ya kawaida ambayo hupunguza thamani ya kigezo, kwa kawaida kwa 1.
+      
 
 - slug: deep_learning
   en:
@@ -3141,6 +3422,13 @@
     term: ጥልቅ ትምህርት
     def: >
       የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
+      
+  sw:
+    term: "kujifunza kwa kina"
+    def: >
+      Familia ya algoriti za mtandao wa neva [neural network](#neural_network) ambazo hutumia tabaka nyingi 
+      ili kutoa vipengele katika viwango vya juu.
+      
 
 - slug: default_target
   en:
@@ -3289,6 +3577,11 @@
     term: መዝገበ-ቃላት
     def: >
       ዕቃዎችን በእሴት እንዲመለከቱ የሚያስችላቸው የውሂብ አወቃቀር ፣ አንዳንድ ጊዜ [associative array](#associative_array) ይባላል። መዝገበ ቃላት ብዙውን ጊዜ [hash tables](#hash_table) በመጠቀም ይተገበራሉ ፡፡
+  es:
+    term: "diccionario"
+    def: >
+      Una estructura de datos que contiene parejas llave-valor, a veces llamados [arreglos asociativos](#associative_array).
+      Los diccionarios en ocasiones son implementados usando [tablas hash](#hash_table).
 
 - slug: dimension_reduction
   ref:
@@ -3310,7 +3603,11 @@
     def: >
       An item within a [filesystem](#filesystem) that can contain files and other
       directories. Also known as a [folder](#folder).
-
+  es:
+    term: "directorio"
+    def: >
+      Un objeto dentro de un [sistema de archivos](#filesystem) que contiene archivos y otros directorios.
+      También conocido como un [folder](#folder).
 
 - slug: discrete_random_variable
   ref:
@@ -3422,6 +3719,11 @@
     term: የጎራ እውቀት
     def: >
       ስለ አንድ የተወሰነ የችግር ጎራ መረዳትን ፣ ለምሳሌ ፣ ስለ የትራንስፖርት ሎጂስቲክስ.
+  
+  sw:
+    term: "maarifa ya kikoa"
+    def: >
+      Uelewa wa kikoa maalum, kwa mfano, ujuzi wa vifaa vya usafiri.
 
 - slug: double
   en:
@@ -3460,6 +3762,11 @@
     term: ወደታች ድምጽ መስጠት
     def: >
       በአንድ ነገር ላይ የሚደረግ ድምጽ
+      
+  sw:
+    term: "kura ya chini"
+    def: >
+      Kura dhidi ya kitu.
 
 - slug: dry
   en:
@@ -3617,6 +3924,12 @@
     term: አካባቢ
     def: >
       ተለዋዋጭ ስሞችን እና የሚጠቅሷቸውን እሴቶች የሚያከማች መዋቅር።
+      
+   
+  sw:
+    term: "mazingira"
+    def: >
+      Muundo unaohifadhi seti ya majina tofauti na thamani wanazorejelea.
 
 - slug: error_handling
   en:
@@ -3669,6 +3982,11 @@
     term: ግምገማ
     def: >
       እንደ "1 + 2 * 3/4" ያለ አገላለጽን የመውሰድ እና የማዞር ሂደት ወደ አንድ ፣ የማይቀለበስ እሴት።
+      
+  sw:
+    term: "tathmini"
+    def: >
+      Mchakato wa kuchukua usemi kama vile `1+2*3/4` na kuugeuza kuwa thamani moja isiyoweza kupunguzwa.
 
 - slug: exception
   en:
@@ -3715,6 +4033,10 @@
     def: >
       El valor que se supone debe producir una sección de código cuando se prueba de una 
       manera determinada, o el estado en el que se supone debe dejar el sistema.
+  sw:
+    term: "matokeo yanayotarajiwa (ya majaribio)"
+    def: >
+      Thamani ambayo kipande cha programu kinatakiwa kutoa kinapojaribiwa kwa njia fulani, au hali ambayo kinatakiwa kuondoka kwenye mfumo.
 
 - slug: exploratory_programming
   en:
@@ -3733,6 +4055,10 @@
     term: ተመራማሪ መርሃግብር
     def: >
       ሶፍትዌሩ በሚጻፍበት ጊዜ መስፈርቶች ብቅ የሚሉበት ወይም የሚለወጡበት የሶፍትዌር ልማት ዘዴ ፣ ብዙውን ጊዜ ከቀደሙት ሥራዎች ለሚመጡ ውጤቶች ምላሽ ይሰጣል ፡፡
+  sw:
+    term: "programu ya uchunguzi"
+    def: >
+      Mbinu ya uundaji wa programu ambayo mahitaji huibuka au kubadilika jinsi programu inavyoandikwa, mara nyingi kwa kujibu matokeo ya uendeshaji wa mapema.
 
 - slug: export
   en:
@@ -3819,7 +4145,7 @@
     term: ሐሰተኛ
     def: >
       በ [ቦሊያን](#false) አውድ ውስጥ ወደ [ሐሰት](#boolean) መገምገም።
-
+      
 - slug: faq
   en:
     term: "Frequently Asked Questions"
@@ -3832,6 +4158,34 @@
     def: >
       ስለ አንድ ርዕሰ ጉዳይ በተለምዶ የሚጠየቁ የተጠናቀሩ የጥያቄዎች ዝርዝር በመልሶች ::
 
+- slug: fasta
+  en:
+    term: "FASTA"
+    def: >
+      A file format for storing amino acid or genomic sequence information. 
+      Information for each sequence is broken up into a block of 2 lines. Line 1 contains 
+      information about the sequence and begins with a greater than symbol, ‘>’. Line 2 
+      contains the actual amino acid or genomic sequence using single-letter codes. 
+      
+- slug: fastq
+  en:
+    term: "FASTQ"
+    def: >
+      A file format for storing genomic sequence information and the corresponding quality scores. 
+      Information for each sequence is broken up into a block of four lines. Line 1 contains information about
+      the sequence and begins with ‘@’. Line 2 contains the actual genomic sequence using single-letter codes to 
+      represent nucleotides. Line 3 is a separator that begins with a `+`. Line 4 has a string of 
+      quality characters for each base in the genomic sequence. 
+
+- slug: feature
+  en:
+    term: "Feature"
+    def: >
+      An individual characteristic or property of a phenomenon that is measurable 
+      (e.g. length, height, number of petals) and used as the input to a model.  
+      Finding or selecting features that are highly independent and discriminatory 
+      is a fundamental part of classification.
+      
 - slug: feature_branch
   ref:
     - master_branch
@@ -4487,7 +4841,10 @@
     term: "전역 변수"
     def: >
       소스 코드 상의 모든 곳에서 접근할 수 있는 변수.
-
+  hr:
+    term: "globalna varijabla"
+    def: >
+      Varijabla definirana izvan bilo koje određene funkcije, koja je stoga vidljiva svim funkcijama.
   am:
     term: ዓለም አቀፍ ተለዋዋጭ
     def: 'ከማንኛውም የተለየ ተግባር ወይም [ጥቅል](#package) የስም ቦታ ውጭ የተገለጸ ተለዋዋጭ ፣ ስለሆነም የሚታየው
@@ -5074,6 +5431,15 @@
     def: >
       አንድ ሲስተም ሲስተም አካላት በትክክል መሥራታቸውን የሚያረጋግጥ ሙከራ።
 
+- slug: interface
+  en:
+    term: "interface"
+    def: >
+      A ubiquitously used phrase in computing that describes a point of contact. This could be
+      a user interface (e.g. [graphical user interface](#gui) or [command line](#cli)), the 
+      interface of an [object](#object) with the rest of the [code](#source_code) or how a 
+      program can interact with web services through an [API](#api).
+
 - slug: interpreted_language
   en:
     term: "interpreted language"
@@ -5475,6 +5841,10 @@
     term: ቤተ መጻሕፍት
     def: >
       እንደገና ጥቅም ላይ ሊውል የሚችል ሶፍትዌር [ጥቅል](#package) ፣ ብዙውን ጊዜ [ሞዱል](#module) ተብሎም ይጠራል።
+  de:
+    term: "Bibliothek"
+    def: >
+      Ein wiederverwendbares [Softwarepaket](#package), oft auch [Modul] (#module) genannt.
 
 - slug: license
   en:
@@ -5486,6 +5856,12 @@
     term: ፈቃድ
     def: >
       አንድ ነገር እንዴት ጥቅም ላይ እንደሚውል የሚገልጽ የሕግ ሰነድ ፣ እና በማን ፡፡
+      
+  de:
+    term: "Lizenz"
+    def: >
+      Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und von wem.
+      
 
 - slug: lifecycle
   en:
@@ -5615,6 +5991,16 @@
     term: "programmation lettrée"
     def: >
       Une approche de la programmation qui mélange langage naturel (prose) et code.
+  de:
+    term: "literarisches Programmieren"
+    def: >
+      Ein Programmierparadigma, dass Dokumentation und Programmkode in einer
+      gemeinsamen Datei handelt.
+  es:
+    term: "programación literaria"
+    def: >
+      Un paradigma de programación que combina código y documentación en un solo
+      archivo.
 
   am:
     term: ማንበብና መጻፍ መርሃግብር
@@ -5798,11 +6184,20 @@
     term: "loop body"
     def: >
       The statement or statements executed by a loop.
-
   am:
     term: የሉፍ አካል
     def: >
       በሉፕ የተተገበረው መግለጫ ወይም መግለጫዎች።
+      
+- slug: lsof
+  en:
+    term: "lsof"
+    def: >
+      UNIX command to see the list of open files being used by [processes](#process). 
+  es:
+    term: "lsof"
+    def: >
+      Comando en UNIX para ver la lista de archivos abiertos siendo utilizados por [procesos](#process).
 
 - slug: machine_learning
   en:
@@ -6007,12 +6402,16 @@
       O valor médio de um conjunto de dados, mais apropriadamente conhecido como
       [média aritmética](#arithmetic_mean) para que seja distinguido da média
       [geométrica](#geometric_mean) e da [harmônica](#harmonic_mean).
-
   am:
     term: ማለት
     def: >
       የውሂብ ስብስብ አማካይ ዋጋ ፣ ይበልጥ በትክክል በትክክል "ሂሳብ" ተብሎ ይጠራል ከ [ጂኦሜትሪክ](#arithmetic_mean) ለመለየት[የሂሳብ_ማለት]#geometric_mean) እና [harmonic](#harmonic_mean) ማለት ነው።
-
+  sw:
+    term: "wastani"
+    def: >
+      Namba ya katikati kwa data.  Kuikokotoa, jumla nambari halafu gawana na nambari
+      za nambari.
+      
 - slug: mean_absolute_error
   ref:
     - mean_squared_error
@@ -6143,6 +6542,13 @@
     term: MIME ዓይነት
     def: >
       በይነመረቡ ላይ የፋይሎችን ይዘት ለመለየት መደበኛ መንገድ። ቃሉ አንድ ነው የ "ሁለገብ በይነመረብ መልእክት ማራዘሚያ" ምህፃረ ቃል ፣ እና MIME ዓይነቶች ብዙ ጊዜ ናቸው እንደ".png` ለ"በ [የፋይል ስም ቅጥያዎች](#filename_extension) ተለይቷል በ PNG የተቀረጹ ምስሎች።
+
+- slug: minimum_spanning_tree
+  en:
+    term: "minimum spanning tree"
+    acronym: "MST"
+    def: >
+      A minimum spanning tree is a data structure that describes the unique set of [edges](#edge) that connect all of the [nodes](#node) in a [graph](#graph) while minimizing the weights of all included [edges](#edge). The minimum spanning tree may refer to either the algorithm to calculate the structure or the resulting structure itself. 
 
 - slug: missing_value
   en:
@@ -6950,6 +7356,10 @@
     term: "+1"
     def: >
       Un voto a favor de alguna cosa.
+  af:
+    term: :+1"
+    def: >
+      Om ten gunste van iets te stem.
 
 
 - slug: poisson_distribution
@@ -7892,8 +8302,11 @@
     term: "saadjie"
     def: >
       'n Waarde wat gebruik word om 'n [pseudolukrakenommergenereerder](#prng) te begin.
+  es:
+    term: "semilla"
+    def: >
+      Un valor utilizado para inicializar un [generador de números pseudoaleatorios](#prng).
       
-
 - slug: select
   en:
     term: "select"
@@ -7937,6 +8350,14 @@
     term: "sense vote"
     def: >
       A preliminary vote used to determine whether further discussion is needed in a meeting.
+
+- slug: sensitivity
+  en:
+    term: "sensitivity"
+    def: >
+      Statistical measure of a classification model which gives the True Positive rate. For 
+      example, the proportion of people who have a disease that test positive. Calculated 
+      as Sensitivity = TP/(TP+FN).
 
 - slug: sequential_data
   en:
@@ -8168,6 +8589,14 @@
       A [software distribution](#software_distribution) that includes the source code,
       typically so that programs can be recompiled on the target computer when they
       are installed.
+
+- slug: specificity
+  en:
+    term: "specificity"
+    def: >
+      Statistical measure of a classification model which gives the False Negative rate. 
+      For example, the proportion of people who do not have a disease that test negative. 
+      Calculated as Specificity = TN/(TN+FP).
 
 - slug: spectral analysis 
   ref:
@@ -8412,7 +8841,10 @@
       A [machine learning](#machine_learning) algorithm in which a system is taught to
       [classify](#classification) values given [training data](#training_data) containing
       previously-classified values.
-
+  es:
+    term: "aprendizaje supervisado"
+    def: >
+      Tipo de algoritmos en los que el sistema aprende patrones a partir de [datos de entrenamiento](#training_data) anotados/etiquetados.
 
 - slug: svm
   en:
@@ -8739,6 +9171,10 @@
     term: "true negative"
     def: >
       Data points which are actually [false](#false) and correctly predicted as [false](#false).
+  es:
+    term: "verdadero negativo"
+    def: >
+      Resultado en el que el valor real es [negativo](#false) y es correctamente predicho como [negativo](#false).
 
 
 - slug: true_positive
@@ -8752,6 +9188,10 @@
     term: "true positive"
     def: >
       Data points which are actually [true](#true) and correctly predicted as [true](#true).
+  es:
+    term: "verdadero positivo"
+    def: >
+      Resultado en el que el valor real es [verdadero](#true) y es correctamente predicho como [verdadero](#true).
 
 
 - slug: truthy
@@ -8805,6 +9245,10 @@
     term: "unary expression"
     def: >
       An expression with one argument, such as `log 5`.
+  es:
+    term: "expresión unaria"
+    def: >
+      Una expresión con un único argumento, como `log 5`.
 
 
 - slug: unicode
@@ -8835,7 +9279,21 @@
     def: >
       A test that exercises one function or feature of a piece of software and
       produces [pass](#pass_test), [fail](#fail_test), or [error](#error_test).
-
+      
+- slug: unix
+  ref:
+    - operating_system
+  en:
+    term: "UNIX"
+    def: >
+      UNIX is a family of [operating systems](#operating_system) developed during
+      1969 at AT&T Bell Labs. Its main features are simple tools, well-defined functionality
+      and being portable by nature.
+  es:
+    term: "UNIX"
+    def: >
+      UNIX es una familia de [sistemas operativos](#operating_system) desarrollada en 1969 en AT&T Bell Labs.
+      Sus principales características son herramientas sencillas, funcionalidad bien definida y portabilidad.
 
 - slug: unsupervised_learning
   ref:
@@ -8846,7 +9304,10 @@
     def: >
       Algorithms that [cluster](#clustering) data without knowing in advance what the
       groups will be.
-
+  es:
+    term: "aprendizaje no supervisado"
+    def: >
+      Un tipo de algoritmos que aprenden patrones a partir de datos sin anotar/etiquetar.
 
 - slug: up_vote
   ref:
@@ -8895,7 +9356,13 @@
       Platform for interaction between a user and a machine. The interaction may occur via text 
       (a [command line interface](#cli)), graphics and windows (a [graphical user interface](#gui)), 
       or other methods such as voice-driven interfaces.
-
+  es:
+    term: "interfaz de usuario"
+    def: >
+      Plataforma para la interacción entre un usuario y una máquina.
+      Una interacción puede ocurrir mediante texto (una [interfaz de línea de comandos](#cli)),
+      gráficamente y con ventanas (una [interfaz gráfica de usuario](#gui)),
+      u otros métodos tal como interfaces manejadas por voz.
 
 - slug: utf_8
   en:
@@ -8992,7 +9459,11 @@
       y la media. La [desviación estándar](#standard_deviation) se usa a menudo en
       su lugar, ya que tiene las mismas unidades que los datos, mientras que la
       varianza se expresa en unidades al cuadrado.
-
+  sw:
+    term: "achano"
+    def: >
+      Mraba ya mbali ya kawaida kutoka [wastani](#mean). Kuipata, tengua nambari na
+      wastani ya nambari hizo, halafu kokotoa wastani ya mraba.
 
 - slug: vector
   en:
@@ -9064,7 +9535,10 @@
     def: >
       A long-form guide used to provide details of a [package](#package) beyond the README.md or
       function documentation.
-
+  es:
+    term: "viñeta"
+    def: >
+      Una guía de formato extenso utilizada para proporcionar detalles de un [paquete](#package) más allá del README.md o de la documentación de una función.
 
 - slug: vim
   en:
@@ -9073,6 +9547,12 @@
       The default text editor on Unix. Vim is a very powerful text editor, with a steeper
       learning curve than [nano](#nano_editor), but that allows the user to execute shell
       commands and use [regular expressions](#regular_expression) to alter files programmatically.
+  es:
+    term: "Vim (editor)"
+    def: >
+      El editor de texto por defecto en Unix. Vim es un poderoso editor de texto
+      que permite al usuario ejecutar comandos de shell y usar [expresiones regulares](#regular_expression) para
+      editar archivos programáticamente.
 
 
 - slug: virtual_environment
@@ -9084,7 +9564,12 @@
       and versions of packages you want to use for a particular project or task, and
       to install new packages into the environment without affecting other virtual
       environments, or the system-wide default environment.
-
+  es:
+    term: "entorno virtual"
+    def: >
+      En [Python](#python), el [paquete](#package) `virtualenv` permite crear entornos virtuales de Python
+      para contener paquetes y versiones de esos paquetes que uno quiere usar para un proyecto o tarea particular
+      sin afectar otros entornos virtuales o el entorno por defecto del sistema.
 
 - slug: virtual_machine
   en:
@@ -9142,6 +9627,11 @@
       The space, newline, carriage return, and horizontal and vertical tab characters
       that take up space but do not create a visible mark. The name comes from their
       appearance on a printed page in the era of typewriters.
+  de:
+    term: "whitespace"
+    def: >
+      Auch als "Leerraum" bekannt, eine Bezeichnung für Zeichen ohne sichtbares Symbol. 
+      Typischerweise beinhaltet dies Leerzeichen, Tabulatorzeichen und Zeilenumbrüche. 
   pt:
     term: "espaço em branco"
     def: >
@@ -9179,9 +9669,8 @@
     term: "workflow"
     def: >
       A way of describing work to be done as a set of tasks, typically with dependencies on
-      external inputs or the outputs of other tasks, which can be later be executed by a program.
-      An example is a Makefiles, which can be executed by the make Unix command.
-
+      external inputs or the outputs of other tasks, which can later be executed by a program.
+      An example is a Makefile which can be executed by the make Unix command.
 
 - slug: xml
   de:
