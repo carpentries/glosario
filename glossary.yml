@@ -4079,6 +4079,11 @@
     term: "fallar (una prueba)"
     def: >
       Una prueba falla si el [resultado real](#actual_result) no coincide con el [resultado esperado](#expected_result).  
+      
+  sw:
+    term: "kushindwa (jaribio)"
+    def: >
+      Jaribio litashindikana ikiwa [matokeo_halisi (#matokeo_halisi) hayalingani na [matokeo_yanayotarajiwa](#matokeo_yanayotarajiwa)
 
 - slug: "false"
   ref:
@@ -4093,7 +4098,13 @@
     term: ውሸት
     def: >
       የ ሎጂካዊ ([ቦሊያን]ሁኔታ ከ [እውነተኛ](#boolean) ውስጥ ጥቅም ላይ ውሏልየ [ሁለትዮሽ](#true) ሁኔታን ለመወከል አመክንዮ እና መርሃግብር አንድ ነገር ::
-
+      
+   sw:
+    term: "uongo"
+    def: >
+      Mantiki ya ([Boolean](#boolean)) iliyo katika hali kinyume cha "[kweli](#kweli)". 
+      Inatumika katika mantiki na upangaji kuwakilisha hali [binary](#binary) ya kitu.
+    
 - slug: false_negative
   ref:
     - false_positive
@@ -4105,6 +4116,11 @@
     term: "false negative"
     def: >
       Data points which are actually [true](#true) but incorrectly predicted as [false](#false).
+  
+  sw:
+    term: "uongo hasi"
+    def: >
+      Pointi za data ambazo kwa hakika ni za [kweli](#true) lakini zimetabiriwa kimakosa kama kua za [uongo](#false).
 
 
 - slug: false_positive
@@ -4118,6 +4134,11 @@
     term: "false positive"
     def: >
       Data points which are actually [false](#false) but incorrectly predicted as [true](#true).
+      
+  sw:
+    term: "uwongo chanya"
+    def: >
+      Pointi za data ambazo kwa hakika ni za [uongo](#false) lakini zimetabiriwa kimakosa kama kua za [kweli](#true).
 
 
 - slug: falsy
@@ -4133,6 +4154,11 @@
     def: >
       በ [ቦሊያን](#false) አውድ ውስጥ ወደ [ሐሰት](#boolean) መገምገም።
       
+  sw:
+    term: "uongo"
+    def: >
+      Inatathmini hadi ya [uongo](#false) katika muktadha wa [Boolean](#boolean).
+      
 - slug: faq
   en:
     term: "Frequently Asked Questions"
@@ -4144,6 +4170,11 @@
     term: ተደጋግሞ የሚነሱ ጥያቄዎች አህጽሮተ ቃል-ተደጋጋሚ ጥያቄዎች
     def: >
       ስለ አንድ ርዕሰ ጉዳይ በተለምዶ የሚጠየቁ የተጠናቀሩ የጥያቄዎች ዝርዝር በመልሶች ::
+      
+  sw:
+    term: "maswali yanayoulizwa mara kwa mara"
+    def: >
+      Orodha iliyoratibiwa ya maswali yanayoulizwa kwa kawaida kuhusu mada fulani, pamoja na majibu.
 
 - slug: fasta
   en:
@@ -4153,6 +4184,14 @@
       Information for each sequence is broken up into a block of 2 lines. Line 1 contains 
       information about the sequence and begins with a greater than symbol, ‘>’. Line 2 
       contains the actual amino acid or genomic sequence using single-letter codes. 
+  sw:
+    term: "FASTA"
+    def: >
+      Umbizo la faili la kuhifadhi amino asidi au taarifa ya mfuatano wa jeni. 
+      Habari kwa kila mlolongo imegawanywa katika kizuizi cha mistari miwili(2). 
+      Mstari wa kwanza (1) una taarifa kuhusu mfuatano na huanza na alama kubwa kuliko, ‘>’. 
+      Mstari wa pili (2) una asidi ya amino halisi au mfuatano wa jeni kwa kutumia misimbo ya herufi moja. 
+      
       
 - slug: fastq
   en:
@@ -4163,6 +4202,15 @@
       the sequence and begins with ‘@’. Line 2 contains the actual genomic sequence using single-letter codes to 
       represent nucleotides. Line 3 is a separator that begins with a `+`. Line 4 has a string of 
       quality characters for each base in the genomic sequence. 
+  sw:
+    term: "FASTQ"
+    def: >
+      Umbizo la faili la kuhifadhi maelezo ya mfuatano wa jeni na alama za ubora zinazolingana.
+      Habari kwa kila mlolongo imegawanywa katika kizuizi cha mistari minne.
+      Mstari wa kwanza (1) una taarifa kuhusu mfuatano huo na huanza na ‘@’. 
+      Mstari wa pili (2) una mfuatano halisi wa jeni kwa kutumia misimbo ya herufi moja kuwakilisha nyukleotidi. 
+      Mstari wa tatu (3) ni kitenganishi kinachoanza na `+`. 
+      Mstari wa nne (4) una mfuatano wa herufi za ubora kwa kila msingi katika mfuatano wa jeni. 
 
 - slug: feature
   en:
@@ -4172,6 +4220,14 @@
       (e.g. length, height, number of petals) and used as the input to a model.  
       Finding or selecting features that are highly independent and discriminatory 
       is a fundamental part of classification.
+      
+   sw:
+    term: "Kigezo"
+    def: >
+      Tabia au ubinafsi wa kitu ambacho kinaweza kupimika
+      (kama vile urefu, kimo, idadi ya petali) na kutumika kama ingizo la modeli.
+      Kutafuta au kuchagua vipengele ambavyo ni huru na vibaguzi
+      ni sehemu ya msingi ya uainishaji.
       
 - slug: feature_branch
   ref:
@@ -4217,6 +4273,10 @@
     def: >
       A request to the maintainers or developers of a software program to add a
       specific functionality (a feature) to that program.
+  sw:
+    term: "Ombi la kuongeza Kigezo (au kipengele)"
+    def: >
+      Ombi kwa watunzaji au wasanidi programu wa kuongeza utendaji maalum (au kipengele) kwenye programu hiyo.
 
   am:
     term: የባህሪ ጥያቄ
@@ -4234,6 +4294,11 @@
     term: ባህሪ (በሶፍትዌር ውስጥ)
     def: >
       ሆን ተብሎ የተቀየሰ ወይም የተገነባ የሶፍትዌር አንዳንድ ገጽታ። ሀ [bug](#bug) የማይፈለግ ባህሪ ነው።
+      
+  sw:
+    term: "kipengele (katika programu)"
+    def: >
+      Baadhi ya vipengele vya programu ambavyo viliundwa au kujengwa kimakusudi. [hitilafu] (#bug) ni kipengele kisichohitajika.
 
 - slug: field
   en:
