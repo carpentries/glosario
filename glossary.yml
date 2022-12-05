@@ -2172,7 +2172,7 @@
   es:
     term: "CC-BY"
     def: >
-        Una [licencia](#license) [Creative Commons](#cc-license) con Atribución, que requiere que se de crédito a las personas autoras del trabajo, pero que no impone ninguna otra restricción.
+        Una [licencia](#license) [Creative Commons](#cc_license) con Atribución, que requiere que se de crédito a las personas autoras del trabajo, pero que no impone ninguna otra restricción.
 - slug: cc_license
   en:
     term: Creative Commons license
