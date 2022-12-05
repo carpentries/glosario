@@ -2400,7 +2400,15 @@
     term: ኮድ ሽፋን (በፈተና)
     def: >
       ፈተና ሲከናውን ምን ያህል [ቤተ መጻሕፍት](#library) ወይም ፕሮግራም ይፈፀም።  ይህ የተለመደ ነው እንደ አንድ በመቶ የኮድ መስመሮች ሪፖርት ተደርጓል ለምሳሌ, ከ 50 መስመሮች ውስጥ 40 ከሆነ አንድ ፋይል በፈተና ወቅት ይሰራል, እነዚያ ምርመራዎች 80% ኮድ ሽፋን አላቸው::
-
+      
+  sw:
+    term: "kuasisi msimbo (majaribuni)"
+    def: >
+       Ni kiasi gani [maktaba](#library) au programu imetekelezwa wakati wa majaribio. 
+       kwa mfano, ikiwa mistari 40 kati ya 50 ndani faili imetekelezwa wakati wa majaribio, 
+       majaribio hayo yana kiwango cha asilimia 80%.
+    
+  
 - slug: code_review
   en:
     term: "code review"
