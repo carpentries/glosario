@@ -2194,6 +2194,7 @@
     term: Licencia Creative Commons
     def: >
       Conjunto de [licencias](#license) que pueden ser aplicadas a trabajos publicados. Cada licencia está formada por la concatenación de uno o más de: -BY (Atribución): se debe citar la fuente original; -SA (CompartirIgual): se debe compartir el trabajo bajo una licencia similar; -NC (NoComercial): el trabajo no se puede usar con fines comerciales sin la autorización de las personas creadoras; -ND (NoDerivaciones): no se pueden crear trabajos derivados (por ejemplo, traducciones) sin el permiso de las personas autoras. Así, CC-BY-NC significa "se debe atribuir el trabajo a las personas creadoras y no se puede utilizar comercialmente sin permiso". El término CC-0 (cero, no letra O), se utiliza a menudo para referirse a "sin restricciones", en el que el trabajo es de dominio público.
+
 - slug: centroid
   en:
     term: centroid
@@ -4713,7 +4714,7 @@
     term: "Licencia Pública GNU"
     acronym: "GPL"
     def: >
-    Una [licencia](#license) que permite re-utilizar software siempre y cuando distribuyan el código funte de sus cambios. 
+      Una [licencia](#license) que permite re-utilizar software siempre y cuando distribuyan el código funte de sus cambios. 
 
 
 - slug: gradient_boosting
