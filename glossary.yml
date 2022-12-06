@@ -2370,8 +2370,9 @@
       The process of dividing data into groups when the groups themselves are not
       known in advance.
   sw:
-    jina: "kuunganisha"
-    maana: Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe havikujulikana mbeleni
+    term: "kuunganisha"
+    def: Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe havikujulikana mbeleni
+    
   pt:
     term: "agrupamento"
     def: >
@@ -3490,8 +3491,8 @@
     def: >
       See [prerequisite](#prerequisite).
   sw:
-    jina: "utegemezi"
-    maana: >
+    term: "utegemezi"
+    def: >
         hali ya kutegemea jambo ama kitu fulani 
 
   am:
