@@ -4101,7 +4101,7 @@
    sw:
     term: "uongo"
     def: >
-      Mantiki ya ([Boolean](#boolean)) iliyo katika hali kinyume cha [kweli](#true). 
+      Mantiki ya [Boolean](#boolean)) iliyo katika hali kinyume cha [kweli](#true). 
       Inatumika katika mantiki na upangaji kuwakilisha hali [binary](#binary) ya kitu.
     
 - slug: false_negative
