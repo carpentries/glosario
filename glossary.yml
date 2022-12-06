@@ -4098,7 +4098,7 @@
     def: >
       የ ሎጂካዊ ([ቦሊያን]ሁኔታ ከ [እውነተኛ](#boolean) ውስጥ ጥቅም ላይ ውሏልየ [ሁለትዮሽ](#true) ሁኔታን ለመወከል አመክንዮ እና መርሃግብር አንድ ነገር ::
       
-   sw:
+  sw:
     term: "uongo"
     def: >
       Mantiki ya [Boolean](#boolean) iliyo katika hali kinyume cha [kweli](#true). 
