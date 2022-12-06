@@ -2371,7 +2371,8 @@
       known in advance.
   sw:
     term: "kuunganisha"
-    def: Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe havikujulikana mbeleni
+    def: >
+    Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe havikujulikana mbeleni
     
   pt:
     term: "agrupamento"
@@ -3493,7 +3494,7 @@
   sw:
     term: "utegemezi"
     def: >
-        hali ya kutegemea jambo ama kitu fulani 
+      hali ya kutegemea jambo ama kitu fulani 
 
   am:
     term: ጥገኝነት
