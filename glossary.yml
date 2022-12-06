@@ -2369,11 +2369,6 @@
     def: >
       The process of dividing data into groups when the groups themselves are not
       known in advance.
-  sw:
-    term: "kuunganisha"
-    def: >
-      Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe havikujulikana mbeleni
-    
   pt:
     term: "agrupamento"
     def: >
