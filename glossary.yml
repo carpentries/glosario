@@ -3239,6 +3239,11 @@
     term: የውሂብ ጥቅል
     def: >
       የሶፍትዌር ፓኬጅ ፣ በአብዛኛው ፣ መረጃዎችን ብቻ የያዘ። ለመሥራት ያገለገለ ነው ለቀላል አጠቃቀም መረጃን ለማሰራጨት የበለጠ ቀላል ነው።
+ 
+  sw:
+    term: "Kifurushi cha data"
+    def: >
+      Kifurushi cha programu ambacho, mara nyingi, kina data pekee. Hutumika kurahisisha kusambaza data kwa matumizi rahisi.
 
 - slug: data_science
   en:
@@ -3312,7 +3317,13 @@
       characterise a set of data values and their representation (or [encoding](#character_encoding)),
       the relationships between values, and ways to access or manipulate those data, such as
       reading, altering, or writing.
-   
+  sw:
+    term: "muundo wa data"
+    def: >
+      Muundo wa ushirikashi, usimamizi na ufikiaji bora wa data. Kwa kawaida itakuwa
+      kubainisha thamani ya seti za data na uwakilishi wao (au [encoding](#character_encoding)),
+      uhusiano kati ya thamana, na njia za kufikia au kuendesha data hizo, kama vile
+      kusoma, kubadilisha, au kuandika.
    
 - slug: data_visualization
   en:
@@ -3326,6 +3337,12 @@
     term: የውሂብ መዋቅር
     def: >
       ለድርጅቱ ቅርጸት ፣ አስተዳደር እና ቀልጣፋ ተደራሽነት መረጃ በተለምዶ ያደርገዋል የውሂብ እሴቶችን ስብስብ እና የእነሱ ውክልና (ወይም።) [ኢንኮዲንግ](#character_encoding)) ፣ በእሴቶች መካከል ያሉ ግንኙነቶች እና ለመድረስ ወይም ለማታለል መንገዶች እነዚያ መረጃዎች ፣ እንደ ማንበብ ፣ መለወጥ ወይም መጻፍ ፡፡
+      
+  sw:
+    term: "taswira ya data"
+    def: >
+      Uundaji wa chati, ramani, grafu, au infographics ili kutafsiri seti za data kuwa kitu kinachoonekana.
+      Wakati mwingine huitwa "dataviz" au "data viz."
 
 - slug: data_wrangling
   en:
@@ -3337,6 +3354,11 @@
     term: የውሂብ ክርክር
     def: >
       ለአነስተኛ መጠን [የመረጃ ምህንድስና](#data_engineering) የትብብር ስም።
+      
+  sw:
+    term: "mchakato wa data"
+    def: >
+      Jina la mazungumzo kwa kiwango kidogo cha [data engineering](#data_engineering).
 
 - slug: debug
   en:
