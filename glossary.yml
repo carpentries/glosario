@@ -3852,6 +3852,11 @@
     term: ጠርዝ
     def: >
       በ [ግራፍ](#node)ውስጥ በሁለት [ኖዶች](#graph) መካከል ያለ ግንኙነት። አንድ ጠርዝ እንደ ስም ወይም ርቀት ያለ ከዚህ ጋር የተጎዳኘ ውሂብ ሊኖረው ይችላል።
+  sw:
+    term: "kingo"
+    def: >
+      Muunganisho kati ya [nodes] mbili (#node) katika [graph](#graph). 
+      Kingo yanaweza kuwa data inayohusishwa nayo, kama vile jina au umbali.
 
 - slug: element
   ref:
