@@ -7439,7 +7439,7 @@
     def: >
       Un voto a favor de alguna cosa.
   af:
-    term: +1"
+    term: "+1"
     def: >
       Om ten gunste van iets te stem.
 
