@@ -137,6 +137,10 @@
     term: "Matlotla"
     def: >
       Serweboleta (software) se se sa tlholeng se tlhokomelwa kgotsa se tlhabololwa.
+  it:
+    term: "abandonware"
+    def: >
+      "Un software abbandonato, non più mantenuto"
 
 - slug: absolute_error
   de:
@@ -257,6 +261,12 @@
     term: ፍጹም መንገድ
     def: በ [የፋይል ስርዓት ውስጥ ወደ ተመሳሳይ ሥፍራ የሚጠቁም መንገድ የሚገመገምበት ቦታ ምንም ይሁን ምን ፡፡ ፍፁም ጎዳና
       እኩል ነው ጂኦግራፊ ውስጥ ኬክሮስ እና ኬንትሮስ
+  it:
+    term: "percorso assoluto del file"
+    def: >
+      Un percorso a un file che punta allo stesso luogo nel [filesystem](#filesystem)
+      indipendentemente da dove venga valutato. Un percorso assoluto del file è 
+      l'equivalente di latitudine e longitudine in geografia.
 
 - slug: absolute_row_number
   de:
@@ -301,6 +311,11 @@
   am:
     term: ፍጹም ረድፍ ቁጥር
     def: የትኞቹም ክፍሎች ቢኖሩ በሠንጠረዥ ውስጥ የአንድ ረድፍ ቅደም ተከተል ማውጫ ጠረጴዛ እየታየ ነው ፡፡
+  it:
+    term: "numero di riga assoluto"
+    def: >
+      Indice sequenziale di una riga in una tabella, indipendetemente da quale sezione
+      della tabella sia visualizzata.
 
 - slug: abstract_method
   de:
@@ -365,6 +380,13 @@
     def: "በ [ነገር-ተኮር መርሃግብር](#oop) ውስጥ አንድ [ዘዴ](#method) ተገልፇል ነገር ግን አልተተገበረም ፡፡
       መርሃግብሮች [ወላጅ] ውስጥ ረቂቅ ዘዴን ይገልፃሉ ክፍል](#parent_class) [የህፃናት ክፍሎች](#child_class)
       ማቅረብ አለበት ፡፡ \n"
+  it:
+    term: "metodo astratto"
+    def: >
+      In [programmazione orientata agli oggetti](#oop), un [metodo](#method) che è
+      definito ma non implementato. Il programmatore definisce un metodo astratto in
+      una [classe padre](#parent_class) per specificare delle operazioni che la 
+      [classe figlia](#child_class) deve implementare.
 
 - slug: abstract_syntax_tree
   en:
