@@ -138,9 +138,9 @@
     def: >
       Serweboleta (software) se se sa tlholeng se tlhokomelwa kgotsa se tlhabololwa.
   it:
-   term: "abandonware"
-   def: >
-     "Un software abbandonato, non più mantenuto"
+    term: "abandonware"
+    def: >
+      "Un software abbandonato, non più mantenuto"
 
 - slug: absolute_error
   de:
