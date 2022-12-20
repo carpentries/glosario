@@ -133,6 +133,10 @@
     term: የተተወው ዌር
     def: >
       ከአሁን በኋላ እየተስተካከለ ያለው ዌር።
+  tn:
+    term: "Matlotla"
+    def: >
+      Serweboleta (software) se se sa tlholeng se tlhokomelwa kgotsa se tlhabololwa.
 
 - slug: absolute_error
   de:
@@ -595,7 +599,12 @@
       selbstorganisierter Teams ein Program entwickelt wird. Im Gegensatz dazu
       stehen klassische Ansätze die häufig aufwändiger Planung bedürfen.
       [Explorative Programmierung](#exploratory_programming) ist oft agil.
-
+  tn:
+    term: "Tiro ya Potlako"
+    def: >
+      thulaganyo ya go kwala khoutu ya dirweboleta (software) e e remeletseng
+      mo dikgatong-potlana tse di mmalwa le mo dikakgelong tse di tlhomameng, go na le mo mananeong
+      a sennella-ruri le togamaano ko tshimologong.
 
 - slug: algorithm
   en:
@@ -863,7 +872,12 @@
     term: የትግበራ ፕሮግራም በይነገጽ
     def: >
       በአንድ የሶፍትዌር ቤተ-መጽሐፍት ወይም ድር የሚሰጡ የተግባሮች እና የአሠራር ሂደቶች ስብስብ ሌላ መተግበሪያ ከእሱ ጋር መገናኘት የሚችልበት አገልግሎት። ኤፒ አይ ኮድ አይደለም  ፣ የመረጃ ቋቱ ወይም አገልጋዩ የመዳረሻ ነጥብ ነው ፡፡
-
+  tn:
+    term: "Mekgwatiriso ya Segokaganyi (API)"
+    def: >
+      Setlhotshwana sa ditiriso le ditsamaiso mo motlobong wa serweboleta (software library), kgotsa mo Tirelong ya Webo (web service), 
+      se se gokaganyang motlobo kana tirelo ya teng le Tiriso (app) e sele. Ga se khoutu, polokelotshedimosetso kana sefara: ke seletlelelakgolagano.
+      
 - slug: append_mode
   en:
     term: "append mode"
@@ -2089,7 +2103,13 @@
       "camel case" werden keine Leerzeichen, Unterstriche (`_`), Punkte (`.`)
       oder Bindestriche (`-`) verwandt und jedes Wort großgeschrieben.
       Beispiele sind: `BerechneSumme` oder `findeMuster`.
-
+  tn:
+    term: "Mokwalo wa Kamela"
+    def: >
+      Ke mokgwa wa go kwala dikaelo tsa khomputara ka go sa tsenye matshwao a sekgala (space), 
+      thalela (`_`), khutlo (`.`) kana thaladi (`-`) mo maineng a maemedi a boleng jo bo fetogang (variables) kana a dilo (objects). 
+      Mo godimo ga moo, lefoko lengwe le lengwe mo maineng a le simolola ka tlhakakgolo. 
+      Dikai tsa mokwalo o ke `CalculateSum` le `findPattern`.
 
 - slug: catch_exception
   ref:
