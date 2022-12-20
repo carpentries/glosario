@@ -632,7 +632,7 @@
     term: "algoritmo"
     def: >
       Un algoritmo è una sequenza finita di regole ed operazioni da eseguire al fine di realizzare un certo compito.
-      In informatica, un algoritmo è un insieme di istruzioni presenti in un programma che permette di risolvere un problema computazionale.
+      In informatica, un algoritmo è una sequenza finita di istruzioni presenti in un programma che permette di risolvere un problema computazionale.
       
 - slug: algorithmic_bias
   ref:
