@@ -9890,4 +9890,20 @@
       digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
       untuk beragam tipe dokumen [Markdown](#markdown).
      
-    
+- slug: parametric_statistics
+  ref:
+    - non-parametric (statistics)
+  en:
+    term: "parametric (statistics)"
+    def: >
+      A branch of statistical tests which assume a known distribution of the population which the samples were taken from (ANOVA and Student’s t-tests are examples of parametric tests).
+
+
+- slug: nonparametric_statistics
+  ref:
+    - parametric (statistics)
+  en:
+    term: " non-parametric (statistics)"
+    def: >
+      A branch of statistical tests which do not assume a known distribution of the population which the samples were taken from (Kruskal-Wallis and Dunn test are examples of non-parametric tests).
+     
