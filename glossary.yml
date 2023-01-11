@@ -3228,6 +3228,10 @@
     def: >
       Una estructura de datos bi-dimensional para guardar datos tabulares en memoria.
       Líneas representan [entradas](#record) y columnas representan [variables](#variable_data).
+  sw: 
+    term: "Data Fremu"
+    def: >
+      Muundo wa data wa pande mbili wa kuhifadhi data ya tabular katika kumbukumbu. Safu zinawakilisha rekodi na nguzo zinawakilisha vigezo.
 
 
 - slug: data_masking
@@ -3669,6 +3673,10 @@
     def: >
       Un objeto dentro de un [sistema de archivos](#filesystem) que contiene archivos y otros directorios.
       También conocido como un [folder](#folder).
+  sw: 
+    term: "Mpangilio orodha"
+    def: >
+      Kipengee ndani ya mfumo wa faili ambao unaweza kuwa na faili na saraka zingine. Pia inajulikana kama folda.
 
 - slug: discrete_random_variable
   ref:
@@ -4497,11 +4505,14 @@
     term: "carpeta"
     def: >
       Otro término para hacer referencia a un [directorio](#directory).
-
   am:
     term: አቃፊ
     def: >
       ሌላ ቃል ለ [ማውጫ](#directory) ::
+  sw:
+    term: "Kabrasha"
+    def: ?
+      Neno lingine kwa saraka.
 
 - slug: for_loop
   ref:
