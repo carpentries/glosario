@@ -5239,6 +5239,14 @@
     def: >
       በሌሎች ተግባራት ላይ የሚሰራ ተግባር ፡፡ ለምሳሌ ፣ ከፍተኛ-ትዕዛዝ ተግባር "ካርታ` በ [ዝርዝር](#list) ውስጥ በእያንዳንዱ እሴት ላይ አንድ ጊዜ የተሰጠ ተግባርን ያከናውናል። የከፍተኛ ትዕዛዝ ተግባራት [በተግባራዊ መርሃግብር](#functional_programming) ውስጥ በጣም ያገለግላሉ።
 
+- slug: high_performance_computing
+  en:
+    term: "high performance computing"
+    acronym: "HPC"
+    def: >
+        When computing power is drawn from multiple powerful processors that work together in parallel, rather than from a single desktop computer, laptop, or work station.
+        This significantly speeds up analysis and reduces computing time, which allows people to work with [big data](#big_data).
+
 - slug: hippocratic_license
   en:
     term: "Hippocratic License"
