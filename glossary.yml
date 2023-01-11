@@ -4511,7 +4511,7 @@
       ሌላ ቃል ለ [ማውጫ](#directory) ::
   sw:
     term: "Kabrasha"
-    def: ?
+    def: >
       Neno lingine kwa saraka.
 
 - slug: for_loop
