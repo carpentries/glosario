@@ -426,6 +426,13 @@
       Statistical measure of a classification model which gives the proportion 
       of correct predictions among total number of cases. It is calculated as 
       Accuracy = (TP+TN)/(TP+TN+FP+FN)
+      
+  sw:
+    term: "usahihi"
+    def: >
+      Kipimo cha takwimu cha muundo wa uainishaji ambao hutoa uwiano
+      ya utabiri sahihi kati ya jumla ya idadi ya kesi. Imehesabiwa kama
+      Usahihi = (TP+TN)/(TP+TN+FP+FN)
 
 - slug: actual_result
   de:
@@ -501,6 +508,11 @@
   am:
     term: አቅም
     def: "የአንድ ነገር ንብረት እንደ መያዣ ወይም አዝራር እንዴት መጠቀም እንደሚቻል የሚጠቁም \n"
+    
+  sw:
+    term: "uwezesho"
+    def: >
+      Sifa ya kitu ambacho kinapendekeza jinsi kinavyoweza kutumika, kama vile mpini au  kitufe.
 
 - slug: aggregation
   en:
@@ -627,6 +639,13 @@
       thulaganyo ya go kwala khoutu ya dirweboleta (software) e e remeletseng
       mo dikgatong-potlana tse di mmalwa le mo dikakgelong tse di tlhomameng, go na le mo mananeong
       a sennella-ruri le togamaano ko tshimologong.
+      
+  sw:
+    term: "maendeleo pesi"
+    def: >
+      Mbinu ya ukuzaji programu ambayo inasisitiza hatua nyingi ndogo na maoni 
+      endelevu badala ya mipango ya mbeleni na ratiba ya muda mrefu. 
+      [Exploratory programming](# #exploratory_programming) mara nyingi huwa chapa.
 
 - slug: algorithm
   en:
