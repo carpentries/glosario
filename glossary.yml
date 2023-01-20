@@ -924,6 +924,13 @@
       Setlhotshwana sa ditiriso le ditsamaiso mo motlobong wa serweboleta (software library), kgotsa mo Tirelong ya Webo (web service), 
       se se gokaganyang motlobo kana tirelo ya teng le Tiriso (app) e sele. Ga se khoutu, polokelotshedimosetso kana sefara: ke seletlelelakgolagano.
       
+  sw:
+    term: "Kiolesura cha Kuandaa Programu [API]"
+    def: >
+      Seti ya vipengele na taratibu zinazotolewa na maktaba moja ya programu au 
+      huduma ya tovuti ambayo programu nyingine inaweza kuwasiliana nayo. 
+      [API] sio msimbo, hifadhidata, au seva: ni mahali pa ufikiaji.
+      
 - slug: append_mode
   en:
     term: "append mode"
@@ -942,6 +949,13 @@
     term: አባሪ ሁነታ
     def: >
       በቀደመው ፋይል ይዘቶች ላይ ከመፃፍ ይልቅ አሁን ባለው ፋይል መጨረሻ ላይ ውሂብ ለማከል ። እንደገና መፃፍ የነበረዉ ነው ፣ ስለሆነም አብዛኛዎቹ የፕሮግራም ቋንቋዎች በምትኩ ለመተካት ፕሮግራሞች ግልጽ እንዲሆኑ ይጠይቃሉ።
+      
+  sw:
+    term: "Hali ya Kuambatanisha"
+    def: >
+      Kuongeza data mwishoni mwa faili iliyopo badala ya kubatilisha yaliyomo awali ya faili hiyo. 
+      Kuandika upya ni chaguo-msingi, kwa hivyo lugha nyingi za programu 
+      zinahitaji programu kuwa wazi kuhusu kutaka kuambatanisha badala yake.
 
 - slug: argument
   en:
@@ -999,6 +1013,14 @@
     term: ክርክር
     def: >
       ቃሉ ግራ መጋባት የለበትም ፣ ተመሳሳይ ቃልም  አይደለም ፣ [ግቤት](#parameter)። ክርክር ምናልባት ከበርካታ አገላለጾች አንዱ እና ወደ ተግባር የሚተላለፉ ነው ፡፡ እሱም  የተላለፈው ትክክለኛ እሴት ነው። መለኪያዎች እና ክርክሮች የተለዩ ናቸው ፣ ግን ተዛማጅ ፅንሰ ሀሳቦች ናቸው። መለኪያዎች ተለዋዋጮች ናቸው  ክርክሮች ደግሞ ለእነዚያ ተለዋዋጮች የተሰጡ እሴቶች ናቸው።
+      
+  sw:
+    term: "Hoja"
+    def: >
+      Neno hilo halipaswi kuchanganywa na, na si kisawe cha,[parameter](#parameter). 
+      Hoja ni mojawapo ya misemo kadhaa ambayo hupitishwa kwa chaguo la kukokotoa. 
+      Ni thamani halisi inayopitishwa. Vigezo na hoja ni tofauti, lakini dhana zinazohusiana. 
+      Vigezo ni vigeuzo na hoja ni thamani zilizopewa vigeu hivyo.
 
 - slug: arithmetic_mean
   en:
@@ -1029,6 +1051,14 @@
     term: የሂሳብ ሚዛን
     def: >
       ይመልከቱ [ማለት](#mean)
+      
+  sw:
+    term: "wastani wa hesabu"
+    def: >
+      Rejelea [mean](#mean). 
+      Imehesabiwa kutoka kwa seti ya nambari za n kwa kujumlisha nambari hizo, 
+      na kugawanya matokeo na n. 
+      Rejelea [mean](#mean).
 
 - slug: ascii
   en:
@@ -1066,6 +1096,12 @@
     def: >
       Une norme informatique de codage qui représente les caractères couramment utilisés dans les langues d'Europe occidentale à 7 ou 8 
       [bits](#bit), aujourd'hui largement remplacé par [Unicode](#unicode).
+      
+  sw:
+    term: "ASCII"
+    def: >
+      Njia ya kawaida ya kuwakilisha herufi zinazotumiwa sana katika lugha za Ulaya Magharibi kama nambari kamili 7- au 8-[bit](#bit), 
+      ambayo sasa imechukuliwa na [Unicode](#unicode).
 
 - slug: assertion
   en:
@@ -1116,6 +1152,18 @@
     term: ማረጋገጫ
     def: >
       በአንድ [የተወሰነ] ቦታ ፕሮግራም ዉስጥ  ግዴታ  [እውነተኛ](#boolean) መሆን ያለበት የ [ቦሊያን](#true) አገላለጽ ነዉ.  ምልከታዎች በቋንቋው ውስጥ ሊገነቡ ይችላሉ (ለምሳሌ ፣ [ፓይቶን](#python) ዎቹ እንደ "ማረጋገጫ" መግለጫ ወይም እንደ ተግባራት ይቀርባሉ ል (ለምሳሌ ፣ [R](#r_language) 'stopifnot')።  ብዙውን ጊዜ ለሙከራ ጥቅም ላይ ይውላሉ ፣ ግን ደግሞ በትክክል እየሰራ መሆኑን ለማጣራት   [በምርት ኮድ](#production_code) ውስጥ ይቀመጣሉ፡፡  በብዙ ቋንቋዎች ማረጋገጫዎች መሆን የለባቸውም በአቀነባባሪዎች እና በአስተርጓሚዎች በዝምታ ሊጣሉ ስለሚችሉ የውሂብ ማረጋገጫ ለማከናወን ያገለግል ነበር በማመቻቸት ሁኔታዎች ውስጥ. ለመረጃ ማረጋገጫ ማረጋገጫዎችን መጠቀም ይችላል የደህንነት አደጋዎችን ያስተዋውቁ ፡፡ ከብዙ ቋንቋዎች በተለየ መልኩ አር "ማረጋገጫ" መግለጫ የለውም ሊቦዝን ይችላል ፣ እና ስለዚህ እንደ "assertr`" የመሰለ [ጥቅል](#package) መጠቀም ማረጋገጫ የደህንነት ቀዳዳዎችን አይፈጥርም ፡፡
+      
+  sw:
+    term: "Madai"
+    def: >
+      Semi ya [Boolean](#boolean) ambayo lazima iwe [true](#true) katika hatua fulani katika programu. 
+      Madai yanaweza kujengwa katika lugha (k.m., kauli ya `assert` ya [Python](#python)) au 
+      kutolewa kama vitendakazi (k.m., `stopifnot` ya [R (#r_language)). 
+      Mara nyingi hutumiwa katika majaribio, lakini pia huwekwa katika [production code](#production_code) ili kuangalia ikiwa inatenda ipasavyo. 
+      Katika lugha nyingi, madai hayafai kutumiwa kutekeleza uthibitishaji wa data kwa vile yanaweza kuondolewa kimyakimya na wakusanyaji na 
+      wakalimani chini ya hali ya uboreshaji. Kutumia madai kwa uthibitishaji wa data kwa hivyo kunaweza kuanzisha hatari za usalama. 
+      Tofauti na lugha nyingi, R haina taarifa ya `assert` ambayo inaweza kuzimwa, 
+      na kwa hivyo matumizi ya [package](#package) kama vile `assertr` kwa uthibitishaji wa data haileti mashimo ya usalama.
 
 - slug: associative_array
   en:
@@ -1135,6 +1183,11 @@
     term: ተጓዳኝ ድርድር
     def: >
       [መዝገበ-ቃላትን](#dictionary) ይመልከቱ (#dictionary)።
+      
+  sw:
+    term: "safu ya ushirika"
+    def: >
+      Rejelea [dictionary](#dictionary).
 
 - slug: asynchronous
   ref:
@@ -1177,6 +1230,13 @@
       Qui ne se produit pas en même temps. En programmation, une opération asynchrone
       est une opération qui s'exécute indépendamment d'une autre, ou qui commence
       à un moment et se termine à un autre.
+      
+  sw:
+    term: "isiyolingana"
+    def: >
+      Haifanyiki kwa wakati mmoja. Katika programu, operesheni ya asynchronous ni ile inayoendesha kwa kujitegemea ya nyingine, 
+      au ambayo huanza wakati mmoja na kuishia kwa mwingine.
+      
 - slug: attribute
   en:
     term: "attribute"
@@ -1216,6 +1276,12 @@
     def: >
       Una pareja nombre-valor asociada a un objeto, usada para almacenar metadatos sobre
       el objeto como, por ejemplo, las dimensiones de un arreglo.
+      
+  sw:
+    term: "sifa"
+     def: >
+      Jozi ya thamani ya jina inayohusishwa na kitu, 
+      inayotumiwa kuhifadhi [metadata] kuhusu kitu kama vile vipimo vya mkusanyiko.
 
 - slug: auto_completion
   en:
@@ -1258,6 +1324,13 @@
      Funcionalidad que le permite a una persona usuaria terminar una palabra o código rapidamente 
      pulsando la tecla TAB para que aparezca una lista de posibles palabras o códigos entre los que 
      el usuario puede seleccionar la función que necesite.  
+     
+  sw:
+    term: "kukamilika kiotomatiki"
+    def: >
+      Kipengele kinachomruhusu mtumiaji kumaliza neno au msimbo haraka kwa 
+      kubofya kitufe cha TAB ili kuorodhesha maneno au 
+      msimbo unaowezekana ambao mtumiaji anaweza kuchagua.
 
 - slug: autocorrelation
   en:
@@ -1268,6 +1341,14 @@
       datasets by detecting repeating patterns that may be partially concealed by random noise, among 
       other uses.
 
+  sw:
+    term: "uhusiano wa kiotomatiki"
+    def: >
+    Kiwango cha ufanano kati ya uchunguzi katika mfululizo sawa lakini ukitenganishwa na muda (unaojulikana kama "lag"). 
+    Uchanganuzi wa uunganisho otomatiki unaweza kutumika kupata maarifa kuhusu mkusanyiko wa data wa mfululizo wa saa kwa
+    kugundua ruwaza zinazorudiwa ambazo zinaweza kufichwa kwa kiasi na kelele nasibu, 
+    miongoni mwa matumizi mengine.
+    
 - slug: automatic_variable
   ref:
     - makefile
