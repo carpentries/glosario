@@ -1755,6 +1755,12 @@
     term: bit
     def: >
       Een eenheid van informatie, die alternatieven representeert, zoals ja/nee, waar/onwaar. In de informatica wordt dit gerepresenteerd als een 0 of een 1.
+      
+  sw:
+    term: "biti"
+    def: >
+      Sehemu ya habari inayowakilisha njia mbadala, ndiyo/hapana,
+      [true](#true)/[false](#false). Katika kuhesabu hali ya 0 au 1.
 
 - slug: blob
   en:
@@ -1769,6 +1775,16 @@
     term: "Selekanyo sa kitso e e mo sedirisiweng se segolo"
     def: >
       Ke kitso e e beilweng e le mo seemong kana sedirisiweng se setona mo lefelong le le lengwe fela.
+      
+  sw:
+    term: "kitu kikubwa cha binary"
+    def: >
+      Data ambayo imehifadhiwa katika hifadhidata bila kufasiriwa kwa njia yoyote, 
+      kama vile faili ya sauti. Neno hili pia sasa linatumika kurejelea data 
+      iliyohamishwa kupitia mtandao au kuhifadhiwa katika
+      [version control](#version_control_system) [repository](#repository)
+      kama biti zisizotafsiriwa.
+      
 
 - slug: block_comment
   en:
@@ -1790,7 +1806,15 @@
       spezifische Start- und Endsymbole, z.B. `/*` und `*/` in C und verwandten Sprachen.
       Manche Sprachen kennen keine Blockkommentare und so werden diese mit einem
       Einzelkommentarsymbol in jeder Zeile, z.B. `#`, gekennzeichnet.
-
+      
+  sw:
+    term: "Maoni Mapana"
+    def: >
+      Maoni [comment](#comment) ambayo yanajumuisha mistari mingi. 
+      Maoni mapana yanaweza kuwekewa alama maalum za kuanza na kumalizia,
+      kama vile `/*` na `*/` katika C na vizazi vyake, au kila mstari unaweza kuanikwa kwa alama kama `#`.
+    
+    
   am:
     term: አግድ አስተያየት
     def: >
@@ -1816,7 +1840,18 @@
       zu kapseln. Manche Programmiersprachen sind sehr wortreich und erfordern viel Code um einfache
       Funktionalitäten zu erhalten, z.B. Java, sodass dieser Code häufig automatisch oder mittels
       [Autovervollständigung](#auto_completion) erstellt wird.
-
+      
+      
+  sw:
+    term: "boilerplate"
+    def: >
+      Maandishi ya kawaida ambayo yanajumuishwa katika mikataba ya kisheria, leseni, na kadhalika. 
+      Pia sehemu za msimbo wa chanzo ambazo zinapaswa kurudiwa mara nyingi sana ili kupata utendakazi msingi. 
+      Katika [object-oriented programs](#oop) sehemu hizi hutumika kujumuisha viambajengo vya vitu. 
+      Lugha zingine zinahitaji mengi ya kauli hizi na huitwa lugha za boilerplate, k.m. Java, 
+      ambayo ina maana kwamba huzalishwa kiotomatiki mara kwa mara au kwa 
+      kutumia [auto-completion](#auto_completion).
+      
   am:
     term: ቦይለር ፕሌት
     def: >
@@ -1883,6 +1918,14 @@
       ዘመን የሂሳብ ሊቅ ጆርጅ ቡሌ ተብሎ ይጠራል :: የሁለትዮሽ ስርዓቶች ልክ እንደ ሁሉም ኮምፒውተሮች  በእውነተኛ,1 እና
       በሐሰት,0  መሠረት ተገንብተዋል \n"
 
+  sw:
+    term: "Boolean"
+    def: >
+      Kuhusiana na aina au aina ya data ambayo inaweza kuwa na thamani ya kimantiki ya [true](#true) au [false](#false). 
+      Imetajwa kwa George Boole, mwanahisabati wa karne ya 19. 
+      Mifumo ya binary, kama kompyuta zote, 
+      imejengwa juu ya msingi huu wa mifumo ya tathmini ya kimantiki kati ya majimbo ya kweli na ya uwongo, 1 au 0.
+    
 - slug: branch
   en:
     term: "branch"
@@ -1893,6 +1936,12 @@
     term: ቅርንጫፍ
     def: >
       [Git ቅርንጫፍ](#git_branch) ይመልከቱ።
+      
+  sw:
+    term: "tawi"
+    def: >
+      rejelea [Git branch](#git_branch).
+      
 
 - slug: branch_per_feature_workflow
   en:
