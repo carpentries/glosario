@@ -7779,7 +7779,7 @@
   en:
     term: "procedural generation"
     def: >
-      Procedural generation is a method of generating data algorithmically rather than manually. Typically
+      A method of generating data algorithmically rather than manually. Typically
       this is done to reduce file sizes, increase the overall amount of content, and/or incorporate
       randomness at the expense of processing power.
 
