@@ -2157,6 +2157,10 @@
     term: "byte"
     def: >
       Unidad de información digital que típicamente consiste de ocho dígitos [binarios](#binary), o [bits](#bit).
+  fr:
+    term: "octet"
+    def: >
+      Un octet est une information numerique composée de huit chiffres binaires, appelés bits.
   de:
     term: "Byte"
     def: >-
