@@ -5667,7 +5667,11 @@
     def: > 
       The factor that you purposely change or control in order to see what effect 
       it has on the [dependent variable](#dependent_variable).
-
+  es:
+    term: "variable independiente"
+    def: >
+      El factor que cambias o controlas intencionadamente para ver qué efecto tiene 
+      sobre la [variable dependiente](#dependent_variable).
 
 - slug: infinite_loop
   ref:
