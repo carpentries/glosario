@@ -983,8 +983,9 @@
   pt:
     term: "argumento"
     def: >
-      Um valor passado para uma função. Algumas pessoas autoras usam este termo como
-      sinônimo de parâmetro(#parameter) e outras não fazem isso; é tudo bastante confuso.
+      Uma expressão, possivelmente dentre muitas, passada para uma função. É o valor em si.
+      Não confundir com [parâmetro](#parameter), que é um termo relacionado, mas diferente.
+      Parâmetros são variáveis e argumentos são os valores dessas variáveis.
   ar:
     term: "وسيطة"
     def: >
@@ -7482,6 +7483,12 @@
       Die Parameter sind die Namen der Eingangswerte einer Funktion, welche beim Aufruf übergeben
       werden. Parameter und Argumente sind verwandt aber nicht identisch. Ein Parameter ist eine
       Variable und ein [Argument](#argument) ist dem der Variable zugewiesene Wert.
+  pt:
+    term: "parâmetro"
+    def: >
+      Uma variável especificada na definição de uma função, cujo valor é passado para a função quando
+      ela é invocada. O parâmetro é a variável, enquanto seu valor dentro da função é
+      um [argumento](#argument). Parâmetro e argumento são termos relacionados, mas diferentes.
 
 
 - slug: parent_class
