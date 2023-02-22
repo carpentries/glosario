@@ -7661,6 +7661,11 @@
     def: >
       Om ten gunste van iets te stem.
 
+- slug: pointcloud
+  en:
+    term: "pointcloud"
+    def: >
+      A set of discrete data points in three-dimensional space.
 
 - slug: poisson_distribution
   en:
