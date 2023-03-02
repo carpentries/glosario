@@ -5673,6 +5673,12 @@
       El factor que cambias o controlas intencionadamente para ver qué efecto tiene 
       sobre la [variable dependiente](#dependent_variable).
 
+- slug: index
+  en:
+    term: "index"
+    def: >
+      Each of the elements of an array. Indexes represent the position by numerical representation.
+
 - slug: infinite_loop
   ref:
     - loop
