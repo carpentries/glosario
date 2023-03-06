@@ -285,7 +285,7 @@ languages:
     blurb: >-
       In translation
   - key: zh
-    name: Chinese
+    name: 中文
     title: 术语表
     blurb: >
       `glosario`是开源的数据科学术语表，也可作为[R](https://github.com/carpentries/glosario-r/)
