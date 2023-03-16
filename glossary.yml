@@ -2961,9 +2961,11 @@
 - slug: constant
   en:
     term: "constant"
-    def: >-
-      A value that cannot be changed after it has been defined, as opposed 
-      to a [variable](#variable_program).
+    def: >- 
+      A constant in programming is a name associated with a value that never changes during the execution of a program. You can only access the constant’s value but not change it over time. Oposed to a [variable](#variable_program) 
+
+      # A value that cannot be changed after it has been defined, as opposed 
+      # to a [variable](#variable_program).
   fr:
     term: "constante"
     def: >
@@ -2978,6 +2980,12 @@
     def: >-
       Thamani ambayo haiwezi kubadilishwa baada ya kubainishwa, 
       ukilinganisha na [kigeu](#variable_program) ambayo hubadilika.
+
+  es:
+    term: "constante"
+    def: >-
+      Una constante en programación es un nombre asociado con un valor que nunca cambia durante la ejecución de un programa. Solo se puede acceder al valor de la constante, pero no cambiarlo con el tiempo. En oposición a una [variable](#variable_program).
+      # Un valor que no puede ser cambiado después de haber sido definido, opuesto a lo que es una [variable](#variable_program).
       
 
 - slug: constructor
