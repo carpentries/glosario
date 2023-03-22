@@ -10046,7 +10046,7 @@
     def: >
       Short for "YAML Ain't Markup Language", a way to represent nested data using
       indentation rather than the parentheses and commas of [JSON](#json). YAML is
-      often used in configuration files and to define [parameters](#parameter) for various flavors
+      often used in configuration files and to define [parameters](#parameter) for various flavours
       of [Markdown](#markdown) documents.
   fr:
     term: "YAML"
