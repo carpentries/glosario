@@ -10087,7 +10087,7 @@
      
 - slug: parametric_statistics
   ref:
-    - non-parametric (statistics)
+    - nonparametric_statistics
   en:
     term: "parametric (statistics)"
     def: >
@@ -10096,9 +10096,9 @@
 
 - slug: nonparametric_statistics
   ref:
-    - parametric (statistics)
+    - parametric_statistics
   en:
-    term: " non-parametric (statistics)"
+    term: "non-parametric (statistics)"
     def: >
       A branch of statistical tests which do not assume a known distribution of the population which the samples were taken from (Kruskal-Wallis and Dunn test are examples of non-parametric tests).
      
