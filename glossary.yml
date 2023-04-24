@@ -8249,9 +8249,9 @@
   sw:
   term: "hifadhidata ya uhusiano"
   def: >
-      "Hifadhidata ambayo hupanga habari katika majedwali, ambayo kila moja ina seti isiyobadilika 
+      Hifadhidata ambayo hupanga habari katika majedwali, ambayo kila moja ina seti isiyobadilika 
       ya sehemu zilizotajwa (zinazoonyeshwa kama safu wima) na idadi tofauti ya rekodi (zinazoonyeshwa 
-      kama safu mlalo)."
+      kama safu mlalo).
 
 - slug: relative_error
   en:
