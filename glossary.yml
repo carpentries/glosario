@@ -8247,8 +8247,8 @@
       chacune avec un ensemble déterminé de [champs](#field) (représentés sous forme de colonnes)
       et un nombre variable d'[entrées](#record) (représentées sous forme de lignes).
   sw:
-  term: "hifadhidata ya uhusiano"
-  def: >
+    term: "hifadhidata ya uhusiano"
+    def: >
       Hifadhidata ambayo hupanga habari katika majedwali, ambayo kila moja ina seti isiyobadilika 
       ya sehemu zilizotajwa (zinazoonyeshwa kama safu wima) na idadi tofauti ya rekodi (zinazoonyeshwa 
       kama safu mlalo).
