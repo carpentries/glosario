@@ -10113,7 +10113,7 @@
 - slug: artificial_intelligence
   ref:
     - nlp
-    - ma
+    - machine_learning
   en:
     term: "artificial intelligence (AI)"
     def: >
