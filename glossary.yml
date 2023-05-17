@@ -10174,3 +10174,11 @@
     A large learning rate can speed up training, but the network might overshoot and miss the 
     minimum. A small learning rate will overshoot less, but will be slower. It can also get more 
     easily stuck in local minima.
+
+- slug: class_imbalance
+  ref:
+    - machine_learning
+  def:
+    Class imbalance refers to the problem [machine learning](machine_learning) where there is an 
+    unequal distribution of classes in the dataset.
+
