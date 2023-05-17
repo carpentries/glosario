@@ -10178,7 +10178,17 @@
 - slug: class_imbalance
   ref:
     - machine_learning
-  def:
+  def: >
     Class imbalance refers to the problem [machine learning](machine_learning) where there is an 
     unequal distribution of classes in the dataset.
 
+- slug: hidden_layer
+  ref:
+    - neural_network
+    - machine_learning
+    - deep_learning
+    - perceptron
+  def: >
+    A hidden layer in a [neural network](#neural_network) refers to the layers of neurons that are
+    not directly connected to input or output. The layers are "hidden" because you do not directly
+    observe their input and output values.
