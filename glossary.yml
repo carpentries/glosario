@@ -10113,10 +10113,24 @@
 - slug: artificial_intelligence
   ref:
     - nlp
-    -
+    - ma
   en:
     term: "artificial intelligence (AI)"
     def: >
       Intelligence demonstrated by machines, as opposed to humans or other animals. AI can be 
       exhibited through perceiving, synthesizing and inference of information. Example tasks include
-      natural language processing, computer vision, and machine learning.
+      [natural language processing](#nlp), computer vision, and [machine learning]
+      (#machine_learning).
+
+- slug: cnn
+  ref:
+    - deep_learning
+    - backpropagation
+    - perceptron
+    - neural_network
+    - machine_learning
+  term: "convolutional neural network (cnn)"
+  def: >
+    A class of artificial neural network that is primarily used to analyze images. A CNN has layers
+    that perform convolutions, where a filter is shifted over the data, instead of the general 
+    matrix multiplications that we see in fully connected neural network layers.
