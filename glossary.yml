@@ -10134,3 +10134,16 @@
     A class of artificial neural network that is primarily used to analyze images. A CNN has layers
     that perform convolutions, where a filter is shifted over the data, instead of the general 
     matrix multiplications that we see in fully connected neural network layers.
+
+- slug: rnn
+  ref:
+    - deep_learning
+    - backpropagation
+    - perceptron
+    - neural_network
+    - machine_learning
+  term: recurrent neural network
+  def: >
+    A class of [artificial neural networks](#neural_network) where connections between nodes can 
+    create a cycle. This allows the network to exhibit behavior that is dynamic over time. This 
+    type of network is applicable to tasks like speech and handwriting recognition.
