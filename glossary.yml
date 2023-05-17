@@ -10160,3 +10160,17 @@
     In [deep learning](#deep_learning), an epoch is one cycle in the deep learning process where all
     the training data has been fed to the algorithm once. Training a deep neural networks usually
     consists of multiple epochs.
+
+- slug: learning_rate
+  ref:
+    - deep_learning
+    - backpropagation
+    - perceptron
+    - neural_network
+    - machine_learning
+  def: >
+    In [artificial neural networks](#neural_network), the learning rate is a hyper-parameter that
+    determines the pace at which the network adjusts the weights to move down the loss gradient. 
+    A large learning rate can speed up training, but the network might overshoot and miss the 
+    minimum. A small learning rate will overshoot less, but will be slower. It can also get more 
+    easily stuck in local minima.
