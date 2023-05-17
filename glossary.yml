@@ -10110,4 +10110,13 @@
     term: "non-parametric (statistics)"
     def: >
       A branch of statistical tests which do not assume a known distribution of the population which the samples were taken from (Kruskal-Wallis and Dunn test are examples of non-parametric tests).
-     
+- slug: artificial_intelligence
+  ref:
+    - nlp
+    -
+  en:
+    term: "artificial intelligence (AI)"
+    def: >
+      Intelligence demonstrated by machines, as opposed to humans or other animals. AI can be 
+      exhibited through perceiving, synthesizing and inference of information. Example tasks include
+      natural language processing, computer vision, and machine learning.
