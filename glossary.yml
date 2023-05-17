@@ -10147,3 +10147,16 @@
     A class of [artificial neural networks](#neural_network) where connections between nodes can 
     create a cycle. This allows the network to exhibit behavior that is dynamic over time. This 
     type of network is applicable to tasks like speech and handwriting recognition.
+
+- slug: epoch_dl
+  ref:
+    - deep_learning
+    - backpropagation
+    - perceptron
+    - neural_network
+    - machine_learning
+  term: epoch (deep learning)
+  def: >
+    In [deep learning](#deep_learning), an epoch is one cycle in the deep learning process where all
+    the training data has been fed to the algorithm once. Training a deep neural networks usually
+    consists of multiple epochs.
