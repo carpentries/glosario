@@ -2971,10 +2971,7 @@
   en:
     term: "constant"
     def: >- 
-      A constant in programming is a name associated with a value that never changes during the execution of a program. You can only access the constant’s value but not change it over time. Oposed to a [variable](#variable_program) 
-
-      # A value that cannot be changed after it has been defined, as opposed 
-      # to a [variable](#variable_program).
+      A constant in programming is a name associated with a value that never changes during the execution of a program. You can only access the constant’s value but not change it over time, as opposed to a [variable](#variable_program) 
   fr:
     term: "constante"
     def: >
