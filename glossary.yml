@@ -438,6 +438,12 @@
       Kipimo cha takwimu cha muundo wa uainishaji ambao hutoa uwiano
       ya utabiri sahihi kati ya jumla ya idadi ya kesi. Imehesabiwa kama
       Usahihi = (TP+TN)/(TP+TN+FP+FN)
+  de:
+    term: "Genauigkeit"
+    def: > 
+      Ein statistisches Maß zur Beschreibung eines Klassifizierungsmodells, 
+      das den Anteil der korrekten Vorhersagen in allen Vorhersagen angibt. 
+      Es wird als Genauigkeit = (TP+FN)/(TP+FP+WN+ FN) berechnet. 
 
 - slug: actual_result
   de:
