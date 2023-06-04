@@ -10045,6 +10045,14 @@
 
 
 - slug: yaml
+  af:
+    term: "YAML"
+    def: >
+      'n Afkorting vir "YAML Ain't Markup Language". Dis 'n metode om geneste data 
+      deur indentasie voor te stel liewer as om hakkies of kommas of [JSON](#json) 
+      te gebruik. YAML word dikwels gebruik in konfigurasie lêers en word ook gebruik om 
+      [PARAMETERS](#parameters) te definieer vir verskeie variasies van [MARKDOWN](#markdown) 
+      dokumente.
   de:
     term: "YAML"
     def: >
