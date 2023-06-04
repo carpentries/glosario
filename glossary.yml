@@ -10102,6 +10102,11 @@
 - slug: parametric_statistics
   ref:
     - nonparametric_statistics
+  af: 
+  term: "parametriese (statistiek)"
+  def: > 
+    'n Klas van statistieke toetse wat almal aanneem dat die verdeling van die populasie waarvandaan die steekproef geneem was, bekend is. 
+    (ANOVA en Student se t-toetse is beide voorbeelde van parametriese toetse.)
   en:
     term: "parametric (statistics)"
     def: >
