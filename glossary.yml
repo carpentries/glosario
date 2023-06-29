@@ -1510,8 +1510,8 @@
     term: "Bayes' Theorem"
     def: >
       An equation for calculating the probability that something is [true](#true) if something
-      related to it is true. If P(X) is the probability that X is true and P(X|Y) is
-      the probability that X is true given Y is true, then P(X|Y) = P(Y|X) * P(X) / P(Y).
+      related to it is true. If P(X) is the probability that X is true and P(X"|"Y) is
+      the probability that X is true given Y is true, then P(X"|"Y) = P(Y"|"X) * P(X) / P(Y).
   af:
     term: "Bayes se stelling"
     def: >
