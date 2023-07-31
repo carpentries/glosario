@@ -10089,6 +10089,13 @@
       y comillas usadas en [JSON](#json). YAML es usado frequentemente en    
       archivos de configuración y para definir [parámetros](#parameter) en varios estilos
       de documentos en [Markdown](#markdown).
+  af:
+    term: "YAML"
+    def: >
+      Kort vir "YAML Ain't Markup Language", 'n manier om geneste data te gebruik deur middel van indentasies in plaas van
+      hakkies en kommas of [JSON](#json). YAML word dikwels in konfigurasielêers gebruik en om [parameters](#parameter) vir 
+      verskeie geure te definieer van [Markdown](#markdown) dokumente. 
+      
   id:
     term: "YAML"
     def: >
