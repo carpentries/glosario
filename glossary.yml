@@ -10094,7 +10094,7 @@
     def: >
       Kort vir "YAML Ain't Markup Language", 'n manier om geneste data te gebruik deur middel van indentasies in plaas van
       hakkies en kommas of [JSON](#json). YAML word dikwels in konfigurasielêers gebruik en om [parameters](#parameter) vir 
-      verskeie geure te definieer van [Markdown](#markdown) dokumente. 
+      verskeie variasies te definieer van [Markdown](#markdown) dokumente. 
       
   id:
     term: "YAML"
