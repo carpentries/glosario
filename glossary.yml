@@ -10179,7 +10179,7 @@
   ref:
     - machine_learning
   def: >
-    Class imbalance refers to the problem [machine learning](machine_learning) where there is an 
+    Class imbalance refers to the problem in [machine learning](machine_learning) where there is an 
     unequal distribution of classes in the dataset.
 
 - slug: hidden_layer
