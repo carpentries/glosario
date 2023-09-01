@@ -1,4 +1,4 @@
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 name: Build and Deploy Glossary Website
 
@@ -23,7 +23,7 @@ jobs:
     - name: Deploy to site
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'zkamvar/glosario' }}
       uses: JamesIves/github-pages-deploy-action@v4
-      with: 
+      with:
         branch: site
         folder: _gh-site
         token: ${{ secrets.GITHUB_TOKEN }}
