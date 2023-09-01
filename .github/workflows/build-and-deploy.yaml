@@ -22,7 +22,7 @@ jobs:
 
     - name: Deploy to site
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'carpentries/glosario' }}
-      uses: JamesIves/github-pages-deploy-action@4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: site
         folder: _gh-site
