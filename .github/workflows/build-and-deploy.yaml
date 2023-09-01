@@ -23,7 +23,7 @@ jobs:
       run: ls -alh _gh-site && ls -alh _gh-site/_data
 
     - name: Deploy to site
-      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'carpentries/glosario' }}
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'zkamvar/glosario' }}
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: site
