@@ -8935,7 +8935,7 @@
   en:
     term: "specificity"
     def: >
-      Statistical measure of a classification model which gives the False Negative rate. 
+      Statistical measure of a classification model which gives the True Negative rate. 
       For example, the proportion of people who do not have a disease that test negative. 
       Calculated as Specificity = TN/(TN+FP).
 
