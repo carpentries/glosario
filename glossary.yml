@@ -10139,11 +10139,12 @@
     - perceptron
     - neural_network
     - machine_learning
-  term: "convolutional neural network (cnn)"
-  def: >
-    A class of artificial neural network that is primarily used to analyze images. A CNN has layers
-    that perform convolutions, where a filter is shifted over the data, instead of the general 
-    matrix multiplications that we see in fully connected neural network layers.
+  en:
+    term: "convolutional neural network (cnn)"
+    def: >
+      A class of artificial neural network that is primarily used to analyze images. A CNN has layers
+      that perform convolutions, where a filter is shifted over the data, instead of the general 
+      matrix multiplications that we see in fully connected neural network layers.
 
 - slug: rnn
   ref:
@@ -10152,11 +10153,12 @@
     - perceptron
     - neural_network
     - machine_learning
-  term: recurrent neural network
-  def: >
-    A class of [artificial neural networks](#neural_network) where connections between nodes can 
-    create a cycle. This allows the network to exhibit behavior that is dynamic over time. This 
-    type of network is applicable to tasks like speech and handwriting recognition.
+  en:
+    term: recurrent neural network
+    def: >
+      A class of [artificial neural networks](#neural_network) where connections between nodes can 
+      create a cycle. This allows the network to exhibit behavior that is dynamic over time. This 
+      type of network is applicable to tasks like speech and handwriting recognition.
 
 - slug: epoch_dl
   ref:
@@ -10165,11 +10167,12 @@
     - perceptron
     - neural_network
     - machine_learning
-  term: epoch (deep learning)
-  def: >
-    In [deep learning](#deep_learning), an epoch is one cycle in the deep learning process where all
-    the training data has been fed to the algorithm once. Training a deep neural networks usually
-    consists of multiple epochs.
+  en:
+    term: epoch (deep learning)
+    def: >
+      In [deep learning](#deep_learning), an epoch is one cycle in the deep learning process where all
+      the training data has been fed to the algorithm once. Training a deep neural networks usually
+      consists of multiple epochs.
 
 - slug: learning_rate
   ref:
@@ -10178,19 +10181,23 @@
     - perceptron
     - neural_network
     - machine_learning
-  def: >
-    In [artificial neural networks](#neural_network), the learning rate is a hyper-parameter that
-    determines the pace at which the network adjusts the weights to move down the loss gradient. 
-    A large learning rate can speed up training, but the network might overshoot and miss the 
-    minimum. A small learning rate will overshoot less, but will be slower. It can also get more 
-    easily stuck in local minima.
+  en:
+    term: learning rate (deep learning)
+    def: >
+      In [artificial neural networks](#neural_network), the learning rate is a hyper-parameter that
+      determines the pace at which the network adjusts the weights to move down the loss gradient. 
+      A large learning rate can speed up training, but the network might overshoot and miss the 
+      minimum. A small learning rate will overshoot less, but will be slower. It can also get more 
+      easily stuck in local minima.
 
 - slug: class_imbalance
   ref:
     - machine_learning
-  def: >
-    Class imbalance refers to the problem in [machine learning](machine_learning) where there is an 
-    unequal distribution of classes in the dataset.
+  en:
+    term: class imbalance
+    def: >
+      Class imbalance refers to the problem in [machine learning](machine_learning) where there is an 
+      unequal distribution of classes in the dataset.
 
 - slug: hidden_layer
   ref:
@@ -10198,7 +10205,9 @@
     - machine_learning
     - deep_learning
     - perceptron
-  def: >
-    A hidden layer in a [neural network](#neural_network) refers to the layers of neurons that are
-    not directly connected to input or output. The layers are "hidden" because you do not directly
-    observe their input and output values.
+  en:
+    term: hidden layer (deep learning)
+    def: >
+      A hidden layer in a [neural network](#neural_network) refers to the layers of neurons that are
+      not directly connected to input or output. The layers are "hidden" because you do not directly
+      observe their input and output values.
