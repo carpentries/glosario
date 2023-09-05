@@ -8658,7 +8658,7 @@
     def: >
       Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
 
-- slug: selection bias
+- slug: selecting on the dependent variable bias
   en:
     term: "selecting on the dependent variable bias"
     def: >
