@@ -8657,6 +8657,16 @@
     term: "kies"
     def: >
       Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
+
+- slug: selecting on the dependent variable bias
+  en:
+    term: "selecting on the dependent variable bias"
+    def: >
+      A study that only includes cases where the dependent variable shows the same value, instead of cases with different values in the dependent variable, is a study affected by selecting on the dependent variable bias.
+  es:
+    term: "sesgo de selección en la variable dependiente"
+    def: >
+     Un estudio que solamente incluye casos en los que la variable dependiente tiene el mismo valor, en lugar de casos con variación en la variable dependiente, es un estudio con sesgo de selección en la variable dependiente.
       
 
 - slug: self_join
