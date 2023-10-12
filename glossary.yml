@@ -10210,8 +10210,8 @@
   en:
     term: "ROC Curve"
     def: >
-      An ROC curve (Receiver Operating Characteristic curve) is a graphic that displays the performance 
+      A ROC curve (Receiver Operating Characteristic curve) is a graph that displays the performance 
       of a binary classifier at different [classification](#classification) thresholds. The curve is 
-      obtained by plotting the True Positive Rate (also, known as Recall or [Sensitivity](#sensitivity))
+      obtained by plotting the True Positive Rate (also known as Recall or [Sensitivity](#sensitivity))
       along the vertical axis and the False Positive Rate along the horizontal axis.
    
