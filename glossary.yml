@@ -5579,6 +5579,10 @@
     term: "icon"
     def: >
       In computing, an icon is a graphic symbol that is displayed on a computer screen to help a user navigate the computer system.
+  af:
+    term: "ikoon"
+    def: >
+      In rekenaarkunde is 'n ikoon 'n grafiese simboll wat op 'n rekenaarskerm vertoon word om die gebruiker te help om 'n rekenaarstelsel te navigeer.
 
 - slug: ide
   ref:
