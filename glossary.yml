@@ -5574,6 +5574,12 @@
     def: >
       በመጠቀም ከ [አገልጋይ](#server) ለ [ደንበኛ](#client) የተላከ መልስ [HTTP](#http) [ፕሮቶኮል](#protocol) ለ [ጥያቄ] ምላሽ ለመስጠት (#http_request)። ምላሹ ብዙውን ጊዜ የድር ገጽን ፣ ምስልን ወይም መረጃን ይ containsል።
 
+- slug: icon
+  en:
+    term: "icon"
+    def: >
+      In computing, an icon is a graphic symbol that is displayed on a computer screen to help a user navigate the computer system.
+
 - slug: ide
   ref:
     - repl
