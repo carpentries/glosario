@@ -5901,7 +5901,7 @@
     term: "Java"
     def: >
       Java is a high-level, cross-platform, object-oriented and general-purpose programming language. Programs written in Java will run on any platform that supports 
-      the Java software platform without having to be recompiled. This feature gave rise to the slogan "Write Once Run Anywhere" ([WORA](#wora)). Java syntax is 
+      the Java software platform without having to be recompiled. This feature gave rise to the slogan "Write Once Run Anywhere" [WORA](#wora). Java syntax is 
       similar to that of C and C++.
       
 - slug: join
