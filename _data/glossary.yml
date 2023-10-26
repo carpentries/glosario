@@ -5896,6 +5896,14 @@
     def: >
       ጊዜያዊ [ነገር](#design_pattern) ወይም [ጄኔሬተር) ውስጥ አንድ [ንድፍ ንድፍ](#object) ተግባር](#generator_function) እያንዳንዱን እሴት ከአንድ ክምችት በተራ ያወጣል ማቀነባበር. ይህ ንድፍ በተለያዩ የውሂብ ዓይነቶች መካከል ያለውን ልዩነት ይደብቃል ሁሉም ነገሮች ቀለበቶችን በመጠቀም እንዲከናወኑ መዋቅሮች ፡፡
 
+- slug: java
+  en:
+    term: "Java"
+    def: >
+      Java is a high-level, cross-platform, object-oriented and general-purpose programming language. Programs written in Java will run on any platform that supports 
+      the Java software platform without having to be recompiled. This feature gave rise to the slogan "Write Once Run Anywhere". Java syntax is 
+      similar to that of C and C++.
+      
 - slug: join
   ref:
     - anti_join
