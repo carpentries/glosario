@@ -5904,6 +5904,13 @@
       the Java software platform without having to be recompiled. This feature gave rise to the slogan "Write Once Run Anywhere". Java syntax is 
       similar to that of C and C++.
       
+  af:
+    term: "Java"
+    def: >
+      Java is 'n hoëvlak, kruisplatvorm, objekgeoriënteerde en algemene-gebruik programmeertaal. Programme wat in Java geskryf is sal op enige platform werk, 
+      wat die Java sagtewareplatform implementeer, sonder dat dit hersaamgestel hoef te word. Die kenmerk het gelei tot die slagspreuk "skryf eenkeer, hardloop enige 
+      plek". Die Javasintaks is soortgelyk aan die van C en C++.
+      
 - slug: join
   ref:
     - anti_join
