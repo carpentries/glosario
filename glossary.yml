@@ -5425,6 +5425,11 @@
     def: >
         When computing power is drawn from multiple powerful processors that work together in parallel, rather than from a single desktop computer, laptop, or work station.
         This significantly speeds up analysis and reduces computing time, which allows people to work with [big data](#big_data).
+  es:
+    term: "computación de alto rendimiento"
+    def: >
+       Método que utiliza procesadores poderosos, usualmente trabajando en paralelo, para analizar datos. 
+       Su uso adecuado reduce el tiempo de análisis en comparación con una computadora personal y permite la exploración de grandes colecciones de datos.
 
 - slug: hippocratic_license
   en:
