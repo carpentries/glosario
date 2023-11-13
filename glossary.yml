@@ -256,6 +256,13 @@
         بغض النظر عن مكان تقييمها،
         وللتبسيط يمكن أن يُقال أن
         المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا.
+  
+  el:
+    term: "απόλυτο μονοπάτι"
+    def: >
+      Ένα μονοπάτι (path) που δείχνει στην ίδια τοποθεσία στο [σύστημα αρχείων](#filesystem)
+      ανεξάρτητα από το πού αξιολογείται. Ένα απόλυτο μονοπάτι ισοδυναμεί με
+      το γεωγραφικό πλάτος και το γεωγραφικό μήκος στην γεωγραφία.
 
   am:
     term: ፍጹም መንገድ
@@ -316,6 +323,11 @@
     def: >
       Indice sequenziale di una riga in una tabella, indipendetemente da quale sezione
       della tabella sia visualizzata.
+  el:
+    term: "απόλυτος αριθμός σειράς"
+    def: >
+      Το διαδοχικό ευρετήριο (index) μιας γραμμής σε έναν πίνακα, ανεξάρτητα από το ποια τμήματα
+      του πίνακα εμφανίζονται.
 
 - slug: abstract_method
   de:
@@ -387,6 +399,14 @@
       definito ma non implementato. Il programmatore definisce un metodo astratto in
       una [classe padre](#parent_class) per specificare delle operazioni che la 
       [classe figlia](#child_class) deve implementare.
+  
+  el:
+    term: "αφηρημένη μέθοδος"
+    def: >
+      Στον [αντικειμενοστραφή προγραμματισμό](#oop), μια [μέθοδος](#method) που ορίζεται αλλά
+       δεν εφαρμόζεται. Οι προγραμματιστές θα ορίσουν μια αφηρημένη μέθοδο σε μια [γονεϊκή
+       κλάση](#parent_class) για να καθορίσουν διαδικασίες που οι [θυγατρικές κλάσεις](#child_class)
+       πρέπει να παρέχουν.
 
 - slug: abstract_syntax_tree
   en:
