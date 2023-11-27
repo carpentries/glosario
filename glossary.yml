@@ -2659,6 +2659,18 @@
     def: >
       አንድ አይነት ስራዎችን ለማከናወን የሚያስፈልገው የስራ ትውስታ መጠን.
 
+- slug: collection
+  ref:
+    - list
+    - vector
+    - tuple
+  en:
+    term: "collection"
+    def: >
+      An abstract data type that groups an arbitrary, variable number of data items (possibly zero), to allow 
+      processing them in a uniform fashion. Common examples of collections are lists, variable-size arrays and sets. Fixed-size arrays 
+      are usually not considered collections.
+
 - slug: command
   en:
     term: "command"
