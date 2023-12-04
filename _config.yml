@@ -137,6 +137,16 @@ languages:
        to znanje. Autori također mogu koristiti funkcije rječnika za umetanje
        dosljedne hiperveze za pojmove i definicije u svojim lekcijama na bilo kojem od
        nekoliko jezika.
+  - key: hu
+    name: Magyar
+    title: Szójegyzék
+    blurb: >
+       `glosario` egy nyílt forráskódú szójegyzék, amiben ezen fogalmak tartalmát adattudományban használnak.
+       Elérhető online, egyben programkönyvtár formájában is [R](https://github.com/carpentries/glosario-r/) nyelven
+       és [Python](https://github.com/carpentries/glosario-py/)ban is.   A tanórában elhangzott szavak hozzákapcsolhatóak a szójegyzékhez. 
+       Ezzel jelezve a tanóra tartalmát, a diákoktól elvárt óra elötti készülést és ezen felül mindezek hol találhatóak meg.  
+       A tanárok továbbiakban használhatják a programkönyvtárak beépített függvényeit amivel hyper-linkeket csatolhatnak az egyes fogalmakhoz, 
+       így hozzá illesztve a tanóra anyagának bármelyik részéhez az adott nyelvhez.
   - key: ko
     name: 한국어
     title: 용어 사전
@@ -274,3 +284,11 @@ languages:
     title: Glossary
     blurb: >-
       In translation
+  - key: zh
+    name: 中文
+    title: 术语表
+    blurb: >
+      `glosario`是开源的数据科学术语表，也可作为[R](https://github.com/carpentries/glosario-r/)
+      和[Python](https://github.com/carpentries/glosario-py/)的软件包使用。课程作者可
+      以在课程元数据中添加术语名词，让学习者提前了解课程的前提要求以及去哪里学习这些前提知识。
+      利用软件包，课程作者也可以在课程内容中插入不同语言的术语名词和解释的永久链接。
