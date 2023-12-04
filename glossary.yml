@@ -9140,6 +9140,13 @@
       0 y una [desviación estándar](#standard_deviation) de 1. Valores de
       distribuciones normales con otros parámetros se puede reescalar fácilmente
       para obtener una distribución normal estándar.
+  pt:
+    term: "distribuição normal padrão"
+    def: >
+      Uma [distribuição normal](#normal_distribution) com uma média 0 e um 
+      [desvio padrão](#standard_deviation) de 1. Valores de distribuições normais
+      com outros parâmetros podem ser facilmente redimensionados para obter-se 
+      uma distribuição normal padrão.
 
 
 - slug: stderr
