@@ -3613,10 +3613,16 @@
     def: >
       In a computer environment 'debug' refers to the process of finding and resolving errors (also known as 'bugs') within computer programs or systems.
 
+  pt:
+    term: "depurar"
+    def: >
+      Em um ambiente de computador, 'debug' refere-se ao processo de encontrar e resolver erros (também conhecidos como 'bugs') em programas ou sistemas de computador.
+  
   sw:
     term: "utatuzi"
     def: >
       Katika mazingira ya kompyuta 'utatuzi' inarejelea mchakato wa kutafuta na kutatua makosa (pia hujulikana kama hitilafu) ndani ya programu au mifumo ya kompyuta.
+
 
 - slug: decision_tree
   ref:
@@ -10184,7 +10190,7 @@
       indentasi alih-alih menggunakan tanda kurung dan koma pada [JSON] (#json). YAML sering kali
       digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
       untuk beragam tipe dokumen [Markdown](#markdown).
-     
+
 - slug: parametric_statistics
   ref:
     - nonparametric_statistics
@@ -10304,3 +10310,4 @@
       of a binary classifier at different [classification](#classification) thresholds. The curve is 
       obtained by plotting the True Positive Rate (also known as Recall or [Sensitivity](#sensitivity))
       along the vertical axis and the False Positive Rate along the horizontal axis.
+      
