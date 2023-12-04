@@ -3706,7 +3706,7 @@
     term: "default target"
     def: >
       The [build target](#build_target) that is used when none is specified explicitly.
-
+ 
   am:
     term: ነባሪ ዒላማ
     def: >
@@ -3723,6 +3723,11 @@
     term: ነባሪ እሴት
     def: >
       መቼ ለአንድ ተግባር [ልኬት](#parameter) የተመደበ እሴት ደዋዩ ዋጋ አይገልጽም። ነባሪ እሴቶች እንደ የተግባሩ አካል ሆነው ተገልፀዋል ትርጉም
+   pt:
+    term: "valor por defeito"
+    def: >
+      Valor associado ao [parâmetro](#parameter) de uma função quando o operador não especifica um
+      valor. Valores por defeito fazem parte da definição de uma função.
 
 - slug: defensive_programming
   en:
