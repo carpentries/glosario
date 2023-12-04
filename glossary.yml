@@ -983,9 +983,10 @@
   pt:
     term: "argumento"
     def: >
-      Uma expressão, possivelmente dentre muitas, passada para uma função. É o valor em si.
-      Não confundir com [parâmetro](#parameter), que é um termo relacionado, mas diferente.
-      Parâmetros são variáveis e argumentos são os valores dessas variáveis.
+      O termo não deve ser confundido com, e não é sinônimo de, [parâmetro](#parameter). Um argumento é uma das 
+      possíveis expressões que são passadas para uma função. É o valor real que é transmitido. 
+      Parâmetros e argumentos são conceitos distintos, mas relacionados. Parâmetros são variáveis e argumentos 
+      são os valores atribuídos a essas variáveis.
   ar:
     term: "وسيطة"
     def: >
