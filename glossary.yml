@@ -3346,7 +3346,7 @@
   pt:
     term: "depurar"
     def: >
-      O processo de identificar e remover erros (como por exemplo erros referentes a quando se usa um programa).
+      Em um ambiente de computador, 'debug' refere-se ao processo de encontrar e resolver erros (também conhecidos como 'bugs') em programas ou sistemas de computador.
   
   sw:
     term: "utatuzi"
