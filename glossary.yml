@@ -1521,20 +1521,20 @@
     term: "Bayes' Theorem"
     def: >
       An equation for calculating the probability that something is [true](#true) if something
-      related to it is true. If P(X) is the probability that X is true and P(X|Y) is
-      the probability that X is true given Y is true, then P(X|Y) = P(Y|X) * P(X) / P(Y).
+      related to it is true. If P(X) is the probability that X is true and P(X`|`Y) is
+      the probability that X is true given Y is true, then P(X`|`Y) = P(Y`|`X) * P(X) / P(Y).
   af:
     term: "Bayes se stelling"
     def: >
       'n Vergelyking om die waarskynlikheid te bepaal dat iets [waar](#true) is indien iets
-      verwant ook waar is. As P(X) die waarskynlikheid is dat X waar is en P(X|Y) is die 
-      waarskynlikheid dat X waar is indien die gegewe Y waar is, dan is P(X|Y) = P(Y|X) * P(X) / P(Y).
+      verwant ook waar is. As P(X) die waarskynlikheid is dat X waar is en P(X`|`Y) is die 
+      waarskynlikheid dat X waar is indien die gegewe Y waar is, dan is P(X`|`Y) = P(Y`|`X) * P(X) / P(Y).
   es:
     term: "Teorema de Bayes"
     def: >
       Una ecuación para calcular la probabilidad de que algo sea [verdadero](#true) si algo    
-      relacionado con ello es verdadero. Si P(X) es la probabilidad de que X is verdadero y P(X|Y) es    
-      la probabilidad de que X es verdadero dado que Y sea verdadero, entonces P(X|Y) = P(Y|X) * P(X) / P(Y).
+      relacionado con ello es verdadero. Si P(X) es la probabilidad de que X is verdadero y P(X`|`Y) es    
+      la probabilidad de que X es verdadero dado que Y sea verdadero, entonces P(X`|`Y) = P(Y`|`X) * P(X) / P(Y).
 
 
 - slug: bayesian_network
