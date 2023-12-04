@@ -3319,8 +3319,7 @@
   de:
     term: "Deep Learning"
     def: >
-      Eine Sammlung an Methoden des maschinellen Lernens, die künstliche neuronale Netze mit mehreren Zwischenschichten 
-      nutzen, um damit komplexere, zusammengesetzte Eigenschaften stückweise aus rohen Eingabedaten zu extrahieren (z.B. Gesichter aus den Pixelwerten in Bildern). 
+      Eine Familie von Algorithmen für künstliche neuronale Netzwerke, die mehrere Schichten verwenden, um schrittweise Eigenschaften auf immer höheren Ebenen zu extrahieren. 
   am:
     term: ጥልቅ ትምህርት
     def: >
