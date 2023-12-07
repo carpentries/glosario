@@ -316,7 +316,7 @@
     def: >
       Indice sequenziale di una riga in una tabella, indipendetemente da quale sezione
       della tabella sia visualizzata.
-  pt:
+  fr:
     term: "numéro de ligne absolu"
     def: >
       L'index séquentiel d'une ligne dans une table, quelles que soient les sections de la table affichées.
