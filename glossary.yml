@@ -2467,9 +2467,9 @@
     def: >
       አንድ የኮምፒውተር ፕሮግራም አንድ የተወሰነ ሥራን እንዲሠራ የሚነግረው መመሪያ።
       
- la:
-  term: "iussum"
-  def: > ordo vel edictum
+  la:
+    term: "iussum"
+    def: > ordo vel edictum
 
   sw:
     term: "amri"
