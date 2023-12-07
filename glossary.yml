@@ -4422,7 +4422,7 @@
   pt:
     term: "falso negativo"
     def: >
-      Dados ou resultados que na realidade são [verdadeiro](#true) mas que são incorretamente considerados ou determinados como [falso](#false) pelo algoritmo.
+      Dados ou resultados que são realmente [verdadeiro](#true), mas são incorretamente previstos como [falso](#false).
   
   sw:
     term: "uongo hasi"
