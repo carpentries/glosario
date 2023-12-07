@@ -4446,15 +4446,12 @@
   pt:
     term: "falso positivo"
     def: >
-      Dados ou resultados que na realidade são [falso](#false) mas que são incorretamente considerados ou determinados como [verdadeiro](#true) pelo algoritmo.
-
+      Dados ou resultados que são realmente [falso](#false), mas são incorretamente previstos como [verdadeiro](#true) pelo algoritmo
       
   sw:
     term: "uwongo chanya"
     def: >
       Pointi za data ambazo kwa hakika ni za [uongo](#false) lakini zimetabiriwa kimakosa kama kua za [kweli](#true).
-
-
 
 - slug: falsy
   ref:
