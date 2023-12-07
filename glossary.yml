@@ -10,7 +10,7 @@
       Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
   es:
     term: "concatenar"
-    def: >
+    def: >valor por defeito
       Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
 
 - slug: 68_95_997_rule
@@ -3723,7 +3723,8 @@
     term: ነባሪ እሴት
     def: >
       መቼ ለአንድ ተግባር [ልኬት](#parameter) የተመደበ እሴት ደዋዩ ዋጋ አይገልጽም። ነባሪ እሴቶች እንደ የተግባሩ አካል ሆነው ተገልፀዋል ትርጉም
-   pt:
+   
+  pt:
     term: "valor por defeito"
     def: >
       Valor associado ao [parâmetro](#parameter) de uma função quando o operador não especifica um
