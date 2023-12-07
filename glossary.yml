@@ -2713,7 +2713,7 @@
     term: "vertrouensinterval"
     def: >
       'n Variasiewydte rondom 'n beraming wat'n foutgrens aandui, gekombineerd met die waarskynlikheid
-       dat die werklike getal binne die skatting val.
+      dat die werklike getal binne die skatting val.
 
   am:
     term: በራስ የመተማመን ጊዜ
