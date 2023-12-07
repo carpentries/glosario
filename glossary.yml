@@ -402,8 +402,7 @@
   fr:
     term: "méthode abstraite"
     def: >
-      En programmation orientée objet, c'est la méthode définie mais non implémentée. 
-      Les programmeurs définiront une méthode abstraite dans une classe parente pour spécifier les opérations que les classes enfants doivent fournir.
+      En programmation orientée objet, une méthode définie mais non implémentée. Les programmeurs définissent une méthode abstraite dans une classe parente pour spécifier les opérations que les classes enfants doivent fournir.
       
   it:
     term: "metodo astratto"
@@ -536,8 +535,7 @@
   fr:
     term: "résultat réel (du test)"
     def: >
-      Valeur générée par l'exécution de code dans une phase de test.
-      Si cela correspond au résultat attendu, le test réussit; si les deux sont différents, le test échoue.
+      La valeur générée par l'exécution du code lors d'un test. Si elle correspond au résultat attendu, le test réussit ; s'ils sont différents, le test échoue.
       
 - slug: affordance
   en:
@@ -690,8 +688,7 @@
   fr:
     term: "développement agile"
     def: >
-      Une méthodologie de développement logiciel qui met l'accent sur de nombreuses petites étapes et une rétroaction continue au lieu d'une planification initiale et d'une planification à long terme. 
-      La programmation exploratoire est souvent agile.
+      Une méthodologie de développement logiciel qui privilégie de nombreuses petites étapes et une rétroaction continue plutôt que la planification initiale et la programmation à long terme. La programmation exploratoire est souvent associée à l'approche agile.
 
   tn:
     term: "Tiro ya Potlako"
@@ -1138,7 +1135,7 @@
     def: >
       ይመልከቱ [ማለት](#mean)
 
-fr:
+  fr:
     term: "moyenne arithmétique"
     def: >
       Calculé à partir d'un ensemble de n nombres en additionnant ces nombres et en divisant le résultat par n.
