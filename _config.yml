@@ -111,7 +111,12 @@ languages:
     name: עִברִית
     title: מילון מונחים
     blurb: >
-      in translation
+      `glosario` הוא מילון מונחים פתוח של מונחים בתחום מדעי הנתונים, שזמין באופן מקוון וכן כספרייה בשתי השפות הבאות:
+      [R](https://github.com/carpentries/glosario-r/)
+      וב-[Python](https://github.com/carpentries/glosario-py/).
+      על ידי הוספת מפתחות מילון למטא-נתונים של שיעור, הכותבים יכולים לציין את מהות השיעור, מה שהלומדים אמורים לדעת לפני שהם מתחילים, ואיפה הם יכולים למצוא את הידע הזה.
+      הכותבים יכולים גם להשתמש בפונקציות הספרייה כדי להוסיף קישורים יציבים למונחים ולהגדרות בשיעורים שלהם באחת מהשפות המוגדרות.
+
   - key: it
     name: Italiano
     title: Glossario
@@ -151,7 +156,13 @@ languages:
     name: 한국어
     title: 용어 사전
     blurb: >-
-      to be translated
+      `glosario`은 데이터 과학에서 사용되는 용어의 오픈 소스 용어집으로,
+      온라인에서 사용 가능하며 또한 [R](https://github.com/carpentries/glosario-r/) 및
+      [Python](https://github.com/carpentries/glosario-py/) 라이브러리로도 제공됩니다.   
+      수업의 메타데이터에 용어집 키를 추가함으로써 저자는 해당 수업이 무엇을 가르치는지,
+      학습자들이 시작하기 전에 무엇을 알아야 하는지, 그리고 그 지식을 찾을 수 있는 곳을 나타낼 수 있습니다.
+      저자는 또한 라이브러리 함수를 사용하여 여러 언어로 된 수업에서 용어와 정의에 일관된 하이퍼링크를 삽입할 수 있습니다.
+
   - key: pt
     name: Português
     title: Glossário
@@ -283,7 +294,10 @@ languages:
     name: Southern Sotho
     title: Glossary
     blurb: >-
-      In translation
+      `Glosario` ke boikarabelo ba maemo a data science e bonahalang ka bophara, e fumaneha motho le motho le ka ho fana ka Library ka bothata ba di-
+      [R](https://github.com/carpentries/glosario-r/)
+      le [Python](https://github.com/carpentries/glosario-py/). Ka ho baakanya maemo a meta-data ea leso, batho ba bangodi ba ka sebedisa mokhoa o ka baakang boikarabelo, ha ba bolele setshwantsho sa selemo se seholo, le hore mefuta e hlalosang selemo, le hore ba ka etsa eng ho fetola ho fihlela hore ba ka etsa ka wona. Ba ka sebedisa mofuta o mong o se fihleng o fumaneha ka Library e, ho nyoloha link tse ling tsa maemo le tse ling tsa ditlhakatlhakanyo tsa mofuta le dikarabo tsa lesona ka molaetsa.
+
   - key: zh
     name: 中文
     title: 术语表
