@@ -4431,7 +4431,6 @@
       Pointi za data ambazo kwa hakika ni za [kweli](#true) lakini zimetabiriwa kimakosa kama kua za [uongo](#false).
 
 
-
 - slug: false_positive
   ref:
     - false_negative
