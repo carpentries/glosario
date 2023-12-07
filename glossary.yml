@@ -10,7 +10,7 @@
       Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
   es:
     term: "concatenar"
-    def: >valor por defeito
+    def: >
       Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
 
 - slug: 68_95_997_rule
