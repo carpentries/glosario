@@ -3723,7 +3723,8 @@
     term: ነባሪ እሴት
     def: >
       መቼ ለአንድ ተግባር [ልኬት](#parameter) የተመደበ እሴት ደዋዩ ዋጋ አይገልጽም። ነባሪ እሴቶች እንደ የተግባሩ አካል ሆነው ተገልፀዋል ትርጉም
-   pt:
+   
+  pt:
     term: "valor por defeito"
     def: >
       Valor associado ao [parâmetro](#parameter) de uma função quando o operador não especifica um
@@ -4418,6 +4419,11 @@
     term: "false negative"
     def: >
       Data points which are actually [true](#true) but incorrectly predicted as [false](#false).
+
+  pt:
+    term: "falso negativo"
+    def: >
+      Dados ou resultados que são realmente [verdadeiro](#true), mas são incorretamente previstos como [falso](#false).
   
   sw:
     term: "uongo hasi"
@@ -4436,12 +4442,16 @@
     term: "false positive"
     def: >
       Data points which are actually [false](#false) but incorrectly predicted as [true](#true).
+
+  pt:
+    term: "falso positivo"
+    def: >
+      Dados ou resultados que são realmente [falso](#false), mas são incorretamente previstos como [verdadeiro](#true) pelo algoritmo
       
   sw:
     term: "uwongo chanya"
     def: >
       Pointi za data ambazo kwa hakika ni za [uongo](#false) lakini zimetabiriwa kimakosa kama kua za [kweli](#true).
-
 
 - slug: falsy
   ref:
