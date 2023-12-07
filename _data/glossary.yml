@@ -323,6 +323,12 @@
     def: >
       Indice sequenziale di una riga in una tabella, indipendetemente da quale sezione
       della tabella sia visualizzata.
+
+  fr:
+    term: "numéro de ligne absolu"
+    def: >
+      L'index séquentiel d'une ligne dans une table, quelles que soient les sections de la table affichées.
+      
   el:
     term: "απόλυτος αριθμός σειράς"
     def: >
@@ -392,6 +398,12 @@
     def: "በ [ነገር-ተኮር መርሃግብር](#oop) ውስጥ አንድ [ዘዴ](#method) ተገልፇል ነገር ግን አልተተገበረም ፡፡
       መርሃግብሮች [ወላጅ] ውስጥ ረቂቅ ዘዴን ይገልፃሉ ክፍል](#parent_class) [የህፃናት ክፍሎች](#child_class)
       ማቅረብ አለበት ፡፡ \n"
+
+  fr:
+    term: "méthode abstraite"
+    def: >
+      En programmation orientée objet, une méthode définie mais non implémentée. Les programmeurs définissent une méthode abstraite dans une classe parente pour spécifier les opérations que les classes enfants doivent fournir.
+      
   it:
     term: "metodo astratto"
     def: >
@@ -520,7 +532,11 @@
       El valor generado ejecutando el código en una prueba. Si coincide con el 
       [resultado esperado] (#expected_result), la prueba [pasa] (#pass_test); 
       si son diferentes, la prueba [falla] (#fail_test).
-
+  fr:
+    term: "résultat réel (du test)"
+    def: >
+      La valeur générée par l'exécution du code lors d'un test. Si elle correspond au résultat attendu, le test réussit ; s'ils sont différents, le test échoue.
+      
 - slug: affordance
   en:
     term: "affordance"
@@ -538,7 +554,12 @@
   am:
     term: አቅም
     def: "የአንድ ነገር ንብረት እንደ መያዣ ወይም አዝራር እንዴት መጠቀም እንደሚቻል የሚጠቁም \n"
-    
+
+  fr:
+    term: "affordance"
+    def: >
+      La caractéristique d'un objet qui suggère à son utilisateur son mode d'usage ou autre pratique. 
+   
   sw:
     term: "uwezesho"
     def: >
@@ -663,6 +684,12 @@
       selbstorganisierter Teams ein Program entwickelt wird. Im Gegensatz dazu
       stehen klassische Ansätze die häufig aufwändiger Planung bedürfen.
       [Explorative Programmierung](#exploratory_programming) ist oft agil.
+
+  fr:
+    term: "développement agile"
+    def: >
+      Une méthodologie de développement logiciel qui privilégie de nombreuses petites étapes et une rétroaction continue plutôt que la planification initiale et la programmation à long terme. La programmation exploratoire est souvent associée à l'approche agile.
+
   tn:
     term: "Tiro ya Potlako"
     def: >
@@ -676,6 +703,7 @@
       Mbinu ya ukuzaji programu ambayo inasisitiza hatua nyingi ndogo na maoni 
       endelevu badala ya mipango ya mbeleni na ratiba ya muda mrefu. 
       [Exploratory programming](#exploratory_programming) mara nyingi huwa chapa.
+
 
 - slug: algorithm
   en:
@@ -786,10 +814,17 @@
     def: >
       Melawana e e salwang morago ke khompiutara/sebalamakgolo go rarabolola dikgwetlho tse di amang tiriso ya tse di mo boranyaneng.
 
+  fr:
+    term: "aliasing"
+    def: >
+      Le fait d'avoir deux ou plusieurs références au même objet, comme par exemple une structure de données en mémoire ou un fichier sur disque.
+
+
   sw:
     term: "Kutambulisha"
     def: >
       Kuwa na marejeleo mawili au zaidi ya kitu kimoja, kama vile muundo wa data kwenye kumbukumbu au faili kwenye diski.
+
 
 - slug: anaconda
   ref:
@@ -916,7 +951,11 @@
   am:
     term: ፀረ መቀላቀል
     def: "በረድፎች ሠንጠረዥ ሀን ከሠንጠረዥ ለ እንዳይቀላቀሉ የሚያግዱ (#join) ቁልፎች  *ቁልፎች* \n"
-
+  fr:
+    term: "anti join"
+    def: >
+      Une jointure qui conserve les lignes de la table A dont les clés ne correspondent pas aux clés de la table B.
+      
 - slug: api
   en:
     term: "Application Programming Interface"
@@ -988,7 +1027,12 @@
     term: አባሪ ሁነታ
     def: >
       በቀደመው ፋይል ይዘቶች ላይ ከመፃፍ ይልቅ አሁን ባለው ፋይል መጨረሻ ላይ ውሂብ ለማከል ። እንደገና መፃፍ የነበረዉ ነው ፣ ስለሆነም አብዛኛዎቹ የፕሮግራም ቋንቋዎች በምትኩ ለመተካት ፕሮግራሞች ግልጽ እንዲሆኑ ይጠይቃሉ።
-      
+
+  fr:
+    term: "append mode"
+    def: >
+      Le fait d'ajouter des données à la fin d'un fichier existant au lieu d'écraser le contenu précédent de ce fichier. L'écrasement est la valeur par défaut, donc la plupart des langages de programmation exigent que les programmes soient explicites sur le fait de vouloir ajouter des données à la place.
+        
   sw:
     term: "Hali ya Kuambatanisha"
     def: >
@@ -1086,12 +1130,16 @@
     term: "rekenkundige gemiddelde"
     def: >
       Sien [gemiddelde](#mean).
-
   am:
     term: የሂሳብ ሚዛን
     def: >
       ይመልከቱ [ማለት](#mean)
-      
+
+  fr:
+    term: "moyenne arithmétique"
+    def: >
+      Calculé à partir d'un ensemble de n nombres en additionnant ces nombres et en divisant le résultat par n.
+           
   sw:
     term: "wastani wa hesabu"
     def: >
@@ -1386,6 +1434,13 @@
       datasets by detecting repeating patterns that may be partially concealed by random noise, among 
       other uses.
 
+  fr:
+    term: "autocorrélation"
+    def: >
+      Le degré de similarité entre les observations d'une même série mais séparées par un intervalle de temps (appelé « décalage »). L'analyse d'autocorrélation peut être utilisée pour mieux comprendre les ensembles de données de séries chronologiques en détectant des modèles répétitifs qui peuvent être partiellement masqués par un bruit aléatoire.
+      
+
+
   sw:
     term: "uhusiano wa kiotomatiki"
     def: >
@@ -1394,6 +1449,7 @@
       kugundua ruwaza zinazorudiwa ambazo zinaweza kufichwa kwa kiasi na kelele nasibu, 
       miongoni mwa matumizi mengine.
     
+
 - slug: automatic_variable
   ref:
     - makefile
@@ -1431,14 +1487,17 @@
       Ein Algoritmus der die Gewichtung in einem [neuralen Netzwerk](#neural_network) iterativ anpasst.
       Die Rückwärtspropagierung ist ein Spezialfall eines [allgemeinen Gradientenverfahrens](#gradient_descent)
       in der Optimierung, basierend auf dem mittleren quadratischen Fehler.
-
   am:
     term: የጀርባ ማሰራጨት
     def: "በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው ስልተ ቀመር አውታረ መረብ](#neural_network)።
       የጀርባ ማሰራጨት ለመተግበር ብዙውን ጊዜ ጥቅም ላይ ይውላል [የግራዲያንት ዝርያ](#gradient_descent) ስልተ ቀመር
       አውታረ መረብ](#ነርቭ_አውታረ መረብ) በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው  የጀርባ
       ማሰራጨት ብዙውን ጊዜ  [የግራዲያንት ዝርያ](#gradient_descent) ለመተግበር ጥቅም ላይ ይውላል \n"
-
+  fr:
+    term: "backpropagation"
+    def: >
+     C'est un algorithme qui ajuste de manière itérative les pondérations utilisées dans un réseau de neurones. La rétropropagation est souvent utilisée pour implémenter la descente de gradient.
+      
 - slug: backward_compatible
   en:
     term: "backward-compatible"
@@ -1517,11 +1576,17 @@
       pueden encontrarse en `src/library` y no son actualizados fuera de R; su número de versión
       coincide con el de R. Los paquetes de R base se instalan y cargan junto con R, mientras que los
       paquetes prioritarios se instalan con R, pero deben ser cargados antes de utilizarse.
-
   am:
     term: ቤዝ አር
     def: >
       የ [R](#r_language) ቋንቋን የመሠረቱ መሠረታዊ ተግባራት። የመሠረት እሽጎች በ ውስጥ ሊገኙ ይችላሉ "src / library" እና ከ R ውጭ አይዘመኑም; የእነሱ ስሪት ቁጥሮች አር የስሪት ቁጥር። የመሠረት ፓኬጆች ተጭነው በ R ተጭነዋል ፣ ቅድሚያ የሚሰጠው ግን ፓኬጆች ከመሠረታዊ አር ጋር ተጭነዋል ነገር ግን ከመጠቀምዎ በፊት መጫን አለባቸው ፡፡ የ [R](#r_language) ቋንቋን የመሠረቱ መሠረታዊ ተግባራት። የመሠረት እሽጎች በ "src/library" ውስጥ ሊገኙ ይችላሉ እና ከ R ውጭ አይሻሻሉም; የእነሱ ስሪት ቁጥሮች የአር  ስሪት ቁጥርን ይከተላሉ።  መሠረት ፓኬጆች ጋር ከR ተጭነዉ ይዘረጋሉ፣ ቅድሚያ የሚሰጠው ግን ፓኬጆች ከመሠረታዊ አር ጋር ተጭነዋል ነገር ግን ከመጠቀም በፊት መጫን አለባቸው ፡፡
+
+  fr:
+    term: "base R"
+    def: >
+      Les fonctions de base composant le langage R. Les packages de base peuvent être trouvés dans src/library et ne sont pas mis à jour en dehors de R; leurs numéros de version suivent la numérotation des versions R. Les packages de base sont installés et chargés avec R, tandis que les packages prioritaires sont installés avec base R mais doivent être chargés avant utilisation.
+      
+
 
   ar:
     term: "آر الأساس"
@@ -1529,6 +1594,7 @@
       `src/library` يمكن الحصول علي الحزم الأساسية في .[R](#r_language) الوظائف الأساسية التي تتكون منها لغة آر
       R الحزم الأساسية مثبتة ويتم تحميلها مع R أرقام نسختها تتبع ترقيم نسخة R لايمكن تحديث الحزم الأساسية خارج
       ولكن يجب أن يتم تحميل قبل استخدامها .  R بينما الحزم ذات الألوية يتم تثبيتها مع 
+
 
 - slug: bayes_rule
   en:
@@ -1622,12 +1688,15 @@
     def: >
       Auch systematische Abweichung genannt. Ein Messwert wird dann als verzerrt beschrieben, wenn er
       systematisch von dem wahren Wert einer Messgröße abweicht.
-
   am:
     term: ወገንተኝነት
     def: >
       ስታትስቲክስ በስርዓት ወይም በወጥነት ከ ‹የተለየ› ከሆነ አድሏዊ ነው ልኬት ሊገምተው ይገባል ፡፡ በስርዓት ወይም በወጥነት ከ ‹የተለየ› ከሆነ  ስታትስቲክስ አድሏዊ ነው ልኬት ሊገምተው ይገባል ፡፡
-
+  fr:
+    term: "bias"
+    def: >
+      Une statistique est biaisée si elle est systématiquement ou régulièrement différente du paramètre qu'elle est censée estimer.
+      
 - slug: big_data
   ref:
     - three_vs
@@ -1668,7 +1737,11 @@
     term: "Idatha Enkulu"
     def: >
       Noma iyiphi idatha kuze kube kamuva nje ibinkulu kakhulu ukuthi abantu abaningi basebenze ngayo kukhompuyutha eyodwa.
-
+  fr:
+    term: "big data"
+    def: >
+      Toutes les données qui, jusqu'à récemment, étaient trop volumineuses pour que la plupart des gens puissent les utiliser sur un seul ordinateur.
+      
 - slug: binary
   en:
     term: "binary"
@@ -1699,7 +1772,11 @@
     term: ሁለትዮሽ
     def: >
       ከሁለት ሊሆኑ ከሚችሉ ግዛቶች ውስጥ አንዱን ሊኖረው የሚችል ስርዓት ፡፡ በኮምፒተር ውስጥ ብዙ ጊዜ በክፍለ-ግዛቱ 0 ወይም 1. የተወከለው በ [ቦሊያን](#boolean) ውስጥ ተወክሏል አመክንዮ እንደ [ሐሰት](#false) (0) ወይም [እውነት](#true) (1)። ኮምፒውተሮች ተገንብተዋል 0s እና 1s እንደ [ቢት](#bit) የሚያከማቹ ስርዓቶች ከሁለት በአንዱ ግዛቶች ውስጥ ሊኖር የሚችል ስርዓት ፡፡ በኮምፒተር ውስጥ ብዙ ጊዜ በ 0 ወይም 1 ይወከላል.  በ [ቦሊያን](#boolean) ውስጥ የተወከለው አመክንዮ እንደ [ሐሰት](#false) (0) ወይም [እውነት](#true) (1)። ኮምፒውተሮች  0s እና 1s እንደ [ቢት](#bit) እንዲያከማቹ ተገንብተዋል::
-
+  fr:
+    term: "binaire"
+    def: >
+      Un système qui peut avoir l'un des deux états possibles. En informatique souvent représenté comme étant à l'état 0 ou 1. Représenté en logique booléenne comme faux (0) ou vrai (1). Les ordinateurs sont construits sur des systèmes qui stockent les 0 et les 1 sous forme de bits.
+      
 - slug: binary_expression
   ref:
     - nullary_expression
