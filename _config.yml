@@ -306,3 +306,19 @@ languages:
       和[Python](https://github.com/carpentries/glosario-py/)的软件包使用。课程作者可
       以在课程元数据中添加术语名词，让学习者提前了解课程的前提要求以及去哪里学习这些前提知识。
       利用软件包，课程作者也可以在课程内容中插入不同语言的术语名词和解释的永久链接。
+
+  - key: la
+    name: Latin
+    title: Glossarium
+    blurb: >
+      `glossarium` est glosarium liberum terminorum usitatorum in scientia datarum, quod
+      online disponitur et etiam ut bibliotheca in utroque
+      [R](https://github.com/carpentries/glosario-r/) et
+      [Python](https://github.com/carpentries/glosario-py/).  Adiungendo claves glosarii
+      ad metadata lectionis, auctores possunt indicare quid doctrina docet,
+      quid discipuli scire debent antequam incipiant, et ubi possunt ire ut inveniant
+      illam scientiam.  Auctores etiam possunt uti functionibus bibliothecae ut inserant
+      consistentes hypernexus pro terminis et definitionibus in lectionibus suis in quacumque
+      ex pluribus linguis.
+
+
