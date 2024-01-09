@@ -26,6 +26,40 @@ languages:
       die inligting kan vind. Outeurs kan ook die programmateekfunksies gebruik om
       konsekwente hiperskakels, vir terme en definisies in enige van verskeie tale,
       by hul lesse in te sluit.
+  - key: am
+    name: አማርኛ
+    title: የቃላት ዝርዝር
+    blurb: >
+      የቃላት ዝርዝር በመረጃሳይንስውስጥበመስመርላይእናእንዲሁምበ R
+      እናበፓይንውስጥእንደቤተመፃህፍትጥቅምላይየዋሉክፍትምንጭየቃላትዝርዝርነው።
+      በትምህርቱሜታዳታላይየቃላትመፍቻቁልፎችንበመጨመርደራሲዎችትምህርቱምንእንደሚያስተምር ፣
+      ተማሪዎችከመጀመራቸውበፊትማወቅያለባቸውንማወቅእናይህንንእውቀትለማግኘትየትመሄድእንደሚችሉሊያመለክቱይችላሉ ፡፡
+      ደራሲዎችበየትኛውምየየትኛውምቋንቋትምህርቶችውስጥለትርጓሜዎችእናትርጓሜዎችወጥነትያላቸውንአገናኞችንለማስገባትየቤተ-መጽሐፍትተግባራትንመጠቀምይችላሉ
+      ፡፡
+  - key: ar
+    name: اَلْعَرَبِيَّةُ
+    title: قائمة المصطلحات
+    blurb: >
+      تطبيق (جلوساريو) هو عبارة عن برنامج مفتوح المصدر للمصطلحات المستخدمة في علم البيانات ، المتواجدة في
+      [لغة آر (R)](https://github.com/carpentries/glosario-r/)
+      و
+      [لغة البايثون (Python)](https://github.com/carpentries/glosario-py/)
+      عن طريق إضافة مفاتيح المصطلحات إلى البيانات الوصفية للدرس، يستطيع الكاتب ان يحدد
+      ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
+      كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
+      لغات
+  - key: bn
+    name: Bangla
+    title: শব্দকোষ
+    blurb: >
+      `glosario` হল ডাটা সায়েন্স এ ব্যবহৃত শব্দগুলোর জন্য একটি ওপেন সোর্স অনলাইন
+      শব্দকোষ। এটি [R](https://github.com/carpentries/glosario-r/) এবং
+      [Python](https://github.com/carpentries/glosario-py/), উভয় লাইব্রেরি
+      আকারেও ব্যবহার করা যাবে। লেখকরা পাঠক্রমের মেটাডাটা তে শব্দকোষ এর টীকা যোগ
+      করে শিক্ষার্থীদের জানাতে পারবেন যে পাঠ্যক্রমে  কি শেখানো হচ্ছে, শেখা শুরু করার
+      আগে তাদের কি কি জানা উচিৎ, এবং তা তারা কোথা থেকে শিখতে পারবে। লেখকরা
+      লাইব্রেরি ফাংশন ব্যবহার করে তাদের পাঠ্যক্রমে  বিভিন্ন ভাষাতে শব্দ ও সংজ্ঞার
+      সামঞ্জস্যপূর্ণ হাইপারলিঙ্ক যোগ করতে পারেন।
   - key: de
     name: Deutsch
     title: Glossar
@@ -41,18 +75,6 @@ languages:
       können die Funktionen der Bibliothek auch nutzen, um konsistente
       Links zu Begriffe und Definitionen in ihren Lektionen in einer
       von mehreren Sprachen einzufügen.
-  - key: bn
-    name: Bangla
-    title: শব্দকোষ
-    blurb: >
-      `glosario` হল ডাটা সায়েন্স এ ব্যবহৃত শব্দগুলোর জন্য একটি ওপেন সোর্স অনলাইন 
-      শব্দকোষ। এটি [R](https://github.com/carpentries/glosario-r/) এবং 
-      [Python](https://github.com/carpentries/glosario-py/), উভয় লাইব্রেরি 
-      আকারেও ব্যবহার করা যাবে। লেখকরা পাঠক্রমের মেটাডাটা তে শব্দকোষ এর টীকা যোগ 
-      করে শিক্ষার্থীদের জানাতে পারবেন যে পাঠ্যক্রমে  কি শেখানো হচ্ছে, শেখা শুরু করার 
-      আগে তাদের কি কি জানা উচিৎ, এবং তা তারা কোথা থেকে শিখতে পারবে। লেখকরা 
-      লাইব্রেরি ফাংশন ব্যবহার করে তাদের পাঠ্যক্রমে  বিভিন্ন ভাষাতে শব্দ ও সংজ্ঞার 
-      সামঞ্জস্যপূর্ণ হাইপারলিঙ্ক যোগ করতে পারেন।
   - key: el
     name: Ελληνικά
     title: Γλωσσάριο
@@ -116,53 +138,91 @@ languages:
       וב-[Python](https://github.com/carpentries/glosario-py/).
       על ידי הוספת מפתחות מילון למטא-נתונים של שיעור, הכותבים יכולים לציין את מהות השיעור, מה שהלומדים אמורים לדעת לפני שהם מתחילים, ואיפה הם יכולים למצוא את הידע הזה.
       הכותבים יכולים גם להשתמש בפונקציות הספרייה כדי להוסיף קישורים יציבים למונחים ולהגדרות בשיעורים שלהם באחת מהשפות המוגדרות.
-
+  - key: hr
+    name: Hrvatski
+    title: Rječnik
+    blurb: >
+      `glosario` je rječnik otvorenog koda ("open source") koji se koristi u podatkovnoj znanosti ("data science"),
+      a koji je dostupan online i kao korisnički paket u jezicima
+      [R](https://github.com/carpentries/glosario-r/) i
+      [Python](https://github.com/carpentries/glosario-py/). Dodavanjem pojmova iz rječnika
+      u metapodatake lekcija, autori mogu naznačiti što lekcija podučava,
+      što bi učenici trebali znati prije nego što počnu i gdje mogu ići pronaći
+      to znanje. Autori također mogu koristiti funkcije rječnika za umetanje
+      dosljedne hiperveze za pojmove i definicije u svojim lekcijama na bilo kojem od
+      nekoliko jezika.
+  - key: hu
+    name: Magyar
+    title: Szójegyzék
+    blurb: >
+      `glosario` egy nyílt forráskódú szójegyzék, amiben ezen fogalmak tartalmát adattudományban használnak.
+      Elérhető online, egyben programkönyvtár formájában is [R](https://github.com/carpentries/glosario-r/) nyelven
+      és [Python](https://github.com/carpentries/glosario-py/)ban is.   A tanórában elhangzott szavak hozzákapcsolhatóak a szójegyzékhez.
+      Ezzel jelezve a tanóra tartalmát, a diákoktól elvárt óra elötti készülést és ezen felül mindezek hol találhatóak meg.
+      A tanárok továbbiakban használhatják a programkönyvtárak beépített függvényeit amivel hyper-linkeket csatolhatnak az egyes fogalmakhoz,
+      így hozzá illesztve a tanóra anyagának bármelyik részéhez az adott nyelvhez.
+  - key: id
+    name: Bahasa Indonesia
+    title: Glosarium
+    blurb: >
+      `glosario` adalah glosarium-kode-terbuka dari istilah yang digunakan dalam
+      data science yang tersedia daring dan juga sebagai library dalam bahasa pemrograman
+      [R](https://github.com/carpentries/glosario-r/) dan
+      [Python](https://github.com/carpentries/glosario-py/).
+      Dengan menambahkan glosarium dalam metadata pelajaran, penulis dapat melacak
+      apa yang diajarkan, apa yang harus dipelajari sebelumnya, dan di mana
+      mereka dapat menelusuri lebih lanjut. Penulis dapat juga menggunakan fungsi dalam
+      library untuk memasukkan hyperlink istilah secara konsisten berikut definisinya
+      dalam pelajaran dalam beberapa bahasa.
   - key: it
     name: Italiano
     title: Glossario
     blurb: >
       `glosario` è un glossario open source dei termini usati nella scienza dei dati
-      (_data science_), disponibile online e anche come libreria sia in 
+      (_data science_), disponibile online e anche come libreria sia in
       [R](https://github.com/carpentries/glosario-r) che in [Python](https://github.com/carpentries/glosario-py).
       Aggiungendo i termini del glossario ai metadati delle lezioni, gli autori possono indicare
-      cosa insegneranno nella lezione, ciò gli studenti devono sapere prima di iniziare e 
-      dove possono trovare tali informazioni. 
+      cosa insegneranno nella lezione, ciò gli studenti devono sapere prima di iniziare e
+      dove possono trovare tali informazioni.
       Gli autori possono anche usare le funzioni della libreria per inserire collegamenti ipertestuali
       ai termini e alle definizioni nella lezione in una qualsiasi tra le diverse lingue.
-  - key: hr
-    name: Hrvatski
-    title: Rječnik
+  - key: ja
+    name: 日本語
+    title: グロサリオ
+    flag: japan
     blurb: >
-       `glosario` je rječnik otvorenog koda ("open source") koji se koristi u podatkovnoj znanosti ("data science"), 
-       a koji je dostupan online i kao korisnički paket u jezicima
-       [R](https://github.com/carpentries/glosario-r/) i
-       [Python](https://github.com/carpentries/glosario-py/). Dodavanjem pojmova iz rječnika
-       u metapodatake lekcija, autori mogu naznačiti što lekcija podučava,
-       što bi učenici trebali znati prije nego što počnu i gdje mogu ići pronaći
-       to znanje. Autori također mogu koristiti funkcije rječnika za umetanje
-       dosljedne hiperveze za pojmove i definicije u svojim lekcijama na bilo kojem od
-       nekoliko jezika.
-  - key: hu
-    name: Magyar
-    title: Szójegyzék
-    blurb: >
-       `glosario` egy nyílt forráskódú szójegyzék, amiben ezen fogalmak tartalmát adattudományban használnak.
-       Elérhető online, egyben programkönyvtár formájában is [R](https://github.com/carpentries/glosario-r/) nyelven
-       és [Python](https://github.com/carpentries/glosario-py/)ban is.   A tanórában elhangzott szavak hozzákapcsolhatóak a szójegyzékhez. 
-       Ezzel jelezve a tanóra tartalmát, a diákoktól elvárt óra elötti készülést és ezen felül mindezek hol találhatóak meg.  
-       A tanárok továbbiakban használhatják a programkönyvtárak beépített függvényeit amivel hyper-linkeket csatolhatnak az egyes fogalmakhoz, 
-       így hozzá illesztve a tanóra anyagának bármelyik részéhez az adott nyelvhez.
+      `グロサリオ` は、データサイエンスで使われる用語の
+      オープンソースグロッサリーです。オンラインとして、または
+      [R](https://github.com/carpentries/glosario-r)パッケージや
+      [Python](https://github.com/carpentries/glosario-py/)ライブラリ
+      として利用出来ます。レッスンのメタデータに新しい用語を追加することで、
+      そのレッスンで何を教えるのか、および学習者が必要な予備知識、
+      そしてその情報がどこにあるかが分かるようになります。また、
+      ライブラリの機能を使ってレッスンに多言語で、用語や定義に
+      一貫したハイパーリンクを挿入することが可能になります。
   - key: ko
     name: 한국어
     title: 용어 사전
     blurb: >-
       `glosario`은 데이터 과학에서 사용되는 용어의 오픈 소스 용어집으로,
       온라인에서 사용 가능하며 또한 [R](https://github.com/carpentries/glosario-r/) 및
-      [Python](https://github.com/carpentries/glosario-py/) 라이브러리로도 제공됩니다.   
+      [Python](https://github.com/carpentries/glosario-py/) 라이브러리로도 제공됩니다.
       수업의 메타데이터에 용어집 키를 추가함으로써 저자는 해당 수업이 무엇을 가르치는지,
       학습자들이 시작하기 전에 무엇을 알아야 하는지, 그리고 그 지식을 찾을 수 있는 곳을 나타낼 수 있습니다.
       저자는 또한 라이브러리 함수를 사용하여 여러 언어로 된 수업에서 용어와 정의에 일관된 하이퍼링크를 삽입할 수 있습니다.
-
+  - key: la
+    name: Latin
+    title: Glossarium
+    blurb: >
+      `glosario` est glosarium liberum terminorum usitatorum in scientia datarum, quod
+      online disponitur et etiam ut bibliotheca in utroque
+      [R](https://github.com/carpentries/glosario-r/) et
+      [Python](https://github.com/carpentries/glosario-py/).  Adiungendo claves glosarii
+      ad metadata lectionis, auctores possunt indicare quid doctrina docet,
+      quid discipuli scire debent antequam incipiant, et ubi possunt ire ut inveniant
+      illam scientiam.  Auctores etiam possunt uti functionibus bibliothecae ut inserant
+      consistentes hypernexus pro terminis et definitionibus in lectionibus suis in quacumque
+      ex pluribus linguis.
   - key: pt
     name: Português
     title: Glossário
@@ -180,12 +240,39 @@ languages:
     name: Nederlands
     title: Woordenlijst
     blurb: >
-      `glosario` is een open source woordenlijst met termen uit de data science die online en als bibliotheek 
-      in [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/) 
-      beschikbaar is. Door termen uit de woordenlijst op te nemen in de metadata van een les, kunnen auteurs 
-      aangeven welke informatie in een les wordt behandeld, wat studenten moeten weten voordat de les begint en 
-      waar studenten de informatie kunnen vinden. Auteurs kunnen de functionaliteiten van de woordenlijst ook 
+      `glosario` is een open source woordenlijst met termen uit de data science die online en als bibliotheek
+      in [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/)
+      beschikbaar is. Door termen uit de woordenlijst op te nemen in de metadata van een les, kunnen auteurs
+      aangeven welke informatie in een les wordt behandeld, wat studenten moeten weten voordat de les begint en
+      waar studenten de informatie kunnen vinden. Auteurs kunnen de functionaliteiten van de woordenlijst ook
       gebruiken om consistente hyperlinks naar termen en definities op te nemen in hun lessen in een of meerdere talen.
+  - key: st
+    name: Southern Sotho
+    title: Setsotso sa Dikgokgo
+    blurb: >-
+      `glosario` ke boikarabelo ba maemo a data science e bonahalang ka bophara, e fumaneha
+      motho le motho le ka ho fana ka Library ka bothata ba di-
+      [R](https://github.com/carpentries/glosario-r/)
+      le [Python](https://github.com/carpentries/glosario-py/). Ka ho baakanya maemo a meta-data
+      ea leso, batho ba bangodi ba ka sebedisa mokhoa o ka baakang boikarabelo, ha ba bolele
+      setshwantsho sa selemo se seholo, le hore mefuta e hlalosang selemo, le hore ba ka etsa
+      eng ho fetola ho fihlela hore ba ka etsa ka wona. Ba ka sebedisa mofuta o mong o se fihleng
+      o fumaneha ka Library e, ho nyoloha link tse ling tsa maemo le tse ling tsa ditlhakatlhakanyo
+      tsa mofuta le dikarabo tsa lesona ka molaetsa.
+  - key: sw
+    name: Kiswahili
+    title: Kamusi
+    blurb: >
+      `glosario` ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi
+      ya data na inapatikana mitandaoni na pia kama maktaba kwenye lugha ya
+      [R](https://github.com/carpentries/glosario-r/) na
+      [Python](https://github.com/carpentries/glosario-py/) programu.
+      Kwa kuongeza funguo za faharasa kwenye metadata ya somo,
+      waandishi wanaweza kuashiria funzo la somo, kile ambacho wanafunzi
+      wanapaswa kujua kabla ya somo kuanza na mahali ambapo wanaweza kupata
+      maarifa hayo. Waandishi wanaweza pia kutumia vipengele kwenye maktaba
+      kuweka viungo thabiti vinavyo ashiria masharti na ufafanuzi kwenye
+      somo zao katika lugha yoyote ya kibinadamu.
   - key: tn
     name: Setswana
     title: Tlotlo
@@ -215,89 +302,6 @@ languages:
       nalapho banokuya khona ukufumana olo lwazi. Ababhali banokusebenzisa
       imisebenzi yethala leencwadi ukufaka ii-hyperlink ezifanayo zemigaqo kunye
       neenkcazo kwizifundo zabo ngalo naluphi na ulwimi.
-  - key: zu
-    name: IsiZulu
-    title: Isichazamazwi 
-    blurb: >
-      `IGlosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
-      ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/)
-      [naku-Python](https://github.com/carpentries/glosario-py/). Ngokufaka okhiye bohlu lwamagama kwimethadatha
-      yesifundo, ababhali bangakhombisa ukuthi isifundo sifundisani, ukuthi yini abafundi okufanele bayazi
-      ngaphambi kokuthi baqale, nokuthi bangaya kuphi ukuthola lolu lwazi. Ababhali bangasebenzisa futhi
-      imisebenzi yomtapo ukufaka izixhumanisi ezihambisanayo zamagama nezincazelo ezifundweni zabo nganoma
-      yiziphi izilimi eziningana.
-  - key: am
-    name: አማርኛ
-    title: የቃላት ዝርዝር
-    blurb: >
-      የቃላት ዝርዝር በመረጃሳይንስውስጥበመስመርላይእናእንዲሁምበ R
-      እናበፓይንውስጥእንደቤተመፃህፍትጥቅምላይየዋሉክፍትምንጭየቃላትዝርዝርነው።
-      በትምህርቱሜታዳታላይየቃላትመፍቻቁልፎችንበመጨመርደራሲዎችትምህርቱምንእንደሚያስተምር ፣
-      ተማሪዎችከመጀመራቸውበፊትማወቅያለባቸውንማወቅእናይህንንእውቀትለማግኘትየትመሄድእንደሚችሉሊያመለክቱይችላሉ ፡፡
-      ደራሲዎችበየትኛውምየየትኛውምቋንቋትምህርቶችውስጥለትርጓሜዎችእናትርጓሜዎችወጥነትያላቸውንአገናኞችንለማስገባትየቤተ-መጽሐፍትተግባራትንመጠቀምይችላሉ
-      ፡፡
-  - key: ar
-    name: اَلْعَرَبِيَّةُ
-    title: قائمة المصطلحات
-    blurb: >
-      تطبيق (جلوساريو) هو عبارة عن برنامج مفتوح المصدر للمصطلحات المستخدمة في علم البيانات ، المتواجدة في
-      [لغة آر (R)](https://github.com/carpentries/glosario-r/)
-      و
-      [لغة البايثون (Python)](https://github.com/carpentries/glosario-py/)
-      عن طريق إضافة مفاتيح المصطلحات إلى البيانات الوصفية للدرس، يستطيع الكاتب ان يحدد
-      ماهي مفاهيم الدرس، وماذا يجب على الطالب أن يتعلم قبل قراءة الدرس وأين يتمكن من تحصيل المعلومات
-      كما يمكن للكاتب ان يحدد بعض المصطلحات ويربطها برابط يحتوي على ترجمة المصطلحات في عدة
-      لغات
-  - key: ja
-    name: 日本語
-    title: グロサリオ
-    flag: japan
-    blurb: >
-      `グロサリオ` は、データサイエンスで使われる用語の
-      オープンソースグロッサリーです。オンラインとして、または
-      [R](https://github.com/carpentries/glosario-r)パッケージや
-      [Python](https://github.com/carpentries/glosario-py/)ライブラリ
-      として利用出来ます。レッスンのメタデータに新しい用語を追加することで、
-      そのレッスンで何を教えるのか、および学習者が必要な予備知識、
-      そしてその情報がどこにあるかが分かるようになります。また、
-      ライブラリの機能を使ってレッスンに多言語で、用語や定義に
-      一貫したハイパーリンクを挿入することが可能になります。
-      
-  - key: sw
-    name: Kiswahili
-    title: Kamusi 
-    blurb: >
-      `glosario` ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi
-      ya data na inapatikana mitandaoni na pia kama maktaba kwenye lugha ya 
-      [R](https://github.com/carpentries/glosario-r/) na
-      [Python](https://github.com/carpentries/glosario-py/) programu.
-      Kwa kuongeza funguo za faharasa kwenye metadata ya somo, 
-      waandishi wanaweza kuashiria funzo la somo, kile ambacho wanafunzi
-      wanapaswa kujua kabla ya somo kuanza na mahali ambapo wanaweza kupata
-      maarifa hayo. Waandishi wanaweza pia kutumia vipengele kwenye maktaba
-      kuweka viungo thabiti vinavyo ashiria masharti na ufafanuzi kwenye 
-      somo zao katika lugha yoyote ya kibinadamu.
-  - key: id
-    name: Bahasa Indonesia
-    title: Glosarium
-    blurb: >
-      `glosario` adalah glosarium-kode-terbuka dari istilah yang digunakan dalam
-      data science yang tersedia daring dan juga sebagai library dalam bahasa pemrograman
-      [R](https://github.com/carpentries/glosario-r/) dan
-      [Python](https://github.com/carpentries/glosario-py/).
-      Dengan menambahkan glosarium dalam metadata pelajaran, penulis dapat melacak
-      apa yang diajarkan, apa yang harus dipelajari sebelumnya, dan di mana
-      mereka dapat menelusuri lebih lanjut. Penulis dapat juga menggunakan fungsi dalam
-      library untuk memasukkan hyperlink istilah secara konsisten berikut definisinya
-      dalam pelajaran dalam beberapa bahasa.
-  - key: st
-    name: Southern Sotho
-    title: Setsotso sa Dikgokgo
-    blurb: >-
-      `glosario` ke boikarabelo ba maemo a data science e bonahalang ka bophara, e fumaneha motho le motho le ka ho fana ka Library ka bothata ba di-
-      [R](https://github.com/carpentries/glosario-r/)
-      le [Python](https://github.com/carpentries/glosario-py/). Ka ho baakanya maemo a meta-data ea leso, batho ba bangodi ba ka sebedisa mokhoa o ka baakang boikarabelo, ha ba bolele setshwantsho sa selemo se seholo, le hore mefuta e hlalosang selemo, le hore ba ka etsa eng ho fetola ho fihlela hore ba ka etsa ka wona. Ba ka sebedisa mofuta o mong o se fihleng o fumaneha ka Library e, ho nyoloha link tse ling tsa maemo le tse ling tsa ditlhakatlhakanyo tsa mofuta le dikarabo tsa lesona ka molaetsa.
-
   - key: zh
     name: 中文
     title: 术语表
@@ -306,17 +310,19 @@ languages:
       和[Python](https://github.com/carpentries/glosario-py/)的软件包使用。课程作者可
       以在课程元数据中添加术语名词，让学习者提前了解课程的前提要求以及去哪里学习这些前提知识。
       利用软件包，课程作者也可以在课程内容中插入不同语言的术语名词和解释的永久链接。
-
-  - key: la
-    name: Latin
-    title: Glossarium
+  - key: zu
+    name: IsiZulu
+    title: Isichazamazwi
     blurb: >
-      `glosario` est glosarium liberum terminorum usitatorum in scientia datarum, quod
-      online disponitur et etiam ut bibliotheca in utroque
-      [R](https://github.com/carpentries/glosario-r/) et
-      [Python](https://github.com/carpentries/glosario-py/).  Adiungendo claves glosarii
-      ad metadata lectionis, auctores possunt indicare quid doctrina docet,
-      quid discipuli scire debent antequam incipiant, et ubi possunt ire ut inveniant
-      illam scientiam.  Auctores etiam possunt uti functionibus bibliothecae ut inserant
-      consistentes hypernexus pro terminis et definitionibus in lectionibus suis in quacumque
-      ex pluribus linguis.
+      `IGlosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
+      ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/)
+      [naku-Python](https://github.com/carpentries/glosario-py/). Ngokufaka okhiye bohlu lwamagama kwimethadatha
+      yesifundo, ababhali bangakhombisa ukuthi isifundo sifundisani, ukuthi yini abafundi okufanele bayazi
+      ngaphambi kokuthi baqale, nokuthi bangaya kuphi ukuthola lolu lwazi. Ababhali bangasebenzisa futhi
+      imisebenzi yomtapo ukufaka izixhumanisi ezihambisanayo zamagama nezincazelo ezifundweni zabo nganoma
+      yiziphi izilimi eziningana.
+
+
+
+
+
