@@ -219,7 +219,7 @@ languages:
     name: IsiZulu
     title: Isichazamazwi 
     blurb: >
-      `I-glosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
+      `IGlosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
       ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/)
       [naku-Python](https://github.com/carpentries/glosario-py/). Ngokufaka okhiye bohlu lwamagama kwimethadatha
       yesifundo, ababhali bangakhombisa ukuthi isifundo sifundisani, ukuthi yini abafundi okufanele bayazi
@@ -267,7 +267,7 @@ languages:
     name: Kiswahili
     title: Kamusi 
     blurb: >
-      `glossario` ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi
+      `glosario` ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi
       ya data na inapatikana mitandaoni na pia kama maktaba kwenye lugha ya 
       [R](https://github.com/carpentries/glosario-r/) na
       [Python](https://github.com/carpentries/glosario-py/) programu.
@@ -294,7 +294,7 @@ languages:
     name: Southern Sotho
     title: Setsotso sa Dikgokgo
     blurb: >-
-      `Glosario` ke boikarabelo ba maemo a data science e bonahalang ka bophara, e fumaneha motho le motho le ka ho fana ka Library ka bothata ba di-
+      `glosario` ke boikarabelo ba maemo a data science e bonahalang ka bophara, e fumaneha motho le motho le ka ho fana ka Library ka bothata ba di-
       [R](https://github.com/carpentries/glosario-r/)
       le [Python](https://github.com/carpentries/glosario-py/). Ka ho baakanya maemo a meta-data ea leso, batho ba bangodi ba ka sebedisa mokhoa o ka baakang boikarabelo, ha ba bolele setshwantsho sa selemo se seholo, le hore mefuta e hlalosang selemo, le hore ba ka etsa eng ho fetola ho fihlela hore ba ka etsa ka wona. Ba ka sebedisa mofuta o mong o se fihleng o fumaneha ka Library e, ho nyoloha link tse ling tsa maemo le tse ling tsa ditlhakatlhakanyo tsa mofuta le dikarabo tsa lesona ka molaetsa.
 
@@ -311,7 +311,7 @@ languages:
     name: Latin
     title: Glossarium
     blurb: >
-      `glossarium` est glosarium liberum terminorum usitatorum in scientia datarum, quod
+      `glosario` est glosarium liberum terminorum usitatorum in scientia datarum, quod
       online disponitur et etiam ut bibliotheca in utroque
       [R](https://github.com/carpentries/glosario-r/) et
       [Python](https://github.com/carpentries/glosario-py/).  Adiungendo claves glosarii
