@@ -111,7 +111,12 @@ languages:
     name: עִברִית
     title: מילון מונחים
     blurb: >
-      in translation
+      `glosario` הוא מילון מונחים פתוח של מונחים בתחום מדעי הנתונים, שזמין באופן מקוון וכן כספרייה בשתי השפות הבאות:
+      [R](https://github.com/carpentries/glosario-r/)
+      וב-[Python](https://github.com/carpentries/glosario-py/).
+      על ידי הוספת מפתחות מילון למטא-נתונים של שיעור, הכותבים יכולים לציין את מהות השיעור, מה שהלומדים אמורים לדעת לפני שהם מתחילים, ואיפה הם יכולים למצוא את הידע הזה.
+      הכותבים יכולים גם להשתמש בפונקציות הספרייה כדי להוסיף קישורים יציבים למונחים ולהגדרות בשיעורים שלהם באחת מהשפות המוגדרות.
+
   - key: it
     name: Italiano
     title: Glossario
@@ -151,7 +156,13 @@ languages:
     name: 한국어
     title: 용어 사전
     blurb: >-
-      to be translated
+      `glosario`은 데이터 과학에서 사용되는 용어의 오픈 소스 용어집으로,
+      온라인에서 사용 가능하며 또한 [R](https://github.com/carpentries/glosario-r/) 및
+      [Python](https://github.com/carpentries/glosario-py/) 라이브러리로도 제공됩니다.   
+      수업의 메타데이터에 용어집 키를 추가함으로써 저자는 해당 수업이 무엇을 가르치는지,
+      학습자들이 시작하기 전에 무엇을 알아야 하는지, 그리고 그 지식을 찾을 수 있는 곳을 나타낼 수 있습니다.
+      저자는 또한 라이브러리 함수를 사용하여 여러 언어로 된 수업에서 용어와 정의에 일관된 하이퍼링크를 삽입할 수 있습니다.
+
   - key: pt
     name: Português
     title: Glossário
@@ -177,7 +188,7 @@ languages:
       gebruiken om consistente hyperlinks naar termen en definities op te nemen in hun lessen in een of meerdere talen.
   - key: tn
     name: Setswana
-    title: thanodi ya mafoko
+    title: Tlotlo
     blurb: >-
       Glosario ke sefalana sa thanodi ya mafoko a a dirisiwang mo dithutong tsa
       maranyane a "data science". Sefalana se, se bonwa ntleng ga tuelo mo
@@ -193,7 +204,7 @@ languages:
       kaedi, a aka ranolang mafoko ao ka diteme tse di farologaneng.
   - key: xh
     name: isiXhosa
-    title: Uluhlu lwamagama
+    title: Isihluvo
     blurb: >-
       Glosario ngumthombo ovulekileyo weglosari yamagama asetyenziswa
       kwinzululwazi yedatha efumaneka kwi-intanethi kwaye nanjengethala
@@ -206,9 +217,9 @@ languages:
       neenkcazo kwizifundo zabo ngalo naluphi na ulwimi.
   - key: zu
     name: IsiZulu
-    title: Uhlu lwamagama nezincasiselo
+    title: Isichazamazwi 
     blurb: >
-      `I-glosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
+      `IGlosario` ingumhlahlandlela ovulekile womthombo wamagama asetshenziswe kusayensi yedatha etholakala
       ku-inthanethi njengomtapo wolwazi [ku-R](https://github.com/carpentries/glosario-r/)
       [naku-Python](https://github.com/carpentries/glosario-py/). Ngokufaka okhiye bohlu lwamagama kwimethadatha
       yesifundo, ababhali bangakhombisa ukuthi isifundo sifundisani, ukuthi yini abafundi okufanele bayazi
@@ -254,9 +265,9 @@ languages:
       
   - key: sw
     name: Kiswahili
-    title: Faharasa
+    title: Kamusi 
     blurb: >
-      `glossario` ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi
+      `glosario` ni chanzo wazi cha faharasa ya maneno yanayotumika kwenye sayansi
       ya data na inapatikana mitandaoni na pia kama maktaba kwenye lugha ya 
       [R](https://github.com/carpentries/glosario-r/) na
       [Python](https://github.com/carpentries/glosario-py/) programu.
@@ -281,9 +292,12 @@ languages:
       dalam pelajaran dalam beberapa bahasa.
   - key: st
     name: Southern Sotho
-    title: Glossary
+    title: Setsotso sa Dikgokgo
     blurb: >-
-      In translation
+      `glosario` ke boikarabelo ba maemo a data science e bonahalang ka bophara, e fumaneha motho le motho le ka ho fana ka Library ka bothata ba di-
+      [R](https://github.com/carpentries/glosario-r/)
+      le [Python](https://github.com/carpentries/glosario-py/). Ka ho baakanya maemo a meta-data ea leso, batho ba bangodi ba ka sebedisa mokhoa o ka baakang boikarabelo, ha ba bolele setshwantsho sa selemo se seholo, le hore mefuta e hlalosang selemo, le hore ba ka etsa eng ho fetola ho fihlela hore ba ka etsa ka wona. Ba ka sebedisa mofuta o mong o se fihleng o fumaneha ka Library e, ho nyoloha link tse ling tsa maemo le tse ling tsa ditlhakatlhakanyo tsa mofuta le dikarabo tsa lesona ka molaetsa.
+
   - key: zh
     name: 中文
     title: 术语表
@@ -292,3 +306,17 @@ languages:
       和[Python](https://github.com/carpentries/glosario-py/)的软件包使用。课程作者可
       以在课程元数据中添加术语名词，让学习者提前了解课程的前提要求以及去哪里学习这些前提知识。
       利用软件包，课程作者也可以在课程内容中插入不同语言的术语名词和解释的永久链接。
+
+  - key: la
+    name: Latin
+    title: Glossarium
+    blurb: >
+      `glosario` est glosarium liberum terminorum usitatorum in scientia datarum, quod
+      online disponitur et etiam ut bibliotheca in utroque
+      [R](https://github.com/carpentries/glosario-r/) et
+      [Python](https://github.com/carpentries/glosario-py/).  Adiungendo claves glosarii
+      ad metadata lectionis, auctores possunt indicare quid doctrina docet,
+      quid discipuli scire debent antequam incipiant, et ubi possunt ire ut inveniant
+      illam scientiam.  Auctores etiam possunt uti functionibus bibliothecae ut inserant
+      consistentes hypernexus pro terminis et definitionibus in lectionibus suis in quacumque
+      ex pluribus linguis.
