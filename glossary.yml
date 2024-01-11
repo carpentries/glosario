@@ -478,7 +478,7 @@
   af: 
     term: "akkuraatheid"
     def: >
-      Statistiese maatstaf van 'n klassifikasiemodel wat die proporsie van korrekte voorspellings gee onder die totale aantal gevalle. 
+      Dit is 'n statistiese maatstaf van 'n klassifikasiemodel wat die proporsie van korrekte voorspellings gee onder die totale aantal gevalle. 
       Dit word bereken as Akkuraatheid = (TP+TN)/(TP+TN+FP+FN).
 
 - slug: actual_result
