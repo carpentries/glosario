@@ -1489,7 +1489,8 @@
       in der Optimierung, basierend auf dem mittleren quadratischen Fehler.
   am:
     term: የጀርባ ማሰራጨት
-    def: "በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው ስልተ ቀመር አውታረ መረብ](#neural_network)።
+    def: >
+      በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው ስልተ ቀመር አውታረ መረብ](#neural_network)።
       የጀርባ ማሰራጨት ለመተግበር ብዙውን ጊዜ ጥቅም ላይ ይውላል [የግራዲያንት ዝርያ](#gradient_descent) ስልተ ቀመር
       አውታረ መረብ](#ነርቭ_አውታረ መረብ) በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው  የጀርባ
       ማሰራጨት ብዙውን ጊዜ  [የግራዲያንት ዝርያ](#gradient_descent) ለመተግበር ጥቅም ላይ ይውላል \n"
@@ -1585,9 +1586,6 @@
     term: "base R"
     def: >
       Les fonctions de base composant le langage R. Les packages de base peuvent être trouvés dans src/library et ne sont pas mis à jour en dehors de R; leurs numéros de version suivent la numérotation des versions R. Les packages de base sont installés et chargés avec R, tandis que les packages prioritaires sont installés avec base R mais doivent être chargés avant utilisation.
-      
-
-
   ar:
     term: "آر الأساس"
     def: >
