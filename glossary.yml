@@ -475,6 +475,11 @@
     def: > 
       Ein statistisches Maß zur Beschreibung eines Klassifizierungsmodells, 
       das den Anteil der korrekten Vorhersagen unter allen Vorhersagen angibt. Es wird als Genauigkeit = (TP+TN)/(TP+TN+FP+FN) berechnet. 
+  af: 
+    term: "akkuraatheid"
+    def: >
+      Dit is 'n statistiese maatstaf van 'n klassifikasiemodel wat die proporsie van korrekte voorspellings gee onder die totale aantal gevalle. 
+      Dit word bereken as Akkuraatheid = (TP+TN)/(TP+TN+FP+FN).
 
 - slug: actual_result
   de:
@@ -1490,11 +1495,11 @@
       in der Optimierung, basierend auf dem mittleren quadratischen Fehler.
   am:
     term: የጀርባ ማሰራጨት
-    def: >
+    def: > 
       በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው ስልተ ቀመር አውታረ መረብ](#neural_network)።
       የጀርባ ማሰራጨት ለመተግበር ብዙውን ጊዜ ጥቅም ላይ ይውላል [የግራዲያንት ዝርያ](#gradient_descent) ስልተ ቀመር
       አውታረ መረብ](#ነርቭ_አውታረ መረብ) በ [ነርቭ) ውስጥ ጥቅም ላይ የዋሉ ክብደቶችን ያለማቋረጥ የሚያስተካክለው  የጀርባ
-      ማሰራጨት ብዙውን ጊዜ  [የግራዲያንት ዝርያ](#gradient_descent) ለመተግበር ጥቅም ላይ ይውላል \n"
+      ማሰራጨት ብዙውን ጊዜ  [የግራዲያንት ዝርያ](#gradient_descent) ለመተግበር ጥቅም ላይ ይውላል 
   fr:
     term: "backpropagation"
     def: >
