@@ -1,4 +1,4 @@
-- slug: concatenate
+ slug: concatenate
   ref:
     - aggregation
     - left_join
@@ -4603,8 +4603,14 @@
       Umbizo la faili la kuhifadhi amino asidi au taarifa ya mfuatano wa jeni. 
       Habari kwa kila mlolongo imegawanywa katika kizuizi cha mistari miwili(2). 
       Mstari wa kwanza (1) una taarifa kuhusu mfuatano na huanza na alama kubwa kuliko, ‘>’. 
-      Mstari wa pili (2) una asidi ya amino halisi au mfuatano wa jeni kwa kutumia misimbo ya herufi moja. 
-      
+      Mstari wa pili (2) una asidi ya amino halisi au mfuatano wa jeni kwa kutumia misimbo ya herufi moja.
+   es:
+      term: "FASTA"
+    def: >
+      Formato de archivo para almacenar información de secuencias genómicas o de aminoácidos.
+      La información de cada secuencia se divide en 2 líneas. La línea 1 contiene información sobre la secuencia
+      y comienza con el símbolo '>' (mayor que). La línea 2 contine la secuencia genómica o de aminoácidos utilizando
+      códigos de una sola letra. 
       
 - slug: fastq
   en:
