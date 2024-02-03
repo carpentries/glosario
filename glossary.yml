@@ -4609,7 +4609,7 @@
     def: >
       Formato de archivo para almacenar información de secuencias genómicas o de aminoácidos.
       La información de cada secuencia se divide en 2 líneas. La línea 1 contiene información sobre la secuencia
-      y comienza con el símbolo '>' (mayor que). La línea 2 contine la secuencia genómica o de aminoácidos utilizando
+      y comienza con el símbolo '>' (mayor que). La línea 2 contiene la secuencia genómica o de aminoácidos utilizando
       códigos de una sola letra. 
       
 - slug: fastq
