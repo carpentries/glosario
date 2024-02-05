@@ -1,4 +1,4 @@
- slug: concatenate
+- slug: concatenate
   ref:
     - aggregation
     - left_join
