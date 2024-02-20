@@ -1718,6 +1718,10 @@
     def: >
       Alle Datenmengen, die bis vor Kurzem vor zu umfangreich für die Analyse mit
       nur einem Computer waren.
+  es:
+    term: "Big Data"
+    def: >
+      Cualquier dato que hasta hace poco tiempo era muy grande para que la mayoria de las personas pudieran trabajar con ellos en una sola computadora.   
   af:
     term: "Groot Data"
     def: >
