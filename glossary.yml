@@ -830,7 +830,11 @@
     term: "Kutambulisha"
     def: >
       Kuwa na marejeleo mawili au zaidi ya kitu kimoja, kama vile muundo wa data kwenye kumbukumbu au faili kwenye diski.
-
+  es:
+    term: "aliasing"
+    def: >
+      Solapamiento. Tener dos o más referencias al mismo objeto, por ejemplo como estructura de datos 
+      en memoria o como archivo guardado en disco.
 
 - slug: anaconda
   ref:
