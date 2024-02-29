@@ -601,6 +601,11 @@
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
       concatenando um conjunto de caracteres.
+  de:
+    term: "Aggreation"
+    def: >
+      Mehrere Werte zu einem zusammenfassen, z.B. durch Aufsummieren einer Reihe von Zahlen 
+      oder Verkettung einer Reihe von Zeichenketten.
 
   ar:
     term: "تجميع"
