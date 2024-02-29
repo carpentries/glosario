@@ -2875,6 +2875,12 @@
       Maandishi yaliyoandikwa kwa hati ambayo hayachukuliwi kama kanuni ya kutekelezwa, lakini kama
       maandishi ambayo yanaelezea kile kanuni hufanya nini. Mara nyingi, hati hizi huwa na maelezo mafupi, 
       yanayoanza na `#` (katika lugha nyingi za programu).
+  af:
+    term: "kommentaar"
+    def: >
+      Teks geskryf in 'n rekenaarprogram of skrif wat nie behandel word as kode wat uitgevoer moet word nie. 
+      Die kommentaar beskryf eerder wat die kode doen. Kommentaar is gewoonlik kort notas, wat dikwels begin met 'n `#` 
+      (in baie programmeertale).
 
 - slug: commit
   en:
