@@ -1665,7 +1665,7 @@
   af:   
     term: Bayesian-netwerk
     def: >
-    'n Grafiek wat die verhoudings tussen lukrake veranderlikes vir 'n gegewe probleem verteenwoordig.
+      'n Grafiek wat die verhoudings tussen lukrake veranderlikes vir 'n gegewe probleem verteenwoordig.
     
 - slug: bias
   ref:
