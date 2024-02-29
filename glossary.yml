@@ -780,6 +780,11 @@
     def: >
       Repeatable results that show bias, or skewed treatment, found in an [algorithm](#algorithm).
       For example, social media algorithms may prioritize or stigmatize content from certain groups of users.    
+  af:
+    term: "algoritmiese vooroordeel"
+    def: >
+      Herhaalbare resultate in 'n [algoritme](#algorithm) wat vooroordeel or geskeefde behandeling toon. Byvoorbeeld, sosiale media algoritmes
+      wat bevooroordeelde of gestigmateerde inhoud van seker groepe prioritiseer.
   am:
     term: ስልተ ቀመር
     def: "አንድ ስልተ-ቀመር አንድን የተወሰነን ነገር ለማከናወን ሊከተሏቸው የሚገቡ እርምጃዎች ፣ ጥሰቶች ወይም ህጎች ስብስብነው
