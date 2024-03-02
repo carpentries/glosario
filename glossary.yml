@@ -10405,9 +10405,9 @@
       the training data has been fed to the algorithm once. Training a deep neural networks usually
       consists of multiple epochs.
   es:
-    term: epoch (deep learning)
+    term: epoch (aprendizaje profundo)
     def: > 
-      En [deep learning](#deep_learning), un epoch es un ciclo completo en el proceso del aprendizaje profundo 
+      En [aprendizaje profundo](#deep_learning), un epoch es un ciclo completo en el proceso del aprendizaje profundo 
       en el que todos los datos de entrenamiento se han introducido una vez en el algoritmo. 
       El entrenamiento de una red neuronal profunda consiste en varios epoch.    
 
@@ -10427,7 +10427,7 @@
       minimum. A small learning rate will overshoot less, but will be slower. It can also get more 
       easily stuck in local minima.
   es:
-    term: tasa de aprendizaje (deep learning)
+    term: tasa de aprendizaje (aprendizaje profundo)
     def: >
       En [redes neuronales artificiales](#neural_network), la tasa de aprendizaje es un hiperparámetro que 
       determina el ritmo al que la red ajusta los pesos para poder dar cada vez una mejor aproximación. 
