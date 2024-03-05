@@ -776,6 +776,11 @@
     def: >
       Um algoritmo é um conjunto de etapas, instruções ou regras a serem seguidas para realizar uma tarefa específica.
       Na ciência da computação, um algoritmo é um conjunto de instruções em um programa de computador que resolve um problema computacional.
+  sw:
+    term: "algorithimu"
+    def: >
+       Ni utaratibu wa hatua za kutatua tatizo. Ni kanuni zinazofuatwa na kompyuta ama tarakilishi ili kupata jibu la tatizo.
+
             
 - slug: algorithmic_bias
   ref:
