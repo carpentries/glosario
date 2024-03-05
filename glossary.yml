@@ -601,6 +601,11 @@
     def: >
       Combinar vários valores em um, por exemplo, somando um conjunto numérico ou
       concatenando um conjunto de caracteres.
+  de:
+    term: "Aggreation"
+    def: >
+      Mehrere Werte zu einem zusammenfassen, z.B. durch Aufsummieren einer Reihe von Zahlen 
+      oder Verkettung einer Reihe von Zeichenketten.
 
   ar:
     term: "تجميع"
@@ -776,7 +781,11 @@
     def: >
       Алгоритм — це набір кроків, інструкцій або правил, яких слід дотримуватися для виконання конкретного завдання.
       В інформатиці алгоритм - це набір інструкцій у комп’ютерній програмі, який розв’язує обчислювальну задачу.
-            
+  sw:
+    term: "algorithimu"
+    def: >
+       Ni utaratibu wa hatua za kutatua tatizo. Ni kanuni zinazofuatwa na kompyuta ama tarakilishi ili kupata jibu la tatizo.
+          
 - slug: algorithmic_bias
   ref:
     - algorithm
@@ -785,6 +794,11 @@
     def: >
       Repeatable results that show bias, or skewed treatment, found in an [algorithm](#algorithm).
       For example, social media algorithms may prioritize or stigmatize content from certain groups of users.    
+  af:
+    term: "algoritmiese vooroordeel"
+    def: >
+      Herhaalbare resultate in 'n [algoritme](#algorithm) wat vooroordeel or geskeefde behandeling toon. Byvoorbeeld, sosiale media algoritmes
+      wat bevooroordeelde of gestigmateerde inhoud van seker groepe prioritiseer.
   am:
     term: ስልተ ቀመር
     def: "አንድ ስልተ-ቀመር አንድን የተወሰነን ነገር ለማከናወን ሊከተሏቸው የሚገቡ እርምጃዎች ፣ ጥሰቶች ወይም ህጎች ስብስብነው
@@ -1448,14 +1462,10 @@
       (known as the "lag"). Autocorrelation analysis can be used to gain insight into time series 
       datasets by detecting repeating patterns that may be partially concealed by random noise, among 
       other uses.
-
   fr:
     term: "autocorrélation"
     def: >
       Le degré de similarité entre les observations d'une même série mais séparées par un intervalle de temps (appelé « décalage »). L'analyse d'autocorrélation peut être utilisée pour mieux comprendre les ensembles de données de séries chronologiques en détectant des modèles répétitifs qui peuvent être partiellement masqués par un bruit aléatoire.
-      
-
-
   sw:
     term: "uhusiano wa kiotomatiki"
     def: >
@@ -1463,7 +1473,12 @@
       Uchanganuzi wa uunganisho otomatiki unaweza kutumika kupata maarifa kuhusu mkusanyiko wa data wa mfululizo wa saa kwa
       kugundua ruwaza zinazorudiwa ambazo zinaweza kufichwa kwa kiasi na kelele nasibu, 
       miongoni mwa matumizi mengine.
-    
+  de:
+    term: "Autokorrelation"
+    def: >
+      Der Grad der Ähnlichkeit zwischen Beobachtungen in derselben Reihe, die durch ein Zeitintervall ("Lag") voneinander 
+      getrennt sind. Autokorrelationsanalyse kann verwendet werden, um einen Einblick in Zeitreihen zu gewinnen, indem 
+      sie u. a. wiederkehrende Muster aufdeckt, die teilweise durch zufälliges Rauschen verdeckt werden können. 
 
 - slug: automatic_variable
   ref:
@@ -2880,6 +2895,12 @@
       Maandishi yaliyoandikwa kwa hati ambayo hayachukuliwi kama kanuni ya kutekelezwa, lakini kama
       maandishi ambayo yanaelezea kile kanuni hufanya nini. Mara nyingi, hati hizi huwa na maelezo mafupi, 
       yanayoanza na `#` (katika lugha nyingi za programu).
+  af:
+    term: "kommentaar"
+    def: >
+      Teks geskryf in 'n rekenaarprogram of skrif wat nie behandel word as kode wat uitgevoer moet word nie. 
+      Die kommentaar beskryf eerder wat die kode doen. Kommentaar is gewoonlik kort notas, wat dikwels begin met 'n `#` 
+      (in baie programmeertale).
 
 - slug: commit
   en:
