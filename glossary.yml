@@ -10447,7 +10447,7 @@
     def: >
       Una capa oculta en una [red neuronal](#neural_network) hace referencia a las capas de neuronas que
       no están directamente conectadas al ingreso o salida de información. Las capas están "escondidas" porque
-      no puedes observadirectamente el ingreso y salida de valores.
+      no puedes observar directamente el ingreso y salida de valores.
 
 - slug: roc_curve
   ref:
