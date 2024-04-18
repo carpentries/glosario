@@ -8,6 +8,11 @@
     acronym: "concat"
     def: >
       Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
+  af:
+    term: "aaneenskakel"
+    def: >
+      Die aaneenskakeling van kolumme, rye of karakterstringe deur die samevoeging van data. 
+
   es:
     term: "concatenar"
     def: >
