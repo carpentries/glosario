@@ -4,7 +4,7 @@
     - left_join
     - right_join
 
-en:
+  en:
   term: "Concatenate"
   acronym: "concat"
   def: >
