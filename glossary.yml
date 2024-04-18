@@ -1462,6 +1462,12 @@
       (known as the "lag"). Autocorrelation analysis can be used to gain insight into time series 
       datasets by detecting repeating patterns that may be partially concealed by random noise, among 
       other uses.
+  af:
+    term: "Autokorrelasie"
+    def:> 
+      Die graad van ooreenkoms tussen waarnemings in dieselfde reeks maar geskei deur 'n tydinterval 
+      (bekend as die "lag"). Autokorrelasie-analise kan gebruik word om insig te verkry in tydreeksdata deur 
+      herhalende patrone op te spoor wat moontlik deels versteek is deur lukrake ruis, onder andere gebruike.
   fr:
     term: "autocorrélation"
     def: >
