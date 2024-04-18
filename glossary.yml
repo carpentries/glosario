@@ -2516,9 +2516,7 @@
     def: >
       A relationship between distinct events, where it is asserted that one event is responsible for
       producing or affecting change in the other.
-  af:
-    term: "oorsaak"
-    d
+ 
   fr:
     term: "causalité"
     def: >
