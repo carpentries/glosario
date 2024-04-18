@@ -541,6 +541,12 @@
     term: "résultat réel (du test)"
     def: >
       La valeur générée par l'exécution du code lors d'un test. Si elle correspond au résultat attendu, le test réussit ; s'ils sont différents, le test échoue.
+  am:
+    term: "ትክክለኛው ውጤት (የ ሙከራው)"    
+    def: >
+      በሙከራ ውስጥ ሚስጥራዊ ትእዛዝን አስገብቶ በመተግበር የመነጨ እሴት። ይህ [የሚጠበቀው 
+      ውጤት](#expected_result) ጋር የሚዛመድ ከሆነ፣ ሙከራው [ያልፋል](#pass_test)፤ 
+      ሁለቱ የተለያዩ ከሆነ፣  ሙከራው [ይወድቃል](#fail_test)።
       
 - slug: affordance
   en:
