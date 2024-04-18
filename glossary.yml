@@ -1464,7 +1464,7 @@
       other uses.
   af:
     term: "Autokorrelasie"
-    def:> 
+    def: > 
       Die graad van ooreenkoms tussen waarnemings in dieselfde reeks maar geskei deur 'n tydinterval 
       (bekend as die "lag"). Autokorrelasie-analise kan gebruik word om insig te verkry in tydreeksdata deur 
       herhalende patrone op te spoor wat moontlik deels versteek is deur lukrake ruis, onder andere gebruike.
