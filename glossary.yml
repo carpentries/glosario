@@ -1702,7 +1702,7 @@
   af: 
     term: "vooroordeel"
     def: >
-      'n Statistiek is vooringeneem as dit sistematies of konsekwent verskil van die parameter
+      'n Statistiek is bevooroordeeld as dit sistematies of konsekwent verskil van die parameter
       wat dit veronderstel is om te skat.
   es:
     term: "sesgo"
