@@ -4,6 +4,12 @@
     - left_join
     - right_join
 
+en:
+  term: "Concatenate"
+  acronym: "concat"
+  def: >
+      Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
+
   am:
   term: "አያያዥ"
   def: >
