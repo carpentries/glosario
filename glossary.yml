@@ -1794,7 +1794,7 @@
       logic as [false](#false) (0) or [true](#true) (1). Computers are built upon
       systems which store 0s and 1s as [bits](#bit).
   af: 
-    term: "binêre"
+    term: "binêr"
     def: >
      'n Stelsel wat een van twee moontlike toestande kan hê. In berekening word dit dikwels 
      voorgestel as in die toestand 0 of 1. Verteenwoordig in [Boole-logika](#boolean) as [vals](#false) (0) of [waar](#true) (1). 
