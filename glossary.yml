@@ -11,7 +11,7 @@
   af:
     term: "aaneenskakel"
     def: >
-      Die aaneenskakeling van kolumme, rye of karakterstringe deur die samevoeging van data. 
+      Die aaneenskakeling van kolomme, rye of karakterstringe deur die samevoeging van data. 
 
   es:
     term: "concatenar"
