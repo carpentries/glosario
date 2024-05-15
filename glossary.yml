@@ -7654,6 +7654,10 @@
       Extreme values that might be measurement or recording errors, or might actually
       be rare events. Outliers are sometimes ignored when doing statistics, or handled
       or visualized separately.
+  af:
+    term: uitskietter
+    def: >
+      Uiterste waardes wat moontlik meet- of opnamefoute kan wees, of wat werklik seldsame gebeurtenisse kan wees. Uitstekers word soms geïgnoreer wanneer statistiek gedoen word, of afsonderlik hanteer of gevisualiseer.
 
 
 - slug: overfitting
