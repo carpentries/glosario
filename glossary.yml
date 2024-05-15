@@ -2837,6 +2837,11 @@
     def: >
       An instruction telling a computer program to perform a specific task.
 
+  af:
+    term: bevel
+    def: >
+      'n Instruksie wat 'n rekenaarprogram opdrag gee om 'n spesifieke taak uit te voer.
+
   am:
     term: ትዕዛዝ
     def: >
