@@ -6749,6 +6749,11 @@
     term: "loop"
     def: >
       A structure that repeatedly executes a section of code until a specific exit condition is met.
+  es:
+    term: "ciclo"
+    def: >
+      También conocido como bucle. Estructura que ejecuta un bloque de código repetidamente hasta
+      que se cumple una condición de salida o fin.
 
 
 - slug: loop_body
