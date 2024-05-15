@@ -4905,6 +4905,13 @@
       A construct in a program that repeats one or more other statements (the [loop
       body](#loop_body)) once for each item in a sequence, such as each number in a
       range or each element of a list.
+  es:
+    term: "ciclo for"
+    def: >
+      También conocido como bucle for. Estructura dentro de un programa que repite
+      una o más instrucciones (el [cuerpo del ciclo o bucle](#loop_body)) 
+      una vez por cada elemento de una secuencia, por ejemplo, cada número
+      dentro de un rango o cada elemento de una lista. 
 
   am:
     term: ለሉፕ(ፎር ሉፕ)
