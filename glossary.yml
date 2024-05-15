@@ -1484,6 +1484,13 @@
       Der Grad der Ähnlichkeit zwischen Beobachtungen in derselben Reihe, die durch ein Zeitintervall ("Lag") voneinander 
       getrennt sind. Autokorrelationsanalyse kann verwendet werden, um einen Einblick in Zeitreihen zu gewinnen, indem 
       sie u. a. wiederkehrende Muster aufdeckt, die teilweise durch zufälliges Rauschen verdeckt werden können. 
+  es:
+    term: "autocorrelación"
+    def: >
+      El grado de similitud entre observaciones en la misma serie temporal (también conocida como serie de tiempo), pero separadas por un intervalo de tiempo 
+      (conocido como el "rezago"). El análisis de autocorrelación se puede usar para conocer más información 
+      sobre conjuntos de datos que son series temporales al detectar patrones repetitivos que pueden estar parcialmente 
+      ocultos por el ruido aleatorio, entre otros usos.
 
 - slug: automatic_variable
   ref:
@@ -1533,6 +1540,11 @@
     term: "backpropagation"
     def: >
      C'est un algorithme qui ajuste de manière itérative les pondérations utilisées dans un réseau de neurones. La rétropropagation est souvent utilisée pour implémenter la descente de gradient.
+  es:
+    term: "retropropagación"
+    def: >
+      Un algoritmo que ajusta iterativamente los pesos utilizados en una [red neuronal](#neural_network). El algoritmo de retropropagación 
+      se usa a menudo para implementar el algoritmo llamado ["descenso del gradiente"](#gradient_descent).
       
 - slug: backward_compatible
   en:
@@ -7359,6 +7371,14 @@
       layers of [nodes](#node), each of which is connected to nodes in the preceding and
       subsequent layer. If enough of a node's inputs are active, that node activates
       as well.
+  es:
+    term: "red neuronal"
+    def: >
+      Uno de los algoritmo de una gran familia de algoritmos usados para identificar 
+      patrones en los datos imitando la forma en que interactúan las neuronas del cerebro. 
+      Una red neuronal consta de una o más capas de [nodos](#node), cada uno de los cuales está 
+      conectado a nodos en la capa anterior y en la capa siguiente. Si suficientes entradas de un nodo están activas, 
+      dicho nodo también se activa.
 
 
 - slug: nlp
