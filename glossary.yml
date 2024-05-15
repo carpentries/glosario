@@ -3856,6 +3856,11 @@
     term: ጥልቅ ትምህርት
     def: >
       የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
+  es:
+    term: "Aprendizaje profundo"
+    def: >
+      Una familia de algoritmos de redes neuronales que utilizan múltiples capas 
+      para extraer atributos de los datos a niveles de abstracción sucesivamente más altos.
       
   sw:
     term: "kujifunza kwa kina"
@@ -5454,6 +5459,13 @@
     term: የግራዲያንት ዝርያ
     def: >
       በአሁኑ ጊዜ የግራዲያተሩን ደጋግሞ የሚያሰላ የማመቻቸት ስልተ ቀመር ነጥብ ቀስ በቀስ እየቀነሰ በሚሄድበት አቅጣጫ ትንሽ ደረጃን ይወስዳል እና ከዚያ የግራዲየሙን እንደገና ያሰላል።
+
+  es:
+    term: "descenso del gradiente"
+    def: >
+      Un algoritmo de optimización que calcula repetidamente el gradiente en el punto actual, 
+      da un pequeño paso en la dirección en la que el gradiente está disminuyendo, y luego 
+      recalcula el gradiente.
 
 - slug: graph
   ref:
@@ -7406,6 +7418,11 @@
       'n Element in 'n [grafiese voorstelling](#graph), soos 'n grafiek of 'n netwerk, wat 
       deur ander 'n node/nodus met 'n [skakel](#edge) verbind is. Nodes/Nodusse het spesifieke data, 
       soos byvoorbeeld name of gewigte, gekoppel. 
+  es:
+    term: "nodo"
+    def: >
+      Un elemento de un grafo que está conectado a otros nodos por aristas. 
+      Los nodos usualmente tienen datos asociados con ellos, como nombres o pesos.
 
 
 - slug: non_blocking_execution
@@ -7880,6 +7897,12 @@
       The simplest kind of [neural network])(#neural_network), which approximates a
       single neuron with _N_ binary inputs by computing a weighted sum of its inputs and
       firing if that value is zero or greater.
+  es:
+    term: "perceptrón"
+    def: >
+      El tipo más simple de [red neuronal](#neural_network), que aproxima una sola neurona 
+      con _N_ entradas binarias al calcular una suma ponderada de sus entradas, y se activa 
+      si dicho valor es mayor o igual a cero.
 
 
 - slug: permalink
