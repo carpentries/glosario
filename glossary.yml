@@ -3379,6 +3379,10 @@
       essential electronic circuitry that interprets and executes instructions
       from the software or other hardware. Also called a central processor,
       main processor, or microprocessor.
+  af:
+    term: Sentrale verwerkingseenheid
+    def: >
+      Dit is die primêre hardeware van enige rekenaar. Dit vorm die essensiële elektroniese stroombaan wat instruksies van die sagteware of ander hardeware interpreteer en uitvoer. Ook genoem 'n sentrale verwerker, hoofverwerker, of mikroverwerker.
   de:
     term: "Prozessor"
     def: >
