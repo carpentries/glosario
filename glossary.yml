@@ -802,7 +802,7 @@
   en:
     term: "algorithmic bias"
     def: >
-      Repeatable results that show "unfai"bias"", or skewed treatment, found in an [algorithm](#algorithm).
+      Repeatable results that show "unfair" advantage to a specific outcome, or skewed treatment, found in an [algorithm](#algorithm).
       For example, social media algorithms may prioritize or stigmatize content from certain groups of users.    
   af:
     term: "algoritmiese vooroordeel"
