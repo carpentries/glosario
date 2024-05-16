@@ -460,9 +460,18 @@
   en:
     term: "accuracy"
     def: >
-      Statistical measure of a classification model which gives the proportion 
-      of correct predictions among total number of cases. It is calculated as 
-      Accuracy = (TP+TN)/(TP+TN+FP+FN)
+      A statistical measure of a classification model which gives the proportion 
+      of correct predictions among a total number of cases. It is calculated as 
+      Accuracy = (TP+TN)/(TP+TN+FP+FN). 
+      
+      - TP = True Positive
+      - FP = False Positive
+      - FN = False Negative
+      - TN = True Negative
+
+      Accuracy and precision are both ways to measure results. Accuracy measures how close results are 
+      to the true or known value. Precision, on the other hand, measures how close results are to one another. 
+      
   es:
     term: "precisión"
     def: >
@@ -485,6 +494,12 @@
     def: >
       Dit is 'n statistiese maatstaf van 'n klassifikasiemodel wat die proporsie van korrekte voorspellings gee onder die totale aantal gevalle. 
       Dit word bereken as Akkuraatheid = (TP+TN)/(TP+TN+FP+FN).
+  fr:
+    term: "Précision"
+    def: >
+      L'exactitude et la précision sont deux façons de mesurer les résultats. 
+      L'exactitude mesure à quel point les résultats sont proches de la valeur vraie ou connue. 
+      La précision, quant à elle, mesure la proximité des résultats les uns par rapport aux autres. 
 
 - slug: actual_result
   de:
