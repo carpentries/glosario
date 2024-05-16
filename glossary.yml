@@ -7306,9 +7306,6 @@
       قيمة على الإطلاق.
 
 
-
-
-
 - slug: naive_bayes_classifier
   en:
     term: "naive Bayes classifier"
@@ -7462,7 +7459,6 @@
      en dit is ook nie dieselfde as 'n [leë vektor](#empty_vector) nie.
 
 
-
 - slug: null_hypothesis
   ref:
     - p_value
@@ -7490,6 +7486,7 @@
     def: >
       An "expression" with no arguments, such as the value 3.
 
+
 - slug: numpy
   ref:
     - python
@@ -7514,6 +7511,7 @@
       em um método comparável e com uma sintaxe semelhante ao software Matlab. Você pode encontrar funções
       e operações sofisticadas, focadas em arrays multidimensionais, álgebra linear, transformada de Fourrier
       e geração de valores aleatórios.
+
 
 - slug: object
   en:
@@ -9906,6 +9904,7 @@
       et de symboles. Unicode ne définit pas comment ces nombres sont stockés ; cela est
       fait par des normes comme [UTF-8](#utf_8).
 
+
 - slug: unit_test
   ref:
     - integration_test
@@ -9914,6 +9913,7 @@
     def: >
       A test that exercises one function or feature of a piece of software and
       produces [pass](#pass_test), [fail](#fail_test), or [error](#error_test).
+
 
 - slug: unix
   ref:
@@ -9930,6 +9930,7 @@
       UNIX es una familia de [sistemas operativos](#operating_system) desarrollada en 1969 en AT&T Bell Labs.
       Sus principales características son herramientas sencillas, funcionalidad bien definida y portabilidad.
 
+
 - slug: unsupervised_learning
   ref:
     - supervised_learning
@@ -9943,6 +9944,7 @@
     term: "aprendizaje no supervisado"
     def: >
       Un tipo de algoritmos que aprenden patrones a partir de datos sin anotar/etiquetar.
+
 
 - slug: up_vote
   ref:
@@ -9998,6 +10000,7 @@
       Una interacción puede ocurrir mediante texto (una [interfaz de línea de comandos](#cli)),
       gráficamente y con ventanas (una [interfaz gráfica de usuario](#gui)),
       u otros métodos tal como interfaces manejadas por voz.
+
 
 - slug: utf_8
   en:
@@ -10149,6 +10152,7 @@
     def: >
       Um sistema para gerenciar as mudanças feitas em um software durante o seu desenvolvimento.
 
+
 - slug: vertex_shader
   ref:
     - gpu
@@ -10163,6 +10167,7 @@
       properties of a single vertex, such as position and per-vertex lighting. Not to be
       confused with [fragment shaders](#fragment_shader) which are used to determine the
       actual colour being rendered to each pixel of the screen.
+
 
 - slug: vignette
   en:
@@ -10307,6 +10312,7 @@
       external inputs or the outputs of other tasks, which can later be executed by a program.
       An example is a Makefile which can be executed by the make Unix command.
 
+
 - slug: xml
   de:
     term: "XML"
@@ -10389,7 +10395,6 @@
       Kort vir "YAML Ain't Markup Language", 'n manier om geneste data te gebruik deur middel van indentasies in plaas van
       hakkies en kommas of [JSON](#json). YAML word dikwels in konfigurasielêers gebruik en om [parameters](#parameter) vir
       verskeie geure te definieer van [Markdown](#markdown) dokumente.
-
   id:
     term: "YAML"
     def: >
@@ -10397,6 +10402,7 @@
       indentasi alih-alih menggunakan tanda kurung dan koma pada [JSON] (#json). YAML sering kali
       digunakan pada berkas konfigurasi dan untuk mendefinisikan [parameter](#parameter)
       untuk beragam tipe dokumen [Markdown](#markdown).
+
 
 - slug: parametric_statistics
   ref:
@@ -10414,6 +10420,8 @@
     term: "non-parametric (statistics)"
     def: >
       A branch of statistical tests which do not assume a known distribution of the population which the samples were taken from (Kruskal-Wallis and Dunn test are examples of non-parametric tests).
+
+
 - slug: artificial_intelligence
   ref:
     - nlp
@@ -10425,6 +10433,7 @@
       exhibited through perceiving, synthesizing and inference of information. Example tasks include
       [natural language processing](#nlp), computer vision, and [machine learning]
       (#machine_learning).
+
 
 - slug: cnn
   ref:
@@ -10440,6 +10449,7 @@
       that perform convolutions, where a filter is shifted over the data, instead of the general
       matrix multiplications that we see in fully connected neural network layers.
 
+
 - slug: rnn
   ref:
     - deep_learning
@@ -10454,6 +10464,7 @@
       create a cycle. This allows the network to exhibit behavior that is dynamic over time. This
       type of network is applicable to tasks like speech and handwriting recognition.
 
+
 - slug: epoch_dl
   ref:
     - deep_learning
@@ -10467,6 +10478,7 @@
       In [deep learning](#deep_learning), an epoch is one cycle in the deep learning process where all
       the training data has been fed to the algorithm once. Training a deep neural networks usually
       consists of multiple epochs.
+
 
 - slug: learning_rate
   ref:
@@ -10484,6 +10496,7 @@
       minimum. A small learning rate will overshoot less, but will be slower. It can also get more
       easily stuck in local minima.
 
+
 - slug: class_imbalance
   ref:
     - machine_learning
@@ -10492,6 +10505,7 @@
     def: >
       Class imbalance refers to the problem in [machine learning](machine_learning) where there is an
       unequal distribution of classes in the dataset.
+
 
 - slug: hidden_layer
   ref:
@@ -10506,6 +10520,7 @@
       not directly connected to input or output. The layers are "hidden" because you do not directly
       observe their input and output values.
 
+
 - slug: roc_curve
   ref:
     - machine_learning
@@ -10517,4 +10532,3 @@
       of a binary classifier at different [classification](#classification) thresholds. The curve is
       obtained by plotting the True Positive Rate (also known as Recall or [Sensitivity](#sensitivity))
       along the vertical axis and the False Positive Rate along the horizontal axis.
-
