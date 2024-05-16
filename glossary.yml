@@ -10238,6 +10238,12 @@
     def: >
       A statement in a program that repeats one or more other statements (the [loop
       body](#loop_body)) as long as a condition is [true](#true).
+  es:
+    term: "ciclo while"
+    def: >
+      También conocido como bucle while. Estructura dentro de un programa que repite
+      una o más instrucciones (el [cuerpo del ciclo o bucle](#loop_body))
+      mientras una condición sea [verdadera](#true).
 
 
 - slug: whitespace
