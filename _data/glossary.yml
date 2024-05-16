@@ -10519,6 +10519,12 @@
       A hidden layer in a [neural network](#neural_network) refers to the layers of neurons that are
       not directly connected to input or output. The layers are "hidden" because you do not directly
       observe their input and output values.
+  es:
+    term: capa oculta (deep learning)
+    def: >
+      Una capa oculta en una [red neuronal](#neural_network) hace referencia a las capas de neuronas que
+      no están directamente conectadas al ingreso o salida de información. Las capas están "escondidas" porque
+      no puedes observar directamente el ingreso y salida de valores.
 
 - slug: roc_curve
   ref:
@@ -10531,4 +10537,11 @@
       of a binary classifier at different [classification](#classification) thresholds. The curve is 
       obtained by plotting the True Positive Rate (also known as Recall or [Sensitivity](#sensitivity))
       along the vertical axis and the False Positive Rate along the horizontal axis.
+  es:
+    term: "Curva ROC"
+    def: >
+      Una curva ROC (acrónimo de Receiver Operating Characteristic, o Característica Operativa del Receptor) 
+      es un gráfico que muestra el desempeño de un clasificador binario con diferentes umbrales de [clasificación](#classification)
+      La curva se obtiene graficando la tasa de verdaderos positivos (también conocida como Recall o [Sensibilidad](#sensitivity))
+      a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.
       
