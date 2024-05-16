@@ -5071,7 +5071,7 @@
       estimating an average rates of change or some other multiplicative
       constant.
 
-- slug: geomtry_shader
+- slug: geometry_shader
   ref:
     - gpu
     - shader
