@@ -2415,7 +2415,7 @@
   en:
     term: "call stack"
     def: >
-      A data structure that stores information about the active subroutines executed.
+      A data structure that stores information about the subroutines currently being executed.
   id:
     term: "call stack"
     def: >
