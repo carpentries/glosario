@@ -1499,6 +1499,13 @@
       Der Grad der Ähnlichkeit zwischen Beobachtungen in derselben Reihe, die durch ein Zeitintervall ("Lag") voneinander 
       getrennt sind. Autokorrelationsanalyse kann verwendet werden, um einen Einblick in Zeitreihen zu gewinnen, indem 
       sie u. a. wiederkehrende Muster aufdeckt, die teilweise durch zufälliges Rauschen verdeckt werden können. 
+  es:
+    term: "autocorrelación"
+    def: >
+      El grado de similitud entre observaciones en la misma serie temporal (también conocida como serie de tiempo), pero separadas por un intervalo de tiempo 
+      (conocido como el "rezago"). El análisis de autocorrelación se puede usar para conocer más información 
+      sobre conjuntos de datos que son series temporales al detectar patrones repetitivos que pueden estar parcialmente 
+      ocultos por el ruido aleatorio, entre otros usos.
 
 - slug: automatic_variable
   ref:
@@ -1548,6 +1555,11 @@
     term: "backpropagation"
     def: >
      C'est un algorithme qui ajuste de manière itérative les pondérations utilisées dans un réseau de neurones. La rétropropagation est souvent utilisée pour implémenter la descente de gradient.
+  es:
+    term: "retropropagación"
+    def: >
+      Un algoritmo que ajusta iterativamente los pesos utilizados en una [red neuronal](#neural_network). El algoritmo de retropropagación 
+      se usa a menudo para implementar el algoritmo llamado ["descenso del gradiente"](#gradient_descent).
       
 - slug: backward_compatible
   en:
@@ -3864,6 +3876,11 @@
     term: ጥልቅ ትምህርት
     def: >
       የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
+  es:
+    term: "Aprendizaje profundo"
+    def: >
+      Una familia de algoritmos de redes neuronales que utilizan múltiples capas 
+      para extraer atributos de los datos a niveles de abstracción sucesivamente más altos.
       
   sw:
     term: "kujifunza kwa kina"
@@ -5462,6 +5479,13 @@
     term: የግራዲያንት ዝርያ
     def: >
       በአሁኑ ጊዜ የግራዲያተሩን ደጋግሞ የሚያሰላ የማመቻቸት ስልተ ቀመር ነጥብ ቀስ በቀስ እየቀነሰ በሚሄድበት አቅጣጫ ትንሽ ደረጃን ይወስዳል እና ከዚያ የግራዲየሙን እንደገና ያሰላል።
+
+  es:
+    term: "descenso del gradiente"
+    def: >
+      Un algoritmo de optimización que calcula repetidamente el gradiente en el punto actual, 
+      da un pequeño paso en la dirección en la que el gradiente está disminuyendo, y luego 
+      recalcula el gradiente.
 
 - slug: graph
   ref:
@@ -7382,6 +7406,14 @@
       layers of [nodes](#node), each of which is connected to nodes in the preceding and
       subsequent layer. If enough of a node's inputs are active, that node activates
       as well.
+  es:
+    term: "red neuronal"
+    def: >
+      Uno de los algoritmo de una gran familia de algoritmos usados para identificar 
+      patrones en los datos imitando la forma en que interactúan las neuronas del cerebro. 
+      Una red neuronal consta de una o más capas de [nodos](#node), cada uno de los cuales está 
+      conectado a nodos en la capa anterior y en la capa siguiente. Si suficientes entradas de un nodo están activas, 
+      dicho nodo también se activa.
 
 
 - slug: nlp
@@ -7409,6 +7441,11 @@
       'n Element in 'n [grafiese voorstelling](#graph), soos 'n grafiek of 'n netwerk, wat 
       deur ander 'n node/nodus met 'n [skakel](#edge) verbind is. Nodes/Nodusse het spesifieke data, 
       soos byvoorbeeld name of gewigte, gekoppel. 
+  es:
+    term: "nodo"
+    def: >
+      Un elemento de un grafo que está conectado a otros nodos por aristas. 
+      Los nodos usualmente tienen datos asociados con ellos, como nombres o pesos.
 
 
 - slug: non_blocking_execution
@@ -7887,6 +7924,12 @@
       The simplest kind of [neural network])(#neural_network), which approximates a
       single neuron with _N_ binary inputs by computing a weighted sum of its inputs and
       firing if that value is zero or greater.
+  es:
+    term: "perceptrón"
+    def: >
+      El tipo más simple de [red neuronal](#neural_network), que aproxima una sola neurona 
+      con _N_ entradas binarias al calcular una suma ponderada de sus entradas, y se activa 
+      si dicho valor es mayor o igual a cero.
 
 
 - slug: permalink
