@@ -1,23 +1,3 @@
-- slug: concatenate
-  ref:
-    - aggregation
-    - left_join
-    - right_join
-  en:
-    term: "Concatenate"
-    acronym: "concat"
-    def: >
-      Append/stack either columns (axis=1) or rows (axis=0) by end-to-end joining of data. [Python](#python).
-  af:
-    term: "aaneenskakel"
-    def: >
-      Die aaneenskakeling van kolomme, rye of karakterstringe deur die samevoeging van data.
-
-  es:
-    term: "concatenar"
-    def: >
-      Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
-
 - slug: 68_95_997_rule
   de:
     term: "68-95-99.7 Regel"
@@ -3001,6 +2981,27 @@
       for [machine learning](#machine_learning), simulations, and other fields which benifit
       from parallel computation.
 
+- slug: concatenate
+  ref:
+    - aggregation
+    - left_join
+    - right_join
+  en:
+    term: "Concatenate"
+    acronym: "concat"
+    def: >
+      In general programming, to join two [strings](#string) or [collections](#collection) together.
+      In terms of data tables (for example, a [python](#python) pandas DataFrame or R tibble), append/stack
+      two tables by either columns (axis=1) or rows (axis=0) by end-to-end joining of data.
+  af:
+    term: "aaneenskakel"
+    def: >
+      Die aaneenskakeling van kolomme, rye of karakterstringe deur die samevoeging van data.
+  es:
+    term: "concatenar"
+    def: >
+      Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
+
 - slug: conda
   ref:
     - pip
@@ -3148,7 +3149,6 @@
       Una función que crea un [objeto](#object) de una [clase](#class)
       particular. En el sistema de objetos de [S3](#s3), los constructores
       son más una convención que un requisito.
-
   am:
     term: ገንቢ
     def: >
@@ -3160,12 +3160,10 @@
     def: >
       A [prompt](#prompt) that indicates that the command currently being typed is not
       yet complete, and will not be run until it is.
-
   am:
     term: ቀጣይነት ያለው እርምጃ
     def: >
       በአሁኑ ጊዜ እየተለፈፈ ያለው ትዕዛዝ አለመሆኑን የሚያመለክት [አፋጣኝ](#prompt) ገና ሙሉ እስከሆነ ድረስ አይሮጥም
-
   sw:
     term: "kishawishi endelevu"
     def: >
@@ -3188,7 +3186,6 @@
     def: >
       A [variable](#variable_data) whose value can be any real value, either
       within a range, or unbounded, such as age or distance.
-
   am:
     term: ቀጣይ ድንገተኛ ተለዋዋጭ
     def: >
@@ -3211,7 +3208,6 @@
     def: >
       The practice of creating a new copy of aliased data whenever there is an attempt
       to modify it so that each reference will believe theirs is the only one.
-
   am:
     term: ኮፒ በ ማስተካከያ
     def: >
@@ -9165,13 +9161,12 @@
   ref:
     - python
     - data analysis
-    - bayesian inference
     - bayesian statistics
   en:
-    term: "spectral analysis/ spectrum analysis problem"
+    term: "spectral analysis"
     def: >
       From a finite record of a stationary data sequence, estimate how
-      the total power is distributed over frequency.
+      the total power is distributed over frequency. See also "spectrum analysis problem".
 
 - slug: sprint
   en:
