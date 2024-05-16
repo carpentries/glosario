@@ -784,7 +784,7 @@
     def: >
       Um algoritmo é um conjunto de etapas, instruções ou regras a serem seguidas para realizar uma tarefa específica.
       Na ciência da computação, um algoritmo é um conjunto de instruções em um programa de computador que resolve um problema computacional.
-  uk:
+  ua:
     term: "алгоритм"
     def: >
       Алгоритм — це набір кроків, інструкцій або правил, яких слід дотримуватися для виконання конкретного завдання.
@@ -1760,7 +1760,7 @@
     term: "Data kubwa"
     def: >
       Data inahitaji kutumikwa kwa kichakato kizito.
-  zn:
+  zu:
     term: "Idatha Enkulu"
     def: >
       Noma iyiphi idatha kuze kube kamuva nje ibinkulu kakhulu ukuthi abantu abaningi basebenze ngayo kukhompuyutha eyodwa.
