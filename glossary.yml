@@ -2550,7 +2550,7 @@
   en:
     term: "CC-0"
     def: >
-      A [Creative Commons](#cc_license) [license](#license) that imposes no
+      A [Creative Commons](#cc_license) [license](#license) waiver that imposes no
       restrictions whatsover, thereby putting a work in the public domain.
   pt:
     term: "CC-0"
