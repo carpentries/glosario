@@ -4942,6 +4942,13 @@
       A construct in a program that repeats one or more other statements (the [loop
       body](#loop_body)) once for each item in a sequence, such as each number in a
       range or each element of a list.
+  es:
+    term: "ciclo for"
+    def: >
+      También conocido como bucle for. Estructura dentro de un programa que repite
+      una o más instrucciones (el [cuerpo del ciclo o bucle](#loop_body)) 
+      una vez por cada elemento de una secuencia, por ejemplo, cada número
+      dentro de un rango o cada elemento de una lista. 
 
   am:
     term: ለሉፕ(ፎር ሉፕ)
@@ -6796,6 +6803,11 @@
     term: "loop"
     def: >
       A structure that repeatedly executes a section of code until a specific exit condition is met.
+  es:
+    term: "ciclo"
+    def: >
+      También conocido como bucle. Estructura que ejecuta un bloque de código repetidamente hasta
+      que se cumple una condición de salida o fin.
 
 
 - slug: loop_body
@@ -10296,6 +10308,12 @@
     def: >
       A statement in a program that repeats one or more other statements (the [loop
       body](#loop_body)) as long as a condition is [true](#true).
+  es:
+    term: "ciclo while"
+    def: >
+      También conocido como bucle while. Estructura dentro de un programa que repite
+      una o más instrucciones (el [cuerpo del ciclo o bucle](#loop_body))
+      mientras una condición sea [verdadera](#true).
 
 
 - slug: whitespace
