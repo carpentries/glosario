@@ -1446,9 +1446,20 @@
   de:
     term: "Autokorrelation"
     def: >
+
       Der Grad der Ähnlichkeit zwischen Beobachtungen in derselben Reihe, die durch ein Zeitintervall ("Lag") voneinander
       getrennt sind. Autokorrelationsanalyse kann verwendet werden, um einen Einblick in Zeitreihen zu gewinnen, indem
       sie u. a. wiederkehrende Muster aufdeckt, die teilweise durch zufälliges Rauschen verdeckt werden können.
+      Der Grad der Ähnlichkeit zwischen Beobachtungen in derselben Reihe, die durch ein Zeitintervall ("Lag") voneinander 
+      getrennt sind. Autokorrelationsanalyse kann verwendet werden, um einen Einblick in Zeitreihen zu gewinnen, indem 
+      sie u. a. wiederkehrende Muster aufdeckt, die teilweise durch zufälliges Rauschen verdeckt werden können. 
+  es:
+    term: "autocorrelación"
+    def: >
+      El grado de similitud entre observaciones en la misma serie temporal (también conocida como serie de tiempo), pero separadas por un intervalo de tiempo 
+      (conocido como el "rezago"). El análisis de autocorrelación se puede usar para conocer más información 
+      sobre conjuntos de datos que son series temporales al detectar patrones repetitivos que pueden estar parcialmente 
+      ocultos por el ruido aleatorio, entre otros usos.
 
 - slug: automatic_variable
   ref:
@@ -1499,6 +1510,12 @@
     def: >
      C'est un algorithme qui ajuste de manière itérative les pondérations utilisées dans un réseau de neurones. La rétropropagation est souvent utilisée pour implémenter la descente de gradient.
 
+  es:
+    term: "retropropagación"
+    def: >
+      Un algoritmo que ajusta iterativamente los pesos utilizados en una [red neuronal](#neural_network). El algoritmo de retropropagación 
+      se usa a menudo para implementar el algoritmo llamado ["descenso del gradiente"](#gradient_descent).
+      
 - slug: backward_compatible
   en:
     term: "backward-compatible"
@@ -2359,7 +2376,7 @@
   en:
     term: "call stack"
     def: >
-      A data structure that stores information about the active subroutines executed.
+      A data structure that stores information about the subroutines currently being executed.
   id:
     term: "call stack"
     def: >
@@ -2482,7 +2499,7 @@
   en:
     term: "CC-0"
     def: >
-      A [Creative Commons](#cc_license) [license](#license) that imposes no
+      A [Creative Commons](#cc_license) [license](#license) waiver that imposes no
       restrictions whatsover, thereby putting a work in the public domain.
   pt:
     term: "CC-0"
@@ -2510,7 +2527,7 @@
   en:
     term: "CC-BY"
     def: >
-      The [Creative Commons](#cc_license) - Attribution [license](#license) that
+      The [Creative Commons](#cc_license) - Attribution [license](#license), which
       requires people to give credit to the author of a work, but imposes no other restrictions.
   pt:
     term: "CC-BY"
@@ -3798,6 +3815,12 @@
     def: >
       የሚጠቀሙባቸው [neural network](#neural_network) ስልተ ቀመሮች በተከታታይ በከፍተኛ ደረጃዎች ባህሪያትን ለማውጣት ብዙ ንብርብሮች።
 
+  es:
+    term: "Aprendizaje profundo"
+    def: >
+      Una familia de algoritmos de redes neuronales que utilizan múltiples capas 
+      para extraer atributos de los datos a niveles de abstracción sucesivamente más altos.
+      
   sw:
     term: "kujifunza kwa kina"
     def: >
@@ -4858,6 +4881,13 @@
       A construct in a program that repeats one or more other statements (the [loop
       body](#loop_body)) once for each item in a sequence, such as each number in a
       range or each element of a list.
+  es:
+    term: "ciclo for"
+    def: >
+      También conocido como bucle for. Estructura dentro de un programa que repite
+      una o más instrucciones (el [cuerpo del ciclo o bucle](#loop_body)) 
+      una vez por cada elemento de una secuencia, por ejemplo, cada número
+      dentro de un rango o cada elemento de una lista. 
 
   am:
     term: ለሉፕ(ፎር ሉፕ)
@@ -5395,6 +5425,13 @@
     term: የግራዲያንት ዝርያ
     def: >
       በአሁኑ ጊዜ የግራዲያተሩን ደጋግሞ የሚያሰላ የማመቻቸት ስልተ ቀመር ነጥብ ቀስ በቀስ እየቀነሰ በሚሄድበት አቅጣጫ ትንሽ ደረጃን ይወስዳል እና ከዚያ የግራዲየሙን እንደገና ያሰላል።
+
+  es:
+    term: "descenso del gradiente"
+    def: >
+      Un algoritmo de optimización que calcula repetidamente el gradiente en el punto actual, 
+      da un pequeño paso en la dirección en la que el gradiente está disminuyendo, y luego 
+      recalcula el gradiente.
 
 - slug: graph
   ref:
@@ -6705,6 +6742,11 @@
     term: "loop"
     def: >
       A structure that repeatedly executes a section of code until a specific exit condition is met.
+  es:
+    term: "ciclo"
+    def: >
+      También conocido como bucle. Estructura que ejecuta un bloque de código repetidamente hasta
+      que se cumple una condición de salida o fin.
 
 
 - slug: loop_body
@@ -7312,6 +7354,14 @@
       layers of [nodes](#node), each of which is connected to nodes in the preceding and
       subsequent layer. If enough of a node's inputs are active, that node activates
       as well.
+  es:
+    term: "red neuronal"
+    def: >
+      Uno de los algoritmo de una gran familia de algoritmos usados para identificar 
+      patrones en los datos imitando la forma en que interactúan las neuronas del cerebro. 
+      Una red neuronal consta de una o más capas de [nodos](#node), cada uno de los cuales está 
+      conectado a nodos en la capa anterior y en la capa siguiente. Si suficientes entradas de un nodo están activas, 
+      dicho nodo también se activa.
 
 
 - slug: nlp
@@ -7339,7 +7389,12 @@
       'n Element in 'n [grafiese voorstelling](#graph), soos 'n grafiek of 'n netwerk, wat
       deur ander 'n node/nodus met 'n [skakel](#edge) verbind is. Nodes/Nodusse het spesifieke data,
       soos byvoorbeeld name of gewigte, gekoppel.
-
+      
+  es:
+    term: "nodo"
+    def: >
+      Un elemento de un grafo que está conectado a otros nodos por aristas. 
+      Los nodos usualmente tienen datos asociados con ellos, como nombres o pesos.
 
 - slug: non_blocking_execution
   en:
@@ -7818,6 +7873,12 @@
       The simplest kind of [neural network])(#neural_network), which approximates a
       single neuron with _N_ binary inputs by computing a weighted sum of its inputs and
       firing if that value is zero or greater.
+  es:
+    term: "perceptrón"
+    def: >
+      El tipo más simple de [red neuronal](#neural_network), que aproxima una sola neurona 
+      con _N_ entradas binarias al calcular una suma ponderada de sus entradas, y se activa 
+      si dicho valor es mayor o igual a cero.
 
 
 - slug: permalink
@@ -10190,6 +10251,12 @@
     def: >
       A statement in a program that repeats one or more other statements (the [loop
       body](#loop_body)) as long as a condition is [true](#true).
+  es:
+    term: "ciclo while"
+    def: >
+      También conocido como bucle while. Estructura dentro de un programa que repite
+      una o más instrucciones (el [cuerpo del ciclo o bucle](#loop_body))
+      mientras una condición sea [verdadera](#true).
 
 
 - slug: whitespace
@@ -10410,6 +10477,12 @@
       In [deep learning](#deep_learning), an epoch is one cycle in the deep learning process where all
       the training data has been fed to the algorithm once. Training a deep neural networks usually
       consists of multiple epochs.
+  es:
+    term: epoch (aprendizaje profundo)
+    def: > 
+      En [aprendizaje profundo](#deep_learning), un epoch es un ciclo completo en el proceso del aprendizaje profundo 
+      en el que todos los datos de entrenamiento se han introducido una vez en el algoritmo. 
+      El entrenamiento de una red neuronal profunda consiste en varios epoch.    
 
 
 - slug: learning_rate
@@ -10427,6 +10500,14 @@
       A large learning rate can speed up training, but the network might overshoot and miss the
       minimum. A small learning rate will overshoot less, but will be slower. It can also get more
       easily stuck in local minima.
+  es:
+    term: tasa de aprendizaje (aprendizaje profundo)
+    def: >
+      En [redes neuronales artificiales](#neural_network), la tasa de aprendizaje es un hiperparámetro que 
+      determina el ritmo al que la red ajusta los pesos para poder dar cada vez una mejor aproximación. 
+      Una tasa de aprendizaje grande puede acelerar el entrenamiento, pero la red se puede sobrepasar y 
+      perder el mínimo global. Una tasa de aprendizaje pequeña se sobrepasará menos, pero será más lenta. 
+      También puede caer más fácilmente en mínimos locales.
 
 
 - slug: class_imbalance
@@ -10451,6 +10532,12 @@
       A hidden layer in a [neural network](#neural_network) refers to the layers of neurons that are
       not directly connected to input or output. The layers are "hidden" because you do not directly
       observe their input and output values.
+  es:
+    term: capa oculta (deep learning)
+    def: >
+      Una capa oculta en una [red neuronal](#neural_network) hace referencia a las capas de neuronas que
+      no están directamente conectadas al ingreso o salida de información. Las capas están "escondidas" porque
+      no puedes observar directamente el ingreso y salida de valores.
 
 
 - slug: roc_curve
@@ -10464,3 +10551,13 @@
       of a binary classifier at different [classification](#classification) thresholds. The curve is
       obtained by plotting the True Positive Rate (also known as Recall or [Sensitivity](#sensitivity))
       along the vertical axis and the False Positive Rate along the horizontal axis.
+
+  es:
+    term: "Curva ROC"
+    def: >
+      Una curva ROC (acrónimo de Receiver Operating Characteristic, o Característica Operativa del Receptor) 
+      es un gráfico que muestra el desempeño de un clasificador binario con diferentes umbrales de [clasificación](#classification)
+      La curva se obtiene graficando la tasa de verdaderos positivos (también conocida como Recall o [Sensibilidad](#sensitivity))
+      a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.
+      
+
