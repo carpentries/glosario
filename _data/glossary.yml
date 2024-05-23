@@ -2578,7 +2578,7 @@
   en:
     term: "CC-BY"
     def: >
-      The [Creative Commons](#cc_license) - Attribution [license](#license) that
+      The [Creative Commons](#cc_license) - Attribution [license](#license), which
       requires people to give credit to the author of a work, but imposes no other restrictions.
   pt:
     term: "CC-BY"
