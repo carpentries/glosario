@@ -1522,8 +1522,8 @@
     def: >
       A property of a system, hardware or software, that allows for interoperability
       with an older legacy system, or with input designed for such a system.
-      For example a [function](#function) written in [Python](#python) 3 that can be
-      run successfully with Python version 2 is backward-compatible.
+      For example, a [function](#function) written in [Python](#python) 3 that can be
+      run successfully with Python 2 is backward-compatible.
   af:
     term: "terugwaarts versoenbaar"
     def: >
@@ -1658,7 +1658,7 @@
   en:
     term: "Bayesian network"
     def: >
-      A graph that represents the relationships between random variables for a given problem.
+      A graph that represents the relationships among random variables for a given problem.
   es:
     term: "Red Bayesiana"
     def: >
@@ -1770,7 +1770,7 @@
   en:
     term: "binary"
     def: >
-      A system which can have one of two possible states. In computing often
+      A system which can have one of two possible states. In computing, often
       represented as being in the state 0 or 1. Represented in [Boolean](#boolean)
       logic as [false](#false) (0) or [true](#true) (1). Computers are built upon
       systems which store 0s and 1s as [bits](#bit).
@@ -1864,7 +1864,7 @@
     term: "bit"
     def: >
       A unit of information representing alternatives, yes/no,
-      [true](#true)/[false](#false). In computing a state of either 0 or 1.
+      [true](#true)/[false](#false). In computing, a state of either 0 or 1.
   pt:
     term: "bit"
     def: >
@@ -6113,8 +6113,7 @@
     term: "Java"
     def: >
       Java is a high-level, cross-platform, object-oriented and general-purpose programming language. Programs written in Java will run on any platform that supports
-      the Java software platform without having to be recompiled. This feature gave rise to the slogan "Write Once Run Anywhere". Java syntax is
-      similar to that of C and C++.
+      the Java software platform without having to be recompiled. This feature gave rise to the slogan "Write Once Run Anywhere". Java syntax is similar to that of C and C++.
 
   af:
     term: "Java"
@@ -6197,7 +6196,7 @@
   en:
     term: "JupyterLab"
     def: >
-      JupyterLab is a next-generation interface to [Jupyter Notebooks](#jupyter_notebook).
+      A next-generation interface to [Jupyter Notebooks](#jupyter_notebook).
       JupyterLab is open-source, web-based and has a multiple-document interface which supports working with multiple notebooks and [Markdown](#markdown) files in a single browser tab.
       JupyterLab also supports opening terminal/[console](#console) windows in the browser.
 
@@ -6207,7 +6206,7 @@
   en:
     term: "Jupyter Notebook"
     def: >
-      The Jupyter Notebook is an open-source, web-based [computational notebook](#computational_notebook)
+      An open-source, web-based [computational notebook](#computational_notebook)
       that allows the user to write and share live code, equations, visualisations, and narrative text.
 
   am:
@@ -6265,6 +6264,7 @@
       1. A [field](#field) or combination of fields whose value(s) uniquely identify a
       [record](#record) within a [table](#table) or dataset. Keys are often used to
       select specific records and in [joins](#join).
+      
       2. Part of a key/value pair, used as a unique identifier in a data structure
       such as a [dictionary](#dictionary).
 
