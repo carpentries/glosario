@@ -9369,6 +9369,10 @@
     term: "secuencia de caracteres"
     def: >
       Bloque de texto en un programa.
+  uk:
+    term: "рядок"
+    def: >
+      Блок з текстом у програмі, тобто послідовність символів.
 
 
 - slug: string_interpolation
