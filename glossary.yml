@@ -1057,7 +1057,13 @@
       Seti ya vipengele na taratibu zinazotolewa na maktaba moja ya programu au 
       huduma ya tovuti ambayo programu nyingine inaweza kuwasiliana nayo. 
       API sio msimbo, hifadhidata, au seva: ni mahali pa ufikiaji.
-      
+  uk:
+    term: "Інтерфейс Програмування Додатків (API) "
+    def: >
+      Набір функцій і процедур, наданих однією програмною бібліотекою або веб-службою,
+      через які інший додаток може з нею взаємодіяти. API – це не код, база даних чи
+      сервер: це точка доступу.
+
 - slug: append_mode
   en:
     term: "append mode"
