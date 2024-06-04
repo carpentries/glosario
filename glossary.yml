@@ -1377,6 +1377,12 @@
     def: >
       Haifanyiki kwa wakati mmoja. Katika programu, operesheni ya asynchronous ni ile inayoendesha kwa kujitegemea ya nyingine, 
       au ambayo huanza wakati mmoja na kuishia kwa mwingine.
+
+  uk:
+    term: "Асинхронний (неодночасний)"
+    def: >
+      Характеристика чогось, що стається не одночасно. У програмуванні асинхронна операція - це операція, 
+      яка виконується незалежно від іншої, запускається або зупиняється в певний час.
       
 - slug: attribute
   en:
