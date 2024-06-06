@@ -10061,7 +10061,15 @@
     def: >
       A way to store the numeric codes representing [Unicode](#unicode) characters in memory that
       is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
-
+  uk: 
+    term: "UTF-8"
+    def: >
+      Cпосіб зберігання числових кодів, що представляють символи [Unicode](#unicode) в пам'яті. 
+      UTF-8 є системою кодування зі змінною довжиною, що використовує від одного до чотирьох байтів на символ. 
+      Якщо символ належить до перших 127 символів кодування [ASCII](#ascii), він кодується одним байтом, 
+      забезпечуючи [повну сумісність](#backward_compatible) з ASCII. Для інших символів використовуються два, 
+      три або чотири байти, залежно від конкретного символу. Це дозволяє ефективно зберігати тексти різних мов, 
+      хоча розмір памʼяті, потрібної для зберігання тексту, може збільшуватися.
 
 - slug: variable_arguments
   ref:
