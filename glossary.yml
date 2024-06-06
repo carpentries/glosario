@@ -9961,6 +9961,14 @@
       Une norme qui définit des codes numériques pour plusieurs milliers de caractères 
       et de symboles. Unicode ne définit pas comment ces nombres sont stockés ; cela est 
       fait par des normes comme [UTF-8](#utf_8).
+  uk:
+    term: "Unicode"
+    def: >
+      Промисловий стандарт і специфікація, розроблені для забезпечення цифрового представлення 
+      символів усіх писемностей світу та спеціальних символів. Unicode надає кожному символу
+      його унікальний код. Специфікації Unicode постійно переглядаються й оновлюються для 
+      додавання нових мов і символів. Стандарт не визначає, як ці числові коди зберігаються
+      в пам'яті комп'ютера; для цього існують інші стандарти збереження, такі як [UTF-8](#utf_8).
 
 - slug: unit_test
   ref:
