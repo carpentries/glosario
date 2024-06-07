@@ -10487,6 +10487,12 @@
       exhibited through perceiving, synthesizing and inference of information. Example tasks include
       [natural language processing](#nlp), computer vision, and [machine learning]
       (#machine_learning).
+  uk:
+    term: "штучний інтелект (ШІ)"
+    def: >
+      Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
+      через сприйняття, синтезування та виведення інформації. Прикладом завдань є [оброботка природньої мови](#nlp),
+      комп'ютерний зір та [машинне навчання](#machine_learning).
 
 - slug: cnn
   ref:
