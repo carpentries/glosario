@@ -734,7 +734,12 @@
       Mbinu ya ukuzaji programu ambayo inasisitiza hatua nyingi ndogo na maoni 
       endelevu badala ya mipango ya mbeleni na ratiba ya muda mrefu. 
       [Exploratory programming](#exploratory_programming) mara nyingi huwa chapa.
-
+  uk:
+    term: "гнучка розробка"
+    def: >
+      Методологія розробки програмного забезпечення, яка робить акцент на поступових 
+      ітераціях і постійному зворотному зв'язку замість складання довгострокових планів. 
+      [Дослідницьке програмування](#exploratory_programming) часто використовує гнучкий підхід.
 
 - slug: algorithm
   en:
