@@ -9356,7 +9356,12 @@
       A string of random bits stored in a file that is used to identify a user for
       [SSH](#ssh). Each SSH key has separate public and private parts; the public part
       can safely be shared, but if the private part becomes known, the key is compromised.
-
+  uk:
+    term: "SSH-ключ"
+    def: >
+      Рядок випадкових бітів, збережений у файлі, який використовується для ідентифікації
+      користувача в [SSH](#ssh). Кожен SSH-ключ має окремі публічну та приватну частини; публічну
+      частину можна безпечно поширювати, але якщо приватна частина стає відомою, ключ вважається скомпрометованим.
 
 - slug: stack_frame
   en:
