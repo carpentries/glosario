@@ -6809,6 +6809,10 @@
     def: >
       También conocido como bucle. Estructura que ejecuta un bloque de código repetidamente hasta
       que se cumple una condición de salida o fin.
+  uk:
+    term: "цикл"
+    def: >
+      Структура у програмі, яка повторно виконує фрагмент коду, доки не буде виконана умова виходу.
 
 
 - slug: loop_body
