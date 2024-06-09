@@ -7633,7 +7633,13 @@
       Um paradigma de programação no qual dados (atributos) e funções (métodos)
       são encapsulados em objetos que interagem entre si por meio de
       interfaces bem definidas.
-
+  uk:
+    term: "об'єктно-орієнтоване програмування"
+    acronym: "ООП"
+    def: >
+      Стиль програмування, в якому функції та дані об'єднуются разом в 
+      [об'єкти](#object), які взяємодіють між собою тільки через 
+      чітко визначені інтерфейси.
 
 - slug: open_license
   en:
