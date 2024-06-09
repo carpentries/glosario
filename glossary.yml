@@ -9341,6 +9341,12 @@
       Un protocolo y el programa que lo implementa cuya principal función es el
       acceso remoto a un servidor por medio de un canal seguro en el que toda la
       información está cifrada.
+  uk:
+    term: "Secure Shell"
+    acronym: "SSH"
+    def: >
+      Протокол і програма, яка його реалізує, що дозволяє віддалений доступ до
+      сервера через захищений канал, де вся інформація шифрується.
 
 
 - slug: ssh_key
