@@ -8672,8 +8672,12 @@
     term: "kgolagano kgakala"
     def: >
       Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o dirisa [SSH](#ssh).
-
-
+  uk:
+    term: "віддалений вхід"
+    def: >
+      Початок інтерактивного сеансу роботи на одному комп'ютері з іншого комп'ютера,
+      наприклад, за допомогою [SSH](#ssh).
+  
 - slug: remote_repository
   en:
     term: "remote repository"
