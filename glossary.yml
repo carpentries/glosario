@@ -10558,4 +10558,4 @@
       Una curva ROC (acrónimo de Receiver Operating Characteristic, o Característica Operativa del Receptor) 
       es un gráfico que muestra el desempeño de un clasificador binario con diferentes umbrales de [clasificación](#classification)
       La curva se obtiene graficando la tasa de verdaderos positivos (también conocida como Recall o [Sensibilidad](#sensitivity))
-      a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.  
+      a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.
