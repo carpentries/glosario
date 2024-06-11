@@ -5531,7 +5531,7 @@
       Specialized processor designed to run many instances of
       a single program in parallel. Orginally designed for use
       in graphics, but is also used for general computation in
-      the form of [compute shaders][#compute_shader].
+      the form of [compute shaders](#compute_shader).
   uk:
     term: "графічний процесор"
     acronym: "GPU"
@@ -5539,7 +5539,7 @@
       Спеціалізований процесор, призначений для паралельного 
       виконання багатьох копій однієї програми. Спочатку 
       розроблений для обробки графіки, але зараз також використовується
-      для загальних обчислень у вигляді [обчислювальних шейдерів][#compute_shader].
+      для загальних обчислень у вигляді [обчислювальних шейдерів](#compute_shader).
     
 - slug: group
   en:
