@@ -3817,7 +3817,10 @@
     term: "utatuzi"
     def: >
       Katika mazingira ya kompyuta 'utatuzi' inarejelea mchakato wa kutafuta na kutatua makosa (pia hujulikana kama hitilafu) ndani ya programu au mifumo ya kompyuta.
-
+  uk:
+    term: "дебаг"
+    def: >
+      В комп'ютерному середовищі 'дебаг' відноситься до процесу пошуку та виправлення помилок (також відомих як 'баги') в комп'ютерних програмах або системах.
 
 - slug: decision_tree
   ref:
