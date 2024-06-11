@@ -4058,6 +4058,12 @@
     def: >
       Una estructura de datos que contiene parejas llave-valor, a veces llamados [arreglos asociativos](#associative_array).
       Los diccionarios en ocasiones son implementados usando [tablas hash](#hash_table).
+  uk:
+    term: "Словник"
+    def: >
+      Структура даних, яка дозволяє переглядати елементи за значенням, іноді називається 
+      [асоціативним масивом](#associative_array). Словники часто реалізуються за 
+      допомогою [геш-таблиць](#hash_table).
 
 - slug: dimension_reduction
   ref:
