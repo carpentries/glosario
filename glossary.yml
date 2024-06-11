@@ -2887,6 +2887,12 @@
     term: ትዕዛዝ-መስመር አገናኝ
     def: >
       ኢንተርፌት በ[ዛጎል](#shell) ውስጥ ለመሮጥ ትዕዛዞች እና ውጤቶች ለማግኘት በጽሁፍ ላይ ብቻ የሚደገፍ  ።
+  uk:
+    term: інтерфейс командного рядка
+    def: >
+      Інтерфейс користувача, який повністю покладається на текст
+      для введення команд та виведення результатів їх виконання.
+      Зазвичай використовується у [командній оболонці](#shell).
 
 - slug: client
   en:
@@ -9591,7 +9597,12 @@
     def: >
       A [command-line interface](#cli) that allows a user to interact with the
       [operating system](#operating_system), such as Bash (for Unix and MacOS) or PowerShell (for Windows).
-
+  uk:
+    term: "командна оболонка"
+    def: >
+      [Інтерфейс командного рядка](#cli), який дозволяє користувачеві взаємодіяти з
+      [операційною системою](#operating_system), наприклад Bash (для Unix та MacOS)
+      або PowerShell (для Windows).
 
 - slug: shell_script
   en:
