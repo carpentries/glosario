@@ -4304,6 +4304,10 @@
   am:
     term: ጥገኝነት
     def: "[ቅድመ ሁኔታ](#prerequisite) ን ይመልከቱ \n"
+  uk:
+    term: "залежність"
+    def: >
+      Див. [передумова](#prerequisite).
 
 - slug: dependent_variable
   en:
