@@ -2309,6 +2309,10 @@
     term: bug
     def: >
       'n Ontbrekende of ongewenste kenmerk van 'n stuk sagteware; die digitale ekwivalent van 'n onkruid.
+  uk:
+    term: "дефект (bug)"
+    def: >-
+      Несправність або помилка, яка призводить до небажаної поведінки програми.
 
 - slug: bug_report
   en:
