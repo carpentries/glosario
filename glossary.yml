@@ -4494,6 +4494,11 @@
     def: >
       The process of putting a sequence of characters such as letters, numbers, punctuation,
       and certain symbols, into a specialized format for efficient transmission or storage.
+  uk:
+    term: "кодування"
+    def: >
+      Процес переробки послідовності символів, таких як літери, цифри, знаки пунктуації та
+      інші спеціальні символи, у інший формат, який передбачає їх ефективну передачу чи зберігання.
 
 - slug: environment
   en:
