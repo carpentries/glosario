@@ -2187,6 +2187,12 @@
       der Webseite befindet. Der Begriff ist in Anlehnung an das Märchen Hänsel und Gretel
       entstanden, in welchem die Kinder eine Spur aus Brotkrümeln hinterlassen um den Weg zurück
       zu finden.
+  uk:
+    term: "Навігаці́йні стежки (хлібні крихти)"
+    def: >
+      Група навігаційних посилань на багатьох веб-сайтах, які знаходяться на багатьох веб-сайтах та зазвичай містяться у 
+      верхній частині сторінки. Навігаці́йні стежки показують користувачам, де вони знаходяться відносно решті веб-сайту; 
+      Термін заснований на казці "Гензель і Гретель", в якій діти залишають за собою слід з хлібних крихт, щоб знайти дорогу додому.
 
 - slug: breadth_first
   ref:
