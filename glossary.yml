@@ -2375,6 +2375,10 @@
     term: "Selekanyetso_ kitso ya boranyane"
     def: >-
       Selekanyetso sa kitso ya boranyane se se agiwang ka kitso ya dipalo tse di ferang bobedi.
+  uk:
+    term: "Байт"
+    def: >-
+      Це одиниця цифрової інформації, яка зазвичай складається з восьми [двійкових](#binary) цифр або [бітів](#bit).
 
 - slug: byte_code
   en:
