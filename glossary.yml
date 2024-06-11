@@ -2429,6 +2429,10 @@
     term: "caching"
     def: >
       Guardar una copia de algún dato en el [caché](#cache) local para hacer su acceso futuro más rápido.
+  uk:
+    term: "кешування"
+    def: >
+      Зберегти копію деяких даних у локальному [кеші](#cache),щоб прискорити майбутній доступ.
 
 - slug: call_stack
   en:
