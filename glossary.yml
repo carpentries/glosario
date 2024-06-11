@@ -875,6 +875,14 @@
     term: "Anaconda"
     def: >
       Anaconda is a [software distribution] (#software_distribution) of R and Python. It is also a [repository] (#repository) of open-source Python and R programs for data science, packaged using the [conda](#conda) [package manager] (#package_manager). Anaconda also creates Anaconda Navigator, a suite of desktop tools including an [IDE] (#ide) and the [Jupyter Notebook](#jupyter_notebook) application.
+  uk:
+    term: "Anaconda"
+    def: >
+      Anaconda - це [дистрибутив програмного забезпечення] (#software_distribution) R та Python. 
+      Це також [репозиторій] (#repository) програм з відкритим кодом в Python та R для аналізу даних, 
+      з використанням [системи керування пакетами] (#package_manager) [conda](#conda). 
+      Після встановлення, Anaconda створює Anaconda Navigator, набір інструментів для робочого столу, 
+      включаючи [IDE] (#ide) та застосунок [Jupyter Notebook](#jupyter_notebook).
 
 - slug: anchor
   en:
