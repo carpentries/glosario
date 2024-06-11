@@ -2884,6 +2884,10 @@
     term: "amri"
     def: >
       Agizo la kuiambia programu ya kompyuta kufanya kazi maalum.
+  uk:
+    term: "команда"
+    def: >
+      Інструкція, яка каже комп'ютерній програмі виконати певне завдання.
 
 - slug: command_history
   en:
