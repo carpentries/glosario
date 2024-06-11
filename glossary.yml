@@ -3097,11 +3097,11 @@
       Teks geskryf in 'n rekenaarprogram of skrif wat nie behandel word as kode wat uitgevoer moet word nie.
       Die kommentaar beskryf eerder wat die kode doen. Kommentaar is gewoonlik kort notas, wat dikwels begin met 'n `#`
       (in baie programmeertale).
-  en:
+  uk:
     term: "коментар"
     def: >
-      Текст, написаний у скрипті, який не вважається кодом для виконання, а отже, описує що робить код.
-      Зазвичай це короткі примітки, часто починаються з `#` (у багатьох мовах програмування).
+      Текст, написаний у вихідному коді, який не вважається кодом для виконання, а описує що цей код робить.
+      Зазвичай цей текст - короткі нотатки, які часто починаються з символу `#` (у багатьох мовах програмування).
 
 - slug: commit
   en:
