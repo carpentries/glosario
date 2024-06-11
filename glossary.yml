@@ -9503,7 +9503,11 @@
     term: "secuencia de caracteres"
     def: >
       Bloque de texto en un programa.
-
+  uk:
+    term: "рядок"
+    def: >
+      У мовах програмування — блок тексту, тобто послідовність символів, яка використовується 
+      для зберігання та маніпуляції текстовими даними.
 
 - slug: string_interpolation
   en:
