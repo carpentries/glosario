@@ -3434,6 +3434,15 @@
       Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha
       sakiti muhimu za kielektroniki zinazotafsiri na kutekeleza maagizo
       kutoka kwa programu au maunzi mengine.
+      
+  uk:
+    term: "Центральний процесор"
+    acronym: "ЦП"
+    def: >
+      Основний апаратний засіб будь-якого цифрового комп'ютера. Центральний процесор 
+      складається з основних електронних схем, які інтерпретують і виконують інструкції з 
+      програмного забезпечення або інших апаратних засобів. Також називається центральним процесором, 
+      головним процесором або мікропроцесором.
 
 - slug: cran
   ref:
