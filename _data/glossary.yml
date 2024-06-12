@@ -1243,6 +1243,12 @@
     def: >
       Njia ya kawaida ya kuwakilisha herufi zinazotumiwa sana katika lugha za Ulaya Magharibi kama nambari kamili 7- au 8-[bit](#bit), 
       ambayo sasa imechukuliwa na [Unicode](#unicode).
+  uk:
+    term: "ASCII"
+    def: >
+      Стандартний спосіб представлення символів, які зазвичай використовуються
+      в західноєвропейських мовах, у вигляді 7- або 8-бітних цілих чисел. 
+      Зараз замінений на [Unicode](#unicode).
 
 - slug: assertion
   en:
