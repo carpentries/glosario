@@ -6265,14 +6265,7 @@
       des objets du langage JavaScript. Contrairement à d'autres standards plus
       structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
       de données, ni ne supporte l'ajout de commentaires.
-  uk:
-    term: "Нотація об'єктів JavaScript"
-    acronym: "JSON"
-    def: >
-      Спосіб представлення даних шляхом комбінування значень у базових форматах (числа, рядки символів тощо) у структурах даних, таких як [списки](#list) та [словники](#dictionary). JSON
-      розшифровується як "JavaScript Object Notation"; на відміну від більш чітко визначених 
-      стандартів, наприклад, [XML](#xml), цей формат не ускладнений синтаксисом для коментарів 
-      або методами визначення [схеми](#schema).
+
   am:
     term: የጃቫስክሪፕት ነገር ማስታወሻ
     def: >
