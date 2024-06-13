@@ -4104,6 +4104,11 @@
     def: >
       Kipengee ndani ya mfumo wa faili ambao unaweza kuwa na faili na saraka zingine. Pia inajulikana kama folda.
 
+  uk:
+    term: "каталог"
+    def: >
+      Елемент у [файловій системі](#filesystem), який може містити файли та інші каталоги. Також відомий як [тека](#folder).
+
 - slug: discrete_random_variable
   ref:
     - continuous_random_variable
