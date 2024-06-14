@@ -6265,7 +6265,14 @@
       des objets du langage JavaScript. Contrairement à d'autres standards plus
       structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
       de données, ni ne supporte l'ajout de commentaires.
-
+  uk:
+    term: "Нотація об'єктів JavaScript"
+    acronym: "JSON"
+    def: >
+      Спосіб представлення даних шляхом комбінування значень у базових форматах (числа, рядки символів тощо) у структурах даних, таких як [списки](#list) та [словники](#dictionary). JSON
+      розшифровується як "JavaScript Object Notation"; на відміну від більш чітко визначених 
+      стандартів, наприклад, [XML](#xml), цей формат не ускладнений синтаксисом для коментарів 
+      або методами визначення [схеми](#schema).
   am:
     term: የጃቫስክሪፕት ነገር ማስታወሻ
     def: >
@@ -10123,7 +10130,15 @@
     def: >
       A way to store the numeric codes representing [Unicode](#unicode) characters in memory that
       is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
-
+  uk: 
+    term: "UTF-8"
+    def: >
+      Cпосіб зберігання числових кодів, що представляють символи [Unicode](#unicode) в пам'яті. 
+      UTF-8 є системою кодування зі змінною довжиною, що використовує від одного до чотирьох байтів на символ. 
+      Якщо символ належить до перших 127 символів кодування [ASCII](#ascii), він кодується одним байтом, 
+      забезпечуючи [повну сумісність](#backward_compatible) з ASCII. Для інших символів використовуються два, 
+      три або чотири байти, залежно від конкретного символу. Це дозволяє ефективно зберігати тексти різних мов, 
+      хоча розмір памʼяті, потрібної для зберігання тексту, може збільшуватися.
 
 - slug: variable_arguments
   ref:
