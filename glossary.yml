@@ -5378,6 +5378,10 @@
   am:
     term: Git መግፋት
     def: በአካባቢያዊ [ማከማቻ](#repository) እና ሀ መካከል ለውጦችን ይሰቅላል እና ያመሳስላቸዋል [የርቀት ማከማቻ](#remote_repository)።
+  uk:
+    term: "Git push"
+    def: >
+      Надсилає зміни з локального [репозиторію](#repository) до [віддаленого репозиторію](#remote_repository).
 
 - slug: git_remote
   en:
