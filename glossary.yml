@@ -3201,6 +3201,11 @@
     def: >
       Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama vile shell
       ambayo huiga kifaa kama hicho.
+  uk:
+    term: "консоль"
+    def: >
+      Комп'ютерний термінал, де користувач може вводити команди, або програма, така як shell,
+      яка симулює такий пристрій.
       
 
 - slug: confusion_matrix
