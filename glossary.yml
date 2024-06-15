@@ -5285,6 +5285,10 @@
     def: >
       የ [ጂት](#git) [የርቀት) ቅጂዎች (እና አብዛኛውን ጊዜ ውርዶች) ማከማቻ](#remote_repository)
       በአካባቢያዊ ኮምፒተር ላይ ፡፡
+  uk: 
+    term: "Git clone"
+    def: >
+      Копіює (і зазвичай завантажує) [віддалений репозиторій](#remote_repository) [Git](#git) на локальну файлову систему.
 
 - slug: git_conflict
   en:
