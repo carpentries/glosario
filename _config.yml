@@ -289,6 +289,18 @@ languages:
       salang morago go fitlhelela kitso eo. Mokwadi o kgona go golaganya
       tlhaloso ya mafoko a a botlhokwa mo lekwalong la gagwe le maranyane a
       kaedi, a aka ranolang mafoko ao ka diteme tse di farologaneng.
+  - key: uk
+    name: Українська
+    title: Глосарій
+    blurb: >
+      "Глосарій" - це словник термінів, що використовуються в науці про дані.
+      Він доступний не тільки у вигляді вебсайту, але ще й у формі бібліотек з
+      відкритим кодом для [R](https://github.com/carpentries/glosario-r/) та
+      [Python](https://github.com/carpentries/glosario-py/). Автори навчальних
+      матеріалів можуть додавати до них посилання на терміни з словника для
+      пояснення тематики уроку та необхідних попередніх знань. Автори також
+      можуть використовувати функції бібліотеки для вставки гіперпосилань
+      на терміни та їх визначення на різних мовах.
   - key: xh
     name: isiXhosa
     title: Isihluvo

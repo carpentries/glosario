@@ -242,6 +242,17 @@
       وللتبسيط يمكن أن يُقال أن
       المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا.
 
+        المسار الذي يُشير إلى ذات الموقع في
+        [نظام الملفات](#filesystem)،
+        بغض النظر عن مكان تقييمها،
+        وللتبسيط يمكن أن يُقال أن
+        المسار المُطلق يُعادل خطوط الطول والعرض في الجغرافيا.
+  uk:
+    term: "абсолютний шлях"
+    def: >
+      Шлях, який вказує на одне й теж саме місце у [файловій системі](#filesystem) 
+      незалежно від поточного розташування. Абсолютний шлях є 
+      аналогом широти та довготи в географії.
   el:
     term: "απόλυτο μονοπάτι"
     def: >
@@ -767,7 +778,7 @@
   ua:
     term: "алгоритм"
     def: >
-      Алгоритм — це набір кроків, інструкцій або правил, яких слід дотримуватися для виконання конкретного завдання.
+      Алгоритм — це впорядкований набір кроків, інструкцій або правил, яких слід дотримуватися для виконання конкретного завдання.
       В інформатиці алгоритм - це набір інструкцій у комп’ютерній програмі, який розв’язує обчислювальну задачу.
   sw:
     term: "algorithimu"
@@ -1195,6 +1206,12 @@
     def: >
       Njia ya kawaida ya kuwakilisha herufi zinazotumiwa sana katika lugha za Ulaya Magharibi kama nambari kamili 7- au 8-[bit](#bit),
       ambayo sasa imechukuliwa na [Unicode](#unicode).
+  uk:
+    term: "ASCII"
+    def: >
+      Стандартний спосіб представлення символів, які зазвичай використовуються
+      в західноєвропейських мовах, у вигляді 7- або 8-бітних цілих чисел. 
+      Зараз замінений на [Unicode](#unicode).
 
 - slug: assertion
   en:
@@ -1332,6 +1349,13 @@
       Haifanyiki kwa wakati mmoja. Katika programu, operesheni ya asynchronous ni ile inayoendesha kwa kujitegemea ya nyingine,
       au ambayo huanza wakati mmoja na kuishia kwa mwingine.
 
+  uk:
+    term: "Асинхронний (неодночасний)"
+    def: >
+      Характеристика чогось, що відбувається не одночасно. У програмуванні асинхронна операція - це операція, 
+      яка виконується незалежно від інших, запускається або завершується у визначений час без очікування 
+      завершення інших операцій.
+      
 - slug: attribute
   en:
     term: "attribute"
@@ -2079,6 +2103,13 @@
       Mifumo ya binary, kama kompyuta zote,
       imejengwa juu ya msingi huu wa mifumo ya tathmini ya kimantiki kati ya majimbo ya kweli na ya uwongo, 1 au 0.
 
+  uk:
+    term: "булевий вираз"
+    def: >
+      Пов'язаний зі змінною або типом даних, які можуть мати логічне значення [істини](#true) або [хибності](#false). 
+      Цей термін походить від імені Джорджа Буля, математика 19-го століття. Двійкові системи, як і всі комп'ютери, 
+      будуються на основі системи логічного обчислення між станами істини та хибності (1 або 0).
+    
 - slug: branch
   en:
     term: "branch"
@@ -2371,6 +2402,10 @@
     term: "caching"
     def: >
       Guardar una copia de algún dato en el [caché](#cache) local para hacer su acceso futuro más rápido.
+  uk:
+    term: "кешування"
+    def: >
+      Зберігання копії деяких даних у локальному [кеші](#cache), щоб прискорити майбутній доступ.
 
 - slug: call_stack
   en:
@@ -2820,6 +2855,10 @@
     term: "amri"
     def: >
       Agizo la kuiambia programu ya kompyuta kufanya kazi maalum.
+  uk:
+    term: "команда"
+    def: >
+      Інструкція, яка наказує комп'ютерній програмі виконати певне завдання.
 
 - slug: command_history
   en:
@@ -2904,6 +2943,11 @@
     term: ቃል መልዕክት
     def: >
       ምን እንደተከናወነና ለምን እንደሆነ የሚያብራራ [commit](#commit) ላይ የተጠቀሰ ሐሳብ።
+
+  uk:
+    term: "Повідомлення коміту"
+    def: >
+      Коментар, доданий до [коміту](#commit), який пояснює, які зміни було зроблено та чому.
 
 - slug: compile
   en:
@@ -3466,6 +3510,14 @@
     def: >
       እያንዳንዱ [መዝገብ](#record) የሚገኝበት ለሠንጠረዥ መረጃ የጽሑፍ ቅርጸት አንድ ረድፍ እና የመስክ ሳራ በኮማዎች ተለያይተዋል ፡፡ ብዙ ጥቃቅን ልዩነቶች አሉ ፣ በተለይም ሕብረቁምፊዎችን በመጥቀስ ፡፡
 
+  uk:
+    term: "значення, розділені комами"
+    acronym: "CSV"
+    def: >
+      Текстовий формат для табличних даних, в якому кожен [запис](#record) - один рядок, а [поля](#field)
+      розділені комами. Має багато незначних варіацій, особливо щодо використання лапок навколо
+      [рядків](#string).
+
 - slug: current_working_directory
   en:
     term: "current working directory"
@@ -4020,6 +4072,10 @@
     term: "Mpangilio orodha"
     def: >
       Kipengee ndani ya mfumo wa faili ambao unaweza kuwa na faili na saraka zingine. Pia inajulikana kama folda.
+  uk:
+    term: "каталог"
+    def: >
+      Елемент [файлової системи](#filesystem), який може містити файли та інші каталоги. Також відомий як [тека](#folder).
 
 - slug: discrete_random_variable
   ref:
@@ -5460,7 +5516,15 @@
       a single program in parallel. Orginally designed for use
       in graphics, but is also used for general computation in
       the form of [compute shaders](#compute_shader).
-
+  uk:
+    term: "графічний процесор"
+    acronym: "GPU"
+    def: >
+      Спеціалізований процесор, призначений для паралельного 
+      виконання багатьох копій однієї програми. Спочатку 
+      розроблений для обробки графіки, але зараз також використовується
+      для загальних обчислень у вигляді [обчислювальних шейдерів](#compute_shader).
+    
 - slug: group
   en:
     term: "group"
@@ -6168,7 +6232,14 @@
       des objets du langage JavaScript. Contrairement à d'autres standards plus
       structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
       de données, ni ne supporte l'ajout de commentaires.
-
+  uk:
+    term: "Нотація об'єктів JavaScript"
+    acronym: "JSON"
+    def: >
+      Спосіб представлення даних шляхом комбінування значень у базових форматах (числа, рядки символів тощо) у структурах даних, таких як [списки](#list) та [словники](#dictionary). JSON
+      розшифровується як "JavaScript Object Notation"; на відміну від більш чітко визначених 
+      стандартів, наприклад, [XML](#xml), цей формат не ускладнений синтаксисом для коментарів 
+      або методами визначення [схеми](#schema).
   am:
     term: የጃቫስክሪፕት ነገር ማስታወሻ
     def: >
@@ -7569,6 +7640,13 @@
       Um paradigma de programação no qual dados (atributos) e funções (métodos)
       são encapsulados em objetos que interagem entre si por meio de
       interfaces bem definidas.
+  uk:
+    term: "об'єктно-орієнтоване програмування"
+    acronym: "ООП"
+    def: >
+      Стиль програмування, в якому функції та дані об'єднуються разом в 
+      [об'єкти](#object), які взаємодіють між собою тільки через 
+      чітко визначені інтерфейси.
 
 
 - slug: open_license
@@ -8608,8 +8686,12 @@
     term: "kgolagano kgakala"
     def: >
       Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o dirisa [SSH](#ssh).
-
-
+  uk:
+    term: "віддалений вхід"
+    def: >
+      Початок інтерактивного сеансу роботи на одному комп'ютері з іншого комп'ютера,
+      наприклад, за допомогою [SSH](#ssh).
+  
 - slug: remote_repository
   en:
     term: "remote repository"
@@ -9276,6 +9358,12 @@
       Un protocolo y el programa que lo implementa cuya principal función es el
       acceso remoto a un servidor por medio de un canal seguro en el que toda la
       información está cifrada.
+  uk:
+    term: "Secure Shell"
+    acronym: "SSH"
+    def: >
+      Протокол і програма, яка його реалізує, що дозволяє віддалений доступ до
+      сервера через захищений канал, де вся інформація шифрується.
 
 
 - slug: ssh_key
@@ -9285,7 +9373,12 @@
       A string of random bits stored in a file that is used to identify a user for
       [SSH](#ssh). Each SSH key has separate public and private parts; the public part
       can safely be shared, but if the private part becomes known, the key is compromised.
-
+  uk:
+    term: "SSH-ключ"
+    def: >
+      Рядок випадкових бітів, збережений у файлі, який використовується для ідентифікації
+      користувача в [SSH](#ssh). Кожен SSH-ключ має окремі публічну та приватну частини; публічну
+      частину можна безпечно поширювати, але якщо приватна частина стає відомою, ключ вважається скомпрометованим.
 
 - slug: stack_frame
   en:
@@ -9423,7 +9516,11 @@
     term: "secuencia de caracteres"
     def: >
       Bloque de texto en un programa.
-
+  uk:
+    term: "рядок"
+    def: >
+      У мовах програмування — блок тексту, тобто послідовність символів, яка використовується 
+      для зберігання та маніпуляції текстовими даними.
 
 - slug: string_interpolation
   en:
@@ -9896,6 +9993,14 @@
       Une norme qui définit des codes numériques pour plusieurs milliers de caractères
       et de symboles. Unicode ne définit pas comment ces nombres sont stockés ; cela est
       fait par des normes comme [UTF-8](#utf_8).
+  uk:
+    term: "Unicode"
+    def: >
+      Промисловий стандарт і специфікація, розроблені для забезпечення цифрового представлення 
+      символів усіх писемностей світу та спеціальних символів. Unicode надає кожному символу
+      його унікальний код. Специфікації Unicode постійно переглядаються й оновлюються для 
+      додавання нових мов і символів. Стандарт не визначає, як ці числові коди зберігаються
+      в пам'яті комп'ютера; для цього існують інші стандарти збереження, такі як [UTF-8](#utf_8).
 
 
 - slug: unit_test
@@ -10001,7 +10106,15 @@
     def: >
       A way to store the numeric codes representing [Unicode](#unicode) characters in memory that
       is [backward-compatible](#backward_compatible) with the older [ASCII](#ascii) standard.
-
+  uk: 
+    term: "UTF-8"
+    def: >
+      Cпосіб зберігання числових кодів, що представляють символи [Unicode](#unicode) в пам'яті. 
+      UTF-8 є системою кодування зі змінною довжиною, що використовує від одного до чотирьох байтів на символ. 
+      Якщо символ належить до перших 127 символів кодування [ASCII](#ascii), він кодується одним байтом, 
+      забезпечуючи [повну сумісність](#backward_compatible) з ASCII. Для інших символів використовуються два, 
+      три або чотири байти, залежно від конкретного символу. Це дозволяє ефективно зберігати тексти різних мов, 
+      хоча розмір памʼяті, потрібної для зберігання тексту, може збільшуватися.
 
 - slug: variable_arguments
   ref:
@@ -10058,7 +10171,11 @@
     term: "変数 (プログラム)"
     def: >
       プログラム内で使用される、データが関連付けられる箱のようなものの総称。変数の値は定義した後で変更が可能。
-
+  uk:
+    term: "змінна (програмування)"
+    def: >
+      У мовах програмування - імʼя, якє має асоційоване з ним значення. Значення змінної 
+      може бути змінено після її створення.
 
 - slug: variance
   en:
@@ -10432,6 +10549,12 @@
       exhibited through perceiving, synthesizing and inference of information. Example tasks include
       [natural language processing](#nlp), computer vision, and [machine learning]
       (#machine_learning).
+  uk:
+    term: "штучний інтелект (ШІ)"
+    def: >
+      Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
+      через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
+      комп'ютерний зір та [машинне навчання](#machine_learning).
 
 
 - slug: cnn
