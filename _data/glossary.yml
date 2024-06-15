@@ -2141,6 +2141,13 @@
       Imetajwa kwa George Boole, mwanahisabati wa karne ya 19. 
       Mifumo ya binary, kama kompyuta zote, 
       imejengwa juu ya msingi huu wa mifumo ya tathmini ya kimantiki kati ya majimbo ya kweli na ya uwongo, 1 au 0.
+
+  uk:
+    term: "булевий вираз"
+    def: >
+      Пов'язаний зі змінною або типом даних, які можуть мати логічне значення [істини](#true) або [хибності](#false). 
+      Цей термін походить від імені Джорджа Буля, математика 19-го століття. Двійкові системи, як і всі комп'ютери, 
+      будуються на основі системи логічного обчислення між станами істини та хибності (1 або 0).
     
 - slug: branch
   en:
