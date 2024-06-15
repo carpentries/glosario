@@ -5330,13 +5330,17 @@
       Merging branches in [Git](#git) incorporates development
       histories of two [branches](#branch) in one. If changes are made to similar
       parts of the branches on both branches, a [conflict](#git_conflict) will occur and
-      this must be resolved before the merge will be completed.
-
   am:
     term: Git ውህደት
     def: በ [Git](#git) ውስጥ ቅርንጫፎችን ማዋሃድ በአንዱ ውስጥ የሁለት [ቅርንጫፎች](#branch) የልማት ታሪኮችን
       ያካትታል ፡፡ በሁለቱም ቅርንጫፎች ላይ ባሉ ተመሳሳይ ቅርንጫፎች ላይ ለውጦች ከተደረጉ አንድ "ግጭት" (#git_conflict)
       ይከሰታል እናም ውህደቱ ከመጠናቀቁ በፊት ይህ መፍትሄ ማግኘት አለበት ፡፡
+  uk:
+    term: "Git merge"
+    def: >
+      Злиття [гілок](#git_branch) у [Git](#git) об'єднує історії розробки двох гілок в одну. 
+      Якщо зміни були внесені в ті ж самі частини коду в обох гілках, виникне [конфлікт](#git_conflict),
+      який необхідно вирішити перед завершенням злиття.
 
 - slug: git_pull
   en:
