@@ -8779,7 +8779,12 @@
       A [repository](#repository) located on another computer. Tools such as [Git](#git) are
       designed to synchronize changes between local and remote
       repositories in order to share work.
-
+  uk:
+    term: "віддалений репозиторій"
+    def: >
+      [Репозиторій](#repository), розташований на іншому сервері або пристрої. За допомогою 
+      системи контролю версій, такої як Git, можна синхронізувати локальні та віддалені 
+      репозиторії, що дозволяє спільну роботу.  
 
 - slug: repl
   ref:
