@@ -2505,6 +2505,12 @@
       thalela (`_`), khutlo (`.`) kana thaladi (`-`) mo maineng a maemedi a boleng jo bo fetogang (variables) kana a dilo (objects). 
       Mo godimo ga moo, lefoko lengwe le lengwe mo maineng a le simolola ka tlhakakgolo. 
       Dikai tsa mokwalo o ke `CalculateSum` le `findPattern`.
+  uk:
+    term: "camel case (верблюдячий регістр)"
+    def: >
+      Стиль написання коду, який передбачає іменування змінних та об'єктів без пробілів, 
+      символів підкреслення (_), крапки (.) або тире (-). Кожне слово, іноді, за 
+      вийнятком першого слова, пишеться з великої літери, наприклад: CalculateSum та findPattern.
 
 - slug: catch_exception
   ref:
