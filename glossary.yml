@@ -5229,11 +5229,14 @@
     term: "Git"
     def: >
       Uma ferramenta de controle de versão para registrar e gerenciar mudanças em um projeto.
-
   am:
     term: ጋት
     def: >
       ለመቅረጽ እና [የስሪት መቆጣጠሪያ መሳሪያ](#version_control_system) በፕሮጀክት ላይ ለውጦችን ማስተዳደር።
+  uk:
+    term: "Git"
+    def: >
+      [Система контролю версій](#version_control_system) для запису історїї змін у проєкті.
 
 - slug: git_branch
   ref:
