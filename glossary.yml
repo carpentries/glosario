@@ -5353,11 +5353,15 @@
     def: >
       Télécharge et synchronise les modifications entre le [dépôt distant](#remote_repository)
       et le [dépôt](#repository) local.
-
   am:
     term: Git መጎተት
     def: በአንድ [የርቀት ማከማቻ](#remote_repository) እና በአከባቢው [ማከማቻ](#repository) መካከል ለውጦችን
       ያውርዳል እና ያመሳስላል።
+  uk:
+    term: "Git pull"
+    def: >
+      Отримує зміни з [віддаленого репозиторію](#remote_repository)
+      до локального [репозиторію](#repository).
 
 - slug: git_push
   en:
