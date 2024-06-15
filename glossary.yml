@@ -3043,6 +3043,12 @@
       A general purpose [shader](#shader) program for use in parallel processing. Often used
       for [machine learning](#machine_learning), simulations, and other fields which benifit
       from parallel computation.
+  uk:
+    term: "обчислювальні шейдери"
+    def: >
+      [Шейдер](#shader) загального призначення для використання у паралельній обробці. Часто використовується
+      для [машинного навчання](#machine_learning), симуляцій та інших галузей, які отримують вигоду
+      від паралельних обчислень.
 
 - slug: concatenate
   ref:
