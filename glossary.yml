@@ -10321,6 +10321,10 @@
     term: "sistema de controle de versão"
     def: >
       Um sistema para gerenciar as mudanças feitas em um software durante o seu desenvolvimento.
+  uk:
+    term: "система контрою версій"
+    def: >
+      Система для запису історїї змін, внесених до програмного забезпечення під час його розробки.
 
 
 - slug: vertex_shader
