@@ -5296,10 +5296,13 @@
     def: >
       A situation in which incompatible or overlapping changes have been made on
       different [branches](#branch) that are now being [merged](#git_merge).
-
   am:
     term: የጂት ግጭት
     def: 'አሁን ባሉ የተለያዩ [ቅርንጫፎች](#branch) ላይ የማይጣጣሙ ወይም ተደራራቢ ለውጦች የተደረጉበት ሁኔታ [ተዋህዷል](#git_merge)::'
+  uk:
+    term: "Конфлікт Git"
+    def: >
+      Ситуація, в якій несумісні або конфліктуючі зміни були внесені до різних [гілок](#git_branch) і виявлені під час їх об'єднання.
 
 - slug: git_fork
   ref:
