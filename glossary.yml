@@ -1791,6 +1791,11 @@
     term: "big data"
     def: >
       Toutes les données qui, jusqu'à récemment, étaient trop volumineuses pour que la plupart des gens puissent les utiliser sur un seul ordinateur.
+  uk:
+    term: "великі дані (big data)"
+    def: >
+      Збірки даних, які до недавнього часу були занадто великими для обробки на одному комп'ютері
+      через обмежені можливості апаратного та програмного забезпечення.
 
 - slug: binary
   en:
