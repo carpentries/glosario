@@ -10400,6 +10400,11 @@
       O espaço, nova linha, quebra de linha, ou tabulação horizontal ou vertical que ocupe
       um espaço mas não crie uma marca visível. O nome vem de sua aparência em um papel impresso
       da era das das máquinas de escrever.
+  uk:
+    term: "cимвол нового рядка"
+    def: >
+      Пробіл, новий рядок, розрив рядка або горизонтальна чи вертикальна табуляція, які займають місце, 
+      але не створюють видимої позначки. Назва походить від їх появи на друкованій сторінці в епоху друкарських машинок.
 
 
 - slug: wildcard
