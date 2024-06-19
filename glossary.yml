@@ -9703,6 +9703,13 @@
       [machine learning](#machine_learning) algorithm after it has been trained.
       It should always be separated from the [training data](#training_data) to
       ensure that the model is properly tested with unseen data.
+  uk:
+    term: "тестові дані"
+    def: >
+      Частина набору даних, яка використовується для оцінки коректності 
+      алгоритму [машинного навчання](#machine_learning) після його тренування.
+      Тестові дані завжди повинні бути відокремлені від [тренувальних даних](#training_data), щоб
+      гарантувати, що модель належним чином протестована на даних, які не використовувалися раніше.
 
 - slug: test_runner
   en:
