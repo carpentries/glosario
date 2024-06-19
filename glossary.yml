@@ -9853,6 +9853,13 @@
       algorithm to recognise similar data. It should always be separated from the
       [test data](#test_data) to ensure that the model is properly tested with data it has
       never seen before.
+  uk:
+    term: "тренувальні дані"
+    def: >
+      Частина набору даних, яка використовується для тренування алгоритму 
+      [машинного навчання](#machine_learning), щоб розпізнувати схожі дані. 
+      Тренувальні дані завжди мають бути відокремлені від [тестових даних](#test_data), 
+      щоб гарантувати, що модель протестована на даних, які не використовувалися раніше.
 
 - slug: transitive_dependency
   en:
