@@ -1826,6 +1826,13 @@
     term: "binaire"
     def: >
       Un système qui peut avoir l'un des deux états possibles. En informatique souvent représenté comme étant à l'état 0 ou 1. Représenté en logique booléenne comme faux (0) ou vrai (1). Les ordinateurs sont construits sur des systèmes qui stockent les 0 et les 1 sous forme de bits.
+  uk:
+    term: "бінарний"
+    def: >
+      Система, яка може мати один з двох можливих станів. В інформатиці часто
+      представлена як 0 або 1. У [булевій](#boolean)
+      логіці представлена як [хибність](#false) (0) або [істина](#true) (1). Комп'ютери побудовані на системах,
+      які зберігають 0 та 1 як [біти](#bit).
 
 - slug: binary_expression
   ref:
