@@ -7223,6 +7223,11 @@
     def: >
       Namba ya katikati kwa data.  Kuikokotoa, jumla nambari halafu gawana na nambari
       za nambari.
+  uk:
+    term: "середнє значення"
+    def: >
+      Середнє значення набору даних, більш відоме як [арифметичне середнє](#arithmetic_mean), що
+      відрізняється від [геометричного](#geometric_mean) та [гармонічного](#harmonic_mean) середнього.
 
 - slug: mean_absolute_error
   ref:
