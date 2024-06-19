@@ -7251,6 +7251,10 @@
     term: "modus"
     def: >
       Die waarde wat die meeste in 'n datastel voorkom.
+  de:
+    term: "Modus"
+    def: >
+      Auch Modalwert genannt. Gibt den Wert oder die Werte an, die am häufigsten in einem Datensatz vorkommen.
 
 
 - slug: model
