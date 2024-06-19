@@ -3981,6 +3981,11 @@
     term: ጥገኛ ተለዋዋጭ
     def: >
       ዋጋው በሌላ ተለዋዋጭ እሴት ላይ የሚመረኮዝ ተለዋዋጭ ፣ [ገለልተኛ ተለዋዋጭ](#independent_variable) ተብሎ የሚጠራው።
+  de:
+    term: "Abhängige Variable"
+    def: >
+      Eine Variable, dessen Werte von denen einer anderen Variablen abhängig sind, welche 
+      als [unabhängige Variable](#independent_variable) bezeichnet wird.
 
 - slug: depth_first
   en:
@@ -5980,6 +5985,11 @@
     def: >
       El factor que cambias o controlas intencionadamente para ver qué efecto tiene
       sobre la [variable dependiente](#dependent_variable).
+  de:
+    term:
+    def: >
+      Der Faktor, der vorsätzlich verändert oder kontrolliert wird, um die Auswirkung
+      auf die [abhängige Variable](#dependent_variable) zu beobachten.
 
 - slug: index
   en:
