@@ -1179,6 +1179,11 @@
       Rejelea [mean](#mean).
       Imehesabiwa kutoka kwa seti ya nambari za n kwa kujumlisha nambari hizo,
       na kugawanya matokeo na
+  uk:
+    term: "арифметичне середнє"
+    def: >
+      Для набору з n чисел, обчислюється шляхом знаходження їх суми та ділення результату на n.
+      [Див. також середнє значення](#mean).
 
 - slug: ascii
   en:
