@@ -5985,7 +5985,7 @@
     def: >
       El factor que cambias o controlas intencionadamente para ver qué efecto tiene
       sobre la [variable dependiente](#dependent_variable).
-  de:
+  de: "Unabhängige Variable"
     term:
     def: >
       Der Faktor, der vorsätzlich verändert oder kontrolliert wird, um die Auswirkung
