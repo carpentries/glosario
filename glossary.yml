@@ -9805,7 +9805,11 @@
     def: >
       O quanto os valores de um conjunto de dados diferem da [média](#mean). É calculado
       como a raiz quadrada da [variância](#variance).
-
+  uk:
+    term: "стандартне відхилення"
+    def: >
+      Показник того, наскількі широко значення в наборі даних відрізняються від [середнього](#mean). 
+      Обчислюється як квадратний корінь із [дисперсії](#variance).
 
 - slug: standard_normal_distribution
   en:
