@@ -1717,6 +1717,12 @@
     def: >
       A statistic is biased if it is systematically or consistently different from the
       parameter it is supposed to estimate.
+
+  af: 
+    term: "vooroordeel"
+    def: >
+      'n Statistiek is bevooroordeeld as dit sistematies of konsekwent verskil van die parameter
+      wat dit veronderstel is om te skat.
   es:
     term: "sesgo"
     def: >
@@ -1806,6 +1812,12 @@
       represented as being in the state 0 or 1. Represented in [Boolean](#boolean)
       logic as [false](#false) (0) or [true](#true) (1). Computers are built upon
       systems which store 0s and 1s as [bits](#bit).
+  af: 
+    term: "binêr"
+    def: >
+     'n Stelsel wat een van twee moontlike toestande kan hê. In berekening word dit dikwels 
+     voorgestel as in die toestand 0 of 1. In [Boole-logika](#boolean) word dit verteenwoordig as [vals](#false) (0) of [waar](#true) (1). 
+     Rekenaars is gebou op stelsels wat 0's en 1's as [bis](#bit) stoor. 
   pt:
     term: "binário"
     def: >
@@ -1940,7 +1952,7 @@
       ou vrai/faux. En informatique cela représente un état de 0 ou 1.
       አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡]
   af:
-    term: bit
+    term: bis
     def: >
       'n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals. Dit kan voorgestel work as 0 of 1.
   nl:
@@ -1973,6 +1985,14 @@
     term: "Selekanyo sa kitso e e mo sedirisiweng se segolo"
     def: >
       Ke kitso e e beilweng e le mo seemong kana sedirisiweng se setona mo lefelong le le lengwe fela.
+
+  af:
+    term: "binêre groot voorwerp"
+    def: >
+      Data wat in 'n databasis gestoor word sonder om op enige manier geïnterpreteer te word, soos 'n 
+      klanklêer. Die term word ook nou gebruik om te verwys na data wat oor 'n netwerk oorgedra word 
+      of in 'n [weergawebeheerstelsel-repository](#version_control_system) as ongeïnterpreteerde bis gestoor word.      
+
 
   sw:
     term: "kitu kikubwa cha binary"
