@@ -1948,6 +1948,12 @@
       Sehemu ya habari inayowakilisha njia mbadala, ndiyo/hapana,
       [true](#true)/[false](#false). Katika kuhesabu hali ya 0 au 1.
 
+  uk:
+    term: "біт"
+    def: >
+      Одиниця інформації, яка представляє дві альтернативи, наприклад: так/ні, 
+      [істина](#true)/[хибність](#false), 1 або 0 тощо.
+
 - slug: blob
   en:
     term: "binary large object"
