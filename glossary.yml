@@ -2815,7 +2815,12 @@
        Ni kiasi gani [maktaba](#library) au programu imetekelezwa wakati wa majaribio.
        kwa mfano, ikiwa mistari 40 kati ya 50 ndani faili imetekelezwa wakati wa majaribio,
        majaribio hayo yana kiwango cha asilimia 80%.
-
+  uk:
+    term: "покриття коду (в тестуванні)"
+    def: >
+      Показник, який визначає, наскільки велика частина бібліотеки або програми виконується
+      під час виконання тестів. Зазвичай виражається у відсотках від кількості рядків коду: наприклад,
+      якщо під час тестування виконується 40 з 50 рядків у файлі, то покриття коду становить 80%.
 
 - slug: code_review
   en:
