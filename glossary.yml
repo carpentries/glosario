@@ -1798,7 +1798,7 @@
     def: >
      'n Stelsel wat een van twee moontlike toestande kan hê. In berekening word dit dikwels 
      voorgestel as in die toestand 0 of 1. In [Boole-logika](#boolean) word dit verteenwoordig as [vals](#false) (0) of [waar](#true) (1). 
-     Rekenaars is gebou op stelsels wat 0's en 1's as [bits](bits) stoor. 
+     Rekenaars is gebou op stelsels wat 0's en 1's as [bis](#bits) stoor. 
   pt:
     term: "binário"
     def: >
@@ -1926,7 +1926,7 @@
       ou vrai/faux. En informatique cela représente un état de 0 ou 1.
       አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡]
   af:
-    term: bit
+    term: bis
     def: >
       'n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals. Dit kan voorgestel work as 0 of 1.
   nl:
@@ -1958,7 +1958,7 @@
     def: >
       Data wat in 'n databasis gestoor word sonder om op enige manier geïnterpreteer te word, soos 'n 
       klanklêer. Die term word ook nou gebruik om te verwys na data wat oor 'n netwerk oorgedra word 
-      of in 'n [weergawebeheerstelsel-repository](#version_control_system) as ongeïnterpreteerde bits gestoor word.      
+      of in 'n [weergawebeheerstelsel-repository](#version_control_system) as ongeïnterpreteerde bis gestoor word.      
   sw:
     term: "kitu kikubwa cha binary"
     def: >
