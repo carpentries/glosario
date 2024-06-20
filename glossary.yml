@@ -1798,7 +1798,7 @@
     def: >
      'n Stelsel wat een van twee moontlike toestande kan hê. In berekening word dit dikwels 
      voorgestel as in die toestand 0 of 1. In [Boole-logika](#boolean) word dit verteenwoordig as [vals](#false) (0) of [waar](#true) (1). 
-     Rekenaars is gebou op stelsels wat 0's en 1's as [bis](#bits) stoor. 
+     Rekenaars is gebou op stelsels wat 0's en 1's as [bis](#bit) stoor. 
   pt:
     term: "binário"
     def: >
