@@ -5297,11 +5297,14 @@
     term: "Git"
     def: >
       Uma ferramenta de controle de versão para registrar e gerenciar mudanças em um projeto.
-
   am:
     term: ጋት
     def: >
       ለመቅረጽ እና [የስሪት መቆጣጠሪያ መሳሪያ](#version_control_system) በፕሮጀክት ላይ ለውጦችን ማስተዳደር።
+  uk:
+    term: "Git"
+    def: >
+      [Система контролю версій](#version_control_system) для запису історїї змін у проєкті.
 
 - slug: git_branch
   ref:
@@ -5350,6 +5353,10 @@
     def: >
       የ [ጂት](#git) [የርቀት) ቅጂዎች (እና አብዛኛውን ጊዜ ውርዶች) ማከማቻ](#remote_repository)
       በአካባቢያዊ ኮምፒተር ላይ ፡፡
+  uk: 
+    term: "Git clone"
+    def: >
+      Копіює (і зазвичай завантажує) [віддалений репозиторій](#remote_repository) [Git](#git) на локальну файлову систему.
 
 - slug: git_conflict
   en:
@@ -5357,10 +5364,13 @@
     def: >
       A situation in which incompatible or overlapping changes have been made on
       different [branches](#branch) that are now being [merged](#git_merge).
-
   am:
     term: የጂት ግጭት
     def: 'አሁን ባሉ የተለያዩ [ቅርንጫፎች](#branch) ላይ የማይጣጣሙ ወይም ተደራራቢ ለውጦች የተደረጉበት ሁኔታ [ተዋህዷል](#git_merge)::'
+  uk:
+    term: "Конфлікт Git"
+    def: >
+      Ситуація, в якій несумісні або конфліктуючі зміни були внесені до різних [гілок](#git_branch) і виявлені під час їх об'єднання.
 
 - slug: git_fork
   ref:
@@ -5375,6 +5385,11 @@
     term: የጂት ሹካ
     def: በ [አገልጋይ](#repository) ላይ የ [Git](#git) [ማከማቻ](#server) አዲስ ቅጅ ወይም የተሰራውን
       ቅጅ ለማድረግ።
+  uk:
+    term: "Git fork"
+    def: >
+      Копія існуючого [репозиторію](#repository) [Git](#git), власник якої може незалежно
+      працювати над кодом, не впливаючи на оригінальний репозиторій. 
 
 - slug: git_merge
   en:
@@ -5383,13 +5398,17 @@
       Merging branches in [Git](#git) incorporates development
       histories of two [branches](#branch) in one. If changes are made to similar
       parts of the branches on both branches, a [conflict](#git_conflict) will occur and
-      this must be resolved before the merge will be completed.
-
   am:
     term: Git ውህደት
     def: በ [Git](#git) ውስጥ ቅርንጫፎችን ማዋሃድ በአንዱ ውስጥ የሁለት [ቅርንጫፎች](#branch) የልማት ታሪኮችን
       ያካትታል ፡፡ በሁለቱም ቅርንጫፎች ላይ ባሉ ተመሳሳይ ቅርንጫፎች ላይ ለውጦች ከተደረጉ አንድ "ግጭት" (#git_conflict)
       ይከሰታል እናም ውህደቱ ከመጠናቀቁ በፊት ይህ መፍትሄ ማግኘት አለበት ፡፡
+  uk:
+    term: "Git merge"
+    def: >
+      Злиття [гілок](#git_branch) у [Git](#git) об'єднує історії розробки двох гілок в одну. 
+      Якщо зміни були внесені в ті ж самі частини коду в обох гілках, виникне [конфлікт](#git_conflict),
+      який необхідно вирішити перед завершенням злиття.
 
 - slug: git_pull
   en:
@@ -5402,11 +5421,15 @@
     def: >
       Télécharge et synchronise les modifications entre le [dépôt distant](#remote_repository)
       et le [dépôt](#repository) local.
-
   am:
     term: Git መጎተት
     def: በአንድ [የርቀት ማከማቻ](#remote_repository) እና በአከባቢው [ማከማቻ](#repository) መካከል ለውጦችን
       ያውርዳል እና ያመሳስላል።
+  uk:
+    term: "Git pull"
+    def: >
+      Отримує зміни з [віддаленого репозиторію](#remote_repository)
+      до локального [репозиторію](#repository).
 
 - slug: git_push
   en:
@@ -5423,6 +5446,10 @@
   am:
     term: Git መግፋት
     def: በአካባቢያዊ [ማከማቻ](#repository) እና ሀ መካከል ለውጦችን ይሰቅላል እና ያመሳስላቸዋል [የርቀት ማከማቻ](#remote_repository)።
+  uk:
+    term: "Git push"
+    def: >
+      Надсилає зміни з локального [репозиторію](#repository) до [віддаленого репозиторію](#remote_repository).
 
 - slug: git_remote
   en:
@@ -5432,6 +5459,13 @@
   am:
     term: ጌት በርቀት
     def: ለ [የርቀት ማከማቻ] አጭር ስም (#remote_repository) (እንደ ዕልባት)።
+  uk:
+    term: "Git remote"
+    def: >
+      URL-адреса, що вказує на [віддалений репозиторій](#remote_repository), яка дозволяє надсилати локальні 
+      зміни або отримувати оновлення для проекту. Часто встановлюється з коротким
+      ім'ям, таким як "origin", для зручності. Іменування [віддаленого репозиторію](#remote_repository)
+      спрощує використання повторюваних команд, замість введення повного URL кожного разу.
 
 - slug: github
   en:
@@ -5455,7 +5489,12 @@
     term: ጊት ሀብ
     def: የፕሮጀክትዎን ስሪቶች በመስመር ላይ እንዲያስቀምጡ እና ከሌሎች የጂት ተጠቃሚዎች ጋር እንዲተባበሩ የሚያስችልዎ በ [Git](#git)
       ዙሪያ የተገነባ ደመና-ተኮር መድረክ።
-
+  uk:
+    term: "GitHub"
+    def: >
+      Хмарна платформа, побудована навколо [Git](#git), яка дозволяє зберігати версії вашого 
+      проекту онлайн і співпрацювати з іншими користувачами Git.
+      
 - slug: global_environment
   en:
     term: "global environment"
@@ -8824,7 +8863,12 @@
       A [repository](#repository) located on another computer. Tools such as [Git](#git) are
       designed to synchronize changes between local and remote
       repositories in order to share work.
-
+  uk:
+    term: "віддалений репозиторій"
+    def: >
+      [Репозиторій](#repository), розташований на іншому сервері або пристрої. За допомогою 
+      системи контролю версій, такої як Git, можна синхронізувати локальні та віддалені 
+      репозиторії, що дозволяє спільну роботу.  
 
 - slug: repl
   ref:
@@ -8861,6 +8905,11 @@
     term: "リポジトリ"
     def: >
        [バージョン管理システム](#version_control_system)において、管理対象となるプロジェクトを構成するファイルとその履歴を説明するメタデータを保存する場所。
+  uk:
+    term: "репозиторій"
+    def: >
+      Місце, де [система контролю версій](#version_control_system) зберігає файли,
+      що складають проект, та метадані, які описують їхню історію.
 
 - slug: reprex
   en:
@@ -10398,6 +10447,10 @@
     term: "sistema de controle de versão"
     def: >
       Um sistema para gerenciar as mudanças feitas em um software durante o seu desenvolvimento.
+  uk:
+    term: "система контрою версій"
+    def: >
+      Система для запису історїї змін, внесених до програмного забезпечення під час його розробки.
 
 
 - slug: vertex_shader
