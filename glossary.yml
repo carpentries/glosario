@@ -9382,7 +9382,13 @@
       Source code or, simply, code, is the origin of executed code (either by means of
       an interpreter or compiler). It's the primarily human-produced series of commands
       that make up a program. (Note: Automatic code generators exist for some applications)
-
+  uk:
+    term: "вихідний код"
+    def: >
+      Вихідний код, або первинний код - це джерело коду, який виконується за допомогою інтерпретатора 
+      або компілятора. Здебільшого, це створена людиною серія команд, з яких 
+      складається програма. (Примітка: для деяких застосунків існують автоматичні генератори коду)
+      
 - slug: source_distribution
   en:
     term: "source distribution"
