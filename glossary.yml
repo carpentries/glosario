@@ -3120,6 +3120,12 @@
       A general purpose [shader](#shader) program for use in parallel processing. Often used
       for [machine learning](#machine_learning), simulations, and other fields which benifit
       from parallel computation.
+  uk:
+    term: "обчислювальні шейдери"
+    def: >
+      [Шейдер](#shader) загального призначення для використання у паралельній обробці. Часто використовується
+      для [машинного навчання](#machine_learning), симуляцій та інших галузей, які отримують вигоду
+      від паралельних обчислень.
 
 - slug: concatenate
   ref:
@@ -9195,8 +9201,14 @@
   en:
     term: "shader"
     def: >
-      A program designed to run on a [GPU](#gpu). Generally used in graphics to calculate lighting or position vertices
-      in a scene, though can be used for more general programming through the use of [compute shaders](#compute_shader).
+      A program designed to run on the [GPU][gpu]. Generally used in graphics to calculate lighting or position vertices
+      in a scene, though can be used for more general programming through the use of [compute shaders][#compute_shader].
+  uk:
+    term: "шейдер"
+    def: >
+      Програма, призначена для виконання на [GPU](#gpu). Загалом, використовується у графіці для розрахунку освітлення
+      або позиціонування вершин у сцені, також може використовуватися для більш загального програмування 
+      за допомогою [обчислювальних шейдерів](#compute_shader).
 
 - slug: shebang
   en:
