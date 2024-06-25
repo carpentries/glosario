@@ -8684,7 +8684,10 @@
     def: >
       The reciprocal of a number x is 1 / x, or alternatively x raised to the
       power of -1.
-
+  uk:
+    term: "обернене число"
+    def: >
+      Обернене число для числа x дорівнює 1 / x, або, альтернативно, x в степені -1.
 
 - slug: record
   en:
