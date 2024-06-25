@@ -4247,6 +4247,12 @@
     term: ዲጂታል የነገር መለያ
     def: >
       ለመጽሃፍ ፣ ወረቀት ፣ ሪፖርት ፣ የውሂብ ስብስብ ልዩ ልዩ የማያቋርጥ መለያ የሶፍትዌር መለቀቅ ወይም ሌላ ዲጂታል ቅርሶች።
+  uk:
+    term: "Цифровий ідентифікатор об'єкта"
+    acronym: "ЦІО"
+    def: >
+      Унікальний і постійний ідентифікатор книги, статті, звіту, набору даних, випуску програмного 
+      забезпечення або іншого цифрового носія.
 
 - slug: dom
   en:
@@ -7885,6 +7891,11 @@
     def: >
       An Open Researcher and Contributor ID that uniquely and persistently identifies
       an author of scholarly works. ORCIDs are for people what [DOIs](#doi) are for documents.
+  uk:
+    term: "ВІДІС"
+    def: >
+      Відкритий ідентифікатор дослідника і співавтора, який унікально ідентифікує 
+      автора наукових праць. ВІДІС для людей те саме, що і [ЦІО](#doi) для документів.
 
 
 - slug: orthogonality
