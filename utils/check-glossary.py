@@ -18,7 +18,7 @@ Checks always performed:
 -   Definitions only have allowed keys (`DEFINITION_KEYS`).
 -   No duplicate definitions.
 
-Checks performed 
+Checks performed
 '''
 
 import sys
@@ -30,7 +30,35 @@ from collections import Counter
 # Keys for entries and definitions.
 ENTRY_REQUIRED_KEYS = {'slug'}
 ENTRY_OPTIONAL_KEYS = {'ref'}
-ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'bn', 'de', 'el', 'en', 'es', 'fr', 'he','hr', 'hu', 'id', 'it', 'ja', 'ko', 'la', 'nl', 'pt', 'st', 'sw', 'tn', 'xh', 'zh', 'zu'}
+ENTRY_LANGUAGE_KEYS = {
+    'af',
+    'am',
+    'ar',
+    'bn',
+    'de',
+    'el',
+    'en',
+    'es',
+    'fr',
+    'he',
+    'hr',
+    'hu',
+    'id',
+    'it',
+    'ja',
+    'ko',
+    'la',
+    'nl',
+    'pt',
+    'st',
+    'sw',
+    'tn',
+    'uk',
+    'xh',
+    'zh',
+    'zu'
+}
+
 ENTRY_KEYS = ENTRY_REQUIRED_KEYS | \
              ENTRY_OPTIONAL_KEYS | \
              ENTRY_LANGUAGE_KEYS
