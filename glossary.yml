@@ -6912,7 +6912,13 @@
       Un [langage de balisage](#markup_language) à la syntaxe simple visant à remplacer [HTML](#html).
       Markdown est souvent utilisé dans les fichiers LISEZ MOI (README), et forme la base du
       [R markdown](#r_markdown).
-
+  uk:
+    term: "Markdown"
+    def: >
+      [Мова розмітки](#markup_language) для полегшення написання та читання тексту у
+      структурованому форматі. Markdown також дозволяє легко конвертувати текст у [HTML](#html).
+      Markdown має простий синтаксис, та часто використовується для файлів README, а також є 
+      основою для [R markdown](#r_markdown).
   am:
     term: ምልክት ማድረጊያ
     def: >
