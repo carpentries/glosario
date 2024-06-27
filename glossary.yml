@@ -1133,6 +1133,13 @@
       Hoja ni mojawapo ya misemo kadhaa ambayo hupitishwa kwa chaguo la kukokotoa.
       Ni thamani halisi inayopitishwa. Vigezo na hoja ni tofauti, lakini dhana zinazohusiana.
       Vigezo ni vigeuzo na hoja ni thamani zilizopewa vigeu hivyo.
+  uk:
+    term: "аргумент"
+    def: >
+      Термін не слід плутати з [параметром](#parameter), це не синонім. Аргумент — це 
+      фактичне значення, яке передається функції під час її виклику.
+      Параметри та аргументи — це різні, але пов’язані поняття. Параметри — це змінні,
+      а аргументи — це значення, які призначаються цим змінним.
 
 - slug: arithmetic_mean
   en:
@@ -8013,7 +8020,12 @@
       Uma variável especificada na definição de uma função, cujo valor é passado para a função quando
       ela é invocada. O parâmetro é a variável, enquanto seu valor dentro da função é
       um [argumento](#argument). Parâmetro e argumento são termos relacionados, mas diferentes.
-
+  uk:
+    term: "параметр"
+    def: >
+      Змінна, визначена в оголошенні функції та значення якої функція отримає під час її виклику.
+      Параметри та [аргументи](#argument) — це різні, але пов'язані поняття. Параметри — це змінні,
+      а аргументи — це значення, які призначаються цим змінним.
 
 - slug: parent_class
   en:
