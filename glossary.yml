@@ -8702,6 +8702,10 @@
     term: "README"
     def: >
       A plain text file containing important information about a project or software package.
+  uk:
+    term: "README (прочитай мене)"
+    def: >
+      Звичайний текстовий файл, що містить важливу інформацію стосовно проєкту або програмного комплексу.
 
 - slug: reciprocal
   en:
