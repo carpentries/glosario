@@ -8038,7 +8038,12 @@
       É um pacote Python de código aberto que oferece estruturas de dados rápidas, flexíveis
       e expressivas para tornar o trabalho com dados estruturados e séries temporais fácil e
       intuitivo. É usado como uma ferramenta poderosa para análise e manipulação de dados.
-
+  uk:
+    term: "pandas"
+    def: >
+      pandas - це пакет Python з відкритим вихідним кодом. Він пропонує швидкі, гнучкі та 
+      виразні структури даних, щоб легко та інтуїтивно взаємодіяти зі структурованими даними 
+      та часовими рядами. Це потужний інструмент для аналізу та маніпулювання даними.
 
 - slug: parameter
   en:
