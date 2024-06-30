@@ -5932,7 +5932,7 @@
     acronym: "HTML"
     def: >
       The standard [markup language](#markup_language) used for web pages. HTML is
-      represented in memory using [DOM](#dom) (Digital Object Model).
+      represented in memory using [DOM](#dom) (Document Object Model).
   de:
     term: "Hypertext-Auszeichnungssprache"
     acronym: "HTML"
