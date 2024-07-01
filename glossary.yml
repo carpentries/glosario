@@ -5974,7 +5974,7 @@
     acronym: "HTML"
     def: >
       The standard [markup language](#markup_language) used for web pages. HTML is
-      represented in memory using [DOM](#dom) (Digital Object Model).
+      represented in memory using [DOM](#dom) (Document Object Model).
   de:
     term: "Hypertext-Auszeichnungssprache"
     acronym: "HTML"
@@ -5986,6 +5986,12 @@
     term: የሃይፐር ጽሑፍ ምልክት ማድረጊያ ቋንቋ
     def: >
       ለድር ገጾች ጥቅም ላይ የዋለው መደበኛው [ምልክት ማድረጊያ ቋንቋ](#markup_language) ኤችቲኤምኤል ነው [DOM](#dom) (ዲጂታል ነገር ሞዴል) በመጠቀም በማስታወስ ውስጥ ተወክሏል።
+  uk:
+    term: "мова розмітки гіпертексту (HyperText Markup Language)"
+    acronym: "HTML"
+    def: >
+      Стандартна [мова розмітки](#markup_language), що використовується для створення 
+      та структурування вебсторінок. HTML представлено у пам'яті за допомогою [DOM](#dom) (об'єктна модель документа).
 
 - slug: http
   en:
