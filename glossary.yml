@@ -7890,7 +7890,12 @@
     term: "oop wetenskap"
     def: >
      'n Generiese term om wetenskaplike sagteware, data en publikasies toegangklik te maak.
-
+  uk:
+    term: "відкрита наука"
+    def: >
+      Підхід до створення наукового програмного забезпечення, даних та публікацій, який 
+      забезпечує їх наявність у відкритому доступі.
+     
 - slug: openrefine
   ref:
     - tidy data
