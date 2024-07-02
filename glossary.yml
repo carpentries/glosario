@@ -3602,7 +3602,7 @@
   en:
     term: "cryptographic hash function"
     def: >
-      A [hash function](#hash_function) that produces an apparently-random value for
+      A [hash function](#hash_function) that produces a random value for
       any input.
 
   am:
