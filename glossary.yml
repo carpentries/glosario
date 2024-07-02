@@ -2546,6 +2546,12 @@
       A style of writing code that involves naming variables and objects with no
       space, underscore (`_`), dot (`.`), or dash (`-`) characters, with each word being
       capitalized. Examples include `CalculateSum` and `findPattern`.
+  af:
+    term: Kameelgeval
+    def: >
+      Die styl van kodeskryf wat behels dat veranderlikes en objekte benoem word sonder spasies, 
+      onderstreep (_) punte (.), of strepies (-) karakters, met elke woord wat gekapitaliseer word. 
+      Voorbeelde hiervan sluit in BerekenSom en VindPatroon.    
   de:
     term: "camel case (dt. Kamel-Schreibung)"
     def: >
@@ -2612,6 +2618,7 @@
     def: >
       A relationship between distinct events, where it is asserted that one event is responsible for
       producing or affecting change in the other.
+ 
   fr:
     term: "causalité"
     def: >
