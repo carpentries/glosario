@@ -7892,7 +7892,7 @@
       An Open Researcher and Contributor ID that uniquely and persistently identifies
       an author of scholarly works. ORCIDs are for people what [DOIs](#doi) are for documents.
   uk:
-    term: "Відкритий ідентифікатор дослідника і співавтора"
+    term: "відкритий ідентифікатор дослідника і співавтора"
     acronym: "ORCID"
     def: > 
       ORCID зазначає "Open Researcher and Contributor ID", тобто "відкритий ідентифікатор 
