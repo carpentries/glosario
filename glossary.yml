@@ -8184,6 +8184,10 @@
     def: >
       Em [programação orientada a objetos](#oop), a classe a partir da qual outra
       classe (chamada [classe derivada](#child_class)) é produzida.
+  uk:
+    term: "базовий клас"
+    def: >
+      У [об'єктно-орієнтованому програмуванні](#oop) клас, від якого походить [дочірній клас](#child_class).
 
 
 - slug: parent_directory
