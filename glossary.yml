@@ -5098,6 +5098,10 @@
     term: "Kabrasha"
     def: >
       Neno lingine kwa saraka.
+  uk:
+    term: "тека"
+    def: >
+      Ще один термін для [каталогу](#directory).
 
 - slug: for_loop
   ref:
