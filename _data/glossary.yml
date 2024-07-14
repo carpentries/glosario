@@ -2282,6 +2282,12 @@
       Netzwerkverkehr reduziert werden, wenn die Ressourcen erneut angefragt werden. Es kann durch
       die Verwendung des Browser-Caches jedoch auch passieren, dass veraltete Informationen angezeigt
       werden, wenn sich die Ressourcen in der Zwischenzeit geändert haben.
+  def:
+    term: "кеш браузера"
+    def: >
+      Місце, де веб-браузери зберігають копії раніше завантажених файлів (веб-сторінок, файлів даних)
+      для економії часу при повторному запиті. Іноді можуть виникати проблеми, якщо в Інтернеті є
+      нова версія файлу, але браузер її не завантажує.
 
 - slug: bug
   en:
