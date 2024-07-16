@@ -3542,7 +3542,15 @@
       alors connaître X ne nous dit rien sur Y.
       Enfin, si le [coefficient de corrélation](#correlation_coefficient) vaut -1.0,
       alors X permet de prédire Y, mais un changement en X cause un changement opposé sur Y.
-
+  uk:
+    term: "Коефіцієнт кореляції"
+    def: >
+     Показник статистичного зв'язку [кореляції](#correlation) між двома змінними.
+     Якщо [коефіцієнт кореляції](#correlation_coefficient) між X та Y становить 1.0,
+     то знання X дає змогу точно передбачити Y. 
+     За коефіцієнта кореляції 0.0 знання X не надає жодної інформації про Y. 
+     Якщо ж коефіцієнт дорівнює -1.0, то X прогнозує Y, але зміна X спричиняє протилежну зміну Y.
+      
 - slug: covariance
   en:
     term: "covariance"
