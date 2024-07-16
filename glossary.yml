@@ -485,9 +485,18 @@
   fr:
     term: "Précision"
     def: >
-      L'exactitude et la précision sont deux façons de mesurer les résultats.
-      L'exactitude mesure à quel point les résultats sont proches de la valeur vraie ou connue.
-      La précision, quant à elle, mesure la proximité des résultats les uns par rapport aux autres.
+      L'exactitude et la précision sont deux façons de mesurer les résultats. 
+      L'exactitude mesure à quel point les résultats sont proches de la valeur vraie ou connue. 
+      La précision, quant à elle, mesure la proximité des résultats les uns par rapport aux autres. 
+  uk:
+    term: "Точність"
+    def: >
+      Статистична міра класифікаційної моделі, яка показує частку правильних прогнозів серед загальної кількості випадків. 
+      Обчислюється за формулою: Точність = (ІП+ІН)/(ІП+ІН+ХП+ХН).
+      - ІП = істинно позитивний 
+      - ІН = істинно негативний
+      - ХН = хибно негативний
+      - ХП = хибно позитивний
 
 - slug: actual_result
   de:
