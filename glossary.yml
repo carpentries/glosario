@@ -3496,7 +3496,13 @@
       Una medida de cuán bien dos variables están de acuerdo una con la otra. La correlación usualmente se mide
       calculando un [coeficiente de correlación](#correlation_coefficient), y no implica
       [causalidad](#causation).
-
+  uk:
+    term: "кореляція"
+    def: >
+      Статистична взаємна залежність, співвідношення між двома випадковами змінними.
+      Кореляція зазвичай вимірюється шляхом обчислення [коефіцієнта кореляції](#correlation_coefficient), 
+      і не передбачає причинно-наслідкового зв'язку (#causation).
+      
 - slug: correlation_coefficient
   en:
     term: "correlation coefficient"
