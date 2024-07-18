@@ -5101,7 +5101,7 @@
   uk:
     term: "тека"
     def: >
-      Ще один термін для [каталогу](#directory).
+      Синонім [каталогу](#directory).
 
 - slug: for_loop
   ref:
