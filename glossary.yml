@@ -76,9 +76,6 @@
     def: >
       68% የሥነ-ምግባር እሴቶች በአንድ [መሥፈርት) ውስጥ እንደሚመደቡ ይገልፃሉ:: የ[ማለት](#mean)[standard deviation](#standard_deviation) 95% በሁለት ውስጥ ያርፋል፣ እና 99.7% በሶስት ውስጥ ያርፋል. በተቃራኒው ደግሞ 0.3% ገደማ የሚሆኑት እሴቶች ከሦስት በላይ ናቸው አብዛኛውን ጊዜ ከዚያ በላይ ወይም ከዚያ በታች ያሉደረጃዎች።
 
-  uk:
-    term: Правило 68-95-99.7
-
 - slug: abandonware
   bn:
     term: "বিসর্জনকৃত সফটওয়্যার"
@@ -4238,7 +4235,7 @@
       Una estructura de datos que contiene parejas llave-valor, a veces llamados [arreglos asociativos](#associative_array).
       Los diccionarios en ocasiones son implementados usando [tablas hash](#hash_table).
   uk:
-    term: "Словник"
+    term: "словник"
     def: >
       Структура даних, яка містить пари ключ-значення. Кожна пара у словнику зіставляє ключ із пов’язаним значенням.
       Словники також іноді називаються асоціативними масивами, та часто реалізуються за  допомогою [геш-таблиць](#hash_table).
