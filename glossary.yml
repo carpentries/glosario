@@ -485,9 +485,18 @@
   fr:
     term: "Précision"
     def: >
-      L'exactitude et la précision sont deux façons de mesurer les résultats.
-      L'exactitude mesure à quel point les résultats sont proches de la valeur vraie ou connue.
-      La précision, quant à elle, mesure la proximité des résultats les uns par rapport aux autres.
+      L'exactitude et la précision sont deux façons de mesurer les résultats. 
+      L'exactitude mesure à quel point les résultats sont proches de la valeur vraie ou connue. 
+      La précision, quant à elle, mesure la proximité des résultats les uns par rapport aux autres. 
+  uk:
+    term: "Точність"
+    def: >
+      Статистична міра класифікаційної моделі, яка показує частку правильних прогнозів серед загальної кількості випадків. 
+      Обчислюється за формулою: Точність = (ІП + ІН) / (ІП + ІН + ХП + ХН).
+      - ІП = істинно позитивні 
+      - ІН = істинно негативні
+      - ХН = хибно негативні
+      - ХП = хибно позитивні
 
 - slug: actual_result
   de:
@@ -782,7 +791,7 @@
     def: >
       Um algoritmo é um conjunto de etapas, instruções ou regras a serem seguidas para realizar uma tarefa específica.
       Na ciência da computação, um algoritmo é um conjunto de instruções em um programa de computador que resolve um problema computacional.
-  ua:
+  uk:
     term: "алгоритм"
     def: >
       Алгоритм — це впорядкований набір кроків, інструкцій або правил, яких слід дотримуватися для виконання конкретного завдання.
@@ -3041,6 +3050,10 @@
     term: ትዕዛዝ-መስመር ክርክር
     def: >
       በሚሰራበት ጊዜ ለትዕዛዝ-መስመር ፕሮግራም የተሰጠ የፋይል ስም ወይም የቁጥጥር ባንዲራ.
+  uk:
+    term: "аргумент командного рядка"
+    def: >
+      Назва файлу, опція або інша інформація, яку передають програмі під час її запуску через інтерфейс командного рядка.
 
 - slug: comment
   en:
@@ -3299,7 +3312,11 @@
     term: "فترة الثقة"
     def: >
       فترة الثقة تتكون من التقدير المعلمة وهامش الخطأ, وهي الفترة التي نثق بأن قيمة التقدير تكون داخل هذه الفترة
-
+  uk:
+    term: "довірчий інтервал"
+    def: >
+      Діапазон, в якому з заданою ймовірністю знаходиться реальне значення оцінки.
+  
 - slug: configuration file
   en:
     term: "configuration file"
@@ -3487,7 +3504,13 @@
       Una medida de cuán bien dos variables están de acuerdo una con la otra. La correlación usualmente se mide
       calculando un [coeficiente de correlación](#correlation_coefficient), y no implica
       [causalidad](#causation).
-
+  uk:
+    term: "кореляція"
+    def: >
+      Статистична взаємозалежність або співвідношення між двома випадковами змінними.
+      Кореляція зазвичай вимірюється за допомогою [коефіцієнта кореляції](#correlation_coefficient), 
+      і не передбачає [причинно-наслідкового зв'язку](#causation).
+      
 - slug: correlation_coefficient
   en:
     term: "correlation coefficient"
@@ -3527,7 +3550,16 @@
       alors connaître X ne nous dit rien sur Y.
       Enfin, si le [coefficient de corrélation](#correlation_coefficient) vaut -1.0,
       alors X permet de prédire Y, mais un changement en X cause un changement opposé sur Y.
-
+  uk:
+    term: "Коефіцієнт кореляції"
+    def: >
+     Показник статистичного зв'язку [кореляції](#correlation) між двома змінними.
+     Якщо [коефіцієнт кореляції](#correlation_coefficient) між X та Y дорівнює 1.0,
+     то знання значення X дає змогу точно передбачити Y. 
+     За коефіцієнта кореляції 0.0 знання X не надає жодної інформації про Y. 
+     Якщо ж коефіцієнт дорівнює -1.0, то X прогнозує Y, але зміна X дозволяє передбачити протилежну зміну Y
+     (наприклад, якщо X збільшується, то Y зменшується, і навпаки).
+      
 - slug: covariance
   en:
     term: "covariance"
@@ -5140,6 +5172,10 @@
     term: "Kabrasha"
     def: >
       Neno lingine kwa saraka.
+  uk:
+    term: "тека"
+    def: >
+      Синонім [каталогу](#directory).
 
 - slug: for_loop
   ref:
@@ -5993,6 +6029,11 @@
     term: ግጥም ጥርብ ግራፍ
     def: >
       የቁጥር ውሂብ ስብስብ ስርጭት ግራፊክ ውክልና ፣ ብዙውን ጊዜ ቀጥ ያለ የአሞሌ ግራፍ
+  uk:
+    term: "гістограма"
+    def: >
+      Графічне представлення розподілу числових даних, де дані згруповані у рівновіддалені 
+      інтервали, а висота кожного стовпця відповідає частоті точок даних у цьому інтервалі.
 
 - slug: hitchhiker
   en:
@@ -9793,7 +9834,11 @@
     def: >
       O quanto os valores de um conjunto de dados diferem da [média](#mean). É calculado
       como a raiz quadrada da [variância](#variance).
-
+  uk:
+    term: "стандартне відхилення"
+    def: >
+      Показник того, наскількі широко значення в наборі даних відрізняються від [середнього](#mean). 
+      Обчислюється як квадратний корінь із [дисперсії](#variance).
 
 - slug: standard_normal_distribution
   en:
