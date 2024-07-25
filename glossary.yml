@@ -2602,7 +2602,7 @@
       Mo godimo ga moo, lefoko lengwe le lengwe mo maineng a le simolola ka tlhakakgolo.
       Dikai tsa mokwalo o ke `CalculateSum` le `findPattern`.
   uk:
-    term: "camel case (верблюдячий регістр)"
+    term: "верблюдячий регістр (camel case)"
     def: >
       Стиль написання коду, який передбачає іменування змінних та об'єктів без пробілів, 
       символів підкреслення (_), крапки (.) або тире (-). Кожне слово, іноді, за 
