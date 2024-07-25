@@ -1382,7 +1382,6 @@
     def: >
       Haifanyiki kwa wakati mmoja. Katika programu, operesheni ya asynchronous ni ile inayoendesha kwa kujitegemea ya nyingine,
       au ambayo huanza wakati mmoja na kuishia kwa mwingine.
-
   uk:
     term: "Асинхронний (неодночасний)"
     def: >
@@ -2009,7 +2008,6 @@
     def: >
       Sehemu ya habari inayowakilisha njia mbadala, ndiyo/hapana,
       [true](#true)/[false](#false). Katika kuhesabu hali ya 0 au 1.
-
   uk:
     term: "біт"
     def: >
@@ -2187,7 +2185,6 @@
       Imetajwa kwa George Boole, mwanahisabati wa karne ya 19.
       Mifumo ya binary, kama kompyuta zote,
       imejengwa juu ya msingi huu wa mifumo ya tathmini ya kimantiki kati ya majimbo ya kweli na ya uwongo, 1 au 0.
-
   uk:
     term: "булевий вираз"
     def: >
@@ -3116,7 +3113,6 @@
     term: ቃል መልዕክት
     def: >
       ምን እንደተከናወነና ለምን እንደሆነ የሚያብራራ [commit](#commit) ላይ የተጠቀሰ ሐሳብ።
-
   uk:
     term: "Повідомлення коміту"
     def: >
@@ -3148,7 +3144,6 @@
     term: የተጠናቀረ ቋንቋ
     def: >
       መጀመርያ ወደ ማሽን የሚተረጎም እንደ ሲ ወይም ፎርትራን ያለ ቋንቋ የሞት ቅጣትን የሚወነጅሉ መመሪያዎች። እንደ ጃቫ ያሉ ቋንቋዎችም ከዚህ በፊት የተጠናቀሩ ናቸው አፈፃፀም, ነገር ግን በማሽን መመሪያ ይልቅ ወደ [ባይት ኮድ](#byte_code), ሲኾን [የተረጎሙት ቋንቋዎች](#interpreted_language) እንደ [ፓጥተን](#python) በራሪ ኮድ የተጠናቀሩ ናቸው።
-
   uk:
     term: "компільована мова"
     def: >
@@ -3619,7 +3614,6 @@
       Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha
       sakiti muhimu za kielektroniki zinazotafsiri na kutekeleza maagizo
       kutoka kwa programu au maunzi mengine.
-      
   uk:
     term: "Центральний процесор"
     acronym: "ЦП"
@@ -3728,7 +3722,6 @@
     term: ሲ.ኤስ.ቪ.
     def: >
       እያንዳንዱ [መዝገብ](#record) የሚገኝበት ለሠንጠረዥ መረጃ የጽሑፍ ቅርጸት አንድ ረድፍ እና የመስክ ሳራ በኮማዎች ተለያይተዋል ፡፡ ብዙ ጥቃቅን ልዩነቶች አሉ ፣ በተለይም ሕብረቁምፊዎችን በመጥቀስ ፡፡
-
   uk:
     term: "значення, розділені комами"
     acronym: "CSV"
@@ -7150,7 +7143,6 @@
     def: >
       Структура у програмі, яка повторно виконує фрагмент коду, доки не буде виконана умова виходу.
 
-
 - slug: loop_body
   en:
     term: "loop body"
@@ -8001,7 +7993,6 @@
       [об'єкти](#object), які взаємодіють між собою тільки через 
       чітко визначені інтерфейси.
 
-
 - slug: open_license
   en:
     term: "open license"
@@ -8240,7 +8231,6 @@
     term: "базовий клас"
     def: >
       У [об'єктно-орієнтованому програмуванні](#oop) клас, від якого походить [дочірній клас](#child_class).
-
 
 - slug: parent_directory
   ref:
@@ -9767,7 +9757,6 @@
       Протокол і програма, яка його реалізує, що дозволяє віддалений доступ до
       сервера через захищений канал, де вся інформація шифрується.
 
-
 - slug: ssh_key
   en:
     term: "SSH key"
@@ -10422,7 +10411,6 @@
       додавання нових мов і символів. Стандарт не визначає, як ці числові коди зберігаються
       в пам'яті комп'ютера; для цього існують інші стандарти збереження, такі як [UTF-8](#utf_8).
 
-
 - slug: unit_test
   ref:
     - integration_test
@@ -10685,7 +10673,6 @@
     term: "система контрою версій"
     def: >
       Система для запису історїї змін, внесених до програмного забезпечення під час його розробки.
-
 
 - slug: vertex_shader
   ref:
@@ -10983,7 +10970,6 @@
       Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
       через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
       комп'ютерний зір та [машинне навчання](#machine_learning).
-
 
 - slug: cnn
   ref:
