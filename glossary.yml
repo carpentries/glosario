@@ -489,7 +489,7 @@
       L'exactitude mesure à quel point les résultats sont proches de la valeur vraie ou connue. 
       La précision, quant à elle, mesure la proximité des résultats les uns par rapport aux autres. 
   uk:
-    term: "Точність"
+    term: "точність"
     def: >
       Статистична міра класифікаційної моделі, яка показує частку правильних прогнозів серед загальної кількості випадків. 
       Обчислюється за формулою: Точність = (ІП + ІН) / (ІП + ІН + ХП + ХН).
@@ -1382,9 +1382,8 @@
     def: >
       Haifanyiki kwa wakati mmoja. Katika programu, operesheni ya asynchronous ni ile inayoendesha kwa kujitegemea ya nyingine,
       au ambayo huanza wakati mmoja na kuishia kwa mwingine.
-
   uk:
-    term: "Асинхронний (неодночасний)"
+    term: "асинхронний (неодночасний)"
     def: >
       Характеристика чогось, що відбувається не одночасно. У програмуванні асинхронна операція - це операція, 
       яка виконується незалежно від інших, запускається або завершується у визначений час без очікування 
@@ -2009,7 +2008,6 @@
     def: >
       Sehemu ya habari inayowakilisha njia mbadala, ndiyo/hapana,
       [true](#true)/[false](#false). Katika kuhesabu hali ya 0 au 1.
-
   uk:
     term: "біт"
     def: >
@@ -2187,7 +2185,6 @@
       Imetajwa kwa George Boole, mwanahisabati wa karne ya 19.
       Mifumo ya binary, kama kompyuta zote,
       imejengwa juu ya msingi huu wa mifumo ya tathmini ya kimantiki kati ya majimbo ya kweli na ya uwongo, 1 au 0.
-
   uk:
     term: "булевий вираз"
     def: >
@@ -2602,7 +2599,7 @@
       Mo godimo ga moo, lefoko lengwe le lengwe mo maineng a le simolola ka tlhakakgolo.
       Dikai tsa mokwalo o ke `CalculateSum` le `findPattern`.
   uk:
-    term: "camel case (верблюдячий регістр)"
+    term: "верблюдячий регістр (camel case)"
     def: >
       Стиль написання коду, який передбачає іменування змінних та об'єктів без пробілів, 
       символів підкреслення (_), крапки (.) або тире (-). Кожне слово, іноді, за 
@@ -3116,9 +3113,8 @@
     term: ቃል መልዕክት
     def: >
       ምን እንደተከናወነና ለምን እንደሆነ የሚያብራራ [commit](#commit) ላይ የተጠቀሰ ሐሳብ።
-
   uk:
-    term: "Повідомлення коміту"
+    term: "повідомлення коміту"
     def: >
       Коментар, доданий до [коміту](#commit), який пояснює, які зміни було зроблено та чому.
 
@@ -3148,7 +3144,6 @@
     term: የተጠናቀረ ቋንቋ
     def: >
       መጀመርያ ወደ ማሽን የሚተረጎም እንደ ሲ ወይም ፎርትራን ያለ ቋንቋ የሞት ቅጣትን የሚወነጅሉ መመሪያዎች። እንደ ጃቫ ያሉ ቋንቋዎችም ከዚህ በፊት የተጠናቀሩ ናቸው አፈፃፀም, ነገር ግን በማሽን መመሪያ ይልቅ ወደ [ባይት ኮድ](#byte_code), ሲኾን [የተረጎሙት ቋንቋዎች](#interpreted_language) እንደ [ፓጥተን](#python) በራሪ ኮድ የተጠናቀሩ ናቸው።
-
   uk:
     term: "компільована мова"
     def: >
@@ -3551,7 +3546,7 @@
       Enfin, si le [coefficient de corrélation](#correlation_coefficient) vaut -1.0,
       alors X permet de prédire Y, mais un changement en X cause un changement opposé sur Y.
   uk:
-    term: "Коефіцієнт кореляції"
+    term: "коефіцієнт кореляції"
     def: >
      Показник статистичного зв'язку [кореляції](#correlation) між двома змінними.
      Якщо [коефіцієнт кореляції](#correlation_coefficient) між X та Y дорівнює 1.0,
@@ -3619,9 +3614,8 @@
       Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha
       sakiti muhimu za kielektroniki zinazotafsiri na kutekeleza maagizo
       kutoka kwa programu au maunzi mengine.
-      
   uk:
-    term: "Центральний процесор"
+    term: "центральний процесор"
     acronym: "ЦП"
     def: >
       Основний апаратний компонент будь-якого цифрового комп'ютера. Центральний процесор 
@@ -3728,7 +3722,6 @@
     term: ሲ.ኤስ.ቪ.
     def: >
       እያንዳንዱ [መዝገብ](#record) የሚገኝበት ለሠንጠረዥ መረጃ የጽሑፍ ቅርጸት አንድ ረድፍ እና የመስክ ሳራ በኮማዎች ተለያይተዋል ፡፡ ብዙ ጥቃቅን ልዩነቶች አሉ ፣ በተለይም ሕብረቁምፊዎችን በመጥቀስ ፡፡
-
   uk:
     term: "значення, розділені комами"
     acronym: "CSV"
@@ -5474,7 +5467,7 @@
     def: >
       የአንድ [Git](#git) [ማከማቻ](#repository) ስሪት ቅጽበታዊ ገጽ እይታ። በርካታ ቅርንጫፎች አንድ ዓይነት ማከማቻ ብዙ ስሪቶችን መያዝ ይችላሉ።
   uk:
-    term: "Гілка Git"
+    term: "гілка Git"
     def: >
       Відгалуження від основної гілки розробки, що дозволяє ізолювати роботу над певними завданнями, 
       такими як додання нових функцій або виправлення помилок, незалежно від змін в основній гілці чи інших відгалуженнях.
@@ -5510,7 +5503,7 @@
     term: የጂት ግጭት
     def: 'አሁን ባሉ የተለያዩ [ቅርንጫፎች](#branch) ላይ የማይጣጣሙ ወይም ተደራራቢ ለውጦች የተደረጉበት ሁኔታ [ተዋህዷል](#git_merge)::'
   uk:
-    term: "Конфлікт Git"
+    term: "конфлікт Git"
     def: >
       Ситуація, в якій несумісні або конфліктуючі зміни були внесені до різних [гілок](#git_branch) і виявлені під час їх об'єднання.
 
@@ -6560,7 +6553,7 @@
       structurés comme [XML](#xml), JSON ne permet pas de définir un [schéma](#schema)
       de données, ni ne supporte l'ajout de commentaires.
   uk:
-    term: "Нотація об'єктів JavaScript"
+    term: "нотація об'єктів JavaScript"
     acronym: "JSON"
     def: >
       Спосіб представлення даних шляхом комбінування значень у базових форматах (числа, рядки символів тощо) у структурах даних, таких як [списки](#list) та [словники](#dictionary). JSON
@@ -7149,7 +7142,6 @@
     term: "цикл"
     def: >
       Структура у програмі, яка повторно виконує фрагмент коду, доки не буде виконана умова виходу.
-
 
 - slug: loop_body
   en:
@@ -8001,7 +7993,6 @@
       [об'єкти](#object), які взаємодіють між собою тільки через 
       чітко визначені інтерфейси.
 
-
 - slug: open_license
   en:
     term: "open license"
@@ -8240,7 +8231,6 @@
     term: "базовий клас"
     def: >
       У [об'єктно-орієнтованому програмуванні](#oop) клас, від якого походить [дочірній клас](#child_class).
-
 
 - slug: parent_directory
   ref:
@@ -9767,7 +9757,6 @@
       Протокол і програма, яка його реалізує, що дозволяє віддалений доступ до
       сервера через захищений канал, де вся інформація шифрується.
 
-
 - slug: ssh_key
   en:
     term: "SSH key"
@@ -10422,7 +10411,6 @@
       додавання нових мов і символів. Стандарт не визначає, як ці числові коди зберігаються
       в пам'яті комп'ютера; для цього існують інші стандарти збереження, такі як [UTF-8](#utf_8).
 
-
 - slug: unit_test
   ref:
     - integration_test
@@ -10685,7 +10673,6 @@
     term: "система контрою версій"
     def: >
       Система для запису історїї змін, внесених до програмного забезпечення під час його розробки.
-
 
 - slug: vertex_shader
   ref:
@@ -10983,7 +10970,6 @@
       Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
       через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
       комп'ютерний зір та [машинне навчання](#machine_learning).
-
 
 - slug: cnn
   ref:
