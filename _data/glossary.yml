@@ -8176,7 +8176,14 @@
       É um pacote Python de código aberto que oferece estruturas de dados rápidas, flexíveis
       e expressivas para tornar o trabalho com dados estruturados e séries temporais fácil e
       intuitivo. É usado como uma ferramenta poderosa para análise e manipulação de dados.
-
+  uk:
+    term: "pandas"
+    def: >
+      Бібліотека з відкритим вихідним кодом для мови Python, призначена для обробки та аналізу даних. 
+      Вона надає такі структури даних, як Series та DataFrame. 
+      Series представляє собою одновимірний масив (список) з індексами, а DataFrame — двовимірну таблицю, 
+      подібну до електронної таблиці або бази даних, з рядками та стовпцями.
+      Ця бібліотека дозволяє легко та інтуїтивно працювати зі структурованими даними та часовими рядами.
 
 - slug: parameter
   en:
