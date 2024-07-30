@@ -20,3 +20,4 @@ assets/css/to_delete.css
 .DS_Store
 _config.yml
 _data/
+count.py
