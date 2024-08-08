@@ -29,11 +29,11 @@ Cross-references are displayed in __bold__ if that term is missing.
   {% if item[language] %}
   {% assign start_letter = item[language].term | slice: 0 | upcase %}
   {% if gloss_letter != start_letter %}
-     {% assign gloss_letter = start_letter %} 
+     {% assign gloss_letter = start_letter %}
      {% assign headings = headings | append: gloss_letter %}
-     <h2 id="{{ gloss_letter }}"> {{ gloss_letter }} </h2>
+     <h2 id="{{ gloss_letter }}" class="text-bg-info p-3">{{ gloss_letter }}</h2>
   {% endif %}
-  <dt id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}</dt>
+  <h4 id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}<a href="#{{item.slug}}" class="anchor" aria-label="anchor"></a></h4>
   <dd>
     {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
     {%- comment -%} Explicit cross-references {%- endcomment -%}
