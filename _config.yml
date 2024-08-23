@@ -225,6 +225,26 @@ languages:
       illam scientiam.  Auctores etiam possunt uti functionibus bibliothecae ut inserant
       consistentes hypernexus pro terminis et definitionibus in lectionibus suis in quacumque
       ex pluribus linguis.
+  - key: nl
+    name: Nederlands
+    title: Woordenlijst
+    blurb: >
+      `glosario` is een open source woordenlijst met termen uit de data science die online en als bibliotheek
+      in [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/)
+      beschikbaar is. Door termen uit de woordenlijst op te nemen in de metadata van een les, kunnen auteurs
+      aangeven welke informatie in een les wordt behandeld, wat studenten moeten weten voordat de les begint en
+      waar studenten de informatie kunnen vinden. Auteurs kunnen de functionaliteiten van de woordenlijst ook
+      gebruiken om consistente hyperlinks naar termen en definities op te nemen in hun lessen in een of meerdere talen.
+  - key: pa
+    name: Punjabi
+    title: Shabdawali
+    blurb: >
+      `glosario` data vigyaan vich varte jaan waale shabda da ek khulaa sarot hai jo ki online ate dova programming bhashavan
+      [R](https://github.com/carpentries/glosario-r/) ate [Python](https://github.com/carpentries/glosario-py/) dia libraries de 
+      roop vich uplabdh hai. Ek paath de metadata vich shabdawali diya kunjiya joor ke, lekhak eh darsa sakde hun ki paath ki
+      sikhounda hai, sikhiyaarthiyaan nu shuru karan to pehla ki jaanana chahida hai ate oh us gyaan nu labhan layi kithe ja sakde 
+      hun. lekhak kayi bhashavaan vicho kise vich vi apne paath vich niyama and paribhashavaan layi eksaar hyperlinks shamal karan
+      layi R ya Python dia libraries de functiona di varto kar sakde hun.   
   - key: pt
     name: Português
     title: Glossário
@@ -238,16 +258,6 @@ languages:
       e onde podem procurar para encontrar estes conteúdos. As pessoas autoras também
       podem utilizar as funções das bibliotecas para inserir _links_ consistentes
       para termos e definições em suas lições, em qualquer idioma disponível.
-  - key: nl
-    name: Nederlands
-    title: Woordenlijst
-    blurb: >
-      `glosario` is een open source woordenlijst met termen uit de data science die online en als bibliotheek
-      in [R](https://github.com/carpentries/glosario-r/) en [Python](https://github.com/carpentries/glosario-py/)
-      beschikbaar is. Door termen uit de woordenlijst op te nemen in de metadata van een les, kunnen auteurs
-      aangeven welke informatie in een les wordt behandeld, wat studenten moeten weten voordat de les begint en
-      waar studenten de informatie kunnen vinden. Auteurs kunnen de functionaliteiten van de woordenlijst ook
-      gebruiken om consistente hyperlinks naar termen en definities op te nemen in hun lessen in een of meerdere talen.
   - key: st
     name: Southern Sotho
     title: Setsotso sa Dikgokgo
