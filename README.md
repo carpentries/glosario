@@ -179,12 +179,17 @@ A glossary entry is structured like this:
 -   **Why use Jekyll for the online version?**
     It is the default for GitHub Pages.
 
-## Collaborators
+## Funding and Collaborators
 
 SADiLaR is one of the collaborators in the finalisation and expansion of the Glosario
 Project to African Languages. SADiLaR is a research infrastructure established by the
 Department of Science and Innovation of the South African government as part of the
 South African Research Infrastructure Roadmap (SARIR).
+
+To advance data science knowledge and accessibility for our diverse community, we developed Glosario. 
+We are pleased to share that the Andrew W. Mellon Foundation approved a grant for use 
+over 12 months (November 2023 through October 2024) to support an upgrade to Glosario, the open-source, 
+multilingual glossary for computing terms.
 
 ## Credits
 
