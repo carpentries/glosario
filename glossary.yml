@@ -4566,6 +4566,11 @@
     def: >
       A text editor that is popular among Unix programmers.
 
+  af:
+    term: "Emacs (teksredigeerder)"
+    def: >
+      'n teksredigeerder wat gewild is onder Unix-programmeerders.
+
 
 - slug: email
   en:
@@ -4575,6 +4580,13 @@
       Electronic mail is a method for delivering messages between people over a computer network.
       Messages are sent via an [SMTP](#smtp) server and retrieved using either an [IMAP](#imap) or
       [POP](#pop) server.
+
+  af:
+    term: "Elektronisese pos"
+    acronym: "epos"
+    def: >
+      Elektroniese pos is 'n metode vir die aflewering van boodskappe tussen mense oor 'n rekenaarnetwerk.  
+      Boodskappe word via 'n [SMTP](#smtp) bediener gestuur en verkry deur gebruik te maak van óf 'n [IMAP](#imap) óf 'n [POP](#pop) bediener.
 
 
 - slug: empty_element
@@ -4597,6 +4609,13 @@
     def: >
       A vector that contains no elements. Empty vectors have a type such as logical or
       character, and are *not* the same as [null](#null).
+  
+  af:
+    term: "leë vektor"
+    def: >
+      'n Vektor wat geen elemente bevat nie. Leë vektore het 'n tipe soos logies of karakter, en is *nie* dieselfde as [nul](#null) nie.
+
+
   fr:
     term: "vecteur vide"
     def: >
@@ -4614,6 +4633,12 @@
     def: >
       The process of putting a sequence of characters such as letters, numbers, punctuation,
       and certain symbols, into a specialized format for efficient transmission or storage.
+
+  af:
+    term: "kodering"
+    def: >
+      Die proses om 'n reeks karakters soos letters, syfers, interpuntiewe tekens en sekere simbole in 'n gespesialiseerde formaat te plaas vir doeltreffende oordrag of berging.
+
   uk:
     term: "кодування"
     def: >
@@ -4625,6 +4650,12 @@
     term: "environment"
     def: >
       A structure that stores a set of variable names and the values they refer to.
+
+  af:
+    term: "omgewing"
+    def: >
+      'n Struktuur wat 'n stel van veranderlike name en die waardes waarn na verwys, stoor.
+
   fr:
     term: "environnement"
     def: >
@@ -4650,6 +4681,12 @@
       a message and using a default configuration if the user-specified configuration
       cannot be found.
 
+  af:
+    term: "foutbehandeling"
+    def: >
+     Wat 'n program doen om foute op te spoor en reg te stel. Voorbeelde sluit in die afdruk van 'n boodskap en die gebruik van 'n 
+     standaardkonfigurasie as die gebruiker-gespesifiseerde konfigurasie nie gevind kan word nie.
+
   am:
     term: ስህተትን  መቆጣጠር
     def: >
@@ -4662,6 +4699,13 @@
       Signalled when something goes wrong in a [unit test](#unit_test) itself rather
       than in the system being tested. In this case, we do not know anything about the
       correctness of the system.
+
+  af:
+    term: "fout (in 'n toets)"
+    def: >
+      Aangewys wanneer iets verkeerd gaan in 'n [eenheidstoets](#unit_test) self eerder as in die stelsel wat getoets word. In hierdie geval weet ons niks van die 
+      korrekheid van die stelsel nie.
+
 
   am:
     term: የስህተት አያያዝ
@@ -4688,6 +4732,11 @@
     def: >
       The process of taking an expression such as `1+2*3/4` and turning it into a
       single, irreducible value.
+
+  af:
+    term: "evaluering"
+    def: >
+     Die proses om 'n uitdrukking soos 1+2*3/4 te neem en dit om te skakel in 'n enkele, onherleidbare waarde.
 
   am:
     term: ግምገማ
