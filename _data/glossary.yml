@@ -2517,6 +2517,14 @@
       El CPU de una computadora usa un cache de hardware para guardar valores recientemente accedidos;
       muchos programas dependen de un cache de software para disminuir el tráfico y latencia de red.
       Averiguar cuando algo en cache se ha vuelto anticuado y debe ser reemplazado es uno de los [dos problemas difíciles de la ciencia de computación](#two_hard_problems).
+  uk:
+    term: "кеш"
+    def: >
+      Програмний або апаратний механізм, що зберігає копії даних, щоб майбутні запити до них могли бути виконані швидше.
+      Центральний процесор в комп'ютері використовує апаратний кеш для зберігання
+      нещодавно доступних значень; багато програм покладаються на програмний кеш для зменшення мережевого
+      трафіку та затримок. Перевірка, чи містить кеш застарілі дані, які потрібно оновити, є однією з
+      [двох найскладніших проблем в інформатиці](#two_hard_problems).
 
 - slug: caching
   en:
