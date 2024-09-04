@@ -1308,6 +1308,17 @@
       wakalimani chini ya hali ya uboreshaji. Kutumia madai kwa uthibitishaji wa data kwa hivyo kunaweza kuanzisha hatari za usalama.
       Tofauti na lugha nyingi, R haina taarifa ya `assert` ambayo inaweza kuzimwa,
       na kwa hivyo matumizi ya [package](#package) kama vile `assertr` kwa uthibitishaji wa data haileti mashimo ya usalama.
+  uk:
+    term: "assertion"
+    def: >
+      [Булевий вираз](#boolean), який повинен бути [істинним](#true) у певний момент у програмі. 
+      Твердження можуть бути вбудованими в мову (наприклад, оператор `assert` у [Python](#python)) або надаватися як функції 
+      (наприклад, `stopifnot` в [R](#r_language)). Вони часто використовуються у тестуванні, але також застосовуються в [продуктивному коді](#production_code)
+      для перевірки правильності його виконання. У багатьох мовах твердження не слід використовувати для перевірки даних,
+      оскільки компілятори та інтерпретатори можуть їх пропускати під час оптимізації.
+      Використання тверджень для перевірки даних може, таким чином, створити ризики безпеки. 
+      На відміну від багатьох мов, R не має оператора `assert`, який можна вимкнути, тому 
+      використання [пакета](#package), наприклад, `assertr` для перевірки даних, не створює проблем у безпеці.
 
 - slug: associative_array
   en:
