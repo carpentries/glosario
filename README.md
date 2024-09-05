@@ -12,11 +12,11 @@ in any of several (human) languages.
 
 ## Contributing
 
-You do not need to know any particular programming language to contribute to Glosario: anyone possessing a basic familiarity with the GitHub web interface can get involved! We have prepared a [detailed and accessible guide for contributing](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit#heading=h.wsi1psxc3n64), which has been translated into several languages. Contributions are welcome in any language, not only those represented in that document. If you need help with your contribution, feel free to come ask questions on the [#glosario](https://carpentries.slack.com/archives/C01G4HYGAQ6) Slack channel (if you are not a member of The Carpentries Slack you can join by filling [this form](https://slack-invite.carpentries.org/)).
+To advance data science knowledge and accessibility for our diverse community, we developed Glosario. You do not need to know any programming language to contribute to Glosario: anyone with a basic familiarity with the GitHub web interface can get involved! We have prepared a [detailed and accessible guide for contributing](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit#heading=h.wsi1psxc3n64), which has been translated into several languages. Contributions are welcome in any language, not only those represented in that document. If you need help with your contribution, feel free to come to ask questions on the [#glosario](https://carpentries.slack.com/archives/C01G4HYGAQ6) Slack channel (if you are not a member of The Carpentries Slack you can join by filling [this form](https://slack-invite.carpentries.org/)).
 
 ## Lessons
 
-R Markdown and Jupyter notebooks allow authors to place structured metadata in files.
+R Markdown and Jupyter Notebooks allow authors to place structured metadata in files.
 We propose the following metadata (written as YAML):
 
 ```
@@ -36,7 +36,7 @@ glossary:
     -   It must introduce a list containing at least one URL.
     -   Those URLs must resolve to glossaries as described in the next section.
     -   Those glossaries are searched in order from first to last to find definitions.
-1.  The `language` key is required,
+1.  The `language` key is required
     and must be a single ISO 639 language code
     (e.g., `fr` for French).
 1.  The keys `requires` and `defines` are optional.
@@ -49,9 +49,9 @@ glossary:
         where `GLOSSARY_SITE` is one of the sites listed under the `sources` key
         and `glossary_key` is an exact match for one of the `defines` keys.
 
-We will provide simple tools to that
+We will provide simple tools so that
 all of the terms listed in a lesson's metadata are linked correctly in its body.
-We will also provide shortcuts to make it easy to create correctly-formatted links,
+We will also provide shortcuts to make it easy to create correctly-formatted links
 so that authors can write things like:
 
 ```
@@ -136,7 +136,7 @@ A glossary entry is structured like this:
     1.  She runs a command-line script that:
         1.  Reads the R Markdown file.
         1.  Extracts the terms under the `glossary/defines` key.
-        1.  Searches the body of the document for calls to `gdef(...)`.
+        1.  Searches the document's body for calls to `gdef(...)`.
         1.  Checks that every term listed in `glossary/defines` is referenced in the document body,
             and that every term referenced in the document body is mentioned in `glossary/defines`.
 
@@ -151,7 +151,7 @@ A glossary entry is structured like this:
     1.  To find prerequisite lessons she can recommend to her students,
         Beatriz runs a command-line script that:
         1.  Uses `rmarkdown::yaml_front_matter(filename)`
-            to reads metadata from all of the lessons she has archived.
+            to read metadata from all of the lessons she has archived.
         1.  Lists all of the lessons that state they define the term `regression`.
 
 1.  **Summarizing a lesson.**
@@ -170,7 +170,7 @@ A glossary entry is structured like this:
 
 -   **Why not just link to Wikipedia?**
     We expect that many glossary definitions will do so,
-    but Wikipedia articles are explanations, not definitions.
+    However, Wikipedia articles provide explanations, not definitions.
 
 -   **YAML is hard for people to edit—why not use something else for the glossary file?**
     Because other formats are just as hard to edit (e.g., JSON)
@@ -179,12 +179,15 @@ A glossary entry is structured like this:
 -   **Why use Jekyll for the online version?**
     It is the default for GitHub Pages.
 
-## Collaborators
+## Funding and Collaborators
 
-SADiLaR is one of the collaborators in the finalisation and expansion of the Glosario
+[SADiLaR](https://sadilar.org/en/) is one of the collaborators in the finalisation and expansion of the Glosario
 Project to African Languages. SADiLaR is a research infrastructure established by the
 Department of Science and Innovation of the South African government as part of the
 South African Research Infrastructure Roadmap (SARIR).
+ 
+We are pleased to share that the Andrew W. Mellon Foundation approved a grant for use 
+over 12 months (November 2023 through October 2024) to support an upgrade to Glosario.
 
 ## Credits
 
