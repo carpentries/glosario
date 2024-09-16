@@ -22,7 +22,7 @@ Display glossary in alphabetical order.
 Cross-references are displayed in __bold__ if that term is missing.
 {%- endcomment -%}
 <dl dir="auto">
-{% assign gloss_letter = "A" %}
+{% assign gloss_letter = "" %}
 {% assign headings = '' %}
 {%- for slug in actual -%}
   {% assign item = gloss | where: "slug", slug | first %}
