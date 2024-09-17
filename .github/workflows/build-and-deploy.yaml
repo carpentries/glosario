@@ -24,7 +24,7 @@ jobs:
       run: "grep -v '_data' .gitignore > tmpfile && mv tmpfile .gitignore"
 
     - name: Inspect content of folder
-      run: ls -alh _gh-site && ls -alh _gh-site/_data
+      run: ls -alh _gh-site && ls -alh _gh-site/_data && ls -alh _gh-site/_data/en
 
     - name: Deploy to site
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'carpentries/glosario' }}
