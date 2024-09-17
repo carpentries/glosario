@@ -6,7 +6,8 @@ from pathlib import Path
 
 import icu
 
-languages = [
+# set up supported languages
+LANGUAGES = [
     ('aa', 'Afar'),
     ('ab', 'Abkhazian'),
     ('af', 'Afrikaans'),
@@ -212,13 +213,15 @@ languages = [
     ('zu', 'Zulu')
 ]
 
-def _sort_terms(count_dict):
+
+def _sort_terms(count_dict, data_path):
     # sort and reassign terms
     for lang in count_dict:
+        # check 2-letter language codes vs 3-letter language codes
         # std_lang = standardize_tag(lang)
         # print(f"{lang} -> {std_lang} -> {Language.get(std_lang).to_alpha3()}")
 
-        # create a locale from the language code and sort the terms with a collator
+        # create a locale from the language code and a collator to perform sorting
         icu_locale = icu.Locale(lang)
         collator = icu.Collator.createInstance(icu_locale)
 
@@ -227,16 +230,18 @@ def _sort_terms(count_dict):
             lang_path = data_path.joinpath(lang)
             lang_path.mkdir(parents=True, exist_ok=True)
 
-            # sort
+            # sort and store sorted terms separate from the original list
             sorted_terms = sorted(count_dict[lang]["terms"], key=collator.getSortKey)
             count_dict[lang]["sorted_terms"] = sorted_terms
     return count_dict
 
-def _setup_dict(glossary):
-    count_dict = {}
-    lang_codes = []
 
-    for cc in languages:
+def _setup_dict(glossary, data_path):
+    # data structure to hold counts and terms
+    count_dict = {}
+
+    lang_codes = []
+    for cc in LANGUAGES:
         count_dict[cc[0]] = {}
         count_dict[cc[0]]["count"] = 0
         count_dict[cc[0]]["name"] = cc[1]
@@ -248,6 +253,7 @@ def _setup_dict(glossary):
     # total number of glossary terms
     # print(len(glos))
 
+    # count terms and store them in the data structure
     for slug in glossary:
         for lang in slug.keys():
             if lang in lang_codes:
@@ -259,18 +265,24 @@ def _setup_dict(glossary):
                         "def": slug[lang]["def"]
                     }
                 )
-    return _sort_terms(count_dict)
+
+    # return the data structure including sorted terms
+    return _sort_terms(count_dict, data_path)
+
 
 def _build_lang_glossary(count_dict):
     glossary_by_lang = {}
     for lang in count_dict:
         sorted_glossary = []
+
+        # process the data structure to create a new sorted glossary per language
         for sorted_term in count_dict[lang]["sorted_terms"]:
             if sorted_term in count_dict[lang]["term_entry_map"]:
                 term_map = count_dict[lang]["term_entry_map"][sorted_term]
                 slug = term_map["slug"]
                 _def = term_map["def"]
 
+                # use an OrderedDict to retain insertion order
                 sorted_glossary.append(OrderedDict({
                         "slug": slug,
                         lang: {
@@ -278,9 +290,12 @@ def _build_lang_glossary(count_dict):
                             "def": _def
                         }
                     }))
+
+        # only include languages with terms
         if sorted_glossary:
             glossary_by_lang[lang] = sorted_glossary
     return glossary_by_lang
+
 
 def setup_yaml():
     """ https://stackoverflow.com/a/8661021 """
@@ -288,21 +303,33 @@ def setup_yaml():
         return self.represent_mapping('tag:yaml.org,2002:map', data.items())
     yaml.add_representer(OrderedDict, represent_dict_order)
 
-# load main glossary file
-glos = yaml.safe_load(Path('glossary.yml').read_text())
-data_path = Path("_data/")
 
-# sort terms
-count_dict = _setup_dict(glos)
+def main():
+    try:
+        # get path
+        current_path = Path(__file__).resolve()
 
-# rebuild glossary per language
-sorted_glossary_by_lang = _build_lang_glossary(count_dict)
+        # load main glossary file
+        data_path = current_path.parent.parent.joinpath("_data/")
+        glossary_path = data_path.joinpath("glossary.yml")
+        glos = yaml.safe_load(glossary_path.read_text())
 
-# setup yaml for outputting
-setup_yaml()
-for lang in sorted_glossary_by_lang:
-    pprint.pprint(sorted_glossary_by_lang[lang])
-    yaml.dump(sorted_glossary_by_lang[lang], Path(f'_data/{lang}/glossary.yml').open('w'))
+        # sort terms
+        sort_dict = _setup_dict(glos, data_path)
 
-# output counts
-# pprint.pprint(count_dict)
+        # rebuild glossary per language
+        sorted_glossary_by_lang = _build_lang_glossary(sort_dict)
+
+        # setup yaml for outputting
+        setup_yaml()
+        for lang in sorted_glossary_by_lang:
+            yaml.dump(sorted_glossary_by_lang[lang], Path(f'_data/{lang}/glossary.yml').open('w'))
+
+        # output counts
+        # pprint.pprint(count_dict)
+    except Exception as e:
+        print(e)
+
+
+if __name__ == '__main__':
+    main()
