@@ -20,10 +20,10 @@ jobs:
     - name: Build glossary data files and site
       run: make gh-site
 
-    - name: Remove _data fromm .gitignore
+    - name: Remove _data from .gitignore
       run: "grep -v '_data' .gitignore > tmpfile && mv tmpfile .gitignore"
 
-    - name: inspect content of folder
+    - name: Inspect content of folder
       run: ls -alh _gh-site && ls -alh _gh-site/_data
 
     - name: Deploy to site
