@@ -39,6 +39,7 @@ serve :
 ## clean : clean up unneeded files.
 clean :
 	@rm -rf _site
+	@rm -rf _gh-site
 	@find . -name '*~' -exec rm {} \;
 	@rm -rf _data/*
 
