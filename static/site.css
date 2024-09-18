@@ -11,7 +11,7 @@ body {
     img.logo {
         float: left;
         vertical-align: middle;
-        width: 15%;
+        width: 150px;
     }
 
     .row {
@@ -35,7 +35,7 @@ body {
         float: right;
         width: 100%;
     }
-  
+
     .right-rtl {
         float: right;
         width: 25%;
@@ -45,16 +45,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    
+
     img.logo {
         float: left;
         vertical-align: middle;
-        width: 25%;
-    }  
+        width: 120px;
+    }
 
     .row {
         background: grey;
-        width: 100%;
         margin-left: .5cm;
         margin-right: 1cm;
     }
