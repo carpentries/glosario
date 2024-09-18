@@ -1,0 +1,595 @@
+- slug: plus_one
+  fr:
+    def: 'Un vote en faveur de quelque chose.
+
+      '
+    term: '+1'
+- slug: abandonware
+  fr:
+    def: 'Un logiciel qui n''est plus maintenu.
+
+      '
+    term: abandonware
+- slug: affordance
+  fr:
+    def: "La caract\xE9ristique d'un objet qui sugg\xE8re \xE0 son utilisateur son\
+      \ mode d'usage ou autre pratique.\n"
+    term: affordance
+- slug: aggregation
+  fr:
+    def: "Synth\xE9tise plusieurs valeurs en une seule, example, en sommant plusieurs\
+      \ nombres ou en concat\xE9nant un ensemble de caract\xE8res.\n"
+    term: "agr\xE9gation"
+- slug: algorithm
+  fr:
+    def: "Un algorithme est un ensemble d'\xE9tapes ou de r\xE8gles \xE0 suivre pour\
+      \ r\xE9aliser une certaine t\xE2che. En informatique, un algorithme est un ensemble\
+      \ d'instructions pr\xE9sentes dans un programme qui permet de r\xE9soudre un\
+      \ probl\xE8me informatique.\n"
+    term: algorithme
+- slug: aliasing
+  fr:
+    def: "Le fait d'avoir deux ou plusieurs r\xE9f\xE9rences au m\xEAme objet, comme\
+      \ par exemple une structure de donn\xE9es en m\xE9moire ou un fichier sur disque.\n"
+    term: aliasing
+- slug: anchor
+  fr:
+    def: "C'est un symbole utilis\xE9 dans les expressions r\xE9guli\xE8res (#regular_expression)\
+      \ afin de d\xE9terminer une position sans pour autant identifier des charact\xE8\
+      res. `^` d\xE9termine le d\xE9but d'une ligne, tandis que `$` d\xE9termine sa\
+      \ fin. `\\b` identifie un espace entre un mot et un non-mot.\n"
+    term: ancre
+- slug: anti_join
+  fr:
+    def: "Une jointure qui conserve les lignes de la table A dont les cl\xE9s ne correspondent\
+      \ pas aux cl\xE9s de la table B.\n"
+    term: anti join
+- slug: append_mode
+  fr:
+    def: "Le fait d'ajouter des donn\xE9es \xE0 la fin d'un fichier existant au lieu\
+      \ d'\xE9craser le contenu pr\xE9c\xE9dent de ce fichier. L'\xE9crasement est\
+      \ la valeur par d\xE9faut, donc la plupart des langages de programmation exigent\
+      \ que les programmes soient explicites sur le fait de vouloir ajouter des donn\xE9\
+      es \xE0 la place.\n"
+    term: append mode
+- slug: argument
+  fr:
+    def: "Un argument est une expression donn\xE9e pass\xE9e \xE0 une fonction. Ce\
+      \ terme ne doit pas \xEAtre confondu avec [param\xE8tre](#parameter), et n'en\
+      \ est pas un synonyme. Alors qu'un param\xE8tre est une variable, un argument\
+      \ est une valeur associ\xE9e \xE0 cette variable.\n"
+    term: argument
+- slug: variable_arguments
+  fr:
+    def: "La possibilit\xE9 d'int\xE9grer n'importe quel nombre d'arguments dans une\
+      \ fonction. [R](#r_language) utilise `...` afin de capturer les arguments \"\
+      additionnels\". [Python](#python) utilise `*args` et `**kwargs` pour capturer\
+      \ respectivement les param\xE8tres \"additionnels\" nomm\xE9s et non nomm\xE9\
+      s.\n"
+    term: arguments en nombre variable
+- slug: ascii
+  fr:
+    def: "Une norme informatique de codage qui repr\xE9sente les caract\xE8res couramment\
+      \ utilis\xE9s dans les langues d'Europe occidentale \xE0 7 ou 8 [bits](#bit),\
+      \ aujourd'hui largement remplac\xE9 par [Unicode](#unicode).\n"
+    term: ASCII
+- slug: asynchronous
+  fr:
+    def: "Qui ne se produit pas en m\xEAme temps. En programmation, une op\xE9ration\
+      \ asynchrone est une op\xE9ration qui s'ex\xE9cute ind\xE9pendamment d'une autre,\
+      \ ou qui commence \xE0 un moment et se termine \xE0 un autre.\n"
+    term: asynchrone
+- slug: attribute
+  fr:
+    def: "Un couple nom-valeur associ\xE9 \xE0 un objet et utilis\xE9 pour stocker\
+      \ des m\xE9tadonn\xE9es concernant ce dernier, par exemple les dimensions d'un\
+      \ tableau.\n"
+    term: attribut
+- slug: auto_completion
+  fr:
+    def: "Une fonctionnalit\xE9 permettant \xE0 l'utilisateur de finir rapidement\
+      \ un mot ou du code \xE0 travers l'utilisation de la touche TAB qui affiche\
+      \ le mot ou le code susceptible d'\xEAtre choisi par l'utilisateur.\n"
+    term: "auto-compl\xE9tion"
+- slug: autocorrelation
+  fr:
+    def: "Le degr\xE9 de similarit\xE9 entre les observations d'une m\xEAme s\xE9\
+      rie mais s\xE9par\xE9es par un intervalle de temps (appel\xE9 \xAB\_d\xE9calage\_\
+      \xBB). L'analyse d'autocorr\xE9lation peut \xEAtre utilis\xE9e pour mieux comprendre\
+      \ les ensembles de donn\xE9es de s\xE9ries chronologiques en d\xE9tectant des\
+      \ mod\xE8les r\xE9p\xE9titifs qui peuvent \xEAtre partiellement masqu\xE9s par\
+      \ un bruit al\xE9atoire.\n"
+    term: "autocorr\xE9lation"
+- slug: backpropagation
+  fr:
+    def: "C'est un algorithme qui ajuste de mani\xE8re it\xE9rative les pond\xE9rations\
+      \ utilis\xE9es dans un r\xE9seau de neurones. La r\xE9tropropagation est souvent\
+      \ utilis\xE9e pour impl\xE9menter la descente de gradient.\n"
+    term: backpropagation
+- slug: nosql_database
+  fr:
+    def: "Une base de donn\xE9es qui ne suit pas le mod\xE8le [relationnel](#relational_database),\
+      \ ainsi nomm\xE9e car n'utilisant en principe pas le langage de requ\xEAte [SQL](#sql).\n"
+    term: "base de donn\xE9es NoSQL"
+- slug: relational_database
+  fr:
+    def: "Une base de donn\xE9es dont le contenu est organis\xE9 sous forme de [tables](#table),\
+      \ chacune avec un ensemble d\xE9termin\xE9 de [champs](#field) (repr\xE9sent\xE9\
+      s sous forme de colonnes) et un nombre variable d'[entr\xE9es](#record) (repr\xE9\
+      sent\xE9es sous forme de lignes).\n"
+    term: "base de donn\xE9es relationnelle"
+- slug: base_r
+  fr:
+    def: "Les fonctions de base composant le langage R. Les packages de base peuvent\
+      \ \xEAtre trouv\xE9s dans src/library et ne sont pas mis \xE0 jour en dehors\
+      \ de R; leurs num\xE9ros de version suivent la num\xE9rotation des versions\
+      \ R. Les packages de base sont install\xE9s et charg\xE9s avec R, tandis que\
+      \ les packages prioritaires sont install\xE9s avec base R mais doivent \xEA\
+      tre charg\xE9s avant utilisation.\n"
+    term: base R
+- slug: bias
+  fr:
+    def: "Une statistique est biais\xE9e si elle est syst\xE9matiquement ou r\xE9\
+      guli\xE8rement diff\xE9rente du param\xE8tre qu'elle est cens\xE9e estimer.\n"
+    term: bias
+- slug: library
+  fr:
+    def: "Un [paquet](#package) logiciel r\xE9utilisable, parfois aussi appel\xE9\
+      \ [module](#module).\n"
+    term: "biblioth\xE8que"
+- slug: big_data
+  fr:
+    def: "Toutes les donn\xE9es qui, jusqu'\xE0 r\xE9cemment, \xE9taient trop volumineuses\
+      \ pour que la plupart des gens puissent les utiliser sur un seul ordinateur.\n"
+    term: big data
+- slug: binary
+  fr:
+    def: "Un syst\xE8me qui peut avoir l'un des deux \xE9tats possibles. En informatique\
+      \ souvent repr\xE9sent\xE9 comme \xE9tant \xE0 l'\xE9tat 0 ou 1. Repr\xE9sent\xE9\
+      \ en logique bool\xE9enne comme faux (0) ou vrai (1). Les ordinateurs sont construits\
+      \ sur des syst\xE8mes qui stockent les 0 et les 1 sous forme de bits.\n"
+    term: binaire
+- slug: bit
+  fr:
+    def: "Une unit\xE9 d'information ne pouvant prendre que deux valeurs, souvent\
+      \ d\xE9sign\xE9es par les alternatives oui/non ou vrai/faux. En informatique\
+      \ cela repr\xE9sente un \xE9tat de 0 ou 1. \u12A0\u121B\u122B\u132E\u127D\u1295\
+      \ \u12E8\u121A\u12C8\u12AD\u120D \u12E8\u1218\u1228\u1303 \u12AD\u134D\u120D\
+      \ \u1363 \u12A0\u12CE / \u12A0\u12ED\u12F0\u1208\u121D \u1363 (\u12A5\u12CD\u1290\
+      \u1275) (#true) / [\u12CD\u1238\u1275](#false) \u12E8 0 \u12C8\u12ED\u121D \u12E8\
+      \ 1 \u1201\u1294\u1273\u1295 \u1260\u121B\u1235\u120B\u1275 \u120B\u12ED \u1361\
+      \u1361 \u12A0\u12CE / \u12A0\u12ED\u12F0\u1208\u121D \u1363 (\u12A5\u12CD\u1290\
+      \u1275) (#true) / [\u12CD\u1238\u1275](#false) \u12A0\u121B\u122B\u132E\u127D\
+      \u1295 \u12E8\u121A\u12C8\u12AD\u120D \u12E8\u1218\u1228\u1303 \u12AD\u134D\u120D\
+      \ \u12E8 0 \u12C8\u12ED\u121D \u12E8 1 \u1201\u1294\u1273\u1295 \u1260\u121B\
+      \u1235\u120B\u1275 \u120B\u12ED \u1361\u1361]\n"
+    term: bit
+- slug: causation
+  fr:
+    def: "Une relation entre des \xE9v\xE9nements distincts, o\xF9 il est affirm\xE9\
+      \ qu'un \xE9v\xE9nement est responsable de produire ou d'affecter un changement\
+      \ dans l'autre.\n"
+    term: "causalit\xE9"
+- slug: field
+  fr:
+    def: "Composant d'une [entr\xE9e](#record) contenant une seule valeur. Chaque\
+      \ entr\xE9e dans une [tibble](#tibble) ou [table](#table) de base de donn\xE9\
+      es contient les m\xEAmes champs.\n"
+    term: champ
+- slug: absolute_path
+  fr:
+    def: "Un chemin d'acc\xE8s absolu indique la m\xEAme position dans le syst\xE8\
+      me de fichier quel que soit l'emplacement o\xF9 il est evalu\xE9. Un chemin\
+      \ d'acc\xE8s absolu est l'\xE9quivalent de la latitude et longitude en g\xE9\
+      ographie.\n"
+    term: "chemin d'acc\xE8s absolu"
+- slug: relative_path
+  fr:
+    def: "Un chemin d'acc\xE8s dont la destination est d\xE9finie relativement \xE0\
+      \ un autre emplacement, par exemple le [r\xE9pertoire de travail actuel](#current_working_directory).\
+      \ Utiliser un chemin relatif \xE9quivaut \xE0 se d\xE9placer \xE0 l'aide d'instructions\
+      \ telles que \"tout droit\" ou \"tourner \xE0 gauche\".\n"
+    term: "chemin d'acc\xE8s relatif"
+- slug: correlation_coefficient
+  fr:
+    def: "Une mesure de la [corr\xE9lation](#correlation) entre deux variables. Si\
+      \ le [coefficient de corr\xE9lation](#correlation_coefficient) entre X et Y\
+      \ vaut 1.0, alors conna\xEEtre X permet de conna\xEEtre parfaitement Y. Si le\
+      \ [coefficient de corr\xE9lation](#correlation_coefficient) vaut 0.0, alors\
+      \ conna\xEEtre X ne nous dit rien sur Y. Enfin, si le [coefficient de corr\xE9\
+      lation](#correlation_coefficient) vaut -1.0, alors X permet de pr\xE9dire Y,\
+      \ mais un changement en X cause un changement oppos\xE9 sur Y.\n"
+    term: "coefficient de corr\xE9lation"
+- slug: comment
+  fr:
+    def: "Texte \xE9crit dans un script, qui n'est pas \xE9valu\xE9 lors de l'ex\xE9\
+      cution du code. Il est utilis\xE9 pour d\xE9crire ce qui se passe lorsque le\
+      \ code est \xE9valu\xE9. Les commentaires sont en g\xE9n\xE9ral des notes br\xE8\
+      ves, qui commencent apr\xE8s un `#` (dans plusieurs langages de programmation)\n"
+    term: commentaire
+- slug: constant
+  fr:
+    def: "Une valeur qui ne peut pas \xEAtre modifi\xE9e apr\xE8s avoir \xE9t\xE9\
+      \ d\xE9finie, par opposition \xE0 une [variable](#variable_program).\n"
+    term: constante
+- slug: correlation
+  fr:
+    def: "Mesure \xE0 quel point deux variables sont en accord l'une avec l'autre.\
+      \ La corr\xE9lation est habituellement mesur\xE9e en calculant un [coefficient\
+      \ de corr\xE9lation](#correlation_coefficient) et n'implique pas n\xE9cessairement\
+      \ un lien de [causalit\xE9](#causation).\n"
+    term: "corr\xE9lation"
+- slug: covariance
+  fr:
+    def: "Mesure \xE0 quel point deux variables sont en accord l'une avec l'autre.\
+      \ Le [coefficient de corr\xE9lation](#correlation_coefficient) est une mesure\
+      \ normalis\xE9e de la covariance.\n"
+    term: covariance
+- slug: agile
+  fr:
+    def: "Une m\xE9thodologie de d\xE9veloppement logiciel qui privil\xE9gie de nombreuses\
+      \ petites \xE9tapes et une r\xE9troaction continue plut\xF4t que la planification\
+      \ initiale et la programmation \xE0 long terme. La programmation exploratoire\
+      \ est souvent associ\xE9e \xE0 l'approche agile.\n"
+    term: "d\xE9veloppement agile"
+- slug: record
+  fr:
+    def: "Un groupe de valeurs li\xE9es qui sont enregistr\xE9es ensemble. Une entr\xE9\
+      e peut \xEAtre repr\xE9sent\xE9e comme un [tuple](#tuple) ou une ligne dans\
+      \ une [table](#table); dans ce dernier cas, chaque entr\xE9e dans la table comporte\
+      \ les m\xEAmes [champs](#field).\n"
+    term: "entr\xE9e"
+- slug: environment
+  fr:
+    def: "Une structure qui stocke un ensemble de noms de variables et les valeurs\
+      \ qui leur sont associ\xE9es.\n"
+    term: environnement
+- slug: global_environment
+  fr:
+    def: "L'[environnement](#environment) qui contient des d\xE9finitions de premier\
+      \ niveau dans un langage de programmation, par exemple celles \xE9crites directement\
+      \ dans l'interpr\xE9teur.\n"
+    term: environnement global
+- slug: absolute_error
+  fr:
+    def: "La valeur absolue de la diff\xE9rence entre la valeur observ\xE9e et la\
+      \ valeur correcte. L'erreur absolue est g\xE9n\xE9ralement moins pertinente\
+      \ que l'[erreur relative](#relative_error).\n"
+    term: erreur absolue
+- slug: relative_error
+  fr:
+    def: "La valeur absolue de la diff\xE9rence entre la valeur observ\xE9e et la\
+      \ valeur correcte, divis\xE9e par la valeur correcte. Par exemple, si la valeur\
+      \ observ\xE9e est 9 et la valeur correcte est 10, l'erreur relative est 0.1.\
+      \ L'erreur relative est g\xE9n\xE9ralement plus utile que [l'erreur absolue](#absolute_error).\n"
+    term: erreur relative
+- slug: css
+  fr:
+    def: "Une mani\xE8re de contr\xF4ler l'apparence du rendu HTML. Le CSS est g\xE9\
+      n\xE9ralement utilis\xE9 dans le but de sp\xE9cifier les polices, les couleurs\
+      \ ainsi que la structure d'une page web.\n"
+    term: Feuilles de Style en Cascade
+- slug: filter
+  fr:
+    def: "Le fait de s\xE9lectionner un ensemble d'[observations](#record) (par exemple\
+      \ certaines lignes d'une table) en se basant sur leurs valeurs.\n"
+    term: filtrer
+- slug: anonymous_function
+  fr:
+    def: "Une fonction qui ne s'est pas vue assign\xE9e de nom. Les fonctions anonymes\
+      \ sont en g\xE9n\xE9ral courtes et d\xE9finies l\xE0 o\xF9 elles sont utilis\xE9\
+      es, exemple: callbacks. En [Python](#python), elles sont appel\xE9es fonctions\
+      \ lambda et sont cr\xE9\xE9es en utilisant le mot-cl\xE9 `lambda`.\n"
+    term: fonction anonyme
+- slug: aggregation_function
+  fr:
+    def: "Une fonction qui permet de synth\xE9tiser plusieurs valeurs en une seule,\
+      \ comme par exemple 'sum' ou 'max'.\n"
+    term: "fonction d'agr\xE9gation"
+- slug: generic_function
+  fr:
+    def: "Une collection de fonctions ayant un objectif similaire, chacune op\xE9\
+      rant sur une classe de donn\xE9es diff\xE9rente.\n"
+    term: "fonction g\xE9n\xE9rique"
+- slug: git
+  fr:
+    def: "Un outil de gestion des versions qui permet d'enregistrer et de piloter\
+      \ les modifications effectu\xE9es au niveau d'un projet.\n"
+    term: Git
+- slug: git_branch
+  fr:
+    def: "Une photographie d'une version d'un d\xE9p\xF4t Git. Plusieurs branches\
+      \ peuvent capturer plusieurs versions au niveau d'un m\xEAme d\xE9p\xF4t.\n"
+    term: Git branch
+- slug: git_clone
+  fr:
+    def: "Permet de copier (et g\xE9n\xE9ralement de t\xE9l\xE9charger) un [d\xE9\
+      p\xF4t Git distant](#remote_repository) sur l'ordinateur local.\n"
+    term: Git clone
+- slug: git_pull
+  fr:
+    def: "T\xE9l\xE9charge et synchronise les modifications entre le [d\xE9p\xF4t\
+      \ distant](#remote_repository) et le [d\xE9p\xF4t](#repository) local.\n"
+    term: Git pull
+- slug: git_push
+  fr:
+    def: "Charge et synchronise des modifications entre le [d\xE9p\xF4t](#repository)\
+      \ local et le [d\xE9p\xF4t distant](#remote_repository).\n"
+    term: Git push
+- slug: github
+  fr:
+    def: 'Une platefome dans le Cloud, construite autour de [Git](#git) qui permet
+      de sauvegarder en ligne les versions d''un projet et de collaborer avec d''autres
+      utilisateurs Git.
+
+      '
+    term: GitHub
+- slug: global_installation
+  fr:
+    def: "Le fait d'installer un package dans un emplacement o\xF9 il peut \xEAtre\
+      \ accessible par tous les utilisateurs ainsi que tous les projets.\n"
+    term: installation globale
+- slug: local_installation
+  fr:
+    def: "Mettre un [paquet](#package) \xE0 l'int\xE9rieur d'un projet particulier,\
+      \ de fa\xE7on \xE0 ce qu'il ne soit accessible que depuis ce projet.\n"
+    term: installation locale
+- slug: api
+  fr:
+    def: "Un ensemble de fonctions et de proc\xE9dures fournies par une biblioth\xE8\
+      que de logiciels ou un service web par lequel une autre application peut communiquer.\
+      \ Une API n'est ni le code, ni la base de donn\xE9es ni le serveur, mais le\
+      \ point d'acc\xE8s.\n"
+    term: Interface de Programmation d'application
+- slug: json
+  fr:
+    def: "Un fa\xE7on de repr\xE9senter des donn\xE9es textuelles ou num\xE9riques\
+      \ en combinant des ensembles de paires nom/valeurs et des listes de valeurs.\
+      \ L'acronyme signifie \"JavaScript Object Notation\", car il s'agit d'un format\
+      \ d\xE9riv\xE9 de la notation des objets du langage JavaScript. Contrairement\
+      \ \xE0 d'autres standards plus structur\xE9s comme [XML](#xml), JSON ne permet\
+      \ pas de d\xE9finir un [sch\xE9ma](#schema) de donn\xE9es, ni ne supporte l'ajout\
+      \ de commentaires.\n"
+    term: JavaScript Object Notation
+- slug: markup_language
+  fr:
+    def: "Un ensemble de r\xE8gles pour annoter un texte afin d'en d\xE9finir la structure\
+      \ ou d'en modifier l'affichage. Des balises d\xE9terminent comment le texte\
+      \ qu'elles d\xE9limitent doit \xEAtre interpr\xE9t\xE9 ou affich\xE9. Le [Markdown](#markdown)\
+      \ et [HTML](#html) sont des exemples de langages de balisage utilis\xE9s pour\
+      \ des pages web.\n"
+    term: langage de balisage
+- slug: latex
+  fr:
+    def: "Un syst\xE8me de composition de documents qui utilise un [langage de balisage](#markup_language)\
+      \ pour d\xE9finir la structure et mise en page d'un document, composer des formules\
+      \ math\xE9matiques et g\xE9rer citations et r\xE9f\xE9rences. Le format LaTeX\
+      \ est tr\xE8s utilis\xE9 dans les domaines scientifiques et techniques pour\
+      \ la production d'articles et de m\xE9moires.\n"
+    term: LaTeX
+- slug: markdown
+  fr:
+    def: "Un [langage de balisage](#markup_language) \xE0 la syntaxe simple visant\
+      \ \xE0 remplacer [HTML](#html). Markdown est souvent utilis\xE9 dans les fichiers\
+      \ LISEZ MOI (README), et forme la base du [R markdown](#r_markdown).\n"
+    term: Markdown
+- slug: abstract_method
+  fr:
+    def: "En programmation orient\xE9e objet, une m\xE9thode d\xE9finie mais non impl\xE9\
+      ment\xE9e. Les programmeurs d\xE9finissent une m\xE9thode abstraite dans une\
+      \ classe parente pour sp\xE9cifier les op\xE9rations que les classes enfants\
+      \ doivent fournir.\n"
+    term: "m\xE9thode abstraite"
+- slug: module
+  fr:
+    def: "Un [paquet](#package) logiciel r\xE9utilisable, parfois aussi appel\xE9\
+      \ [biblioth\xE8que](#library).\n"
+    term: module
+- slug: arithmetic_mean
+  fr:
+    def: "Calcul\xE9 \xE0 partir d'un ensemble de n nombres en additionnant ces nombres\
+      \ et en divisant le r\xE9sultat par n.\n"
+    term: "moyenne arithm\xE9tique"
+- slug: na
+  fr:
+    def: "Une valeur sp\xE9ciale utilis\xE9e pour repr\xE9senter des donn\xE9es qui\
+      \ ne sont pas disponibles.\n"
+    term: NA
+- slug: 'null'
+  fr:
+    def: "Une valeur sp\xE9ciale utilis\xE9e pour repr\xE9senter l'absence de valeur.\
+      \ Null n'est pas \xE9quivalent \xE0 [NA](#na), ni \xE0 un [vecteur vide](#empty_vector).\n"
+    term: 'null'
+- slug: absolute_row_number
+  fr:
+    def: "L'index s\xE9quentiel d'une ligne dans une table, quelles que soient les\
+      \ sections de la table affich\xE9es.\n"
+    term: "num\xE9ro de ligne absolu"
+- slug: observation
+  fr:
+    def: "Une valeur ou une propri\xE9t\xE9 associ\xE9e \xE0 un membre sp\xE9cifique\
+      \ d'une population.\n"
+    term: observation
+- slug: byte
+  fr:
+    def: "Un octet est une information numerique compos\xE9e de huit chiffres binaires,\
+      \ appel\xE9s bits.\n"
+    term: octet
+- slug: package
+  fr:
+    def: "Un ensemble de code, donn\xE9es et documentation qui peut \xEAtre distribu\xE9\
+      \ et r\xE9utilis\xE9. Est aussi appel\xE9 [biblioth\xE8que](#library) ou [module](#module)\
+      \ dans certains langages.\n"
+    term: paquet (logiciel)
+- slug: parameter
+  fr:
+    def: "Une variable sp\xE9cifi\xE9e dans la d\xE9finition d'une fonction, dont\
+      \ la valeur est pass\xE9e \xE0 la fonction lorsque celle-ci est appel\xE9e.\
+      \ \xC0 ne pas confondre avec le terme [argument](#argument). Un param\xE8tre\
+      \ est une variable, un argument est une valeur assign\xE9e \xE0 cette variable.\n"
+    term: "param\xE8tre"
+- slug: accuracy
+  fr:
+    def: "L'exactitude et la pr\xE9cision sont deux fa\xE7ons de mesurer les r\xE9\
+      sultats.  L'exactitude mesure \xE0 quel point les r\xE9sultats sont proches\
+      \ de la valeur vraie ou connue.  La pr\xE9cision, quant \xE0 elle, mesure la\
+      \ proximit\xE9 des r\xE9sultats les uns par rapport aux autres. \n"
+    term: "Pr\xE9cision"
+- slug: literate_programming
+  fr:
+    def: "Une approche de la programmation qui m\xE9lange langage naturel (prose)\
+      \ et code.\n"
+    term: "programmation lettr\xE9e"
+- slug: python
+  fr:
+    def: "Un langage de programmation open-source interpr\xE9t\xE9 populaire qui utilise\
+      \ l'indentation pour d\xE9finir les structures de contr\xF4le.\n"
+    term: Python
+- slug: r_language
+  fr:
+    def: "Un langage de programmation et logiciel libre principalement utilis\xE9\
+      \ en statistique et en science des donn\xE9es.\n"
+    term: R (langage de programmation)
+- slug: r_markdown
+  fr:
+    def: "Un dialecte de [Markdown](#markdown) qui permet \xE0 ses auteurs de m\xE9\
+      langer langage naturel et code (habituellement \xE9crit en langage [R](#r_language))\
+      \ dans un m\xEAme document.\n"
+    term: R Markdown
+- slug: recursion
+  fr:
+    def: "Faire appel \xE0 une fonction au sein de cette m\xEAme fonction, ou d\xE9\
+      finir un terme en utilisant une version simplifi\xE9e du m\xEAme terme.\n"
+    term: "r\xE9cursion"
+- slug: 68_95_997_rule
+  fr:
+    def: "Exprime le fait que 68% des valeurs sont localis\xE9es \xE0 l'int\xE9rieur\
+      \ d'un (1) [\xE9cart-type](#standard_deviation) de la [moyenne](#mean), 95%\
+      \ \xE0 l'int\xE9rieur de deux (2) \xE9carts-types, et 99,7% \xE0 l'int\xE9rieur\
+      \ de trois (3) \xE9carts-types. Inversement et dans la plupart des cas, environ\
+      \ 0.3% des valeurs se situent \xE0 plus de 3 \xE9carts-types au-dessus ou au-dessous\
+      \ de la moyenne.\n"
+    term: "r\xE8gle de 68-95-99.7"
+- slug: current_working_directory
+  fr:
+    def: "L'emplacement du syst\xE8me de fichiers dans lequel le programme en cours\
+      \ est en train d'op\xE9rer. Chaque op\xE9ration effectu\xE9e par le programme\
+      \ se fait relativement \xE0 cet emplacement.\n"
+    term: "r\xE9pertoire de travail"
+- slug: actual_result
+  fr:
+    def: "La valeur g\xE9n\xE9r\xE9e par l'ex\xE9cution du code lors d'un test. Si\
+      \ elle correspond au r\xE9sultat attendu, le test r\xE9ussit ; s'ils sont diff\xE9\
+      rents, le test \xE9choue.\n"
+    term: "r\xE9sultat r\xE9el (du test)"
+- slug: backward_compatible
+  fr:
+    def: "Se dit d'un syst\xE8me, mat\xE9riel ou logiciel, qui est capable d'\xEA\
+      tre utilis\xE9 de la m\xEAme mani\xE8re que ses versions pr\xE9c\xE9dentes sans\
+      \ difficult\xE9. Par exemple, une [fonction](#function) \xE9crite en [Python](#python)\
+      \ 3 qui peut \xEAtre utilis\xE9e avec [Python](#python) 2 est r\xE9trocompatible.\n"
+    term: "r\xE9trocompatible"
+- slug: schema
+  fr:
+    def: "Sp\xE9cification du format d'un ensemble de donn\xE9es qui inclut le nom,\
+      \ format et contenu de chaque [table](#table).\n"
+    term: "sch\xE9ma"
+- slug: sql
+  fr:
+    def: "Langage employ\xE9 pour composer des requ\xEAtes dans une [base de donn\xE9\
+      es relationnelle](#relational_database). Le terme est l'acronyme de \"Structured\
+      \ Query Language\" (langage de requ\xEAte structur\xE9).\n"
+    term: SQL
+- slug: synchronous
+  fr:
+    def: "Qui se produit en m\xEAme temps. En programmation, des op\xE9rations synchrones\
+      \ sont des op\xE9rations qui doivent s'ex\xE9cuter simultan\xE9mment ou se terminer\
+      \ en m\xEAme temps.\n"
+    term: synchrone
+- slug: version_control_system
+  fr:
+    def: "Un syst\xE8me qui permet de g\xE9rer les modifications effectu\xE9es sur\
+      \ un programme durant son d\xE9veloppement.\n"
+    term: "syst\xE8me de gestion des versions"
+- slug: table
+  fr:
+    def: "Une s\xE9rie d'entr\xE9es dans une [base de donn\xE9es relationnelle](#relational_database)\
+      \ ou d'observations dans une [trame de donn\xE9es](#data_frame). Une table est\
+      \ g\xE9n\xE9ralement repr\xE9sent\xE9e sous la forme de lignes (o\xF9 chacune\
+      \ repr\xE9sente une [entr\xE9e](#record) ou [observation](#observation)) et\
+      \ colonnes (o\xF9 chacune repr\xE9sente un [champ](#field) ou une [variable](#variable_data)).\n"
+    term: table
+- slug: tibble
+  fr:
+    def: "Une alternative moderne du \"data frame\" en [R](#r_language) permettant\
+      \ de mat\xE9rialiser des donn\xE9es tabulaires en colonnes et en lignes. Le\
+      \ \"tibble\" a \xE9t\xE9 d\xE9fini et est utilis\xE9 dans le [tidyverse](#tidyverse).\n"
+    term: tibble
+- slug: tidymodels
+  fr:
+    def: "Une collection de packages [R](#r_language) pour la mod\xE9lisation et l'analyse\
+      \ statistique, \xE9labor\xE9s en prenant en consid\xE9ration une [philosophie\
+      \ partag\xE9e](https://tidymodels.github.io/model-implementation-principles/index.html)\n"
+    term: Tidymodels
+- slug: tidyverse
+  fr:
+    def: "Une collection de packages [R](#r_language) permettant le traitement des\
+      \ donn\xE9es tabulaires d'une mani\xE8re coh\xE9rente.\n"
+    term: Tidyverse
+- slug: data_frame
+  fr:
+    def: "Une structure bi-dimensionnelle pour enregistrer des donn\xE9es tabulaires.\
+      \ Les lignes repr\xE9sentent les [entr\xE9es](#record) et les colonnes repr\xE9\
+      sentent les [variables](#variable_data).\n"
+    term: "trame de donn\xE9es"
+- slug: tuple
+  fr:
+    def: "Un type de donn\xE9e correspondant \xE0 une collection d'objets en nombre\
+      \ fix\xE9, par exemple les trois composantes de la sp\xE9cification rouge-vert-bleu\
+      \ d'une couleur. En \"[Python](#python)\", les tuples sont immuables (leurs\
+      \ valeurs sont fix\xE9es \xE0 l'initialisation et ne peuvent plus \xEAtre modifi\xE9\
+      es par la suite). Les tuples contenant n objets sont aussi appel\xE9s n-uplets.\n"
+    term: tuple
+- slug: unicode
+  fr:
+    def: "Une norme qui d\xE9finit des codes num\xE9riques pour plusieurs milliers\
+      \ de caract\xE8res et de symboles. Unicode ne d\xE9finit pas comment ces nombres\
+      \ sont stock\xE9s ; cela est fait par des normes comme [UTF-8](#utf_8).\n"
+    term: Unicode
+- slug: variable_program
+  fr:
+    def: "Un nom associ\xE9 \xE0 des donn\xE9es au niveau d'un programme. La valeur\
+      \ d'une variable peut \xEAtre modifi\xE9e apr\xE8s l'avoir d\xE9finie.\n"
+    term: variable (programme)
+- slug: global_variable
+  fr:
+    def: "Une variable d\xE9finie en dehors de l'espace de noms d'une quelconque fonction,\
+      \ qui est par cons\xE9quent visible pour toutes les fonctions.\n"
+    term: variable globale
+- slug: local_variable
+  fr:
+    def: "Une variable d\xE9finie \xE0 l'int\xE9rieur d'une fonction, qui n'est visible\
+      \ qu'au sein de cette fonction.\n"
+    term: variable locale
+- slug: empty_vector
+  fr:
+    def: "Un vecteur qui ne contient aucun \xE9l\xE9ment. Les vecteurs vides poss\xE8\
+      dent un type, par exemple entier ou caract\xE8re, et sont *diff\xE9rents* de\
+      \ [null](#null).\n"
+    term: vecteur vide
+- slug: xml
+  fr:
+    def: "Un format de repr\xE9sentation de donn\xE9es qui d\xE9finit des balises\
+      \ similaires \xE0 celles utilis\xE9es en [HTML](#html). XML \xE9tait populaire\
+      \ au d\xE9but des ann\xE9es 2000 mais sa complexit\xE9 a conduit de nombreux\
+      \ d\xE9velopeurs \xE0 utiliser [JSON](#json) \xE0 la place.\n"
+    term: XML
+- slug: yaml
+  fr:
+    def: "Acronyme r\xE9cursif de \"YAML Ain't Markup Language\" (\"YAML n'est pas\
+      \ un langage de balisage\"), YAML est un format de repr\xE9sentation de donn\xE9\
+      es hi\xE9rarchiques qui utilise des indentations au lieu de signes typographiques,\
+      \ comme les parenth\xE8ses et virgules en [JSON](#json). YAML est souvent utilis\xE9\
+      \ dans les fichiers de configuration et pour d\xE9finir les param\xE8tres de\
+      \ documents [Markdown](#markdown).\n"
+    term: YAML

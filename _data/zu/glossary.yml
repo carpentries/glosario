@@ -1,0 +1,22 @@
+- slug: algorithm
+  zu:
+    def: 'An algorithm is a set of steps, intructions, or rules to be followed to
+      accomplish a specific task. In computer science, an algorithm is a set of instructions
+      in a computer program that solves a computational problem.
+
+      '
+    term: I-algorithm
+- slug: big_data
+  zu:
+    def: 'Noma iyiphi idatha kuze kube kamuva nje ibinkulu kakhulu ukuthi abantu abaningi
+      basebenze ngayo kukhompuyutha eyodwa.
+
+      '
+    term: Idatha Enkulu
+- slug: data_mining
+  zu:
+    def: 'The use of computers to search for patterns in large datasets. The term
+      [data science](#data_science) is now more commonly used.
+
+      '
+    term: ukumbiwa kwedatha

@@ -1,0 +1,127 @@
+- slug: abandonware
+  id:
+    def: 'Perangkat lunak yang sudah tidak dikelola.
+
+      '
+    term: abandonware
+- slug: abstract_syntax_tree
+  id:
+    def: 'Sebuah struktur data bersarang, atau [tree](#tree), yang merepresentasikan
+      struktur dari sebuah program. Sebagai contoh, AST bisa jadi memiliki sebuah
+      (node)[#node] merepresentasikan sebuah [`while` loop](#while_loop) degan sebuah
+      [child](#child_tree) merepresentasikan kondisi loop dan yang lain merepresentasikan
+      [loop body](#loop_body).
+
+      '
+    term: abstract syntax tree
+- slug: algorithm
+  id:
+    def: 'Rangkaian langkah, perintah, atau aturan yang harus diikuti untuk menyelesaikan
+      suatu tugas spesifik. Di dalam ilmu komputer, algoritma adalah rangkaian perintah
+      di dalam sebuah program komputer yang bertujuan untuk menyelesaikan permasalahan
+      komputasi.
+
+      '
+    term: algoritma
+- slug: attribute
+  id:
+    def: 'Pasangan nama-nilai yang merujuk kepada suatu objek, yang digunakan untuk
+      menyimpan metadata tentang suatu objek seperti dimensi dari array.
+
+      '
+    term: atribut
+- slug: 68_95_997_rule
+  id:
+    def: 'Menyatakan fakta bahwa 68% berkisar di satu [standar deviasi](#standard_deviation)
+      dari mean(#mean), 95% berkisar di dua, dan 99.7% berkisar di tiga. Sebaliknya,
+      sekitar 0.3% berkisar lebih dari tiga standar deviasi di atas atau di bawah
+      mean dari kasus kebanyakan.
+
+      '
+    term: Aturan 68-95-99.7
+- slug: bit
+  id:
+    def: 'Sebuah unit informasi yang merepresentasikan beberapa alternatif, ya/tidak,
+      (true)[#true]/(false)[#false]. Di dalam komputasi, bit adalah 0 atau 1.
+
+      '
+    term: bit
+- slug: boolean
+  id:
+    def: 'Berkaitan dengan variabel atau tipe data yang dapat memiliki nilai logika
+      benar atau salah. Istilah boolean diambil dari nama George Boole, seorang matematikawan
+      abad ke-19. Sistem biner, seperti semua komputer, dibangun di atas dasar sistem
+      evaluasi logis true / false, 1 atau 0.
+
+      '
+    term: Boolean
+- slug: call_stack
+  id:
+    def: 'Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin
+      aktif yang sedang dijalankan.
+
+      '
+    term: call stack
+- slug: aggregation_function
+  id:
+    def: 'Sebuah fungsi untuk memadatkan beberapa nilai menjadi sebuah nilai, misalnya
+      `sum` atau `max`.
+
+      '
+    term: fungsi Agregasi
+- slug: actual_result
+  id:
+    def: 'Nilai yang dihasilkan dari kode yang dijalankan di dalam sebuah pengujian.
+      Jika hasil pengujian sesuai dengan [hasil yang diharapkan](#expected_result),
+      maka pengujian dianggap [lulus](#pass_test); namun jika hasil keduanya berbeda,
+      maka pengujian dianggap [gagal](#fail_test).
+
+      '
+    term: hasil aktual (dari sebuah pengujian)
+- slug: absolute_error
+  id:
+    def: 'Nilai absolut dari perbedaan nilai yang diobservasi dan nilai yang benar.
+      Kesalahan absolut seringkali tidak terlalu berguna daripada [kesalahan relatif](#relative_error).
+
+      '
+    term: kesalahan absolut
+- slug: affordance
+  id:
+    def: 'suatu properti yang menyatakan bagaimana suatu hal dapat digunakan, seperti
+      pegangan atau tombol.
+
+      '
+    term: keterjangkauan
+- slug: abstract_method
+  id:
+    def: 'Dalam [pemrograman berorientasi objek](#oop), sebuah [metode](#method) yang
+      didefinisikan tapi tidak diimplementasikan. Pemrogram akan mendefinisikan metode
+      abstrak dalam [parent class](#parent_class) untuk menspesifikasikan operasi
+      yang harus dimiliki oleh [child classes](#child_class).
+
+      '
+    term: metode abstrak
+- slug: absolute_row_number
+  id:
+    def: 'Indeks berurutan dari sebuah baris dalam tabel, terlepas dari bagian apa
+      dari tabel yang ditampilkan.
+
+      '
+    term: nomor baris absolut
+- slug: absolute_path
+  id:
+    def: 'Sebuah path yang menunjukkan lokasi dalam [filesystem](#filesystem) terlepas
+      dari lokasi program dijalanakn. Path absolut sama dengan garis lintang dan garis
+      bujur dalam geografi.
+
+      '
+    term: path absolut
+- slug: yaml
+  id:
+    def: 'Kependekan dari "YAML Ain''t Markup Language", adalah cara menyatakan nested
+      data menggunakan indentasi alih-alih menggunakan tanda kurung dan koma pada
+      [JSON] (#json). YAML sering kali digunakan pada berkas konfigurasi dan untuk
+      mendefinisikan [parameter](#parameter) untuk beragam tipe dokumen [Markdown](#markdown).
+
+      '
+    term: YAML

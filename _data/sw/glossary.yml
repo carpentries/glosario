@@ -1,0 +1,545 @@
+- slug: variance
+  sw:
+    def: 'Mraba ya mbali ya kawaida kutoka [wastani](#mean). Kuipata, tengua nambari
+      na wastani ya nambari hizo, halafu kokotoa wastani ya mraba.
+
+      '
+    term: achano
+- slug: algorithm
+  sw:
+    def: 'Ni utaratibu wa hatua za kutatua tatizo. Ni kanuni zinazofuatwa na kompyuta
+      ama tarakilishi ili kupata jibu la tatizo.
+
+      '
+    term: algorithimu
+- slug: command
+  sw:
+    def: 'Agizo la kuiambia programu ya kompyuta kufanya kazi maalum.
+
+      '
+    term: amri
+- slug: ascii
+  sw:
+    def: 'Njia ya kawaida ya kuwakilisha herufi zinazotumiwa sana katika lugha za
+      Ulaya Magharibi kama nambari kamili 7- au 8-[bit](#bit), ambayo sasa imechukuliwa
+      na [Unicode](#unicode).
+
+      '
+    term: ASCII
+- slug: bit
+  sw:
+    def: 'Sehemu ya habari inayowakilisha njia mbadala, ndiyo/hapana, [true](#true)/[false](#false).
+      Katika kuhesabu hali ya 0 au 1.
+
+      '
+    term: biti
+- slug: boilerplate
+  sw:
+    def: 'Maandishi ya kawaida ambayo yanajumuishwa katika mikataba ya kisheria, leseni,
+      na kadhalika. Pia sehemu za msimbo wa chanzo ambazo zinapaswa kurudiwa mara
+      nyingi sana ili kupata utendakazi msingi. Katika [object-oriented programs](#oop)
+      sehemu hizi hutumika kujumuisha viambajengo vya vitu. Lugha zingine zinahitaji
+      mengi ya kauli hizi na huitwa lugha za boilerplate, k.m. Java, ambayo ina maana
+      kwamba huzalishwa kiotomatiki mara kwa mara au kwa kutumia [auto-completion](#auto_completion).
+
+      '
+    term: boilerplate
+- slug: boolean
+  sw:
+    def: 'Kuhusiana na aina au aina ya data ambayo inaweza kuwa na thamani ya kimantiki
+      ya [true](#true) au [false](#false). Imetajwa kwa George Boole, mwanahisabati
+      wa karne ya 19. Mifumo ya binary, kama kompyuta zote, imejengwa juu ya msingi
+      huu wa mifumo ya tathmini ya kimantiki kati ya majimbo ya kweli na ya uwongo,
+      1 au 0.
+
+      '
+    term: Boolean
+- slug: cpu
+  sw:
+    def: 'Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha sakiti muhimu
+      za kielektroniki zinazotafsiri na kutekeleza maagizo kutoka kwa programu au
+      maunzi mengine.
+
+      '
+    term: Central Processing Unit
+- slug: data_frame
+  sw:
+    def: 'Muundo wa data wa pande mbili wa kuhifadhi data ya tabular katika kumbukumbu.
+      Safu zinawakilisha rekodi na nguzo zinawakilisha vigezo.
+
+      '
+    term: Data Fremu
+- slug: big_data
+  sw:
+    def: 'Data inahitaji kutumikwa kwa kichakato kizito.
+
+      '
+    term: Data kubwa
+- slug: configuration file
+  sw:
+    def: 'Faili inayobainisha vigezo na mipangilio ya awali ya programu. Faili ya
+      usanidi hutumiwa kwa habari  zinazobadilika mara nyingi, kama vile mipangilio
+      iambatanayo ya mazingira.
+
+      '
+    term: faili ya usanidi
+- slug: fasta
+  sw:
+    def: "Umbizo la faili la kuhifadhi amino asidi au taarifa ya mfuatano wa jeni.\
+      \ Habari kwa kila mlolongo imegawanywa katika kizuizi cha mistari miwili(2).\
+      \ Mstari wa kwanza (1) una taarifa kuhusu mfuatano na huanza na alama kubwa\
+      \ kuliko, \u2018>\u2019. Mstari wa pili (2) una asidi ya amino halisi au mfuatano\
+      \ wa jeni kwa kutumia misimbo ya herufi moja.\n"
+    term: FASTA
+- slug: fastq
+  sw:
+    def: "Umbizo la faili la kuhifadhi maelezo ya mfuatano wa jeni na alama za ubora\
+      \ zinazolingana. Habari kwa kila mlolongo imegawanywa katika kizuizi cha mistari\
+      \ minne. Mstari wa kwanza (1) una taarifa kuhusu mfuatano huo na huanza na \u2018\
+      @\u2019. Mstari wa pili (2) una mfuatano halisi wa jeni kwa kutumia misimbo\
+      \ ya herufi moja kuwakilisha nyukleotidi. Mstari wa tatu (3) ni kitenganishi\
+      \ kinachoanza na `+`. Mstari wa nne (4) una mfuatano wa herufi za ubora kwa\
+      \ kila msingi katika mfuatano wa jeni.\n"
+    term: FASTQ
+- slug: condition
+  sw:
+    def: 'Hitilafu au tukio lingine lisilotarajiwa ambalo linatatiza mtiririko wa
+      kawaida wa udhibiti.
+
+      '
+    term: hali
+- slug: append_mode
+  sw:
+    def: 'Kuongeza data mwishoni mwa faili iliyopo badala ya kubatilisha yaliyomo
+      awali ya faili hiyo. Kuandika upya ni chaguo-msingi, kwa hivyo lugha nyingi
+      za programu ahitaji programu kuwa wazi kuhusu kutaka kuambatanisha badala yake.
+
+      '
+    term: Hali ya Kuambatanisha
+- slug: relational_database
+  sw:
+    def: 'Hifadhidata ambayo hupanga habari katika majedwali, ambayo kila moja ina
+      seti isiyobadilika ya sehemu zilizotajwa (zinazoonyeshwa kama safu wima) na
+      idadi tofauti ya rekodi (zinazoonyeshwa kama safu mlalo).
+
+      '
+    term: hifadhidata ya uhusiano
+- slug: argument
+  sw:
+    def: 'Neno hilo halipaswi kuchanganywa na, na si kisawe cha,[parameter](#parameter).
+      Hoja ni mojawapo ya misemo kadhaa ambayo hupitishwa kwa chaguo la kukokotoa.
+      Ni thamani halisi inayopitishwa. Vigezo na hoja ni tofauti, lakini dhana zinazohusiana.
+      Vigezo ni vigeuzo na hoja ni thamani zilizopewa vigeu hivyo.
+
+      '
+    term: Hoja
+- slug: computational_linguistics
+  sw:
+    def: 'Utafiti au utumiaji wa mbinu za kukokotoa na [kuchanganua](#parse) au kuelewa
+      lugha za binadamu. Mbinu za awali zilikuwa za algorithmic; mbinu nyingi za kisasa
+      ni za takwimu.
+
+      '
+    term: isimu ya hesabu
+- slug: asynchronous
+  sw:
+    def: 'Haifanyiki kwa wakati mmoja. Katika programu, operesheni ya asynchronous
+      ni ile inayoendesha kwa kujitegemea ya nyingine, au ambayo huanza wakati mmoja
+      na kuishia kwa mwingine.
+
+      '
+    term: isiyolingana
+- slug: folder
+  sw:
+    def: 'Neno lingine kwa saraka.
+
+      '
+    term: Kabrasha
+- slug: data_package
+  sw:
+    def: 'Kifurushi cha programu ambacho, mara nyingi, kina data pekee. Hutumika kurahisisha
+      kusambaza data kwa matumizi rahisi.
+
+      '
+    term: Kifurushi cha data
+- slug: feature
+  sw:
+    def: 'Tabia au ubinafsi wa kitu ambacho kinaweza kupimika (kama vile urefu, kimo,
+      idadi ya petali) na kutumika kama ingizo la modeli. Kutafuta au kuchagua vipengele
+      ambavyo ni huru na vibaguzi ni sehemu ya msingi ya uainishaji.
+
+      '
+    term: Kigezo
+- slug: edge
+  sw:
+    def: 'Muunganisho kati ya [nodes] mbili (#node) katika [graph](#graph). Kingo
+      yanaweza kuwa data inayohusishwa nayo, kama vile jina au umbali.
+
+      '
+    term: kingo
+- slug: api
+  sw:
+    def: 'Seti ya vipengele na taratibu zinazotolewa na maktaba moja ya programu au
+      huduma ya tovuti ambayo programu nyingine inaweza kuwasiliana nayo. API sio
+      msimbo, hifadhidata, au seva: ni mahali pa ufikiaji.
+
+      '
+    term: Kiolesura cha Kuandaa Programu [API]
+- slug: feature_software
+  sw:
+    def: 'Baadhi ya vipengele vya programu ambavyo viliundwa au kujengwa kimakusudi.
+      [hitilafu] (#bug) ni kipengele kisichohitajika.
+
+      '
+    term: kipengele (katika programu)
+- slug: continuation_prompt
+  sw:
+    def: '[kishawishi](#prompt) kinachoashiria kwamba amri inayochapwa kwa sasa bado
+      haijakamilika, na itaendeshwa mara tu itakapokamilika.
+
+      '
+    term: kishawishi endelevu
+- slug: blob
+  sw:
+    def: 'Data ambayo imehifadhiwa katika hifadhidata bila kufasiriwa kwa njia yoyote,
+      kama vile faili ya sauti. Neno hili pia sasa linatumika kurejelea data iliyohamishwa
+      kupitia mtandao au kuhifadhiwa katika [version control](#version_control_system)
+      [repository](#repository) kama biti zisizotafsiriwa.
+
+      '
+    term: kitu kikubwa cha binary
+- slug: console
+  sw:
+    def: 'Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama
+      vile shell ambayo huiga kifaa kama hicho.
+
+      '
+    term: koni ya kompyuta
+- slug: code_coverage
+  sw:
+    def: 'Ni kiasi gani [maktaba](#library) au programu imetekelezwa wakati wa majaribio.
+      kwa mfano, ikiwa mistari 40 kati ya 50 ndani faili imetekelezwa wakati wa majaribio,
+      majaribio hayo yana kiwango cha asilimia 80%.
+
+      '
+    term: kuasisi msimbo (majaribuni)
+- slug: clustering
+  sw:
+    def: 'Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa
+      mapema.
+
+      '
+    term: kugawanya
+- slug: deep_learning
+  sw:
+    def: 'Familia ya algoriti za mtandao wa neva [neural network](#neural_network)
+      ambazo hutumia tabaka nyingi ili kutoa vipengele katika viwango vya juu.
+
+      '
+    term: kujifunza kwa kina
+- slug: auto_completion
+  sw:
+    def: 'Kipengele kinachomruhusu mtumiaji kumaliza neno au msimbo haraka kwa kubofya
+      kitufe cha TAB ili kuorodhesha maneno au msimbo unaowezekana ambao mtumiaji
+      anaweza kuchagua.
+
+      '
+    term: kukamilika kiotomatiki
+- slug: decrement
+  sw:
+    def: 'Operesheni isiyo ya kawaida ambayo hupunguza thamani ya kigezo, kwa kawaida
+      kwa 1.
+
+      '
+    term: kupunguza
+- slug: down_vote
+  sw:
+    def: 'Kura dhidi ya kitu.
+
+      '
+    term: kura ya chini
+- slug: causation
+  sw:
+    def: 'Uhusiano kati ya matukio tofauti, ambapo inadaiwa kuwa tukio moja linawajibika
+      kuzalisha au kuathiri mabadiliko katika nyingine.
+
+      '
+    term: Kusababisha
+- slug: fail_test
+  sw:
+    def: 'Jaribio litashindikana ikiwa [matokeo_halisi](#actual_result) hayalingani
+      na [matokeo_yanayotarajiwa](#expected_result)
+
+      '
+    term: kushindwa (jaribio)
+- slug: aliasing
+  sw:
+    def: 'Kuwa na marejeleo mawili au zaidi ya kitu kimoja, kama vile muundo wa data
+      kwenye kumbukumbu au faili kwenye diski.
+
+      '
+    term: Kutambulisha
+- slug: domain_knowledge
+  sw:
+    def: 'Uelewa wa kikoa maalum, kwa mfano, ujuzi wa vifaa vya usafiri.
+
+      '
+    term: maarifa ya kikoa
+- slug: assertion
+  sw:
+    def: 'Semi ya [Boolean](#boolean) ambayo lazima iwe [true](#true) katika hatua
+      fulani katika programu. Madai yanaweza kujengwa katika lugha (k.m., kauli ya
+      `assert` ya [Python](#python)) au kutolewa kama vitendakazi (k.m., `stopifnot`
+      ya [R](#r_language)). Mara nyingi hutumiwa katika majaribio, lakini pia huwekwa
+      katika [production code](#production_code) ili kuangalia ikiwa inatenda ipasavyo.
+      Katika lugha nyingi, madai hayafai kutumiwa kutekeleza uthibitishaji wa data
+      kwa vile yanaweza kuondolewa kimyakimya na wakusanyaji na wakalimani chini ya
+      hali ya uboreshaji. Kutumia madai kwa uthibitishaji wa data kwa hivyo kunaweza
+      kuanzisha hatari za usalama. Tofauti na lugha nyingi, R haina taarifa ya `assert`
+      ambayo inaweza kuzimwa, na kwa hivyo matumizi ya [package](#package) kama vile
+      `assertr` kwa uthibitishaji wa data haileti mashimo ya usalama.
+
+      '
+    term: Madai
+- slug: agile
+  sw:
+    def: 'Mbinu ya ukuzaji programu ambayo inasisitiza hatua nyingi ndogo na maoni
+      endelevu badala ya mipango ya mbeleni na ratiba ya muda mrefu. [Exploratory
+      programming](#exploratory_programming) mara nyingi huwa chapa.
+
+      '
+    term: maendeleo pesi
+- slug: comment
+  sw:
+    def: 'Maandishi yaliyoandikwa kwa hati ambayo hayachukuliwi kama kanuni ya kutekelezwa,
+      lakini kama maandishi ambayo yanaelezea kile kanuni hufanya nini. Mara nyingi,
+      hati hizi huwa na maelezo mafupi, yanayoanza na `#` (katika lugha nyingi za
+      programu).
+
+      '
+    term: maoni
+- slug: block_comment
+  sw:
+    def: 'Maoni [comment](#comment) ambayo yanajumuisha mistari mingi. Maoni mapana
+      yanaweza kuwekewa alama maalum za kuanza na kumalizia, kama vile `/*` na `*/`
+      katika C na vizazi vyake, au kila mstari unaweza kuanikwa kwa alama kama `#`.
+
+      '
+    term: Maoni Mapana
+- slug: faq
+  sw:
+    def: 'Orodha iliyoratibiwa ya maswali yanayoulizwa kwa kawaida kuhusu mada fulani,
+      pamoja na majibu.
+
+      '
+    term: maswali yanayoulizwa mara kwa mara
+- slug: actual_result
+  sw:
+    def: 'Huonyesha matokeo ya kujaribu msimbo kwenye tarakilishi. Ikiwa hili linafanana
+      na [matokeo halisi] (#expected_result), hilo jaribio [hupita](#pass_test); Ikiwa
+      upatalo na matokeo halisi sio sawa, huo msimbo huwa [jaribio lililoshindikana](#fail_test)
+
+      '
+    term: matokeo halisi
+- slug: expected_result
+  sw:
+    def: 'Thamani ambayo kipande cha programu kinatakiwa kutoa kinapojaribiwa kwa
+      njia fulani, au hali ambayo kinatakiwa kuondoka kwenye mfumo.
+
+      '
+    term: matokeo yanayotarajiwa (ya majaribio)
+- slug: environment
+  sw:
+    def: 'Muundo unaohifadhi seti ya majina tofauti na thamani wanazorejelea.
+
+      '
+    term: mazingira
+- slug: data_wrangling
+  sw:
+    def: 'Jina la mazungumzo kwa kiwango kidogo cha [data engineering](#data_engineering).
+
+      '
+    term: mchakato wa data
+- slug: aggregation
+  sw:
+    def: 'Kugawana vitu mingi pamoja, kwa mfano, kujumlisha nambari au kunganisha
+      matini.
+
+      '
+    term: mchanganyiko
+- slug: directory
+  sw:
+    def: 'Kipengee ndani ya mfumo wa faili ambao unaweza kuwa na faili na saraka zingine.
+      Pia inajulikana kama folda.
+
+      '
+    term: Mpangilio orodha
+- slug: data_structure
+  sw:
+    def: 'Muundo wa ushirikashi, usimamizi na ufikiaji bora wa data. Kwa kawaida itakuwa
+      kubainisha thamani ya seti za data na uwakilishi wao (au [encoding](#character_encoding)),
+      uhusiano kati ya thamana, na njia za kufikia au kuendesha data hizo, kama vile
+      kusoma, kubadilisha, au kuandika.
+
+      '
+    term: muundo wa data
+- slug: data_scientist
+  sw:
+    def: 'mtu anayetumia ujuzi wa programu kutafuta suluhu/kusuluhisha matatizo ya
+      takwimu.
+
+      '
+    term: mwanasayansi wa data
+- slug: feature_request
+  sw:
+    def: 'Ombi kwa watunzaji au wasanidi programu wa kuongeza utendaji maalum (au
+      kipengele) kwenye programu hiyo.
+
+      '
+    term: Ombi la kuongeza Kigezo (au kipengele)
+- slug: exploratory_programming
+  sw:
+    def: 'Mbinu ya uundaji wa programu ambayo mahitaji huibuka au kubadilika jinsi
+      programu inavyoandikwa, mara nyingi kwa kujibu matokeo ya uendeshaji wa mapema.
+
+      '
+    term: programu ya uchunguzi
+- slug: associative_array
+  sw:
+    def: 'Rejelea [dictionary](#dictionary).
+
+      '
+    term: safu ya ushirika
+- slug: data_science
+  sw:
+    def: 'mchanganyiko wa takwimu, programu na kazi ngumu inayotumika kupata maarifa
+      kutoka kwa data.
+
+      '
+    term: sayansi ya data
+- slug: attribute
+  sw:
+    def: 'Jozi ya thamani ya jina inayohusishwa na kitu, inayotumiwa kuhifadhi metadata
+      kuhusu kitu kama vile vipimo vya mkusanyiko.
+
+      '
+    term: sifa
+- slug: data_visualization
+  sw:
+    def: 'Uundaji wa chati, ramani, grafu, au infographics ili kutafsiri seti za data
+      kuwa kitu kinachoonekana. Wakati mwingine huitwa "dataviz" au "data viz."
+
+      '
+    term: taswira ya data
+- slug: evaluation
+  sw:
+    def: 'Mchakato wa kuchukua usemi kama vile `1+2*3/4` na kuugeuza kuwa thamani
+      moja isiyoweza kupunguzwa.
+
+      '
+    term: tathmini
+- slug: branch
+  sw:
+    def: 'rejelea [Git branch](#git_branch).
+
+      '
+    term: tawi
+- slug: constant
+  sw:
+    def: 'Thamani ambayo haiwezi kubadilishwa baada ya kubainishwa, ukilinganisha
+      na [kigeu](#variable_program) ambayo hubadilika.
+
+      '
+    term: thabiti
+- slug: data_mining
+  sw:
+    def: 'Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia
+      tarakilishi.
+
+      '
+    term: Uchimbaji data
+- slug: autocorrelation
+  sw:
+    def: 'Kiwango cha ufanano kati ya uchunguzi katika mfululizo sawa lakini ukitenganishwa
+      na muda (unaojulikana kama lag). Uchanganuzi wa uunganisho otomatiki unaweza
+      kutumika kupata maarifa kuhusu mkusanyiko wa data wa mfululizo wa saa kwa kugundua
+      ruwaza zinazorudiwa ambazo zinaweza kufichwa kwa kiasi na kelele nasibu, miongoni
+      mwa matumizi mengine.
+
+      '
+    term: uhusiano wa kiotomatiki
+- slug: absolute_error
+  sw:
+    def: 'Ukubwa wa hesabu ya kutoa jibu umepata kutoka jibu sahihi. Dhani ingine
+      kama hii, ni [uwiano wa ukosefu](#relative_error).
+
+      '
+    term: 'ukubwa wa nambari ya ukosefu '
+- slug: falsy
+  sw:
+    def: 'Inatathmini hadi ya [uongo](#false) katika muktadha wa [Boolean](#boolean).
+
+      '
+    term: uongo
+- slug: falsy
+  sw:
+    def: 'Inatathmini hadi ya [uongo](#false) katika muktadha wa [Boolean](#boolean).
+
+      '
+    term: uongo
+- slug: false_negative
+  sw:
+    def: 'Pointi za data ambazo kwa hakika ni za [kweli](#true) lakini zimetabiriwa
+      kimakosa kama kua za [uongo](#false).
+
+      '
+    term: uongo hasi
+- slug: accuracy
+  sw:
+    def: 'Kipimo cha takwimu cha muundo wa uainishaji ambao hutoa uwiano ya utabiri
+      sahihi kati ya jumla ya idadi ya kesi. Imehesabiwa kama Usahihi = (TP+TN)/(TP+TN+FP+FN)
+
+      '
+    term: usahihi
+- slug: debug
+  sw:
+    def: 'Katika mazingira ya kompyuta ''utatuzi'' inarejelea mchakato wa kutafuta
+      na kutatua makosa (pia hujulikana kama hitilafu) ndani ya programu au mifumo
+      ya kompyuta.
+
+      '
+    term: utatuzi
+- slug: dependency
+  sw:
+    def: 'hali ya kutegemea jambo ama kitu fulani
+
+      '
+    term: utegemezi
+- slug: affordance
+  sw:
+    def: 'Sifa ya kitu ambacho kinapendekeza jinsi kinavyoweza kutumika, kama vile
+      mpini au  kitufe.
+
+      '
+    term: uwezesho
+- slug: false_positive
+  sw:
+    def: 'Pointi za data ambazo kwa hakika ni za [uongo](#false) lakini zimetabiriwa
+      kimakosa kama kua za [kweli](#true).
+
+      '
+    term: uwongo chanya
+- slug: mean
+  sw:
+    def: 'Namba ya katikati kwa data.  Kuikokotoa, jumla nambari halafu gawana na
+      nambari za nambari.
+
+      '
+    term: wastani
+- slug: arithmetic_mean
+  sw:
+    def: 'Rejelea [mean](#mean). Imehesabiwa kutoka kwa seti ya nambari za n kwa kujumlisha
+      nambari hizo, na kugawanya matokeo na
+
+      '
+    term: wastani wa hesabu

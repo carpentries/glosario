@@ -1,0 +1,516 @@
+- slug: plus_one
+  de:
+    def: 'Eine Zustimmung zu etwas.
+
+      '
+    term: '+1'
+- slug: 68_95_997_rule
+  de:
+    def: "Dr\xFCckt die Tatsache aus, dass 68% der Werte innerhalb einer [Standardabweichung](#standard_deviation)\
+      \ vom Mittelwert liegen, 95% innerhalb von zwei und 99,7% innerhalb von drei.\
+      \ Umgekehrt liegen etwa 0,3% der Werte in den meisten F\xE4llen mehr als drei\
+      \ Standardabweichungen \xFCber oder unterhalb des Mittelwerts.\n"
+    term: 68-95-99.7 Regel
+- slug: abandonware
+  de:
+    def: "Software die nicht l\xE4nger weiterentwickelt wird.\n"
+    term: Abandonware
+- slug: catch_exception
+  de:
+    def: "M\xF6glichkeit einen Fehler oder andere unerwartete Ereignisse abzufangen\
+      \ und Informationen dar\xFCber zu verarbeiten. In [R](#r_language) sollen Fehler\
+      \ m\xF6glichst \xFCber vordefinierte Bedingungen abgefangen werden, w\xE4hrend\
+      \ in anderen Sprachen, z.B. in [Python](#python) Fehler und Fehlermeldungen\
+      \ bewusst eingesetzt werden um Probleme einfacher zu l\xF6sen. H\xE4ufig werden\
+      \ neben der Art des Fehlers auch weitere Daten erhoben um m\xF6gliche Ursachen\
+      \ zu finden.\n"
+    term: abfangen (eines Fehlers)
+- slug: dependent_variable
+  de:
+    def: "Eine Variable, dessen Werte von denen einer anderen Variablen abh\xE4ngig\
+      \ sind, welche  als [unabh\xE4ngige Variable](#independent_variable) bezeichnet\
+      \ wird.\n"
+    term: "Abh\xE4ngige Variable"
+- slug: absolute_row_number
+  de:
+    def: "Der sequentielle Index einer Zeile in einer Tabelle, unabh\xE4ngig davon,\
+      \ welche Abschnitte der Tabelle angezeigt werden.\n"
+    term: Absolute Zeilennummer
+- slug: absolute_error
+  de:
+    def: "Der absolute Wert der Differenz zwischen dem beobachteten und dem korrekten\
+      \ Wert. Der absolute Fehler ist normalerweise weniger n\xFCtzlich als der [relative\
+      \ Fehler](#relative_error).\n"
+    term: Absoluter Fehler
+- slug: absolute_path
+  de:
+    def: "Der absolute Pfad zeigt auf die gleiche Position im [filesystem](#filesystem),\
+      \ unabh\xE4ngig davon, wo er ausgewertet wird. Der absolute Pfad entspricht\
+      \ in der Geographie der Angabe von L\xE4ngen- und Breitengrad.\n"
+    term: absoluter Pfad
+- slug: abstract_method
+  de:
+    def: "In der [objektorientierten Programmierung](#oop) eine [Methode](#method),\
+      \ die zwar definiert, aber nicht implementiert ist. Programmierer definieren\
+      \ eine abstrakte Methode in einer [\xFCbergeordneten Klasse](#parent_class),\
+      \ um Operationen zu spezifizieren, die die [untergeordneten Klassen](#child_class)\
+      \ bereitstellen m\xFCssen.\n"
+    term: Abstrakte Methode
+- slug: backward_compatible
+  de:
+    def: "Bezeichnet die Eigenschaft eines Systems (z.B. Hardware oder Software),\
+      \ das dessen Funktionsf\xE4higkeit auch in Zusammenarbeit mit \xE4lteren oder\
+      \ obsoleten Versionen eines Systems garantiert. Beispielsweise ist eine [Funktion](#function)\
+      \ in [Python](#python) 3 abw\xE4rtskompatibel, wenn diese auch in Python 2 ausgef\xFC\
+      hrt werden kann.\n"
+    term: "abw\xE4rtskompatibel"
+- slug: aggregation
+  de:
+    def: 'Mehrere Werte zu einem zusammenfassen, z.B. durch Aufsummieren einer Reihe
+      von Zahlen oder Verkettung einer Reihe von Zeichenketten.
+
+      '
+    term: Aggreation
+- slug: aggregation_function
+  de:
+    def: 'Eine Funktion, welche mehrere Werte in einem Ergebnis zusammenfasst, beispielsweise
+      in einer Summe oder dem Maximalwert.
+
+      '
+    term: Aggregatfunktion
+- slug: agile
+  de:
+    def: "Eine Methodik der Softwareentwicklung in der die Arbeit in viele kleine\
+      \ Schritte aufgeteilt wird und mit st\xE4ndigem Feedback innerhalb selbstorganisierter\
+      \ Teams ein Program entwickelt wird. Im Gegensatz dazu stehen klassische Ans\xE4\
+      tze die h\xE4ufig aufw\xE4ndiger Planung bed\xFCrfen. [Explorative Programmierung](#exploratory_programming)\
+      \ ist oft agil.\n"
+    term: Agile Softwareentwicklung
+- slug: algorithm
+  de:
+    def: "Ein Algorithmus beschreibt eine Handlungsvorschrift, ein Verfahren oder\
+      \ einen Regelsatz zum L\xF6sen eines Problems. In der Informatik ist ein Algorithmus\
+      \ eine eindeutige, ausf\xFChrbare Folge von Anweisungen endlicher L\xE4nge zur\
+      \ L\xF6sung eines Problems, welche immer das gleiche Ergebnis liefern.\n"
+    term: Algorithmus
+- slug: aliasing
+  de:
+    def: "Aliasing bezeichnet die \xDCberlappung mehrerer Deskriptoren, also z.B.\
+      \ Speicheradressen (Zeiger) oder Referenzen, die den selben Ort f\xFCr ein Objekt,\
+      \ beispielsweise eine Datenstruktur, beschreiben.\n"
+    term: Aliasing
+- slug: anonymous_function
+  de:
+    def: "Eine Funktion ohne Namen. In der Regel sind anonyme Funktionen sehr kurz\
+      \ und werden nur dort definiert wo sie verwendet werden, z.B. als [R\xFCckruffunktion](#callback).\
+      \ In [Python](#python) wird diese Art der Funktionen als Lambda-Funktionen bezeichnet\
+      \ und mit dem reservierten Ausdruck `lambda` definiert.\n"
+    term: Anonyme Funktion
+- slug: argument
+  de:
+    def: "Nicht zu verwechseln mit dem [Parameter](#parameter).  Parameter und Argumente\
+      \ sind verwandt aber nicht identisch. Ein Argument ist der tats\xE4chliche Wert\
+      \ eines Parameters der beim Funktionsaufruf \xFCbergeben wird.\n"
+    term: Argument
+- slug: ascii
+  de:
+    def: "Eine standardisierte Methode um Zeichen und Ziffern, vornehmlich der Westeurop\xE4\
+      ischen Sprachen, in 7 oder 8 [Bits](#bit) darzustellen. Heute weitgehend durch\
+      \ [Unicode](#unicode) abgel\xF6st.\n"
+    term: ASCII
+- slug: assertion
+  de:
+    def: "Eine [Boolscher Ausdruck](#boolean) welcher zu einem bestimmten Punkt w\xE4\
+      hrend der Programlaufzeit [wahr](#true) sein muss um fortzuschreiten. In verschiedenen\
+      \ Sprachen (z.B. `assert` in [Python](#python)) sind diese Sicherstellungen\
+      \ fest integriert, oder werden als Funktionen bereitgestellt (z.B. `stopifnot`\
+      \ in [R](#r_language)). Sie werden h\xE4ufig zum testen von code verwendet,\
+      \ k\xF6nnen aber auch in [fertigen Quellcode](#production_code) einflie\xDF\
+      en um eine korrekte Ausf\xFChrung zu gew\xE4hrleisten. In vielen Sprachen sollten\
+      \ Assertionen jedoch nicht zur Datenvalidierung verwendet werden, da der Compiler\
+      \ je nach Optimierungsgrad diese entfernen kann. Assertionen k\xF6nnen ein Sicherheitsrisiko\
+      \ darstellen. In R k\xF6nnen Assertionen nicht deaktiviert werden, daher werden\
+      \ externe [Pakete](#package) wie beispielsweise `assertr` zur Datenvalidierung\
+      \ verwendet ohne ein Sicherheitsrisiko darzustellen.\n"
+    term: Assertion
+- slug: associative_array
+  de:
+    def: "Siehe [W\xF6rterbuch](#dictionary).\n"
+    term: Assoziatives Array
+- slug: asynchronous
+  de:
+    def: "Nicht gleichzeitige Ausf\xFChrung. In der Programmierung ist eine asynchrone\
+      \ Operation unabh\xE4ngig von anderen Operationen, oder wird zu einem bestimmten\
+      \ Zeitpunkt gestartet oder beendet.\n"
+    term: asynchron
+- slug: attribute
+  de:
+    def: "Ein Name-Wert Paar welches einem Objekt zugewiesen ist und in der Regel\
+      \ Metadaten \xFCber das Objekt, wie beispielsweise seine Gr\xF6\xDFe, speichert.\n"
+    term: Attribut
+- slug: markup_language
+  de:
+    def: "Ein Regelwerk zur Annotation von Text, um zu definieren, was er bedeutet\
+      \ oder wie er dargestellt werden soll. Die Textauszeichnung wird in der Regel\
+      \ nicht dargestellt, sondern kontrolliert wie der zu Grunde liegende Text interpretiert\
+      \ oder angezeigt wird. [Markdown](#markdown) und [HTML](#html) sind weit verbreitete\
+      \ Auszeichnungssprachen f\xFCr Internetseiten.\n"
+    term: Auszeichnungssprache
+- slug: autocorrelation
+  de:
+    def: "\nDer Grad der \xC4hnlichkeit zwischen Beobachtungen in derselben Reihe,\
+      \ die durch ein Zeitintervall (\"Lag\") voneinander getrennt sind. Autokorrelationsanalyse\
+      \ kann verwendet werden, um einen Einblick in Zeitreihen zu gewinnen, indem\
+      \ sie u. a. wiederkehrende Muster aufdeckt, die teilweise durch zuf\xE4lliges\
+      \ Rauschen verdeckt werden k\xF6nnen. Der Grad der \xC4hnlichkeit zwischen Beobachtungen\
+      \ in derselben Reihe, die durch ein Zeitintervall (\"Lag\") voneinander  getrennt\
+      \ sind. Autokorrelationsanalyse kann verwendet werden, um einen Einblick in\
+      \ Zeitreihen zu gewinnen, indem  sie u. a. wiederkehrende Muster aufdeckt, die\
+      \ teilweise durch zuf\xE4lliges Rauschen verdeckt werden k\xF6nnen. \n"
+    term: Autokorrelation
+- slug: auto_completion
+  de:
+    def: "Eine Funktionalit\xE4t welche es dem Nutzer erlaubt in einer Eingabemaske,\
+      \ z.B. in einer Konsole oder Text-Editor, schnell W\xF6rter oder Ausdr\xFCcke\
+      \ zu vervollst\xE4ndigen. Normalweise ist diese Funktion der Tabulatortaste\
+      \ (TAB) zugewiesen.\n"
+    term: "Autovervollst\xE4ndigung"
+- slug: operating_system
+  de:
+    def: "Ein Programm, das eine Standard-Oberfl\xE4che zu der Hardware, auf der es\
+      \ l\xE4uft, zur Verf\xFCgung stellt. Theoretisch sollte ein Programm, dass nur\
+      \ mit dem Betriebssystem interagiert, auf jedem Computer laufen, der dieses\
+      \ Betriebssystem nutzt\n"
+    term: Betriebssystem
+- slug: library
+  de:
+    def: 'Ein wiederverwendbares [Softwarepaket](#package), oft auch [Modul] (#module)
+      genannt.
+
+      '
+    term: Bibliothek
+- slug: big_data
+  de:
+    def: "Alle Datenmengen, die bis vor Kurzem vor zu umfangreich f\xFCr die Analyse\
+      \ mit nur einem Computer waren.\n"
+    term: Big Data
+- slug: binary
+  de:
+    def: "Ein System welches nur aus zwei Zust\xE4nden besteht. In der Informationstechnik\
+      \ oft in den Zust\xE4nden 0 oder 1 dargestellt. In der [Boolschen Logik](#boolean)\
+      \ auch als [falsch](#false) (0) oder [wahr](#true) (1). Computer verwenden als\
+      \ kleinste Speichereinheit ein [Bit](#bit) welches entweder eine 0 oder 1 enthalten\
+      \ kann.\n"
+    term: "Bin\xE4rsystem"
+- slug: bit
+  de:
+    def: "Ein Bit ist eine Informationseinheit, die nur zwei Alternativen darstellen\
+      \ kann. Beispiele hierf\xFCr sind Ja/ Nein, Wahr / Falsch. In der Computerwelt\
+      \ als 0 und 1 dargestellt.\n"
+    term: Bit
+- slug: block_comment
+  de:
+    def: 'Ein [Kommentar](#comment) welcher mehrere Zeilen umfasst. Blockkommentare
+      haben spezifische Start- und Endsymbole, z.B. `/*` und `*/` in C und verwandten
+      Sprachen. Manche Sprachen kennen keine Blockkommentare und so werden diese mit
+      einem Einzelkommentarsymbol in jeder Zeile, z.B. `#`, gekennzeichnet.
+
+      '
+    term: Blockkommentar
+- slug: boilerplate
+  de:
+    def: "Standardisierte Texte welche sehr h\xE4ufig Anwendung finden, beispielsweise\
+      \ f\xFCr Vertr\xE4ge, Lizenzen, usw. Desweiteren werden damit Codesegmente oder\
+      \ Textbausteine bezeichnet, welche an mehreren Stellen wiederholt werden m\xFC\
+      ssen um ein funktionierendes Programm zu erhalten. Boilerplate Code enth\xE4\
+      lt allerdings wichtige Informationen um beispielsweise Variablen in der [objektorientierten\
+      \ Programmierung](#oop) zu kapseln. Manche Programmiersprachen sind sehr wortreich\
+      \ und erfordern viel Code um einfache Funktionalit\xE4ten zu erhalten, z.B.\
+      \ Java, sodass dieser Code h\xE4ufig automatisch oder mittels [Autovervollst\xE4\
+      ndigung](#auto_completion) erstellt wird.\n"
+    term: Boilerplate
+- slug: boolean
+  de:
+    def: "Eine Art der Variable oder eines Datentyps welche entweder den logischen\
+      \ Wert [wahr](#true) oder [falsch](#false) haben kann. Benannt nach George Boole,\
+      \ einem Mathematiker aus dem 19. Jahrhundert. Bin\xE4rsysteme, wie alle Computer,\
+      \ beruhen auf der Verarbeitung von logischen Wahr-Falsch-Zust\xE4nden, 1 oder\
+      \ 0.\n"
+    term: Boolean
+- slug: breadcrumbs
+  de:
+    def: "Ein Entwurfsmuster f\xFCr Webseiten welches zus\xE4tzliche Navigationslinks,\
+      \ normalerweise im oberen Bereich, platziert. Brotkr\xFCmelnavigationslinks\
+      \ zeigen dem Nutzer wo er sich gerade relativ zum Rest der Webseite befindet.\
+      \ Der Begriff ist in Anlehnung an das M\xE4rchen H\xE4nsel und Gretel entstanden,\
+      \ in welchem die Kinder eine Spur aus Brotkr\xFCmeln hinterlassen um den Weg\
+      \ zur\xFCck zu finden.\n"
+    term: "Brotkr\xFCmelnavigation"
+- slug: browser_cache
+  de:
+    def: "Ein [Puffer-Speicherort](#cache) auf dem Rechner des Benutzers, an dem der\
+      \ Webbrowser bereits abgerufene Ressourcen wie z.B. Texte und Bilder als Kopie\
+      \ aufbewahrt. Dadurch k\xF6nnen Zeit und Netzwerkverkehr reduziert werden, wenn\
+      \ die Ressourcen erneut angefragt werden. Es kann durch die Verwendung des Browser-Caches\
+      \ jedoch auch passieren, dass veraltete Informationen angezeigt werden, wenn\
+      \ sich die Ressourcen in der Zwischenzeit ge\xE4ndert haben.\n"
+    term: Browser-Cache
+- slug: bug
+  de:
+    def: 'Ein Bug ist ein Fehler oder Fehlfunktion einer Software.
+
+      '
+    term: Bug
+- slug: byte
+  de:
+    def: "Ein Byte ist eine digitale Einheit, die aus acht Bin\xE4rziffern oder Bits\
+      \ besteht.\n"
+    term: Byte
+- slug: cache
+  de:
+    def: "Cache ist ein Pufferspeicher, der (wiederholte) Datenzugriffe und -berechnungen\
+      \ zu vermeiden hilft. Im Cache abgelegte Daten k\xF6nnen schneller abgerufen\
+      \ werden. Ein Hardware-Cache wird beispielsweise in Computerprozessoren verwendet\
+      \ und ein Beispiel f\xFCr einen Software-Cache ist der [Browser-Cache](#browser_cache).\n"
+    term: Cache
+- slug: camel_case
+  de:
+    def: "Schreibstil der die Benennung von Variablen und Objekten vorgibt. Bei \"\
+      camel case\" werden keine Leerzeichen, Unterstriche (`_`), Punkte (`.`) oder\
+      \ Bindestriche (`-`) verwandt und jedes Wort gro\xDFgeschrieben. Beispiele sind:\
+      \ `BerechneSumme` oder `findeMuster`.\n"
+    term: camel case (dt. Kamel-Schreibung)
+- slug: cc_0
+  de:
+    def: "Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche den Verzicht\
+      \ auf s\xE4mtliche Schutzrechte erkl\xE4rt und das Werk in die Gemeinfreiheit\
+      \ \xFCberf\xFChrt.\n"
+    term: CC-0
+- slug: cc_by
+  de:
+    def: 'Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche eine Namensnennung
+      der Urheber verlangt aber sonst keine weiteren Restriktionen auferlegt.
+
+      '
+    term: CC-BY
+- slug: cc_license
+  de:
+    def: "Eine Sammlung von [Lizenzen](#license) welche verschiedene, einfache Lizenzvereinbarungen\
+      \ f\xFCr beliebige Werke bereitstellt. Jede Lizenz kann zus\xE4tzlichen Bedingungen\
+      \ unterliegen: `-BY` (Namensnennung): Nutzer m\xFCssen den Autor des Werks nennen.\
+      \ `-SA` (Gleiche Bedingungen): Nutzer d\xFCrfen das Werk nur unter den gleichen\
+      \ Bedingungen weiter verbreiten. `-NC` (Nicht-Kommerziell): Ohne vorherige Zustimmung\
+      \ darf das Werk nur nicht kommerziell verwendet werden. `-ND` (Keine Bearbeitung):\
+      \ Ohne vorherige Zustimmung darf das Werk nicht ver\xE4ndert werden. Diese Bedingungen\
+      \ werden mit dem Prefix \"CC\" verkn\xFCpft um kombinierte Lizenzen zu kreieren.\
+      \ So bedeutet `CC-BY-NC` das die Nutzer den Namen des Autors nennen m\xFCssen\
+      \ und das Werk nur mit Zustimmung kommerziell nutzen d\xFCrfen. Der Begriff\
+      \ [CC0](#cc_0) beschreibt ein Werk \"ohne Einschr\xE4nkungen\", d.h. das Werk\
+      \ ist gemeinfrei.\n"
+    term: Creative Commons Lizenz
+- slug: filesystem
+  de:
+    def: "Der Teil des [Betriebssystems](#operating_system), der verwaltet wie Dateien\
+      \ gespeichert und abgerufen werden. Der Begriff wird auch als Referenz f\xFC\
+      r alle Dateien und [Verzeichnisse](#directory) verwendet, oder f\xFCr die spezifische\
+      \ Art, wie Dateien gespeichert werden (z.B. \"das Unix-Dateisystem\").\n"
+    term: Dateisystem
+- slug: deep_learning
+  de:
+    def: "Eine Familie von Algorithmen f\xFCr k\xFCnstliche neuronale Netzwerke, die\
+      \ mehrere Schichten verwenden, um schrittweise Eigenschaften auf immer h\xF6\
+      heren Ebenen zu extrahieren.\n"
+    term: Deep Learning
+- slug: bug_report
+  de:
+    def: "Ein Fehlerbericht ist eine Sammlung von Dateien / Eintr\xE4gen oder damit\
+      \ zusammenh\xE4ngenden Informationen, die einen unbeabsichtigten Fehler beschreiben.\
+      \ Der Fehlerbericht wird f\xFCr die Identifikation und Behebung seines des Softwarefehlers\
+      \ / Codefehlers gebraucht.\n"
+    term: Fehlerbericht
+- slug: backpropagation
+  de:
+    def: "Ein Algoritmus der die Gewichtung in einem [neuralen Netzwerk](#neural_network)\
+      \ iterativ anpasst. Die R\xFCckw\xE4rtspropagierung ist ein Spezialfall eines\
+      \ [allgemeinen Gradientenverfahrens](#gradient_descent) in der Optimierung,\
+      \ basierend auf dem mittleren quadratischen Fehler.\n"
+    term: "Fehlerr\xFCckf\xFChrung"
+- slug: function
+  de:
+    def: "Eine Funktion ist ein in sich abgeschlossener Teil eines Programmcodes,\
+      \ der eine Abfolge von Anweisungen umfasst und mehrere optionale oder notwendige\
+      \ Eingansparameter akzeptieren kann. Funktionen haben einen eindeutigen Namen,\
+      \ der es erlaubt die Funktion durch einen Funktionsaufruf mehrfach in einem\
+      \ Programm zu verwenden. Eine Funktion kann mehrere optionale oder notwendige\
+      \ Eingangsparameter akzeptieren. Eine Funktion kann Werte zur\xFCckgeben, deren\
+      \ Datentypen in einer Funktionsdokumentation niedergeschrieben sein sollten.\n"
+    term: Funktion
+- slug: accuracy
+  de:
+    def: "Ein statistisches Ma\xDF zur Beschreibung eines Klassifizierungsmodells,\
+      \ das den Anteil der korrekten Vorhersagen unter allen Vorhersagen angibt. Es\
+      \ wird als Genauigkeit = (TP+TN)/(TP+TN+FP+FN) berechnet.\n"
+    term: Genauigkeit
+- slug: html
+  de:
+    def: "Die Standard-[Auszeichnungssprache](#markup_language) f\xFCr Webseiten.\
+      \ HTML wird im Speicher durch das [Dokumenten-Objekt-Modell](#dom) repr\xE4\
+      sentiert.\n"
+    term: Hypertext-Auszeichnungssprache
+- slug: causation
+  de:
+    def: "Eine Beziehung zwischen zwei Ereignissen oder Zust\xE4nden, wobei klar ist,\
+      \ dass es einen urs\xE4chlichen oder anl\xE4sslichen Zusammenhang zwischen den\
+      \ beiden gibt.\n"
+    term: "Kausalit\xE4t"
+- slug: comment
+  de:
+    def: "Anmerkungen in einem Programmcode oder Skript, die nicht vom Computer interpretiert\
+      \ oder ausgef\xFChrt werden. Kommentare dienen der Leserlichkeit und Dokumentation\
+      \ f\xFCr Nutzer des Skripts. In vielen Programmiersprache werden Kommentare\
+      \ mit '#' am Zeilenanfang eingeleitet.\n"
+    term: Kommentar
+- slug: latex
+  de:
+    def: "Ein Textsatzsystem zum Erstellen von Dokumenten, das eine spezielle [Auszeichnungssprache](#markup_language)\
+      \ nutzt, um die Dokument-Struktur (z.B. Titel) zu definieren, Text zu setzen,\
+      \ mathematische Gleichungen einzuf\xFCgen und Zitate und Querverweise zu verwalten.\
+      \ LaTeX  wird h\xE4ufig in der akademischen Welt verwendet, besonders f\xFC\
+      r wissenschaftliche Ver\xF6ffentlichungen und Abschlussarbeiten in Mathematik,\
+      \ Physik, Maschinenbau und Informatik.\n"
+    term: LaTeX
+- slug: literate_programming
+  de:
+    def: 'Ein Programmierparadigma, dass Dokumentation und Programmkode in einer gemeinsamen
+      Datei handelt.
+
+      '
+    term: literarisches Programmieren
+- slug: license
+  de:
+    def: 'Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und
+      von wem.
+
+      '
+    term: Lizenz
+- slug: markdown
+  de:
+    def: "Eine [Auszeichnungssprache](#markup_language) mit einfacher Syntax, die\
+      \ als Ersatz f\xFCr [HTML](#html) vorgesehen ist. Markdown wird oft f\xFCr README\
+      \ (lies mich) Dateien verwendet und ist die Basis von [R Markdown](#r_markdown).\n"
+    term: Markdown
+- slug: mean
+  de:
+    def: 'Der Durchschnitt eines Datensatzes, genauer auch bezeichnet als [arithmetischer
+      Mittelwert](#arithmetic_mean), um ihn zu unterscheiden vom [geometrischen](#geometric_mean)
+      und [harmonischen](#harmonic_mean) Mittelwert.
+
+      '
+    term: Mittelwert
+- slug: mode
+  de:
+    def: "Auch Modalwert genannt. Gibt den Wert oder die Werte an, die am h\xE4ufigsten\
+      \ in einem Datensatz vorkommen.\n"
+    term: Modus
+- slug: folder
+  de:
+    def: "Anderer Begriff f\xFCr [Verzeichnis](#directory).\n"
+    term: Ordner
+- slug: parameter
+  de:
+    def: "Die Parameter sind die Namen der Eingangswerte einer Funktion, welche beim\
+      \ Aufruf \xFCbergeben werden. Parameter und Argumente sind verwandt aber nicht\
+      \ identisch. Ein Parameter ist eine Variable und ein [Argument](#argument) ist\
+      \ dem der Variable zugewiesene Wert.\n"
+    term: Parameter
+- slug: cpu
+  de:
+    def: "Die zentrale Recheneinheit eines jeden digitalen Computers. Der Prozessor\
+      \ ist eine elektronische Schaltung, die anhand von \xFCbergebenen Befehlen andere\
+      \ Maschinen oder elektrische Schaltungen steuert und Rechenoperationen ausf\xFC\
+      hrt. Wird auch als Hauptprozessor, Zentrale Recheneinheit, Zentraleinheit oder\
+      \ Zentrale Verarbeitungseinheit (kurz ZVE, englisch central processing unit,\
+      \ kurz CPU) bezeichnet.\n"
+    term: Prozessor
+- slug: callback
+  de:
+    def: "R\xFCckruffunktionen sind Funktionen, welche anderen Funktionen als Parameter\
+      \ \xFCbergeben werden um sie zu einem sp\xE4teren Zeitpunkt auszuf\xFChren.\
+      \ Bei der Parallelisierung werden h\xE4ufig durch den Befehl `map` R\xFCckruffunktionen\
+      \ [synchron/gleichzeitig](#synchronous) f\xFCr mehrere Elemente in einer Kollektion\
+      \ ausgef\xFChrt, w\xE4hrend bei [Klient](#client)/[Server](#server) Verbindungen\
+      \ auf [Anrufe](#http_request) [asynchron](#asynchronous) eine [Antwort](#http_response)\
+      \ geliefert wird.\n"
+    term: "R\xFCckruffunktion"
+- slug: api
+  de:
+    def: "Eine Sammlung von Funktionen und Prozeduren die von einer Softwarebibliothek\
+      \ bereitgestellt werden, sodass eine andere Software  damit interagieren kann.\
+      \ Eine API ist nicht der Code, die Datenbasis oder ein Server sie ist lediglich\
+      \ der Ank\xFCpfungspunkt.\n"
+    term: Schnittstelle zur Programmierung von Anwendungen
+- slug: standard_deviation
+  de:
+    def: 'Wie weit Werte in einem Datensatz vom [Mittelwert](#mean) abweichen. Die
+      Standardabweichung wird berechnet als Quadratwurzel der [Varianz](#variance).
+
+      '
+    term: Standardabweichung
+- slug: actual_result
+  de:
+    def: "Der Wert, der durch Ausf\xFChren von Code in einem Test erzeugt wird. Wenn\
+      \ dieser Wert mit dem [erwarteten Ergebnis](#expected_result) \xFCbereinstimmt,\
+      \ ist der Test bestanden; wenn die beiden Werte unterschiedlich sind, [schl\xE4\
+      gt der Test fehl](#fail_test).\n"
+    term: "Tats\xE4chliches Ergebnis"
+- slug: independent_variable
+  de:
+    def: "Der Faktor, der vors\xE4tzlich ver\xE4ndert oder kontrolliert wird, um die\
+      \ Auswirkung auf die [abh\xE4ngige Variable](#dependent_variable) zu beobachten.\n"
+    term: "Unabh\xE4ngige Variable"
+- slug: unicode
+  de:
+    def: "Ein Standard, der einen numerischen Zeichensatz f\xFCr viele tausend Zeichen\
+      \ und Symbole definiert. Unicode definiert nicht, wie diese Zahlen gespeichert\
+      \ werden; das geschieht durch Standards wie [UTF-8](#utf_8).\n"
+    term: Unicode
+- slug: variance
+  de:
+    def: "Wie weit Werte in einem Datensatz vom [Mittelwert](#mean) entfernt sind.\
+      \ Die Varianz wird berechnet als die Differenz eines Wertes und des Mittelwerts\
+      \ im Quadrat. Stattdessen wird oft auch die [Standardabweichung](#standard_deviation)\
+      \ verwendet, da sie dieselbe Einheit wie die Daten hat, w\xE4hrend die Varianz\
+      \ in der Einheit zum Quadrat ausgedr\xFCckt wird.\n"
+    term: Varianz
+- slug: bias
+  de:
+    def: "Auch systematische Abweichung genannt. Ein Messwert wird dann als verzerrt\
+      \ beschrieben, wenn er systematisch von dem wahren Wert einer Messgr\xF6\xDF\
+      e abweicht.\n"
+    term: Verzerrung
+- slug: whitespace
+  de:
+    def: "Auch als \"Leerraum\" bekannt, eine Bezeichnung f\xFCr Zeichen ohne sichtbares\
+      \ Symbol. Typischerweise beinhaltet dies Leerzeichen, Tabulatorzeichen und Zeilenumbr\xFC\
+      che.\n"
+    term: whitespace
+- slug: wildcard
+  de:
+    def: "Ein Zeichenausdruck, der mit Text \xFCbereinstimmen kann, wie z.B. das `*`\
+      \ in `*.csv` (das passt auf jeden Dateinamen, der mit `.csv`) endet.\n"
+    term: Wildcard
+- slug: xml
+  de:
+    def: "Eine Reihe von Regeln zur Definition von [HTML](#html)-\xE4hnlichen Tags\
+      \ und deren Verwendung zur Formatierung von Dokumenten (typischerweise Daten).\
+      \ XML war in den fr\xFChen 2000er Jahren popul\xE4r, aber seine Komplexit\xE4\
+      t veranlasste viele Programmierer, stattdessen [JSON](#json) zu verwenden.\n"
+    term: XML
+- slug: yaml
+  de:
+    def: "Abk\xFCrzung f\xFCr \"YAML Ain't Markup Language\", eine Methode zur Darstellung\
+      \ verschachtelter Daten mit Einr\xFCckung statt der Klammern und Kommas von\
+      \ [JSON](#json). YAML wird oft in Konfigurationsdateien und zur Definition von\
+      \ Parametern in verschiedenen Varianten von [Markdown](#markdown)-Dokumenten\
+      \ verwendet.\n"
+    term: YAML

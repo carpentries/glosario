@@ -1,0 +1,143 @@
+- slug: aggregation_function
+  tn:
+    def: 'Ke boranyane jwa boleng jo khompiutara/sebalamakgolo e bo balang ka go dirisa
+      dipalo go tsentswe le kitso ya tlhomamo.
+
+      '
+    term: Bokao/Tiriso ya ditlhopha
+- slug: actual_result
+  tn:
+    def: 'Ke palo e e bonwang ka go fetisa "khoutu" mo tekong. Fa palo e, e tsamaelana
+      le dipholo tse [di solofetsweng](#expected_result), go raya gore teko e falotse;
+      fa palo e le dipholo tse di solofetsweng di sa tsamaelane, go raya gore teko
+      [e tlholegile](#fail_test).
+
+      '
+    term: Dipholo tsa tlhomamiso (tsa teko)
+- slug: aggregation
+  tn:
+    def: 'Karolo ya boranyane bo kopane go aga ditlhophana tsa boleng jo bo rileng/
+      seemo se se rileng sa kitso. Sekai, e ka nna setlhopha sa mafoko a boleng jo
+      bo tshwanang.
+
+      '
+    term: Ditlhopha tsa boleng
+- slug: fail_test
+  tn:
+    def: 'Teko e tlholega fa dipholo tsa tlhomamisho di sa chwane le dipholo tse di
+      ne di letetswe.
+
+      '
+    term: E tlholegile (teko)
+- slug: bias
+  tn:
+    def: 'Dipalopalo di tsaya letlhakore fa ele gore maduo a ditshakatsheko tsa tsone,
+      gangwe le gape ga a ana neelano le maduo aa akanyeditsweng.
+
+      '
+    term: go tsaya letlhakore
+- slug: remote_login
+  tn:
+    def: 'Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o
+      dirisa [SSH](#ssh).
+
+      '
+    term: kgolagano kgakala
+- slug: big_data
+  tn:
+    def: 'Tsamaiso e e tlhatlhobang kana e kanoka mekgwa ya ka fa kitso e ka ntshiwang
+      ka teng. Tsamaiso e,e ama go kanokowa ga kitso e ntsi e e mo ditlhopheng mme
+      e bile go se motlhofo gore e ka kanokiwa ka tsamaiso e e tlwaelesegileng. Enige
+      data wat tot onlangs toe nog te veel was om met net een rekenaar te analiseer.
+
+      '
+    term: kitso_ kgolo
+- slug: bit
+  tn:
+    def: 'Ke selekanyo sa kitso e nnye kana e e kwa tlase. Selekanyo se sa kitso,
+      se ka emelwa ke lefela kana bongwe.
+
+      '
+    term: Kitso_ potlana
+- slug: abandonware
+  tn:
+    def: 'Serweboleta (software) se se sa tlholeng se tlhokomelwa kgotsa se tlhabololwa.
+
+      '
+    term: Matlotla
+- slug: api
+  tn:
+    def: 'Setlhotshwana sa ditiriso le ditsamaiso mo motlobong wa serweboleta (software
+      library), kgotsa mo Tirelong ya Webo (web service), se se gokaganyang motlobo
+      kana tirelo ya teng le Tiriso (app) e sele. Ga se khoutu, polokelotshedimosetso
+      kana sefara: ke seletlelelakgolagano.
+
+      '
+    term: Mekgwatiriso ya Segokaganyi (API)
+- slug: aliasing
+  tn:
+    def: 'Melawana e e salwang morago ke khompiutara/sebalamakgolo go rarabolola dikgwetlho
+      tse di amang tiriso ya tse di mo boranyaneng.
+
+      '
+    term: Melawana_tiriso
+- slug: bug
+  tn:
+    def: 'Sengwe se se sa siamang, se le borai mo khompiutareng/sebalamakgolo. Se
+      ka ama khompiutara/ sebalamakgolo le kitso e e mo go yone.
+
+      '
+    term: Mogare o o borai mo boranyaneng
+- slug: camel_case
+  tn:
+    def: 'Ke mokgwa wa go kwala dikaelo tsa khomputara ka go sa tsenye matshwao a
+      sekgala (space), thalela (`_`), khutlo (`.`) kana thaladi (`-`) mo maineng a
+      maemedi a boleng jo bo fetogang (variables) kana a dilo (objects). Mo godimo
+      ga moo, lefoko lengwe le lengwe mo maineng a le simolola ka tlhakakgolo. Dikai
+      tsa mokwalo o ke `CalculateSum` le `findPattern`.
+
+      '
+    term: Mokwalo wa Kamela
+- slug: byte
+  tn:
+    def: 'Selekanyetso sa kitso ya boranyane se se agiwang ka kitso ya dipalo tse
+      di ferang bobedi.
+
+      '
+    term: Selekanyetso_ kitso ya boranyane
+- slug: blob
+  tn:
+    def: 'Ke kitso e e beilweng e le mo seemong kana sedirisiweng se setona mo lefelong
+      le le lengwe fela.
+
+      '
+    term: Selekanyo sa kitso e e mo sedirisiweng se segolo
+- slug: byte_code
+  tn:
+    def: 'Melawana e e kaetsweng ka sekao e le mo setlhopheng go ka ntshiwa ke moranodi
+      ka tolamo.
+
+      '
+    term: Setlhopha sa melawana
+- slug: agile
+  tn:
+    def: 'thulaganyo ya go kwala khoutu ya dirweboleta (software) e e remeletseng
+      mo dikgatong-potlana tse di mmalwa le mo dikakgelong tse di tlhomameng, go na
+      le mo mananeong a sennella-ruri le togamaano ko tshimologong.
+
+      '
+    term: Tiro ya Potlako
+- slug: binary_expression
+  tn:
+    def: 'Ke tlhaloso e e supagalang mo diemong tse pedi.sekai...go ka tlhakanngwa
+      bongwe le bobedi.
+
+      '
+    term: Tlhaloso ka go tlhakanya dilo tse pedi.
+- slug: attribute
+  tn:
+    def: 'Tlhaloso ya mokgwa kana tsela ya mabeelo a kitso ka e nngwe,go lebeletswe   popego
+      ya kitso eo.
+
+      '
+    term: Tlhaloso_boleng jwa dilo/diteng

@@ -1,0 +1,451 @@
+- slug: abandonware
+  pt:
+    def: "Software que n\xE3o \xE9 mais mantido.\n"
+    term: abandonware
+- slug: aggregation
+  pt:
+    def: "Combinar v\xE1rios valores em um, por exemplo, somando um conjunto num\xE9\
+      rico ou concatenando um conjunto de caracteres.\n"
+    term: "agrega\xE7\xE3o"
+- slug: clustering
+  pt:
+    def: "O processo de dividir os dados em grupos quando os grupos em si n\xE3o s\xE3\
+      o conhecidos antecipadamente.\n"
+    term: agrupamento
+- slug: algorithm
+  pt:
+    def: "Um algoritmo \xE9 um conjunto de etapas, instru\xE7\xF5es ou regras a serem\
+      \ seguidas para realizar uma tarefa espec\xEDfica. Na ci\xEAncia da computa\xE7\
+      \xE3o, um algoritmo \xE9 um conjunto de instru\xE7\xF5es em um programa de computador\
+      \ que resolve um problema computacional.\n"
+    term: algoritmo
+- slug: anchor
+  pt:
+    def: "Em uma [express\xE3o regular](#regular_expression), \xE9 um s\xEDmbolo que\
+      \ fixa uma posi\xE7\xE3o sem caracteres correspondentes. `^` identifica o come\xE7\
+      o de uma linha, enquanto `$` indica o fim de uma linha e `\\b` identifica uma\
+      \ quebra entre caracteres que formam e que n\xE3o formam uma palavra.\n"
+    term: "\xE2ncora"
+- slug: argument
+  pt:
+    def: "O termo n\xE3o deve ser confundido com, e n\xE3o \xE9 sin\xF4nimo de, [par\xE2\
+      metro](#parameter). Um argumento \xE9 uma das poss\xEDveis express\xF5es que\
+      \ s\xE3o passadas para uma fun\xE7\xE3o. \xC9 o valor real que \xE9 transmitido.\
+      \ Par\xE2metros e argumentos s\xE3o conceitos distintos, mas relacionados. Par\xE2\
+      metros s\xE3o vari\xE1veis e argumentos s\xE3o os valores atribu\xEDdos a essas\
+      \ vari\xE1veis.\n"
+    term: argumento
+- slug: auto_completion
+  pt:
+    def: "Uma funcionalidade que permite a pessoa usu\xE1ria terminar uma palavra\
+      \ ou c\xF3digo rapidamente ao pressinar a tecla TAB para listar poss\xEDveis\
+      \ palavras ou c\xF3digos que podem ser escolhidos.\n"
+    term: auto-completar
+- slug: library
+  pt:
+    def: "Um pacote de programas reutiliz\xE1veis, tamb\xE9m frequentemente referido\
+      \ como um [m\xF3dulo](#module).\n"
+    term: biblioteca
+- slug: binary
+  pt:
+    def: "Um sistema que pode ter dois estados poss\xEDveis. Em computa\xE7\xE3o,\
+      \ frequentemente sendo no estado 0 ou 1. Representado na l\xF3gica [Booleana](#boolean)\
+      \ como [falso](#false) (0) ou [verdadeiro](#true) (1). Computadores s\xE3o constru\xED\
+      dos sobre sistemas que armazenam 0s e 1s como [bits](#bit).\n"
+    term: "bin\xE1rio"
+- slug: bit
+  pt:
+    def: "Uma unidade de informa\xE7\xE3o representando alternativas, sim/n\xE3o,\
+      \ [verdadeiro](#true)/[falso](#false). Em computa\xE7\xE3o, um estado de 0 ou\
+      \ 1.\n"
+    term: bit
+- slug: block_comment
+  pt:
+    def: "Um [coment\xE1rio](#comment) que abrange m\xFAltiplas linhas. Blocos de\
+      \ coment\xE1rios podem ser indicados com s\xEDmbolos especiais, como `/*` e\
+      \ `*/` em C e linguagens herdeiras dessa sintaxe, ou cada linha pode ser prefixada\
+      \ com uma indica\xE7\xE3o como `#`.\n"
+    term: "bloco de coment\xE1rio"
+- slug: boolean
+  pt:
+    def: "Relacionado a uma vari\xE1vel ou tipo de dado que pode ter um valor l\xF3\
+      gico de [verdadeiro](#true) ou [falso](#false). Nomeado em refer\xEAcia \xE0\
+      \ George Boole, um matem\xE1tico do s\xE9culo XIX. Sistemas bin\xE1rios, como\
+      \ todos os computadores, s\xE3o constru\xEDdos com base em sistemas de avalia\xE7\
+      \xE3o entre estados de verdadeiro e falso, 0 ou 1.\n"
+    term: Booleano
+- slug: absolute_path
+  pt:
+    def: "Um caminho que leva ao mesmo local no sistema de arquivos independente do\
+      \ contexto em que \xE9 avaliado. Um caminho absoluto pode ser comparado com\
+      \ a latitude e longitude em geografia.\n"
+    term: caminho absoluto
+- slug: relative_path
+  pt:
+    def: "Um caminho cujo destino \xE9 interpretado de maneira relativa a outro local,\
+      \ como o [diret\xF3rio de trabalho](#current_working_directory). Um caminho\
+      \ relativo \xE9 o equivalente a indicar um destino com termos como \"siga em\
+      \ frente\" e \"vire a esquerda\".\n"
+    term: caminho relativo
+- slug: cc_0
+  pt:
+    def: "Uma [licen\xE7a](#license) [Creative Commons](#cc_license) que n\xE3o imp\xF5\
+      e qualquer tipo de restri\xE7\xE3o, consequentemente colocando o trabalho em\
+      \ dom\xEDnio p\xFAblico.\n"
+    term: CC-0
+- slug: cc_by
+  pt:
+    def: "Uma [licen\xE7a](#license) [Creative Commons](#cc_license) com Atribui\xE7\
+      \xE3o, que requer que seja dado cr\xE9dito \xE0s pessoas autoras do trabalho,\
+      \ mas que n\xE3o imp\xF5e outras restri\xE7\xF5es.\n"
+    term: CC-BY
+- slug: centroid
+  pt:
+    def: "O centro ou \xE2ncora de um grupo criado por um algoritmo de [agrupamento](#clustering).\n"
+    term: "centr\xF3ide"
+- slug: data_science
+  pt:
+    def: "A combina\xE7\xE3o de estat\xEDstica, programa\xE7\xE3o e trabalho duro\
+      \ usados para extrair conhecimento a partir de dados.\n"
+    term: "ci\xEAncia de dados"
+- slug: data_scientist
+  pt:
+    def: "Algu\xE9m que usa habilidades de programa\xE7\xE3o para resolver problemas\
+      \ estat\xEDsticos.\n"
+    term: cientista de dados
+- slug: parent_class
+  pt:
+    def: "Em [programa\xE7\xE3o orientada a objetos](#oop), a classe a partir da qual\
+      \ outra classe (chamada [classe derivada](#child_class)) \xE9 produzida.\n"
+    term: classe base
+- slug: child_class
+  pt:
+    def: "Em [programa\xE7\xE3o orientada a objetos](#oop), a classe derivada de uma\
+      \ outra classe (chamada de [classe base](#parent_class)).\n"
+    term: classe derivada
+- slug: correlation_coefficient
+  pt:
+    def: "Uma medida do qu\xE3o bem duas vari\xE1veis est\xE3o [correlacionadas](#correlation).\
+      \ Se o [coeficiente de correla\xE7\xE3o](#correlation_coefficient) entre X e\
+      \ Y for 1.0, conhecer X permite uma previs\xE3o perfeita de Y. Se o coeficiente\
+      \ de correla\xE7\xE3o for 0.0, conhecer X n\xE3o diz nada a respeito de Y, e\
+      \ se for -1.0, ent\xE3o X prev\xEA Y, mas mudan\xE7as no valor de X gera uma\
+      \ mudan\xE7a oposta em Y.\n"
+    term: "coeficiente de correla\xE7\xE3o"
+- slug: comment
+  pt:
+    def: "Texto escrito em um script que n\xE3o \xE9 tratado como c\xF3digo a ser\
+      \ executado, e sim como texto que descreve o que o c\xF3digo est\xE1 fazendo.\
+      \ Normalmente \xE9 formado por notas curtas, frequentemente come\xE7ando com\
+      \ um `#` (em v\xE1rias linguagens de programa\xE7\xE3o).\n"
+    term: "coment\xE1rio"
+- slug: line_comment
+  pt:
+    def: "Um [coment\xE1rio](#comment) em um programa que abrange parte de uma \xFA\
+      nica linha, em contraste a um [bloco de coment\xE1rio](#block_comment) que pode\
+      \ abranger m\xFAtiplas linhas.\n"
+    term: "coment\xE1rio de linha"
+- slug: backward_compatible
+  pt:
+    def: "Software que pode ser usado da mesma maneira que vers\xE3o anteriores de\
+      \ si mesmo sem problemas. Tamb\xE9m \xE9 chamado de retrocompatibilidade.\n"
+    term: compatibilidade reversa
+- slug: correlation
+  pt:
+    def: "O qu\xE3o bem duas vari\xE1veis concordam uma com a outra. A correla\xE7\
+      \xE3o \xE9 normalmente medida pelo c\xE1lculo de um [coeficiente de correla\xE7\
+      \xE3o](#correlation_coefficient), e n\xE3o significa que precise existir causalidade.\n"
+    term: "correla\xE7\xE3o"
+- slug: covariance
+  pt:
+    def: "O qu\xE3o bem duas vari\xE1veis concordam uma com a outra. O [coeficiente\
+      \ de correla\xE7\xE3o](#correlation_coefficient) \xE9 uma medida normalizada\
+      \ da covari\xE2ncia.\n"
+    term: "covari\xE2ncia"
+- slug: wildcard
+  pt:
+    def: "Um curinga, ou caracter curinga, \xE9 um caracter que corresponde a qualquer\
+      \ texto, como o `*` em `*.csv` (que corresponde a qualquer arquivo cujo nome\
+      \ termina em `*.csv`).\n"
+    term: curinga
+- slug: decrement
+  pt:
+    def: "Uma opera\xE7\xE3o un\xE1ria que diminui o valor de uma vari\xE1vel, geralmente\
+      \ em um.\n"
+    term: decrementar
+- slug: debug
+  pt:
+    def: "Em um ambiente de computador, 'debug' refere-se ao processo de encontrar\
+      \ e resolver erros (tamb\xE9m conhecidos como 'bugs') em programas ou sistemas\
+      \ de computador.\n"
+    term: depurar
+- slug: agile
+  pt:
+    def: "Um m\xE9todo de desenvolvimento de software que enfatiza v\xE1rios passos\
+      \ pequenos e feedback cont\xEDnuo ao inv\xE9s de planejamento de longo prazo.\
+      \ [Programa\xE7\xE3o explorat\xF3ria](#exploratory_programming) costuma ser\
+      \ \xE1gil.\n"
+    term: "desenvolvimento \xE1gil"
+- slug: standard_deviation
+  pt:
+    def: "O quanto os valores de um conjunto de dados diferem da [m\xE9dia](#mean).\
+      \ \xC9 calculado como a raiz quadrada da [vari\xE2ncia](#variance).\n"
+    term: "desvio padr\xE3o"
+- slug: current_working_directory
+  pt:
+    def: "O local, pasta ou diret\xF3rio, em que o programa est\xE1 operando. Qualquer\
+      \ a\xE7\xE3o do programa acontece relativa a esse diret\xF3rio.\n"
+    term: "diret\xF3rio de trabalho"
+- slug: binomial_distribution
+  pt:
+    def: "Uma [distribui\xE7\xE3o de probabilidade](#probability_distribution) que\
+      \ emerge quando h\xE1 um n\xFAmero fixo de tentativas, cada uma das quais podendo\
+      \ produzir um de dois resultados e quando a probabilidade destes resultados\
+      \ n\xE3o muda. Na medida em que o n\xFAmero de tentativas aumenta, a distribui\xE7\
+      \xE3o binomial se aproxima da [distribui\xE7\xE3o normal](#normal_distribution).\n"
+    term: "distribui\xE7\xE3o binomial"
+- slug: standard_normal_distribution
+  pt:
+    def: "Uma [distribui\xE7\xE3o normal](#normal_distribution) com uma m\xE9dia 0\
+      \ e um [desvio padr\xE3o](#standard_deviation) de 1. Valores de distribui\xE7\
+      \xF5es normais com outros par\xE2metros podem ser facilmente redimensionados\
+      \ para obter-se uma distribui\xE7\xE3o normal padr\xE3o.\n"
+    term: "distribui\xE7\xE3o normal padr\xE3o"
+- slug: absolute_error
+  pt:
+    def: "O valor absoluto da diferen\xE7a entre um valor observado e o valor correto.\
+      \ O erro absoluto \xE9 normalmente menos \xFAtil do que o [erro relativo](#relative_error).\n"
+    term: erro absoluto
+- slug: relative_error
+  pt:
+    def: "O valor absoluto da diferen\xE7a entre um valor observado e o valor correto,\
+      \ dividido pelo vaor correto. Por exemplo, se o valor observado \xE9 9 e o correto\
+      \ \xE9 10, o erro relativo \xE9 0.1. Erro relativo \xE9 normalmente mais \xFA\
+      til do que o [erro absoluto](#absolute_error).\n"
+    term: erro relativo
+- slug: whitespace
+  pt:
+    def: "O espa\xE7o, nova linha, quebra de linha, ou tabula\xE7\xE3o horizontal\
+      \ ou vertical que ocupe um espa\xE7o mas n\xE3o crie uma marca vis\xEDvel. O\
+      \ nome vem de sua apar\xEAncia em um papel impresso da era das das m\xE1quinas\
+      \ de escrever.\n"
+    term: "espa\xE7o em branco"
+- slug: binary_expression
+  pt:
+    def: "Uma express\xE3o com dois argumentos ou par\xE2metros, como `1 + 2`, por\
+      \ exemplo.\n"
+    term: "express\xE3o bin\xE1ria"
+- slug: false_negative
+  pt:
+    def: "Dados ou resultados que s\xE3o realmente [verdadeiro](#true), mas s\xE3\
+      o incorretamente previstos como [falso](#false).\n"
+    term: falso negativo
+- slug: false_positive
+  pt:
+    def: "Dados ou resultados que s\xE3o realmente [falso](#false), mas s\xE3o incorretamente\
+      \ previstos como [verdadeiro](#true) pelo algoritmo\n"
+    term: falso positivo
+- slug: aggregation_function
+  pt:
+    def: "Uma fun\xE7\xE3o que combina muitos valores em um s\xF3, como `sum` ou `max`.\n"
+    term: "fun\xE7\xE3o de agrega\xE7\xE3o"
+- slug: generic_function
+  pt:
+    def: "Um conjunto de fun\xE7\xF5es com prop\xF3sito similar, cada uma operando\
+      \ em uma classe diferente de dados.\n"
+    term: "fun\xE7\xE3o gen\xE9rica"
+- slug: git
+  pt:
+    def: "Uma ferramenta de controle de vers\xE3o para registrar e gerenciar mudan\xE7\
+      as em um projeto.\n"
+    term: Git
+- slug: git_branch
+  pt:
+    def: "Uma fotografia de uma vers\xE3o de um reposit\xF3rio Git. M\xFAltiplos branches\
+      \ podem capturar m\xFAltiplas vers\xF5es de um mesmo reposit\xF3rio.\n"
+    term: Git branch
+- slug: github
+  pt:
+    def: "Uma plataforma baseada em nuvem constru\xEDda em torno do [Git](#git) que\
+      \ permite salvar vers\xF5es do seu projeto online e colaborar com outras pessoas\
+      \ usu\xE1rias do Git.\n"
+    term: GitHub
+- slug: null_hypothesis
+  pt:
+    def: "A afirma\xE7\xE3o de que quaisquer padr\xF5es observados nos dados foram\
+      \ gerados inteiramente ao acaso. Outras afirma\xE7\xF5es (por exemplo, \"X causa\
+      \ Y\") devem ser mais prov\xE1veis de acontecer do que a hip\xF3tese nula para\
+      \ que possam ser sustentadas.\n"
+    term: "hip\xF3tese nula"
+- slug: increment
+  pt:
+    def: "Uma opera\xE7\xE3o un\xE1ria que aumenta o valor de uma vari\xE1vel, geralmente\
+      \ em um.\n"
+    term: incrementar
+- slug: gui
+  pt:
+    def: "Uma interface de usu\xE1rio cujo uso depende de janelas, menus, ponteiros\
+      \ e outros elementos gr\xE1ficos, em oposi\xE7\xE3o a uma [interface de linha\
+      \ de comando](#cli) ou interface comandada por voz.\n"
+    term: "interface gr\xE1fica de usu\xE1rio"
+- slug: cc_license
+  pt:
+    def: "Um conjunto de [licen\xE7as](#license) que podem ser aplicadas \xE0 trabalhos\
+      \ publicados. Cada licen\xE7a \xE9 formada pela concatena\xE7\xE3o de um ou\
+      \ mais dos termos a seguir: `-BY` (Atribui\xE7\xE3o): pessoas usu\xE1rias devem\
+      \ citar a fonte original; `-SA` (CompartilhaIgual): pessoas usu\xE1rias devem\
+      \ compartilhar o seu pr\xF3prio trabalho utilizando uma licen\xE7a similar;\
+      \ `-NC` (N\xE3oComercial): o trabalho n\xE3o pode ser usado para fins comerciais\
+      \ sem a permiss\xE3o das pessoas criadoras; `-ND` (SemDeriva\xE7\xF5es): nenhum\
+      \ trabalho derivado (como tradu\xE7\xF5es, por exemplo) pode ser criado sem\
+      \ a permiss\xE3o das pessoas criadoras. Assim, `CC-BY-NC` quer dizer \"pessoas\
+      \ usu\xE1rias devem atribuir autoria e n\xE3o podem o conte\xFAdo de forma comercial\
+      \ sem permiss\xE3o\". O termo `CC-0` (zero, n\xE3o a letra 'O') \xE9 \xE0s vezes\
+      \ usado com o sentido de \"sem restri\xE7\xF5es\", isto \xE9, que o trabalho\
+      \ \xE9 de dom\xEDnio p\xFAblico.\n"
+    term: "Licen\xE7a Creative Commons"
+- slug: mean
+  pt:
+    def: "O valor m\xE9dio de um conjunto de dados, mais apropriadamente conhecido\
+      \ como [m\xE9dia aritm\xE9tica](#arithmetic_mean) para que seja distinguido\
+      \ da m\xE9dia [geom\xE9trica](#geometric_mean) e da [harm\xF4nica](#harmonic_mean).\n"
+    term: "m\xE9dia"
+- slug: arithmetic_mean
+  pt:
+    def: "Veja [m\xE9dia](#mean).\n"
+    term: "m\xE9dia aritm\xE9tica"
+- slug: abstract_method
+  pt:
+    def: "In [programa\xE7\xE3o orientada a objetos](#oop), um [m\xE9todo](#method)\
+      \ que \xE9 definido mas n\xE3o implementado. Pessoas programadoras definem um\
+      \ m\xE9todo abstrato em uma [classe base](#parent_class) para especificar opera\xE7\
+      \xF5es que as [classes derivadas](#child_class) devem prover.\n"
+    term: "m\xE9todo abstrato"
+- slug: absolute_row_number
+  pt:
+    def: "O \xEDndice sequencial de uma linha em uma tabela, independente de qual\
+      \ se\xE7\xE3o da tabela est\xE1 sendo exibida.\n"
+    term: "n\xFAmero de linha absoluto"
+- slug: relative_row_number
+  pt:
+    def: "O \xEDndice de uma linha em uma parte da tabela em exibi\xE7\xE3o, que pode\
+      \ ou n\xE3o ser igual ao [n\xFAmero de linha absoluto](#absolute_row_number)\
+      \ na tabela.\n"
+    term: "n\xFAmero de linha relativo"
+- slug: numpy
+  pt:
+    def: "\xC9 um pacote Python de c\xF3digo aberto que permite trabalhar com arrays,\
+      \ vetores e matrizes de dimens\xE3o N, em um m\xE9todo compar\xE1vel e com uma\
+      \ sintaxe semelhante ao software Matlab. Voc\xEA pode encontrar fun\xE7\xF5\
+      es e opera\xE7\xF5es sofisticadas, focadas em arrays multidimensionais, \xE1\
+      lgebra linear, transformada de Fourrier e gera\xE7\xE3o de valores aleat\xF3\
+      rios.\n"
+    term: numpy
+- slug: pandas
+  pt:
+    def: "\xC9 um pacote Python de c\xF3digo aberto que oferece estruturas de dados\
+      \ r\xE1pidas, flex\xEDveis e expressivas para tornar o trabalho com dados estruturados\
+      \ e s\xE9ries temporais f\xE1cil e intuitivo. \xC9 usado como uma ferramenta\
+      \ poderosa para an\xE1lise e manipula\xE7\xE3o de dados.\n"
+    term: pandas
+- slug: parameter
+  pt:
+    def: "Uma vari\xE1vel especificada na defini\xE7\xE3o de uma fun\xE7\xE3o, cujo\
+      \ valor \xE9 passado para a fun\xE7\xE3o quando ela \xE9 invocada. O par\xE2\
+      metro \xE9 a vari\xE1vel, enquanto seu valor dentro da fun\xE7\xE3o \xE9 um\
+      \ [argumento](#argument). Par\xE2metro e argumento s\xE3o termos relacionados,\
+      \ mas diferentes.\n"
+    term: "par\xE2metro"
+- slug: reproducible_research
+  pt:
+    def: "A pr\xE1tica de escrever e documentar resultados de pesquisa de forma que\
+      \ outras pessoas pesquisadoras possam executar novamente o c\xF3digo de an\xE1\
+      lise com os mesmos dados para obter os mesmos resultados.\n"
+    term: "pesquisa reprodut\xEDvel"
+- slug: oop
+  pt:
+    def: "Um paradigma de programa\xE7\xE3o no qual dados (atributos) e fun\xE7\xF5\
+      es (m\xE9todos) s\xE3o encapsulados em objetos que interagem entre si por meio\
+      \ de interfaces bem definidas.\n"
+    term: "programa\xE7\xE3o orientada a objetos"
+- slug: python
+  pt:
+    def: "Uma popular linguagem de programa\xE7\xE3o interpretada, de c\xF3digo aberto,\
+      \  que depende de indenta\xE7\xE3o para definir a estrutura de controle.\n"
+    term: Python
+- slug: r_language
+  pt:
+    def: "Uma linguagem de programa\xE7\xE3o de c\xF3digo aberto usada principalmente\
+      \ para ci\xEAncia de dados.\n"
+    term: "R (linguagem de programa\xE7\xE3o)"
+- slug: base_r
+  pt:
+    def: "As fun\xE7\xF5es b\xE1sicas que comp\xF5e a linguagem [R](#r_language).\
+      \ Os pacotes de base podem ser encontrados em `src/library` e n\xE3o s\xE3o\
+      \ atualizados fora do R; eles seguem a numera\xE7\xE3o de vers\xE3o do pr\xF3\
+      prio R. Pacotes de base s\xE3o instalados e carregados junto do R, enquanto\
+      \ pacotes priorit\xE1rios s\xE3o instalados com o R base mas precisam ser carregados\
+      \ antes do uso.\n"
+    term: R base
+- slug: 68_95_997_rule
+  pt:
+    def: "Expressa o fato de que 68% dos valores est\xE3o dentro de um [desvio padr\xE3\
+      o](#standard_deviation) da [m\xE9dia](#mean), 95% est\xE3o dentro de dois e\
+      \ 99,7% est\xE3o dentro de tr\xEAs. Inversamente, aproximadamente 0,3% dos valores\
+      \ est\xE3o mais do que tr\xEAs desvios padr\xF5es acima ou abaixo da m\xE9dia\
+      \ na maioria dos casos.\n"
+    term: regra 68-95-99,7
+- slug: repository
+  pt:
+    def: "Um local onde um [sistema de controle de vers\xE3o](#version_control_system)\
+      \ armazena os arquivos que comp\xF5em um projeto e os metadados que descrevem\
+      \ sua hist\xF3ria.\n"
+    term: "reposit\xF3rio"
+- slug: version_control_system
+  pt:
+    def: "Um sistema para gerenciar as mudan\xE7as feitas em um software durante o\
+      \ seu desenvolvimento.\n"
+    term: "sistema de controle de vers\xE3o"
+- slug: stack_overflow
+  pt:
+    def: 'Um site de perguntas e respostas popular entre pessoas programadoras.
+
+      '
+    term: Stack Overflow
+- slug: tidyverse
+  pt:
+    def: "Uma cole\xE7\xE3o de pacotes de [R](#r_language) para trabalhar de forma\
+      \ consistente com dados tabulares.\n"
+    term: Tidyverse
+- slug: default_value
+  pt:
+    def: "Valor associado ao [par\xE2metro](#parameter) de uma fun\xE7\xE3o quando\
+      \ o operador n\xE3o especifica um valor. Valores por defeito fazem parte da\
+      \ defini\xE7\xE3o de uma fun\xE7\xE3o.\n"
+    term: valor por defeito
+- slug: dependent_variable
+  pt:
+    def: "Uma vari\xE1vel cujo valor dependa do valor de outra vari\xE1vel, que \xE9\
+      \ chamada de [vari\xE1vel independente](#independent_variable).\n"
+    term: "vari\xE1vel dependente"
+- slug: bias
+  pt:
+    def: "Uma estat\xEDstica \xE9 enviesada se estiver sistem\xE1tica ou consistentemente\
+      \ diferente do par\xE2metro que deveria estimar.\n"
+    term: "vi\xE9s"
+- slug: xml
+  pt:
+    def: "Um conjunto de regras para se definir etiquetas similares a [HTML](#html)\
+      \ e us\xE1-las para formatar documentos (normalmente, dados). XML foi popular\
+      \ no in\xEDcio dos anos 2000, mas sua complexidade fez com que muitas pessoas\
+      \ programadoras adotassem [JSON](#json) em seu lugar.\n"
+    term: XML
+- slug: yaml
+  pt:
+    def: "Acr\xF4nimo recursivo de \"YAML Ain't Markup Language\" (YAML n\xE3o \xE9\
+      \ uma linguagem de marca\xE7\xE3o), \xE9 uma maneira de representar dados aninhados\
+      \ usando recuos (tamb\xE9m chamados de indenta\xE7\xF5es) no lugar de par\xEA\
+      nteses e v\xEDrgulas usados em [JSON](#json). YAML \xE9 frequentemente usado\
+      \ em arquivos de configura\xE7\xE3o e na defini\xE7\xE3o de [par\xE2metros](#parameter)\
+      \ para v\xE1rios estilos de documentos em [Markdown](#markdown).\n"
+    term: YAML

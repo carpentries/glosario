@@ -1,0 +1,21 @@
+- slug: binary_expression
+  nl:
+    def: 'Een expressie met twee parameters of argumenten, zoals `1 + 2`.
+
+      '
+    term: binaire expressie
+- slug: bit
+  nl:
+    def: 'Een eenheid van informatie, die alternatieven representeert, zoals ja/nee,
+      waar/onwaar. In de informatica wordt dit gerepresenteerd als een 0 of een 1.
+
+      '
+    term: bit
+- slug: wildcard
+  nl:
+    def: 'Een teken dat gebruikt kan worden om een overeenkomst met een reeks van
+      tekens uit te drukken. Bijvoorbeeld, de `*` in `*.csv` (welke overeenkomt met
+      elke bestandsnaam die eindigt in `.csv`).
+
+      '
+    term: joker

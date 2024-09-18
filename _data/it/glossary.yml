@@ -1,0 +1,86 @@
+- slug: abandonware
+  it:
+    def: "\"Un software abbandonato, non pi\xF9 mantenuto\"\n"
+    term: abandonware
+- slug: algorithm
+  it:
+    def: "Un algoritmo \xE8 una sequenza finita di operazioni da eseguire al fine\
+      \ di realizzare un certo compito. In informatica, un algoritmo \xE8 una sequenza\
+      \ finita di istruzioni presenti in un programma che permette di risolvere un\
+      \ problema computazionale.\n"
+    term: algoritmo
+- slug: standard_deviation
+  it:
+    def: "Misura della distanza dei valori dalla loro [media](#mean). \xC8 calcolata\
+      \ come la radice quadrata della [varianza](#variance).\n"
+    term: deviazione standard
+- slug: absolute_error
+  it:
+    def: "La differenza in valore assoluto tra il valore osservato e il valore corretto.\
+      \ L'errore assoluto \xE8 in genere meno utile dell'[errore relativo](#relative_error).\n"
+    term: errore assoluto
+- slug: relative_error
+  it:
+    def: "Errore assoluto diviso il valore assoluto del valore corretto. Ad esempio,\
+      \ se il valore osservato \xE8 9 e il valore corretto \xE8 10, l'errore relativo\
+      \ \xE8 0,1. L'errore relativo \xE8 spesso pi\xF9 utile dell'[errore assoluto](#absolute_error).\n"
+    term: errore relativo
+- slug: mean
+  it:
+    def: 'Rapporto tra la somma dei valori e il numero di valori. Chiamata anche [media
+      aritmetica](#arithmetic_mean) per distinguerla dalla [media geometrica](#geometric_mean)
+      e dalla [media armonica](#harmonic_mean).
+
+      '
+    term: media
+- slug: arithmetic_mean
+  it:
+    def: 'Vedi [media](#mean).
+
+      '
+    term: media aritmetica
+- slug: abstract_method
+  it:
+    def: "In [programmazione orientata agli oggetti](#oop), un [metodo](#method) che\
+      \ \xE8 definito ma non implementato. Il programmatore definisce un metodo astratto\
+      \ in una [classe padre](#parent_class) per specificare delle operazioni che\
+      \ la [classe figlia](#child_class) deve implementare.\n"
+    term: metodo astratto
+- slug: absolute_row_number
+  it:
+    def: 'Indice sequenziale di una riga in una tabella, indipendetemente da quale
+      sezione della tabella sia visualizzata.
+
+      '
+    term: numero di riga assoluto
+- slug: absolute_path
+  it:
+    def: "Un percorso a un file che punta allo stesso luogo nel [filesystem](#filesystem)\
+      \ indipendentemente da dove venga valutato. Un percorso assoluto del file \xE8\
+      \ l'equivalente di latitudine e longitudine in geografia.\n"
+    term: percorso assoluto del file
+- slug: python
+  it:
+    def: 'Un linguaggio di programmazione open-source (pubblicamente accessibile),
+      orientato a oggetti, interpretato (non necessita di compilazione) e che utlizza
+      l''indentazione per definire le strutture di controllo.
+
+      '
+    term: Python
+- slug: 68_95_997_rule
+  it:
+    def: 'Esprime il fatto che il 68% dei valori si trova entro una [deviazione standard](#standard_deviation)
+      dalla [media](#mean), il 95% entro due deviazioni standard e il 99,7% entro
+      tre. Al contrario, circa lo 0,3% dei valori si trova oltre tre deviazioni standard
+      sopra o sotto la media.
+
+      '
+    term: regola 68-95-99,7
+- slug: variance
+  it:
+    def: "Misura della distanza dei valori dalla loro [media](#mean). \xC8 calcolata\
+      \ come la media dei quadrati delle differenze tra i valori e la loro media.\
+      \ La [deviazione standard](#standard_deviation) \xE8 spesso usata al posto della\
+      \ varianza, perch\xE9 ha la stessa unit\xE0 di misura dei dati, mentre la varianza\
+      \ \xE8 misurata nell'unit\xE0 al quadrato.\n"
+    term: varianza

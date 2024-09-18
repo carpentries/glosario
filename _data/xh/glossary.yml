@@ -1,0 +1,14 @@
+- slug: module
+  xh:
+    def: '[Iphakheji yesoftware](#package) enokuphinda isebenze, ekwabizwa ngokuba
+      [yilayibrari](#library)
+
+      '
+    term: Imodyuli
+- slug: bias
+  xh:
+    def: 'Ubalo-manani lunomkhethe ukuba lwenziwe ngendlela echanekileyo okanye ngokungaguquguqukiyo
+      ngokwahlukileyo kwiparameter emele ukuba iqikelele.
+
+      '
+    term: Umkhethe

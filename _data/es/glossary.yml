@@ -1,0 +1,906 @@
+- slug: plus_one
+  es:
+    def: 'Un voto a favor de alguna cosa.
+
+      '
+    term: '+1'
+- slug: abandonware
+  es:
+    def: 'Software cuyo mantenimiento ha sido abandonado.
+
+      '
+    term: abandonware
+- slug: aggregation
+  es:
+    def: "Combinar muchos valores en uno, por ejemplo, sumando una serie de n\xFA\
+      meros o concatenando un conjunto de cadenas de caracteres.\n"
+    term: "agregaci\xF3n"
+- slug: algorithm
+  es:
+    def: "Un algoritmo es un conjunto de pasos, instrucciones o reglas que se han\
+      \ de seguir para llevar a cabo una tarea espec\xEDfica. En inform\xE1tica, un\
+      \ algoritmo es un conjunto de instrucciones en un programa inform\xE1tico que\
+      \ resuelve un problema computacional.\n"
+    term: algoritmo
+- slug: aliasing
+  es:
+    def: "Solapamiento. Tener dos o m\xE1s referencias al mismo objeto, por ejemplo\
+      \ como estructura de datos en memoria o como archivo guardado en disco.\n"
+    term: aliasing
+- slug: anchor
+  es:
+    def: "En una [expresi\xF3n regular](#regular_expression), el s\xEDmbolo que fija\
+      \ una posici\xF3n sin coincidir con caracteres. `^` coincide con un inicio de\
+      \ l\xEDnea, `$` con el final y `\\b` con un l\xEDmite de palabra.\n"
+    term: ancla
+- slug: anti_join
+  es:
+    def: "Una [uni\xF3n](#join) que conserva las filas de la tabla A cuyas claves\
+      \ *no* coinciden con las de la tabla B.\n"
+    term: anti join
+- slug: unsupervised_learning
+  es:
+    def: 'Un tipo de algoritmos que aprenden patrones a partir de datos sin anotar/etiquetar.
+
+      '
+    term: aprendizaje no supervisado
+- slug: deep_learning
+  es:
+    def: "Una familia de algoritmos de redes neuronales que utilizan m\xFAltiples\
+      \ capas  para extraer atributos de los datos a niveles de abstracci\xF3n sucesivamente\
+      \ m\xE1s altos.\n"
+    term: Aprendizaje profundo
+- slug: supervised_learning
+  es:
+    def: 'Tipo de algoritmos en los que el sistema aprende patrones a partir de [datos
+      de entrenamiento](#training_data) anotados/etiquetados.
+
+      '
+    term: aprendizaje supervisado
+- slug: argument
+  es:
+    def: "El t\xE9rmino no debe ser confundido con, ni es sin\xF3nimo de, [par\xE1\
+      metro](#parameter). Un argumento es una de posiblemente varias expresiones que\
+      \ son pasadas a una funci\xF3n. Es el valor real que se pasa. Par\xE1metros\
+      \ y argumentos son conceptos distintos pero relacionados. Los par\xE1metros\
+      \ son variables y los argumentos son los valores asignados a esas variables.\n"
+    term: argumento
+- slug: ascii
+  es:
+    def: "Manera est\xE1ndar de representar los caracteres com\xFAnmente usados en\
+      \ lenguajes de Europa Occidental como enteros de 7- u 8-[bits](#bit), ahora\
+      \ reemplazado por [Unicode](#unicode).\n"
+    term: ASCII
+- slug: asynchronous
+  es:
+    def: "No sucediendo al mismo tiempo. En programaci\xF3n, una operaci\xF3n asincr\xF3\
+      nica es una que corre independientemente de otra, o que comienza en un tiempo\
+      \ y termina en otro.\n"
+    term: "asincr\xF3nico"
+- slug: attribute
+  es:
+    def: 'Una pareja nombre-valor asociada a un objeto, usada para almacenar metadatos
+      sobre el objeto como, por ejemplo, las dimensiones de un arreglo.
+
+      '
+    term: atributo
+- slug: auto_completion
+  es:
+    def: "Funcionalidad que le permite a una persona usuaria terminar una palabra\
+      \ o c\xF3digo rapidamente pulsando la tecla TAB para que aparezca una lista\
+      \ de posibles palabras o c\xF3digos entre los que el usuario puede seleccionar\
+      \ la funci\xF3n que necesite.\n"
+    term: auto-completar
+- slug: autocorrelation
+  es:
+    def: "El grado de similitud entre observaciones en la misma serie temporal (tambi\xE9\
+      n conocida como serie de tiempo), pero separadas por un intervalo de tiempo\
+      \  (conocido como el \"rezago\"). El an\xE1lisis de autocorrelaci\xF3n se puede\
+      \ usar para conocer m\xE1s informaci\xF3n  sobre conjuntos de datos que son\
+      \ series temporales al detectar patrones repetitivos que pueden estar parcialmente\
+      \  ocultos por el ruido aleatorio, entre otros usos.\n"
+    term: "autocorrelaci\xF3n"
+- slug: relational_database
+  es:
+    def: "Una base de datos que organiza la informaci\xF3n en [tablas](#table), cada\
+      \ una de las cuales tiene un set fijo de [campos](#field) con nombre (que se\
+      \ muestran como columnas) y un n\xFAmero variable de [registros](#record) (que\
+      \ se muestran como filas).\n"
+    term: base de datos relacional
+- slug: library
+  es:
+    def: "un paquete de software reutilizable, tambi\xE9n  se llama un [m\xF3dulo](#module).\n"
+    term: biblioteca
+- slug: big_data
+  es:
+    def: 'Cualquier dato que hasta hace poco tiempo era muy grande para que la mayoria
+      de las personas pudieran trabajar con ellos en una sola computadora.
+
+      '
+    term: Big Data
+- slug: bit
+  es:
+    def: "Unidad de informaci\xF3n representando alternativas s\xED/no, [verdadero](#true)/[falso](#false).\
+      \ En computaci\xF3n, un estado de ser 0 \xF3 1.\n"
+    term: bit
+- slug: boolean
+  es:
+    def: "Relacionado a una variable o tipo de dato que puede tomar un valor l\xF3\
+      gico. Un valor l\xF3gico puede ser [verdadero](#true) o [falso](#false). El\
+      \ termino \"booleano\" viene en honor a George Boole, un matematico del siglo\
+      \ XIX. El concepto del computador esta fundamentado en el sistema binario, en\
+      \ el qual se evalua entre estados de verdedero o falso.\n"
+    term: Booleano
+- slug: bug
+  es:
+    def: "Una [caraster\xEDstica](#feature_software) faltante o indeseada de un software.\n"
+    term: bug
+- slug: byte
+  es:
+    def: "Unidad de informaci\xF3n digital que t\xEDpicamente consiste de ocho d\xED\
+      gitos [binarios](#binary), o [bits](#bit).\n"
+    term: byte
+- slug: cache
+  es:
+    def: "Algo que guarda copias de datos para que futuras consultas puedan ser respondidas\
+      \ m\xE1s r\xE1pido. El CPU de una computadora usa un cache de hardware para\
+      \ guardar valores recientemente accedidos; muchos programas dependen de un cache\
+      \ de software para disminuir el tr\xE1fico y latencia de red. Averiguar cuando\
+      \ algo en cache se ha vuelto anticuado y debe ser reemplazado es uno de los\
+      \ [dos problemas dif\xEDciles de la ciencia de computaci\xF3n](#two_hard_problems).\n"
+    term: cache
+- slug: caching
+  es:
+    def: "Guardar una copia de alg\xFAn dato en el [cach\xE9](#cache) local para hacer\
+      \ su acceso futuro m\xE1s r\xE1pido.\n"
+    term: caching
+- slug: hidden_layer
+  es:
+    def: "Una capa oculta en una [red neuronal](#neural_network) hace referencia a\
+      \ las capas de neuronas que no est\xE1n directamente conectadas al ingreso o\
+      \ salida de informaci\xF3n. Las capas est\xE1n \"escondidas\" porque no puedes\
+      \ observar directamente el ingreso y salida de valores.\n"
+    term: capa oculta (deep learning)
+- slug: folder
+  es:
+    def: "Otro t\xE9rmino para hacer referencia a un [directorio](#directory).\n"
+    term: carpeta
+- slug: cc_0
+  es:
+    def: "Una [licencia](#license) de [Creative Commons](#cc_license) que no impone\
+      \ ninguna restricci\xF3n, por lo que pone a la obra en dominio p\xFAblico.\n"
+    term: CC-0
+- slug: loop
+  es:
+    def: "Tambi\xE9n conocido como bucle. Estructura que ejecuta un bloque de c\xF3\
+      digo repetidamente hasta que se cumple una condici\xF3n de salida o fin.\n"
+    term: ciclo
+- slug: for_loop
+  es:
+    def: "Tambi\xE9n conocido como bucle for. Estructura dentro de un programa que\
+      \ repite una o m\xE1s instrucciones (el [cuerpo del ciclo o bucle](#loop_body))\
+      \  una vez por cada elemento de una secuencia, por ejemplo, cada n\xFAmero dentro\
+      \ de un rango o cada elemento de una lista. \n"
+    term: ciclo for
+- slug: while_loop
+  es:
+    def: "Tambi\xE9n conocido como bucle while. Estructura dentro de un programa que\
+      \ repite una o m\xE1s instrucciones (el [cuerpo del ciclo o bucle](#loop_body))\
+      \ mientras una condici\xF3n sea [verdadera](#true).\n"
+    term: ciclo while
+- slug: data_science
+  es:
+    def: "La combinaci\xF3n de estad\xEDsticas, programaci\xF3n y trabajo duro que\
+      \ se utiliza para extraer informaci\xF3n de los datos.\n"
+    term: ciencia de datos
+- slug: data_scientist
+  es:
+    def: "Alguien que usa habilidades de programaci\xF3n para resolver problemas de\
+      \ estad\xEDsticas.\n"
+    term: cientifico/cientifica de datos
+- slug: class
+  es:
+    def: "En [programaci\xF3n orientada a objetos](#oop), es una estructura que combina\
+      \ datos y operaciones (denominadas [m\xE9todos](#method)). El programa emplea\
+      \ un [constructor](#constructor) para crear un [objeto](#object) con esas propiedades\
+      \ y m\xE9todos. Los programadores generalmente definen comportamientos gen\xE9\
+      ricos o reutilizables en [superclases](#parent_class) y comportamientos m\xE1\
+      s espec\xEDficos o detallados en [subclases](#child_class).\n"
+    term: clase
+- slug: classification
+  es:
+    def: "El proceso de identificar a que categor\xEDa predefinida pertenece un objeto,\
+      \ como, por ejemplo, decidir si un mensaje de correo electr\xF3nico es spam\
+      \ o no. Muchos algoritmos de [machine learning](#machine_learning) realizan\
+      \ clasificaci\xF3n.\n"
+    term: "clasificaci\xF3n"
+- slug: character_encoding
+  es:
+    def: "Especificaci\xF3n sobre c\xF3mo los caracteres est\xE1n guardados como bytes.\
+      \ En la actualidad, la codificaci\xF3n m\xE1s utilizada es [UTF-8](#utf_8).\n"
+    term: "codificaci\xF3n de caracteres"
+- slug: high_performance_computing
+  es:
+    def: "M\xE9todo que utiliza procesadores poderosos, usualmente trabajando en paralelo,\
+      \ para analizar datos. Su uso adecuado reduce el tiempo de an\xE1lisis en comparaci\xF3\
+      n con una computadora personal y permite la exploraci\xF3n de grandes colecciones\
+      \ de datos.\n"
+    term: "computaci\xF3n de alto rendimiento"
+- slug: concatenate
+  es:
+    def: "A\xF1adir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la uni\xF3\
+      n de datos de extremo a extremo. [Python](#python).\n"
+    term: concatenar
+- slug: constant
+  es:
+    def: "Una constante en programaci\xF3n es un nombre asociado con un valor que\
+      \ nunca cambia durante la ejecuci\xF3n de un programa. Solo se puede acceder\
+      \ al valor de la constante, pero no cambiarlo con el tiempo. En oposici\xF3\
+      n a una [variable](#variable_program). # Un valor que no puede ser cambiado\
+      \ despu\xE9s de haber sido definido, opuesto a lo que es una [variable](#variable_program).\n"
+    term: constante
+- slug: constructor
+  es:
+    def: "Una funci\xF3n que crea un [objeto](#object) de una [clase](#class) particular.\
+      \ En el sistema de objetos de [S3](#s3), los constructores son m\xE1s una convenci\xF3\
+      n que un requisito.\n"
+    term: constructor
+- slug: correlation
+  es:
+    def: "Una medida de cu\xE1n bien dos variables est\xE1n de acuerdo una con la\
+      \ otra. La correlaci\xF3n usualmente se mide calculando un [coeficiente de correlaci\xF3\
+      n](#correlation_coefficient), y no implica [causalidad](#causation).\n"
+    term: "correlaci\xF3n"
+- slug: roc_curve
+  es:
+    def: "Una curva ROC (acr\xF3nimo de Receiver Operating Characteristic, o Caracter\xED\
+      stica Operativa del Receptor)  es un gr\xE1fico que muestra el desempe\xF1o\
+      \ de un clasificador binario con diferentes umbrales de [clasificaci\xF3n](#classification)\
+      \ La curva se obtiene graficando la tasa de verdaderos positivos (tambi\xE9\
+      n conocida como Recall o [Sensibilidad](#sensitivity)) a lo largo del eje vertical\
+      \ y la taza de falsos positivos a lo largo del eje horizontal.\n"
+    term: Curva ROC
+- slug: tidy_data
+  es:
+    def: "Datos tabulares que satisfacen [tres condiciones](https://vita.had.co.nz/papers/tidy-data.pdf)\
+      \ que facilitan su limpieza inicial y su posterior exploraci\xF3n y an\xE1lisis\u2014\
+      (1) cada variable conforma una columna, (2) cada observaci\xF3n conforma una\
+      \ fila y (3) cada tipo de unidad de observaci\xF3n conforma una tabla.\n"
+    term: datos ordenados
+- slug: decrement
+  es:
+    def: "Una operaci\xF3n unaria que disminuye el valor de una variable, generalmente\
+      \ en 1.\n"
+    term: decrementar
+- slug: agile
+  es:
+    def: "Una metodolog\xEDa de desarrollo de software que enfatiza muchos pasos peque\xF1\
+      os y feedback continuo en vez de planificaci\xF3n por adelantado y a largo plazo.\
+      \ [Programaci\xF3n exploratoria](#exploratory_programming) suele ser \xE1gil.\n"
+    term: "desarrollo \xE1gil"
+- slug: gradient_descent
+  es:
+    def: "Un algoritmo de optimizaci\xF3n que calcula repetidamente el gradiente en\
+      \ el punto actual,  da un peque\xF1o paso en la direcci\xF3n en la que el gradiente\
+      \ est\xE1 disminuyendo, y luego  recalcula el gradiente.\n"
+    term: descenso del gradiente
+- slug: standard_deviation
+  es:
+    def: "En qu\xE9 medida los valores de un conjunto de datos difieren de la [media](#mean).\
+      \ Se calcula como la ra\xEDz cuadrada de la [varianza](#variance).\n"
+    term: "desviaci\xF3n est\xE1ndar"
+- slug: dictionary
+  es:
+    def: 'Una estructura de datos que contiene parejas llave-valor, a veces llamados
+      [arreglos asociativos](#associative_array). Los diccionarios en ocasiones son
+      implementados usando [tablas hash](#hash_table).
+
+      '
+    term: diccionario
+- slug: directory
+  es:
+    def: "Un objeto dentro de un [sistema de archivos](#filesystem) que contiene archivos\
+      \ y otros directorios. Tambi\xE9n conocido como un [folder](#folder).\n"
+    term: directorio
+- slug: standard_normal_distribution
+  es:
+    def: "Una [distribuci\xF3n normal](#normal_distribution) con una [media](#mean)\
+      \ de 0 y una [desviaci\xF3n est\xE1ndar](#standard_deviation) de 1. Valores\
+      \ de distribuciones normales con otros par\xE1metros se puede reescalar f\xE1\
+      cilmente para obtener una distribuci\xF3n normal est\xE1ndar.\n"
+    term: "distribuci\xF3n normal est\xE1ndar"
+- slug: ide
+  es:
+    def: "Una aplicaci\xF3n que ayuda a programadores a desarrollar software. Los\
+      \ EDI usualmente tiene un editor incorporado, una consola que ejecuta el c\xF3\
+      digo inmediatamente y navegadores para explorar estructuras de datos en la memoria\
+      \ y archivos en el disco.\n"
+    term: Entorno de Desarrollo Integrado
+- slug: virtual_environment
+  es:
+    def: 'En [Python](#python), el [paquete](#package) `virtualenv` permite crear
+      entornos virtuales de Python para contener paquetes y versiones de esos paquetes
+      que uno quiere usar para un proyecto o tarea particular sin afectar otros entornos
+      virtuales o el entorno por defecto del sistema.
+
+      '
+    term: entorno virtual
+- slug: epoch_dl
+  es:
+    def: "En [aprendizaje profundo](#deep_learning), un epoch es un ciclo completo\
+      \ en el proceso del aprendizaje profundo  en el que todos los datos de entrenamiento\
+      \ se han introducido una vez en el algoritmo.  El entrenamiento de una red neuronal\
+      \ profunda consiste en varios epoch.    \n"
+    term: epoch (aprendizaje profundo)
+- slug: absolute_error
+  es:
+    def: "El valor absoluto de la diferencia entre el valor observado y el valor correcto.\
+      \ El error absoluto suele ser menos \xFAtil que el [error relativo](#relative_error).\n"
+    term: error absoluto
+- slug: mean_absolute_error
+  es:
+    def: "El error promedio de todos los valores predichos en comparaci\xF3n con los\
+      \ valores reales.\n"
+    term: error absoluto medio
+- slug: mean_squared_error
+  es:
+    def: "El promedio de los cuadrados de todos los errores de todos los valores predichos\
+      \ comparados con valores reales. El cuadrado hace que los errores m\xE1s grandes\
+      \ cuenten m\xE1s, haciendo esta medida m\xE1s popular que el [error absoluto\
+      \ medio](#mean_absolute_error).\n"
+    term: "error cuadr\xE1tico medio"
+- slug: relative_error
+  es:
+    def: "El valor absoluto de la diferencia entre el valor observado y el valor correcto,\
+      \ dividido por el valor deseado. Por ejemplo, si el valor observado es 9 y el\
+      \ valor correcto es 10, el error relativo es 0.1. El error relativo suele ser\
+      \ m\xE1s \xFAtil que el [error absoluto](#absolute_error).\n"
+    term: error relativo
+- slug: scalar
+  es:
+    def: "Un \xFAnico valor de un tipo particular, como 1 o \"a\". Los escalares realmente\
+      \ no existen en [R](#r_language); los valores que parecen ser escalares son\
+      \ en realidad vectores de largo uno.\n"
+    term: escalar
+- slug: regular_expression
+  es:
+    def: "Un patr\xF3n para buscar coincidencias en texto, que est\xE1n a su vez escritas\
+      \ como texto. Las expresiones regulares a veces son llamadas \"regexp\", \"\
+      regex\", o \"RE\", y son poderosas.\n"
+    term: "expresi\xF3n regular"
+- slug: unary_expression
+  es:
+    def: "Una expresi\xF3n con un \xFAnico argumento, como `log 5`.\n"
+    term: "expresi\xF3n unaria"
+- slug: fail_test
+  es:
+    def: 'Una prueba falla si el [resultado real](#actual_result) no coincide con
+      el [resultado esperado](#expected_result).
+
+      '
+    term: fallar (una prueba)
+- slug: fasta
+  es:
+    def: "Formato de archivo para almacenar informaci\xF3n de secuencias gen\xF3micas\
+      \ o de amino\xE1cidos. La informaci\xF3n de cada secuencia se divide en 2 l\xED\
+      neas. La l\xEDnea 1 contiene informaci\xF3n sobre la secuencia y comienza con\
+      \ el s\xEDmbolo '>' (mayor que). La l\xEDnea 2 contiene la secuencia gen\xF3\
+      mica o de amino\xE1cidos utilizando c\xF3digos de una sola letra.\n"
+    term: FASTA
+- slug: anonymous_function
+  es:
+    def: "Es una funci\xF3n que no tiene asignado un nombre. Las funciones an\xF3\
+      nimas son usualmente cortas, y se definen en el mismo lugar donde son utilizadas,\
+      \ por ejemplo: en callbacks. En [Python](#python), estas funciones se conocen\
+      \ como funciones lambda y son creadas con el uso de la palabra reservada lambda.\n"
+    term: "funci\xF3n an\xF3nima"
+- slug: aggregation_function
+  es:
+    def: "Una funci\xF3n que combina varios valores en uno, como `sum` o `max`.\n"
+    term: "funci\xF3n de agregaci\xF3n"
+- slug: generic_function
+  es:
+    def: "Un conjunto de funciones con prop\xF3sitos similares, cada una operando\
+      \ en una clase diferente de datos.\n"
+    term: "funci\xF3n gen\xE9rica"
+- slug: breadcrumbs
+  es:
+    def: "Literalmente: \u201Cmigas,\u201D \u201Cmigas de pan,\u201D \u201Cmigaja;\u201D\
+      \ en esto contexto: \u201C\xE1rbol de navegaci\xF3n,\u201D \u201Cgu\xEDas de\
+      \ navegaci\xF3n,\u201D \u201Cnavegaci\xF3n de migas,\u201C o \u201Crastro de\
+      \ navegaci\xF3n.\u201D Un grupo de enlaces de navegaci\xF3n incluidos en muchos\
+      \ sitios web, generalmente ubicados en la parte superior de una p\xE1gina. \u201C\
+      Breadcrumbs\u201D muestran a los usuarios d\xF3nde se encuentra la p\xE1gina\
+      \ en el sitio web; la palabra proviene de un cuento de hadas en que unos ni\xF1\
+      os hab\xEDan dejado atr\xE1s un rastro de migas de pan para que pudieran encontrar\
+      \ su camino a casa.\n"
+    term: "gu\xEDas de navegaci\xF3n"
+- slug: raster_image
+  es:
+    def: "Una imagen almacenada como una matriz de p\xEDxeles.\n"
+    term: imagen rasterizada
+- slug: import
+  es:
+    def: "traer cosas de un [m\xF3dulo](#module) para incorporarlas al programa. En\
+      \ la mayor\xEDa de las lenguajes, un programa solo puede importar cosas que\
+      \ el m\xF3dulo [exporta](#export) expl\xEDcitamente.\n"
+    term: importar
+- slug: increment
+  es:
+    def: "Una operaci\xF3n unaria que aumenta el valor de una variable, generalmente\
+      \ en 1.\n"
+    term: incrementar
+- slug: global_installation
+  es:
+    def: "El acto de instalar un paquete en una ubicaci\xF3n donde pueda ser accedido\
+      \ por todas las usuarias y proyectos.\n"
+    term: "instalaci\xF3n global"
+- slug: local_installation
+  es:
+    def: "El acto de ubicar un paquete en un proyecto en particular para que s\xF3\
+      lo sea accesible dentro de ese proyecto.\n"
+    term: "instalaci\xF3n local"
+- slug: api
+  es:
+    def: "Un conjunto de funciones y procedimientos proporcionados por una libreria\
+      \ de software o servicio web atraves del cual otra aplicaci\xF3n se puede comunicar.\
+      \ Una API no es el c\xF3digo, la base de datos o el servidor; es el punto de\
+      \ acceso.\n"
+    term: "Interfaz de Programaci\xF3n de Aplicaciones"
+- slug: user_interface
+  es:
+    def: "Plataforma para la interacci\xF3n entre un usuario y una m\xE1quina. Una\
+      \ interacci\xF3n puede ocurrir mediante texto (una [interfaz de l\xEDnea de\
+      \ comandos](#cli)), gr\xE1ficamente y con ventanas (una [interfaz gr\xE1fica\
+      \ de usuario](#gui)), u otros m\xE9todos tal como interfaces manejadas por voz.\n"
+    term: interfaz de usuario
+- slug: open_license
+  es:
+    def: 'Una [licencia](#license) que permite reuso en general, tal como la [Licencia
+      MIT](#mit_license) o [GPL](#gpl) para software y [CC-BY](#cc_by) o [CC-0](#cc_0)
+      para datos, prosas u otros productos creativos.
+
+      '
+    term: licencia abierta
+- slug: computational_linguistics
+  es:
+    def: "El estudio o aplicaci\xF3n de m\xE9todos computacionales para procesamiento\
+      \ o entendimiento de lenguajes humanos. Los primeros acercamientos fueron algor\xED\
+      tmicos; la mayor\xEDa de los acercamientos modernos son estad\xEDsticos.\n"
+    term: "ling\xFC\xEDstica computacional"
+- slug: lsof
+  es:
+    def: 'Comando en UNIX para ver la lista de archivos abiertos siendo utilizados
+      por [procesos](#process).
+
+      '
+    term: lsof
+- slug: virtual_machine
+  es:
+    def: "Un programa que pretende ser una computadora. Aunque puede parecer redundante,\
+      \ las m\xE1quinas virtuales (MV) se crean y se inician r\xE1pidamente, y los\
+      \ cambios hechos dentro de la m\xE1quina virtual quedan contenidos dentro de\
+      \ esa VM, esto permite que podamos instalar nuevos paquetes o ejecutar un sistema\
+      \ operativo diferente sin afectar la computadora subyacente.\n"
+    term: "m\xE1quina virtual"
+- slug: data_frame
+  es:
+    def: "Una estructura de datos bi-dimensional para guardar datos tabulares en memoria.\
+      \ L\xEDneas representan [entradas](#record) y columnas representan [variables](#variable_data).\n"
+    term: marco de datos
+- slug: arithmetic_mean
+  es:
+    def: "Ver [media](#mean). Calculado por un grupo de n n\xFAmeros realizando la\
+      \ suma de esos n\xFAmeros y dividiendo el resultado entre n.\n"
+    term: "media aritm\xE9tica"
+- slug: median
+  es:
+    def: "Un valor que separa las mitades superior e inferior de un conjunto de datos\
+      \ ordenado. Frecuentemente, la mediana da una idea mejor de lo que es caracter\xED\
+      stico del conjunto de datos que la [media](#mean), que puede estar influenciada\
+      \ por un peque\xF1o n\xFAmero de [valores at\xEDpicos](#outlier). Si el conjunto\
+      \ de datos contiene un n\xFAmero par de elementos, este es el promedio de los\
+      \ dos elementos centrales.\n"
+    term: mediana
+- slug: method
+  es:
+    def: "Una implementaci\xF3n de una [funci\xF3n gen\xE9rica](#generic_function)\
+      \ que manipula objetos de una clase espec\xEDfica.\n"
+    term: "m\xE9todo"
+- slug: abstract_method
+  es:
+    def: "En [programaci\xF3n orientada a objectos](#oop), es un [m\xE9todo](#method)\
+      \ definido pero no implementado. Programadores definen un m\xE9todo abstracto\
+      \ en una [superclase](#parent_class) para especificar operaciones que las [subclases](#child_class)\
+      \ deber\xE1n proveer.\n"
+    term: "m\xE9todo abstracto"
+- slug: mode
+  es:
+    def: "El valor que ocurre con m\xE1s frecuencia en un conjunto de datos.\n"
+    term: moda
+- slug: module
+  es:
+    def: "un paquete de software reutilizable, tambi\xE9n se llama una [biblioteca](#library).\n"
+    term: "m\xF3dulo"
+- slug: node
+  es:
+    def: "Un elemento de un grafo que est\xE1 conectado a otros nodos por aristas.\
+      \  Los nodos usualmente tienen datos asociados con ellos, como nombres o pesos.\n"
+    term: nodo
+- slug: absolute_row_number
+  es:
+    def: "El \xEDndice secuencial que indentifica una fila en un tablero, sin importar\
+      \ qu\xE9 secciones se est\xE9n mostrando.\n"
+    term: "n\xFAmero de fila absoluto"
+- slug: pseudo_random_number
+  es:
+    def: "Un valor generado de forma repetible que refleja suficientemente bien a\
+      \ la verdadera aleatoriedad del universo como para enga\xF1ar a simples observadores\
+      \ mortales.\n"
+    term: "n\xFAmero pseudo-aleatorio"
+- slug: numpy
+  es:
+    def: "Es un paquete Python de c\xF3digo abierto que le permite trabajar con arreglos,\
+      \ vectores y matrices de dimensi\xF3n N, en un m\xE9todo comparable y con una\
+      \ sintaxis similar al software Matlab. Puede encontrar funciones y operaciones\
+      \ sofisticadas, enfocadas en matrices multidimensionales, \xE1lgebra lineal,\
+      \ transformada de Fourrier y generaci\xF3n de valores aleatorios.\n"
+    term: numpy
+- slug: object
+  es:
+    def: "En [programaci\xF3n orientada a objetos](#oop), es una estructura que contiene\
+      \ los datos de una instancia espec\xEDfica de una [clase](#class). Las operaciones\
+      \ que son capaces de realizar estos objetos est\xE1n definidas por los [m\xE9\
+      todos](#method) de la clase.\n"
+    term: objeto
+- slug: pandas
+  es:
+    def: "Es un paquete de Python de c\xF3digo abierto que ofrece estructuras de datos\
+      \ r\xE1pidas, flexibles y expresivas para que trabajar con series de tiempo\
+      \ estructuradas sea f\xE1cil e intuitivo. Se utiliza como una poderosa herramienta\
+      \ para el an\xE1lisis y la manipulaci\xF3n de datos.\n"
+    term: pandas
+- slug: pass_test
+  es:
+    def: 'Una prueba pasa si el [resultado real](#actual_result) coincide con el [resultado
+      esperado](#expected_result).
+
+      '
+    term: pasar (una prueba)
+- slug: perceptron
+  es:
+    def: "El tipo m\xE1s simple de [red neuronal](#neural_network), que aproxima una\
+      \ sola neurona  con _N_ entradas binarias al calcular una suma ponderada de\
+      \ sus entradas, y se activa  si dicho valor es mayor o igual a cero.\n"
+    term: "perceptr\xF3n"
+- slug: permalink
+  es:
+    def: 'Abreviatura de "enlace permanente", una URL que se pretende que dure para
+      siempre.
+
+      '
+    term: permalink
+- slug: accuracy
+  es:
+    def: "Medida estad\xEDstica de un modelo de clasificaci\xF3n que da la proporci\xF3\
+      n de predicciones correctas entre el n\xFAmero total de casos. Se calcula como\
+      \ Precisi\xF3n = (TP+TN)/(TP+TN+FP+FN)\n"
+    term: "precisi\xF3n"
+- slug: nlp
+  es:
+    def: "Ver [ling\xFC\xEDstica computacional](#computational_linguistics).\n"
+    term: procesamiento de lenguaje natural
+- slug: exploratory_programming
+  es:
+    def: "Un m\xE9todo de desarrollo de software en el cual los requerimientos emergen\
+      \ o cambian a medida que el software es escrito, frecuentemente en respuesta\
+      \ a resultados de corridas previas.\n"
+    term: "programaci\xF3n exploratoria"
+- slug: literate_programming
+  es:
+    def: "Un paradigma de programaci\xF3n que combina c\xF3digo y documentaci\xF3\
+      n en un solo archivo.\n"
+    term: "programaci\xF3n literaria"
+- slug: oop
+  es:
+    def: "Un paradigma de programaci\xF3n en el cual los datos (atributos) y funciones\
+      \ (m\xE9todos) se agrupan en objetos que interact\xFAan entre s\xED a trav\xE9\
+      s de interfaces bien definidas.\n"
+    term: "programaci\xF3n orientada a objetos"
+- slug: python
+  es:
+    def: "Un lenguaje de programaci\xF3n de c\xF3digo abierto interpretado popular\
+      \ que se basa en la sangr\xEDa para definir la estructura de control.\n"
+    term: Python
+- slug: base_r
+  es:
+    def: "Funciones b\xE1sicas que conforman el lenguaje de programaci\xF3n [R](#r_language).\
+      \ Los paquetes base pueden encontrarse en `src/library` y no son actualizados\
+      \ fuera de R; su n\xFAmero de versi\xF3n coincide con el de R. Los paquetes\
+      \ de R base se instalan y cargan junto con R, mientras que los paquetes prioritarios\
+      \ se instalan con R, pero deben ser cargados antes de utilizarse.\n"
+    term: R base
+- slug: r_markdown
+  es:
+    def: "Un dialecto de [Markdown](#markdown) que permite a sus autores mezclar prosa\
+      \ y c\xF3digo (usualmente escrito en [R](#r_language)) en un mismo documento.\n"
+    term: R Markdown
+- slug: root_mean_squared_error
+  es:
+    def: "La ra\xEDz cuadrada del [error cuadr\xE1tico medio](#mean_squared_error).\
+      \ Como la [desviaci\xF3n est\xE1ndar](#standard_deviation), est\xE1 en las mismas\
+      \ unidades que los datos originales.\n"
+    term: "ra\xEDz del error cuadr\xE1tico medio"
+- slug: recycle
+  es:
+    def: "Reutilizar valores de un vector m\xE1s corto con el fin de generar una secuencia\
+      \ del mismo largo que el vector m\xE1s largo.\n"
+    term: reciclar
+- slug: bayesian_network
+  es:
+    def: 'Un grafo que representa la relacion entre las variables aleatorias para
+      un determinado problema.
+
+      '
+    term: Red Bayesiana
+- slug: neural_network
+  es:
+    def: "Uno de los algoritmo de una gran familia de algoritmos usados para identificar\
+      \  patrones en los datos imitando la forma en que interact\xFAan las neuronas\
+      \ del cerebro.  Una red neuronal consta de una o m\xE1s capas de [nodos](#node),\
+      \ cada uno de los cuales est\xE1  conectado a nodos en la capa anterior y en\
+      \ la capa siguiente. Si suficientes entradas de un nodo est\xE1n activas,  dicho\
+      \ nodo tambi\xE9n se activa.\n"
+    term: red neuronal
+- slug: 68_95_997_rule
+  es:
+    def: "Expresa el hecho de que el 68% de los valores se encuentran dentro de una\
+      \ [desviaci\xF3n est\xE1ndar](#standard_deviation) de la [media](#mean), el\
+      \ 95% est\xE1 dentro de dos y el 99,7% est\xE1 dentro de tres. Por el contrario,\
+      \ aproximadamente el 0,3% de los valores se encuentran m\xE1s de tres desviaciones\
+      \ est\xE1ndar por encima o por debajo de la media en la mayor\xEDa de los casos.\n"
+    term: regla 68-95-99.7
+- slug: repository
+  es:
+    def: "Lugar en el que un [sistema de control de versi\xF3n](#version_control_system)\
+      \ guarda los archivos que conforman un proyecto y los metadatos que describen\
+      \ su historia.\n"
+    term: repositorio
+- slug: expected_result
+  es:
+    def: "El valor que se supone debe producir una secci\xF3n de c\xF3digo cuando\
+      \ se prueba de una manera determinada, o el estado en el que se supone debe\
+      \ dejar el sistema.\n"
+    term: resultado esperado (de una prueba)
+- slug: actual_result
+  es:
+    def: "El valor generado ejecutando el c\xF3digo en una prueba. Si coincide con\
+      \ el [resultado esperado] (#expected_result), la prueba [pasa] (#pass_test);\
+      \ si son diferentes, la prueba [falla] (#fail_test).\n"
+    term: resultado real (de una prueba)
+- slug: backward_compatible
+  es:
+    def: "Una propiedad de un sistema, hardware o software, que permite la interoperabilidad\
+      \ con un sistema heredado m\xE1s antiguo, o con la entrada dise\xF1ada para\
+      \ un sistema as\xED. Por ejemplo, una [funci\xF3n](#function) escrita en [Python](#python)\
+      \ 3 que puede ser ejecutada exitosamente en Python versi\xF3n 2 es retrocompatible.\n"
+    term: retrocompatible
+- slug: backpropagation
+  es:
+    def: "Un algoritmo que ajusta iterativamente los pesos utilizados en una [red\
+      \ neuronal](#neural_network). El algoritmo de retropropagaci\xF3n  se usa a\
+      \ menudo para implementar el algoritmo llamado [\"descenso del gradiente\"](#gradient_descent).\n"
+    term: "retropropagaci\xF3n"
+- slug: code_review
+  es:
+    def: "Revisar un programa o un cambio a un programa inspeccionando su c\xF3digo\
+      \ fuente.\n"
+    term: "revisi\xF3n de c\xF3digo"
+- slug: absolute_path
+  es:
+    def: "Una ruta que dirige a la misma ubicaci\xF3n en el sistema de archivos independientemente\
+      \ del contexto donde sea evaluada. Una ruta absoluta es el equivalente a la\
+      \ latitud y longitud en geograf\xEDa.\n"
+    term: ruta absoluta
+- slug: s_language
+  es:
+    def: "Un lenguaje para an\xE1lisis de datos, modelado estad\xEDstico y gr\xE1\
+      ficos desarrollado originalmente en los Laboratorios Bell. [R](#r_language)\
+      \ es un dialecto de S.\n"
+    term: S
+- slug: s3
+  es:
+    def: "Un entorno para la [programaci\xF3n orientada a objetos](#oop) en [R](#r_language).\n"
+    term: S3
+- slug: string
+  es:
+    def: 'Bloque de texto en un programa.
+
+      '
+    term: secuencia de caracteres
+- slug: ssh
+  es:
+    def: "Un protocolo y el programa que lo implementa cuya principal funci\xF3n es\
+      \ el acceso remoto a un servidor por medio de un canal seguro en el que toda\
+      \ la informaci\xF3n est\xE1 cifrada.\n"
+    term: Secure Shell
+- slug: seed
+  es:
+    def: "Un valor utilizado para inicializar un [generador de n\xFAmeros pseudoaleatorios](#prng).\n"
+    term: semilla
+- slug: bias
+  es:
+    def: "Un estad\xEDstico est\xE1 sesgado si es sistem\xE1tica o consistentemente\
+      \ diferente del par\xE1metro que se supone que debe estimar.\n"
+    term: sesgo
+- slug: algorithmic_bias
+  es:
+    def: 'Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado
+      en un [algoritmo](#algorithm). Por ejemplo, algoritmos de redes sociales pueden
+      priorizar o estigmatizar contenido de ciertos grupos de usuarios.
+
+      '
+    term: "sesgo algor\xEDtmico"
+- slug: selecting on the dependent variable bias
+  es:
+    def: "Un estudio que solamente incluye casos en los que la variable dependiente\
+      \ tiene el mismo valor, en lugar de casos con variaci\xF3n en la variable dependiente,\
+      \ es un estudio con sesgo de selecci\xF3n en la variable dependiente.\n"
+    term: "sesgo de selecci\xF3n en la variable dependiente"
+- slug: binary
+  es:
+    def: "Un sistema donde puede haber dos posibilidades de estado. En la computaci\xF3\
+      n, el sistema binario se representa con el estado de 0 \xF3 1. En el sistema\
+      \ l\xF3gico [Booleano](#boolean), [falso](#false) se representa con (0) y [verdadero](#true)\
+      \ con (1). Las computadoras operan en sistemas  binarios donde almacenan [bits](#bit).\n"
+    term: sistema binario
+- slug: filesystem
+  es:
+    def: "La parte del sistema operativo que administra c\xF3mo se almacenan y recuperan\
+      \ los archivos. Tambi\xE9n se usa para referirse a todos esos archivos y directorios\
+      \ o a la forma espec\xEDfica en que se almacenan (como en \"el sistema de archivos\
+      \ Unix\").\n"
+    term: sistema de archivos
+- slug: version_control_system
+  es:
+    def: 'Un sistema para manejar los cambios hechos durante el desarollo de software.
+
+      '
+    term: "sistema de control de versi\xF3n"
+- slug: sql
+  es:
+    def: "Lenguaje utilizado para escribir consultas para una [base de datos relacional](#relational_database).\
+      \ El t\xE9rmino est\xE1 un acr\xF3nimo del ingl\xE9s Structured Query Language\
+      \ (Lenguage Estructurado de Consulta).\n"
+    term: SQL
+- slug: stack_overflow
+  es:
+    def: 'Un sitio de preguntas y respuestas popular entre personas programadoras.
+
+      '
+    term: Stack Overflow
+- slug: child_class
+  es:
+    def: "En [programaci\xF3n orientada a objetos](#oop), es la extensi\xF3n de otra\
+      \ clase (denominada [superclase](#parent_class)).\n"
+    term: subclase
+- slug: parent_class
+  es:
+    def: "En [programaci\xF3n orientada a objetos](#oop), es la clase a partir de\
+      \ la cual se derivan otras clases (denominadas [subclases](#child_class)).\n"
+    term: superclase
+- slug: learning_rate
+  es:
+    def: "En [redes neuronales artificiales](#neural_network), la tasa de aprendizaje\
+      \ es un hiperpar\xE1metro que  determina el ritmo al que la red ajusta los pesos\
+      \ para poder dar cada vez una mejor aproximaci\xF3n.  Una tasa de aprendizaje\
+      \ grande puede acelerar el entrenamiento, pero la red se puede sobrepasar y\
+      \  perder el m\xEDnimo global. Una tasa de aprendizaje peque\xF1a se sobrepasar\xE1\
+      \ menos, pero ser\xE1 m\xE1s lenta.  Tambi\xE9n puede caer m\xE1s f\xE1cilmente\
+      \ en m\xEDnimos locales.\n"
+    term: tasa de aprendizaje (aprendizaje profundo)
+- slug: bayes_theorem
+  es:
+    def: "Una ecuaci\xF3n para calcular la probabilidad de que algo sea [verdadero](#true)\
+      \ si algo \_ \_ relacionado con ello es verdadero. Si P(X) es la probabilidad\
+      \ de que X is verdadero y P(X`|`Y) es \_ \_ la probabilidad de que X es verdadero\
+      \ dado que Y sea verdadero, entonces P(X`|`Y) = P(Y`|`X) * P(X) / P(Y).\n"
+    term: Teorema de Bayes
+- slug: tibble
+  es:
+    def: 'Un remplazo moderno para los data frames de [R](#r_language) que guarda
+      datos tabulares en columnas y filas, definido y usado en el [tidyverse](#tidyverse).
+
+      '
+    term: tibble
+- slug: tidyverse
+  es:
+    def: "Una colecci\xF3n de paquetes de [R](#r_language) para operar de maneras\
+      \ consistentes con datos tabulares.\n"
+    term: Tidyverse
+- slug: unix
+  es:
+    def: "UNIX es una familia de [sistemas operativos](#operating_system) desarrollada\
+      \ en 1969 en AT&T Bell Labs. Sus principales caracter\xEDsticas son herramientas\
+      \ sencillas, funcionalidad bien definida y portabilidad.\n"
+    term: UNIX
+- slug: variable_program
+  es:
+    def: "Un nombre en un programa que tiene algunos datos asociados. El valor de\
+      \ una variable se puede cambiar despu\xE9s de su definici\xF3n.\n"
+    term: variable (programa)
+- slug: global_variable
+  es:
+    def: "Una variable definida fuera de alguna funci\xF3n en particular, por lo que\
+      \ es visible para todas las funciones.\n"
+    term: variable global
+- slug: independent_variable
+  es:
+    def: "El factor que cambias o controlas intencionadamente para ver qu\xE9 efecto\
+      \ tiene sobre la [variable dependiente](#dependent_variable).\n"
+    term: variable independiente
+- slug: local_variable
+  es:
+    def: "Una variable definida dentro de una funci\xF3n, por lo que solo es visible\
+      \ dentro de ella.\n"
+    term: variable local
+- slug: variance
+  es:
+    def: "En qu\xE9 medida los valores de un conjunto de datos difieren de la [media](#mean).\
+      \ Se calcula como el promedio de las diferencias al cuadrado entre los valores\
+      \ y la media. La [desviaci\xF3n est\xE1ndar](#standard_deviation) se usa a menudo\
+      \ en su lugar, ya que tiene las mismas unidades que los datos, mientras que\
+      \ la varianza se expresa en unidades al cuadrado.\n"
+    term: varianza
+- slug: vector
+  es:
+    def: "Una secuencia de valores, normalmente de tipo [homog\xE9neo](#homogeneous).\
+      \ Los vectores son la estructura de datos fundamental en [R](#r_language); un\
+      \ [escalar](#scalar) es solo un vector con exactamente un elemento.\n"
+    term: vector
+- slug: vectorize
+  es:
+    def: "Escribir c\xF3digo de modo que las operaciones se ejecuten en vectores completos,\
+      \ m\xE1s que elemento por elemento dentro de un bucle.\n"
+    term: vectorizar
+- slug: true_negative
+  es:
+    def: 'Resultado en el que el valor real es [negativo](#false) y es correctamente
+      predicho como [negativo](#false).
+
+      '
+    term: verdadero negativo
+- slug: true_positive
+  es:
+    def: 'Resultado en el que el valor real es [verdadero](#true) y es correctamente
+      predicho como [verdadero](#true).
+
+      '
+    term: verdadero positivo
+- slug: vim
+  es:
+    def: "El editor de texto por defecto en Unix. Vim es un poderoso editor de texto\
+      \ que permite al usuario ejecutar comandos de shell y usar [expresiones regulares](#regular_expression)\
+      \ para editar archivos program\xE1ticamente.\n"
+    term: Vim (editor)
+- slug: vignette
+  es:
+    def: "Una gu\xEDa de formato extenso utilizada para proporcionar detalles de un\
+      \ [paquete](#package) m\xE1s all\xE1 del README.md o de la documentaci\xF3n\
+      \ de una funci\xF3n.\n"
+    term: "vi\xF1eta"
+- slug: xml
+  es:
+    def: "Un conjunto de reglas para definir etiquetas similares a [HTML](#html) y\
+      \ usarlas para darle formato a documentos (normalmente datos). XML alcanz\xF3\
+      \ popularidad a principios de la d\xE9cada de 2000, pero su complejidad llev\xF3\
+      \ a muchos programadores a adoptar [JSON](#json) en su lugar.\n"
+    term: XML
+- slug: yaml
+  es:
+    def: "Acr\xF3nimo recursivo de \"YAML Ain't Markup Language\" (YAML no es un lenguaje\
+      \ de marcaci\xF3n), es una manera de representar datos anidados usando identaci\xF3\
+      n en lugar de par\xE9ntesis\_ \_ y comillas usadas en [JSON](#json). YAML es\
+      \ usado frequentemente en \_ \_ archivos de configuraci\xF3n y para definir\
+      \ [par\xE1metros](#parameter) en varios estilos de documentos en [Markdown](#markdown).\n"
+    term: YAML

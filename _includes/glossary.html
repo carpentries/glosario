@@ -1,5 +1,7 @@
-{% assign gloss = site.data.glossary %}
 {% assign language = page.permalink | replace: '/', '' %}
+
+{% assign gloss = site.data.[language].glossary %}
+
 {% assign direction = 'ltr' %}
 {% if page.direction %}
   {% assign direction = page.direction %}
@@ -13,7 +15,7 @@ Find terms defined in this language and sort alphabetically.
 - 'actual' is a list of slugs sorted by terms.
 {%- endcomment -%}
 {%- capture defined -%}{%- for item in gloss -%}{%- if item[language] -%}{{item[language].term | downcase}}IN_ITEM{{item.slug}}BETWEEN_ITEMS{%- endif -%}{%- endfor -%}{%- endcapture -%}
-{%- assign sorted = defined | split: 'BETWEEN_ITEMS' | sort -%}
+{%- assign sorted = defined | split: 'BETWEEN_ITEMS' -%}
 {%- capture ordered -%}{%- for item in sorted -%}{{item | split: 'IN_ITEM' | last}}BETWEEN_ITEMS{%- endfor -%}{%- endcapture -%}
 {%- assign actual = ordered | split: 'BETWEEN_ITEMS' -%}
 

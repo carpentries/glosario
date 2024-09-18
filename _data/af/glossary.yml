@@ -1,0 +1,657 @@
+- slug: plus_one
+  af:
+    def: 'Om ten gunste van iets te stem.
+
+      '
+    term: '+1'
+- slug: 68_95_997_rule
+  af:
+    def: 'Beskryf die beginsel dat 68% van alle waardes binne een [standaardafwyking](#standard_deviation)
+      van die [gemiddelde](#mean) val, 95% val binne twee en 99.7% val binne drie
+      standaardafwykings. Omgekeerd, in die meeste gevalle val 0.3% van die waardes
+      meer as drie standaardafwykings bo of onder die gemiddelde.
+
+      '
+    term: "68-95-99.7 re\xEBl"
+- slug: concatenate
+  af:
+    def: 'Die aaneenskakeling van kolomme, rye of karakterstringe deur die samevoeging
+      van data.
+
+      '
+    term: aaneenskakel
+- slug: absolute_error
+  af:
+    def: 'Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
+      en die korrekte waarde. Die absolute fout is gewoonlik van minder waarde as
+      die [relatiewe](#relative_error) fout.
+
+      '
+    term: absolute fout
+- slug: actual_result
+  af:
+    def: "Die waarde wat deur 'n toets gegenereer is. Indien di\xE9 waarde gelyk is\
+      \ aan die [verwagte resultaat](#actual_result), is die toets suksesvol; as die\
+      \ twee waardes verskil het die toets gefaal.\n"
+    term: absolute resultaat (van 'n toets)
+- slug: absolute_path
+  af:
+    def: "'n Roete wat dieselfde posisie in die [l\xEAerstelsel](#filesystem) aandui\
+      \ ongeag die posisie vanwaar dit ge\xEBvalueer word. Die absolute roete is die\
+      \ ekwivalent van lengtegraad en breedtegraad in geografie.\n"
+    term: absolute roete
+- slug: absolute_row_number
+  af:
+    def: 'Die opeenvolgende indeks van ''n ry in ''n tabel, ongeag die gedeelte van
+      die tabel wat vertoon word.
+
+      '
+    term: absolute rynommer
+- slug: abstract_method
+  af:
+    def: "'n [Metode](#method), in [objekgeori\xEBnteerde programmering](#oop), wat\
+      \ gedefini\xEBer maar nie ge\xEFmplementeer is nie. Programmeerders sal 'n abstrakte\
+      \ metode in 'n [voorsaatklas](#parent_class) defini\xEBer wat in [nasaatklasse](#child_class)\
+      \ ge\xEFmplementeer moet word.\n"
+    term: abstrakte metode
+- slug: abstract_syntax_tree
+  af:
+    def: '''n Diepgeneste datastruktuur, of [boom](#tree), wat die struktuur van ''n
+      program verteenwoordig. Byvoorbeeld, as die abstrakte sintaksontledingsboom
+      ''n [nodus](#node) het wat ''n [`doen` terwyl-lus](#while_loop) verteenwoordig
+      wat met een [naasaatontledingsboom](#child_tree) die lustoestand verteenwoordig
+      en ''n ander nasaatontledingsboom wat die [lusraam](#loop_body) verteenwoordig.
+
+      '
+    term: abstrakte sintaksisontledingsboom
+- slug: abandonware
+  af:
+    def: 'Sagteware wat nie meer onderhou word nie.
+
+      '
+    term: afgooiware
+- slug: aggregation_function
+  af:
+    def: '''n Funksie wat ''n groep waardes saamvoeg, bv. `sum` (summering) en `max`
+      (maksimale waarde)
+
+      '
+    term: aggregaatfunksie
+- slug: accuracy
+  af:
+    def: 'Dit is ''n statistiese maatstaf van ''n klassifikasiemodel wat die proporsie
+      van korrekte voorspellings gee onder die totale aantal gevalle. Dit word bereken
+      as Akkuraatheid = (TP+TN)/(TP+TN+FP+FN).
+
+      '
+    term: akkuraatheid
+- slug: algorithm
+  af:
+    def: '''n Algoritme is ''n stel instruksies wat gevolg moet word om ''n spesifieke
+      taak uit te voer.
+
+      '
+    term: algoritme
+- slug: algorithmic_bias
+  af:
+    def: 'Herhaalbare resultate in ''n [algoritme](#algorithm) wat vooroordeel or
+      geskeefde behandeling toon. Byvoorbeeld, sosiale media algoritmes wat bevooroordeelde
+      of gestigmateerde inhoud van seker groepe prioritiseer.
+
+      '
+    term: algoritmiese vooroordeel
+- slug: aliasing
+  af:
+    def: "Om twee of meer verwysing na dieselfde ding te h\xEA, soos byvoorbeeld meer\
+      \ as een verwysing na 'n datastruktuur in geheue of na 'n l\xEAer op 'n skyf.\n"
+    term: aliasering
+- slug: anchor
+  af:
+    def: 'In ''n [gewone (reguliere) uitdrukking](#regular_expression), is ''n anker
+      ''n simbool wat ''n posisie aandui, bv. `^` dui die begin van ''n lyn aan en
+      `$` dui die einde van ''n lyn aan. ''n Uidrukking soos bv. `^Die` anker die
+      soektog na die woord `Die` aan die begin van die lyn.
+
+      '
+    term: anker
+- slug: anonymous_function
+  af:
+    def: '''n Funksie waaraan daar nie ''n naam toegeken is nie. Anonieme funksies
+      is gewoonlik baie kort en word gewoonlik gedefinieer waar hulle gebruik word
+      bv. in die geval van ''n [terugskakelfunksie](#callback).
+
+      '
+    term: anonieme funksie
+- slug: anti_join
+  af:
+    def: '''n [Koppeling](#join) wat rye in tabel A bevat wie se sleutels *nie* die
+      sleutels van tabel B bevat nie.
+
+      '
+    term: anti-koppeling
+- slug: argument
+  af:
+    def: 'Die term moet nie verwar word met [parameter](#parameter) nie en is ook
+      nie ''n sinoniem daarvoor nie. ''n Argument is die spesifieke waarde wat aan
+      ''n funksie verskaf word in ''n lys van waardes wat deur kommas geskei word
+      Die term moet nie verwar word met [parameter](#parameter) nie en is ook nie
+      ''n sinoniem daarvoor nie. ''n Argument is die spesifieke waarde wat aan ''n
+      funksie verskaf word in ''n lys van waardes wat deur kommas geskei word. Parameters
+      is die veranderlikes en argumente is die waardes wat aan die veranderlikes toegeken
+      is.
+
+      '
+    term: argument
+- slug: ascii
+  af:
+    def: '''n Standaard manier om karakters wat algemeen in Wes-Europese tale gebruik
+      word, voor te stel as 7- of 8-bis heelgetalle. ASCII word vervang deur [Unicode](#unicode).
+
+      '
+    term: ASCII
+- slug: asynchronous
+  af:
+    def: 'Asinchronies is die teenoorgestelde van sinchronies wat beteken dat twee
+      of meer aktiwiteite tergelykertyd plaasvind. In programering is ''n asinchorniese
+      bewerking ''n bewerking wat onafhanklik van ''n ander een plaasvind.
+
+      '
+    term: asinchronies
+- slug: associative_array
+  af:
+    def: 'Sien [woordeboek](#dictionary).
+
+      '
+    term: assosiatiewe skikking
+- slug: autocorrelation
+  af:
+    def: 'Die graad van ooreenkoms tussen waarnemings in dieselfde reeks maar geskei
+      deur ''n tydinterval  (bekend as die "lag"). Autokorrelasie-analise kan gebruik
+      word om insig te verkry in tydreeksdata deur  herhalende patrone op te spoor
+      wat moontlik deels versteek is deur lukrake ruis, onder andere gebruike.
+
+      '
+    term: Autokorrelasie
+- slug: bayes_rule
+  af:
+    def: 'Sien [Bayes se stelling](#bayes_theorem).
+
+      '
+    term: "Bayes se r\xEBel"
+- slug: bayes_theorem
+  af:
+    def: '''n Vergelyking om die waarskynlikheid te bepaal dat iets [waar](#true)
+      is indien iets verwant ook waar is. As P(X) die waarskynlikheid is dat X waar
+      is en P(X`|`Y) is die waarskynlikheid dat X waar is indien die gegewe Y waar
+      is, dan is P(X`|`Y) = P(Y`|`X) * P(X) / P(Y).
+
+      '
+    term: Bayes se stelling
+- slug: bayesian_network
+  af:
+    def: '''n Grafiek wat die verhoudings tussen lukrake veranderlikes vir ''n gegewe
+      probleem verteenwoordig.
+
+      '
+    term: Bayesian-netwerk
+- slug: server
+  af:
+    def: "'n Program soos 'n databasisbeheerder of webbediener wat op versoek data\
+      \ aan 'n [kli\xEBnt](#client) verskaf.\n"
+    term: bediener
+- slug: affordance
+  af:
+    def: "'n Eienskap van iets wat aandui hoe dit gebruik kan word, bevoorbeeld 'n\
+      \ l\xEAerhanteerder of 'n knoppie.\n"
+    term: bekostigbaarheid
+- slug: command
+  af:
+    def: '''n Instruksie wat ''n rekenaarprogram opdrag gee om ''n spesifieke taak
+      uit te voer.
+
+      '
+    term: bevel
+- slug: assertion
+  af:
+    def: '''n [Boole](#boolean)-uitdrukking wat waar moet wees op ''n spesifiek plek
+      in ''n program. ''n Bewering kan ingebou wees in ''n programmeertaal (bv. [Python](#python)
+      het ''n ingeboude beweerstelling - assert) of dit kan voorsien word as ''n funksie
+      (bv. [R](#r_language) gebruik `stopifnot`). Bewerings word dikwels gebruik gedurende
+      die toetsfase van sagtewareontwikkeling maar dit word ook gebruk in [produksieskode](#production_code)
+      om te bevestig dat die kode reg werk. In sommige tale moet die gebruik van bewerings
+      as ''n datageldigheidstoets vermy word aangesien sommige kompileerders en interpreteerders
+      die bewering stilweg weggooi onder optimeringsvoorwaardes. Die gebruik van bewerings
+      vir bevestiging van datageldigheid kan dus sekuriteitsrisikos veroorsaak. R
+      het nie ''n beweringstelling wat gedeaktiveer kan word nie en dus sal die gebruik
+      van ''n [pakket](#package) soos ''assertr'' vir datageldigheid nie sekuriteitsgapings
+      skep nie.
+
+      '
+    term: bewering
+- slug: binary
+  af:
+    def: "'n Stelsel wat een van twee moontlike toestande kan h\xEA. In berekening\
+      \ word dit dikwels  voorgestel as in die toestand 0 of 1. In [Boole-logika](#boolean)\
+      \ word dit verteenwoordig as [vals](#false) (0) of [waar](#true) (1).  Rekenaars\
+      \ is gebou op stelsels wat 0's en 1's as [bis](#bit) stoor. \n"
+    term: "bin\xEAr"
+- slug: blob
+  af:
+    def: "Data wat in 'n databasis gestoor word sonder om op enige manier ge\xEFnterpreteer\
+      \ te word, soos 'n  klankl\xEAer. Die term word ook nou gebruik om te verwys\
+      \ na data wat oor 'n netwerk oorgedra word  of in 'n [weergawebeheerstelsel-repository](#version_control_system)\
+      \ as onge\xEFnterpreteerde bis gestoor word.      \n"
+    term: "bin\xEAre groot voorwerp"
+- slug: binary_expression
+  af:
+    def: '''n Uitdrukking wat twee parameters het en twee argumente neem, soos bv.
+      `1 + 2`.
+
+      '
+    term: "bin\xEAre uitdrukking"
+- slug: inner_join
+  af:
+    def: '''n [Koppeling](#join) wat die kombinasie van rye uit twee tabelle A en
+      B oplewer, waarvan die [ID-sleutels](#key) in beide tabelle bestaan.
+
+      '
+    term: binnekoppeling
+- slug: bit
+  af:
+    def: '''n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals.
+      Dit kan voorgestel work as 0 of 1.
+
+      '
+    term: bis
+- slug: bug
+  af:
+    def: '''n Ontbrekende of ongewenste kenmerk van ''n stuk sagteware; die digitale
+      ekwivalent van ''n onkruid.
+
+      '
+    term: bug
+- slug: append_mode
+  af:
+    def: "Om data aan die einde van 'n l\xEAer te voeg in plaas daarvan om die inhoud\
+      \ van diel\xEAer te oorskryf. Oorskryf is die verstek, wat beteken dat meesteprogrammeertale\
+      \ verwag dat programme eksplisiet moet aandui dat daar bygevoeg inplaas van\
+      \ oorskryf moet word.\n"
+    term: byvoeg modus
+- slug: chi_square_test
+  af:
+    def: '''n Statistiese metode om te bepaal of twee veranderlikes in ''n kruistabellering
+      gekorreleerd is. ''n Chi-kwadraatverdeling wissel vanaf ''n normale verspreiding
+      gebaseer op die vryheidsgrade wat gebruik word om dit te bereken.
+
+      '
+    term: chi-kwadraattoets
+- slug: data_package
+  af:
+    def: '''n Sagtewarepakket wat meestal net data bevat. Word gebruik om dit eenvoudiger
+      te maak om data te versprei vir makliker gebruik.
+
+      '
+    term: data pakket
+- slug: data_mining
+  af:
+    def: 'Die gebruik van ''n rekendaar om te soek na patrone in groot datastelle.
+      Die term [data wetenskap](#data_science) word tans meer gebruik.
+
+      '
+    term: data-ontgining
+- slug: data_science
+  af:
+    def: 'Die kombinasie van statistiek en programmering wat gebruik word om kennis
+      vanuit data te ontgin.
+
+      '
+    term: datawetenskap
+- slug: data_scientist
+  af:
+    def: 'Iemand wat programmeringsvaardighede gebruik om statistiese probleme op
+      te los.
+
+      '
+    term: datawetenskaplike
+- slug: attribute
+  af:
+    def: '''n Naam-waarde paar wat verband hou met ''n voorwerp en gebruik word om
+      metadata omtrent die voorwerp te stoor, bv. die afmetings van ''n skikking.
+
+      '
+    term: eienskap
+- slug: mean
+  af:
+    def: 'Die gemiddelde waarde van ''n datastel, beter bekend as die [rekenkundige
+      gemiddeld](#arithmetic_mean) om dit van die [meetkundige](#geometric_mean) en
+      die [harmoniese](#harmonic_mean) gemiddelde te onderskei.
+
+      '
+    term: gemiddeld
+- slug: group
+  af:
+    def: 'Om data in groepe te verdeel volgens ''n stel kriteria terwyl die rekords
+      in ''n enkele struktuur gelaat word.
+
+      '
+    term: groepeer
+- slug: big_data
+  af:
+    def: 'Enige data wat tot onlangs toe nog te veel was om met net een rekenaar te
+      analiseer.
+
+      '
+    term: Groot Data
+- slug: histogram
+  af:
+    def: '''n Grafiese voorstelling van die verspreiding van ''n data, gewoonlik ''n
+      vertikale staafgrafiek.
+
+      '
+    term: histogram
+- slug: key
+  af:
+    def: '1. ''n [Veld](#field) of kombinasie van velde waarvan die waarde(s) ''n
+      [rekord](#record) in ''n [tabel](#table) of datastel uniek identifiseer. ID-sleutels
+      word dikwels gebruik om spesifieke rekords te kies, asook in [koppelings](#join).
+      2. ''n Deel van ''n ID-sleutel/waardepaar, wat as ''n unieke identifiseerder
+      gebruik word in ''n datastruktuur soos ''n [woordeboek](#dictionary).
+
+      '
+    term: ID-sleutel
+- slug: icon
+  af:
+    def: 'In rekenaarkunde is ''n ikoon ''n grafiese simbool wat op ''n rekenaarskerm
+      vertoon word om die gebruiker te help om ''n rekenaarstelsel te navigeer.
+
+      '
+    term: ikoon
+- slug: java
+  af:
+    def: "Java is 'n ho\xEBvlak, kruisplatvorm, objekgeori\xEBnteerde en algemene-gebruik\
+      \ programmeertaal. Programme wat in Java geskryf is sal op enige platform werk,\
+      \ wat die Java sagtewareplatform implementeer, sonder dat dit hersaamgestel\
+      \ hoef te word. Die kenmerk het gelei tot die slagspreuk \"skryf eenkeer, hardloop\
+      \ enige plek\". Die Javasintaks is soortgelyk aan die van C en C++.\n"
+    term: Java
+- slug: camel_case
+  af:
+    def: "Die styl van kodeskryf wat behels dat veranderlikes en objekte benoem word\
+      \ sonder spasies,  onderstreep (_) punte (.), of strepies (-) karakters, met\
+      \ elke woord wat gekapitaliseer word.  Voorbeelde hiervan sluit in BerekenSom\
+      \ en VindPatroon.    \n"
+    term: Kameelgeval
+- slug: select
+  af:
+    def: 'Om volledige kolomme of rye in ''n tabel volgens naam of plek te kies (selekteer).
+
+      '
+    term: kies
+- slug: cognitive_load
+  af:
+    def: 'Die hoeveelheid werkgeheue wat nodig is om ''n stel gelyktydige take te
+      verrig.
+
+      '
+    term: kognitiewe lading
+- slug: comment
+  af:
+    def: 'Teks geskryf in ''n rekenaarprogram of skrif wat nie behandel word as kode
+      wat uitgevoer moet word nie. Die kommentaar beskryf eerder wat die kode doen.
+      Kommentaar is gewoonlik kort notas, wat dikwels begin met ''n `#` (in baie programmeertale).
+
+      '
+    term: kommentaar
+- slug: join
+  af:
+    def: 'Een van verskeie bewerkings wat waardes uit twee [tabelle](#table) aan mekaar
+      koppel.
+
+      '
+    term: koppeling
+- slug: correlation
+  af:
+    def: "Hoe sterk twee veranderlikes met mekaar ooreenstem. Korrelasie word gewoonlik\
+      \ gemeet aan die berekening van 'n [korrelasieko\xEBffisi\xEBnt](#correlation_coefficient),\
+      \ maar impliseer nie oorsaaklikheid.\n"
+    term: korrelasie
+- slug: correlation_coefficient
+  af:
+    def: "'n Maatstaf van hoe sterk [gekorreleer](#correlation) twee veranderlikes\
+      \ is. As die korrelasieko\xEBffisi\xEBnt tussen X en Y gelyk is aan 1.0, dui\
+      \ dit aan dat X die perfekte voorspelling van Y is. As die korrelasieko\xEB\
+      ffisi\xEBnt 0,0 is, dui dit aan dat X nie verwant is aan Y nie. As dit -1,0\
+      \ is, dan voorspel X vir Y, maar verandering in X veroorsaak 'n teenoorgestelde\
+      \ verandering in Y.\n"
+    term: "korrelasieko\xEBffisi\xEBnt"
+- slug: covariance
+  af:
+    def: "Hoe goed twee veranderlikes met mekaar ooreenstem. Die [korrelasieko\xEB\
+      ffisi\xEBnt](#correlation_coefficient) is 'n genormaliseerde maatstaf vir kovariansie.\n"
+    term: kovariansie
+- slug: cross_join
+  af:
+    def: '''n [Koppeling](#join) wat alle moontlike kombinasies van rye uit twee tabelle
+      A en B oplewer.
+
+      '
+    term: kruiskoppeling
+- slug: agile
+  af:
+    def: "'n Sagteware-ontwikkelingsmetode wat die klem l\xEA op vele klein stappies\
+      \ en deurlopende terugvoering in plaas van vooraf beplanning en langtermyn skeduluering.\
+      \ [Verkennende programmering](#exploratory_programming) is dikwel lenig.\n"
+    term: lenige ontwikkeling
+- slug: linear_regression
+  af:
+    def: '''n Metode om die beste pas tussen twee datastelle te vind deur die vierkante
+      van die afstande tussen die punte en ''n regressielyn te minimaliseer.
+
+      '
+    term: "line\xEAre regressie"
+- slug: logistic_regression
+  af:
+    def: '''n Metode om ''n model aan te pas tot data wat van logistieke (S-vormige)
+      kurwes gebruik maak.
+
+      '
+    term: 'logistiese regressie '
+- slug: maximum_likelihood_estimation
+  af:
+    def: 'Om die parameters vir ''n [waarskynlikheids verdeling](#probability_distribution)
+      te verkry, te maksimeer.
+
+      '
+    term: maksimumaanneemlikheidsberaming
+- slug: median
+  af:
+    def: "'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel\
+      \ skei. Die mediaan gee dikwels 'n beter idee van wat tipies is vir die datastel\
+      \ as die [mediaan](#mean), wat be\xEFnvloed kan word deur 'n klein aantal ekstreme\
+      \ uitskieters.\n"
+    term: mediaan
+- slug: model
+  af:
+    def: '''n Spesifikasie van''n wiskundige verband tussen verskillende veranderlikes.
+
+      '
+    term: model
+- slug: module
+  af:
+    def: '''n Herbruikbare [sagtewarepakket](#package), ook dikwels ''n [biblioteek](#library)
+      genoem.
+
+      '
+    term: module
+- slug: mode
+  af:
+    def: 'Die waarde wat die meeste in ''n datastel voorkom.
+
+      '
+    term: modus
+- slug: milestone
+  af:
+    def: '''n Teiken wat ''n projek probeer bereik, dikwels voorgestel as ''n stel
+      [kwessies](#issue) wat almal teen ''n sekere tyd opgelos moet wees.
+
+      '
+    term: mylpaal
+- slug: na
+  af:
+    def: '''n Spesiale waarde wat gebruik word om data wat nie beskikbaar is nie,
+      voor te stel.
+
+      '
+    term: NA
+- slug: node
+  af:
+    def: '''n Element in ''n [grafiese voorstelling](#graph), soos ''n grafiek of
+      ''n netwerk, wat deur ander ''n node/nodus met ''n [skakel](#edge) verbind is.
+      Nodes/Nodusse het spesifieke data, soos byvoorbeeld name of gewigte, gekoppel.
+
+      '
+    term: node, nodus
+- slug: 'null'
+  af:
+    def: "'n Spesiale waarde wat gebruik word om 'n vermiste voorwerp voor te stel.\
+      \ Nul is nie dieselfde as [NA](#na) nie, en dit is ook nie dieselfde as 'n [le\xEB\
+      \ vektor](#empty_vector) nie.\n"
+    term: nul
+- slug: open_science
+  af:
+    def: '''n Generiese term om wetenskaplike sagteware, data en publikasies toegangklik
+      te maak.
+
+      '
+    term: oop wetenskap
+- slug: automatic_variable
+  af:
+    def: "'n Veranderlike waaraan daar outomaties 'n waarde toegeken word in [boure\xEB\
+      l](#build_rule). Byvoorbeeld, \"Make\" ken outomaties die naam van 'n re\xEB\
+      l se teiken aan die outomatiese veranderlike, '$@' toe. Outomatiese veranderlikes\
+      \ word dikwels gebruik tydens die skryf van [patroonre\xEBls](#pattern_rule).\n"
+    term: outomatiese veranderlike
+- slug: auto_completion
+  af:
+    def: '''n Funksie wat ''n gebruiker toelaat om ''n woord of ''n kode vinnig te
+      voltooi deur die TAB sleutel te druk om ''n lys van moontlike woorde of kodes
+      te vertoon waaruit die gebruiker kan kies.
+
+      '
+    term: outomatiese voltooing
+- slug: pseudo_random_number
+  af:
+    def: '''n Waarde wat op so ''n wyse gegenereer is dat dit lyk op die [ware](#true)
+      lukraakheid van die heelal, tot so ''n mate dat dit waarnemers fop.
+
+      '
+    term: pseudo- lukrake nommer
+- slug: prng
+  af:
+    def: '''n Funksie wat [pseudo- lukrake nommers](#pseudo_random_number) kan genereer.
+
+      '
+    term: pseudolukrakenommergenereerder
+- slug: base_r
+  af:
+    def: 'Die basiese funksies van die [R](#r_language) programmeertaal. Die basispakette
+      kan in `src/library`gevind word en kan nie onafhanklik van R opgedateer word
+      nie. Die weergawenommers van die pakette volg die R weergawenummering. Basispakette
+      word geinstalleer en gelaai as deel van R terwyl prioriteitpakette saam met
+      R geinstalleer word maar moet gelaai word voor hulle gebruik kan word.
+
+      '
+    term: R basis
+- slug: arithmetic_mean
+  af:
+    def: 'Sien [gemiddelde](#mean).
+
+      '
+    term: rekenkundige gemiddelde
+- slug: seed
+  af:
+    def: '''n Waarde wat gebruik word om ''n [pseudolukrakenommergenereerder](#prng)
+      te begin.
+
+      '
+    term: saadjie
+- slug: aggregation
+  af:
+    def: 'Om ''n groep waardes in een te kombineer bv. om ''n versameling getalle
+      op te som of om ''n versameling alfabetiese stringe aaneen te skakel.
+
+      '
+    term: samevoeging
+- slug: cpu
+  af:
+    def: "Dit is die prim\xEAre hardeware van enige rekenaar. Dit vorm die essensi\xEB\
+      le elektroniese stroombaan wat instruksies van die sagteware of ander hardeware\
+      \ interpreteer en uitvoer. Ook genoem 'n sentrale verwerker, hoofverwerker,\
+      \ of mikroverwerker.\n"
+    term: Sentrale verwerkingseenheid
+- slug: backward_compatible
+  af:
+    def: '''n Eienskap van ''n stelsel, hardeware of sagteware wat dit moontlik maak
+      om met ''n ouer weergawe van die stelsel, of met die toevoer ontwerp vir ''n
+      ouer stelsel te werk. Byvoorbeeld, ''n [funksie](#function) wat in [Python](#python)
+      3 geskryf is maar sal werk in Python weergawe 2 is terugwaarts versoenbaar."
+
+      '
+    term: terugwaarts versoenbaar
+- slug: backpropagation
+  af:
+    def: "'n Algoritme wat die gewigte wat in 'n [neurale netwerk](#neural_network)\
+      \ gebruik word iteratief aanpas. Terugwaartse voortplanting word dikwels gebruik\
+      \ om [gradi\xEBnte afdaling](#gradient_descent) te implementeer.\n"
+    term: terugwaartse voortplanting
+- slug: api
+  af:
+    def: 'n Versameling funksies en prosedures wat deur ''n sagtewareprogrammateek
+      of webdiens voorsien word vir gebruik deur ander toepassings om met die programmateek
+      of webdiens te kommunikeer. Die API is nie die kode, die databasis of die bediener
+      nie, dit is die koppelvlak.
+
+      '
+    term: Toepassing Programmeerderkoppelvlak
+- slug: condition
+  af:
+    def: '''n Fout of ander onverwagte gebeurtenis wat die normale vloei van beheer
+      ontwrig.
+
+      '
+    term: toestand
+- slug: outlier
+  af:
+    def: "Uiterste waardes wat moontlik meet- of opnamefoute kan wees, of wat werklik\
+      \ seldsame gebeurtenisse kan wees. Uitstekers word soms ge\xEFgnoreer wanneer\
+      \ statistiek gedoen word, of afsonderlik hanteer of gevisualiseer.\n"
+    term: uitskietter
+- slug: confidence_interval
+  af:
+    def: "'n Variasiewydte rondom 'n beraming wat'n foutgrens aandui, gekombineerd\
+      \ met die waarskynlikheid\n dat die werklike getal binne die skatting val.\n"
+    term: vertrouensinterval
+- slug: full_join
+  af:
+    def: '''n [Koppeling](#join) wat alle rye en alle kolomme uit twee tabelle A en
+      B oplewer. Waar die [ID-sleutels](#key) van A en B by mekaar pas, word die waardes
+      gekombineer; waar dit nie die geval is nie, word ontbrekende waardes uit enige
+      van die twee tabelle gevul met [nul](#null), [NA](#na), of enige ander aanduier
+      van ''n [ontbrekende waarde](#missing_value).
+
+      '
+    term: volle koppeling
+- slug: bias
+  af:
+    def: '''n Statistiek is bevooroordeeld as dit sistematies of konsekwent verskil
+      van die parameter wat dit veronderstel is om te skat.
+
+      '
+    term: vooroordeel
+- slug: yaml
+  af:
+    def: "Kort vir \"YAML Ain't Markup Language\", 'n manier om geneste data te gebruik\
+      \ deur middel van indentasies in plaas van hakkies en kommas of [JSON](#json).\
+      \ YAML word dikwels in konfigurasiel\xEAers gebruik en om [parameters](#parameter)\
+      \ vir verskeie geure te definieer van [Markdown](#markdown) dokumente.\n"
+    term: YAML
