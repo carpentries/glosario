@@ -2002,7 +2002,6 @@
     def: >
       Une unité d'information ne pouvant prendre que deux valeurs, souvent désignées par les alternatives oui/non
       ou vrai/faux. En informatique cela représente un état de 0 ou 1.
-      አማራጮችን የሚወክል የመረጃ ክፍል ፣ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡ አዎ / አይደለም ፣ (እውነት) (#true) / [ውሸት](#false) አማራጮችን የሚወክል የመረጃ ክፍል የ 0 ወይም የ 1 ሁኔታን በማስላት ላይ ፡፡]
   af:
     term: bis
     def: >

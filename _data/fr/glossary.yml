@@ -153,16 +153,7 @@
   fr:
     def: "Une unit\xE9 d'information ne pouvant prendre que deux valeurs, souvent\
       \ d\xE9sign\xE9es par les alternatives oui/non ou vrai/faux. En informatique\
-      \ cela repr\xE9sente un \xE9tat de 0 ou 1. \u12A0\u121B\u122B\u132E\u127D\u1295\
-      \ \u12E8\u121A\u12C8\u12AD\u120D \u12E8\u1218\u1228\u1303 \u12AD\u134D\u120D\
-      \ \u1363 \u12A0\u12CE / \u12A0\u12ED\u12F0\u1208\u121D \u1363 (\u12A5\u12CD\u1290\
-      \u1275) (#true) / [\u12CD\u1238\u1275](#false) \u12E8 0 \u12C8\u12ED\u121D \u12E8\
-      \ 1 \u1201\u1294\u1273\u1295 \u1260\u121B\u1235\u120B\u1275 \u120B\u12ED \u1361\
-      \u1361 \u12A0\u12CE / \u12A0\u12ED\u12F0\u1208\u121D \u1363 (\u12A5\u12CD\u1290\
-      \u1275) (#true) / [\u12CD\u1238\u1275](#false) \u12A0\u121B\u122B\u132E\u127D\
-      \u1295 \u12E8\u121A\u12C8\u12AD\u120D \u12E8\u1218\u1228\u1303 \u12AD\u134D\u120D\
-      \ \u12E8 0 \u12C8\u12ED\u121D \u12E8 1 \u1201\u1294\u1273\u1295 \u1260\u121B\
-      \u1235\u120B\u1275 \u120B\u12ED \u1361\u1361]\n"
+      \ cela repr\xE9sente un \xE9tat de 0 ou 1.\n"
     term: bit
 - slug: causation
   fr:
