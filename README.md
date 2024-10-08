@@ -66,7 +66,7 @@ this project implements a glossary of terms used in data science and data engine
 
 1.  The master copy of the glossary lives in `glossary.yml`.
     Its format is described below.
-1.  This file is turned into a single-page GitHub Pages site using Jekyll.
+1.  This file is turned into a single-page GitHub Pages site using [Jekyll](https://jekyllrb.com/docs/).
 1.  It is also turned into a [Python package](https://github.com/carpentries/glosario-py) called `glosario`
     and an [R package](https://github.com/carpentries/glosario-r) with the same name.
 
@@ -104,7 +104,12 @@ A glossary entry is structured like this:
         and the value may contain local links to other terms in this glossary
         (i.e., links starting with `#`)
         and/or links to outside sources.
+### Building a local test site
+Once you have finished creating your glossary entry it may be useful to build a local test site to check the syntax and formatting is correct. To do this you will need a working installation of Jekyll on your local machine (instructions for which can be found [here](https://jekyllrb.com/docs/installation/).
 
+With this, you can then use the command `make serve` this will create a local copy of the GitHub pages site that you can view in a web browser. The IP. address for this is listed in the command line output as `Server address: http://X.Y.Z:4000` however the default address is `http://localhost:4000`.
+
+Another useful command is `make check` the just checks the syntax for the glossary is correct without actually creating the GitHub pages site.
 ## Open issues
 
 1.  Should we provide one function for interactive definition lookup
