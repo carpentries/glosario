@@ -4637,7 +4637,7 @@
   af:
     term: "kodering"
     def: >
-      Die proses om 'n reeks karakters soos letters, syfers, interpuntiewe tekens en sekere simbole in 'n gespesialiseerde formaat te plaas vir doeltreffende oordrag of berging.
+      Die proses waardeur 'n reeks karakters, soos letters, syfers, interpunktiewe tekens en sekere simbole, in 'n gespesialiseerde formaat geplaas word vir doeltreffende oordrag of berging
 
   uk:
     term: "кодування"
@@ -4654,7 +4654,7 @@
   af:
     term: "omgewing"
     def: >
-      'n Struktuur wat 'n stel van veranderlike name en die waardes waarn na verwys, stoor.
+      'n Struktuur wat 'n stel van veranderlike name en die waardes waarna na verwys, stoor.
 
   fr:
     term: "environnement"
