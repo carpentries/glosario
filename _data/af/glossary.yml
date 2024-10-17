@@ -320,6 +320,42 @@
 
       '
     term: eienskap
+- slug: email
+  af:
+    def: "Elektroniese pos is 'n metode vir die aflewering van boodskappe tussen mense\
+      \ oor 'n rekenaarnetwerk.   Boodskappe word via 'n [SMTP](#smtp) bediener gestuur\
+      \ en verkry deur gebruik te maak van \xF3f 'n [IMAP](#imap) \xF3f 'n [POP](#pop)\
+      \ bediener.\n"
+    term: Elektronisese pos
+- slug: emacs
+  af:
+    def: '''n teksredigeerder wat gewild is onder Unix-programmeerders.
+
+      '
+    term: Emacs (teksredigeerder)
+- slug: evaluation
+  af:
+    def: 'Die proses om ''n uitdrukking soos 1+2*3/4 te neem en dit om te skakel in
+      ''n enkele, onherleidbare waarde.
+
+      '
+    term: evaluering
+- slug: error_test
+  af:
+    def: 'Aangewys wanneer iets verkeerd gaan in ''n [eenheidstoets](#unit_test) self
+      eerder as in die stelsel wat getoets word. In hierdie geval weet ons niks van
+      die  korrekheid van die stelsel nie.
+
+      '
+    term: fout (in 'n toets)
+- slug: error_handling
+  af:
+    def: 'Wat ''n program doen om foute op te spoor en reg te stel. Voorbeelde sluit
+      in die afdruk van ''n boodskap en die gebruik van ''n  standaardkonfigurasie
+      as die gebruiker-gespesifiseerde konfigurasie nie gevind kan word nie.
+
+      '
+    term: foutbehandeling
 - slug: mean
   af:
     def: 'Die gemiddelde waarde van ''n datastel, beter bekend as die [rekenkundige
@@ -387,6 +423,14 @@
 
       '
     term: kies
+- slug: encoding
+  af:
+    def: 'Die proses waardeur ''n reeks karakters, soos letters, syfers, interpunktiewe
+      tekens en sekere simbole, in ''n gespesialiseerde formaat geplaas word vir doeltreffende
+      oordrag of berging
+
+      '
+    term: kodering
 - slug: cognitive_load
   af:
     def: 'Die hoeveelheid werkgeheue wat nodig is om ''n stel gelyktydige take te
@@ -436,6 +480,11 @@
 
       '
     term: kruiskoppeling
+- slug: empty_vector
+  af:
+    def: "'n Vektor wat geen elemente bevat nie. Le\xEB vektore het 'n tipe soos logies\
+      \ of karakter, en is *nie* dieselfde as [nul](#null) nie.\n"
+    term: "le\xEB vektor"
 - slug: agile
   af:
     def: "'n Sagteware-ontwikkelingsmetode wat die klem l\xEA op vele klein stappies\
@@ -517,6 +566,13 @@
       \ Nul is nie dieselfde as [NA](#na) nie, en dit is ook nie dieselfde as 'n [le\xEB\
       \ vektor](#empty_vector) nie.\n"
     term: nul
+- slug: environment
+  af:
+    def: '''n Struktuur wat ''n stel van veranderlike name en die waardes waarna na
+      verwys, stoor.
+
+      '
+    term: omgewing
 - slug: open_science
   af:
     def: '''n Generiese term om wetenskaplike sagteware, data en publikasies toegangklik
