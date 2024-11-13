@@ -3297,7 +3297,8 @@
   ref:
     - concatenate
   en:
-    def: "See [concatenate](#concatenate)."
+    def: >
+      See [concatenate](#concatenate).
 
 - slug: conda
   ref:
