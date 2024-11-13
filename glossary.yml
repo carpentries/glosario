@@ -9346,8 +9346,8 @@
   af:
     term: "wortel van gemiddelde kwardraat fout"
     def: >
-      Die [wortel](#wortel) van die [gemiddelde kwadraat fout](#gemiddelde_kwadraat_fout). Soos die
-      [standaardafwyking](#standaardafwyking), is dit in dieselfde eenhede as die
+      Die [wortel](#square_root) van die [gemiddelde kwadraat fout](#mean_squared_error). Soos die
+      [standaardafwyking](#standard deviation), is dit in dieselfde eenhede as die
       oorspronklike data.
 
 - slug: root_tree
@@ -9622,7 +9622,7 @@
   af: 
     term: "shell"
     def: >
-      'n [Opdraglyn-onderhoudskerm](#cli) wat 'n gebruiker toelaat om met die [bedryfstelsel](#bedryfstelsel) te kommunikeer, soos Bash (vir Unix en MacOS) of PowerShell (vir Windows).
+      'n [Opdraglyn-onderhoudskerm](#cli) wat 'n gebruiker toelaat om met die [bedryfstelsel](#operating_system) te kommunikeer, soos Bash (vir Unix en MacOS) of PowerShell (vir Windows).
 
 - slug: shell_script
   en:
