@@ -10160,7 +10160,7 @@
       sont des opérations qui doivent s'exécuter simultanémment ou se terminer en même temps.
   af:
     term: sinchronies
-      def: >
+    def: >
       Om op dieselfde tyd te gebeur. In programmering is sinchroniese operasies dié wat terselfdertyd moet loop, of wat op dieselfde tyd voltooi moet word.
 
 
