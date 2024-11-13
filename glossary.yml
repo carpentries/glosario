@@ -4618,7 +4618,6 @@
       Electronic mail is a method for delivering messages between people over a computer network.
       Messages are sent via an [SMTP](#smtp) server and retrieved using either an [IMAP](#imap) or
       [POP](#pop) server.
-
   af:
     term: "Elektronisese pos"
     acronym: "epos"
@@ -9770,7 +9769,7 @@
   af:
   term: "Eenvoudige Pos Oordrag Protokol"
   def: >
-    A standard internet communication protocol for transmitting [email](#email).
+      A standard internet communication protocol for transmitting [email](#email).
 
 - slug: smtps
   ref:
@@ -9858,13 +9857,10 @@
     term: "sprint"
     def: >
       A short, intense period of work on a project.
-
   af:
     term: "spurt"
     def: >
       'n Kort, intense periode van werk aan 'n projek.
-
-
 
 - slug: sql
   en:
@@ -9889,8 +9885,6 @@
     term: "SQL"
     def: >
       Die taal wat gebruik word om navrae vir 'n [relasionele databasisse](#relational_database) te skryf. Die term is 'n akroniem vir Gestruktureerde Navraagtaal.
-
-
 
 - slug: square_root
   en:
@@ -9958,8 +9952,6 @@
     term: "Stack Overflow"
     def: >
       'n Vraag-en-antwoord webwerf gewild onder programmeerders.
-
-
 
 - slug: standard_deviation
   ref:
@@ -10072,8 +10064,6 @@
   af:
     term: "gestratifiseerde steekproefneming"
       Die seleksie van waardes deur die algehele bevolking in [homogene](#homogeneous) groepe te verdeel en dan 'n ewekansige steekproef uit elke groep te neem.
-
-
 
 - slug: stream
   en:
@@ -10194,8 +10184,6 @@
     def: >
       'n Variasie op die [normale verdeling](#normal_distribution) wat aangepas is om rekening te hou met die skatting van [variantie](#variance) uit die steekproef, in plaas daarvan om dit vooraf te weet.
 
-
-
 - slug: tab_completion
   en:
     term: "tab completion"
@@ -10203,7 +10191,6 @@
       A technique implemented by most [REPLs](#repl), [shells](#shell), and
       programming editors that completes a command, variable name, filename, or other
       text when the TAB key is pressed.
-
 
 - slug: table
   en:
@@ -10364,7 +10351,6 @@
       conforma una columna, (2) cada observación conforma una fila y (3) cada tipo de
       unidad de observación conforma una tabla.
 
-
 - slug: tidymodels
   en:
     term: "Tidymodels"
@@ -10380,8 +10366,6 @@
     term: "Tidymodels"
     def: >
       'n Versameling van [R](#r_language) [pakkette](#package) vir modellering en statistiese analise wat ontwerp is volgens 'n [gemeenskaplike filosofie](https://tidymodels.github.io/model-implementation-principles/index.html).
-
-
 
 - slug: tidyverse
   en:
@@ -10405,8 +10389,6 @@
     term: "Tidyverse"
     def: >
       'n Versameling van [R](#r_language) [pakkette](#package) vir die werk met tabeldata op 'n konsekwente manier.
-
-
 
 - slug: time_series
   ref:
