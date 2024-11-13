@@ -9767,8 +9767,8 @@
     def: >
       A standard internet communication protocol for transmitting [email](#email).
   af:
-  term: "Eenvoudige Pos Oordrag Protokol"
-  def: >
+    term: "Eenvoudige Pos Oordrag Protokol"
+    def: >
       A standard internet communication protocol for transmitting [email](#email).
 
 - slug: smtps
@@ -10063,6 +10063,7 @@
       groups and then taking a random sample from each group.
   af:
     term: "gestratifiseerde steekproefneming"
+    def: > 
       Die seleksie van waardes deur die algehele bevolking in [homogene](#homogeneous) groepe te verdeel en dan 'n ewekansige steekproef uit elke groep te neem.
 
 - slug: stream
