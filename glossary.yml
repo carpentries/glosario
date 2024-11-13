@@ -9304,9 +9304,6 @@
     def: >
       'n [Koppeling](#join) wat data uit twee tabelle, A en B, kombineer. Waar [sleutels](#key) in tabel A ooreenstem met sleutels in tabel B, word [velde](
 
-
-
-
 - slug: root_directory
   en:
     term: "root directory"
@@ -9318,9 +9315,6 @@
     term: "wortelgids"
     def: >
       Die [gids](#directory) wat alles anders bevat, hetsy direk of indirek. Die wortelgids word geskryf as `/` (’n alleenstaande skuinsstreep).
-
-
-
 
 - slug: root_math
   ref:
@@ -9357,9 +9351,6 @@
       [standaardafwyking](#standaardafwyking), is dit in dieselfde eenhede as die
       oorspronklike data.
 
-
-
-
 - slug: root_tree
   en:
     term: "root (in a tree)"
@@ -9388,9 +9379,6 @@
     term: "Navorsingsagteware Ingenieur"
     def: >
       Iemand wie se primêre verantwoordelikheid is om die gespesialiseerde sagteware te bou waarop ander navorsers staatmaak.
-
-
-
 
 - slug: rseng
   en:
@@ -9494,8 +9482,6 @@
     term: "programskrif"
     def: >
       Oorspronklik, 'n program geskryf in 'n taal wat te gebruikersvriendelik was vir "regte" programmeerders om ernstig op te neem; die term is nou sinoniem met program.
-
-
 
 - slug: search_path
   en:
@@ -9639,9 +9625,6 @@
     def: >
       'n [Opdraglyn-onderhoudskerm](#cli) wat 'n gebruiker toelaat om met die [bedryfstelsel](#bedryfstelsel) te kommunikeer, soos Bash (vir Unix en MacOS) of PowerShell (vir Windows).
 
-
-
-
 - slug: shell_script
   en:
     term: "shell script"
@@ -9657,7 +9640,6 @@
       A variable set and used in the [Unix shell](#shell). Commonly used shell
       variables include `HOME` (the user's home directory) and `PATH` (their [search path](#search_path)).
 
-
 - slug: shiny
   en:
     term: "Shiny"
@@ -9670,8 +9652,6 @@
     term: "Shiny"
     def: >
       'n [R](#r_language) [pakket](#package) wat dit maklik maak om webtoepassings te bou om data interaktief te visualiseer en te manipuleer. Dit word dikwels gebruik om interaktiewe [grafieke](graph) en [tabellen](#table) direk vanuit [R](#r_language) te maak sonder om [HTML](#html), [CSS](#css) of JavaScript te moet ken.
-
-
 
 - slug: short_circuit_test
   ref:
@@ -9734,12 +9714,9 @@
       One set of square brackets `[ ]`, used to select a structure from another structure based
       on an index value, or range of values, inside the square brackets.
   af: 
-    term: "nkele vierkantige hakies"
+    term: "Enkele vierkantige hakies"
     def: >
       Een stel vierkantige hakies `[ ]`, wat gebruik word om 'n struktuur uit 'n ander struktuur te kies op grond van 'n indekswaarde, of 'n reeks waardes, binne die vierkantige hakies.
-
-
-
 
 - slug: single_threaded
   en:
@@ -9749,8 +9726,6 @@
       Single-threaded execution is easier for people to understand, but less efficient
       than [multi-threaded](#multi_threaded) execution.
   
-
-
 - slug: singleton
   ref:
     - singleton_pattern
@@ -9782,9 +9757,6 @@
     def: >
       'n Afgekapte gedeelte van 'n bladsy se URL wat dit uniek identifiseer. In die voorbeeld `https://www.mysite.com/category/post-name`, is die slug `post-name`.
 
-
-
-
 - slug: smtp
   ref:
     - smtps
@@ -9799,8 +9771,6 @@
   term: "Eenvoudige Pos Oordrag Protokol"
   def: >
     A standard internet communication protocol for transmitting [email](#email).
-
-
 
 - slug: smtps
   ref:
