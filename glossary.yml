@@ -9961,7 +9961,11 @@
     def: >
       A predefined communication channel for a [process](#process), typically used for
       error messages.
-
+  es:
+    term: "error estandar"
+    def: >
+      Un canal de communication predefinido para un [proceso](#process), usado típicamente 
+      para mensajes de error.
 
 - slug: stdin
   ref:
@@ -9972,7 +9976,11 @@
     def: >
       A predefined communication channel for a [process](#process), typically used to
       read input from the keyboard or from the previous process in a [pipe](#pipe_shell).
-
+  es:
+    term: "entrada estandar"
+    def: >
+      Un canal de communication predefinido para un [proceso](#process), usado típicamente para
+      leer la entrada desde el teclado o desde el proceso anterior en el flujo de trabajo.
 
 - slug: stdout
   ref:
@@ -9983,6 +9991,11 @@
     def: >
       A predefined communication channel for a [process](#process), typically used to
       send output to the screen or to the next process in a [pipe](#pipe_shell).
+  es:
+    term: "salida estandar"
+    def: >
+      Un canal de communication predefinido para un [proceso](#process), usado típicamente typically para
+      enviar la salida a la pantalla o al proceso siguiente en un flujo de trabajo.
 
 
 - slug: stratified_sampling
@@ -9990,7 +10003,11 @@
     term: "stratified sampling"
     def: >
       Selecting values by dividing the overall population into [homogeneous](#homogeneous)
-      groups and then taking a random sample from each group.
+  es:
+    term: "muestra estratificada"
+    def: >
+      Selecionar valores dividiendo la población general en grupos [homogeneos](#homogeneous)
+      y tomando luego una muestra aleatoria de cada grupo. 
 
 
 - slug: stream
@@ -9999,7 +10016,11 @@
     def: >
       A sequential flow of data, such as the [bits](#bit) arriving across a network connection
       or the bytes read from a file.
-
+  es:
+    term: "flujo"
+    def: >
+      Un flujo sequential de datos, como los [bits](#bit) que llegan a travéz de una conexión de red 
+      o los bytes que see lean desde un archivo.
 
 - slug: string
   en:
@@ -11083,7 +11104,6 @@
       A class of artificial neural network that is primarily used to analyze images. A CNN has layers
       that perform convolutions, where a filter is shifted over the data, instead of the general
       matrix multiplications that we see in fully connected neural network layers.
-
 
 - slug: rnn
   ref:
