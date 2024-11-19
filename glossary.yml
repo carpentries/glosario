@@ -7839,7 +7839,10 @@
     term: "Nano (editor)"
     def: >
       A very simple text editor found on most Unix systems.
-
+  uk:
+    term: "Nano (редактор)"
+    def: >
+      Простий текстовий редактор, який можна знайти на багатьох системах Unix.
 
 - slug: negative_selection
   en:
