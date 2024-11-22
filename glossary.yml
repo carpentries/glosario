@@ -9215,6 +9215,10 @@
     def: >
       Місце, де [система контролю версій](#version_control_system) зберігає файли,
       що складають проект, та метадані, які описують їхню історію.
+  af:
+    term: "bewaarplek"
+    def: >
+      'n Plek waar 'n [weergawebeheerstelsel](#version_control_system) die lêers stoor wat 'n projek uitmaak, asook die metadata wat hul geskiedenis beskryf.
 
 - slug: reprex
   en:
@@ -9246,6 +9250,11 @@
       A prática de escrever e documentar resultados de pesquisa de forma que outras
       pessoas pesquisadoras possam executar novamente o código de análise com os
       mesmos dados para obter os mesmos resultados.
+
+  af:
+    term: "herhaalbare navorsing"
+    def: >
+      Die praktyk om navorsingsresultate so te beskryf en te dokumenteer dat 'n ander navorser of persoon die ontledingskode op dieselfde data kan uitvoer om dieselfde resultate te verkry.
 
 - slug: reserved_word
   en:
@@ -9290,6 +9299,11 @@
       [null](#null), [NA](#na), or some other [missing value](#missing_value) signifier.
       Keys from table A that do not exist in table B are dropped.
 
+  af:
+    term: "regs-koppeling"
+    def: >
+      'n [Koppeling](#join) wat data van twee tabelle, A en B, kombineer. Waar [sleutels](#key) in tabel A ooreenstem met sleutels in tabel B, word [velde](#field) saamgevoeg. Waar 'n sleutel in tabel B *nie* ooreenstem met 'n sleutel in tabel A nie, word kolomme van tabel A ingevul met [null](#null), [NA](#na), of 'n ander aanduider van '[vermiste waarde](#missing_value)'. Sleutels van tabel A wat nie in tabel B bestaan nie, word verwyder.
+
 
 - slug: root_directory
   en:
@@ -9297,6 +9311,11 @@
     def: >
       The [directory](#directory) that contains everything else, either directly or indirectly. The root
       directory is written `/` (a bare forward slash).
+  
+  af:
+    term: "wortelgids"
+    def: >
+      Die [gids](#directory) wat alles anders bevat, hetsy direk of indirek. Die wortelgids word geskryf as `/` (’n alleenstaande skuinsstreep).
 
 
 - slug: root_math
@@ -9328,6 +9347,13 @@
       [desviación estándar](#standard_deviation), está en las mismas unidades que
       los datos originales.
 
+  af:
+    term: "wortel van gemiddelde kwardraat fout"
+    def: >
+      Die [wortel](#square_root) van die [gemiddelde kwadraat fout](#mean_squared_error). Soos die
+      [standaardafwyking](#standard_deviation), is dit in dieselfde eenhede as die
+      oorspronklike data.
+
 
 - slug: root_tree
   en:
@@ -9353,6 +9379,11 @@
     def: >
       Someone whose primary responsibility is to build the specialized software that
       other researchers depend on.
+
+  af:
+    term: "Navorsingsagteware Ingenieur"
+    def: >
+      Iemand wie se primêre verantwoordelikheid is om die gespesialiseerde sagteware te bou waarop ander navorsers staatmaak.
 
 
 - slug: rseng
@@ -9453,6 +9484,11 @@
     def: >
       Originally, a program written in a language too user-friendly for "real" programmers to
       take seriously; the term is now synonymous with program.
+
+  af:
+    term: "programskrif"
+    def: >
+      Oorspronklik, 'n program geskryf in 'n taal wat te gebruikersvriendelik was vir "regte" programmeerders om ernstig op te neem; die term is nou sinoniem met program.
 
 
 - slug: search_path
@@ -9592,6 +9628,11 @@
       A [command-line interface](#cli) that allows a user to interact with the
       [operating system](#operating_system), such as Bash (for Unix and MacOS) or PowerShell (for Windows).
 
+  af:
+    term: "shell"
+    def: >
+      'n [Opdraglyn-onderhoudskerm](#cli) wat 'n gebruiker toelaat om met die [bedryfstelsel](#operating_system) te kommunikeer, soos Bash (vir Unix en MacOS) of PowerShell (vir Windows).
+
 
 - slug: shell_script
   en:
@@ -9617,6 +9658,11 @@
       interactively visualise and manipulate data. Often used to make interactive [graphs](graph)
       and [tables](#table) straight from [R](#r_language) without having
       to know [HTML](#html), [CSS](#css) or JavaScript.
+
+  af:
+    term: "Shiny"
+    def: >
+      'n [R](#r_language) [pakket](#package) wat dit maklik maak om webtoepassings te bou om data interaktief te visualiseer en te manipuleer. Dit word dikwels gebruik om interaktiewe [grafieke](#graph) en [tabellen](#table) direk vanuit [R](#r_language) te maak sonder om [HTML](#html), [CSS](#css) of JavaScript te moet ken.
 
 
 - slug: short_circuit_test
@@ -9680,6 +9726,11 @@
       One set of square brackets `[ ]`, used to select a structure from another structure based
       on an index value, or range of values, inside the square brackets.
 
+  af:
+    term: "Enkele vierkantige hakies"
+    def: >
+      Een stel vierkantige hakies `[ ]`, wat gebruik word om 'n struktuur uit 'n ander struktuur te kies op grond van 'n indekswaarde, of 'n reeks waardes, binne die vierkantige hakies.
+
 
 - slug: single_threaded
   en:
@@ -9716,6 +9767,11 @@
     def: >
       An abbreviated portion of a page's URL that uniquely identifies it. In the
       example `https://www.mysite.com/category/post-name`, the slug is `post-name`.
+    
+  af:
+    term: "slug"
+    def: >
+      'n Afgekapte gedeelte van 'n bladsy se URL wat dit uniek identifiseer. In die voorbeeld `https://www.mysite.com/category/post-name`, is die slug `post-name`.
 
 
 - slug: smtp
@@ -9729,6 +9785,10 @@
     def: >
       A standard internet communication protocol for transmitting [email](#email).
 
+  af:
+    term: "Eenvoudige Pos Oordrag Protokol"
+    def: >
+      'n Standaard internetkommunikasieprotokol vir die oordrag van [e-pos](#email).
 
 - slug: smtps
   ref:
@@ -9750,6 +9810,11 @@
     term: "snake case"
     def: >
       See [pothole case](#pothole_case).
+
+  af:
+    term: "slangkas"
+    def: >
+      Sien [padgat-skrif](#pothole_case). 
 
 
 - slug: software_distribution
@@ -9774,6 +9839,11 @@
       Вихідний код, або первинний код - це джерело коду, який виконується за допомогою інтерпретатора 
       або компілятора. Здебільшого, це створена людиною серія команд, з яких 
       складається програма. (Примітка: для деяких застосунків існують автоматичні генератори коду)
+
+  af:
+    term: "bronkode"
+    def: >
+       Bronkode, of eenvoudig, kode, is die oorsprong van uitgevoerde kode (of deur 'n interpreter of kompilateur). Dit is die primêr menslike vervaardigde reeks opdragte wat 'n program vorm. (Let wel: Outomatiese kodegenerators bestaan vir sommige toepassings)
       
 - slug: source_distribution
   en:
@@ -9808,6 +9878,10 @@
     def: >
       A short, intense period of work on a project.
 
+  af:
+    term: "spurt"
+    def: >
+      'n Kort, intense periode van werk aan 'n projek.
 
 - slug: sql
   en:
@@ -9829,9 +9903,14 @@
       [base de données relationnelle](#relational_database).
       Le terme est l'acronyme de "Structured Query Language" (langage de requête structuré).
 
+  af:
+    term: "SQL"
+    def: >
+      Die taal wat gebruik word om navrae vir 'n [relasionele databasisse](#relational_database) te skryf. Die term is 'n akroniem vir Gestruktureerde Navraagtaal.
+
 - slug: square_root
   en:
-    term: "Square root"
+    term: "Square root"Un sitio de preguntas y respuestas popular entre personas programadoras.
     def: >
       A special case of the [n-th root](#root_math) for which n = 2, i.e. the 2-nd root has the special name "square root".
 
@@ -9892,6 +9971,10 @@
     def: >
       Un sitio de preguntas y respuestas popular entre personas programadoras.
 
+  af:
+    term: "Stack Overflow"
+    def: >
+      'n Vraag-en-antwoord webwerf gewild onder programmeerders.
 
 - slug: standard_deviation
   ref:
@@ -9928,6 +10011,11 @@
       Показник того, наскількі широко значення в наборі даних відрізняються від [середнього](#mean). 
       Обчислюється як квадратний корінь із [дисперсії](#variance).
 
+  af:
+    term: "standaardafwyking"
+    def: >
+      Hoe wyd waardes in 'n datastel van die [gemiddelde](#mean) afwyk. Dit word bereken as die vierkantswortel van die [variantie](#variance).
+
 - slug: standard_normal_distribution
   en:
     term: "standard normal distribution"
@@ -9951,6 +10039,10 @@
       com outros parâmetros podem ser facilmente redimensionados para obter-se
       uma distribuição normal padrão.
 
+  af:
+    term: "standaardnormale verdeling"
+    def: >
+      'n [Normale verdeling](#normal_distribution) met 'n [gemiddelde](#mean) van 0 en 'n [standaardafwyking](#standard_deviation) van 1. Waardes van normale verdelings met ander [parameters](#parameter) kan maklik herskaal word om op 'n standaardnormale verdeling te wees.
 
 - slug: stderr
   ref:
@@ -9992,6 +10084,10 @@
       Selecting values by dividing the overall population into [homogeneous](#homogeneous)
       groups and then taking a random sample from each group.
 
+  af:
+    term: "gestratifiseerde steekproefneming"
+    def: >
+      Die seleksie van waardes deur die algehele bevolking in [homogene](#homogeneous) groepe te verdeel en dan 'n ewekansige steekproef uit elke groep te neem.
 
 - slug: stream
   en:
@@ -10086,6 +10182,11 @@
       Qui se produit en même temps. En programmation, des opérations synchrones
       sont des opérations qui doivent s'exécuter simultanémment ou se terminer en même temps.
 
+  af:
+    term: "sinchronies"
+    def: >
+      Om op dieselfde tyd te gebeur. In programmering is sinchroniese operasies dié wat terselfdertyd moet loop, of wat op dieselfde tyd voltooi moet word.
+
 - slug: systematic_error
   en:
     term: "systematic error"
@@ -10103,6 +10204,10 @@
       to account for estimating [variance](#variance) from the sample instead of
       knowing it in advance.
 
+  af:
+    term: "t-verdeling"
+    def: >
+      'n Variasie op die [normale verdeling](#normal_distribution) wat aangepas is om rekening te hou met die skatting van [variantie](#variance) uit die steekproef, in plaas daarvan om dit vooraf te weet.
 
 - slug: tab_completion
   en:
