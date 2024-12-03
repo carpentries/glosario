@@ -7741,7 +7741,7 @@
     def: >
       Capable of performing several operations simultaneously. Multi-threaded programs
       are usually more efficient than [single-threaded](#single_threaded) ones, but
-      also harder to understand and debug.
+      also harder to understand and [debug](#debug).
 
 
 - slug: mutable_type
@@ -9184,7 +9184,7 @@
     def: >
       An interactive program that reads a command typed in by a user, executes it,
       prints the result, and then waits patiently for the next command. REPLs are
-      often used to explore new ideas, or for debugging.
+      often used to explore new ideas, or for [debugging](#debug).
 
 
 - slug: repository
