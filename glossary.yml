@@ -801,7 +801,7 @@
     def: >
        Ni utaratibu wa hatua za kutatua tatizo. Ni kanuni zinazofuatwa na kompyuta ama tarakilishi ili kupata jibu la tatizo.
 
-- slug: algorithmic_bias
+- slug: algorithmic bias
   ref:
     - algorithm
   en:
@@ -867,7 +867,7 @@
       Solapamiento. Tener dos o más referencias al mismo objeto, por ejemplo como estructura de datos
       en memoria o como archivo guardado en disco.
 
-- slug: anaconda
+- slug: Anaconda
   ref:
     - pip
     - conda
@@ -3246,7 +3246,7 @@
     def: >
       ተጠቃሚዎች የጽሁፍ እና ኮድን በአንድ ውስጥ ለማቀላቀፍ የሚያስችል የሰነድ ቅርጸት ድምር ነጠላ ፋይል, እና ያንን ኮድ በተሳታፊነት እና ውስጥ የሚፈፅም መተግበሪያ ቦታ ።  የ[Jupyter Notebook](#jupyter_notebook) እና [R Markdown](#r_markdown) ፋይሎች ሁለቱም የሒሳብ ማስታወሻ ደብተሮች ምሳሌዎች ናቸው።
 
-- slug: compute_shader
+- slug: compute shader
   ref:
     - gpu
     - shader
