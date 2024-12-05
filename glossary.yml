@@ -4848,6 +4848,11 @@
       Un método de desarrollo de software en el cual los requerimientos emergen o cambian
       a medida que el software es escrito, frecuentemente en respuesta a resultados de
       corridas previas.
+  af:
+    term: "verkennende programmering"
+    def: >
+      Hierdie is 'n sagteware-ontwikkelingsmetodologie waarin vereistes ontstaan of verander terwyl die sagteware geskryf word, dikwels in reaksie op 
+      resultate van vroeë toetslopies.
 
   am:
     term: ተመራማሪ መርሃግብር
