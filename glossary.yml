@@ -831,13 +831,22 @@
       Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado en un [algoritmo](#algorithm).
       Por ejemplo, algoritmos de redes sociales pueden priorizar o estigmatizar contenido de ciertos grupos de usuarios.
 
-
+- slug: alias
+  ref:
+    - aliasing
+  en:
+    term: "alias"
+    def: >
+      See [aliasing](#aliasing).
+    
 - slug: aliasing
+  ref:
+    - alias
   en:
     term: "aliasing"
     def: >
-      To have two or more references to the same thing, such as a data structure in
-      memory or a file on disk.
+      To have two or more references (aliases) to the same thing,
+      such as a data structure in memory or a file on disk.
   af:
     term: "aliasering"
     def: >
@@ -2756,7 +2765,7 @@
   en:
     term: Creative Commons license
     def: >
-      A set of [licenses](#license) that can be applied to published work. Each license is formed by concatenating one or more of `-BY` (Attribution): users must cite the original source; `-SA` (ShareAlike): users must share their own work under a similar license; `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission; `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission." The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions," i.e., the work is in the public domain.
+      A set of [licenses](#license) that can be applied to published work. Each license is formed by [concatenating](#concatenating) one or more of `-BY` (Attribution): users must cite the original source; `-SA` (ShareAlike): users must share their own work under a similar license; `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission; `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission." The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions," i.e., the work is in the public domain.
   pt:
     term: Licença Creative Commons
     def: >
@@ -3297,6 +3306,13 @@
     def: >
       Añadir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la unión de datos de extremo a extremo. [Python](#python).
 
+- slug: concatenating
+  ref:
+    - concatenate
+  en:
+    def: >
+      See [concatenate](#concatenate).
+
 - slug: conda
   ref:
     - pip
@@ -3505,7 +3521,7 @@
   en:
     term: "copy-on-modify"
     def: >
-      The practice of creating a new copy of aliased data whenever there is an attempt
+      The practice of creating a new copy of [aliased](#aliasing) data whenever there is an attempt
       to modify it so that each reference will believe theirs is the only one.
   am:
     term: ኮፒ በ ማስተካከያ
