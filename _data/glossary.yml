@@ -1317,6 +1317,19 @@
       wakalimani chini ya hali ya uboreshaji. Kutumia madai kwa uthibitishaji wa data kwa hivyo kunaweza kuanzisha hatari za usalama.
       Tofauti na lugha nyingi, R haina taarifa ya `assert` ambayo inaweza kuzimwa,
       na kwa hivyo matumizi ya [package](#package) kama vile `assertr` kwa uthibitishaji wa data haileti mashimo ya usalama.
+  uk:
+    term: "припущення"
+    def: >
+      [Булевий вираз](#boolean), який повинен бути [істинним](#true) під час його обчислення у програмі.
+      Припущення можуть бути вбудованими в мову програмування (наприклад, оператор `assert` у [Python](#python))
+      або надаватися як функції (наприклад, `stopifnot` в [R](#r_language)).
+      Припущення часто використовуються розробниками під час тестування, але також можуть бути постійно
+      залишені у коді для перевірки подальшої правильності його виконання.
+      У багатьох мовах програмування припущення не слід використовувати для перевірки даних,
+      оскільки компілятори та інтерпретатори можуть їх пропускати під час оптимізації.
+      Використання припущень для перевірки даних може, таким чином, створити ризики безпеки.
+      Але на відміну від багатьох мов, R не має оператора `assert`, який можна вимкнути, тому
+      використання такого [пакета](#package) як `assertr` для перевірки даних є безпечним.
 
 - slug: associative_array
   en:
