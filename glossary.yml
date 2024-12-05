@@ -2879,6 +2879,11 @@
       To make something visible outside a [module](#module) so that other parts of a
       program can [import](#import) it. In most languages a module must export things
       explicitly in an attempt to avoid [name collision](#name_collision).
+    af:
+    term: "uitvoer"
+    def: >
+     Om iets sigbaar te maak buite 'n [module](#module) sodat ander dele van 'n program dit kan [invoer](#import). 
+     In die meeste programmeertale moet 'n module dinge uitdruklik uitvoer om [naamkonflik](#name_collision) te voorkom.
 
 
 - slug: fail_test
