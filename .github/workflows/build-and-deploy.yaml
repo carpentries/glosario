@@ -4,7 +4,7 @@ name: Build and Deploy Glossary Website
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # pyicu build fails on python 3.12
     steps:
     - name: Checkout
       uses: actions/checkout@v3
