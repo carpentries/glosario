@@ -248,6 +248,9 @@ def _setup_dict(glossary, data_path):
                     }
                 )
 
+                if "ref" in slug:
+                    count_dict[lang]["term_entry_map"][slug[lang]["term"]]["ref"] = slug["ref"]
+
     # return the data structure including sorted terms
     return _sort_terms(count_dict, data_path)
 
@@ -264,14 +267,20 @@ def _build_lang_glossary(count_dict):
                 slug = term_map["slug"]
                 _def = term_map["def"]
 
+                od = OrderedDict({
+                    "slug": slug,
+                    lang: {
+                        "term": sorted_term,
+                        "def": _def
+                    }
+                })
+
+                if "ref" in term_map:
+                    _ref = term_map["ref"]
+                    od["ref"] = _ref
+
                 # use an OrderedDict to retain insertion order
-                sorted_glossary.append(OrderedDict({
-                        "slug": slug,
-                        lang: {
-                            "term": sorted_term,
-                            "def": _def
-                        }
-                    }))
+                sorted_glossary.append(od)
 
         # only include languages with terms
         if sorted_glossary:
