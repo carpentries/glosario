@@ -1,5 +1,6 @@
 {% assign language = page.permalink | replace: '/', '' %}
 
+{% assign all_gloss = site.data.glossary %}
 {% assign gloss = site.data.[language].glossary %}
 
 {% assign direction = 'ltr' %}
@@ -48,7 +49,7 @@ Cross-references are displayed in __bold__ if that term is missing.
     &larr;
     {% endif %}
     {% for other_key in item.ref -%}
-    {%- assign other = gloss | where: "slug", other_key | first -%}
+    {%- assign other = all_gloss | where: "slug", other_key | first -%}
     <a href="#{{other_key}}">
       {%- if other[language] -%}
         {{other[language].term}}
@@ -62,7 +63,7 @@ Cross-references are displayed in __bold__ if that term is missing.
     {%- comment -%} Translations {%- endcomment -%}
     {% assign others = '' | split: ',' %}
     {% for lang in site.languages %}
-      {% if lang.key != language and item[lang.key] %}
+      {% if lang.key != language and other[lang.key] %}
         {% assign others = others | push: lang %}
       {% endif %}
     {% endfor %}

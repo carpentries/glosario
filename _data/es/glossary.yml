@@ -38,12 +38,23 @@
     def: "Una [uni\xF3n](#join) que conserva las filas de la tabla A cuyas claves\
       \ *no* coinciden con las de la tabla B.\n"
     term: anti join
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: unsupervised_learning
   es:
     def: 'Un tipo de algoritmos que aprenden patrones a partir de datos sin anotar/etiquetar.
 
       '
     term: aprendizaje no supervisado
+  ref:
+  - supervised_learning
+  - reinforcement_learning
 - slug: deep_learning
   es:
     def: "Una familia de algoritmos de redes neuronales que utilizan m\xFAltiples\
@@ -57,6 +68,9 @@
 
       '
     term: aprendizaje supervisado
+  ref:
+  - unsupervised_learning
+  - reinforcement_learning
 - slug: argument
   es:
     def: "El t\xE9rmino no debe ser confundido con, ni es sin\xF3nimo de, [par\xE1\
@@ -77,6 +91,8 @@
       nica es una que corre independientemente de otra, o que comienza en un tiempo\
       \ y termina en otro.\n"
     term: "asincr\xF3nico"
+  ref:
+  - synchronous
 - slug: attribute
   es:
     def: 'Una pareja nombre-valor asociada a un objeto, usada para almacenar metadatos
@@ -107,6 +123,8 @@
       \ muestran como columnas) y un n\xFAmero variable de [registros](#record) (que\
       \ se muestran como filas).\n"
     term: base de datos relacional
+  ref:
+  - sql
 - slug: library
   es:
     def: "un paquete de software reutilizable, tambi\xE9n  se llama un [m\xF3dulo](#module).\n"
@@ -118,11 +136,16 @@
 
       '
     term: Big Data
+  ref:
+  - three_vs
 - slug: bit
   es:
     def: "Unidad de informaci\xF3n representando alternativas s\xED/no, [verdadero](#true)/[falso](#false).\
       \ En computaci\xF3n, un estado de ser 0 \xF3 1.\n"
     term: bit
+  ref:
+  - binary
+  - boolean
 - slug: boolean
   es:
     def: "Relacionado a una variable o tipo de dato que puede tomar un valor l\xF3\
@@ -131,6 +154,10 @@
       \ XIX. El concepto del computador esta fundamentado en el sistema binario, en\
       \ el qual se evalua entre estados de verdedero o falso.\n"
     term: Booleano
+  ref:
+  - truthy
+  - falsy
+  - binary
 - slug: bug
   es:
     def: "Una [caraster\xEDstica](#feature_software) faltante o indeseada de un software.\n"
@@ -161,6 +188,11 @@
       \ salida de informaci\xF3n. Las capas est\xE1n \"escondidas\" porque no puedes\
       \ observar directamente el ingreso y salida de valores.\n"
     term: capa oculta (deep learning)
+  ref:
+  - neural_network
+  - machine_learning
+  - deep_learning
+  - perceptron
 - slug: folder
   es:
     def: "Otro t\xE9rmino para hacer referencia a un [directorio](#directory).\n"
@@ -175,6 +207,11 @@
     def: "Tambi\xE9n conocido como bucle. Estructura que ejecuta un bloque de c\xF3\
       digo repetidamente hasta que se cumple una condici\xF3n de salida o fin.\n"
     term: ciclo
+  ref:
+  - for_loop
+  - while_loop
+  - infinite_loop
+  - loop_body
 - slug: for_loop
   es:
     def: "Tambi\xE9n conocido como bucle for. Estructura dentro de un programa que\
@@ -182,12 +219,16 @@
       \  una vez por cada elemento de una secuencia, por ejemplo, cada n\xFAmero dentro\
       \ de un rango o cada elemento de una lista. \n"
     term: ciclo for
+  ref:
+  - while_loop
 - slug: while_loop
   es:
     def: "Tambi\xE9n conocido como bucle while. Estructura dentro de un programa que\
       \ repite una o m\xE1s instrucciones (el [cuerpo del ciclo o bucle](#loop_body))\
       \ mientras una condici\xF3n sea [verdadera](#true).\n"
     term: ciclo while
+  ref:
+  - for_loop
 - slug: data_science
   es:
     def: "La combinaci\xF3n de estad\xEDsticas, programaci\xF3n y trabajo duro que\
@@ -214,6 +255,9 @@
       \ o no. Muchos algoritmos de [machine learning](#machine_learning) realizan\
       \ clasificaci\xF3n.\n"
     term: "clasificaci\xF3n"
+  ref:
+  - supervised_learning
+  - clustering
 - slug: character_encoding
   es:
     def: "Especificaci\xF3n sobre c\xF3mo los caracteres est\xE1n guardados como bytes.\
@@ -231,6 +275,10 @@
     def: "A\xF1adir/apilar ya sea columnas (eje=1) o filas (eje=0) mediante la uni\xF3\
       n de datos de extremo a extremo. [Python](#python).\n"
     term: concatenar
+  ref:
+  - aggregation
+  - left_join
+  - right_join
 - slug: constant
   es:
     def: "Una constante en programaci\xF3n es un nombre asociado con un valor que\
@@ -260,6 +308,9 @@
       n conocida como Recall o [Sensibilidad](#sensitivity)) a lo largo del eje vertical\
       \ y la taza de falsos positivos a lo largo del eje horizontal.\n"
     term: Curva ROC
+  ref:
+  - machine_learning
+  - classification
 - slug: tidy_data
   es:
     def: "Datos tabulares que satisfacen [tres condiciones](https://vita.had.co.nz/papers/tidy-data.pdf)\
@@ -267,11 +318,15 @@
       (1) cada variable conforma una columna, (2) cada observaci\xF3n conforma una\
       \ fila y (3) cada tipo de unidad de observaci\xF3n conforma una tabla.\n"
     term: datos ordenados
+  ref:
+  - table
 - slug: decrement
   es:
     def: "Una operaci\xF3n unaria que disminuye el valor de una variable, generalmente\
       \ en 1.\n"
     term: decrementar
+  ref:
+  - increment
 - slug: agile
   es:
     def: "Una metodolog\xEDa de desarrollo de software que enfatiza muchos pasos peque\xF1\
@@ -284,11 +339,15 @@
       \ el punto actual,  da un peque\xF1o paso en la direcci\xF3n en la que el gradiente\
       \ est\xE1 disminuyendo, y luego  recalcula el gradiente.\n"
     term: descenso del gradiente
+  ref:
+  - backpropagation
 - slug: standard_deviation
   es:
     def: "En qu\xE9 medida los valores de un conjunto de datos difieren de la [media](#mean).\
       \ Se calcula como la ra\xEDz cuadrada de la [varianza](#variance).\n"
     term: "desviaci\xF3n est\xE1ndar"
+  ref:
+  - 68_95_997_rule
 - slug: dictionary
   es:
     def: 'Una estructura de datos que contiene parejas llave-valor, a veces llamados
@@ -316,6 +375,8 @@
       digo inmediatamente y navegadores para explorar estructuras de datos en la memoria\
       \ y archivos en el disco.\n"
     term: Entorno de Desarrollo Integrado
+  ref:
+  - repl
 - slug: virtual_environment
   es:
     def: 'En [Python](#python), el [paquete](#package) `virtualenv` permite crear
@@ -332,6 +393,12 @@
       \ se han introducido una vez en el algoritmo.  El entrenamiento de una red neuronal\
       \ profunda consiste en varios epoch.    \n"
     term: epoch (aprendizaje profundo)
+  ref:
+  - deep_learning
+  - backpropagation
+  - perceptron
+  - neural_network
+  - machine_learning
 - slug: absolute_error
   es:
     def: "El valor absoluto de la diferencia entre el valor observado y el valor correcto.\
@@ -342,6 +409,9 @@
     def: "El error promedio de todos los valores predichos en comparaci\xF3n con los\
       \ valores reales.\n"
     term: error absoluto medio
+  ref:
+  - mean_squared_error
+  - root_mean_squared_error
 - slug: mean_squared_error
   es:
     def: "El promedio de los cuadrados de todos los errores de todos los valores predichos\
@@ -349,6 +419,8 @@
       \ cuenten m\xE1s, haciendo esta medida m\xE1s popular que el [error absoluto\
       \ medio](#mean_absolute_error).\n"
     term: "error cuadr\xE1tico medio"
+  ref:
+  - root_mean_squared_error
 - slug: relative_error
   es:
     def: "El valor absoluto de la diferencia entre el valor observado y el valor correcto,\
@@ -372,6 +444,10 @@
   es:
     def: "Una expresi\xF3n con un \xFAnico argumento, como `log 5`.\n"
     term: "expresi\xF3n unaria"
+  ref:
+  - binary_expression
+  - nullary_expression
+  - ternary_expression
 - slug: fail_test
   es:
     def: 'Una prueba falla si el [resultado real](#actual_result) no coincide con
@@ -379,6 +455,8 @@
 
       '
     term: fallar (una prueba)
+  ref:
+  - pass_test
 - slug: fasta
   es:
     def: "Formato de archivo para almacenar informaci\xF3n de secuencias gen\xF3micas\
@@ -430,16 +508,22 @@
     def: "Una operaci\xF3n unaria que aumenta el valor de una variable, generalmente\
       \ en 1.\n"
     term: incrementar
+  ref:
+  - decrement
 - slug: global_installation
   es:
     def: "El acto de instalar un paquete en una ubicaci\xF3n donde pueda ser accedido\
       \ por todas las usuarias y proyectos.\n"
     term: "instalaci\xF3n global"
+  ref:
+  - local_installation
 - slug: local_installation
   es:
     def: "El acto de ubicar un paquete en un proyecto en particular para que s\xF3\
       lo sea accesible dentro de ese proyecto.\n"
     term: "instalaci\xF3n local"
+  ref:
+  - global_installation
 - slug: api
   es:
     def: "Un conjunto de funciones y procedimientos proporcionados por una libreria\
@@ -454,6 +538,9 @@
       \ comandos](#cli)), gr\xE1ficamente y con ventanas (una [interfaz gr\xE1fica\
       \ de usuario](#gui)), u otros m\xE9todos tal como interfaces manejadas por voz.\n"
     term: interfaz de usuario
+  ref:
+  - cli
+  - gui
 - slug: open_license
   es:
     def: 'Una [licencia](#license) que permite reuso en general, tal como la [Licencia
@@ -468,6 +555,8 @@
       \ o entendimiento de lenguajes humanos. Los primeros acercamientos fueron algor\xED\
       tmicos; la mayor\xEDa de los acercamientos modernos son estad\xEDsticos.\n"
     term: "ling\xFC\xEDstica computacional"
+  ref:
+  - nlp
 - slug: lsof
   es:
     def: 'Comando en UNIX para ver la lista de archivos abiertos siendo utilizados
@@ -488,6 +577,8 @@
     def: "Una estructura de datos bi-dimensional para guardar datos tabulares en memoria.\
       \ L\xEDneas representan [entradas](#record) y columnas representan [variables](#variable_data).\n"
     term: marco de datos
+  ref:
+  - tidy_data
 - slug: arithmetic_mean
   es:
     def: "Ver [media](#mean). Calculado por un grupo de n n\xFAmeros realizando la\
@@ -502,6 +593,8 @@
       \ de datos contiene un n\xFAmero par de elementos, este es el promedio de los\
       \ dos elementos centrales.\n"
     term: mediana
+  ref:
+  - mode
 - slug: method
   es:
     def: "Una implementaci\xF3n de una [funci\xF3n gen\xE9rica](#generic_function)\
@@ -518,6 +611,9 @@
   es:
     def: "El valor que ocurre con m\xE1s frecuencia en un conjunto de datos.\n"
     term: moda
+  ref:
+  - mean
+  - median
 - slug: module
   es:
     def: "un paquete de software reutilizable, tambi\xE9n se llama una [biblioteca](#library).\n"
@@ -546,6 +642,8 @@
       \ sofisticadas, enfocadas en matrices multidimensionales, \xE1lgebra lineal,\
       \ transformada de Fourrier y generaci\xF3n de valores aleatorios.\n"
     term: numpy
+  ref:
+  - python
 - slug: object
   es:
     def: "En [programaci\xF3n orientada a objetos](#oop), es una estructura que contiene\
@@ -560,6 +658,8 @@
       \ estructuradas sea f\xE1cil e intuitivo. Se utiliza como una poderosa herramienta\
       \ para el an\xE1lisis y la manipulaci\xF3n de datos.\n"
     term: pandas
+  ref:
+  - python
 - slug: pass_test
   es:
     def: 'Una prueba pasa si el [resultado real](#actual_result) coincide con el [resultado
@@ -567,6 +667,8 @@
 
       '
     term: pasar (una prueba)
+  ref:
+  - fail_test
 - slug: perceptron
   es:
     def: "El tipo m\xE1s simple de [red neuronal](#neural_network), que aproxima una\
@@ -601,6 +703,9 @@
     def: "Un paradigma de programaci\xF3n que combina c\xF3digo y documentaci\xF3\
       n en un solo archivo.\n"
     term: "programaci\xF3n literaria"
+  ref:
+  - computational_notebook
+  - r_markdown
 - slug: oop
   es:
     def: "Un paradigma de programaci\xF3n en el cual los datos (atributos) y funciones\
@@ -620,17 +725,24 @@
       \ de R base se instalan y cargan junto con R, mientras que los paquetes prioritarios\
       \ se instalan con R, pero deben ser cargados antes de utilizarse.\n"
     term: R base
+  ref:
+  - tidyverse
 - slug: r_markdown
   es:
     def: "Un dialecto de [Markdown](#markdown) que permite a sus autores mezclar prosa\
       \ y c\xF3digo (usualmente escrito en [R](#r_language)) en un mismo documento.\n"
     term: R Markdown
+  ref:
+  - computational_notebook
+  - literate_programming
 - slug: root_mean_squared_error
   es:
     def: "La ra\xEDz cuadrada del [error cuadr\xE1tico medio](#mean_squared_error).\
       \ Como la [desviaci\xF3n est\xE1ndar](#standard_deviation), est\xE1 en las mismas\
       \ unidades que los datos originales.\n"
     term: "ra\xEDz del error cuadr\xE1tico medio"
+  ref:
+  - mean_absolute_error
 - slug: recycle
   es:
     def: "Reutilizar valores de un vector m\xE1s corto con el fin de generar una secuencia\
@@ -643,6 +755,10 @@
 
       '
     term: Red Bayesiana
+  ref:
+  - bayes_theorem
+  - markov_chain
+  - naive_bayes_classifier
 - slug: neural_network
   es:
     def: "Uno de los algoritmo de una gran familia de algoritmos usados para identificar\
@@ -652,6 +768,10 @@
       \ la capa siguiente. Si suficientes entradas de un nodo est\xE1n activas,  dicho\
       \ nodo tambi\xE9n se activa.\n"
     term: red neuronal
+  ref:
+  - deep_learning
+  - backpropagation
+  - perceptron
 - slug: 68_95_997_rule
   es:
     def: "Expresa el hecho de que el 68% de los valores se encuentran dentro de una\
@@ -666,12 +786,17 @@
       \ guarda los archivos que conforman un proyecto y los metadatos que describen\
       \ su historia.\n"
     term: repositorio
+  ref:
+  - git
+  - github
 - slug: expected_result
   es:
     def: "El valor que se supone debe producir una secci\xF3n de c\xF3digo cuando\
       \ se prueba de una manera determinada, o el estado en el que se supone debe\
       \ dejar el sistema.\n"
     term: resultado esperado (de una prueba)
+  ref:
+  - actual_result
 - slug: actual_result
   es:
     def: "El valor generado ejecutando el c\xF3digo en una prueba. Si coincide con\
@@ -702,6 +827,8 @@
       \ del contexto donde sea evaluada. Una ruta absoluta es el equivalente a la\
       \ latitud y longitud en geograf\xEDa.\n"
     term: ruta absoluta
+  ref:
+  - relative_path
 - slug: s_language
   es:
     def: "Un lenguaje para an\xE1lisis de datos, modelado estad\xEDstico y gr\xE1\
@@ -733,6 +860,11 @@
     def: "Un estad\xEDstico est\xE1 sesgado si es sistem\xE1tica o consistentemente\
       \ diferente del par\xE1metro que se supone que debe estimar.\n"
     term: sesgo
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
 - slug: algorithmic_bias
   es:
     def: 'Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado
@@ -741,6 +873,8 @@
 
       '
     term: "sesgo algor\xEDtmico"
+  ref:
+  - algorithm
 - slug: selecting on the dependent variable bias
   es:
     def: "Un estudio que solamente incluye casos en los que la variable dependiente\
@@ -767,6 +901,8 @@
 
       '
     term: "sistema de control de versi\xF3n"
+  ref:
+  - git
 - slug: sql
   es:
     def: "Lenguaje utilizado para escribir consultas para una [base de datos relacional](#relational_database).\
@@ -799,6 +935,12 @@
       \ menos, pero ser\xE1 m\xE1s lenta.  Tambi\xE9n puede caer m\xE1s f\xE1cilmente\
       \ en m\xEDnimos locales.\n"
     term: tasa de aprendizaje (aprendizaje profundo)
+  ref:
+  - deep_learning
+  - backpropagation
+  - perceptron
+  - neural_network
+  - machine_learning
 - slug: bayes_theorem
   es:
     def: "Una ecuaci\xF3n para calcular la probabilidad de que algo sea [verdadero](#true)\
@@ -806,6 +948,10 @@
       \ de que X is verdadero y P(X`|`Y) es \_ \_ la probabilidad de que X es verdadero\
       \ dado que Y sea verdadero, entonces P(X`|`Y) = P(Y`|`X) * P(X) / P(Y).\n"
     term: Teorema de Bayes
+  ref:
+  - bayesian_network
+  - naive_bayes_classifier
+  - prior_distribution
 - slug: tibble
   es:
     def: 'Un remplazo moderno para los data frames de [R](#r_language) que guarda
@@ -824,16 +970,22 @@
       \ en 1969 en AT&T Bell Labs. Sus principales caracter\xEDsticas son herramientas\
       \ sencillas, funcionalidad bien definida y portabilidad.\n"
     term: UNIX
+  ref:
+  - operating_system
 - slug: variable_program
   es:
     def: "Un nombre en un programa que tiene algunos datos asociados. El valor de\
       \ una variable se puede cambiar despu\xE9s de su definici\xF3n.\n"
     term: variable (programa)
+  ref:
+  - constant
 - slug: global_variable
   es:
     def: "Una variable definida fuera de alguna funci\xF3n en particular, por lo que\
       \ es visible para todas las funciones.\n"
     term: variable global
+  ref:
+  - local_variable
 - slug: independent_variable
   es:
     def: "El factor que cambias o controlas intencionadamente para ver qu\xE9 efecto\
@@ -844,6 +996,9 @@
     def: "Una variable definida dentro de una funci\xF3n, por lo que solo es visible\
       \ dentro de ella.\n"
     term: variable local
+  ref:
+  - closure
+  - global_variable
 - slug: variance
   es:
     def: "En qu\xE9 medida los valores de un conjunto de datos difieren de la [media](#mean).\
@@ -870,6 +1025,12 @@
 
       '
     term: verdadero negativo
+  ref:
+  - true_positive
+  - false_negative
+  - false_positive
+  - machine_learning
+  - classification
 - slug: true_positive
   es:
     def: 'Resultado en el que el valor real es [verdadero](#true) y es correctamente
@@ -877,6 +1038,12 @@
 
       '
     term: verdadero positivo
+  ref:
+  - true_negative
+  - false_negative
+  - false_positive
+  - machine_learning
+  - classification
 - slug: vim
   es:
     def: "El editor de texto por defecto en Unix. Vim es un poderoso editor de texto\

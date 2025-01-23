@@ -46,6 +46,9 @@
 
       '
     term: bit
+  ref:
+  - binary
+  - boolean
 - slug: boolean
   id:
     def: 'Berkaitan dengan variabel atau tipe data yang dapat memiliki nilai logika
@@ -55,6 +58,10 @@
 
       '
     term: Boolean
+  ref:
+  - truthy
+  - falsy
+  - binary
 - slug: call_stack
   id:
     def: 'Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin
@@ -116,6 +123,8 @@
 
       '
     term: path absolut
+  ref:
+  - relative_path
 - slug: yaml
   id:
     def: 'Kependekan dari "YAML Ain''t Markup Language", adalah cara menyatakan nested

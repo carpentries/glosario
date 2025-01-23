@@ -3,8 +3,13 @@
     def: "\uC18C\uC2A4 \uCF54\uB4DC \uC0C1\uC758 \uBAA8\uB4E0 \uACF3\uC5D0\uC11C \uC811\
       \uADFC\uD560 \uC218 \uC788\uB294 \uBCC0\uC218.\n"
     term: "\uC804\uC5ED \uBCC0\uC218"
+  ref:
+  - local_variable
 - slug: local_variable
   ko:
     def: "\uD2B9\uC815 \uD568\uC218 \uB0B4\uC5D0\uC11C \uC815\uC758\uB418\uACE0 \uADF8\
       \ \uD568\uC218 \uB0B4\uC5D0\uC11C\uB9CC \uC720\uD6A8\uD55C \uBCC0\uC218.\n"
     term: "\uC9C0\uC5ED \uBCC0\uC218"
+  ref:
+  - closure
+  - global_variable

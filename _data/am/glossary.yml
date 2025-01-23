@@ -44,12 +44,19 @@
       \ \u12AD\u122D\u12AD\u122E\u127D\u1295 \u12E8\u121A\u12C8\u1235\u12F5 \u12A0\
       \u1308\u120B\u1208\u133D\u1362\n"
     term: "\u1201\u1208\u1275\u12EE\u123D \u12A0\u1308\u120B\u1208\u133D"
+  ref:
+  - nullary_expression
+  - ternary_expression
+  - unary_expression
 - slug: cran
   am:
     def: "\u12E8 [R](#r_language) \u1325\u1245\u120E\u127D \u12E8\u1205\u12DD\u1265\
       \ \u121B\u12A8\u121B\u127B\u1362"
     term: "\u1201\u1209\u1295 \u12A0\u1240\u134D R \u1218\u12DD\u1308\u1265 \u1264\
       \u1275 \u12A0\u12CD\u1273\u1228 \u1218\u1228\u1265"
+  ref:
+  - base_r
+  - tidyverse
 - slug: condition
   am:
     def: "\u12E8\u1270\u1208\u1218\u12F0\u12CD\u1295 \u12E8\u1218\u1246\u1323\u1320\
@@ -57,6 +64,8 @@
       \u1205\u1270\u1275 \u12C8\u12ED\u121D \u120C\u120B \u12EB\u120D\u1270\u1320\u1260\
       \u1240 \u12AD\u1235\u1270\u1275\u1362\n"
     term: "\u1201\u1294\u1273"
+  ref:
+  - handle_condition
 - slug: hitchhiker
   am:
     def: "\u12A0\u1295\u12F5 \u12E8\u1355\u122E\u1300\u12AD\u1275 \u12A0\u12AB\u120D\
@@ -125,6 +134,8 @@
       \u122D\u12DD\u122D \u12A0\u12AB\u120D \u12CD\u1235\u1325 \u1241\u1325\u122D\u1362\
       \n"
     term: "\u1208\u1209\u1355(\u134E\u122D \u1209\u1355)"
+  ref:
+  - while_loop
 - slug: lisp
   am:
     def: "\u12A5\u1295\u12F0 \u130E\u1306 \u1355\u122E\u130D\u122B\u121E\u127D\u1295\
@@ -159,6 +170,8 @@
       \u1209\u1275\u1295 \u120D\u12AC\u1276\u127D \u1265\u12DB\u1275 \u1218\u1240\u1290\
       \u1235 \u1363 \u1260\u1270\u1208\u121D\u12F6 \u1260\u121B\u130D\u1298\u1275\n"
     term: "\u120D\u12AC\u1275 \u1245\u1290\u1233"
+  ref:
+  - principal_component_analysis
 - slug: discrete_random_variable
   am:
     def: ": \u12A5\u1295\u12F0 [\u12A5\u12CD\u1290\u1270\u129B](#variable_data) \u12C8\
@@ -168,6 +181,8 @@
       \u1235\u12F5 \u12E8\u121A\u127D\u120D \u12A0\u1295\u12F5 [\u1270\u1208\u12CB\
       \u12CB\u132D](#false)\u1362\n"
     term: "\u120D\u12E9 \u122B\u1295\u12F0\u121D \u1270\u1208\u12CB\u12CB\u132D"
+  ref:
+  - continuous_random_variable
 - slug: exception_handler
   am:
     def: "\u12A8\u12A5\u1231 \u1260\u128B\u120B [\u1260\u1235\u1270\u1240\u122D](#exception)\
@@ -193,6 +208,8 @@
       \u1325 \u12C8\u12F0 [\u1210\u1230\u1275](#boolean) \u1218\u1308\u121D\u1308\u121D\
       \u1362\n"
     term: "\u1210\u1230\u1270\u129B"
+  ref:
+  - truthy
 - slug: covariance
   am:
     def: "\u1201\u1208\u1275 \u1270\u1208\u12CB\u12CB\u132E\u127D \u12A5\u122D\u1235\
@@ -237,6 +254,8 @@
       \u12A8\u120D \u12EB\u1209 \u122D\u1240\u1276\u127D\u1295 \u12AB\u122C\u12CE\u127D\
       \ \u1260\u1218\u1240\u1290\u1235 \u1361\u1361\n"
     term: "\u1218\u1235\u1218\u122B\u12CA \u121B\u1348\u130D\u1348\u130D"
+  ref:
+  - logistic_regression
 - slug: cross_validation
   am:
     def: "\u1218\u1228\u1303\u1295 \u12C8\u12F0 [\u12E8\u1225\u120D\u1320\u1293 \u12CD\
@@ -252,6 +271,8 @@
       \u1218\u122D\u1218\u122D \u1290\u12CD\u1362\n"
     term: "\u1218\u1235\u1240\u120D-\u121B\u1228\u130B\u1308\u132B \u121B\u123D\u1295\
       \ \u1218\u121B\u122D"
+  ref:
+  - machine_learning
 - slug: field
   am:
     def: "\u12A0\u1295\u12F5 \u1290\u1320\u120B \u12A5\u1234\u1275 \u12E8\u12EB\u12D8\
@@ -300,6 +321,11 @@
       \u12F5\u1295 \u12E8\u1218\u12A8\u134B\u1348\u120D \u1202\u12F0\u1275 \u12A0\u1235\
       \u1240\u12F5\u121E \u12E8\u1273\u12C8\u1240 \u1290\u12CD \u1362\n"
     term: "\u1218\u12A8\u134B\u1348\u120D"
+  ref:
+  - centroid
+  - classification
+  - supervised_learning
+  - unsupervised_learning
 - slug: median
   am:
     def: "\u12E8\u1270\u1235\u1270\u12AB\u12A8\u1208 \u12E8\u12CD\u1202\u1265 \u1235\
@@ -318,6 +344,8 @@
       \u12A8\u120B\u12CA \u12A0\u12AB\u120B\u1275 \u12A0\u121B\u12AB\u12ED \u1290\u12CD\
       \u1362\n"
     term: "\u1218\u12AB\u12A8\u1208\u129B"
+  ref:
+  - mode
 - slug: fail_test
   am:
     def: "[\u1275\u12AD\u12AD\u1208\u129B\u12CD \u12CD\u1324\u1275](#actual_result)\
@@ -325,6 +353,8 @@
       \ \u1219\u12A8\u122B \u12A0\u120D\u1270\u1233\u12AB\u121D \u12E8\u1270\u1320\
       \u1260\u1240\u12CD \u12CD\u1324\u1275 (#expected_result)\u1362\n"
     term: "\u1218\u12CD\u12F0\u1245 (\u1348\u1270\u1293)"
+  ref:
+  - pass_test
 - slug: closure
   am:
     def: "\u1205\u120D\u12CD\u1293\u1278\u12CD \u1260\u12DA\u1201 [\u1235\u134B\u1275\
@@ -363,6 +393,9 @@
       \u122A\u1276\u127D \u12E8\u1218\u12F0\u1265 \u120D\u12E9\u1290\u1275\u1295 \u12EB\
       \u12A8\u1293\u12CD\u1293\u1209\u1362\n"
     term: "\u1218\u12F0\u1265"
+  ref:
+  - supervised_learning
+  - clustering
 - slug: breadth_first
   am:
     def: "\"\u1201\u1209\u1295\u121D \u1260\u1218\u12F3\u1230\u1235 \u12A5\u1295\u12F0\
@@ -388,6 +421,8 @@
       \u1204\u12F5 \u1363 \u12C8\u12ED\u121D \u12A0\u1295\u12F5 \u127D\u130D\u122D\
       \u1295 \u1208\u1218\u12F3\u1230\u1235\"\n"
     term: "\u1218\u1300\u1218\u122A\u12EB \u1235\u134B\u1275"
+  ref:
+  - depth_first
 - slug: full_identifier_git
   am:
     def: "\u1260 [Git](#git) [\u121B\u12A8\u121B\u127B](#commit) \u12CD\u1235\u1325\
@@ -412,6 +447,14 @@
       \u1234\u1275](#missing_value) \u12A0\u1218\u120B\u12AB\u127D \u1270\u121E\u120D\
       \u1270\u12CB\u120D\u1362\n"
     term: "\u1219\u1209 \u1218\u1240\u120B\u1240\u120D"
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: fully_qualified_name
   am:
     def: "\u12E8\u1245\u1339\u1295 \u1325\u1245\u120D \u12E8\u121B\u12EB\u123B\u121B\
@@ -429,6 +472,9 @@
       ]#geometric_mean) \u12A5\u1293 [harmonic](#harmonic_mean) \u121B\u1208\u1275\
       \ \u1290\u12CD\u1362\n"
     term: "\u121B\u1208\u1275"
+  ref:
+  - median
+  - mode
 - slug: assertion
   am:
     def: "\u1260\u12A0\u1295\u12F5 [\u12E8\u1270\u12C8\u1230\u1290] \u1266\u1273 \u1355\
@@ -504,6 +550,14 @@
       \ \u12A0\u1295\u12F5 [\u1270\u1240\u120B\u1240\u120D](#join) \u12A8 \u1201\u1208\
       \u1275 \u1320\u1228\u1334\u12DB\u12CE\u127D\u1361\u1361"
     term: "\u121B\u1240\u1293\u1300\u1275"
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: lift
   am:
     def: "\u12A5\u1295\u12F0 \u12A0\u1295\u12F5 \u1325\u121D\u122D\u1273 \u12E8\u121A\
@@ -527,6 +581,9 @@
       \n"
     term: "\u121B\u1295\u1260\u1265\u1293 \u1218\u133B\u134D \u1218\u122D\u1203\u130D\
       \u1265\u122D"
+  ref:
+  - computational_notebook
+  - r_markdown
 - slug: merge_git
   am:
     def: "\u12ED\u1218\u120D\u12A8\u1271 [Git merge](#git_merge)\n"
@@ -546,6 +603,8 @@
       \u1355\u122E\u1230\u1230\u122D ::\n"
     term: "\u121B\u12D5\u12A8\u120B\u12CA \u121B\u1240\u1290\u1263\u1260\u122A\u12EB\
       \ \u12AD\u134D\u120D"
+  ref:
+  - gpu
 - slug: filter
   am:
     def: "\u12A5\u1295\u12F0 \u130D\u1235 \u1363 \u12E8 [\u1218\u12DD\u1308\u1266\u127D\
@@ -576,6 +635,9 @@
       \u12F5 \u1201\u1294\u1273\u12CE\u127D \u12F0\u130D\u121E \u12ED\u1205\u1295\
       \ \u121B\u12F5\u1228\u130D \u12EB\u1235\u1348\u120D\u130B\u120D \u1362\n"
     term: "\u121B\u1325\u1218\u12F5 (\u1208\u12E8\u1275 \u12EB\u1208)"
+  ref:
+  - condition
+  - handle_condition
 - slug: markdown
   am:
     def: "\u1208 [HTML](#html) \u121D\u1275\u12AD \u1270\u1265\u120E \u12E8\u1273\u1240\
@@ -602,6 +664,9 @@
       \u121D \u120B\u12ED \u12E8\u12CB\u1209 \u12E8\u121B\u12CD\u132B \u124B\u1295\
       \u124B\u12CE\u127D \u1293\u1278\u12CD \u1361\u1361\n"
     term: "\u121D\u120D\u12AD\u1275 \u121B\u12F5\u1228\u130A\u12EB \u124B\u1295\u124B"
+  ref:
+  - latex
+  - xml
 - slug: cryptographic_hash_function
   am:
     def: "\u1208\u121B\u1295\u129B\u12CD\u121D \u130D\u1265\u12D3\u1275 \u12E8\u12D8\
@@ -626,6 +691,8 @@
       \n"
     term: "\u1228\u1305\u121D \u1218\u1208\u12EB (\u12E8\u1241\u122D\u1320\u129D\u1290\
       \u1275)"
+  ref:
+  - short_identifier_git
 - slug: long_option
   am:
     def: "\u1208 [\u12E8\u1275\u12A5\u12DB\u12DD \u1218\u1235\u1218\u122D \u12AD\u122D\
@@ -639,6 +706,8 @@
       \u1240\u121B\u1209 \u1363 \u1208\u121D\u1233\u120C - - \u2039bobose \u203A\u1361\
       \u1361\n"
     term: "\u1228\u1305\u121D \u12A0\u121B\u122B\u132D"
+  ref:
+  - short_option
 - slug: auto_completion
   am:
     def: "\u1270\u1320\u1243\u121A\u12CD \u12E8 TAB \u1241\u120D\u134D\u1295 \u1260\
@@ -661,6 +730,8 @@
       \ \u1325\u1245\u121D \u120B\u12ED \u12ED\u12CD\u120B\u1209 [\u12E8\u1295\u12F5\
       \u134D \u1205\u130E\u127D](#pattern_rule)\u1362\n"
     term: "\u122B\u1235-\u1230\u122D \u1270\u1208\u12CB\u12CB\u132D"
+  ref:
+  - makefile
 - slug: issue
   am:
     def: "\u12A0\u1295\u12F5 [\u12E8\u1233\u1295\u12AB \u12D8\u1308\u1263](#bug_report)\
@@ -684,6 +755,8 @@
       \u1290\u1275](#truthy) \u12A8\u1206\u1290  \u12A8\u1206\u1290 \u1265\u127B \u1290\
       \u12CD\u1362\n"
     term: "\u1230\u1290\u134D \u130D\u121D\u1308\u121B"
+  ref:
+  - short_circuit_test
 - slug: csv
   am:
     def: "\u12A5\u12EB\u1295\u12F3\u1295\u12F1 [\u1218\u12DD\u1308\u1265](#record)\
@@ -783,6 +856,8 @@
       \u12AE\u121D\u1352\u1270\u122D \u1355\u122E\u130D\u122B\u121D \u1218\u1218\u122A\
       \u12EB\u12CE\u127D \u1235\u1265\u1235\u1265 \u1290\u12CD\"\n"
     term: "\u1235\u120D\u1270 \u1240\u1218\u122D"
+  ref:
+  - algorithm
 - slug: anonymous_function
   am:
     def: "\"\u1235\u121D \u12EB\u120D\u1270\u1218\u12F0\u1260 \u1270\u130D\u1263\u122D\
@@ -809,6 +884,8 @@
       \u12ED\u129B\u12CD \u1218\u130B\u12D8\u1295](#pull_request) \u120A\u1240\u122D\
       \u1261 \u12ED\u127D\u120B\u1209 \u1361\u1361\n"
     term: "\u1239\u12AB"
+  ref:
+  - branch
 - slug: graph
   am:
     def: "1. \u1218\u1228\u1303\u1295 \u12E8\u121A\u12EB\u1233\u12ED \u1234\u122B\
@@ -817,6 +894,8 @@
       \ \u12A5\u122D\u1235 \u1260\u12A5\u122D\u1233\u1278\u12CD \u1260 [\u1320\u122D\
       \u12DE\u127D](#edge) \u1270\u1308\u1293\u129D\u1270\u12CB\u120D\u1362\n"
     term: "\u1240\u1218\u122D"
+  ref:
+  - tree
 - slug: continuous_random_variable
   am:
     def: "\u12CB\u130B\u12CD \u121B\u1295\u129B\u12CD\u121D \u12A5\u12CD\u1290\u1270\
@@ -828,6 +907,8 @@
       \u1362\n"
     term: "\u1240\u1323\u12ED \u12F5\u1295\u1308\u1270\u129B \u1270\u1208\u12CB\u12CB\
       \u132D"
+  ref:
+  - discrete_random_variable
 - slug: continuation_prompt
   am:
     def: "\u1260\u12A0\u1201\u1291 \u130A\u12DC \u12A5\u12E8\u1270\u1208\u1348\u1348\
@@ -860,6 +941,9 @@
       \ \u1270\u1328\u121B\u122A (\u1265\u12D9\u12CD\u1295 \u130A\u12DC \u12A0\u121B\
       \u122B\u132D) \u12AD\u122D\u12AD\u122E\u127D\u1362\n"
     term: "\u1241\u120D\u134D \u1243\u120D \u12AD\u122D\u12AD\u122E\u127D"
+  ref:
+  - named_argument
+  - variable_arguments
 - slug: commit
   am:
     def: "\u12A5\u1295\u12F0 \u130D\u1235\u1363 \u1260\u12F3\u1273\u1264\u12DD \u12C8\
@@ -942,6 +1026,10 @@
       \u12CD\u1290\u1270\u129B,1 \u12A5\u1293 \u1260\u1210\u1230\u1275,0  \u1218\u1220\
       \u1228\u1275 \u1270\u1308\u1295\u1265\u1270\u12CB\u120D \n"
     term: "\u1261\u120A\u12EB\u1295"
+  ref:
+  - truthy
+  - falsy
+  - binary
 - slug: group
   am:
     def: "\u1260\u12A0\u1295\u12F5 \u1218\u12CB\u1245\u122D \u12CD\u1235\u1325 \u1218\
@@ -963,6 +1051,9 @@
       \ \u12E8 1 \u1201\u1294\u1273\u1295 \u1260\u121B\u1235\u120B\u1275 \u120B\u12ED\
       \ \u1361\u1361\n"
     term: "\u1262\u1275"
+  ref:
+  - binary
+  - boolean
 - slug: binomial_distribution
   am:
     def: "\u12A5\u12DA\u12EB \u1232\u1296\u122D \u12E8\u121A\u1290\u1233 \u12A0\u1295\
@@ -989,6 +1080,9 @@
       \u132B\u12CD \u12C8\u12F0 [\u1218\u12F0\u1260\u129B \u1235\u122D\u132D\u1275\
       ](#normal_distribution) \u1260\u130D\u121D\u1275\n"
     term: "\u1262\u1296\u121A\u12EB\u120D \u1235\u122D\u132D\u1275"
+  ref:
+  - discrete_random_variable
+  - histogram
 - slug: feature_data
   am:
     def: "\u1260\u12CD\u1202\u1265 \u1235\u1265\u1235\u1265 \u12CD\u1235\u1325 \u1270\
@@ -1010,6 +1104,8 @@
       \u120D \u1290\u1260\u122D \u12E8\u1218\u1290\u123B \u12D3\u12ED\u1290\u1275\
       ::\n"
     term: "\u1263\u1208 \u1201\u1208\u1275 \u12AB\u122C \u1245\u1295\u134E\u127D"
+  ref:
+  - single_square_brackets
 - slug: byte_code
   am:
     def: "\u1260 [\u12A0\u1235\u1270\u122D\u1313\u121A](#interpreter) \u1260\u1265\
@@ -1073,6 +1169,8 @@
       \ \u12A8\u1218\u1320\u1240\u121D \u1260\u134A\u1275 \u1218\u132B\u1295 \u12A0\
       \u1208\u1263\u1278\u12CD \u1361\u1361\n"
     term: "\u1264\u12DD \u12A0\u122D"
+  ref:
+  - tidyverse
 - slug: boilerplate
   am:
     def: "\u1260\u1215\u130B\u12CA \u12AE\u1295\u1275\u122B\u1276\u127D \u1363 \u1348\
@@ -1151,12 +1249,22 @@
       \u12AB\u12CA \u1363 \u12C8\u12D8\u1270 \u1218\u1206\u1295 \u12A0\u1208\u1263\
       \u1278\u12CD \u1361\u1361\n"
     term: "\u1270\u1218\u1233\u1233\u12ED\u1290\u1275 \u12EB\u1208\u12CD"
+  ref:
+  - heterogeneous
 - slug: join
   am:
     def: "\u12A5\u1234\u1276\u127D\u1295 \u12A8\u1201\u1208\u1275 [\u1230\u1295\u1320\
       \u1228 ](#table)\u127D] \u12A8\u121A\u12EB\u1323\u121D\u1229 \u1260\u122D\u12AB\
       \u1273 \u12AD\u12CB\u1294\u12CE\u127D \u12A0\u1295\u12F1 \u1361\u1361\n"
     term: "\u1270\u1240\u120B\u1240\u120D"
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: correlation
   am:
     def: "\u1201\u1208\u1275 \u1218\u1208\u12CB\u12C8\u132B\u12CE\u127D \u12A5\u122D\
@@ -1223,6 +1331,8 @@
       \u1273\u12C8\u1240\u12CD \u1260\u12A0\u1295\u12F5 \u1275\u12A5\u12DB\u12DD \u1218\
       \u12F5\u1308\u121D\u1295 \u12EB\u1235\u127D\u1209\u1273\u120D \u1361\u1361\n"
     term: "\u1270\u130D\u1263\u122D"
+  ref:
+  - command
 - slug: associative_array
   am:
     def: "[\u1218\u12DD\u1308\u1260-\u1243\u120B\u1275\u1295](#dictionary) \u12ED\u1218\
@@ -1240,6 +1350,8 @@
       \ \u1208\u1290\u1260\u1229\u1275 \u1265\u12D9 \u1218\u1228\u1303\u12CE\u127D\
       \ \u1230\u122D\u1270\u12CB\u120D::\n"
     term: "\u1275\u120D\u1245 \u1218\u1228\u1303"
+  ref:
+  - three_vs
 - slug: command
   am:
     def: "\u12A0\u1295\u12F5 \u12E8\u12AE\u121D\u1352\u12CD\u1270\u122D \u1355\u122E\
@@ -1313,6 +1425,8 @@
       \u12D9\u12CD\u1295 \u130A\u12DC [\u1263\u1205\u122A\u12CE\u127D] \u12A0\u120B\
       \u1278\u12CD (#\u1263\u1205\u122A)\u1362\n"
     term: "\u1295\u1325\u1228 \u1290\u1308\u122D"
+  ref:
+  - empty_element
 - slug: logical_indexing
   am:
     def: "\u12A0\u1295\u12F5\u1295 [\u126C\u12AD\u1270\u122D](#vector) \u12C8\u12ED\
@@ -1338,6 +1452,8 @@
       \u1260\u1208\u1320 \u1273\u12CB\u1242 \u120D\u12AC\u1275 (#mean_absolute_error)\u1362\
       \n"
     term: "\u12A0\u121B\u12AB\u12ED \u1235\u12A9\u12CC\u122D \u1235\u1205\u1270\u1275"
+  ref:
+  - root_mean_squared_error
 - slug: impostor_syndrome
   am:
     def: "\u12E8\u12A0\u1295\u12F5 \u1230\u12CD \u1235\u12AC\u1276\u127D \u1260\u12A0\
@@ -1455,6 +1571,9 @@
       \ \u1260\u121A\u1273\u12E8\u12CD \u1270\u130D\u1263\u122D \u12CD\u1235\u1325\
       \ \u12E8\u1270\u1308\u1208\u1340 \u1270\u1208\u12CB\u12CB\u132D\u1362\n"
     term: "\u12A0\u12AB\u1263\u1262\u12EB\u12CA \u1270\u1208\u12CB\u12CB\u132D"
+  ref:
+  - closure
+  - global_variable
 - slug: local_installation
   am:
     def: "\u1260\u12DA\u12EB \u1355\u122E\u1300\u12AD\u1275 \u12CD\u1235\u1325 \u1265\
@@ -1463,6 +1582,8 @@
       \u1325 [\u1325\u1245\u120D](#package) \u1260\u121B\u1235\u1240\u1218\u1325 \u120B\
       \u12ED\u1362\n"
     term: "\u12A0\u12AB\u1263\u1262\u12EB\u12CA \u132D\u1290\u1275"
+  ref:
+  - global_installation
 - slug: attribute
   am:
     def: "\u12E8\u1235\u121D \u12A5\u1234\u1275 \u1325\u1295\u12F5  \u12A8\u12A5\u1243\
@@ -1531,6 +1652,9 @@
       \u1273\u120D \u1363 \u12A5\u1293 \u1260\u12A0\u1295\u12F3\u1295\u12F5 \u1201\
       \u1294\u1273\u12CE\u127D\u121D \u12ED\u1320\u12ED\u1243\u120D \u1361\u1361\n"
     term: "\u12A5\u1300\u1273 (\u1201\u1294\u1273)"
+  ref:
+  - condition
+  - exception
 - slug: maximum_likelihood_estimation
   am:
     def: "\u1208 [\u1355\u122E\u1263\u1262\u120A\u1272] [\u1218\u1208\u12AA\u12EB\u12CE\
@@ -1621,6 +1745,8 @@
       \ \u12E8\u121B\u1235\u1270\u12AB\u12A8\u120D \u1202\u12F0\u1275 \u1290\u12C9\
       \u1362\n"
     term: "\u12AE\u1352 \u1260 \u121B\u1235\u1270\u12AB\u12A8\u12EB"
+  ref:
+  - aliasing
 - slug: milestone
   am:
     def: "\u12A0\u1295\u12F5 \u1355\u122E\u1300\u12AD\u1275 \u120A\u12EB\u121F\u120B\
@@ -1647,6 +1773,8 @@
     def: "\u1260\u12A0\u1295\u12F5 \u1290\u1308\u122D \u120B\u12ED \u12E8\u121A\u12F0\
       \u1228\u130D \u12F5\u121D\u133D\n"
     term: "\u12C8\u12F0\u1273\u127D \u12F5\u121D\u133D \u1218\u1235\u1320\u1275"
+  ref:
+  - up_vote
 - slug: backward_compatible
   am:
     def: "\u12A5\u122D\u1235 \u1260\u12A5\u122D\u1235 \u1208\u1218\u1270\u1263\u1260\
@@ -1685,6 +1813,11 @@
       \u12CD \u120D\u12AC\u1275 \u120A\u1308\u121D\u1270\u12CD \u12ED\u1308\u1263\u120D\
       \ \u1361\u1361\n"
     term: "\u12C8\u1308\u1295\u1270\u129D\u1290\u1275"
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
 - slug: master_branch
   am:
     def: "\"\u12DD\u130D\u1301 \u121D\u122D\u1275\" \u1218\u12EB\u12DD \u12EB\u1208\
@@ -1697,6 +1830,8 @@
       \u12CB\u1203\u12F5](#git_merge) \u120A\u1206\u1295 \u12ED\u127D\u120B\u120D\
       \ \u1361\u1361\n"
     term: "\u12CB\u1293 \u1245\u122D\u1295\u132B\u134D"
+  ref:
+  - feature_branch
 - slug: inner_join
   am:
     def: "\u12E8\u1201\u1208\u1275 \u1320\u1228\u1334\u12DB\u12CE\u127D \u1200 \u12A5\
@@ -1705,6 +1840,14 @@
       \ [\u1241\u120D\u134E\u127D](#key) \u1260\u1201\u1208\u1271\u121D \u1320\u1228\
       \u1334\u12DB\u12CE\u127D \u12CD\u1235\u1325 \u12A0\u1209 \u1361\u1361\n"
     term: "\u12CD\u1235\u1323\u12CA \u1218\u1240\u120B\u1240\u120D"
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: 'false'
   am:
     def: "\u12E8 \u120E\u1302\u12AB\u12CA ([\u1266\u120A\u12EB\u1295]\u1201\u1294\u1273\
@@ -1714,6 +1857,9 @@
       \u1218\u12AD\u1295\u12EE \u12A5\u1293 \u1218\u122D\u1203\u130D\u1265\u122D \u12A0\
       \u1295\u12F5 \u1290\u1308\u122D ::\n"
     term: "\u12CD\u1238\u1275"
+  ref:
+  - truthy
+  - falsy
 - slug: global_variable
   am:
     def: "\u12A8\u121B\u1295\u129B\u12CD\u121D \u12E8\u1270\u1208\u12E8 \u1270\u130D\
@@ -1722,6 +1868,8 @@
       \u12CB\u132D \u1363 \u1235\u1208\u1206\u1290\u121D \u12E8\u121A\u1273\u12E8\u12CD\
       \ \u12C8\u12F0 \u1201\u1209\u121D \u1270\u130D\u1263\u122B\u1275::"
     term: "\u12D3\u1208\u121D \u12A0\u1240\u134D \u1270\u1208\u12CB\u12CB\u132D"
+  ref:
+  - local_variable
 - slug: global_environment
   am:
     def: "\u1260\u1355\u122E\u130D\u122B\u121D \u124B\u1295\u124B \u12E8\u12A8\u134D\
@@ -1737,6 +1885,8 @@
       \u12F0\u1228\u1235\u1260\u1275 \u1260\u121A\u127D\u120D\u1260\u1275 \u1266\u1273\
       \ \u120B\u12ED \u1218\u132B\u1295\u1362"
     term: "\u12D3\u1208\u121D \u12A0\u1240\u134D \u132D\u1290\u1275"
+  ref:
+  - local_installation
 - slug: method
   am:
     def: "\u12E8\u121A\u12EB\u1235\u1270\u1293\u130D\u12F0\u12CD \u12E8 [\u12A0\u1320\
@@ -1811,6 +1961,8 @@
       \u120F\u120D\u1362\n"
     term: "\u12E8\u1203\u12ED\u1350\u122D \u133D\u1211\u134D \u121D\u120D\u12AD\u1275\
       \ \u121B\u12F5\u1228\u130A\u12EB \u124B\u1295\u124B"
+  ref:
+  - xml
 - slug: lifecycle
   am:
     def: "\u12A0\u1295\u12F5 \u1290\u1308\u122D \u12A5\u1295\u12F2\u12EB\u120D\u134D\
@@ -1840,6 +1992,8 @@
       \u1295\u12F5 \u1218\u1228\u1303\u12CE\u127D \u130B\u122D \u121E\u12F4\u120D\u1295\
       \ \u1208\u1218\u130D\u1320\u121D \u12D8\u12F4 \u1361\u1361\n"
     term: "\u12E8\u120E\u1302\u1235\u1272\u12AD \u121B\u123D\u1246\u120D\u1246\u120D"
+  ref:
+  - linear_regression
 - slug: computational_linguistics
   am:
     def: "\u1208[\u1353\u122D\u1235\u1272\u1295\u130D](#parse) \u12C8\u12ED\u121D\
@@ -1852,6 +2006,8 @@
       \u127D \u12A0\u1283\u12DB\u12CA \u1218\u1228\u1303\u12CE\u127D \u1293\u1278\u12CD\
       .\n"
     term: "\u12E8\u1212\u1233\u1265 \u120D\u1233\u1290-\u124B\u1295\u124B"
+  ref:
+  - nlp
 - slug: computational_notebook
   am:
     def: "\u1270\u1320\u1243\u121A\u12CE\u127D \u12E8\u133D\u1201\u134D \u12A5\u1293\
@@ -1951,6 +2107,9 @@
       \u1235 \u1260\u121A\u12C8\u1235\u12F0\u12CD \u1218\u1295\u1308\u12F5 \u120B\u12ED\
       \ \u12A0\u12ED\u12F0\u1208\u121D \u1361\u1361\n"
     term: "\u12E8\u121B\u122D\u12AE\u126D \u1230\u1295\u1230\u1208\u1275"
+  ref:
+  - bayesian_network
+  - monte_carlo
 - slug: cognitive_load
   am:
     def: "\u12A0\u1295\u12F5 \u12A0\u12ED\u1290\u1275 \u1235\u122B\u12CE\u127D\u1295\
@@ -1981,6 +2140,8 @@
       \u127D\u1295](#assertion) \u1260\u1218\u1320\u1240\u121D \u1290\u12CD  \u1361\
       \u1361\n"
     term: "\u12E8\u121B\u12ED\u1208\u12CB\u12C8\u1325"
+  ref:
+  - jupyter
 - slug: log_message
   am:
     def: "\u1260\u1355\u122E\u130D\u122B\u1219 \u12A0\u1348\u1343\u1340\u121D [\u1218\
@@ -2045,6 +2206,8 @@
       \ \u12E8\u1218\u1228\u1303 \u134B\u12ED\u120D \u12E8\u1218\u1300\u1218\u122A\
       \u12EB \u1228\u12F5\u134D\u1362\n"
     term: "\u12E8\u122B\u1235\u130C \u1228\u12F5\u134D"
+  ref:
+  - csv
 - slug: documentation_generator
   am:
     def: "\u1260\u120D\u12E9 \u1201\u1294\u1273 \u12E8\u1270\u1240\u1228\u1339 \u12A0\
@@ -2170,6 +2333,8 @@
       \u134D \u12C8\u12F0 \u120C\u120B \u1245\u122D\u1295\u132B\u134D \u120A\u12CB\
       \u1203\u12F5 \u12ED\u127D\u120B\u120D \u1361\u1361\n"
     term: "\u12E8\u1263\u1205\u122A \u1245\u122D\u1295\u132B\u134D"
+  ref:
+  - master_branch
 - slug: feature_request
   am:
     def: "\u1208\u1236\u134D\u1275\u12CC\u122D \u1355\u122E\u130D\u122B\u121D \u1270\
@@ -2202,6 +2367,10 @@
       \u1290\u1276\u127D \u12E8\u121A\u12C8\u12AD\u120D \u130D\u122B\u134D \u1361\u1361\
       \n"
     term: "\u12E8\u1263\u12EC\u12EB\u1295 \u12A0\u12CD\u1273\u1228\u1218\u1228\u1265"
+  ref:
+  - bayes_theorem
+  - markov_chain
+  - naive_bayes_classifier
 - slug: heterogeneous
   am:
     def: "\u12E8\u1270\u12F0\u1263\u1208\u1240 \u12E8\u12CD\u1202\u1265 \u12A0\u12ED\
@@ -2213,6 +2382,8 @@
       \u127D \u12F5\u1265\u120D\u1245 \u120A\u12ED\u12DD \u12ED\u127D\u120B\u120D\
       \ \u1361\u1361\n"
     term: "\u12E8\u1270\u1208\u12EB\u12E9"
+  ref:
+  - homogeneous
 - slug: ide
   am:
     def: "\u1355\u122E\u130D\u122B\u121D \u1230\u122A\u12CE\u127D \u1236\u134D\u1275\
@@ -2228,6 +2399,8 @@
       \u1235 \u1361\u1361\n"
     term: "\u12E8\u1270\u1240\u1293\u1300 \u12E8\u120D\u121B\u1275 \u12A0\u12AB\u1263\
       \u1262"
+  ref:
+  - repl
 - slug: interpreted_language
   am:
     def: "\u1260\u1240\u1325\u1273 \u1260\u12AE\u121D\u1352\u1270\u122D \u12E8\u121B\
@@ -2254,6 +2427,8 @@
       \u12D3\u1275::\n"
     term: "\u12E8\u1270\u1320\u1260\u1240\u12CD \u12CD\u1324\u1275 (\u12E8\u1219\u12A8\
       \u122B)"
+  ref:
+  - actual_result
 - slug: compiled_language
   am:
     def: "\u1218\u1300\u1218\u122D\u12EB \u12C8\u12F0 \u121B\u123D\u1295 \u12E8\u121A\
@@ -2299,6 +2474,11 @@
       \u12CE\u127D](#data_frame) \u1270\u1218\u1233\u1233\u12ED \u1295\u12F5\u134D\
       \ \u121D\u1233\u120C\u12CE\u127D \u1293\u1278\u12CD\u1362\n"
     term: "\u12E8\u1295\u12F5\u134D \u1295\u12F5\u134D"
+  ref:
+  - iterator_pattern
+  - singleton_pattern
+  - template_method_pattern
+  - visitor_pattern
 - slug: current_working_directory
   am:
     def: "\u1355\u122E\u130D\u122B\u1219 \u12E8\u121A\u1220\u122B\u1260\u1275\u1295\
@@ -2323,6 +2503,8 @@
       \u1320\u1240\u121D \u12A5\u1295\u12F2\u12A8\u1293\u12C8\u1291 \u1218\u12CB\u1245\
       \u122E\u127D \u1361\u1361\n"
     term: "\u12E8\u12A2\u1270\u122B\u12AD\u1270\u122D \u1295\u12F5\u134D"
+  ref:
+  - visitor_pattern
 - slug: http_response
   am:
     def: "\u1260\u1218\u1320\u1240\u121D \u12A8 [\u12A0\u1308\u120D\u130B\u12ED](#server)\
@@ -2354,6 +2536,8 @@
       \u12ED\u1243\u120D \u12A0\u1295\u12F5 \u12F5\u122D \u1308\u133D \u1363 \u121D\
       \u1235\u120D \u12C8\u12ED\u121D \u120C\u120B \u12CD\u1202\u1265\u1362\n"
     term: "\u12E8\u12A4\u127D\u1272\u1272\u1352 \u1325\u12EB\u1244"
+  ref:
+  - http_response
 - slug: code_review
   am:
     def: "\u12A8\u121D\u1295\u132D \u12AE\u12F1 \u1260\u1218\u1348\u1270\u123D \u12E8\
@@ -2373,6 +2557,9 @@
       \u1275 \u12A5\u1293 \u12CD\u1324\u1276\u127D\u1295 \u1260\u121B\u1205\u12F0\u122D\
       \ \u121B\u1235\u1240\u1218\u1325\u1362\n"
     term: "\u12E8\u12CD\u1202\u1265 \u1218\u1210\u1295\u12F2\u1235"
+  ref:
+  - data_scientist
+  - data_wrangling
 - slug: data_visualization
   am:
     def: "\u1208\u12F5\u122D\u1305\u1271 \u1245\u122D\u1338\u1275 \u1363 \u12A0\u1235\
@@ -2398,6 +2585,8 @@
       \u1275 \u1208\u121B\u1235\u1240\u1218\u1325 \u1355\u122E\u130D\u122B\u121E\u127D\
       \ \u1361\u1361\n"
     term: "\u12E8\u12CD\u1202\u1265 \u121D\u1205\u1295\u12F5\u1235\u1293"
+  ref:
+  - data_science
 - slug: data_science
   am:
     def: "\u1325\u1245\u121D \u120B\u12ED \u12E8\u12CB\u1208\u12CD \u12E8\u1235\u1273\
@@ -2443,6 +2632,8 @@
       \u12CD\u1295 \u12E8\u121A\u12EB\u1228\u130B\u130D\u1325 \u1219\u12A8\u122B\u1362\
       \n"
     term: "\u12E8\u12CD\u1205\u12F0\u1275 \u1219\u12A8\u122B"
+  ref:
+  - unit_test
 - slug: decision_tree
   am:
     def: "[\u12A0\u1295\u1313\u12CE\u1279](#node) \u1325\u12EB\u1244\u12CE\u1279 \u12A5\
@@ -2450,6 +2641,8 @@
       \u122E \u12C8\u12F0 \u12CD\u1233\u1294 \u12C8\u12ED\u121D [\u121D\u12F0\u1263\
       ](#classification) \u12E8\u121A\u12C8\u1235\u12F5 \u12DB\u134D\u1362\n"
     term: "\u12E8\u12CD\u1233\u1294 \u12DB\u134D"
+  ref:
+  - random_forests
 - slug: delegate_pattern
   am:
     def: "\\ \u12A0\u1295\u12F5 [\u1295\u12F5\u134D \u1295\u12F5\u134D](#design_pattern)\
@@ -2484,6 +2677,8 @@
       \u1270\u1308\u1298\u1263\u1278\u12CD \u12A0\u1295\u1313\u12CE\u127D \u130B\u122D\
       \ \u12ED\u12DB\u1218\u12F3\u120D\u1362"
     term: "\u12E8\u12F6\u121D  \u1218\u122B\u132D"
+  ref:
+  - regular_expression
 - slug: backpropagation
   am:
     def: "\u1260 [\u1290\u122D\u126D) \u12CD\u1235\u1325 \u1325\u1245\u121D \u120B\
@@ -2517,6 +2712,8 @@
       \u1295\u12F2\u12EB\u130B\u122B \u12EB\u1235\u127D\u1208\u12CB\u120D\u1362\n"
     term: "\u12E8\u1301\u1352\u1270\u122D \u121B\u1235\u1273\u12C8\u123B \u12F0\u1265\
       \u1270\u122D"
+  ref:
+  - jupyter
 - slug: git_fork
   am:
     def: "\u1260 [\u12A0\u1308\u120D\u130B\u12ED](#repository) \u120B\u12ED \u12E8\
@@ -2524,6 +2721,8 @@
       \ \u12C8\u12ED\u121D \u12E8\u1270\u1230\u122B\u12CD\u1295 \u1245\u1305 \u1208\
       \u121B\u12F5\u1228\u130D\u1362"
     term: "\u12E8\u1302\u1275 \u1239\u12AB"
+  ref:
+  - git_clone
 - slug: git_conflict
   am:
     def: "\u12A0\u1201\u1295 \u1263\u1209 \u12E8\u1270\u1208\u12EB\u12E9 [\u1245\u122D\
@@ -2540,6 +2739,8 @@
       \u1320\u1240\u1219 \u12E8\u121A\u12EB\u1235\u127D\u120D (\u1348\u1243\u12F5\
       )\u1361\u1361\n"
     term: "\u12E8\u1302\u12A4\u1295\u12E9 \u12E8\u1205\u12DD\u1265 \u1348\u1243\u12F5"
+  ref:
+  - gnu
 - slug: json
   am:
     def: "\u12A5\u1295\u12F0 \u1241\u1325\u122E\u127D \u12A5\u1293 \u1263\u1205\u122A\
@@ -2560,6 +2761,8 @@
       \ \u1362\n"
     term: "\u12E8\u1303\u126B\u1235\u12AD\u122A\u1355\u1275 \u1290\u1308\u122D \u121B\
       \u1235\u1273\u12C8\u123B"
+  ref:
+  - yaml
 - slug: git_branch
   am:
     def: "\u12E8\u12A0\u1295\u12F5 [Git](#git) [\u121B\u12A8\u121B\u127B](#repository)\
@@ -2569,6 +2772,10 @@
       \ \u1235\u122A\u1276\u127D\u1295 \u1218\u12EB\u12DD \u12ED\u127D\u120B\u1209\
       \u1362\n"
     term: "\u12E8\u130A\u1275 \u1245\u122D\u1295\u132B\u134D"
+  ref:
+  - feature_branch
+  - fork
+  - master_branch
 - slug: git_clone
   am:
     def: "\u12E8 [\u1302\u1275](#git) [\u12E8\u122D\u1240\u1275) \u1245\u1302\u12CE\
@@ -2588,6 +2795,8 @@
       \ \u12E8\u130D\u122B\u12F2\u12E8\u1219\u1295 \u12A5\u1295\u12F0\u1308\u1293\
       \ \u12EB\u1230\u120B\u120D\u1362\n"
     term: "\u12E8\u130D\u122B\u12F2\u12EB\u1295\u1275 \u12DD\u122D\u12EB"
+  ref:
+  - backpropagation
 - slug: build_manager
   am:
     def: "\u134B\u12ED\u120E\u127D \u12A5\u1295\u12F4\u1275 \u12A5\u122D\u1235 \u1260\
@@ -2628,6 +2837,10 @@
       \u12ED\u120E\u127D \u120B\u12ED \u12E8\u1270\u1218\u1220\u1228\u1270 \u1290\u12CD\
       \u1362\n"
     term: "\u12E8\u130D\u1295\u1263\u1273 \u1225\u122B \u12A0\u1235\u12AA\u12EB\u1305"
+  ref:
+  - build_rule
+  - dependency
+  - makefile
 - slug: correlation_coefficient
   am:
     def: "\u1201\u1208\u1275 \u1270\u1208\u12CB\u12CB\u132E\u127D \u121D\u1295 \u12EB\
@@ -2744,6 +2957,8 @@
       \  \u130A\u12DC \u1270\u1300\u121D\u122E \u1260\u120C\u120B \u130A\u12DC \u12EB\
       \u1260\u1243\u120D \u1361\u1361\n"
     term: "\u12EB\u120D\u1270\u1218\u1233\u1230\u1208"
+  ref:
+  - synchronous
 - slug: compile
   am:
     def: "\u12E8\u133D\u1201\u134D \u121D\u1295\u132D\u1295 \u12C8\u12F0 \u120C\u120B\
@@ -2802,6 +3017,8 @@
       \u12EB \u12E8\u1236\u134D\u1275\u12CC\u122D \u1218\u1208\u1240\u1245 \u12C8\u12ED\
       \u121D \u120C\u120B \u12F2\u1302\u1273\u120D \u1245\u122D\u1236\u127D\u1362\n"
     term: "\u12F2\u1302\u1273\u120D \u12E8\u1290\u1308\u122D \u1218\u1208\u12EB"
+  ref:
+  - orcid
 - slug: double
   am:
     def: "\u12A0\u132D\u122D \u1208 & quot; \u12F5\u122D\u1265 \u1275\u12AD\u12AD\u1208\
@@ -2855,6 +3072,8 @@
       \u122D\u12AB\u1273 \u12E8\u1270\u1208\u12EB\u12E9 \u12E8\u1355\u122E\u130D\u122B\
       \u121D \u124B\u1295\u124B\u12CE\u127D \u121B\u1235\u120B\u1275\u1362\n"
     term: "\u1301\u1352\u1270\u122D"
+  ref:
+  - jupyter_notebook
 - slug: generator_function
   am:
     def: "\u1200 \u1232\u1218\u1208\u1235 \u1201\u1294\u1273\u12CD \u1260\u122B\u1235\
@@ -2868,6 +3087,8 @@
       \ \u12E8\u121A\u127D\u1209 \u12E8\u12A5\u1234\u1276\u127D\u1295 \u1305\u1228\
       \u1276\u127D \u121B\u121D\u1228\u1275 \u1290\u12CD \u1361\u1361\n"
     term: "\u1304\u1290\u122C\u1270\u122D \u1270\u130D\u1263\u122D"
+  ref:
+  - iterator_pattern
 - slug: constructor
   am:
     def: "\u12E8\u12A0\u1295\u12F5 \u12E8\u1270\u1208\u12E8 [\u12D5\u1243](#object)\
@@ -2950,6 +3171,14 @@
       \ \u1208\u12CD\u1324\u1271 \u1270\u1308\u120D\u1208\u12CB\u120D \u1361\u1361\
       \n"
     term: "\u130D\u122B \u1218\u1240\u120B\u1240\u120D"
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: build_target
   am:
     def: "\u130A\u12DC\u12CD \u12EB\u1208\u1348\u1263\u1278\u12CD \u12A8\u1206\u1291\
@@ -2959,6 +3188,9 @@
       [dependencies](#dependency)\u1362\n"
     term: "\u130D\u1295\u1263\u1273 \u12D2\u120B \u130D\u1295\u1263\u1273 \u12D2\u120B\
       \u121B"
+  ref:
+  - makefile
+  - default_target
 - slug: build_recipe
   am:
     def: "\u12A0\u1295\u12F5\u1295 \u1290\u1308\u122D \u12A5\u1295\u12F4\u1275 \u121B\
@@ -3029,6 +3261,14 @@
       \u120B\u1240\u1209 \u12E8\u121A\u12EB\u130D\u12F1 (#join) \u1241\u120D\u134E\
       \u127D  *\u1241\u120D\u134E\u127D* \n"
     term: "\u1340\u1228 \u1218\u1240\u120B\u1240\u120D"
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: license
   am:
     def: "\u12A0\u1295\u12F5 \u1290\u1308\u122D \u12A5\u1295\u12F4\u1275 \u1325\u1245\
@@ -3046,6 +3286,8 @@
       \u12CD \u1302\u12A6\u130D\u122B\u134A \u12CD\u1235\u1325 \u12AC\u12AD\u122E\u1235\
       \ \u12A5\u1293 \u12AC\u1295\u1275\u122E\u1235"
     term: "\u134D\u1339\u121D \u1218\u1295\u1308\u12F5"
+  ref:
+  - relative_path
 - slug: absolute_row_number
   am:
     def: "\u12E8\u1275\u129E\u1279\u121D \u12AD\u134D\u120E\u127D \u1262\u1296\u1229\
@@ -3072,6 +3314,9 @@
       \u1275\u1362\n"
     term: "\u134D\u1341\u121D \u1235\u1205\u1270\u1275 \u121B\u1208\u1275 \u1290\u12CD\
       \u1362"
+  ref:
+  - mean_squared_error
+  - root_mean_squared_error
 - slug: abstract_method
   am:
     def: "\"\u1260 [\u1290\u1308\u122D-\u1270\u12AE\u122D \u1218\u122D\u1203\u130D\
@@ -3138,6 +3383,8 @@
       \ \u1266\u1273 \u12C8\u12F0 \u1234\u1295\u1275\u122E\u12ED\u12F5 \u1241 \u1228\
       \u12D8\u121D \u12EB\u1208 \u12A5\u1295\u1245\u1235\u1243\u1234\u1362\n"
     term: "k-\u121B\u1208\u1275 \u121B\u1230\u1263\u1230\u1265 \u121B\u1208\u1275"
+  ref:
+  - clustering
 - slug: k_nearest_neighbors
   am:
     def: "\u12E8\u1218\u1228\u1303 \u1290\u1325\u1266\u127D\u1295 \u1260\u1218\u1208\
@@ -3154,6 +3401,9 @@
       \u122A\u12EB-\u1201\u1208\u1270\u129B-\u1226\u1235\u1270\u129B\u203A \u12CD\u1235\
       \u1325 \u1361\u1361\n"
     term: "kebab \u1309\u12F3\u12ED"
+  ref:
+  - camel_case
+  - pothole_case
 - slug: mime_type
   am:
     def: "\u1260\u12ED\u1290\u1218\u1228\u1261 \u120B\u12ED \u12E8\u134B\u12ED\u120E\

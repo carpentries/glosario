@@ -25,6 +25,9 @@
       \ neben der Art des Fehlers auch weitere Daten erhoben um m\xF6gliche Ursachen\
       \ zu finden.\n"
     term: abfangen (eines Fehlers)
+  ref:
+  - condition
+  - handle_condition
 - slug: dependent_variable
   de:
     def: "Eine Variable, dessen Werte von denen einer anderen Variablen abh\xE4ngig\
@@ -48,6 +51,8 @@
       \ unabh\xE4ngig davon, wo er ausgewertet wird. Der absolute Pfad entspricht\
       \ in der Geographie der Angabe von L\xE4ngen- und Breitengrad.\n"
     term: absoluter Pfad
+  ref:
+  - relative_path
 - slug: abstract_method
   de:
     def: "In der [objektorientierten Programmierung](#oop) eine [Methode](#method),\
@@ -143,6 +148,8 @@
       \ Operation unabh\xE4ngig von anderen Operationen, oder wird zu einem bestimmten\
       \ Zeitpunkt gestartet oder beendet.\n"
     term: asynchron
+  ref:
+  - synchronous
 - slug: attribute
   de:
     def: "Ein Name-Wert Paar welches einem Objekt zugewiesen ist und in der Regel\
@@ -156,6 +163,9 @@
       \ oder angezeigt wird. [Markdown](#markdown) und [HTML](#html) sind weit verbreitete\
       \ Auszeichnungssprachen f\xFCr Internetseiten.\n"
     term: Auszeichnungssprache
+  ref:
+  - latex
+  - xml
 - slug: autocorrelation
   de:
     def: "\nDer Grad der \xC4hnlichkeit zwischen Beobachtungen in derselben Reihe,\
@@ -194,6 +204,8 @@
     def: "Alle Datenmengen, die bis vor Kurzem vor zu umfangreich f\xFCr die Analyse\
       \ mit nur einem Computer waren.\n"
     term: Big Data
+  ref:
+  - three_vs
 - slug: binary
   de:
     def: "Ein System welches nur aus zwei Zust\xE4nden besteht. In der Informationstechnik\
@@ -208,6 +220,9 @@
       \ kann. Beispiele hierf\xFCr sind Ja/ Nein, Wahr / Falsch. In der Computerwelt\
       \ als 0 und 1 dargestellt.\n"
     term: Bit
+  ref:
+  - binary
+  - boolean
 - slug: block_comment
   de:
     def: 'Ein [Kommentar](#comment) welcher mehrere Zeilen umfasst. Blockkommentare
@@ -237,6 +252,10 @@
       \ beruhen auf der Verarbeitung von logischen Wahr-Falsch-Zust\xE4nden, 1 oder\
       \ 0.\n"
     term: Boolean
+  ref:
+  - truthy
+  - falsy
+  - binary
 - slug: breadcrumbs
   de:
     def: "Ein Entwurfsmuster f\xFCr Webseiten welches zus\xE4tzliche Navigationslinks,\
@@ -280,6 +299,9 @@
       \ Bindestriche (`-`) verwandt und jedes Wort gro\xDFgeschrieben. Beispiele sind:\
       \ `BerechneSumme` oder `findeMuster`.\n"
     term: camel case (dt. Kamel-Schreibung)
+  ref:
+  - kebab_case
+  - pothole_case
 - slug: cc_0
   de:
     def: "Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche den Verzicht\
@@ -345,6 +367,8 @@
       \ Eingangsparameter akzeptieren. Eine Funktion kann Werte zur\xFCckgeben, deren\
       \ Datentypen in einer Funktionsdokumentation niedergeschrieben sein sollten.\n"
     term: Funktion
+  ref:
+  - command
 - slug: accuracy
   de:
     def: "Ein statistisches Ma\xDF zur Beschreibung eines Klassifizierungsmodells,\
@@ -357,6 +381,8 @@
       \ HTML wird im Speicher durch das [Dokumenten-Objekt-Modell](#dom) repr\xE4\
       sentiert.\n"
     term: Hypertext-Auszeichnungssprache
+  ref:
+  - xml
 - slug: causation
   de:
     def: "Eine Beziehung zwischen zwei Ereignissen oder Zust\xE4nden, wobei klar ist,\
@@ -386,6 +412,9 @@
 
       '
     term: literarisches Programmieren
+  ref:
+  - computational_notebook
+  - r_markdown
 - slug: license
   de:
     def: 'Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und
@@ -407,11 +436,17 @@
 
       '
     term: Mittelwert
+  ref:
+  - median
+  - mode
 - slug: mode
   de:
     def: "Auch Modalwert genannt. Gibt den Wert oder die Werte an, die am h\xE4ufigsten\
       \ in einem Datensatz vorkommen.\n"
     term: Modus
+  ref:
+  - mean
+  - median
 - slug: folder
   de:
     def: "Anderer Begriff f\xFCr [Verzeichnis](#directory).\n"
@@ -432,6 +467,8 @@
       \ Zentrale Verarbeitungseinheit (kurz ZVE, englisch central processing unit,\
       \ kurz CPU) bezeichnet.\n"
     term: Prozessor
+  ref:
+  - gpu
 - slug: callback
   de:
     def: "R\xFCckruffunktionen sind Funktionen, welche anderen Funktionen als Parameter\
@@ -456,6 +493,8 @@
 
       '
     term: Standardabweichung
+  ref:
+  - 68_95_997_rule
 - slug: actual_result
   de:
     def: "Der Wert, der durch Ausf\xFChren von Code in einem Test erzeugt wird. Wenn\
@@ -488,6 +527,11 @@
       \ beschrieben, wenn er systematisch von dem wahren Wert einer Messgr\xF6\xDF\
       e abweicht.\n"
     term: Verzerrung
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
 - slug: whitespace
   de:
     def: "Auch als \"Leerraum\" bekannt, eine Bezeichnung f\xFCr Zeichen ohne sichtbares\

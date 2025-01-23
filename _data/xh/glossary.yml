@@ -12,3 +12,8 @@
 
       '
     term: Umkhethe
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error

@@ -20,6 +20,10 @@
 
       '
     term: aaneenskakel
+  ref:
+  - aggregation
+  - left_join
+  - right_join
 - slug: absolute_error
   af:
     def: 'Die absolute fout is die absolute waarde van die verskil tussen die waargenome-
@@ -40,6 +44,8 @@
       \ ongeag die posisie vanwaar dit ge\xEBvalueer word. Die absolute roete is die\
       \ ekwivalent van lengtegraad en breedtegraad in geografie.\n"
     term: absolute roete
+  ref:
+  - relative_path
 - slug: absolute_row_number
   af:
     def: 'Die opeenvolgende indeks van ''n ry in ''n tabel, ongeag die gedeelte van
@@ -100,6 +106,8 @@
 
       '
     term: algoritmiese vooroordeel
+  ref:
+  - algorithm
 - slug: aliasing
   af:
     def: "Om twee of meer verwysing na dieselfde ding te h\xEA, soos byvoorbeeld meer\
@@ -129,6 +137,14 @@
 
       '
     term: anti-koppeling
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: argument
   af:
     def: 'Die term moet nie verwar word met [parameter](#parameter) nie en is ook
@@ -157,6 +173,8 @@
 
       '
     term: asinchronies
+  ref:
+  - synchronous
 - slug: associative_array
   af:
     def: 'Sien [woordeboek](#dictionary).
@@ -187,6 +205,10 @@
 
       '
     term: Bayes se stelling
+  ref:
+  - bayesian_network
+  - naive_bayes_classifier
+  - prior_distribution
 - slug: bayesian_network
   af:
     def: '''n Grafiek wat die verhoudings tussen lukrake veranderlikes vir ''n gegewe
@@ -194,6 +216,10 @@
 
       '
     term: Bayesian-netwerk
+  ref:
+  - bayes_theorem
+  - markov_chain
+  - naive_bayes_classifier
 - slug: server
   af:
     def: "'n Program soos 'n databasisbeheerder of webbediener wat op versoek data\
@@ -249,6 +275,10 @@
 
       '
     term: "bin\xEAre uitdrukking"
+  ref:
+  - nullary_expression
+  - ternary_expression
+  - unary_expression
 - slug: inner_join
   af:
     def: '''n [Koppeling](#join) wat die kombinasie van rye uit twee tabelle A en
@@ -256,6 +286,14 @@
 
       '
     term: binnekoppeling
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: bit
   af:
     def: '''n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals.
@@ -263,6 +301,9 @@
 
       '
     term: bis
+  ref:
+  - binary
+  - boolean
 - slug: bug
   af:
     def: '''n Ontbrekende of ongewenste kenmerk van ''n stuk sagteware; die digitale
@@ -364,6 +405,9 @@
 
       '
     term: gemiddeld
+  ref:
+  - median
+  - mode
 - slug: group
   af:
     def: 'Om data in groepe te verdeel volgens ''n stel kriteria terwyl die rekords
@@ -378,6 +422,8 @@
 
       '
     term: Groot Data
+  ref:
+  - three_vs
 - slug: histogram
   af:
     def: '''n Grafiese voorstelling van die verspreiding van ''n data, gewoonlik ''n
@@ -417,6 +463,9 @@
       \ elke woord wat gekapitaliseer word.  Voorbeelde hiervan sluit in BerekenSom\
       \ en VindPatroon.    \n"
     term: Kameelgeval
+  ref:
+  - kebab_case
+  - pothole_case
 - slug: select
   af:
     def: 'Om volledige kolomme of rye in ''n tabel volgens naam of plek te kies (selekteer).
@@ -453,6 +502,14 @@
 
       '
     term: koppeling
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: correlation
   af:
     def: "Hoe sterk twee veranderlikes met mekaar ooreenstem. Korrelasie word gewoonlik\
@@ -480,6 +537,14 @@
 
       '
     term: kruiskoppeling
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: empty_vector
   af:
     def: "'n Vektor wat geen elemente bevat nie. Le\xEB vektore het 'n tipe soos logies\
@@ -498,6 +563,8 @@
 
       '
     term: "line\xEAre regressie"
+  ref:
+  - logistic_regression
 - slug: logistic_regression
   af:
     def: '''n Metode om ''n model aan te pas tot data wat van logistieke (S-vormige)
@@ -505,6 +572,8 @@
 
       '
     term: 'logistiese regressie '
+  ref:
+  - linear_regression
 - slug: maximum_likelihood_estimation
   af:
     def: 'Om die parameters vir ''n [waarskynlikheids verdeling](#probability_distribution)
@@ -519,6 +588,8 @@
       \ as die [mediaan](#mean), wat be\xEFnvloed kan word deur 'n klein aantal ekstreme\
       \ uitskieters.\n"
     term: mediaan
+  ref:
+  - mode
 - slug: model
   af:
     def: '''n Spesifikasie van''n wiskundige verband tussen verskillende veranderlikes.
@@ -538,6 +609,9 @@
 
       '
     term: modus
+  ref:
+  - mean
+  - median
 - slug: milestone
   af:
     def: '''n Teiken wat ''n projek probeer bereik, dikwels voorgestel as ''n stel
@@ -552,6 +626,8 @@
 
       '
     term: NA
+  ref:
+  - 'null'
 - slug: node
   af:
     def: '''n Element in ''n [grafiese voorstelling](#graph), soos ''n grafiek of
@@ -587,6 +663,8 @@
       l se teiken aan die outomatiese veranderlike, '$@' toe. Outomatiese veranderlikes\
       \ word dikwels gebruik tydens die skryf van [patroonre\xEBls](#pattern_rule).\n"
     term: outomatiese veranderlike
+  ref:
+  - makefile
 - slug: auto_completion
   af:
     def: '''n Funksie wat ''n gebruiker toelaat om ''n woord of ''n kode vinnig te
@@ -608,6 +686,8 @@
 
       '
     term: pseudolukrakenommergenereerder
+  ref:
+  - seed
 - slug: base_r
   af:
     def: 'Die basiese funksies van die [R](#r_language) programmeertaal. Die basispakette
@@ -618,6 +698,8 @@
 
       '
     term: R basis
+  ref:
+  - tidyverse
 - slug: arithmetic_mean
   af:
     def: 'Sien [gemiddelde](#mean).
@@ -645,6 +727,8 @@
       \ interpreteer en uitvoer. Ook genoem 'n sentrale verwerker, hoofverwerker,\
       \ of mikroverwerker.\n"
     term: Sentrale verwerkingseenheid
+  ref:
+  - gpu
 - slug: backward_compatible
   af:
     def: '''n Eienskap van ''n stelsel, hardeware of sagteware wat dit moontlik maak
@@ -676,12 +760,16 @@
 
       '
     term: toestand
+  ref:
+  - handle_condition
 - slug: outlier
   af:
     def: "Uiterste waardes wat moontlik meet- of opnamefoute kan wees, of wat werklik\
       \ seldsame gebeurtenisse kan wees. Uitstekers word soms ge\xEFgnoreer wanneer\
       \ statistiek gedoen word, of afsonderlik hanteer of gevisualiseer.\n"
     term: uitskietter
+  ref:
+  - overfitting
 - slug: confidence_interval
   af:
     def: "'n Variasiewydte rondom 'n beraming wat'n foutgrens aandui, gekombineerd\
@@ -697,6 +785,14 @@
 
       '
     term: volle koppeling
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: bias
   af:
     def: '''n Statistiek is bevooroordeeld as dit sistematies of konsekwent verskil
@@ -704,6 +800,11 @@
 
       '
     term: vooroordeel
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
 - slug: yaml
   af:
     def: "Kort vir \"YAML Ain't Markup Language\", 'n manier om geneste data te gebruik\

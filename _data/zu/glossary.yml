@@ -13,6 +13,8 @@
 
       '
     term: Idatha Enkulu
+  ref:
+  - three_vs
 - slug: data_mining
   zu:
     def: 'The use of computers to search for patterns in large datasets. The term

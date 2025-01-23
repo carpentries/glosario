@@ -29,6 +29,8 @@
 
       '
     term: E tlholegile (teko)
+  ref:
+  - pass_test
 - slug: bias
   tn:
     def: 'Dipalopalo di tsaya letlhakore fa ele gore maduo a ditshakatsheko tsa tsone,
@@ -36,6 +38,11 @@
 
       '
     term: go tsaya letlhakore
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
 - slug: remote_login
   tn:
     def: 'Seemo sa go simolola tirisano le kgolagano ya dibalamakgolo sekai, fa o
@@ -52,6 +59,8 @@
 
       '
     term: kitso_ kgolo
+  ref:
+  - three_vs
 - slug: bit
   tn:
     def: 'Ke selekanyo sa kitso e nnye kana e e kwa tlase. Selekanyo se sa kitso,
@@ -59,6 +68,9 @@
 
       '
     term: Kitso_ potlana
+  ref:
+  - binary
+  - boolean
 - slug: abandonware
   tn:
     def: 'Serweboleta (software) se se sa tlholeng se tlhokomelwa kgotsa se tlhabololwa.
@@ -98,6 +110,9 @@
 
       '
     term: Mokwalo wa Kamela
+  ref:
+  - kebab_case
+  - pothole_case
 - slug: byte
   tn:
     def: 'Selekanyetso sa kitso ya boranyane se se agiwang ka kitso ya dipalo tse
@@ -134,6 +149,10 @@
 
       '
     term: Tlhaloso ka go tlhakanya dilo tse pedi.
+  ref:
+  - nullary_expression
+  - ternary_expression
+  - unary_expression
 - slug: attribute
   tn:
     def: 'Tlhaloso ya mokgwa kana tsela ya mabeelo a kitso ka e nngwe,go lebeletswe   popego

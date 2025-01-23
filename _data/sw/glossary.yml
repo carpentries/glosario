@@ -33,6 +33,9 @@
 
       '
     term: biti
+  ref:
+  - binary
+  - boolean
 - slug: boilerplate
   sw:
     def: 'Maandishi ya kawaida ambayo yanajumuishwa katika mikataba ya kisheria, leseni,
@@ -54,6 +57,10 @@
 
       '
     term: Boolean
+  ref:
+  - truthy
+  - falsy
+  - binary
 - slug: cpu
   sw:
     def: 'Vifaa vikuu vya kompyuta yoyote ya dijitali inayojumuisha sakiti muhimu
@@ -62,6 +69,8 @@
 
       '
     term: Central Processing Unit
+  ref:
+  - gpu
 - slug: data_frame
   sw:
     def: 'Muundo wa data wa pande mbili wa kuhifadhi data ya tabular katika kumbukumbu.
@@ -69,12 +78,16 @@
 
       '
     term: Data Fremu
+  ref:
+  - tidy_data
 - slug: big_data
   sw:
     def: 'Data inahitaji kutumikwa kwa kichakato kizito.
 
       '
     term: Data kubwa
+  ref:
+  - three_vs
 - slug: configuration file
   sw:
     def: 'Faili inayobainisha vigezo na mipangilio ya awali ya programu. Faili ya
@@ -108,6 +121,8 @@
 
       '
     term: hali
+  ref:
+  - handle_condition
 - slug: append_mode
   sw:
     def: 'Kuongeza data mwishoni mwa faili iliyopo badala ya kubatilisha yaliyomo
@@ -124,6 +139,8 @@
 
       '
     term: hifadhidata ya uhusiano
+  ref:
+  - sql
 - slug: argument
   sw:
     def: 'Neno hilo halipaswi kuchanganywa na, na si kisawe cha,[parameter](#parameter).
@@ -141,6 +158,8 @@
 
       '
     term: isimu ya hesabu
+  ref:
+  - nlp
 - slug: asynchronous
   sw:
     def: 'Haifanyiki kwa wakati mmoja. Katika programu, operesheni ya asynchronous
@@ -149,6 +168,8 @@
 
       '
     term: isiyolingana
+  ref:
+  - synchronous
 - slug: folder
   sw:
     def: 'Neno lingine kwa saraka.
@@ -230,6 +251,11 @@
 
       '
     term: kugawanya
+  ref:
+  - centroid
+  - classification
+  - supervised_learning
+  - unsupervised_learning
 - slug: deep_learning
   sw:
     def: 'Familia ya algoriti za mtandao wa neva [neural network](#neural_network)
@@ -252,12 +278,16 @@
 
       '
     term: kupunguza
+  ref:
+  - increment
 - slug: down_vote
   sw:
     def: 'Kura dhidi ya kitu.
 
       '
     term: kura ya chini
+  ref:
+  - up_vote
 - slug: causation
   sw:
     def: 'Uhusiano kati ya matukio tofauti, ambapo inadaiwa kuwa tukio moja linawajibika
@@ -272,6 +302,8 @@
 
       '
     term: kushindwa (jaribio)
+  ref:
+  - pass_test
 - slug: aliasing
   sw:
     def: 'Kuwa na marejeleo mawili au zaidi ya kitu kimoja, kama vile muundo wa data
@@ -348,6 +380,8 @@
 
       '
     term: matokeo yanayotarajiwa (ya majaribio)
+  ref:
+  - actual_result
 - slug: environment
   sw:
     def: 'Muundo unaohifadhi seti ya majina tofauti na thamani wanazorejelea.
@@ -481,12 +515,15 @@
 
       '
     term: uongo
+  ref: &id001
+  - truthy
 - slug: falsy
   sw:
     def: 'Inatathmini hadi ya [uongo](#false) katika muktadha wa [Boolean](#boolean).
 
       '
     term: uongo
+  ref: *id001
 - slug: false_negative
   sw:
     def: 'Pointi za data ambazo kwa hakika ni za [kweli](#true) lakini zimetabiriwa
@@ -494,6 +531,12 @@
 
       '
     term: uongo hasi
+  ref:
+  - false_positive
+  - true_negative
+  - true_positive
+  - machine_learning
+  - classification
 - slug: accuracy
   sw:
     def: 'Kipimo cha takwimu cha muundo wa uainishaji ambao hutoa uwiano ya utabiri
@@ -529,6 +572,12 @@
 
       '
     term: uwongo chanya
+  ref:
+  - false_negative
+  - true_negative
+  - true_positive
+  - machine_learning
+  - classification
 - slug: mean
   sw:
     def: 'Namba ya katikati kwa data.  Kuikokotoa, jumla nambari halafu gawana na
@@ -536,6 +585,9 @@
 
       '
     term: wastani
+  ref:
+  - median
+  - mode
 - slug: arithmetic_mean
   sw:
     def: 'Rejelea [mean](#mean). Imehesabiwa kutoka kwa seti ya nambari za n kwa kujumlisha

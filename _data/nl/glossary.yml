@@ -4,6 +4,10 @@
 
       '
     term: binaire expressie
+  ref:
+  - nullary_expression
+  - ternary_expression
+  - unary_expression
 - slug: bit
   nl:
     def: 'Een eenheid van informatie, die alternatieven representeert, zoals ja/nee,
@@ -11,6 +15,9 @@
 
       '
     term: bit
+  ref:
+  - binary
+  - boolean
 - slug: wildcard
   nl:
     def: 'Een teken dat gebruikt kan worden om een overeenkomst met een reeks van

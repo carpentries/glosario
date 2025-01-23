@@ -12,6 +12,11 @@
     def: "O processo de dividir os dados em grupos quando os grupos em si n\xE3o s\xE3\
       o conhecidos antecipadamente.\n"
     term: agrupamento
+  ref:
+  - centroid
+  - classification
+  - supervised_learning
+  - unsupervised_learning
 - slug: algorithm
   pt:
     def: "Um algoritmo \xE9 um conjunto de etapas, instru\xE7\xF5es ou regras a serem\
@@ -59,6 +64,9 @@
       \ [verdadeiro](#true)/[falso](#false). Em computa\xE7\xE3o, um estado de 0 ou\
       \ 1.\n"
     term: bit
+  ref:
+  - binary
+  - boolean
 - slug: block_comment
   pt:
     def: "Um [coment\xE1rio](#comment) que abrange m\xFAltiplas linhas. Blocos de\
@@ -74,12 +82,18 @@
       \ todos os computadores, s\xE3o constru\xEDdos com base em sistemas de avalia\xE7\
       \xE3o entre estados de verdadeiro e falso, 0 ou 1.\n"
     term: Booleano
+  ref:
+  - truthy
+  - falsy
+  - binary
 - slug: absolute_path
   pt:
     def: "Um caminho que leva ao mesmo local no sistema de arquivos independente do\
       \ contexto em que \xE9 avaliado. Um caminho absoluto pode ser comparado com\
       \ a latitude e longitude em geografia.\n"
     term: caminho absoluto
+  ref:
+  - relative_path
 - slug: relative_path
   pt:
     def: "Um caminho cujo destino \xE9 interpretado de maneira relativa a outro local,\
@@ -87,6 +101,8 @@
       \ relativo \xE9 o equivalente a indicar um destino com termos como \"siga em\
       \ frente\" e \"vire a esquerda\".\n"
     term: caminho relativo
+  ref:
+  - absolute_path
 - slug: cc_0
   pt:
     def: "Uma [licen\xE7a](#license) [Creative Commons](#cc_license) que n\xE3o imp\xF5\
@@ -173,6 +189,8 @@
     def: "Uma opera\xE7\xE3o un\xE1ria que diminui o valor de uma vari\xE1vel, geralmente\
       \ em um.\n"
     term: decrementar
+  ref:
+  - increment
 - slug: debug
   pt:
     def: "Em um ambiente de computador, 'debug' refere-se ao processo de encontrar\
@@ -191,6 +209,8 @@
     def: "O quanto os valores de um conjunto de dados diferem da [m\xE9dia](#mean).\
       \ \xC9 calculado como a raiz quadrada da [vari\xE2ncia](#variance).\n"
     term: "desvio padr\xE3o"
+  ref:
+  - 68_95_997_rule
 - slug: current_working_directory
   pt:
     def: "O local, pasta ou diret\xF3rio, em que o programa est\xE1 operando. Qualquer\
@@ -204,6 +224,9 @@
       \ n\xE3o muda. Na medida em que o n\xFAmero de tentativas aumenta, a distribui\xE7\
       \xE3o binomial se aproxima da [distribui\xE7\xE3o normal](#normal_distribution).\n"
     term: "distribui\xE7\xE3o binomial"
+  ref:
+  - discrete_random_variable
+  - histogram
 - slug: standard_normal_distribution
   pt:
     def: "Uma [distribui\xE7\xE3o normal](#normal_distribution) com uma m\xE9dia 0\
@@ -235,16 +258,32 @@
     def: "Uma express\xE3o com dois argumentos ou par\xE2metros, como `1 + 2`, por\
       \ exemplo.\n"
     term: "express\xE3o bin\xE1ria"
+  ref:
+  - nullary_expression
+  - ternary_expression
+  - unary_expression
 - slug: false_negative
   pt:
     def: "Dados ou resultados que s\xE3o realmente [verdadeiro](#true), mas s\xE3\
       o incorretamente previstos como [falso](#false).\n"
     term: falso negativo
+  ref:
+  - false_positive
+  - true_negative
+  - true_positive
+  - machine_learning
+  - classification
 - slug: false_positive
   pt:
     def: "Dados ou resultados que s\xE3o realmente [falso](#false), mas s\xE3o incorretamente\
       \ previstos como [verdadeiro](#true) pelo algoritmo\n"
     term: falso positivo
+  ref:
+  - false_negative
+  - true_negative
+  - true_positive
+  - machine_learning
+  - classification
 - slug: aggregation_function
   pt:
     def: "Uma fun\xE7\xE3o que combina muitos valores em um s\xF3, como `sum` ou `max`.\n"
@@ -264,6 +303,10 @@
     def: "Uma fotografia de uma vers\xE3o de um reposit\xF3rio Git. M\xFAltiplos branches\
       \ podem capturar m\xFAltiplas vers\xF5es de um mesmo reposit\xF3rio.\n"
     term: Git branch
+  ref:
+  - feature_branch
+  - fork
+  - master_branch
 - slug: github
   pt:
     def: "Uma plataforma baseada em nuvem constru\xEDda em torno do [Git](#git) que\
@@ -277,11 +320,15 @@
       \ Y\") devem ser mais prov\xE1veis de acontecer do que a hip\xF3tese nula para\
       \ que possam ser sustentadas.\n"
     term: "hip\xF3tese nula"
+  ref:
+  - p_value
 - slug: increment
   pt:
     def: "Uma opera\xE7\xE3o un\xE1ria que aumenta o valor de uma vari\xE1vel, geralmente\
       \ em um.\n"
     term: incrementar
+  ref:
+  - decrement
 - slug: gui
   pt:
     def: "Uma interface de usu\xE1rio cujo uso depende de janelas, menus, ponteiros\
@@ -310,6 +357,9 @@
       \ como [m\xE9dia aritm\xE9tica](#arithmetic_mean) para que seja distinguido\
       \ da m\xE9dia [geom\xE9trica](#geometric_mean) e da [harm\xF4nica](#harmonic_mean).\n"
     term: "m\xE9dia"
+  ref:
+  - median
+  - mode
 - slug: arithmetic_mean
   pt:
     def: "Veja [m\xE9dia](#mean).\n"
@@ -341,6 +391,8 @@
       lgebra linear, transformada de Fourrier e gera\xE7\xE3o de valores aleat\xF3\
       rios.\n"
     term: numpy
+  ref:
+  - python
 - slug: pandas
   pt:
     def: "\xC9 um pacote Python de c\xF3digo aberto que oferece estruturas de dados\
@@ -348,6 +400,8 @@
       \ e s\xE9ries temporais f\xE1cil e intuitivo. \xC9 usado como uma ferramenta\
       \ poderosa para an\xE1lise e manipula\xE7\xE3o de dados.\n"
     term: pandas
+  ref:
+  - python
 - slug: parameter
   pt:
     def: "Uma vari\xE1vel especificada na defini\xE7\xE3o de uma fun\xE7\xE3o, cujo\
@@ -387,6 +441,8 @@
       \ pacotes priorit\xE1rios s\xE3o instalados com o R base mas precisam ser carregados\
       \ antes do uso.\n"
     term: R base
+  ref:
+  - tidyverse
 - slug: 68_95_997_rule
   pt:
     def: "Expressa o fato de que 68% dos valores est\xE3o dentro de um [desvio padr\xE3\
@@ -401,11 +457,16 @@
       \ armazena os arquivos que comp\xF5em um projeto e os metadados que descrevem\
       \ sua hist\xF3ria.\n"
     term: "reposit\xF3rio"
+  ref:
+  - git
+  - github
 - slug: version_control_system
   pt:
     def: "Um sistema para gerenciar as mudan\xE7as feitas em um software durante o\
       \ seu desenvolvimento.\n"
     term: "sistema de controle de vers\xE3o"
+  ref:
+  - git
 - slug: stack_overflow
   pt:
     def: 'Um site de perguntas e respostas popular entre pessoas programadoras.
@@ -433,6 +494,11 @@
     def: "Uma estat\xEDstica \xE9 enviesada se estiver sistem\xE1tica ou consistentemente\
       \ diferente do par\xE2metro que deveria estimar.\n"
     term: "vi\xE9s"
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
 - slug: xml
   pt:
     def: "Um conjunto de regras para se definir etiquetas similares a [HTML](#html)\

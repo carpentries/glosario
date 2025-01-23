@@ -3,3 +3,5 @@
     def: "Varijabla definirana izvan bilo koje odre\u0111ene funkcije, koja je stoga\
       \ vidljiva svim funkcijama.\n"
     term: globalna varijabla
+  ref:
+  - local_variable

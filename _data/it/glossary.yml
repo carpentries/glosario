@@ -14,6 +14,8 @@
     def: "Misura della distanza dei valori dalla loro [media](#mean). \xC8 calcolata\
       \ come la radice quadrata della [varianza](#variance).\n"
     term: deviazione standard
+  ref:
+  - 68_95_997_rule
 - slug: absolute_error
   it:
     def: "La differenza in valore assoluto tra il valore osservato e il valore corretto.\
@@ -33,6 +35,9 @@
 
       '
     term: media
+  ref:
+  - median
+  - mode
 - slug: arithmetic_mean
   it:
     def: 'Vedi [media](#mean).
@@ -59,6 +64,8 @@
       \ indipendentemente da dove venga valutato. Un percorso assoluto del file \xE8\
       \ l'equivalente di latitudine e longitudine in geografia.\n"
     term: percorso assoluto del file
+  ref:
+  - relative_path
 - slug: python
   it:
     def: 'Un linguaggio di programmazione open-source (pubblicamente accessibile),

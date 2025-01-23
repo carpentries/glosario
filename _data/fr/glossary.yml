@@ -44,6 +44,14 @@
     def: "Une jointure qui conserve les lignes de la table A dont les cl\xE9s ne correspondent\
       \ pas aux cl\xE9s de la table B.\n"
     term: anti join
+  ref:
+  - anti_join
+  - cross_join
+  - full_join
+  - inner_join
+  - left_join
+  - right_join
+  - self_join
 - slug: append_mode
   fr:
     def: "Le fait d'ajouter des donn\xE9es \xE0 la fin d'un fichier existant au lieu\
@@ -67,6 +75,9 @@
       \ respectivement les param\xE8tres \"additionnels\" nomm\xE9s et non nomm\xE9\
       s.\n"
     term: arguments en nombre variable
+  ref:
+  - keyword_argument
+  - named_argument
 - slug: ascii
   fr:
     def: "Une norme informatique de codage qui repr\xE9sente les caract\xE8res couramment\
@@ -79,6 +90,8 @@
       \ asynchrone est une op\xE9ration qui s'ex\xE9cute ind\xE9pendamment d'une autre,\
       \ ou qui commence \xE0 un moment et se termine \xE0 un autre.\n"
     term: asynchrone
+  ref:
+  - synchronous
 - slug: attribute
   fr:
     def: "Un couple nom-valeur associ\xE9 \xE0 un objet et utilis\xE9 pour stocker\
@@ -118,6 +131,8 @@
       s sous forme de colonnes) et un nombre variable d'[entr\xE9es](#record) (repr\xE9\
       sent\xE9es sous forme de lignes).\n"
     term: "base de donn\xE9es relationnelle"
+  ref:
+  - sql
 - slug: base_r
   fr:
     def: "Les fonctions de base composant le langage R. Les packages de base peuvent\
@@ -127,11 +142,18 @@
       \ les packages prioritaires sont install\xE9s avec base R mais doivent \xEA\
       tre charg\xE9s avant utilisation.\n"
     term: base R
+  ref:
+  - tidyverse
 - slug: bias
   fr:
     def: "Une statistique est biais\xE9e si elle est syst\xE9matiquement ou r\xE9\
       guli\xE8rement diff\xE9rente du param\xE8tre qu'elle est cens\xE9e estimer.\n"
     term: bias
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
 - slug: library
   fr:
     def: "Un [paquet](#package) logiciel r\xE9utilisable, parfois aussi appel\xE9\
@@ -142,6 +164,8 @@
     def: "Toutes les donn\xE9es qui, jusqu'\xE0 r\xE9cemment, \xE9taient trop volumineuses\
       \ pour que la plupart des gens puissent les utiliser sur un seul ordinateur.\n"
     term: big data
+  ref:
+  - three_vs
 - slug: binary
   fr:
     def: "Un syst\xE8me qui peut avoir l'un des deux \xE9tats possibles. En informatique\
@@ -155,6 +179,9 @@
       \ d\xE9sign\xE9es par les alternatives oui/non ou vrai/faux. En informatique\
       \ cela repr\xE9sente un \xE9tat de 0 ou 1.\n"
     term: bit
+  ref:
+  - binary
+  - boolean
 - slug: causation
   fr:
     def: "Une relation entre des \xE9v\xE9nements distincts, o\xF9 il est affirm\xE9\
@@ -174,6 +201,8 @@
       \ d'acc\xE8s absolu est l'\xE9quivalent de la latitude et longitude en g\xE9\
       ographie.\n"
     term: "chemin d'acc\xE8s absolu"
+  ref:
+  - relative_path
 - slug: relative_path
   fr:
     def: "Un chemin d'acc\xE8s dont la destination est d\xE9finie relativement \xE0\
@@ -181,6 +210,8 @@
       \ Utiliser un chemin relatif \xE9quivaut \xE0 se d\xE9placer \xE0 l'aide d'instructions\
       \ telles que \"tout droit\" ou \"tourner \xE0 gauche\".\n"
     term: "chemin d'acc\xE8s relatif"
+  ref:
+  - absolute_path
 - slug: correlation_coefficient
   fr:
     def: "Une mesure de la [corr\xE9lation](#correlation) entre deux variables. Si\
@@ -292,6 +323,10 @@
     def: "Une photographie d'une version d'un d\xE9p\xF4t Git. Plusieurs branches\
       \ peuvent capturer plusieurs versions au niveau d'un m\xEAme d\xE9p\xF4t.\n"
     term: Git branch
+  ref:
+  - feature_branch
+  - fork
+  - master_branch
 - slug: git_clone
   fr:
     def: "Permet de copier (et g\xE9n\xE9ralement de t\xE9l\xE9charger) un [d\xE9\
@@ -320,11 +355,15 @@
     def: "Le fait d'installer un package dans un emplacement o\xF9 il peut \xEAtre\
       \ accessible par tous les utilisateurs ainsi que tous les projets.\n"
     term: installation globale
+  ref:
+  - local_installation
 - slug: local_installation
   fr:
     def: "Mettre un [paquet](#package) \xE0 l'int\xE9rieur d'un projet particulier,\
       \ de fa\xE7on \xE0 ce qu'il ne soit accessible que depuis ce projet.\n"
     term: installation locale
+  ref:
+  - global_installation
 - slug: api
   fr:
     def: "Un ensemble de fonctions et de proc\xE9dures fournies par une biblioth\xE8\
@@ -342,6 +381,8 @@
       \ pas de d\xE9finir un [sch\xE9ma](#schema) de donn\xE9es, ni ne supporte l'ajout\
       \ de commentaires.\n"
     term: JavaScript Object Notation
+  ref:
+  - yaml
 - slug: markup_language
   fr:
     def: "Un ensemble de r\xE8gles pour annoter un texte afin d'en d\xE9finir la structure\
@@ -350,6 +391,9 @@
       \ et [HTML](#html) sont des exemples de langages de balisage utilis\xE9s pour\
       \ des pages web.\n"
     term: langage de balisage
+  ref:
+  - latex
+  - xml
 - slug: latex
   fr:
     def: "Un syst\xE8me de composition de documents qui utilise un [langage de balisage](#markup_language)\
@@ -386,6 +430,8 @@
     def: "Une valeur sp\xE9ciale utilis\xE9e pour repr\xE9senter des donn\xE9es qui\
       \ ne sont pas disponibles.\n"
     term: NA
+  ref:
+  - 'null'
 - slug: 'null'
   fr:
     def: "Une valeur sp\xE9ciale utilis\xE9e pour repr\xE9senter l'absence de valeur.\
@@ -431,6 +477,9 @@
     def: "Une approche de la programmation qui m\xE9lange langage naturel (prose)\
       \ et code.\n"
     term: "programmation lettr\xE9e"
+  ref:
+  - computational_notebook
+  - r_markdown
 - slug: python
   fr:
     def: "Un langage de programmation open-source interpr\xE9t\xE9 populaire qui utilise\
@@ -447,6 +496,9 @@
       langer langage naturel et code (habituellement \xE9crit en langage [R](#r_language))\
       \ dans un m\xEAme document.\n"
     term: R Markdown
+  ref:
+  - computational_notebook
+  - literate_programming
 - slug: recursion
   fr:
     def: "Faire appel \xE0 une fonction au sein de cette m\xEAme fonction, ou d\xE9\
@@ -497,11 +549,15 @@
       \ sont des op\xE9rations qui doivent s'ex\xE9cuter simultan\xE9mment ou se terminer\
       \ en m\xEAme temps.\n"
     term: synchrone
+  ref:
+  - asynchronous
 - slug: version_control_system
   fr:
     def: "Un syst\xE8me qui permet de g\xE9rer les modifications effectu\xE9es sur\
       \ un programme durant son d\xE9veloppement.\n"
     term: "syst\xE8me de gestion des versions"
+  ref:
+  - git
 - slug: table
   fr:
     def: "Une s\xE9rie d'entr\xE9es dans une [base de donn\xE9es relationnelle](#relational_database)\
@@ -533,6 +589,8 @@
       \ Les lignes repr\xE9sentent les [entr\xE9es](#record) et les colonnes repr\xE9\
       sentent les [variables](#variable_data).\n"
     term: "trame de donn\xE9es"
+  ref:
+  - tidy_data
 - slug: tuple
   fr:
     def: "Un type de donn\xE9e correspondant \xE0 une collection d'objets en nombre\
@@ -552,16 +610,23 @@
     def: "Un nom associ\xE9 \xE0 des donn\xE9es au niveau d'un programme. La valeur\
       \ d'une variable peut \xEAtre modifi\xE9e apr\xE8s l'avoir d\xE9finie.\n"
     term: variable (programme)
+  ref:
+  - constant
 - slug: global_variable
   fr:
     def: "Une variable d\xE9finie en dehors de l'espace de noms d'une quelconque fonction,\
       \ qui est par cons\xE9quent visible pour toutes les fonctions.\n"
     term: variable globale
+  ref:
+  - local_variable
 - slug: local_variable
   fr:
     def: "Une variable d\xE9finie \xE0 l'int\xE9rieur d'une fonction, qui n'est visible\
       \ qu'au sein de cette fonction.\n"
     term: variable locale
+  ref:
+  - closure
+  - global_variable
 - slug: empty_vector
   fr:
     def: "Un vecteur qui ne contient aucun \xE9l\xE9ment. Les vecteurs vides poss\xE8\
