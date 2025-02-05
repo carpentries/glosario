@@ -21,10 +21,8 @@
     term: abandonware
 - slug: absolute_error
   en:
-    def: 'The total value  of the difference between the observed and correct value.
-      The absolute error is typically less useful than [relative error](#relative_error).
-
-      '
+    def: "The difference between the measured or inferred value of a quantity and\
+      \ its actual value,  sometimes with the absolute value taken. \n"
     term: absolute error
 - slug: absolute_path
   en:
