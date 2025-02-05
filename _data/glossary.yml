@@ -3408,7 +3408,7 @@
       represents the predicted classes. For a binary classification model the confusion matrix
       gives the True Positives (TP), False Negatives (FN), False Positives (FP) and True Negatives
       (TN) in the 1st, 2nd, 3rd and 4th quadrants, respectively. The table can be used to calculate
-      Accuracy, Sensitivity and Specificity amongst other measures of the model.
+      [Accuracy](#accuracy), [Sensitivity](#sensitivity) and [Specificity](#specificity) amongst other measures of the model.
 
 - slug: constant
   en:
