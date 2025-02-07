@@ -7661,6 +7661,10 @@
     term: MIT ፈቃድ
     def: >
       ሰዎች ያለምንም ገደብ ሶፍትዌሮችን እንደገና እንዲጠቀሙ የሚያስችል (ፈቃድ)(#license)።
+  ar:
+    term: "ترخيص MIT"
+    def: >
+رخصة تسمح للأشخاص بإعادة استخدام البرامج دون أي قيود.
 
 - slug: mock_object
   en:
@@ -7706,7 +7710,10 @@
     term: "model"
     def: >
       'n Spesifikasie van'n wiskundige verband tussen verskillende veranderlikes.
-
+  Ar:
+    term: "نموذج"
+    def: >
+         مواصفة العلاقة الرياضية بين المتغيرات المختلفة.       
 
 - slug: module
   en:
