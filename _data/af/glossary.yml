@@ -770,6 +770,12 @@
     term: uitskietter
   ref:
   - overfitting
+- slug: exploratory_programming
+  af:
+    def: "Hierdie is 'n sagteware-ontwikkelingsmetodologie waarin vereistes ontstaan\
+      \ of verander terwyl die sagteware geskryf word, dikwels in reaksie op  resultate\
+      \ van vroe\xEB toetslopies.\n"
+    term: verkennende programmering
 - slug: confidence_interval
   af:
     def: "'n Variasiewydte rondom 'n beraming wat'n foutgrens aandui, gekombineerd\
