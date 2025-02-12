@@ -11208,7 +11208,6 @@
       La curva se obtiene graficando la tasa de verdaderos positivos (también conocida como Recall o [Sensibilidad](#sensitivity))
       a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.
 
-
 - slug: fine_tuning
   ref:
     - deep_learning
@@ -11230,6 +11229,3 @@
       generic dataset. Second, the the fine-tuning phase, the neural network is adapted to the specifics of a (typically smaller) new dataset.
       The idea is that the network will capture generic knowledge in the pre-training phase that is relevant for learning in the fine-tuning task.
   
-
-
-
