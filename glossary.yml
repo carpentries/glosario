@@ -11213,6 +11213,7 @@
     - deep_learning
     - neural_network
     - transfer_learning
+  
   en:
     term: fine-tuning (deep learning)
     def: >
@@ -11222,6 +11223,7 @@
   ref: 
     - deep_learning
     - transfer_learning
+  
   en:
     term: transfer learning (deep learning)
     def: >
