@@ -11217,7 +11217,8 @@
   en:
     term: fine-tuning (deep learning)
     def: >
-      Fine-tuning is an approach to transfer learning in which a pre-trained network is adapted to the specifics of a new dataset. 
+      Fine-tuning is an approach to transfer learning in which a pre-trained network is adapted to the 
+      specifics of a new dataset. 
 
 - slug: transfer_learning
   ref: 
@@ -11227,7 +11228,8 @@
   en:
     term: transfer learning (deep learning)
     def: >
-      Transfer learning is a specific form of deep learning that has 2 stages. First, in the pre-training phase, a neural network is trained on a (typically large) 
-      generic dataset. Second, the the fine-tuning phase, the neural network is adapted to the specifics of a (typically smaller) new dataset.
-      The idea is that the network will capture generic knowledge in the pre-training phase that is relevant for learning in the fine-tuning task.
-  
+      Transfer learning is a specific form of deep learning that has 2 stages. First, in the pre-training 
+      phase, a neural network is trained on a (typically large) generic dataset. Second, the the 
+      fine-tuning phase, the neural network is adapted to the specifics of a (typically smaller) new 
+      dataset. The idea is that the network will capture generic knowledge in the pre-training phase 
+      that is relevant for learning in the fine-tuning task.
