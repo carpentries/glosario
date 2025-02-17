@@ -1,4 +1,30 @@
 {
   "projectName": "glosario",
-  "projectOwner": "carpentries"
+  "projectOwner": "carpentries",
+  "contributors": [
+    {
+        "login": "froggleston",
+        "name": "Robert Davey",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1872302?v=4",
+        "profile": "https://github.com/froggleston",
+        "contributions": [
+          "code",
+          "infra",
+          "review",
+          "doc"
+        ]
+    },
+    {
+        "login": "elletjies",
+        "name": "Angelique Trusler",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28295969?v=4",
+        "profile": "https://github.com/elletjies",
+        "contributions": [
+          "review",
+          "doc",
+          "question",
+          "translation"
+        ]
+    }
+  ]
 }
