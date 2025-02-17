@@ -12,6 +12,8 @@ in any of several (human) languages.
 
 ## Contributing
 
+[![All Contributors](https://img.shields.io/github/all-contributors/carpentries/glosario?color=ee8449&style=flat-square)](#contributors)
+
 To advance data science knowledge and accessibility for our diverse community, we developed Glosario. You do not need to know any programming language to contribute to Glosario: anyone with a basic familiarity with the GitHub web interface can get involved! We have prepared a [detailed and accessible guide for contributing](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit#heading=h.wsi1psxc3n64), which has been translated into several languages. Contributions are welcome in any language, not only those represented in that document. If you need help with your contribution, feel free to come to ask questions on the [#glosario](https://carpentries.slack.com/archives/C01G4HYGAQ6) Slack channel (if you are not a member of The Carpentries Slack you can join by filling [this form](https://slack-invite.carpentries.org/)).
 
 ## Lessons
