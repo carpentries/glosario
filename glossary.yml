@@ -11117,7 +11117,6 @@
       create a cycle. This allows the network to exhibit behavior that is dynamic over time. This
       type of network is applicable to tasks like speech and handwriting recognition.
 
-
 - slug: epoch_dl
   ref:
     - deep_learning
@@ -11213,3 +11212,30 @@
       es un gráfico que muestra el desempeño de un clasificador binario con diferentes umbrales de [clasificación](#classification)
       La curva se obtiene graficando la tasa de verdaderos positivos (también conocida como Recall o [Sensibilidad](#sensitivity))
       a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.
+
+- slug: fine_tuning
+  ref:
+    - deep_learning
+    - neural_network
+    - transfer_learning
+  
+  en:
+    term: fine-tuning (deep learning)
+    def: >
+      Fine-tuning is an approach to transfer learning in which a pre-trained network is adapted to the 
+      specifics of a new dataset. 
+
+- slug: transfer_learning
+  ref: 
+    - deep_learning
+    - transfer_learning
+  
+  en:
+    term: transfer learning (deep learning)
+    def: >
+      Transfer learning is a specific form of deep learning that has 2 stages. First, in the pre-training 
+      phase, a neural network is trained on a (typically large) generic dataset. Second, the the 
+      fine-tuning phase, the neural network is adapted to the specifics of a (typically smaller) new 
+      dataset. The idea is that the network will capture generic knowledge in the pre-training phase 
+      that is relevant for learning in the fine-tuning task.
+      
