@@ -192,3 +192,14 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
 ## Credits
 
 -   Parrot logo by [restocktheshelves](https://www.deviantart.com/restocktheshelves).
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
