@@ -1,4 +1,24 @@
 {
   "projectName": "glosario",
-  "projectOwner": "carpentries"
+  "projectOwner": "carpentries",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "elletjies",
+      "name": "Angelique Trusler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28295969?v=4",
+      "profile": "https://github.com/elletjies",
+      "contributions": [
+        "doc",
+        "review",
+        "question",
+        "translation"
+      ]
+    }
+  ]
 }
