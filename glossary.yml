@@ -3634,6 +3634,11 @@
       Mesure à quel point deux variables sont en accord l'une avec l'autre.
       Le [coefficient de corrélation](#correlation_coefficient) est une mesure
       normalisée de la covariance.
+  uk:
+    term: "коваріація"
+    def: >
+      Наскільки добре дві змінні узгоджуються одна з одною. 
+      Коефіцієнт кореляції є нормалізованим показником коваріації.
 
 - slug: cpu
   ref:
@@ -7570,6 +7575,13 @@
       'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
       gee dikwels 'n beter idee van wat tipies is vir die datastel as die
       [mediaan](#mean), wat beïnvloed kan word deur 'n klein aantal ekstreme uitskieters.
+  uk:
+    term: "медіана"
+    def: >
+      Значення, що розділяє верхню та нижню половини відсортованого набору даних.
+      Медіана часто дає краще уявлення про те, що є типовим для набору даних, ніж [середнє](#mean),
+      на яке може впливати невелика кількість екстремальних викидів. Якщо набір даних
+      містить парну кількість елементів, це є середнім значенням двох центральних елементів.
 
   am:
     term: መካከለኛ
@@ -7700,6 +7712,10 @@
     term: "Modus"
     def: >
       Auch Modalwert genannt. Gibt den Wert oder die Werte an, die am häufigsten in einem Datensatz vorkommen.
+  uk:
+    term: "мода"
+    def: >
+      Oдне або декілька значень, які найчастіше виникають у наборі даних.
 
 
 - slug: model
@@ -8822,7 +8838,13 @@
       called a quantile. For example, if there are five groups, each is called a
       *quintile*; the bottom quintile contains the lowest 20% of the values, while the
       top quintile contains the highest 20%.
-
+  uk:
+    term: "квантиль"
+    def: >
+      Якщо набір відсортованих значень розділений на групи кожного розміру,
+      кожна група називається квантилем. Наприклад, якщо існує п'ять груп,
+      кожна з них називається квінтилем; нижній квінтиль містить найнижчі
+      20% значень, тоді як верхній квінтиль містить найвищі 20%.
 
 - slug: query_string
   en:
