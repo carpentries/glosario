@@ -2728,7 +2728,12 @@
       Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche den
       Verzicht auf sämtliche Schutzrechte erklärt und das Werk in die
       Gemeinfreiheit überführt.
-
+  uk:
+    term: "CC-0"
+    def: >
+      Різновид ліцензії [Creative Commons](#cc_license), який дозволяє
+      автору добровільно відмовитися від усіх авторських прав на
+      свій твір і передати його у суспільне надбання без жодних умов чи обмежень.
   am:
     term: ሲሲ-0
     def: >
@@ -2751,7 +2756,12 @@
       Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche eine
       Namensnennung der Urheber verlangt aber sonst keine weiteren
       Restriktionen auferlegt.
-
+  uk:
+    term: "CC-BY"
+    def: >
+      [Creative Commons](#cc_license) - Attribution [license](#license):
+      ліцензія, яка дозволяє вільно використовувати, змінювати і поширювати
+      твір за умови обов'язкового зазначення авторства, без інших обмежень.
   am:
     term: ሲሲ-ባይ
     def: >
@@ -2774,6 +2784,22 @@
     term: የፈጠራ ኮመንስ ፍቃድ
     def: >
       ለህትመት ሥራ ሊመለከቱ የሚችሉ [ፍቃዶች](#license) እያንዳንዳቸው ፍቃድ ሚመሰረተው የ '-ባይ' (Attribution) ተጠቃሚዎችን አንድ ወይም ከዚያ በላይ በመመደብ ነው must cite cite the original source; '-SA' (ShareAlike) ተጠቃሚዎች የራሳቸውን ማጋራት አለባቸው በተመሳሳይ ፈቃድ ሥራ መሥራት፤ '-ኤን ሲ' (NonCommercial) ስራ ላይውል ይችላል ያለ ፈጣሪ ፈቃድ የንግድ ዓላማዎች፤ '-ND' (NoDerivatives) አይደለም የተዋሕዶ ስራዎች (ለምሳሌ፣ ትርጉሞች) ያለ ፈጣሪ ሊፈጠሩ ይችላሉ ፍቃድ። በመሆኑም 'CC-BY-ኤንሲ' ማለት"ተጠቃሚዎች ባህሪ መስጠት አለባቸው እና መጠቀም አይችሉም ለንግድ ያለ ፈቃድ". 'ሲሲ-0' (ዜሮ እንጂ ፊደል 'ኦ' አይደለም) የሚለው ቃል ነው አንዳንድ ጊዜ"እገዳ የለም"ማለትም ሥራው በሕዝብ ክልል ውስጥ ይገኛል።
+  uk:
+    term: Creative Commons license
+    def: >
+      Набір ліцензій, які можна застосовувати до опублікованого твору.
+      Кожна ліцензія формується шляхом конкатенації одного або кількох із
+      -BY (зазначення авторства): користувачі повинні цитувати першоджерело;
+      -SA (ShareAlike): користувачі повинні ділитися власними творами
+      за аналогічною ліцензією;
+      -NC (некомерційний): твір не може використовуватися в комерційних
+      цілях без дозволу автора;
+      -ND (NoDerivatives): жодні похідні твори (наприклад, переклади)
+      не можуть бути створені без дозволу автора.
+      Таким чином, CC-BY-NC означає, що "користувачі повинні вказати
+      авторство та не можуть використовувати в комерційних цілях без дозволу".
+      Термін CC-0 (нуль, а не літера "О") іноді використовується для
+      позначення "немає обмежень, тобто твір є суспільним надбанням.
 
 - slug: centroid
   en:
@@ -8144,7 +8170,13 @@
       Una [licencia](#license) que permite reuso en general, tal como la [Licencia MIT](#mit_license)
       o [GPL](#gpl) para software y [CC-BY](#cc_by) o
       [CC-0](#cc_0) para datos, prosas u otros productos creativos.
-
+  uk:
+    term: "відкрита ліцензія"
+    def: >
+      [Ліцензія](#license), яка дозволяє загальне повторне використання творів,
+      наприклад, ліцензія [MIT](#mit_license) або [GPL](#gpl) для програмного
+      забезпечення та [CC-BY](#cc_by) або [CC-0](#cc_0) для даних, прози
+      чи інших творчих результатів.
 
 - slug: open_science
   en:
