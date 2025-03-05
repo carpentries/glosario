@@ -2679,6 +2679,11 @@
     def: >
       A relationship between distinct events, where it is asserted that one event is responsible for
       producing or affecting change in the other.
+  uk:
+    term: "причинно-наслідковий зв'язок"
+    def: >
+      Відношення між окремими подіями, яке вказує на те, що одна подія
+      несе відповідальність за створення або вплив на зміни в іншій.
  
   fr:
     term: "causalité"
@@ -3966,6 +3971,11 @@
     term: የውሂብ ሳይንስ
     def: >
       ጥቅም ላይ የዋለው የስታቲስቲክስ ፣ የፕሮግራም እና ከባድ ሥራ ጥምረት ከመረጃ ዕውቀትን ያውጡ።
+  uk:
+    term: "наука про дані"
+    def: >
+      Pозділ інформатики, що вивчає проблеми аналізу, обробки та подання
+      даних у цифровій формі.
 
 - slug: data_scientist
   en:
@@ -3997,6 +4007,10 @@
     term: የውሂብ ሳይንቲስት
     def: >
       የስታቲስቲክስ ችግሮችን ለመፍታት የፕሮግራም ችሎታን የሚጠቀም ሰው ፡፡
+  uk:
+    term: "спеціаліст з обробки даних"
+    def: >
+      Той, хто використовує навички програмування щоб вирішити статистичні задачі.
 
 - slug: data_structure
   en:
@@ -4032,6 +4046,12 @@
     def: >
       Uundaji wa chati, ramani, grafu, au infographics ili kutafsiri seti za data kuwa kitu kinachoonekana.
       Wakati mwingine huitwa "dataviz" au "data viz."
+  uk:
+    term: "візуалізація даних"
+    def: >
+      Створення діаграм, мап, графіків або інфографіки для перетворення
+      наборів даних у щось візуальне. Іноді може називатися "dataviz"
+      або "data viz".
 
 - slug: data_wrangling
   en:
