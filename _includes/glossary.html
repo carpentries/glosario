@@ -30,53 +30,56 @@ Cross-references are displayed in __bold__ if that term is missing.
 {%- for slug in actual -%}
   {% assign item = gloss | where: "slug", slug | first %}
   {% if item[language] %}
-  {% assign start_letter = item[language].term | slice: 0 | upcase %}
-  {% if gloss_letter != start_letter %}
-     {% assign gloss_letter = start_letter %}
-     {% assign headings = headings | append: gloss_letter %}
-     <h2 id="{{ gloss_letter }}" class="text-bg-info p-3">{{ gloss_letter }}</h2>
-  {% endif %}
-  <h4 id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}<a href="#{{item.slug}}" class="anchor" aria-label="anchor"></a></h4>
-  <dd>
-    {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
-    {%- comment -%} Explicit cross-references {%- endcomment -%}
-    {%- if item.ref -%}
-    <br/>
-    <em>
-    {% if direction == 'ltr' %}
-    &rarr;
-    {% else %}
-    &larr;
+    {% assign start_letter = item[language].term | slice: 0 | upcase %}
+    {% if gloss_letter != start_letter %}
+        {% assign gloss_letter = start_letter %}
+        {% assign headings = headings | append: gloss_letter %}
+        <h2 id="{{ gloss_letter }}" class="text-bg-info p-3">{{ gloss_letter }}</h2>
     {% endif %}
-    {% for other_key in item.ref -%}
-    {%- assign other = all_gloss | where: "slug", other_key | first -%}
-    <a href="#{{other_key}}">
-      {%- if other[language] -%}
-        {{other[language].term}}
-      {%- else -%}
-        <strong>{{other_key}}</strong>
-      {%- endif -%}
-    </a>{%- unless forloop.last -%}, {% endunless -%}
-    {%- endfor -%}
-    </em>
-    {%- endif -%}
-    {%- comment -%} Translations {%- endcomment -%}
-    {% assign others = '' | split: ',' %}
-    {% for lang in site.languages %}
-      {% if lang.key != language and other[lang.key] %}
-        {% assign others = others | push: lang %}
-      {% endif %}
-    {% endfor %}
-    {%- if others.size > 0 -%}
-    <br/>
-    <em>
-      &otimes;
-      {% for lang in others -%}
-      <a href="../{{lang.key}}/#{{slug}}">{{lang.name}}</a>{%- unless forloop.last -%}, {% endunless -%}
-      {%- endfor -%}
-    </em>
-    {%- endif -%}
-  </dd>
+    <h4 id="{{item.slug}}">{{item[language].term}}{% if item[language].acronym %} ({{item[language].acronym}}){% endif %}<a href="#{{item.slug}}" class="anchor" aria-label="anchor"></a></h4>
+    <dd>
+        {{item[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
+        {%- assign term_translations = all_gloss | where: "slug", item.slug | first -%}
+        {% assign other_translations = '' | split: ',' %}
+        {% for lang in site.languages %}
+            {% if lang.key != language and term_translations[lang.key] %}
+                {% assign other_translations = other_translations | push: lang %}
+            {% endif %}
+        {% endfor %}
+
+        {%- comment -%} Explicit cross-references {%- endcomment -%}
+        {%- if item.ref -%}
+            <br/>
+            <em>
+            {% if direction == 'ltr' %}
+            &rarr;
+            {% else %}
+            &larr;
+            {% endif %}
+            {% for other_term in item.ref -%}
+                {%- assign other = gloss | where: "slug", other_term | first -%}
+                <a href="#{{other_term}}">
+                {%- if other[language] -%}
+                    {{other[language].term}}
+                {%- else -%}
+                    <strong>{{other_term}}</strong>
+                {%- endif -%}
+                </a>{%- unless forloop.last -%}, {% endunless -%}
+            {%- endfor -%}
+            </em>
+        {%- endif -%}
+
+        {%- comment -%} Translations {%- endcomment -%}
+        {%- if other_translations.size > 0 -%}
+            <br/>
+            <em>
+            &otimes;
+            {% for lang in other_translations -%}
+                <a href="../{{lang.key}}/#{{slug}}">{{lang.name}}</a>{%- unless forloop.last -%}, {% endunless -%}
+            {%- endfor -%}
+            </em>
+        {%- endif -%}
+    </dd>
   {% endif %}
 {%- endfor -%}
 </dl>
