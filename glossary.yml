@@ -3689,6 +3689,12 @@
     term: ሁሉን አቀፍ R መዝገብ ቤት አውታረ መረብ
     def: የ [R](#r_language) ጥቅሎች የህዝብ ማከማቻ።
 
+  uk:
+    term: "Комплексна мережа архіву R"
+    acronym: "CRAN"
+    def: >
+      Публічний репозиторій [R](#r_language) пакетів.
+
 - slug: cross_join
   ref:
     - anti_join
