@@ -252,6 +252,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/heidikarlsen"><img src="https://avatars.githubusercontent.com/u/56078217?v=4?s=100" width="100px;" alt="heidikarlsen"/><br /><sub><b>heidikarlsen</b></sub></a><br /><a href="#translation-heidikarlsen" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.edf.org/people/jamie-collins"><img src="https://avatars.githubusercontent.com/u/12241873?v=4?s=100" width="100px;" alt="Jamie Collins"/><br /><sub><b>Jamie Collins</b></sub></a><br /><a href="#translation-jamesrco" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jananiharan"><img src="https://avatars.githubusercontent.com/u/8431485?v=4?s=100" width="100px;" alt="Janani Hariharan"/><br /><sub><b>Janani Hariharan</b></sub></a><br /><a href="#translation-jananiharan" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jas1"><img src="https://avatars.githubusercontent.com/u/1795403?v=4?s=100" width="100px;" alt="Julio Spairani"/><br /><sub><b>Julio Spairani</b></sub></a><br /><a href="#translation-jas1" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
