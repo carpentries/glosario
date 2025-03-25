@@ -294,6 +294,12 @@
       "name": "Danny Ben-Avraham",
       "avatar_url": "https://avatars.githubusercontent.com/u/4780507?v=4",
       "profile": "https://github.com/dannyba",
+    },
+    {
+      "login": "demar01",
+      "name": "Maria Dermit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5008157?v=4",
+      "profile": "https://mariadermit.netlify.app/",
       "contributions": [
         "translation"
       ]
