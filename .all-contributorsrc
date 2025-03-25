@@ -593,6 +593,12 @@
       "name": "Sarah Stevens",
       "avatar_url": "https://avatars.githubusercontent.com/u/5558419?v=4",
       "profile": "https://sarahlrstevens.info",
+    },
+    {
+      "login": "timtomch",
+      "name": "Thomas Guignard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7302575?v=4",
+      "profile": "https://tgconsulting.ca",
       "contributions": [
         "translation"
       ]
