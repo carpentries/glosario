@@ -269,6 +269,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://marcosvital.github.io"><img src="https://avatars.githubusercontent.com/u/13972235?v=4?s=100" width="100px;" alt="Marcos Vital (LEQ-UFAL)"/><br /><sub><b>Marcos Vital (LEQ-UFAL)</b></sub></a><br /><a href="#translation-marcosvital" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/masamiy"><img src="https://avatars.githubusercontent.com/u/19921944?v=4?s=100" width="100px;" alt="masamiy"/><br /><sub><b>masamiy</b></sub></a><br /><a href="#translation-masamiy" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://matiasmicheletto.github.io"><img src="https://avatars.githubusercontent.com/u/21092034?v=4?s=100" width="100px;" alt="Matias Micheletto"/><br /><sub><b>Matias Micheletto</b></sub></a><br /><a href="#translation-matiasmicheletto" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mdbjax"><img src="https://avatars.githubusercontent.com/u/52707406?v=4?s=100" width="100px;" alt="mdbjax"/><br /><sub><b>mdbjax</b></sub></a><br /><a href="#translation-mdbjax" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
