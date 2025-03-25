@@ -260,6 +260,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/julievecchio"><img src="https://avatars.githubusercontent.com/u/11231049?v=4?s=100" width="100px;" alt="julievecchio"/><br /><sub><b>julievecchio</b></sub></a><br /><a href="#translation-julievecchio" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://konrad.foerstner.org"><img src="https://avatars.githubusercontent.com/u/49392?v=4?s=100" width="100px;" alt="Konrad Förstner"/><br /><sub><b>Konrad Förstner</b></sub></a><br /><a href="#translation-konrad" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/leedotson"><img src="https://avatars.githubusercontent.com/u/80065598?v=4?s=100" width="100px;" alt="leedotson"/><br /><sub><b>leedotson</b></sub></a><br /><a href="#translation-leedotson" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://leticiadasilva.github.io"><img src="https://avatars.githubusercontent.com/u/28828381?v=4?s=100" width="100px;" alt="Letícia Silva"/><br /><sub><b>Letícia Silva</b></sub></a><br /><a href="#translation-leticiadasilva" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
