@@ -341,6 +341,12 @@
       "name": "Fernando Pozo",
       "avatar_url": "https://avatars.githubusercontent.com/u/19167350?v=4",
       "profile": "http://www.fpozoc.com",
+    },
+    {
+      "login": "groodri",
+      "name": "Rodrigo Meneses",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22616857?v=4",
+      "profile": "https://github.com/groodri",
       "contributions": [
         "translation"
       ]
