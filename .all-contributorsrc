@@ -19,6 +19,18 @@
         "question",
         "translation"
       ]
+    },
+    {
+      "login": "gvwilson",
+      "name": "Greg Wilson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/911566?v=4",
+      "profile": "http://third-bit.com",
+      "contributions": [
+        "doc",
+        "review",
+        "question",
+        "translation"
+      ]
     }
   ]
 }
