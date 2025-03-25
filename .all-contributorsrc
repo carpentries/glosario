@@ -25,6 +25,12 @@
       "name": "François Michonneau",
       "avatar_url": "https://avatars.githubusercontent.com/u/5502922?v=4",
       "profile": "https://francoismichonneau.net/",
+    },
+    {
+      "login": "zkamvar",
+      "name": "Zhian N. Kamvar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3639446?v=4",
+      "profile": "https://zkamvar.netlify.app",
       "contributions": [
         "doc",
         "review",
@@ -634,6 +640,8 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
     }
   ]
 }
