@@ -262,6 +262,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/leedotson"><img src="https://avatars.githubusercontent.com/u/80065598?v=4?s=100" width="100px;" alt="leedotson"/><br /><sub><b>leedotson</b></sub></a><br /><a href="#translation-leedotson" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://leticiadasilva.github.io"><img src="https://avatars.githubusercontent.com/u/28828381?v=4?s=100" width="100px;" alt="Letícia Silva"/><br /><sub><b>Letícia Silva</b></sub></a><br /><a href="#translation-leticiadasilva" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/lmtnezg"><img src="https://avatars.githubusercontent.com/u/33230752?v=4?s=100" width="100px;" alt="Laura Mtnez"/><br /><sub><b>Laura Mtnez</b></sub></a><br /><a href="#translation-lmtnezg" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lucaferranti"><img src="https://avatars.githubusercontent.com/u/49938764?v=4?s=100" width="100px;" alt="Luca Ferranti"/><br /><sub><b>Luca Ferranti</b></sub></a><br /><a href="#translation-lucaferranti" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
