@@ -146,6 +146,12 @@
       "name": "Sarah Pohl",
       "avatar_url": "https://avatars.githubusercontent.com/u/7427134?v=4",
       "profile": "https://about.me/lilithelina",
+    },
+    {
+      "login": "MarieHouillon",
+      "name": "Marie Houillon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17878878?v=4",
+      "profile": "https://github.com/MarieHouillon",
       "contributions": [
         "translation"
       ]
