@@ -211,6 +211,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Armadilloa16"><img src="https://avatars.githubusercontent.com/u/11642131?v=4?s=100" width="100px;" alt="Lyron Winderbaum"/><br /><sub><b>Lyron Winderbaum</b></sub></a><br /><a href="#translation-Armadilloa16" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/BFrit"><img src="https://avatars.githubusercontent.com/u/32676777?v=4?s=100" width="100px;" alt="BFrit"/><br /><sub><b>BFrit</b></sub></a><br /><a href="#translation-BFrit" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://batool-almarzouq.netlify.app/"><img src="https://avatars.githubusercontent.com/u/53487593?v=4?s=100" width="100px;" alt="Batool Almarzouq"/><br /><sub><b>Batool Almarzouq</b></sub></a><br /><a href="#review-BatoolMM" title="Reviewed Pull Requests">👀</a> <a href="#translation-BatoolMM" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Charlie-George"><img src="https://avatars.githubusercontent.com/u/8723681?v=4?s=100" width="100px;" alt="Charlie-George"/><br /><sub><b>Charlie-George</b></sub></a><br /><a href="#translation-Charlie-George" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
