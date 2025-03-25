@@ -55,6 +55,18 @@
         "question",
         "translation"
       ]
+    },
+    {
+      "login": "ian-flores",
+      "name": "Ian Flores Siaca ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18703558?v=4",
+      "profile": "https://ianfs.dev",
+      "contributions": [
+        "doc",
+        "review",
+        "question",
+        "translation"
+      ]
     }
   ]
 }
