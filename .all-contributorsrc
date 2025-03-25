@@ -395,6 +395,12 @@
       "name": "John Y. Choe",
       "avatar_url": "https://avatars.githubusercontent.com/u/3599146?v=4",
       "profile": "http://faculty.washington.edu/ychoe/",
+    },
+    {
+      "login": "jsteyn",
+      "name": "Jannetta Steyn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6432530?v=4",
+      "profile": "http://www.jannetta.com",
       "contributions": [
         "translation"
       ]
