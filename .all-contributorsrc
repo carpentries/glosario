@@ -413,6 +413,12 @@
       "name": "julievecchio",
       "avatar_url": "https://avatars.githubusercontent.com/u/11231049?v=4",
       "profile": "https://github.com/julievecchio",
+    },
+    {
+      "login": "konrad",
+      "name": "Konrad Förstner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49392?v=4",
+      "profile": "http://konrad.foerstner.org",
       "contributions": [
         "translation"
       ]
