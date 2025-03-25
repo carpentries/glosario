@@ -182,6 +182,12 @@
       "name": "Nicolas Palopoli",
       "avatar_url": "https://avatars.githubusercontent.com/u/1713937?v=4",
       "profile": "http://about.me/npalopoli",
+    },
+    {
+      "login": "RabeaMue",
+      "name": "Rabea Müller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42644523?v=4",
+      "profile": "https://github.com/RabeaMue",
       "contributions": [
         "translation"
       ]
