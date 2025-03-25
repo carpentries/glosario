@@ -204,6 +204,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/elletjies"><img src="https://avatars.githubusercontent.com/u/28295969?v=4?s=100" width="100px;" alt="Angelique Trusler"/><br /><sub><b>Angelique Trusler</b></sub></a><br /><a href="#doc-elletjies" title="Documentation">📖</a> <a href="#review-elletjies" title="Reviewed Pull Requests">👀</a> <a href="#question-elletjies" title="Answering Questions">💬</a> <a href="#translation-elletjies" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://yabellini.netlify.app"><img src="https://avatars.githubusercontent.com/u/2473676?v=4?s=100" width="100px;" alt="Yanina Bellini Saibene"/><br /><sub><b>Yanina Bellini Saibene</b></sub></a><br /><a href="#doc-yabellini" title="Documentation">📖</a> <a href="#review-yabellini" title="Reviewed Pull Requests">👀</a> <a href="#question-yabellini" title="Answering Questions">💬</a> <a href="#translation-yabellini" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
