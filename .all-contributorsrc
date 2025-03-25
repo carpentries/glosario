@@ -332,6 +332,12 @@
       "name": "Fiona",
       "avatar_url": "https://avatars.githubusercontent.com/u/49239621?v=4",
       "profile": "https://github.com/fiona-galston",
+    },
+    {
+      "login": "fpozoc",
+      "name": "Fernando Pozo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19167350?v=4",
+      "profile": "http://www.fpozoc.com",
       "contributions": [
         "translation"
       ]
