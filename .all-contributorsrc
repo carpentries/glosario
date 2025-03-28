@@ -634,6 +634,18 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "zkamvar",
+      "name": "Zhian N. Kamvar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3639446?v=4",
+      "profile": "https://zkamvar.netlify.app",
+      "contributions": [
+        "doc",
+        "review",
+        "question",
+        "translation"
+      ]
     }
   ]
 }
