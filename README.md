@@ -237,10 +237,13 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="http://belindafabian.com.au"><img src="https://avatars.githubusercontent.com/u/32319878?v=4?s=100" width="100px;" alt="beacurious"/><br /><sub><b>beacurious</b></sub></a><br /><a href="#translation-beacurious" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://beamilz.com"><img src="https://avatars.githubusercontent.com/u/42153618?v=4?s=100" width="100px;" alt="Beatriz Milz"/><br /><sub><b>Beatriz Milz</b></sub></a><br /><a href="#translation-beatrizmilz" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://callumrollo.com"><img src="https://avatars.githubusercontent.com/u/28703282?v=4?s=100" width="100px;" alt="Callum Rollo"/><br /><sub><b>Callum Rollo</b></sub></a><br /><a href="#translation-callumrollo" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/chaimae123-ai"><img src="https://avatars.githubusercontent.com/u/66030422?v=4?s=100" width="100px;" alt="chaimae123-ai"/><br /><sub><b>chaimae123-ai</b></sub></a><br /><a href="#translation-chaimae123-ai" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
