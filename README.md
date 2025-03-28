@@ -282,10 +282,13 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://rivaquiroga.cl/"><img src="https://avatars.githubusercontent.com/u/31421616?v=4?s=100" width="100px;" alt="Riva Quiroga"/><br /><sub><b>Riva Quiroga</b></sub></a><br /><a href="#translation-rivaquiroga" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sackmanna"><img src="https://avatars.githubusercontent.com/u/20346805?v=4?s=100" width="100px;" alt="Anna Sackmann"/><br /><sub><b>Anna Sackmann</b></sub></a><br /><a href="#translation-sackmanna" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://sarahlrstevens.info"><img src="https://avatars.githubusercontent.com/u/5558419?v=4?s=100" width="100px;" alt="Sarah Stevens"/><br /><sub><b>Sarah Stevens</b></sub></a><br /><a href="#translation-sstevens2" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://tgconsulting.ca"><img src="https://avatars.githubusercontent.com/u/7302575?v=4?s=100" width="100px;" alt="Thomas Guignard"/><br /><sub><b>Thomas Guignard</b></sub></a><br /><a href="#translation-timtomch" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
