@@ -232,9 +232,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ailisarre"><img src="https://avatars.githubusercontent.com/u/73651518?v=4?s=100" width="100px;" alt="Aili Sarre"/><br /><sub><b>Aili Sarre</b></sub></a><br /><a href="#translation-ailisarre" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://annajiat.googlepages.com/"><img src="https://avatars.githubusercontent.com/u/3046889?v=4?s=100" width="100px;" alt="Annajiat Alim Rasel"/><br /><sub><b>Annajiat Alim Rasel</b></sub></a><br /><a href="#translation-annajiat" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/baileythegreen"><img src="https://avatars.githubusercontent.com/u/12277715?v=4?s=100" width="100px;" alt="Bailey Harrington"/><br /><sub><b>Bailey Harrington</b></sub></a><br /><a href="#doc-baileythegreen" title="Documentation">📖</a> <a href="#review-baileythegreen" title="Reviewed Pull Requests">👀</a> <a href="#question-baileythegreen" title="Answering Questions">💬</a> <a href="#translation-baileythegreen" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
