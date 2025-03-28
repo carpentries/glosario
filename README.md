@@ -287,9 +287,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://tgconsulting.ca"><img src="https://avatars.githubusercontent.com/u/7302575?v=4?s=100" width="100px;" alt="Thomas Guignard"/><br /><sub><b>Thomas Guignard</b></sub></a><br /><a href="#translation-timtomch" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://tbyhdgs.info"><img src="https://avatars.githubusercontent.com/u/9694524?v=4?s=100" width="100px;" alt="Toby Hodges"/><br /><sub><b>Toby Hodges</b></sub></a><br /><a href="#doc-tobyhodges" title="Documentation">📖</a> <a href="#question-tobyhodges" title="Answering Questions">💬</a> <a href="#translation-tobyhodges" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tyt3"><img src="https://avatars.githubusercontent.com/u/34420663?v=4?s=100" width="100px;" alt="Tyrica Terry Kapral"/><br /><sub><b>Tyrica Terry Kapral</b></sub></a><br /><a href="#translation-tyt3" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://abav.lugaralgum.com"><img src="https://avatars.githubusercontent.com/u/3694604?v=4?s=100" width="100px;" alt="Alexandre B A Villares"/><br /><sub><b>Alexandre B A Villares</b></sub></a><br /><a href="#translation-villares" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
