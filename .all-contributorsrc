@@ -313,6 +313,17 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/20630148?v=4",
       "profile": "https://github.com/elsikorski",
       "contributions": [
+        "doc",
+        "translation"
+      ]
+    },
+    {
+      "login": "feddelegrand7",
+      "name": "Ihaddaden Mohamed El Fodil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28841210?v=4",
+      "profile": "https://github.com/feddelegrand7",
+      "contributions": [
+        "doc",
         "translation"
       ]
     }

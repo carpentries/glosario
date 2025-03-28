@@ -243,9 +243,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dannyba"><img src="https://avatars.githubusercontent.com/u/4780507?v=4?s=100" width="100px;" alt="Danny Ben-Avraham"/><br /><sub><b>Danny Ben-Avraham</b></sub></a><br /><a href="#translation-dannyba" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://mariadermit.netlify.app/"><img src="https://avatars.githubusercontent.com/u/5008157?v=4?s=100" width="100px;" alt="Maria Dermit"/><br /><sub><b>Maria Dermit</b></sub></a><br /><a href="#translation-demar01" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/elsikorski"><img src="https://avatars.githubusercontent.com/u/20630148?v=4?s=100" width="100px;" alt="elsikorski"/><br /><sub><b>elsikorski</b></sub></a><br /><a href="#translation-elsikorski" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/feddelegrand7"><img src="https://avatars.githubusercontent.com/u/28841210?v=4?s=100" width="100px;" alt="Ihaddaden Mohamed El Fodil"/><br /><sub><b>Ihaddaden Mohamed El Fodil</b></sub></a><br /><a href="#doc-feddelegrand7" title="Documentation">📖</a> <a href="#translation-feddelegrand7" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
