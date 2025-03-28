@@ -285,9 +285,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://tgconsulting.ca"><img src="https://avatars.githubusercontent.com/u/7302575?v=4?s=100" width="100px;" alt="Thomas Guignard"/><br /><sub><b>Thomas Guignard</b></sub></a><br /><a href="#translation-timtomch" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://tbyhdgs.info"><img src="https://avatars.githubusercontent.com/u/9694524?v=4?s=100" width="100px;" alt="Toby Hodges"/><br /><sub><b>Toby Hodges</b></sub></a><br /><a href="#doc-tobyhodges" title="Documentation">📖</a> <a href="#question-tobyhodges" title="Answering Questions">💬</a> <a href="#translation-tobyhodges" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
