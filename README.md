@@ -276,9 +276,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://nicoguaro.github.io"><img src="https://avatars.githubusercontent.com/u/1097787?v=4?s=100" width="100px;" alt="Nicolás Guarín-Zapata"/><br /><sub><b>Nicolás Guarín-Zapata</b></sub></a><br /><a href="#translation-nicoguaro" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nucholab"><img src="https://avatars.githubusercontent.com/u/30484657?v=4?s=100" width="100px;" alt="Wladimir"/><br /><sub><b>Wladimir</b></sub></a><br /><a href="#translation-nucholab" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
