@@ -279,9 +279,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nucholab"><img src="https://avatars.githubusercontent.com/u/30484657?v=4?s=100" width="100px;" alt="Wladimir"/><br /><sub><b>Wladimir</b></sub></a><br /><a href="#translation-nucholab" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://stackoverflow.com/users/4334110/paritosh-kulkarni"><img src="https://avatars.githubusercontent.com/u/9400939?v=4?s=100" width="100px;" alt="Paritosh Kulkarni"/><br /><sub><b>Paritosh Kulkarni</b></sub></a><br /><a href="#translation-paritoshk" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/pri-hoh"><img src="https://avatars.githubusercontent.com/u/30275921?v=4?s=100" width="100px;" alt="Priscila Hohberg"/><br /><sub><b>Priscila Hohberg</b></sub></a><br /><a href="#translation-pri-hoh" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://rivaquiroga.cl/"><img src="https://avatars.githubusercontent.com/u/31421616?v=4?s=100" width="100px;" alt="Riva Quiroga"/><br /><sub><b>Riva Quiroga</b></sub></a><br /><a href="#translation-rivaquiroga" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
