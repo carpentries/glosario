@@ -227,9 +227,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="http://about.me/npalopoli"><img src="https://avatars.githubusercontent.com/u/1713937?v=4?s=100" width="100px;" alt="Nicolas Palopoli"/><br /><sub><b>Nicolas Palopoli</b></sub></a><br /><a href="#translation-NPalopoli" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/RabeaMue"><img src="https://avatars.githubusercontent.com/u/42644523?v=4?s=100" width="100px;" alt="Rabea Müller"/><br /><sub><b>Rabea Müller</b></sub></a><br /><a href="#translation-RabeaMue" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://orcid.org/0000-0003-3904-6690"><img src="https://avatars.githubusercontent.com/u/5493325?v=4?s=100" width="100px;" alt="Tom Kelly"/><br /><sub><b>Tom Kelly</b></sub></a><br /><a href="#review-TomKellyGenetics" title="Reviewed Pull Requests">👀</a> <a href="#translation-TomKellyGenetics" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/WafaaMoh"><img src="https://avatars.githubusercontent.com/u/74782178?v=4?s=100" width="100px;" alt="WafaaMoh"/><br /><sub><b>WafaaMoh</b></sub></a><br /><a href="#translation-WafaaMoh" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
