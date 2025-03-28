@@ -218,9 +218,11 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/EveBigras"><img src="https://avatars.githubusercontent.com/u/12716168?v=4?s=100" width="100px;" alt="EveBigras"/><br /><sub><b>EveBigras</b></sub></a><br /><a href="#translation-EveBigras" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Fehings"><img src="https://avatars.githubusercontent.com/u/22681345?v=4?s=100" width="100px;" alt="Frances Turner"/><br /><sub><b>Frances Turner</b></sub></a><br /><a href="#translation-Fehings" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/GenevieveMilliken"><img src="https://avatars.githubusercontent.com/u/39474494?v=4?s=100" width="100px;" alt="Genevieve Milliken"/><br /><sub><b>Genevieve Milliken</b></sub></a><br /><a href="#translation-GenevieveMilliken" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://about.me/lilithelina"><img src="https://avatars.githubusercontent.com/u/7427134?v=4?s=100" width="100px;" alt="Sarah Pohl"/><br /><sub><b>Sarah Pohl</b></sub></a><br /><a href="#translation-LilithElina" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
