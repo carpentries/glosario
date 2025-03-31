@@ -407,6 +407,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sibeko-J"><img src="https://avatars.githubusercontent.com/u/75101826?v=4?s=100" width="100px;" alt="Dr Johannes Sibeko"/><br /><sub><b>Dr Johannes Sibeko</b></sub></a><br /><a href="#translation-Sibeko-J" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mvzaanen"><img src="https://avatars.githubusercontent.com/u/65609197?v=4?s=100" width="100px;" alt="Menno van Zaanen"/><br /><sub><b>Menno van Zaanen</b></sub></a><br /><a href="#translation-mvzaanen" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Harry-Dolan"><img src="https://avatars.githubusercontent.com/u/59711509?v=4?s=100" width="100px;" alt="Harry-Dolan"/><br /><sub><b>Harry-Dolan</b></sub></a><br /><a href="#translation-Harry-Dolan" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.aranthropos.com"><img src="https://avatars.githubusercontent.com/u/74216214?v=4?s=100" width="100px;" alt="Mabrouk"/><br /><sub><b>Mabrouk</b></sub></a><br /><a href="#translation-Mabrouk12300" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
