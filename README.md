@@ -315,6 +315,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShrRa"><img src="https://avatars.githubusercontent.com/u/16464387?v=4?s=100" width="100px;" alt="ShrRa"/><br /><sub><b>ShrRa</b></sub></a><br /><a href="#translation-ShrRa" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MarielenaS"><img src="https://avatars.githubusercontent.com/u/38910258?v=4?s=100" width="100px;" alt="~Way of the Wug"/><br /><sub><b>~Way of the Wug</b></sub></a><br /><a href="#translation-MarielenaS" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hernandezj1"><img src="https://avatars.githubusercontent.com/u/98195541?v=4?s=100" width="100px;" alt="Jose Hernandez"/><br /><sub><b>Jose Hernandez</b></sub></a><br /><a href="#translation-hernandezj1" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://alvaradocss.com"><img src="https://avatars.githubusercontent.com/u/97917730?v=4?s=100" width="100px;" alt="Edwin Alvarado-Mena"/><br /><sub><b>Edwin Alvarado-Mena</b></sub></a><br /><a href="#translation-ealvaradomena" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
