@@ -360,6 +360,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/GorataB"><img src="https://avatars.githubusercontent.com/u/107930714?v=4?s=100" width="100px;" alt="Gorata Malose"/><br /><sub><b>Gorata Malose</b></sub></a><br /><a href="#translation-GorataB" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/talyacooper"><img src="https://avatars.githubusercontent.com/u/54854192?v=4?s=100" width="100px;" alt="talyacooper"/><br /><sub><b>talyacooper</b></sub></a><br /><a href="#translation-talyacooper" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://kamapu.github.io"><img src="https://avatars.githubusercontent.com/u/17233562?v=4?s=100" width="100px;" alt="Miguel Alvarez"/><br /><sub><b>Miguel Alvarez</b></sub></a><br /><a href="#translation-kamapu" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Taalmasoud"><img src="https://avatars.githubusercontent.com/u/96828378?v=4?s=100" width="100px;" alt="---"/><br /><sub><b>---</b></sub></a><br /><a href="#translation-Taalmasoud" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
