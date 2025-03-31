@@ -368,6 +368,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vguillemot"><img src="https://avatars.githubusercontent.com/u/3502138?v=4?s=100" width="100px;" alt="Vincent Guillemot"/><br /><sub><b>Vincent Guillemot</b></sub></a><br /><a href="#translation-vguillemot" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://linkedin.com/in/iman-al-hasani-23a5b4a8"><img src="https://avatars.githubusercontent.com/u/48654637?v=4?s=100" width="100px;" alt="Iman Al Hasani"/><br /><sub><b>Iman Al Hasani</b></sub></a><br /><a href="#translation-imanalhasani" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://mounabelaid.netlify.app/"><img src="https://avatars.githubusercontent.com/u/17770692?v=4?s=100" width="100px;" alt="Mouna Belaid"/><br /><sub><b>Mouna Belaid</b></sub></a><br /><a href="#translation-MounaBelaid" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dannda"><img src="https://avatars.githubusercontent.com/u/8517999?v=4?s=100" width="100px;" alt="dannda"/><br /><sub><b>dannda</b></sub></a><br /><a href="#translation-dannda" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
