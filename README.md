@@ -396,6 +396,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="http://jnywong.github.io"><img src="https://avatars.githubusercontent.com/u/45105935?v=4?s=100" width="100px;" alt="Jenny Wong"/><br /><sub><b>Jenny Wong</b></sub></a><br /><a href="#translation-jnywong" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ahcvlot"><img src="https://avatars.githubusercontent.com/u/53600984?v=4?s=100" width="100px;" alt="Anna Vlot"/><br /><sub><b>Anna Vlot</b></sub></a><br /><a href="#translation-ahcvlot" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/amisios"><img src="https://avatars.githubusercontent.com/u/8419934?v=4?s=100" width="100px;" alt="amisios"/><br /><sub><b>amisios</b></sub></a><br /><a href="#translation-amisios" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MilenaLa"><img src="https://avatars.githubusercontent.com/u/21173185?v=4?s=100" width="100px;" alt="MilenaLa"/><br /><sub><b>MilenaLa</b></sub></a><br /><a href="#translation-MilenaLa" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
