@@ -332,6 +332,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/rosemm"><img src="https://avatars.githubusercontent.com/u/9002194?v=4?s=100" width="100px;" alt="Rose M. Hartman"/><br /><sub><b>Rose M. Hartman</b></sub></a><br /><a href="#translation-rosemm" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/edinkasia"><img src="https://avatars.githubusercontent.com/u/37267064?v=4?s=100" width="100px;" alt="Kasia Banas"/><br /><sub><b>Kasia Banas</b></sub></a><br /><a href="#translation-edinkasia" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/PatriciaSA"><img src="https://avatars.githubusercontent.com/u/41639685?v=4?s=100" width="100px;" alt="PatriciaSA"/><br /><sub><b>PatriciaSA</b></sub></a><br /><a href="#translation-PatriciaSA" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/didier-barradas-bautista"><img src="https://avatars.githubusercontent.com/u/17081199?v=4?s=100" width="100px;" alt="Didier Barradas Bautista"/><br /><sub><b>Didier Barradas Bautista</b></sub></a><br /><a href="#translation-D-Barradas" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
