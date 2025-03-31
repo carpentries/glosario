@@ -344,6 +344,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dougdaniels"><img src="https://avatars.githubusercontent.com/u/27438900?v=4?s=100" width="100px;" alt="dougdaniels"/><br /><sub><b>dougdaniels</b></sub></a><br /><a href="#translation-dougdaniels" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://warrickball.gitlab.io"><img src="https://avatars.githubusercontent.com/u/20858744?v=4?s=100" width="100px;" alt="Warrick Ball"/><br /><sub><b>Warrick Ball</b></sub></a><br /><a href="#translation-warrickball" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/NOngeso"><img src="https://avatars.githubusercontent.com/u/47664805?v=4?s=100" width="100px;" alt="Nehemiah Ongeso"/><br /><sub><b>Nehemiah Ongeso</b></sub></a><br /><a href="#translation-NOngeso" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://imre.app"><img src="https://avatars.githubusercontent.com/u/52718007?v=4?s=100" width="100px;" alt="Imre Draskovits"/><br /><sub><b>Imre Draskovits</b></sub></a><br /><a href="#translation-imre" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
