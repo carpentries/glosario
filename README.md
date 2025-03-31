@@ -430,6 +430,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://danielskatz.org"><img src="https://avatars.githubusercontent.com/u/2913845?v=4?s=100" width="100px;" alt="Daniel S. Katz"/><br /><sub><b>Daniel S. Katz</b></sub></a><br /><a href="#translation-danielskatz" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://farzanazali.com"><img src="https://avatars.githubusercontent.com/u/7939582?v=4?s=100" width="100px;" alt="Farzana Z Ali"/><br /><sub><b>Farzana Z Ali</b></sub></a><br /><a href="#translation-FarzanaZAli" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://fluid.quest"><img src="https://avatars.githubusercontent.com/u/9155111?v=4?s=100" width="100px;" alt="Ashwin V. Mohanan"/><br /><sub><b>Ashwin V. Mohanan</b></sub></a><br /><a href="#translation-ashwinvis" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
