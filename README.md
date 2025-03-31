@@ -357,6 +357,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://hperrythatchfield.com"><img src="https://avatars.githubusercontent.com/u/28646340?v=4?s=100" width="100px;" alt="H Perry Hatchfield"/><br /><sub><b>H Perry Hatchfield</b></sub></a><br /><a href="#translation-hpthatchfield" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/GorataB"><img src="https://avatars.githubusercontent.com/u/107930714?v=4?s=100" width="100px;" alt="Gorata Malose"/><br /><sub><b>Gorata Malose</b></sub></a><br /><a href="#translation-GorataB" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
