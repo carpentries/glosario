@@ -414,6 +414,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/criselsuarez"><img src="https://avatars.githubusercontent.com/u/20343857?v=4?s=100" width="100px;" alt="criselsuarez"/><br /><sub><b>criselsuarez</b></sub></a><br /><a href="#translation-criselsuarez" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/margaridamadeira"><img src="https://avatars.githubusercontent.com/u/9846293?v=4?s=100" width="100px;" alt="Margarida Madeira e Moura"/><br /><sub><b>Margarida Madeira e Moura</b></sub></a><br /><a href="#translation-margaridamadeira" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jesCodingHere"><img src="https://avatars.githubusercontent.com/u/17342514?v=4?s=100" width="100px;" alt="jesCodingHere"/><br /><sub><b>jesCodingHere</b></sub></a><br /><a href="#translation-jesCodingHere" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Agrippina254"><img src="https://avatars.githubusercontent.com/u/56484576?v=4?s=100" width="100px;" alt="Agrippina254"/><br /><sub><b>Agrippina254</b></sub></a><br /><a href="#translation-Agrippina254" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
