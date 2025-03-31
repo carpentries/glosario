@@ -1152,6 +1152,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "BioNomad",
+      "name": "Jason Laird",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59677194?v=4",
+      "profile": "https://github.com/BioNomad",
+      "contributions": [
+        "translation"
+      ]
     }
   ]
 }
