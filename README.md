@@ -306,6 +306,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/OscarSiba"><img src="https://avatars.githubusercontent.com/u/132367843?v=4?s=100" width="100px;" alt="Oscar Masinyana"/><br /><sub><b>Oscar Masinyana</b></sub></a><br /><a href="#translation-OscarSiba" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/josenino95"><img src="https://avatars.githubusercontent.com/u/72319858?v=4?s=100" width="100px;" alt="Jose Niño"/><br /><sub><b>Jose Niño</b></sub></a><br /><a href="#translation-josenino95" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/marionwalton"><img src="https://avatars.githubusercontent.com/u/4045958?v=4?s=100" width="100px;" alt="Marion Walton"/><br /><sub><b>Marion Walton</b></sub></a><br /><a href="#translation-marionwalton" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/winfrednyoroka"><img src="https://avatars.githubusercontent.com/u/40457085?v=4?s=100" width="100px;" alt="Winfred_Gatua"/><br /><sub><b>Winfred_Gatua</b></sub></a><br /><a href="#translation-winfrednyoroka" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
