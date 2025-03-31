@@ -386,6 +386,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://sayalaruano.github.io/"><img src="https://avatars.githubusercontent.com/u/52267585?v=4?s=100" width="100px;" alt="Sebastián Ayala Ruano"/><br /><sub><b>Sebastián Ayala Ruano</b></sub></a><br /><a href="#translation-sayalaruano" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.sv.uio.no/tik/english/people/aca/fraukegr/index.html"><img src="https://avatars.githubusercontent.com/u/57175731?v=4?s=100" width="100px;" alt="fraukero"/><br /><sub><b>fraukero</b></sub></a><br /><a href="#translation-fraukero" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/IngaPa"><img src="https://avatars.githubusercontent.com/u/12497640?v=4?s=100" width="100px;" alt="IngaPa"/><br /><sub><b>IngaPa</b></sub></a><br /><a href="#translation-IngaPa" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sandragodinhosilva.netlify.app"><img src="https://avatars.githubusercontent.com/u/29963204?v=4?s=100" width="100px;" alt="Sandra Godinho Silva"/><br /><sub><b>Sandra Godinho Silva</b></sub></a><br /><a href="#translation-sandragodinhosilva" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
