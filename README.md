@@ -441,6 +441,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/diegoonna"><img src="https://avatars.githubusercontent.com/u/46107855?v=4?s=100" width="100px;" alt="Diego Onna"/><br /><sub><b>Diego Onna</b></sub></a><br /><a href="#translation-diegoonna" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://uvri.go.ug/"><img src="https://avatars.githubusercontent.com/u/44267477?v=4?s=100" width="100px;" alt="eddUG"/><br /><sub><b>eddUG</b></sub></a><br /><a href="#translation-eddUG" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/agully1"><img src="https://avatars.githubusercontent.com/u/89023825?v=4?s=100" width="100px;" alt="agully1"/><br /><sub><b>agully1</b></sub></a><br /><a href="#translation-agully1" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cmeessen"><img src="https://avatars.githubusercontent.com/u/14222414?v=4?s=100" width="100px;" alt="Christian Meeßen"/><br /><sub><b>Christian Meeßen</b></sub></a><br /><a href="#translation-cmeessen" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
