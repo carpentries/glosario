@@ -299,6 +299,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/YehorBoiar"><img src="https://avatars.githubusercontent.com/u/94189697?v=4?s=100" width="100px;" alt="Yehor Boiar"/><br /><sub><b>Yehor Boiar</b></sub></a><br /><a href="#translation-YehorBoiar" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/doerners"><img src="https://avatars.githubusercontent.com/u/38356908?v=4?s=100" width="100px;" alt="Sophia Dörner"/><br /><sub><b>Sophia Dörner</b></sub></a><br /><a href="#translation-doerners" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mariyaspatar"><img src="https://avatars.githubusercontent.com/u/135342983?v=4?s=100" width="100px;" alt="mariyaspatar"/><br /><sub><b>mariyaspatar</b></sub></a><br /><a href="#translation-mariyaspatar" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sofiiamatios"><img src="https://avatars.githubusercontent.com/u/125209985?v=4?s=100" width="100px;" alt="sofiiamatios"/><br /><sub><b>sofiiamatios</b></sub></a><br /><a href="#translation-sofiiamatios" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
