@@ -242,7 +242,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/chaimae123-ai"><img src="https://avatars.githubusercontent.com/u/66030422?v=4?s=100" width="100px;" alt="chaimae123-ai"/><br /><sub><b>chaimae123-ai</b></sub></a><br /><a href="#translation-chaimae123-ai" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dannyba"><img src="https://avatars.githubusercontent.com/u/4780507?v=4?s=100" width="100px;" alt="Danny Ben-Avraham"/><br /><sub><b>Danny Ben-Avraham</b></sub></a><br /><a href="#translation-dannyba" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://mariadermit.netlify.app/"><img src="https://avatars.githubusercontent.com/u/5008157?v=4?s=100" width="100px;" alt="Maria Dermit"/><br /><sub><b>Maria Dermit</b></sub></a><br /><a href="#translation-demar01" title="Translation">🌍</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/elsikorski"><img src="https://avatars.githubusercontent.com/u/20630148?v=4?s=100" width="100px;" alt="elsikorski"/><br /><sub><b>elsikorski</b></sub></a><br /><a href="#translation-elsikorski" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/elsikorski"><img src="https://avatars.githubusercontent.com/u/20630148?v=4?s=100" width="100px;" alt="elsikorski"/><br /><sub><b>elsikorski</b></sub></a><br /><a href="#doc-elsikorski" title="Documentation">📖</a> <a href="#translation-elsikorski" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/feddelegrand7"><img src="https://avatars.githubusercontent.com/u/28841210?v=4?s=100" width="100px;" alt="Ihaddaden Mohamed El Fodil"/><br /><sub><b>Ihaddaden Mohamed El Fodil</b></sub></a><br /><a href="#doc-feddelegrand7" title="Documentation">📖</a> <a href="#translation-feddelegrand7" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/fiona-galston"><img src="https://avatars.githubusercontent.com/u/49239621?v=4?s=100" width="100px;" alt="Fiona"/><br /><sub><b>Fiona</b></sub></a><br /><a href="#translation-fiona-galston" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.fpozoc.com"><img src="https://avatars.githubusercontent.com/u/19167350?v=4?s=100" width="100px;" alt="Fernando Pozo"/><br /><sub><b>Fernando Pozo</b></sub></a><br /><a href="#translation-fpozoc" title="Translation">🌍</a></td>
@@ -289,68 +289,10 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tyt3"><img src="https://avatars.githubusercontent.com/u/34420663?v=4?s=100" width="100px;" alt="Tyrica Terry Kapral"/><br /><sub><b>Tyrica Terry Kapral</b></sub></a><br /><a href="#translation-tyt3" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://abav.lugaralgum.com"><img src="https://avatars.githubusercontent.com/u/3694604?v=4?s=100" width="100px;" alt="Alexandre B A Villares"/><br /><sub><b>Alexandre B A Villares</b></sub></a><br /><a href="#translation-villares" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://zkamvar.netlify.app"><img src="https://avatars.githubusercontent.com/u/3639446?v=4?s=100" width="100px;" alt="Zhian N. Kamvar"/><br /><sub><b>Zhian N. Kamvar</b></sub></a><br /><a href="#doc-zkamvar" title="Documentation">📖</a> <a href="#review-zkamvar" title="Reviewed Pull Requests">👀</a> <a href="#question-zkamvar" title="Answering Questions">💬</a> <a href="#translation-zkamvar" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sfmig"><img src="https://avatars.githubusercontent.com/u/33267254?v=4?s=100" width="100px;" alt="sfmig"/><br /><sub><b>sfmig</b></sub></a><br /><a href="#translation-sfmig" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
