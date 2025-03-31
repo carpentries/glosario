@@ -346,6 +346,9 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/NOngeso"><img src="https://avatars.githubusercontent.com/u/47664805?v=4?s=100" width="100px;" alt="Nehemiah Ongeso"/><br /><sub><b>Nehemiah Ongeso</b></sub></a><br /><a href="#translation-NOngeso" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://imre.app"><img src="https://avatars.githubusercontent.com/u/52718007?v=4?s=100" width="100px;" alt="Imre Draskovits"/><br /><sub><b>Imre Draskovits</b></sub></a><br /><a href="#translation-imre" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://liaossanna.wixsite.com/liaos"><img src="https://avatars.githubusercontent.com/u/56702600?v=4?s=100" width="100px;" alt="Lia Ossanna"/><br /><sub><b>Lia Ossanna</b></sub></a><br /><a href="#translation-lossanna" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 
