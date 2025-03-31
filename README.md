@@ -425,6 +425,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MRudey"><img src="https://avatars.githubusercontent.com/u/11921755?v=4?s=100" width="100px;" alt="Michael Rudolf"/><br /><sub><b>Michael Rudolf</b></sub></a><br /><a href="#translation-MRudey" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ageorgou"><img src="https://avatars.githubusercontent.com/u/1186102?v=4?s=100" width="100px;" alt="ageorgou"/><br /><sub><b>ageorgou</b></sub></a><br /><a href="#translation-ageorgou" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://b1nslashsh.tech"><img src="https://avatars.githubusercontent.com/u/36979660?v=4?s=100" width="100px;" alt="Abdul muhaimin"/><br /><sub><b>Abdul muhaimin</b></sub></a><br /><a href="#translation-b1nslashsh" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/d0rg0ld"><img src="https://avatars.githubusercontent.com/u/2720790?v=4?s=100" width="100px;" alt="Doron Goldfarb"/><br /><sub><b>Doron Goldfarb</b></sub></a><br /><a href="#translation-d0rg0ld" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
