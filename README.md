@@ -380,6 +380,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://ocesaulo.github.io/"><img src="https://avatars.githubusercontent.com/u/11863912?v=4?s=100" width="100px;" alt="Saulo Soares"/><br /><sub><b>Saulo Soares</b></sub></a><br /><a href="#translation-ocesaulo" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/souravsingh"><img src="https://avatars.githubusercontent.com/u/4314261?v=4?s=100" width="100px;" alt="Sourav Singh"/><br /><sub><b>Sourav Singh</b></sub></a><br /><a href="#translation-souravsingh" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://soyandrea.github.io/"><img src="https://avatars.githubusercontent.com/u/45582182?v=4?s=100" width="100px;" alt="Andrea Gomez Vargas"/><br /><sub><b>Andrea Gomez Vargas</b></sub></a><br /><a href="#translation-SoyAndrea" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://estacion-r.netlify.app/"><img src="https://avatars.githubusercontent.com/u/30708601?v=4?s=100" width="100px;" alt="Pablo Tiscornia"/><br /><sub><b>Pablo Tiscornia</b></sub></a><br /><a href="#translation-pablotis" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
