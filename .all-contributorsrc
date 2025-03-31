@@ -1098,6 +1098,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "nscherf",
+      "name": "Nico Scherf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2906267?v=4",
+      "profile": "https://www.cbs.mpg.de/methods-and-development-groups/neural-data-science-and-statistical-computing",
+      "contributions": [
+        "translation"
+      ]
     }
   ]
 }
