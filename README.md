@@ -297,6 +297,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/VeronikaShevc"><img src="https://avatars.githubusercontent.com/u/147643787?v=4?s=100" width="100px;" alt="VeronikaShevc"/><br /><sub><b>VeronikaShevc</b></sub></a><br /><a href="#translation-VeronikaShevc" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Herobread"><img src="https://avatars.githubusercontent.com/u/52717777?v=4?s=100" width="100px;" alt="Oleksii Nazarenko"/><br /><sub><b>Oleksii Nazarenko</b></sub></a><br /><a href="#translation-Herobread" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/YehorBoiar"><img src="https://avatars.githubusercontent.com/u/94189697?v=4?s=100" width="100px;" alt="Yehor Boiar"/><br /><sub><b>Yehor Boiar</b></sub></a><br /><a href="#translation-YehorBoiar" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/doerners"><img src="https://avatars.githubusercontent.com/u/38356908?v=4?s=100" width="100px;" alt="Sophia Dörner"/><br /><sub><b>Sophia Dörner</b></sub></a><br /><a href="#translation-doerners" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
