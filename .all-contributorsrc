@@ -1017,6 +1017,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "warrickball",
+      "name": "Warrick Ball",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20858744?v=4",
+      "profile": "http://warrickball.gitlab.io",
+      "contributions": [
+        "translation"
+      ]
     }
   ]
 }
