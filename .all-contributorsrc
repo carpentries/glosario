@@ -655,6 +655,17 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "olexandr-konovalov",
+      "name": "Olexandr Konovalov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5751387?v=4",
+      "profile": "https://olexandr-konovalov.github.io",
+      "contributions": [
+        "translation",
+        "review",
+        "question"
+      ]
     }
   ]
 }
