@@ -382,6 +382,9 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://soyandrea.github.io/"><img src="https://avatars.githubusercontent.com/u/45582182?v=4?s=100" width="100px;" alt="Andrea Gomez Vargas"/><br /><sub><b>Andrea Gomez Vargas</b></sub></a><br /><a href="#translation-SoyAndrea" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://estacion-r.netlify.app/"><img src="https://avatars.githubusercontent.com/u/30708601?v=4?s=100" width="100px;" alt="Pablo Tiscornia"/><br /><sub><b>Pablo Tiscornia</b></sub></a><br /><a href="#translation-pablotis" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://sayalaruano.github.io/"><img src="https://avatars.githubusercontent.com/u/52267585?v=4?s=100" width="100px;" alt="Sebastián Ayala Ruano"/><br /><sub><b>Sebastián Ayala Ruano</b></sub></a><br /><a href="#translation-sayalaruano" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 
