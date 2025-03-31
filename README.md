@@ -323,6 +323,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/katia-slc"><img src="https://avatars.githubusercontent.com/u/54743399?v=4?s=100" width="100px;" alt="Katia Slodkowski Clerici"/><br /><sub><b>Katia Slodkowski Clerici</b></sub></a><br /><a href="#translation-katia-slc" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jcostacurta11.github.io/"><img src="https://avatars.githubusercontent.com/u/13225001?v=4?s=100" width="100px;" alt="Julia Costacurta"/><br /><sub><b>Julia Costacurta</b></sub></a><br /><a href="#translation-jcostacurta11" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/likeajumprope"><img src="https://avatars.githubusercontent.com/u/23728822?v=4?s=100" width="100px;" alt="Johanna Bayer"/><br /><sub><b>Johanna Bayer</b></sub></a><br /><a href="#translation-likeajumprope" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MaggiK"><img src="https://avatars.githubusercontent.com/u/18407416?v=4?s=100" width="100px;" alt="Maggi Kraft"/><br /><sub><b>Maggi Kraft</b></sub></a><br /><a href="#translation-MaggiK" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
