@@ -292,6 +292,9 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sfmig"><img src="https://avatars.githubusercontent.com/u/33267254?v=4?s=100" width="100px;" alt="sfmig"/><br /><sub><b>sfmig</b></sub></a><br /><a href="#translation-sfmig" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://olexandr-konovalov.github.io"><img src="https://avatars.githubusercontent.com/u/5751387?v=4?s=100" width="100px;" alt="Olexandr Konovalov"/><br /><sub><b>Olexandr Konovalov</b></sub></a><br /><a href="#translation-olexandr-konovalov" title="Translation">🌍</a> <a href="#review-olexandr-konovalov" title="Reviewed Pull Requests">👀</a> <a href="#question-olexandr-konovalov" title="Answering Questions">💬</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kashpit0507"><img src="https://avatars.githubusercontent.com/u/47479385?v=4?s=100" width="100px;" alt="spiciment"/><br /><sub><b>spiciment</b></sub></a><br /><a href="#translation-kashpit0507" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 
