@@ -328,6 +328,9 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/JMorado"><img src="https://avatars.githubusercontent.com/u/7460993?v=4?s=100" width="100px;" alt="João Morado"/><br /><sub><b>João Morado</b></sub></a><br /><a href="#translation-JMorado" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://epicworld.co.ke/"><img src="https://avatars.githubusercontent.com/u/14215807?v=4?s=100" width="100px;" alt="Ken Mbuki"/><br /><sub><b>Ken Mbuki</b></sub></a><br /><a href="#translation-kmbuki" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rosemm"><img src="https://avatars.githubusercontent.com/u/9002194?v=4?s=100" width="100px;" alt="Rose M. Hartman"/><br /><sub><b>Rose M. Hartman</b></sub></a><br /><a href="#translation-rosemm" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 
