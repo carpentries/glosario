@@ -416,6 +416,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jesCodingHere"><img src="https://avatars.githubusercontent.com/u/17342514?v=4?s=100" width="100px;" alt="jesCodingHere"/><br /><sub><b>jesCodingHere</b></sub></a><br /><a href="#translation-jesCodingHere" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Agrippina254"><img src="https://avatars.githubusercontent.com/u/56484576?v=4?s=100" width="100px;" alt="Agrippina254"/><br /><sub><b>Agrippina254</b></sub></a><br /><a href="#translation-Agrippina254" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/wanjauk"><img src="https://avatars.githubusercontent.com/u/42046925?v=4?s=100" width="100px;" alt="Kennedy Mwangi"/><br /><sub><b>Kennedy Mwangi</b></sub></a><br /><a href="#translation-wanjauk" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/karegapauline"><img src="https://avatars.githubusercontent.com/u/27417671?v=4?s=100" width="100px;" alt="Pauline Karega"/><br /><sub><b>Pauline Karega</b></sub></a><br /><a href="#translation-karegapauline" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
