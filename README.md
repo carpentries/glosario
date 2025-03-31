@@ -303,6 +303,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/iramosp"><img src="https://avatars.githubusercontent.com/u/8619939?v=4?s=100" width="100px;" alt="iramosp"/><br /><sub><b>iramosp</b></sub></a><br /><a href="#translation-iramosp" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/OscarSiba"><img src="https://avatars.githubusercontent.com/u/132367843?v=4?s=100" width="100px;" alt="Oscar Masinyana"/><br /><sub><b>Oscar Masinyana</b></sub></a><br /><a href="#translation-OscarSiba" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
