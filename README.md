@@ -393,6 +393,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ewinge"><img src="https://avatars.githubusercontent.com/u/864123?v=4?s=100" width="100px;" alt="ewinge"/><br /><sub><b>ewinge</b></sub></a><br /><a href="#translation-ewinge" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://jnywong.github.io"><img src="https://avatars.githubusercontent.com/u/45105935?v=4?s=100" width="100px;" alt="Jenny Wong"/><br /><sub><b>Jenny Wong</b></sub></a><br /><a href="#translation-jnywong" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
