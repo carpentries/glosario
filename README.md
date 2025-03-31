@@ -389,6 +389,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="http://sandragodinhosilva.netlify.app"><img src="https://avatars.githubusercontent.com/u/29963204?v=4?s=100" width="100px;" alt="Sandra Godinho Silva"/><br /><sub><b>Sandra Godinho Silva</b></sub></a><br /><a href="#translation-sandragodinhosilva" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://clemenslange.de"><img src="https://avatars.githubusercontent.com/u/5270053?v=4?s=100" width="100px;" alt="Clemens Lange"/><br /><sub><b>Clemens Lange</b></sub></a><br /><a href="#translation-clelange" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/blacktack2"><img src="https://avatars.githubusercontent.com/u/43672375?v=4?s=100" width="100px;" alt="Alison Lewis"/><br /><sub><b>Alison Lewis</b></sub></a><br /><a href="#translation-blacktack2" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kkauder"><img src="https://avatars.githubusercontent.com/u/5784983?v=4?s=100" width="100px;" alt="kkauder"/><br /><sub><b>kkauder</b></sub></a><br /><a href="#translation-kkauder" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
