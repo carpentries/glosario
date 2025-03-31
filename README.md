@@ -335,6 +335,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/didier-barradas-bautista"><img src="https://avatars.githubusercontent.com/u/17081199?v=4?s=100" width="100px;" alt="Didier Barradas Bautista"/><br /><sub><b>Didier Barradas Bautista</b></sub></a><br /><a href="#translation-D-Barradas" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/cmdalton"><img src="https://avatars.githubusercontent.com/u/36085215?v=4?s=100" width="100px;" alt="cmdalton"/><br /><sub><b>cmdalton</b></sub></a><br /><a href="#translation-cmdalton" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jameswarduwa"><img src="https://avatars.githubusercontent.com/u/114635946?v=4?s=100" width="100px;" alt="jameswarduwa"/><br /><sub><b>jameswarduwa</b></sub></a><br /><a href="#translation-jameswarduwa" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Dallak"><img src="https://avatars.githubusercontent.com/u/47871346?v=4?s=100" width="100px;" alt="Abdulrahman Dallak"/><br /><sub><b>Abdulrahman Dallak</b></sub></a><br /><a href="#translation-Dallak" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
