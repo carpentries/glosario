@@ -340,6 +340,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ianvcaldas"><img src="https://avatars.githubusercontent.com/u/22592759?v=4?s=100" width="100px;" alt="Ian"/><br /><sub><b>Ian</b></sub></a><br /><a href="#translation-ianvcaldas" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://asiermoneva.com/"><img src="https://avatars.githubusercontent.com/u/49791526?v=4?s=100" width="100px;" alt="Asier Moneva"/><br /><sub><b>Asier Moneva</b></sub></a><br /><a href="#translation-amoneva" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/clem33"><img src="https://avatars.githubusercontent.com/u/1318877?v=4?s=100" width="100px;" alt="clem33"/><br /><sub><b>clem33</b></sub></a><br /><a href="#translation-clem33" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
