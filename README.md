@@ -384,6 +384,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://sayalaruano.github.io/"><img src="https://avatars.githubusercontent.com/u/52267585?v=4?s=100" width="100px;" alt="Sebastián Ayala Ruano"/><br /><sub><b>Sebastián Ayala Ruano</b></sub></a><br /><a href="#translation-sayalaruano" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.sv.uio.no/tik/english/people/aca/fraukegr/index.html"><img src="https://avatars.githubusercontent.com/u/57175731?v=4?s=100" width="100px;" alt="fraukero"/><br /><sub><b>fraukero</b></sub></a><br /><a href="#translation-fraukero" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
