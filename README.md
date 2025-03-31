@@ -353,6 +353,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/bkmgit"><img src="https://avatars.githubusercontent.com/u/1679477?v=4?s=100" width="100px;" alt="Benson Muite"/><br /><sub><b>Benson Muite</b></sub></a><br /><a href="#translation-bkmgit" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ftabaro"><img src="https://avatars.githubusercontent.com/u/1375504?v=4?s=100" width="100px;" alt="Francesco Tabaro"/><br /><sub><b>Francesco Tabaro</b></sub></a><br /><a href="#translation-ftabaro" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Deisiany"><img src="https://avatars.githubusercontent.com/u/70155730?v=4?s=100" width="100px;" alt="Deisiany"/><br /><sub><b>Deisiany</b></sub></a><br /><a href="#translation-Deisiany" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.cbs.mpg.de/methods-and-development-groups/neural-data-science-and-statistical-computing"><img src="https://avatars.githubusercontent.com/u/2906267?v=4?s=100" width="100px;" alt="Nico Scherf"/><br /><sub><b>Nico Scherf</b></sub></a><br /><a href="#translation-nscherf" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
