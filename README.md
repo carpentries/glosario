@@ -308,6 +308,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/marionwalton"><img src="https://avatars.githubusercontent.com/u/4045958?v=4?s=100" width="100px;" alt="Marion Walton"/><br /><sub><b>Marion Walton</b></sub></a><br /><a href="#translation-marionwalton" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/winfrednyoroka"><img src="https://avatars.githubusercontent.com/u/40457085?v=4?s=100" width="100px;" alt="Winfred_Gatua"/><br /><sub><b>Winfred_Gatua</b></sub></a><br /><a href="#translation-winfrednyoroka" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://paocorrales.github.io"><img src="https://avatars.githubusercontent.com/u/9036871?v=4?s=100" width="100px;" alt="Paola Corrales"/><br /><sub><b>Paola Corrales</b></sub></a><br /><a href="#translation-paocorrales" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://aprendetidyverse.com"><img src="https://avatars.githubusercontent.com/u/17366889?v=4?s=100" width="100px;" alt="Carlos Agüero B."/><br /><sub><b>Carlos Agüero B.</b></sub></a><br /><a href="#translation-aguerodev" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
