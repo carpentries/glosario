@@ -370,6 +370,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://mounabelaid.netlify.app/"><img src="https://avatars.githubusercontent.com/u/17770692?v=4?s=100" width="100px;" alt="Mouna Belaid"/><br /><sub><b>Mouna Belaid</b></sub></a><br /><a href="#translation-MounaBelaid" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dannda"><img src="https://avatars.githubusercontent.com/u/8517999?v=4?s=100" width="100px;" alt="dannda"/><br /><sub><b>dannda</b></sub></a><br /><a href="#translation-dannda" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TueloNtlotlang"><img src="https://avatars.githubusercontent.com/u/72657722?v=4?s=100" width="100px;" alt="TueloNtlotlang"/><br /><sub><b>TueloNtlotlang</b></sub></a><br /><a href="#translation-TueloNtlotlang" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/gsavva"><img src="https://avatars.githubusercontent.com/u/41191161?v=4?s=100" width="100px;" alt="Giannis Savva"/><br /><sub><b>Giannis Savva</b></sub></a><br /><a href="#translation-gsavva" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
