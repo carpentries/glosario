@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "bootstrap/scss/bootstrap.scss";
+
 body {
     background-attachment: fixed;
     overflow: auto;
@@ -17,14 +19,38 @@ body {
     color: white;
 }
 
+a {
+    color: $blue;
+    text-decoration: none;
+}
+
+a.anchor {
+    display: none;
+    margin-left: 5px;
+    width: Min(0.9em, 20px);
+    height: Min(0.9em, 20px);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-link'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: Min(0.9em, 20px) Min(0.9em, 20px);
+    background-position: center center;
+}
+
+h2, h3, h4 {
+    &:hover .anchor {display: inline-block;}
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* For larger devices */
 @media screen and (min-width: 769px) {
 
     .button-ltr,
     .button-rtl {
-        width: 134px;
-        height: 58px;
-        padding-top: 22px;
+        width: 202px;
+        height: 84px;
+        padding-top: 16px;
         padding-left: 68px;
         font-family: 'Helvetica Neue', Helvetica, Arial, serif;
         font-size: 20px;
@@ -34,7 +60,7 @@ body {
         text-align: center;
         vertical-align: top;
         background: url({{ "/static/github-button.png" | relative_url }}) 0 0 no-repeat;
-    }        
+    }
 
     .button-ltr {
         margin: 25px 90px 10px 10px;
@@ -49,76 +75,84 @@ body {
     a.button small {
         display: block;
     }
-   
+
+    .sidebar{
+        will-change: min-height;
+    }
+
+    .sidebar__inner{
+        transform: translate(0, 0); /* For browsers don't support translate3d. */
+        transform: translate3d(0, 0, 0);
+        will-change: position, transform;
+    }
+
     .sticky-home,
     .sticky-ltr,
     .sticky-rtl {
-        position: sticky;
         z-index: 0;
-        top: 0;
-        overflow: scroll;
-        overflow-x: hidden;
-        height: 95%;
         background-color: grey;
         color: white;
         text-align: center;
-        vertical-align: middle;
-        align-contents: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        bottom: 30px;
     }
-      
+
     .sticky-home {
         float: right;
-        margin-right: 1cm;
+        // margin-right: 1cm;
         right: 0;
         width: 20%;
     }
-      
+
     .sticky-ltr {
         float: right;
-        margin-right: 1cm;
+        // margin-right: 1cm;
         right: 0;
         width: 6%;
     }
-      
+
     .sticky-rtl {
         float: left;
-        margin-left: 1cm;
+        // margin-left: 1cm;
         left: 0;
         width: 6%;
     }
-      
+
+    .letter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        border: 1px solid grey;
+        background-color: grey;
+        color: white;
+    }
+
     .lang_links,
     .letter_links {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         vertical-align: middle;
         text-decoration: none;
-        font-size: 24;
+        font-size: px;
         color: white;
-        margin: 20px 0% 30px 0%;
+        margin: 10px 0% 10px 0%;
     }
-      
+
     .lang_links {
         line-height: 50px;
         margin-right: 0px;
         top: 30px;
         margin: 10px 20px 10px 10%;
     }
-      
+
     .letter_links {
         line-height: 40px;
     }
-      
+
     #content-wrapper {
-        padding-top: 30px;
-        border-top: solid 1px #fff;
         margin-right: 0cm;
         margin-left: 0cm;
     }
-      
+
     .clearfix:after {
         display: block;
         height: 0;
@@ -127,37 +161,35 @@ body {
         content: '.';
         margin-bottom: 30px;
     }
-      
+
     #main-content-home {
         float: left;
-        width: 60%;
-        max-width: 100%;
+        max-width: 73%;
         padding: 1cm 1cm 1cm 1cm;
         margin-left: 1cm;
     }
-      
+
     #main-content-ltr {
         float: left;
         margin-left: 1cm;
     }
-      
+
     #main-content-rtl {
         float: right;
         margin-right: 1cm;
     }
-     
+
     #main-content-ltr,
     #main-content-rtl {
         padding: .5cm 1cm 1cm 1cm;
-        width: 75%;
-        max-width: 85%;
+        max-width: 87%;
     }
-      
+
     #main-content-home,
     #main-content-ltr,
     #main-content-rtl {
         background-color: hsla(0, 0%, 98%, 85%);
-    } 
+    }
 }
 
 /* For mobile phones */
@@ -165,9 +197,9 @@ body {
 
     .button-ltr,
     .button-rtl {
-      width: 134px;
-      height: 58px;
-      padding-top: 22px;
+      width: 202px;
+      height: 84px;
+      padding-top: 16px;
       padding-left: 68px;
       font-family: 'Helvetica Neue', Helvetica, Arial, serif;
       font-size: 20px;
@@ -196,42 +228,40 @@ body {
 
     .sticky-home {
         display: none;
-        margin-right: 1cm;
     }
-      
+
     .sticky-ltr,
     .sticky-rtl {
-        position: sticky;
         z-index: 0;
-        top: 8;
-        overflow: scroll;
-        overflow-x: hidden;
-        height: 110%;
-        width: 12%;
         background-color: grey;
         color: white;
         text-align: center;
-        vertical-align: middle;
-        padding-bottom: 40px;
-        padding-top: 30px;
     }
-      
+
     .sticky-ltr {
         float: right;
-        margin-right: 0cm;
         right: 0;
         bottom: 30px;
     }
-      
+
     .sticky-rtl {
         float: left;
-        margin-left: .5cm;
         left: 0;
         bottom: 30px;
     }
-      
+
+    .letter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        border: 1px solid grey;
+        background-color: grey;
+        color: white;
+    }
+
     .lang_links { }
-      
+
     .letter_links {
         line-height: 60px;
         margin: 10px 20% 10px 20%;
@@ -239,12 +269,9 @@ body {
         color: white;
         text-decoration: none;
     }
-      
-    #content-wrapper {
-        padding-top: 30px;
-        border-top: solid 1px #fff;
-    }
-      
+
+    #content-wrapper { }
+
     .clearfix:after {
         display: block;
         height: 0;
@@ -254,34 +281,31 @@ body {
         margin: 10% 0% 10% 0%;
         width: 50%;
     }
-      
+
     #main-content-home {
         float: left;
-        width: 77%;
-        max-width: 80%;
+        max-width: 99%;
         padding: 1cm 1cm 1cm 1cm;
         margin-left: .5cm;
     }
-        
+
     #main-content-ltr {
         float: left;
-        width: 65%;
-        max-width: 80%;
+        max-width: 87%;
         padding: 1cm .5cm 1cm 1cm;
         margin-left: .5cm;
     }
-      
+
     #main-content-rtl {
         float: right;
-        width: 65%;
-        max-width: 80%;
+        max-width: 87%;
         padding: 1cm 1cm 1cm .5cm;
         margin-right: .5cm;
     }
-      
+
     #main-content-home,
     #main-content-ltr,
     #main-content-rtl {
         background-color: hsla(0, 0%, 98%, 85%);
-    } 
+    }
 }
