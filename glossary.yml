@@ -733,6 +733,12 @@
       Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado en un [algoritmo](#algorithm).
       Por ejemplo, algoritmos de redes sociales pueden priorizar o estigmatizar contenido de ciertos grupos de usuarios.
 
+  sw:
+    term: "upendeleo wa algorithm"
+    def: >
+      Matokeo yanayojirudia yanayoonyesha upendeleo, au matibabu yasiyo sawa, yanayopatikana katika [algorithms](#algorithm).
+      Kwa mfano, algorithms za mitandao ya kijamii zinaweza kuipa kipaumbele au kuashiria maudhui kutoka kwa vikundi fulani vya watumiaji.
+
 
 - slug: aliasing
   en:
@@ -1579,7 +1585,11 @@
     def: >
       Auch systematische Abweichung genannt. Ein Messwert wird dann als verzerrt beschrieben, wenn er
       systematisch von dem wahren Wert einer Messgröße abweicht.
-
+  sw:
+    term: "upendeleo"
+    def: >
+      Takwimu ni upendeleo ikiwa ni tofauti kwa mfumo au kwa kawaida na vigezo inavyopaswa kukadiria.
+      Takwimu inachukuliwa kuwa na upendeleo ikiwa inapotosha au kupotoka kwa njia ya mara kwa mara au ya kudumu kutoka kwa kigezo halisi inachopaswa kukadiria.
   am:
     term: ወገንተኝነት
     def: >
