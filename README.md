@@ -456,6 +456,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vdike"><img src="https://avatars.githubusercontent.com/u/38359857?v=4?s=100" width="100px;" alt="Veronica Dike"/><br /><sub><b>Veronica Dike</b></sub></a><br /><a href="#question-vdike" title="Answering Questions">💬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/karenword"><img src="https://avatars.githubusercontent.com/u/22605448?v=4?s=100" width="100px;" alt="Karen Word"/><br /><sub><b>Karen Word</b></sub></a><br /><a href="#question-karenword" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
