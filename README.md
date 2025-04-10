@@ -448,6 +448,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/bonnyad"><img src="https://avatars.githubusercontent.com/u/32709824?v=4?s=100" width="100px;" alt="BONNY ADANE"/><br /><sub><b>BONNY ADANE</b></sub></a><br /><a href="#review-bonnyad" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jduck.net"><img src="https://avatars.githubusercontent.com/u/119403?v=4?s=100" width="100px;" alt="Jonah Duckles"/><br /><sub><b>Jonah Duckles</b></sub></a><br /><a href="#question-jduckles" title="Answering Questions">💬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.facebook.com/NuoroForestrySchoolUniSS/"><img src="https://avatars.githubusercontent.com/u/16821135?v=4?s=100" width="100px;" alt="Roberto Scotti"/><br /><sub><b>Roberto Scotti</b></sub></a><br /><a href="#question-r-scotti" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
