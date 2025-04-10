@@ -459,6 +459,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/karenword"><img src="https://avatars.githubusercontent.com/u/22605448?v=4?s=100" width="100px;" alt="Karen Word"/><br /><sub><b>Karen Word</b></sub></a><br /><a href="#question-karenword" title="Answering Questions">💬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zdshaoteach"><img src="https://avatars.githubusercontent.com/u/102433092?v=4?s=100" width="100px;" alt="zdshaoteach"/><br /><sub><b>zdshaoteach</b></sub></a><br /><a href="#question-zdshaoteach" title="Answering Questions">💬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/lingmeng634"><img src="https://avatars.githubusercontent.com/u/4487000?v=4?s=100" width="100px;" alt="Ling"/><br /><sub><b>Ling</b></sub></a><br /><a href="#question-lingmeng634" title="Answering Questions">💬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://heidiseibold.com/"><img src="https://avatars.githubusercontent.com/u/14146757?v=4?s=100" width="100px;" alt="Heidi Seibold"/><br /><sub><b>Heidi Seibold</b></sub></a><br /><a href="#question-HeidiSeibold" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
