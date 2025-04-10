@@ -1730,6 +1730,16 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "kariljordan",
+      "name": "Kari L. Jordan, PhD",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21027863?v=4",
+      "profile": "http://www.kariljordan.com",
+      "contributions": [
+        "doc",
+        "question"
+      ]
     }
   ]
 }
