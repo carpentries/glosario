@@ -454,6 +454,9 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/maneesha"><img src="https://avatars.githubusercontent.com/u/829690?v=4?s=100" width="100px;" alt="maneesha"/><br /><sub><b>maneesha</b></sub></a><br /><a href="#question-maneesha" title="Answering Questions">💬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kathryn-garside"><img src="https://avatars.githubusercontent.com/u/23357901?v=4?s=100" width="100px;" alt="kathryn-garside"/><br /><sub><b>kathryn-garside</b></sub></a><br /><a href="#question-kathryn-garside" title="Answering Questions">💬</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vdike"><img src="https://avatars.githubusercontent.com/u/38359857?v=4?s=100" width="100px;" alt="Veronica Dike"/><br /><sub><b>Veronica Dike</b></sub></a><br /><a href="#question-vdike" title="Answering Questions">💬</a></td>
+    </tr>
   </tbody>
 </table>
 
