@@ -451,6 +451,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://www.facebook.com/NuoroForestrySchoolUniSS/"><img src="https://avatars.githubusercontent.com/u/16821135?v=4?s=100" width="100px;" alt="Roberto Scotti"/><br /><sub><b>Roberto Scotti</b></sub></a><br /><a href="#question-r-scotti" title="Answering Questions">💬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://about.cubictype.com/"><img src="https://avatars.githubusercontent.com/u/1215412?v=4?s=100" width="100px;" alt="David Jones"/><br /><sub><b>David Jones</b></sub></a><br /><a href="#question-drj11" title="Answering Questions">💬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Talishask"><img src="https://avatars.githubusercontent.com/u/45104071?v=4?s=100" width="100px;" alt="Talisha Sutton-Kennedy"/><br /><sub><b>Talisha Sutton-Kennedy</b></sub></a><br /><a href="#question-Talishask" title="Answering Questions">💬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/maneesha"><img src="https://avatars.githubusercontent.com/u/829690?v=4?s=100" width="100px;" alt="maneesha"/><br /><sub><b>maneesha</b></sub></a><br /><a href="#question-maneesha" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
