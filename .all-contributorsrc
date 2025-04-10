@@ -1744,6 +1744,15 @@
         "doc",
         "question"
       ]
+    },
+    {
+      "login": "bonnyad",
+      "name": "BONNY ADANE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32709824?v=4",
+      "profile": "https://github.com/bonnyad",
+      "contributions": [
+        "review"
+      ]
     }
   ]
 }

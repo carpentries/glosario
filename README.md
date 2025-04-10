@@ -445,6 +445,9 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="http://systemsmedicine.pulmonary.medicine.ufl.edu/profile/brunson-jason/"><img src="https://avatars.githubusercontent.com/u/7768027?v=4?s=100" width="100px;" alt="Cory Brunson"/><br /><sub><b>Cory Brunson</b></sub></a><br /><a href="#translation-corybrunson" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.kariljordan.com"><img src="https://avatars.githubusercontent.com/u/21027863?v=4?s=100" width="100px;" alt="Kari L. Jordan, PhD"/><br /><sub><b>Kari L. Jordan, PhD</b></sub></a><br /><a href="#doc-kariljordan" title="Documentation">📖</a> <a href="#question-kariljordan" title="Answering Questions">💬</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/bonnyad"><img src="https://avatars.githubusercontent.com/u/32709824?v=4?s=100" width="100px;" alt="BONNY ADANE"/><br /><sub><b>BONNY ADANE</b></sub></a><br /><a href="#review-bonnyad" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
   </tbody>
 </table>
 
