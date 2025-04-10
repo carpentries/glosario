@@ -443,6 +443,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/agully1"><img src="https://avatars.githubusercontent.com/u/89023825?v=4?s=100" width="100px;" alt="agully1"/><br /><sub><b>agully1</b></sub></a><br /><a href="#translation-agully1" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/cmeessen"><img src="https://avatars.githubusercontent.com/u/14222414?v=4?s=100" width="100px;" alt="Christian Meeßen"/><br /><sub><b>Christian Meeßen</b></sub></a><br /><a href="#translation-cmeessen" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://systemsmedicine.pulmonary.medicine.ufl.edu/profile/brunson-jason/"><img src="https://avatars.githubusercontent.com/u/7768027?v=4?s=100" width="100px;" alt="Cory Brunson"/><br /><sub><b>Cory Brunson</b></sub></a><br /><a href="#translation-corybrunson" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.kariljordan.com"><img src="https://avatars.githubusercontent.com/u/21027863?v=4?s=100" width="100px;" alt="Kari L. Jordan, PhD"/><br /><sub><b>Kari L. Jordan, PhD</b></sub></a><br /><a href="#doc-kariljordan" title="Documentation">📖</a> <a href="#question-kariljordan" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
