@@ -1756,6 +1756,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "jduckles",
+      "name": "Jonah Duckles",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119403?v=4",
+      "profile": "https://jduck.net",
+      "contributions": [
+        "question"
+      ]
     }
   ]
 }
