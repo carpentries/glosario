@@ -2700,6 +2700,11 @@
     term: causation
     def: >
       አንድ ክስተት ተጠያቂ ነው ተብሎ በሚነገርበት በልዩ ልዩ ክስተቶች መካከል ያለው ግንኙነት በሌላው ላይ ለውጥ መፍጠር ወይም ተፅዕኖ ማሳደር።
+  uk:
+    term: "причинно-наслідковий зв'язок"
+    def: >
+      Взаємозв’язок між окремими подіями, за якого одна подія розглядається як причина, що зумовлює 
+      виникнення, зміну чи наслідки іншої події.
 
 - slug: cc_0
   en:
@@ -3916,7 +3921,6 @@
     term: "Uchimbaji data"
     def: >
       Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia tarakilishi.
-
   am:
     term: መረጃ ማውጣት
     def: >
@@ -3933,12 +3937,10 @@
     def: >
       'n Sagtewarepakket wat meestal net data bevat. Word gebruik om dit eenvoudiger te maak
       om data te versprei vir makliker gebruik.
-
   am:
     term: የውሂብ ጥቅል
     def: >
       የሶፍትዌር ፓኬጅ ፣ በአብዛኛው ፣ መረጃዎችን ብቻ የያዘ። ለመሥራት ያገለገለ ነው ለቀላል አጠቃቀም መረጃን ለማሰራጨት የበለጠ ቀላል ነው።
-
   sw:
     term: "Kifurushi cha data"
     def: >
@@ -3971,11 +3973,15 @@
     term: "επιστήμη δεδομένων"
     def: >
       Ο συνδυασμός στατιστικής, προγραμματισμού και σκληρής δουλειάς που χρειάζεται για να εξαχθούν συμπεράσματα από δεδομένα.
-
   am:
     term: የውሂብ ሳይንስ
     def: >
       ጥቅም ላይ የዋለው የስታቲስቲክስ ፣ የፕሮግራም እና ከባድ ሥራ ጥምረት ከመረጃ ዕውቀትን ያውጡ።
+  uk:
+    term: "наука про дані"
+    def: >
+      Міждисциплінарна галузь, що поєднує статистику, математику, програмування, машинне навчання та інші методи
+      для розуміння даних і виявлення прихованих закономірностей.
 
 - slug: data_scientist
   en:
@@ -4002,11 +4008,15 @@
     term: "επιστήμονας δεδομένων"
     def: >
       Ένα άτομο που χρησιμοποιεί προγραμματισμό για να λύσει προβλήματα στατιστικής.
-
   am:
     term: የውሂብ ሳይንቲስት
     def: >
       የስታቲስቲክስ ችግሮችን ለመፍታት የፕሮግራም ችሎታን የሚጠቀም ሰው ፡፡
+  uk:
+    term: "спеціаліст з обробки даних"
+    def: >
+      Фахівець, який поєднує знання з програмування, статистики та машинного навчання для аналізу даних,
+      виявлення закономірностей і формулювання висновків, що допомагають приймати обґрунтовані рішення.
 
 - slug: data_structure
   en:
@@ -4023,6 +4033,10 @@
       kubainisha thamani ya seti za data na uwakilishi wao (au [encoding](#character_encoding)),
       uhusiano kati ya thamana, na njia za kufikia au kuendesha data hizo, kama vile
       kusoma, kubadilisha, au kuandika.
+  uk:
+    term: "структура даних"
+    def: >
+      Спосіб організації та зберігання даних у комп’ютері, який забезпечує ефективний доступ і зміну цих даних.
 
 - slug: data_visualization
   en:
@@ -4030,18 +4044,19 @@
     def: >
       The creation of charts, maps, graphs, or infographics to translate datasets into something visual.
       Sometimes called "dataviz" or "data viz."
-
-
   am:
     term: የውሂብ መዋቅር
     def: >
       ለድርጅቱ ቅርጸት ፣ አስተዳደር እና ቀልጣፋ ተደራሽነት መረጃ በተለምዶ ያደርገዋል የውሂብ እሴቶችን ስብስብ እና የእነሱ ውክልና (ወይም።) [ኢንኮዲንግ](#character_encoding)) ፣ በእሴቶች መካከል ያሉ ግንኙነቶች እና ለመድረስ ወይም ለማታለል መንገዶች እነዚያ መረጃዎች ፣ እንደ ማንበብ ፣ መለወጥ ወይም መጻፍ ፡፡
-
   sw:
     term: "taswira ya data"
     def: >
       Uundaji wa chati, ramani, grafu, au infographics ili kutafsiri seti za data kuwa kitu kinachoonekana.
       Wakati mwingine huitwa "dataviz" au "data viz."
+  uk:
+    term: "візуалізація даних"
+    def: >
+      Процес представлення даних у вигляді графіків, діаграм, карт або інших візуальних форм, що дозволяє легше сприймати та аналізувати інформацію.
 
 - slug: data_wrangling
   en:
