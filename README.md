@@ -82,7 +82,7 @@ Project to African Languages. SADiLaR is a research infrastructure established b
 Department of Science and Innovation of the South African government as part of the
 South African Research Infrastructure Roadmap (SARIR).
  
-We are pleased to share that the Andrew W. Mellon Foundation approved a grant for use 
+We are pleased to share that the [Andrew W. Mellon Foundation](https://www.mellon.org/) approved a grant for use 
 over 12 months (November 2023 through October 2024) to support an upgrade to Glosario. Additionally, further funding has been secured from the Foundation to continue developing this resource from January 1, 2025, through December 31, 2025.
 
 ## Credits
