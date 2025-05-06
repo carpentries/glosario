@@ -10,9 +10,9 @@ To advance data science knowledge and accessibility for our diverse community, w
 
 If you are comfortable using GitHub, you can also contribute there. You do not need to know any programming language — a basic familiarity with the GitHub web interface is sufficient. We have prepared a [detailed and accessible guide](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit?tab=t.0#heading=h.wsi1psxc3n64) to assist you. To support contributors further, we have also created short YouTube videos demonstrating how to contribute:
 
-[Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
-[Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)
-or you can [Auto Translate YouTube Video into your Language](https://www.youtube.com/watch?v=LZz03myFuWA)
+- [Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
+- [Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)
+- or you can [Auto Translate YouTube Video into your Language](https://www.youtube.com/watch?v=LZz03myFuWA)
 
 Contributions are welcome in any language, not only those currently represented in the glossary. If you need help with your contribution, you can ask questions in the #glosario Slack channel or email us at [community@carpentries.org](mailto:community@carpentries.org). If you are not yet a member of The Carpentries Slack, you may request access [here](https://slack-invite.carpentries.org/).
 
