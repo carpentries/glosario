@@ -4,7 +4,6 @@
 
 ## Contributing
 
-[![All Contributors](https://img.shields.io/github/all-contributors/carpentries/glosario?color=ee8449&style=flat-square)](#contributors)
 
 To advance data science knowledge and accessibility for our diverse community, we have developed Glosario, a multilingual glossary of data science terms. The easiest way to contribute is to use our [Google Form](https://forms.gle/FJkMsVhqn7qAgwjB8), which does not require any technical experience. 
 
@@ -100,6 +99,8 @@ We now show credit for four types of contributions:
 - 👀 **Pull Request Reviewers** – Individuals who read and gave feedback on new suggestions to improve the project.  
 - 💬 **Discussion Participants** – Individuals who participated in conversations to help make decisions or solve problems.  
 - 🌍 **Translators** – Individuals who translated words and meanings to make Glosario useful in many languages.
+
+[![All Contributors](https://img.shields.io/github/all-contributors/carpentries/glosario?color=ee8449&style=flat-square)](#contributors)
 
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
