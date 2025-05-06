@@ -93,7 +93,8 @@
       "profile": "https://batool-almarzouq.netlify.app/",
       "contributions": [
         "review",
-        "translation"
+        "translation",
+        "question"
       ]
     },
     {
@@ -770,7 +771,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/72319858?v=4",
       "profile": "https://github.com/josenino95",
       "contributions": [
-        "translation"
+        "translation",
+        "question"
       ]
     },
     {
@@ -860,7 +862,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/9945255?v=4",
       "profile": "https://github.com/svenvanderburg",
       "contributions": [
-        "translation"
+        "translation",
+        "question"
       ]
     },
     {
@@ -942,7 +945,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/9002194?v=4",
       "profile": "https://github.com/rosemm",
       "contributions": [
-        "translation"
+        "translation",
+        "question"
       ]
     },
     {
@@ -1860,6 +1864,42 @@
       "profile": "https://github.com/lingmeng634",
       "contributions": [
         "question"
+      ]
+    },
+    {
+      "login": "HeidiSeibold",
+      "name": "Heidi Seibold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14146757?v=4",
+      "profile": "https://heidiseibold.com/",
+      "contributions": [
+        "question"
+      ]
+    },
+    {
+      "login": "Lidetewold",
+      "name": "Lidetewold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167426488?v=4",
+      "profile": "https://github.com/Lidetewold",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "vvkharchenko",
+      "name": "Volodymyr Kharchenko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146713095?v=4",
+      "profile": "https://github.com/vvkharchenko",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "ChubOlya",
+      "name": "Chub Olga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66166517?v=4",
+      "profile": "https://github.com/ChubOlya",
+      "contributions": [
+        "review"
       ]
     }
   ]
