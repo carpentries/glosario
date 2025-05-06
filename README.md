@@ -91,6 +91,8 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
 
 ## Contributors
 
+[![All Contributors](https://img.shields.io/github/all-contributors/carpentries/glosario?color=ee8449&style=flat-square)](#contributors)
+
 At The Carpentries, [every contribution matters](https://carpentries.org/about-us/#our-values). Individuals help open source projects in many ways: writing guides, reviewing other people’s work, translating content, or sharing ideas. These contributions all take time and effort. We want to thank everyone who helps Glosario grow - not only those who write code but also those who support the project in other ways.
 
 We now show credit for four types of contributions:
@@ -100,7 +102,6 @@ We now show credit for four types of contributions:
 - 💬 **Discussion Participants** – Individuals who participated in conversations to help make decisions or solve problems.  
 - 🌍 **Translators** – Individuals who translated words and meanings to make Glosario useful in many languages.
 
-[![All Contributors](https://img.shields.io/github/all-contributors/carpentries/glosario?color=ee8449&style=flat-square)](#contributors)
 
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
