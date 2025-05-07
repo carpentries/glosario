@@ -1,6 +1,6 @@
 # glosario
 
-`glosario` is an open source glossary of terms used in data science that is available online. By adding glossary keys to a lesson's metadata, authors can indicate what the lesson teaches, what learners should know before they start, and where they can find that knowledge. Authors can also use the library's functions to insert consistent hyperlinks for terms and definitions in their lessons in several (human) languages.
+`glosario` is an open source glossary of terms used in data science that is available online. By adding glossary keys to a lesson's metadata, authors can indicate what the lesson teaches, what learners should know before they start, and where they can find that knowledge. Authors can also use the library's functions to insert consistent hyperlinks for terms and definitions in their lessons in several (human) languages. You can find the glossary here: [https://glosario.carpentries.org/](https://glosario.carpentries.org/)
 
 # Table of Contents
 
