@@ -3729,6 +3729,11 @@
   am:
     term: ሁሉን አቀፍ R መዝገብ ቤት አውታረ መረብ
     def: የ [R](#r_language) ጥቅሎች የህዝብ ማከማቻ።
+  uk:
+    term: "CRAN (Comprehensive R Archive Network)"
+    acronym: "CRAN"
+    def: >
+      Публічний репозиторій для пакетів мовою програмування [R](#r_language).
 
 - slug: cross_join
   ref:
