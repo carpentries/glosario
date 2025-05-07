@@ -1,6 +1,16 @@
 # glosario
 
-`glosario` is an open source glossary of terms used in data science that is available online and as a library in R and Python. By adding glossary keys to a lesson's metadata, authors can indicate what the lesson teaches, what learners should know before they start, and where they can find that knowledge. Authors can also use the library's functions to insert consistent hyperlinks for terms and definitions in their lessons in several (human) languages.
+`glosario` is an open source glossary of terms used in data science that is available online. By adding glossary keys to a lesson's metadata, authors can indicate what the lesson teaches, what learners should know before they start, and where they can find that knowledge. Authors can also use the library's functions to insert consistent hyperlinks for terms and definitions in their lessons in several (human) languages.
+
+# Table of Contents
+
+- [Contributing](#contributing)
+- [Structure of Glossary](#structure-of-glossary)
+- [Glosario FAQ](#glosario-faq)
+- [Funding and Collaborators](#funding-and-collaborators)
+- [Credits](#credits)
+- [Contributors](#contributors)
+
 
 ## Contributing
 
@@ -11,7 +21,7 @@ If you are comfortable using GitHub, you can also contribute there. You do not n
 
 - [Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
 - [Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)
-- or you can [Auto Translate YouTube Video into your Language](https://www.youtube.com/watch?v=LZz03myFuWA)
+- or you can [Auto Translate a YouTube Video into your Language](https://www.youtube.com/watch?v=LZz03myFuWA)
 
 Contributions are welcome in any language, not only those currently represented in the glossary. If you need help with your contribution, you can ask questions in the #glosario Slack channel or email us at [community@carpentries.org](mailto:community@carpentries.org). If you are not yet a member of The Carpentries Slack, you may request access [here](https://slack-invite.carpentries.org/).
 
@@ -62,18 +72,107 @@ A glossary entry is structured like this:
         and/or links to outside sources.
         
 
-## FAQ
+## Glosario FAQ
 
--   **Why not just link to Wikipedia?**
-    We expect that many glossary definitions will do so,
-    However, Wikipedia articles provide explanations, not definitions.
+#### What is Glosario?
+**Glosario** is an open-source, multilingual glossary of data science terms. Lesson authors can use glossary keys in lesson metadata to clarify what is taught, what learners need to know, and where that knowledge can be found. The libraries also allow insertion of consistent hyperlinks to term definitions across several human languages.
 
--   **YAML is hard for people to edit—why not use something else for the glossary file?**
-    Because other formats are just as hard to edit (e.g., JSON)
-    or make one-to-many relationships hard to express (e.g., CSV).
+---
 
--   **Why use Jekyll for the online version?**
-    It is the default for GitHub Pages.
+#### Why not just link to Wikipedia?
+While Wikipedia provides **explanations**, Glosario provides **concise definitions**. Our aim is to support clarity and consistency across lessons—not to replace encyclopedic references.
+
+---
+
+#### What formats are used to build Glosario?
+The master glossary is maintained in a `glossary.yml` file. While YAML can be challenging to edit, it's preferred because it better supports complex relationships than other formats like JSON or CSV.
+
+---
+
+#### How can I view or use Glosario online?
+Glosario is deployed as a **GitHub Pages** site using **Jekyll**—the default site generator for GitHub Pages. The glossary is also available as installable packages for **R** and **Python**.
+
+---
+
+#### What does a glossary entry look like?
+
+```yaml
+- slug: cran
+  ref:
+    - base_r
+    - tidyverse
+  en:
+    term: "Comprehensive R Archive Network"
+    acronym: "CRAN"
+    def: >
+      A public repository of R [packages](#package).
+
+```
+
+Each entry includes:
+
+- A unique slug
+- Optional related term references
+- Definitions in one or more ISO 639 languages (e.g., en, es, fr)
+- An optional acronym
+- Definitions may include links to other glossary terms or external sources
+
+---
+
+#### How can I contribute?
+
+There are two main ways:
+
+- [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform) – No technical knowledge needed.  
+- [GitHub](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit?tab=t.0#heading=h.wsi1psxc3n64) – If you're familiar with GitHub’s web interface, you can contribute directly.
+
+Check out our short YouTube tutorials:
+
+- [Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
+- [Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)  
+(Use YouTube’s auto-translate feature for other languages)
+
+---
+
+#### Can I contribute in any language?
+
+Yes! Contributions are welcome in **all languages**, even those not currently represented in the glossary.
+
+---
+
+#### Where can I get help or ask questions?
+
+- Join the `#glosario` channel in **The Carpentries Slack**
+- Email us at [community@carpentries.org](mailto:community@carpentries.org)
+- Need Slack access? [Request it here](https://carpentries.org/slack/)
+
+---
+
+#### What is the structure behind Glosario?
+
+- The core glossary is stored in `glossary.yml`
+- Built into a **GitHub Pages** site using **Jekyll**
+
+---
+
+#### Who funds and collaborates on Glosario?
+
+- **SADiLaR** supports expansion into African languages.
+- The **Andrew W. Mellon Foundation** has provided funding from **November 2023 to December 2025** for upgrades and ongoing development.
+
+---
+
+#### Who gets credit for contributing?
+
+At The Carpentries, every contribution matters. We recognize contributions in four categories:
+
+- **Documentation & Planning** – e.g., guides, roadmaps  
+- **Pull Request Reviewers** – reviewed and gave feedback  
+- **Discussion Participants** – participated in issue discussions or decisions  
+- **Translators** – helped translate terms to multiple languages
+
+See [All Contributors](https://github.com/carpentries/glosario/graphs/contributors)
+
 
 ## Funding and Collaborators
 
