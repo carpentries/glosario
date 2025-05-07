@@ -6978,7 +6978,11 @@
     term: "Lizenz"
     def: >
       Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und von wem.
-
+  uk:
+    term: "ліцензія"
+    def: >
+      Офіційний дозвіл, який регламентує умови використання об'єкта
+      інтелектуальної власності третіми особами.
 
 - slug: lifecycle
   en:
