@@ -466,6 +466,7 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ChubOlya"><img src="https://avatars.githubusercontent.com/u/66166517?v=4?s=100" width="100px;" alt="Chub Olga"/><br /><sub><b>Chub Olga</b></sub></a><br /><a href="#review-ChubOlya" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ViktoriiaGrivina"><img src="https://avatars.githubusercontent.com/u/171017648?v=4?s=100" width="100px;" alt="ViktoriiaGrivina"/><br /><sub><b>ViktoriiaGrivina</b></sub></a><br /><a href="#review-ViktoriiaGrivina" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Avhustyn-t"><img src="https://avatars.githubusercontent.com/u/188987538?v=4?s=100" width="100px;" alt="Avhustyn-t"/><br /><sub><b>Avhustyn-t</b></sub></a><br /><a href="#translation-Avhustyn-t" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
