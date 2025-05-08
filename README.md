@@ -70,7 +70,8 @@ A glossary entry is structured like this:
         and the value may contain local links to other terms in this glossary
         (i.e., links starting with `#`)
         and/or links to outside sources.
-        
+
+You can access the glossary.yml dataset and citation information by clicking on the following DOI badge: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13589476.svg)](https://doi.org/10.5281/zenodo.13589476)
 
 ## Glosario FAQ
 
