@@ -1,7 +1,9 @@
 {% assign language = page.permalink | replace: '/', '' %}
 {% assign untranslated = site.data.[language].untranslated_terms %}
 
-{% assign base_gh_url = "https://github.com/carpentries/glosario/issues/new?labels=lang:+" | append: language | append: "&title=[" | append: language | append: "]+Translation+for+term+" %}
+{% assign gh_issue_title = "[" | append: language | append: "]+Translation+for+term+" %}
+{% assign gh_issue_body = "Please+provide+a+translation+for+the+term+" %}
+{% assign gh_base_url = "https://github.com/carpentries/glosario/issues/new?labels=lang:+" | append: language %}
 
 {% if language != "en" %}
 <div class="accordion" id="tableAccordion" style="padding-bottom: 5px;">
@@ -38,12 +40,17 @@
             </thead>
             <tbody>
               {%- for uterm in untranslated -%}
-              <tr class="untranslated_term">
-                <td><a href="/en/#{{uterm.slug}}">{{uterm[language].term}}</a></td>
-                <td>{{uterm[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</td>
-                <td><a href=""><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td>
-                <td><a href="{{base_gh_url}}'{{uterm.slug}}'"><i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
-              </tr>
+                {% assign abs_glos_slug_link =  site.url | append: "/en/%23" | append: uterm.slug %}
+                {% assign gh_title = gh_issue_title | append: "'" | append: uterm[language].term | append: "'" %}
+                {% assign gh_body = gh_issue_body | append: "'" | append: uterm[language].term | append: "'+[" | append: uterm.slug | append: "](" | append: abs_glos_slug_link | append: ")+below:"  %}
+                {% assign gh_url = gh_base_url | append: "&title=" | append: gh_title | append: "&body=" | append: gh_body %}
+
+                <tr class="untranslated_term">
+                  <td><a href="/en/#{{uterm.slug}}">{{uterm[language].term}}</a></td>
+                  <td>{{uterm[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</td>
+                  <td><a href=""><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td>
+                  <td><a target="_blank" href="{{gh_url}}"><i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
+                </tr>
               {%- endfor -%}
             </tbody>
             </table>
