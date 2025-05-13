@@ -1,0 +1,66 @@
+{% assign language = page.permalink | replace: '/', '' %}
+{% assign untranslated = site.data.[language].untranslated_terms %}
+
+{% assign base_gh_url = "https://github.com/carpentries/glosario/issues/new?labels=lang:+" | append: language | append: "&title=[" | append: language | append: "]+Translation+for+term+" %}
+
+{% if language != "en" %}
+<div class="accordion" id="tableAccordion" style="padding-bottom: 5px;">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Show Terms That Need Translation
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#tableAccordion">
+        <div class="accordion-body">
+            <table
+                id="{{language}}-table"
+                class="table"
+                data-toggle="table"
+                data-search="true"
+                data-show-columns="true"
+                data-pagination="true"
+            >
+            <thead>
+              <tr class="tr-class-1">
+                <th data-valign="middle">
+                    Term
+                </th>
+                <th data-valign="middle">
+                    Definition
+                </th>
+                <th
+                  colspan="2"
+                  data-valign="middle">
+                    Contribute
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {%- for uterm in untranslated -%}
+              <tr class="untranslated_term">
+                <td><a href="/en/#{{uterm.slug}}">{{uterm[language].term}}</a></td>
+                <td>{{uterm[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</td>
+                <td><a href=""><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td>
+                <td><a href="{{base_gh_url}}'{{uterm.slug}}'"><i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
+              </tr>
+              {%- endfor -%}
+            </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const collapseElement = document.getElementById('myTableCollapse');
+      collapseElement.addEventListener('shown.bs.collapse', function () {
+        $('#{{language}}-table').bootstrapTable('refreshOptions', {
+          height: 'auto'  // or any other options you want
+        });
+      });
+    });
+  </script>
+
+{% endif %}
