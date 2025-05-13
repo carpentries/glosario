@@ -1890,7 +1890,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/146713095?v=4",
       "profile": "https://github.com/vvkharchenko",
       "contributions": [
-        "translation"
+        "translation",
+        "review"
       ]
     },
     {
@@ -1900,6 +1901,24 @@
       "profile": "https://github.com/ChubOlya",
       "contributions": [
         "review"
+      ]
+    },
+    {
+      "login": "ViktoriiaGrivina",
+      "name": "ViktoriiaGrivina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/171017648?v=4",
+      "profile": "https://github.com/ViktoriiaGrivina",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "Avhustyn-t",
+      "name": "Avhustyn-t",
+      "avatar_url": "https://avatars.githubusercontent.com/u/188987538?v=4",
+      "profile": "https://github.com/Avhustyn-t",
+      "contributions": [
+        "translation"
       ]
     }
   ]
