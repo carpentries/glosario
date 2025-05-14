@@ -270,6 +270,20 @@ a:hover {
         bottom: 30px;
     }
 
+    .sticky-nav {
+        text-align: right;
+        margin-top: -15px;
+    }
+
+    .sticky-nav a {
+        color: grey;
+    }
+
+    .sticky-nav a:hover {
+        color: grey;
+        text-decoration: underline;
+    }
+
     .letter {
         display: flex;
         align-items: center;

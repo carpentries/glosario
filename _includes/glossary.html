@@ -27,6 +27,11 @@ Cross-references are displayed in __bold__ if that term is missing.
 <dl dir="auto">
 {% assign gloss_letter = "" %}
 {% assign headings = '' %}
+
+{% if actual.size == 0 %}
+    <h2 class="text-bg-info p-3">No terms defined in this language.</h2>
+    <p>To contribute translations, please see the Glosario <a href="/help">help page</a>.</p>
+{% else %}
 {%- for slug in actual -%}
   {% assign item = gloss | where: "slug", slug | first %}
   {% if item[language] %}
@@ -82,4 +87,5 @@ Cross-references are displayed in __bold__ if that term is missing.
     </dd>
   {% endif %}
 {%- endfor -%}
+{% endif %}
 </dl>

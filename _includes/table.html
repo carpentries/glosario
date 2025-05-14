@@ -11,7 +11,7 @@
 {% assign gh_base_url = "https://github.com/carpentries/glosario/issues/new?labels=lang:+" | append: language %}
 {% assign gform_base_url = "https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform?usp=pp_url" %}
 
-{% if language != "en" %}
+{% if language != "en" and untranslated.size > 0 %}
 <div class="accordion" id="tableAccordion" style="padding-bottom: 5px;">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
@@ -86,8 +86,8 @@
 
 {% else %}
 
-  {% assign gh_issue_title = "[" | append: language | append: "]+New+term:+" %}
-  {% assign gh_issue_body = "Please+provide+a+definition+for+the+new+term+below:" %}
+  {% assign gh_issue_title = "[en]+New+term:+" %}
+  {% assign gh_issue_body = "Please+provide+a+definition+for+the+new+term+in+English+below:" %}
   {% assign gh_url = gh_base_url | append: "&title=" | append: gh_issue_title | append: "&body=" | append: gh_issue_body %}
 
   <div class="sticky-nav">
