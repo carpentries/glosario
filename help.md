@@ -19,6 +19,8 @@ There are three routes available to you to make your contribution:
 - via a GitHub issue
 - via a direct change in the Glosario glossary.yml file and a pull request raise in GitHub (advanced)
 
+To make contributions via GitHub, you will need a valid GitHub login.
+
 ### How do I submit a translation?
 
 #### Via Google Form
