@@ -41,7 +41,9 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform">Via Google Form</a></li>
-              <li><a class="dropdown-item" target="_blank" href="https://github.com/carpentries/glosario/issues">Via GitHub Issue</a></li>
+              <li><a class="dropdown-item" target="_blank" href="{{ site.repository_url | append: '/issues'}}">Via GitHub Issues</a></li>
+              <hr>
+              <li><a class="dropdown-item" target="_blank" href="{{ site.repository_url }}">View Project on GitHub</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -62,12 +64,6 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div class="sticky-nav">
-      <span class="navbar-text">
-        <i class="fa fa-github" style="font-size:30px; color:white; padding-right: 8px;"></i>
-        <a class="gh-link" target="_blank" href="{{ site.repository_url }}">View On GitHub</a>
-      </span>
     </div>
   </nav>
 

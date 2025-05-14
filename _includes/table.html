@@ -1,9 +1,15 @@
 {% assign language = page.permalink | replace: '/', '' %}
+{% for lang in site.languages %}
+  {% if lang.key == language %}
+    {% assign language_name = lang.name %}
+  {% endif %}
+{% endfor %}
 {% assign untranslated = site.data.[language].untranslated_terms %}
 
 {% assign gh_issue_title = "[" | append: language | append: "]+Translation+for+term+" %}
 {% assign gh_issue_body = "Please+provide+a+translation+for+the+term+" %}
 {% assign gh_base_url = "https://github.com/carpentries/glosario/issues/new?labels=lang:+" | append: language %}
+{% assign gform_base_url = "https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform?usp=pp_url" %}
 
 {% if language != "en" %}
 <div class="accordion" id="tableAccordion" style="padding-bottom: 5px;">
@@ -45,10 +51,18 @@
                 {% assign gh_body = gh_issue_body | append: "'" | append: uterm[language].term | append: "'+[" | append: uterm.slug | append: "](" | append: abs_glos_slug_link | append: ")+below:"  %}
                 {% assign gh_url = gh_base_url | append: "&title=" | append: gh_title | append: "&body=" | append: gh_body %}
 
+                {% assign gform_lang_term = "&entry.969059811=" | append: uterm[language].term %}
+                {% assign gform_lang_name = "&entry.1475090730=" | append: language %}
+
+                <!-- {% assign "&entry.35176795=" | append: lang-term %}
+                {% assign "&entry.1621902414=" | append: lang-def %} -->
+
+                {% assign gform_url = gform_base_url | append: gform_lang_term | append: gform_lang_name %}
+
                 <tr class="untranslated_term">
                   <td><a href="/en/#{{uterm.slug}}">{{uterm[language].term}}</a></td>
                   <td>{{uterm[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</td>
-                  <td><a href=""><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td>
+                  <td><a target="_blank" href="{{gform_url}}"><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td>
                   <td><a target="_blank" href="{{gh_url}}"><i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
                 </tr>
               {%- endfor -%}
@@ -70,4 +84,14 @@
     });
   </script>
 
+{% else %}
+
+  {% assign gh_issue_title = "[" | append: language | append: "]+New+term:+" %}
+  {% assign gh_issue_body = "Please+provide+a+definition+for+the+new+term+below:" %}
+  {% assign gh_url = gh_base_url | append: "&title=" | append: gh_issue_title | append: "&body=" | append: gh_issue_body %}
+
+  <div class="sticky-nav">
+    <!-- <a target="_blank" href="{{gform_url}}"><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td> -->
+    <a target="_blank" href="{{gh_url}}"><strong>+ Add new term</strong> <i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
+  </div>
 {% endif %}

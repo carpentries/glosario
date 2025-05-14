@@ -98,16 +98,16 @@ a:hover {
     }
 
     .sticky-nav {
-        width: 24%;
-        text-align: center;
+        text-align: right;
+        margin-top: -15px;
     }
 
     .sticky-nav a {
-        color: white;
+        color: grey;
     }
 
     .sticky-nav a:hover {
-        color: white;
+        color: grey;
         text-decoration: underline;
     }
 
