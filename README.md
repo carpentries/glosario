@@ -165,14 +165,7 @@ Yes! Contributions are welcome in **all languages**, even those not currently re
 
 #### Who gets credit for contributing?
 
-At The Carpentries, every contribution matters. We recognize contributions in four categories:
-
-- **Documentation & Planning** – e.g., guides, roadmaps  
-- **Pull Request Reviewers** – reviewed and gave feedback  
-- **Discussion Participants** – participated in issue discussions or decisions  
-- **Translators** – helped translate terms to multiple languages
-
-See [All Contributors](https://github.com/carpentries/glosario/graphs/contributors)
+At The Carpentries, every contribution matters. See [All Contributors](https://github.com/carpentries/glosario/graphs/contributors) for a list of contributions. 
 
 
 ## Funding and Collaborators
