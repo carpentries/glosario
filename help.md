@@ -58,7 +58,7 @@ Go to the [English language page](en.md) and click the "+ Add new term" GitHub l
 
 The GitHub new issue form will open in a new tab and the English term title and language label will be prefilled for you.
 
-Please add the translated term, and the translated definition in the main issue text box.
+Please add the new term you wish to add to the English glossary and the definition in the main issue text box.
 
 Click Create. You're done!
 
