@@ -1,70 +1,34 @@
 # glosario
 
-`glosario` is an open source glossary of terms used in data science
-that is available online and also as a library in both R and Python.
-By adding glossary keys to a lesson's metadata,
-authors can indicate what the lesson teaches,
-what learners ought to know before they start,
-and where they can go to find that knowledge.
-Authors can also use the library's functions
-to insert consistent hyperlinks for terms and definitions in their lessons
-in any of several (human) languages.
+`glosario` is an open source glossary of terms used in data science that is available online. By adding glossary keys to a lesson's metadata, authors can indicate what the lesson teaches, what learners should know before they start, and where they can find that knowledge. Authors can also use the library's functions to insert consistent hyperlinks for terms and definitions in their lessons in several (human) languages. You can find the glossary here: [https://glosario.carpentries.org/](https://glosario.carpentries.org/)
+
+# Table of Contents
+
+- [Contributing](#contributing)
+- [Structure of Glossary](#structure-of-glossary)
+- [Glosario FAQ](#glosario-faq)
+- [Funding and Collaborators](#funding-and-collaborators)
+- [Credits](#credits)
+- [Contributors](#contributors)
+
 
 ## Contributing
 
-[![All Contributors](https://img.shields.io/github/all-contributors/carpentries/glosario?color=ee8449&style=flat-square)](#contributors)
 
-To advance data science knowledge and accessibility for our diverse community, we developed Glosario. You do not need to know any programming language to contribute to Glosario: anyone with a basic familiarity with the GitHub web interface can get involved! We have prepared a [detailed and accessible guide for contributing](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit#heading=h.wsi1psxc3n64), which has been translated into several languages. Contributions are welcome in any language, not only those represented in that document. If you need help with your contribution, feel free to come to ask questions on the [#glosario](https://carpentries.slack.com/archives/C01G4HYGAQ6) Slack channel (if you are not a member of The Carpentries Slack you can join by filling [this form](https://slack-invite.carpentries.org/)).
+To advance data science knowledge and accessibility for our diverse community, we have developed Glosario, a multilingual glossary of data science terms. The easiest way to contribute is to use our [Google Form](https://forms.gle/FJkMsVhqn7qAgwjB8), which does not require any technical experience. 
 
-## Lessons
+If you are comfortable using GitHub, you can also contribute there. You do not need to know any programming language — a basic familiarity with the GitHub web interface is sufficient. We have prepared a [detailed and accessible guide](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit?tab=t.0#heading=h.wsi1psxc3n64) to assist you. To support contributors further, we have also created short YouTube videos demonstrating how to contribute:
 
-R Markdown and Jupyter Notebooks allow authors to place structured metadata in files.
-We propose the following metadata (written as YAML):
+- [Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
+- [Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)
+- or you can [Auto Translate a YouTube Video into your Language](https://www.youtube.com/watch?v=LZz03myFuWA)
 
-```
-glossary:
-  sources:
-  - http://some_glossary.org/something/
-  language: fr
-  requires:
-  - aggregation_function
-  - call_stack
-  defines:
-  - closure
-  - name_collision
-```
+Contributions are welcome in any language, not only those currently represented in the glossary. If you need help with your contribution, you can ask questions in the #glosario Slack channel or email us at [community@carpentries.org](mailto:community@carpentries.org). If you are not yet a member of The Carpentries Slack, you may request access [here](https://slack-invite.carpentries.org/).
 
-1.  The `source` key is required.
-    -   It must introduce a list containing at least one URL.
-    -   Those URLs must resolve to glossaries as described in the next section.
-    -   Those glossaries are searched in order from first to last to find definitions.
-1.  The `language` key is required
-    and must be a single ISO 639 language code
-    (e.g., `fr` for French).
-1.  The keys `requires` and `defines` are optional.
-    -   Either may introduce an empty list.
-    -   The values under these keys are keys into a shared glossary (discussed in the next section).
-1.  We expect the terms identified under `requires` to be used *without* being defined in this lesson
-    (i.e., the lesson author assumes users already know them).
-1.  All of the terms identified under `defines` must be hyperlinked in the lesson.
-    -   The target of the hyperlink for the term's definition must be `GLOSSARY_SITE#glossary_key`,
-        where `GLOSSARY_SITE` is one of the sites listed under the `sources` key
-        and `glossary_key` is an exact match for one of the `defines` keys.
+## Structure of Glossary
 
-We will provide simple tools so that
-all of the terms listed in a lesson's metadata are linked correctly in its body.
-We will also provide shortcuts to make it easy to create correctly-formatted links
-so that authors can write things like:
-
-```
-The computer uses a `r link('call stack', 'call_stack')` to keep track of function calls.
-```
-
-## Glossaries
-
-Any site where glossary URLs resolve can be used as a glossary.
-As a working model,
-this project implements a glossary of terms used in data science and data engineering.
+Any site where glossary URLS resolve can be used as a glossary.
+This project implements a glossary of data science and data engineering terms as a working model.
 
 1.  The master copy of the glossary lives in `glossary.yml`.
     Its format is described below.
@@ -107,79 +71,102 @@ A glossary entry is structured like this:
         (i.e., links starting with `#`)
         and/or links to outside sources.
 
-## Open issues
+You can access the glossary.yml dataset and citation information by clicking on the following DOI badge: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13589476.svg)](https://doi.org/10.5281/zenodo.13589476)
 
-1.  Should we provide one function for interactive definition lookup
-    that searches keys and terms,
-    a separate function for each,
-    or some kind of keyword arguments to control the scope of search?
+## Glosario FAQ
 
-1.  Should we integrate definition lookup with existing help systems?
-    For example,
-    should `define('something')` in RStudio put the definition in the help pane
-    (and if so, should it hyperlink to terms that the definition depends on)?
+#### What is Glosario?
+**Glosario** is an open-source, multilingual glossary of data science terms. Lesson authors can use glossary keys in lesson metadata to clarify what is taught, what learners need to know, and where that knowledge can be found. The libraries also allow insertion of consistent hyperlinks to term definitions across several human languages.
 
-## Use Cases
+---
 
-1.  **Linking to a definition.**
-    1.  *Amari* writes a lesson in R Markdown that introduces some new terms.
-    1.  She has defined the language to be Spanish using the `glossary/language` key
-        in the YAML header,
-        but has not changed any other settings.
-    1.  She adds an inline code block `` `r gdef('linear-model', 'Linear models')` ``
-        to her lesson.
-    1.  When she knits her document,
-        the inline code block produces the HTML
-        `<a href="http://carpentries.org/glossary/es/#linear-model" class="glossary-definition">Linear Models</a>`
+#### Why not just link to Wikipedia?
+While Wikipedia provides **explanations**, Glosario provides **concise definitions**. Our aim is to support clarity and consistency across lessons—not to replace encyclopedic references.
 
-1.  **Checking a lesson.**
-    1.  *Beatriz* has made some changes to a lesson she inherited from *Amari*,
-        and wants to check that it is still consistent.
-    1.  She runs a command-line script that:
-        1.  Reads the R Markdown file.
-        1.  Extracts the terms under the `glossary/defines` key.
-        1.  Searches the document's body for calls to `gdef(...)`.
-        1.  Checks that every term listed in `glossary/defines` is referenced in the document body,
-            and that every term referenced in the document body is mentioned in `glossary/defines`.
+---
 
-1.  **Finding lessons.**
-    1.  *Amari* writes a lesson in R Markdown.
-        She adds the `glossary` key to its YAML metadata
-        and indicates that the lesson requires the term `correlation`
-        and defines the term `regression`.
-    1.  *Beatriz* is writing a lesson on linear models.
-        She adds YAML metadata indicating that
-        the lesson requires the term `regression`.
-    1.  To find prerequisite lessons she can recommend to her students,
-        Beatriz runs a command-line script that:
-        1.  Uses `rmarkdown::yaml_front_matter(filename)`
-            to read metadata from all of the lessons she has archived.
-        1.  Lists all of the lessons that state they define the term `regression`.
+#### What formats are used to build Glosario?
+The master glossary is maintained in a `glossary.yml` file. While YAML can be challenging to edit, it's preferred because it better supports complex relationships than other formats like JSON or CSV.
 
-1.  **Summarizing a lesson.**
-    1.  *Amari* has written a lesson in R Markdown that includes YAML metadata
-        stating that it defines `correlation` and `causation`.
-    1.  She adds a code chunk to the end of her lesson that includes a call to
-        `glosario::summarize_terms()`.
-    1.  When she knits the document to HTML,
-        this code chunk inserts a definition list `dl` at that point.
-        Its entries are the definitions of
-        all of the terms listed under the `glossary/defines` key
-        in the page's YAML header
-        in alphabetical order by term according to the rules for `glossary/language`.
+---
 
-## FAQ
+#### How can I view or use Glosario online?
+Glosario is deployed as a **GitHub Pages** site using **Jekyll**—the default site generator for GitHub Pages. The glossary is also available as installable packages for **R** and **Python**.
 
--   **Why not just link to Wikipedia?**
-    We expect that many glossary definitions will do so,
-    However, Wikipedia articles provide explanations, not definitions.
+---
 
--   **YAML is hard for people to edit—why not use something else for the glossary file?**
-    Because other formats are just as hard to edit (e.g., JSON)
-    or make one-to-many relationships hard to express (e.g., CSV).
+#### What does a glossary entry look like?
 
--   **Why use Jekyll for the online version?**
-    It is the default for GitHub Pages.
+```yaml
+- slug: cran
+  ref:
+    - base_r
+    - tidyverse
+  en:
+    term: "Comprehensive R Archive Network"
+    acronym: "CRAN"
+    def: >
+      A public repository of R [packages](#package).
+
+```
+
+Each entry includes:
+
+- A unique slug
+- Optional related term references
+- Definitions in one or more ISO 639 languages (e.g., en, es, fr)
+- An optional acronym
+- Definitions may include links to other glossary terms or external sources
+
+---
+
+#### How can I contribute?
+
+There are two main ways:
+
+- [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform) – No technical knowledge needed.  
+- [GitHub](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit?tab=t.0#heading=h.wsi1psxc3n64) – If you're familiar with GitHub’s web interface, you can contribute directly.
+
+Check out our short YouTube tutorials:
+
+- [Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
+- [Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)  
+(Use YouTube’s auto-translate feature for other languages)
+
+---
+
+#### Can I contribute in any language?
+
+Yes! Contributions are welcome in **all languages**, even those not currently represented in the glossary.
+
+---
+
+#### Where can I get help or ask questions?
+
+- Join the `#glosario` channel in **The Carpentries Slack**
+- Email us at [community@carpentries.org](mailto:community@carpentries.org)
+- Need Slack access? [Request it here](https://carpentries.org/slack/)
+
+---
+
+#### What is the structure behind Glosario?
+
+- The core glossary is stored in `glossary.yml`
+- Built into a **GitHub Pages** site using **Jekyll**
+
+---
+
+#### Who funds and collaborates on Glosario?
+
+- **SADiLaR** supports expansion into African languages.
+- The **Andrew W. Mellon Foundation** has provided funding from **November 2023 to December 2025** for upgrades and ongoing development.
+
+---
+
+#### Who gets credit for contributing?
+
+At The Carpentries, every contribution matters. See [All Contributors](https://github.com/carpentries/glosario/graphs/contributors) for a list of contributions. 
+
 
 ## Funding and Collaborators
 
@@ -188,7 +175,7 @@ Project to African Languages. SADiLaR is a research infrastructure established b
 Department of Science and Innovation of the South African government as part of the
 South African Research Infrastructure Roadmap (SARIR).
  
-We are pleased to share that the Andrew W. Mellon Foundation approved a grant for use 
+We are pleased to share that the [Andrew W. Mellon Foundation](https://www.mellon.org/) approved a grant for use 
 over 12 months (November 2023 through October 2024) to support an upgrade to Glosario. Additionally, further funding has been secured from the Foundation to continue developing this resource from January 1, 2025, through December 31, 2025.
 
 ## Credits
@@ -196,6 +183,19 @@ over 12 months (November 2023 through October 2024) to support an upgrade to Glo
 -   Parrot logo by [restocktheshelves](https://www.deviantart.com/restocktheshelves).
 
 ## Contributors
+
+[![All Contributors](https://img.shields.io/github/all-contributors/carpentries/glosario?color=ee8449&style=flat-square)](#contributors)
+
+At The Carpentries, [every contribution matters](https://carpentries.org/about-us/#our-values). Individuals help open source projects in many ways: writing guides, reviewing other people’s work, translating content, or sharing ideas. These contributions all take time and effort. We want to thank everyone who helps Glosario grow - not only those who write code but also those who support the project in other ways.
+
+We now show credit for four types of contributions:
+
+- 📖 **Documentation and Planning** – Individuals who helped write the contribution guide, organise ideas, or plan how Glosario works.  
+- 👀 **Pull Request Reviewers** – Individuals who read and gave feedback on new suggestions to improve the project.  
+- 💬 **Discussion Participants** – Individuals who participated in conversations to help make decisions or solve problems.  
+- 🌍 **Translators** – Individuals who translated words and meanings to make Glosario useful in many languages.
+
+
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
