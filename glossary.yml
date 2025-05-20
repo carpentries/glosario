@@ -2711,6 +2711,11 @@
     term: causation
     def: >
       አንድ ክስተት ተጠያቂ ነው ተብሎ በሚነገርበት በልዩ ልዩ ክስተቶች መካከል ያለው ግንኙነት በሌላው ላይ ለውጥ መፍጠር ወይም ተፅዕኖ ማሳደር።
+  uk:
+    term: "причинно-наслідковий зв'язок"
+    def: >
+      Взаємозв’язок між окремими подіями, за якого одна подія розглядається як причина, що зумовлює 
+      виникнення, зміну чи наслідки іншої події.
 
 - slug: cc_0
   en:
@@ -2734,7 +2739,12 @@
       Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche den
       Verzicht auf sämtliche Schutzrechte erklärt und das Werk in die
       Gemeinfreiheit überführt.
-
+  uk:
+    term: "CC-0"
+    def: >
+      Різновид ліцензії [Creative Commons](#cc_license), який дозволяє
+      автору добровільно відмовитися від усіх авторських прав на
+      свій твір і передати його у суспільне надбання без жодних умов чи обмежень.
   am:
     term: ሲሲ-0
     def: >
@@ -2757,7 +2767,12 @@
       Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche eine
       Namensnennung der Urheber verlangt aber sonst keine weiteren
       Restriktionen auferlegt.
-
+  uk:
+    term: "CC-BY"
+    def: >
+      [Creative Commons](#cc_license) - Attribution [license](#license):
+      ліцензія, яка дозволяє вільно використовувати, змінювати і поширювати
+      твір за умови обов'язкового зазначення авторства, без інших обмежень.
   am:
     term: ሲሲ-ባይ
     def: >
@@ -2780,6 +2795,22 @@
     term: የፈጠራ ኮመንስ ፍቃድ
     def: >
       ለህትመት ሥራ ሊመለከቱ የሚችሉ [ፍቃዶች](#license) እያንዳንዳቸው ፍቃድ ሚመሰረተው የ '-ባይ' (Attribution) ተጠቃሚዎችን አንድ ወይም ከዚያ በላይ በመመደብ ነው must cite cite the original source; '-SA' (ShareAlike) ተጠቃሚዎች የራሳቸውን ማጋራት አለባቸው በተመሳሳይ ፈቃድ ሥራ መሥራት፤ '-ኤን ሲ' (NonCommercial) ስራ ላይውል ይችላል ያለ ፈጣሪ ፈቃድ የንግድ ዓላማዎች፤ '-ND' (NoDerivatives) አይደለም የተዋሕዶ ስራዎች (ለምሳሌ፣ ትርጉሞች) ያለ ፈጣሪ ሊፈጠሩ ይችላሉ ፍቃድ። በመሆኑም 'CC-BY-ኤንሲ' ማለት"ተጠቃሚዎች ባህሪ መስጠት አለባቸው እና መጠቀም አይችሉም ለንግድ ያለ ፈቃድ". 'ሲሲ-0' (ዜሮ እንጂ ፊደል 'ኦ' አይደለም) የሚለው ቃል ነው አንዳንድ ጊዜ"እገዳ የለም"ማለትም ሥራው በሕዝብ ክልል ውስጥ ይገኛል።
+  uk:
+    term: Creative Commons license
+    def: >
+      Набір ліцензій, які можна застосовувати до опублікованого твору.
+      Кожна ліцензія формується шляхом конкатенації одного або кількох із
+      -BY (зазначення авторства): користувачі повинні цитувати першоджерело;
+      -SA (ShareAlike): користувачі повинні ділитися власними творами
+      за аналогічною ліцензією;
+      -NC (некомерційний): твір не може використовуватися в комерційних
+      цілях без дозволу автора;
+      -ND (NoDerivatives): жодні похідні твори (наприклад, переклади)
+      не можуть бути створені без дозволу автора.
+      Таким чином, CC-BY-NC означає, що "користувачі повинні вказати
+      авторство та не можуть використовувати в комерційних цілях без дозволу".
+      Термін CC-0 (нуль, а не літера "О") іноді використовується для
+      позначення "немає обмежень, тобто твір є суспільним надбанням.
 
 - slug: centroid
   en:
@@ -2911,6 +2942,12 @@
     term: ትዕዛዝ-መስመር አገናኝ
     def: >
       ኢንተርፌት በ[ዛጎል](#shell) ውስጥ ለመሮጥ ትዕዛዞች እና ውጤቶች ለማግኘት በጽሁፍ ላይ ብቻ የሚደገፍ  ።
+  uk:
+    term: інтерфейс командного рядка
+    def: >
+      Інтерфейс користувача, який повністю покладається на текст
+      для введення команд та виведення результатів їх виконання.
+      Зазвичай використовується у [командній оболонці](#shell).
 
 - slug: client
   en:
@@ -3408,7 +3445,11 @@
     def: >
       Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama vile shell
       ambayo huiga kifaa kama hicho.
-
+  uk:
+    term: "консоль"
+    def: >
+      Комп'ютерний термінал, де користувач може вводити команди, або програма,
+      яка імітує такий пристрій, наприклад, [командна оболонка](#shell).
 
 - slug: confusion_matrix
   en:
@@ -3699,6 +3740,11 @@
   am:
     term: ሁሉን አቀፍ R መዝገብ ቤት አውታረ መረብ
     def: የ [R](#r_language) ጥቅሎች የህዝብ ማከማቻ።
+  uk:
+    term: "CRAN (Comprehensive R Archive Network)"
+    acronym: "CRAN"
+    def: >
+      Публічний репозиторій для пакетів мовою програмування [R](#r_language).
 
 - slug: cross_join
   ref:
@@ -3917,7 +3963,6 @@
     term: "Uchimbaji data"
     def: >
       Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia tarakilishi.
-
   am:
     term: መረጃ ማውጣት
     def: >
@@ -3934,12 +3979,10 @@
     def: >
       'n Sagtewarepakket wat meestal net data bevat. Word gebruik om dit eenvoudiger te maak
       om data te versprei vir makliker gebruik.
-
   am:
     term: የውሂብ ጥቅል
     def: >
       የሶፍትዌር ፓኬጅ ፣ በአብዛኛው ፣ መረጃዎችን ብቻ የያዘ። ለመሥራት ያገለገለ ነው ለቀላል አጠቃቀም መረጃን ለማሰራጨት የበለጠ ቀላል ነው።
-
   sw:
     term: "Kifurushi cha data"
     def: >
@@ -3972,11 +4015,15 @@
     term: "επιστήμη δεδομένων"
     def: >
       Ο συνδυασμός στατιστικής, προγραμματισμού και σκληρής δουλειάς που χρειάζεται για να εξαχθούν συμπεράσματα από δεδομένα.
-
   am:
     term: የውሂብ ሳይንስ
     def: >
       ጥቅም ላይ የዋለው የስታቲስቲክስ ፣ የፕሮግራም እና ከባድ ሥራ ጥምረት ከመረጃ ዕውቀትን ያውጡ።
+  uk:
+    term: "наука про дані"
+    def: >
+      Міждисциплінарна галузь, що поєднує статистику, математику, програмування, машинне навчання та інші методи
+      для розуміння даних і виявлення прихованих закономірностей.
 
 - slug: data_scientist
   en:
@@ -4003,11 +4050,15 @@
     term: "επιστήμονας δεδομένων"
     def: >
       Ένα άτομο που χρησιμοποιεί προγραμματισμό για να λύσει προβλήματα στατιστικής.
-
   am:
     term: የውሂብ ሳይንቲስት
     def: >
       የስታቲስቲክስ ችግሮችን ለመፍታት የፕሮግራም ችሎታን የሚጠቀም ሰው ፡፡
+  uk:
+    term: "спеціаліст з обробки даних"
+    def: >
+      Фахівець, який поєднує знання з програмування, статистики та машинного навчання для аналізу даних,
+      виявлення закономірностей і формулювання висновків, що допомагають приймати обґрунтовані рішення.
 
 - slug: data_structure
   en:
@@ -4024,6 +4075,10 @@
       kubainisha thamani ya seti za data na uwakilishi wao (au [encoding](#character_encoding)),
       uhusiano kati ya thamana, na njia za kufikia au kuendesha data hizo, kama vile
       kusoma, kubadilisha, au kuandika.
+  uk:
+    term: "структура даних"
+    def: >
+      Спосіб організації та зберігання даних у комп’ютері, який забезпечує ефективний доступ і зміну цих даних.
 
 - slug: data_visualization
   en:
@@ -4031,18 +4086,19 @@
     def: >
       The creation of charts, maps, graphs, or infographics to translate datasets into something visual.
       Sometimes called "dataviz" or "data viz."
-
-
   am:
     term: የውሂብ መዋቅር
     def: >
       ለድርጅቱ ቅርጸት ፣ አስተዳደር እና ቀልጣፋ ተደራሽነት መረጃ በተለምዶ ያደርገዋል የውሂብ እሴቶችን ስብስብ እና የእነሱ ውክልና (ወይም።) [ኢንኮዲንግ](#character_encoding)) ፣ በእሴቶች መካከል ያሉ ግንኙነቶች እና ለመድረስ ወይም ለማታለል መንገዶች እነዚያ መረጃዎች ፣ እንደ ማንበብ ፣ መለወጥ ወይም መጻፍ ፡፡
-
   sw:
     term: "taswira ya data"
     def: >
       Uundaji wa chati, ramani, grafu, au infographics ili kutafsiri seti za data kuwa kitu kinachoonekana.
       Wakati mwingine huitwa "dataviz" au "data viz."
+  uk:
+    term: "візуалізація даних"
+    def: >
+      Процес представлення даних у вигляді графіків, діаграм, карт або інших візуальних форм, що дозволяє легше сприймати та аналізувати інформацію.
 
 - slug: data_wrangling
   en:
@@ -6938,7 +6994,11 @@
     term: "Lizenz"
     def: >
       Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und von wem.
-
+  uk:
+    term: "ліцензія"
+    def: >
+      Офіційний дозвіл, який регламентує умови використання об'єкта
+      інтелектуальної власності третіми особами.
 
 - slug: lifecycle
   en:
@@ -8130,7 +8190,13 @@
       Una [licencia](#license) que permite reuso en general, tal como la [Licencia MIT](#mit_license)
       o [GPL](#gpl) para software y [CC-BY](#cc_by) o
       [CC-0](#cc_0) para datos, prosas u otros productos creativos.
-
+  uk:
+    term: "відкрита ліцензія"
+    def: >
+      [Ліцензія](#license), яка дозволяє загальне повторне використання творів,
+      наприклад, ліцензія [MIT](#mit_license) або [GPL](#gpl) для програмного
+      забезпечення та [CC-BY](#cc_by) або [CC-0](#cc_0) для даних, прози
+      чи інших творчих результатів.
 
 - slug: open_science
   en:
@@ -9623,7 +9689,12 @@
     def: >
       A [command-line interface](#cli) that allows a user to interact with the
       [operating system](#operating_system), such as Bash (for Unix and MacOS) or PowerShell (for Windows).
-
+  uk:
+    term: "командна оболонка"
+    def: >
+      [Інтерфейс командного рядка](#cli), який дозволяє користувачеві взаємодіяти з
+      [операційною системою](#operating_system), наприклад Bash (для Unix та MacOS)
+      або PowerShell (для Windows).
 
 - slug: shell_script
   en:
