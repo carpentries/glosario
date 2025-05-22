@@ -467,6 +467,7 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ChubOlya"><img src="https://avatars.githubusercontent.com/u/66166517?v=4?s=100" width="100px;" alt="Chub Olga"/><br /><sub><b>Chub Olga</b></sub></a><br /><a href="#review-ChubOlya" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ViktoriiaGrivina"><img src="https://avatars.githubusercontent.com/u/171017648?v=4?s=100" width="100px;" alt="ViktoriiaGrivina"/><br /><sub><b>ViktoriiaGrivina</b></sub></a><br /><a href="#review-ViktoriiaGrivina" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Avhustyn-t"><img src="https://avatars.githubusercontent.com/u/188987538?v=4?s=100" width="100px;" alt="Avhustyn-t"/><br /><sub><b>Avhustyn-t</b></sub></a><br /><a href="#translation-Avhustyn-t" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://lauramugeha.bio"><img src="https://avatars.githubusercontent.com/u/47306402?v=4?s=100" width="100px;" alt="Laura Mugeha"/><br /><sub><b>Laura Mugeha</b></sub></a><br /><a href="#review-mugeha-laura" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
