@@ -58,14 +58,6 @@
 
       '
     term: aggregation function
-- slug: algorithmic_bias
-  sw:
-    def: 'Repeatable results that show bias, or skewed treatment, found in an [algorithm](#algorithm).
-      For example, social media algorithms may prioritize or stigmatize content from
-      certain groups of users.
-
-      '
-    term: algorithmic bias
 - slug: anaconda
   sw:
     def: 'Anaconda is a [software distribution] (#software_distribution) of R and
@@ -167,13 +159,6 @@
 
       '
     term: Bayesian network
-- slug: bias
-  sw:
-    def: 'A statistic is biased if it is systematically or consistently different
-      from the parameter it is supposed to estimate.
-
-      '
-    term: bias
 - slug: binary
   sw:
     def: 'A system which can have one of two possible states. In computing, often

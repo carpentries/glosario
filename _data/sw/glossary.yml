@@ -537,6 +537,31 @@
   - true_positive
   - machine_learning
   - classification
+- slug: bias
+  sw:
+    def: 'Takwimu ni upendeleo ikiwa ni tofauti kwa mfumo au kwa kawaida na vigezo
+      inavyopaswa kukadiria. Takwimu inachukuliwa kuwa na upendeleo ikiwa inapotosha
+      au kupotoka kwa njia ya mara kwa mara au ya kudumu kutoka kwa kigezo halisi
+      inachopaswa kukadiria.
+
+      '
+    term: upendeleo
+  ref:
+  - variance
+  - overfitting
+  - classification
+  - systematic_error
+- slug: algorithmic_bias
+  sw:
+    def: 'Matokeo yanayojirudia yanayoonyesha upendeleo, au matibabu yasiyo sawa,
+      yanayopatikana katika [algorithms](#algorithm). Kwa mfano, algorithms za mitandao
+      ya kijamii zinaweza kuipa kipaumbele au kuashiria maudhui kutoka kwa vikundi
+      fulani vya watumiaji.
+
+      '
+    term: upendeleo wa algorithm
+  ref:
+  - algorithm
 - slug: accuracy
   sw:
     def: 'Kipimo cha takwimu cha muundo wa uainishaji ambao hutoa uwiano ya utabiri
