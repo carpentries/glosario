@@ -50,14 +50,36 @@ Each entry includes:
 
 ---
 
-#### How can I contribute?
+### Where do I start?
 
-There are two main ways:
+We accept either:
+- new terms and definitions in English and one or more other languages
+- translations of existing English terms and definitions into one or more other languages
 
-- [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform) – No technical knowledge needed.  
-- [GitHub](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit?tab=t.0#heading=h.wsi1psxc3n64) – If you're familiar with GitHub’s web interface, you can contribute directly.
+There are three routes available to you to make your contribution (see the section below):
+- via our Google Form (recommended)
+- via a GitHub issue
+- via a direct change in the Glosario glossary.yml file and a pull request raise in GitHub (advanced)
 
-Check out our short YouTube tutorials:
+To make contributions via GitHub, you will need a valid GitHub login.
+
+---
+
+#### How do I submit a translation?
+
+##### Via Google Form
+
+Go to the language page that you want to translate a term for, and click the accordion dropdown "Show Terms That Need Translation". Find the term in the list that you wish to translate, and click the Google icon to the right. The form will open in a new tab, and the English term and language will be prefilled for you. Please add your GitHub username, the translated term, and the translated definition. Click Submit. You are done!
+
+##### Via GitHub Issue
+
+Go to the language page that you want to translate a term for, and click the accordion dropdown "Show Terms That Need Translation". Find the term in the list that you wish to translate, and click the GitHub icon to the right. The GitHub new issue form will open in a new tab, and the English term title and language label will be prefilled for you. Please add the translated term and the translated definition in the main issue text box. Click Create. You are done!
+
+#### Via GitHub Pull Request
+
+See our [contribution guide](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit?tab=t.0#heading=h.wsi1psxc3n64) for full instructions.
+
+Also, check out our short YouTube tutorials:
 
 - [Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
 - [Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)  
