@@ -139,13 +139,6 @@
     def: >
       The difference between the measured or inferred value of a quantity and its actual value, 
       sometimes with the absolute value taken. 
-  it:
-    term: "errore assoluto"
-    def: > 
-      L’errore assoluto rappresenta la misura della differenza tra un valore osservato, cioè il valore misurato 
-      o stimato, e il valore corretto o vero, ovvero il valore reale o atteso. Si calcola come il valore assoluto di 
-      questa differenza, quindi senza considerare se l’errore sia positivo o negativo.
-  
   id:
     term: "kesalahan absolut"
     def: >
