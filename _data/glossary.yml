@@ -459,7 +459,6 @@
 
       Accuracy and precision are both ways to measure results. Accuracy measures how close results are
       to the true or known value. Precision, on the other hand, measures how close results are to one another.
-
   es:
     term: "precisión"
     def: >
