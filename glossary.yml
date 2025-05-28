@@ -139,13 +139,6 @@
     def: >
       The difference between the measured or inferred value of a quantity and its actual value, 
       sometimes with the absolute value taken. 
-  it:
-    term: "errore assoluto"
-    def: > 
-      L’errore assoluto rappresenta la misura della differenza tra un valore osservato, cioè il valore misurato 
-      o stimato, e il valore corretto o vero, ovvero il valore reale o atteso. Si calcola come il valore assoluto di 
-      questa differenza, quindi senza considerare se l’errore sia positivo o negativo.
-  
   id:
     term: "kesalahan absolut"
     def: >
@@ -466,14 +459,6 @@
 
       Accuracy and precision are both ways to measure results. Accuracy measures how close results are
       to the true or known value. Precision, on the other hand, measures how close results are to one another.
-  it: 
-    term: "accuratezza"
-    def: >
-      L’accuratezza misura quanto i risultati siano vicini al valore vero o noto. È una misura statistica utilizzata 
-      nei modelli di classificazione per determinare la proporzione di previsioni corrette sul totale dei casi analizzati. 
-      Si calcola come Accuratezza = (TP + TN) / (TP + TN + FP + FN). TP = Vero Positivo - FP = Falso Positivo - FN = Falso Negativo - TN = Vero Negativo. 
-      L’accuratezza e la precisione sono entrambi modi per misurare i risultati. L’accuratezza misura quanto i risultati siano vicini al valore vero o noto. 
-      La precisione, invece, misura quanto i risultati siano vicini tra loro. 
   es:
     term: "precisión"
     def: >
