@@ -2084,6 +2084,11 @@
       A [comment](#comment) that spans multiple lines. Block comments may be marked
       with special start and end symbols, like `/*` and `*/` in C and its descendents,
       or each line may be prefixed with a marker like `#`.
+    af:
+    term: "blokkommentaar"
+    def: >
+      Kommentaar in rekenaarprogrammeerkode wat oor meer as een lyn strek. Blokkomentaar word gewoonlik aangedui 
+      deur begin- en eindsimbole, bv. /* en */ in C en soortgelyke tale, of elke lyn word begin met 'n simbool bv. #
   pt:
     term: "bloco de comentário"
     def: >
