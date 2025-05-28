@@ -4576,9 +4576,9 @@
     def: >
       A vote against something.
   af:
-  term: "afstem"
-  def: >   
-      Om teen iets te stem. 
+    term: "afstem"
+    def: >
+      Om teen iets te stem.
   am:
     term: ወደታች ድምጽ መስጠት
     def: >
