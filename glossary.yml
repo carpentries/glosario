@@ -7770,6 +7770,10 @@
     term: "Modus"
     def: >
       Auch Modalwert genannt. Gibt den Wert oder die Werte an, die am häufigsten in einem Datensatz vorkommen.
+  am:
+    term: "المنوال"
+    def: >
+      القيمة أو القيم الأكثر تكراراً في مجموعة البيانات.
 
 
 - slug: model
