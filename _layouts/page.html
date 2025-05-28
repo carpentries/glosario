@@ -1,10 +1,15 @@
+<!DOCTYPE html>
 {% assign language = page.permalink | replace: '/', '' | default: 'en' %}
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{language}}">
   <head>
     <title>{{site.title}}</title>
     <link href="{{ '/static/site.css' | relative_url }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/glossary.css' | relative_url }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include matomo.html %}
+
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <main>
@@ -18,7 +23,7 @@
             {% for lang in site.languages %}
                 <font color="white" size="5px" face="arial">
                     <a class="lang_links"
-                       href="#{{lang.name}}">{{lang.name}}</>
+                       href="{{'/' | append: lang.key | relative_url}}">{{lang.name}}
                     </a>
                     <br>
                 </font>
@@ -33,7 +38,11 @@
         -
         <a href="{{'/license/' | relative_url}}">License</a>
         -
+        <a href="{{'/conduct/' | relative_url}}">Code of Conduct</a>
+        -
         <a href="{{ site.repository_url }}">GitHub</a>
+        -
+        <a href="https://www.netlify.com">This site is powered by Netlify</a>
       </p>
     </footer>
   </body>
