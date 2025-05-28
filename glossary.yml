@@ -6695,6 +6695,10 @@
     term: "join"
     def: >
       One of several operations that combine values from two [tables](#table).
+  zu: 
+    term: "xhumanisa"
+    def: >
+      Enye yezindlela eziningi zokuxhumanisa amanani avela kumatafula amabili.
 
   am:
     term: ተቀላቀል
@@ -7656,6 +7660,10 @@
     term: ማዋሃድ (ጌት)
     def: >
       ይመልከቱ [Git merge](#git_merge)
+  zu:
+    term: "hlanganisa"
+    def: >
+      Ukuhlanganisa noma ukuxhumanisa amagatsha amabili ukuze abe elilodwa.
 
 - slug: method
   en:
@@ -9039,6 +9047,10 @@
     term: "README"
     def: >
       A plain text file containing important information about a project or software package.
+  zu:
+    term: "NGIFUNDE"
+    def: >
+      Umbhalo oqukethe imininingwane ebalulekile ngo hlelo lomsebenzi "project" noma nge "software package". 
   uk:
     term: "README (прочитай мене)"
     def: >
@@ -10491,6 +10503,10 @@
     def: >
       The logical ([Boolean](#boolean)) state opposite of "[false](#false)". Used in
       logic and programming to represent a [binary](#binary) state of something.
+  zu:
+    term: "qiniso"
+    def: >
+      Isimo sento engewona amanga. Lisetshenziswa kwezobuchwepheshe kwama khompuyutha ukwehlukanisa isimo kwezimbili phakathi kwesingamanga nesiyiqiniso.
 
 
 - slug: true_negative
