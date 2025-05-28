@@ -605,12 +605,6 @@
 
       '
     term: minimum spanning tree
-- slug: mode
-  am:
-    def: 'The value, or values, that occurs most frequently in a dataset.
-
-      '
-    term: mode
 - slug: model
   am:
     def: 'A specification of the mathematical relationship between different variables.
