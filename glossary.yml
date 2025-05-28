@@ -2687,7 +2687,10 @@
     term: "down-vote"
     def: >
       A vote against something.
-
+  af:
+    term: "afstem"
+    def: > 
+      Om teen iets te stem. 
 
 - slug: dry
   en:
