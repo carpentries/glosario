@@ -2571,7 +2571,10 @@
     term: "call stack"
     def: >
       Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin aktif yang sedang dijalankan.
-
+  fr:
+    term: "pile d'appels"
+    def: >
+      aussi appelée pile d'exécution, il s'agit d'une structure de donnée qui enregistre des informations sur les sous routines qui sont actuellement exécutées. 
   am:
     term: የጥሪ ቁልል
     def: "የተተገበሩ  ንቁ ንዑስ አንቀጾች መረጃን የሚያከማች የውሂብ መዋቅር ።\t\n"
