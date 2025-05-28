@@ -470,6 +470,7 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="http://lauramugeha.bio"><img src="https://avatars.githubusercontent.com/u/47306402?v=4?s=100" width="100px;" alt="Laura Mugeha"/><br /><sub><b>Laura Mugeha</b></sub></a><br /><a href="#review-mugeha-laura" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Mpilo-K"><img src="https://avatars.githubusercontent.com/u/54138769?v=4?s=100" width="100px;" alt="Mpilo Khumalo"/><br /><sub><b>Mpilo Khumalo</b></sub></a><br /><a href="#translation-Mpilo-K" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TinoCoda"><img src="https://avatars.githubusercontent.com/u/111807873?v=4?s=100" width="100px;" alt="DBM"/><br /><sub><b>DBM</b></sub></a><br /><a href="#translation-TinoCoda" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://federicagazzelloni.com/"><img src="https://avatars.githubusercontent.com/u/61802414?v=4?s=100" width="100px;" alt="Federica Gazzelloni (she/her)"/><br /><sub><b>Federica Gazzelloni (she/her)</b></sub></a><br /><a href="#translation-fgazzelloni" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
