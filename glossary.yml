@@ -2572,6 +2572,11 @@
     term: "call stack"
     def: >
       A data structure that stores information about the subroutines currently being executed.
+  fr:
+    term: "pile d'appels"
+    def: >
+      Aussi appelée pile d'exécution, il s'agit d'une structure de donnée qui enregistre des informations sur 
+      les sous routines qui sont actuellement exécutées. 
   id:
     term: "call stack"
     def: >
