@@ -853,12 +853,6 @@
 
       '
     term: double square brackets
-- slug: down_vote
-  af:
-    def: 'A vote against something.
-
-      '
-    term: down-vote
 - slug: dynamic_loading
   af:
     def: 'To [import](#import) a [module](#module) into the memory of a program while

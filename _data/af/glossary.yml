@@ -76,6 +76,14 @@
 
       '
     term: afgooiware
+- slug: down_vote
+  af:
+    def: 'Om teen iets te stem.
+
+      '
+    term: afstem
+  ref:
+  - up_vote
 - slug: aggregation_function
   af:
     def: '''n Funksie wat ''n groep waardes saamvoeg, bv. `sum` (summering) en `max`
