@@ -27,14 +27,6 @@
 
       '
     term: binomial distribution
-- slug: block_comment
-  af:
-    def: 'A [comment](#comment) that spans multiple lines. Block comments may be marked
-      with special start and end symbols, like `/*` and `*/` in C and its descendents,
-      or each line may be prefixed with a marker like `#`.
-
-      '
-    term: block comment
 - slug: boilerplate
   af:
     def: 'Standard text that is included in legal contracts, licenses, and so on.

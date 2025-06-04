@@ -304,6 +304,14 @@
   ref:
   - binary
   - boolean
+- slug: block_comment
+  af:
+    def: 'Kommentaar in rekenaarprogrammeerkode wat oor meer as een lyn strek. Blokkomentaar
+      word gewoonlik aangedui  deur begin- en eindsimbole, bv. /* en */ in C en soortgelyke
+      tale, of elke lyn word begin met ''n simbool bv. #
+
+      '
+    term: blokkommentaar
 - slug: bug
   af:
     def: '''n Ontbrekende of ongewenste kenmerk van ''n stuk sagteware; die digitale
