@@ -261,13 +261,6 @@
 
       '
     term: caching
-- slug: call_stack
-  fr:
-    def: 'A data structure that stores information about the subroutines currently
-      being executed.
-
-      '
-    term: call stack
 - slug: callback
   fr:
     def: 'A function A that is passed to another function B so that B can call it

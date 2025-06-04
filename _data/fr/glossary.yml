@@ -465,6 +465,12 @@
       \ \xC0 ne pas confondre avec le terme [argument](#argument). Un param\xE8tre\
       \ est une variable, un argument est une valeur assign\xE9e \xE0 cette variable.\n"
     term: "param\xE8tre"
+- slug: call_stack
+  fr:
+    def: "aussi appel\xE9e pile d'appels, il s'agit d'une structure de donn\xE9es\
+      \ qui enregistre des informations sur les sous-routines qui sont actuellement\
+      \ ex\xE9cut\xE9es. \n"
+    term: "pile d'ex\xE9cution"
 - slug: accuracy
   fr:
     def: "L'exactitude et la pr\xE9cision sont deux fa\xE7ons de mesurer les r\xE9\
