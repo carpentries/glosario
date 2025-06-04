@@ -1,0 +1,97 @@
+{% assign language = page.permalink | replace: '/', '' %}
+{% for lang in site.languages %}
+  {% if lang.key == language %}
+    {% assign language_name = lang.name %}
+  {% endif %}
+{% endfor %}
+{% assign untranslated = site.data.[language].untranslated_terms %}
+
+{% assign gh_issue_title = "[" | append: language | append: "]+Translation+for+term+" %}
+{% assign gh_issue_body = "Please+provide+a+translation+for+the+term+and+definition+" %}
+{% assign gh_base_url = "https://github.com/carpentries/glosario/issues/new?labels=lang:+" | append: language %}
+{% assign gform_base_url = "https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform?usp=pp_url" %}
+
+{% if language != "en" and untranslated.size > 0 %}
+<div class="accordion" id="tableAccordion" style="padding-bottom: 5px;">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Show Terms That Need Translation
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#tableAccordion">
+        <div class="accordion-body">
+            <table
+                id="{{language}}-table"
+                class="table"
+                data-toggle="table"
+                data-search="true"
+                data-show-columns="true"
+                data-pagination="true"
+            >
+            <thead>
+              <tr class="tr-class-1">
+                <th data-valign="middle">
+                    Term
+                </th>
+                <th data-valign="middle">
+                    Definition
+                </th>
+                <th
+                  colspan="2"
+                  data-valign="middle">
+                    Contribute
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {%- for uterm in untranslated -%}
+                {% assign abs_glos_slug_link =  site.url | append: "/en/%23" | append: uterm.slug %}
+                {% assign gh_title = gh_issue_title | append: "'" | append: uterm[language].term | append: "'" %}
+                {% assign gh_body = gh_issue_body | append: "'" | append: uterm[language].term | append: "'+[" | append: uterm.slug | append: "](" | append: abs_glos_slug_link | append: ")+below:"  %}
+                {% assign gh_url = gh_base_url | append: "&title=" | append: gh_title | append: "&body=" | append: gh_body %}
+
+                {% assign gform_lang_term = "&entry.969059811=" | append: uterm[language].term %}
+                {% assign gform_lang_name = "&entry.1475090730=" | append: language %}
+
+                <!-- {% assign "&entry.35176795=" | append: lang-term %}
+                {% assign "&entry.1621902414=" | append: lang-def %} -->
+
+                {% assign gform_url = gform_base_url | append: gform_lang_term | append: gform_lang_name %}
+
+                <tr class="untranslated_term">
+                  <td><a href="/en/#{{uterm.slug}}">{{uterm[language].term}}</a></td>
+                  <td>{{uterm[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</td>
+                  <td><a target="_blank" href="{{gform_url}}"><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td>
+                  <td><a target="_blank" href="{{gh_url}}"><i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
+                </tr>
+              {%- endfor -%}
+            </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const collapseElement = document.getElementById('myTableCollapse');
+      collapseElement.addEventListener('shown.bs.collapse', function () {
+        $('#{{language}}-table').bootstrapTable('refreshOptions', {
+          height: 'auto'  // or any other options you want
+        });
+      });
+    });
+  </script>
+
+{% else %}
+
+  {% assign gh_issue_title = "[en]+New+term:+" %}
+  {% assign gh_issue_body = "Please+provide+a+definition+for+the+new+term+in+English+below:" %}
+  {% assign gh_url = gh_base_url | append: "&title=" | append: gh_issue_title | append: "&body=" | append: gh_issue_body %}
+
+  <div class="sticky-nav">
+    <!-- <a target="_blank" href="{{gform_url}}"><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td> -->
+    <a target="_blank" href="{{gh_url}}"><strong>+ Add new term</strong> <i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
+  </div>
+{% endif %}

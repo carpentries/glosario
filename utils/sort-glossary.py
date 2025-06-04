@@ -195,6 +195,34 @@ LANGUAGES = [
     ('zu', 'Zulu')
 ]
 
+def _generate_untranslated_terms(sorted_glossary_by_lang):
+    # generate a dict of untranslated terms keyed by term
+    untranslated_terms_by_lang = {}
+
+    # if a term is in the english glossary but in no others, then add it to the untranslated dict
+    for lang in sorted_glossary_by_lang.keys():
+        if lang != "en":
+            # get a list of current slugs in the current language glossary
+            lang_slugs = [term["slug"] for term in sorted_glossary_by_lang[lang]]
+
+            # if a term is in the english glossary but not in the current language glossary, add it to the untranslated dict
+            for term in sorted_glossary_by_lang["en"]:
+                # check if the term is in the current language glossary
+                if term["slug"] not in lang_slugs:
+                    if lang not in untranslated_terms_by_lang:
+                        untranslated_terms_by_lang[lang] = []
+
+                    # add the term to the untranslated dict
+                    od = OrderedDict({
+                        "slug": term["slug"],
+                        lang: {
+                            "term": term["en"]["term"],
+                            "def": term["en"]["def"]
+                        }
+                    })
+                    untranslated_terms_by_lang[lang].append(od)
+
+    return untranslated_terms_by_lang
 
 def _sort_terms(count_dict, data_path):
     # sort and reassign terms
@@ -248,6 +276,9 @@ def _setup_dict(glossary, data_path):
                     }
                 )
 
+                if "ref" in slug:
+                    count_dict[lang]["term_entry_map"][slug[lang]["term"]]["ref"] = slug["ref"]
+
     # return the data structure including sorted terms
     return _sort_terms(count_dict, data_path)
 
@@ -264,14 +295,20 @@ def _build_lang_glossary(count_dict):
                 slug = term_map["slug"]
                 _def = term_map["def"]
 
+                od = OrderedDict({
+                    "slug": slug,
+                    lang: {
+                        "term": sorted_term,
+                        "def": _def
+                    }
+                })
+
+                if "ref" in term_map:
+                    _ref = term_map["ref"]
+                    od["ref"] = _ref
+
                 # use an OrderedDict to retain insertion order
-                sorted_glossary.append(OrderedDict({
-                        "slug": slug,
-                        lang: {
-                            "term": sorted_term,
-                            "def": _def
-                        }
-                    }))
+                sorted_glossary.append(od)
 
         # only include languages with terms
         if sorted_glossary:
@@ -302,13 +339,22 @@ def main():
         # rebuild glossary per language
         sorted_glossary_by_lang = _build_lang_glossary(sort_dict)
 
+        # generate untranslated terms
+        untranslated_terms = _generate_untranslated_terms(sorted_glossary_by_lang)
+
         # setup yaml for outputting
         setup_yaml()
         for lang in sorted_glossary_by_lang:
             yaml.dump(sorted_glossary_by_lang[lang], Path(f'_data/{lang}/glossary.yml').open('w'))
+            if lang != "en":
+                yaml.dump(untranslated_terms[lang], Path(f'_data/{lang}/untranslated_terms.yml').open('w'))
 
-        # output counts
-        # pprint.pprint(count_dict)
+        # print untranslated terms
+        # pprint.pprint(untranslated_terms)
+
+        # for lang in untranslated_terms:
+        #     print(f"Untranslated terms for {lang}: {len(untranslated_terms[lang])}/{len(sorted_glossary_by_lang['en'])}")
+
     except Exception as e:
         print(e)
 
