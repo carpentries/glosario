@@ -2752,7 +2752,7 @@
   en:
     term: Creative Commons license
     def: >
-      A set of [licenses](#license) that can be applied to published work. Each license is formed by [concatenating](#concatenating) one or more of `-BY` (Attribution): users must cite the original source; `-SA` (ShareAlike): users must share their own work under a similar license; `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission; `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission." The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions," i.e., the work is in the public domain.
+      A set of [licenses](#license) that can be applied to published work. Each license is formed by [concatenating](#concatenate) one or more of `-BY` (Attribution): users must cite the original source; `-SA` (ShareAlike): users must share their own work under a similar license; `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission; `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission. Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission." The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions," i.e., the work is in the public domain.
   pt:
     term: Licença Creative Commons
     def: >
