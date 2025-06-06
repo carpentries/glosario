@@ -7696,11 +7696,15 @@
     def: >
       'n Teiken wat 'n projek probeer bereik, dikwels voorgestel as 'n stel [kwessies](#issue)
       wat almal teen 'n sekere tyd opgelos moet wees.
-
   am:
     term: ወሳኝ ምዕራፍ
     def: >
       አንድ ፕሮጀክት ሊያሟላ እየሞከረ ያለው ዒላማ ፣ ብዙውን ጊዜ እንደ ስብስብ ይወከላል [ጉዳዮች](#issue) ሁሉም በተወሰነ ጊዜ መፍታት አለባቸው ፡፡
+  fr:
+    term: jalon
+    def: >
+      Un objectif qu’un projet cherche à atteindre, souvent représenté comme un ensemble de problèmes à résoudre ou de tâches devant tous être résolus avant une date butoire.
+      
 
 - slug: mime_type
   en:
