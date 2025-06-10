@@ -7584,6 +7584,10 @@
     def: >
       Середнє значення набору даних, більш відоме як [арифметичне середнє](#arithmetic_mean), що
       відрізняється від [геометричного](#geometric_mean) та [гармонічного](#harmonic_mean) середнього.
+  fr:
+    term: moyenne
+    def: >
+      La valeur moyenne d'un ensemble de données, plus précisément appelée moyenne arithmétique pour la distinguer de la moyenne géométrique et de la moyenne harmonique.
 
 - slug: mean_absolute_error
   ref:
@@ -7679,11 +7683,14 @@
     def: >
       Una implementación de una [función genérica](#generic_function) que
       manipula objetos de una clase específica.
-
   am:
     term: ዘዴ
     def: >
       የሚያስተናግደው የ [አጠቃላይ ተግባር](#generic_function) የአንድ የተወሰነ ክፍል ዕቃዎች።
+  fr:
+    term: méthode
+    def: >
+      Dans le contexte de la programmation orientée objets, il s'agit d'une implémentation d'une fonction générique ou d'une routine qui manipule les objets d'une classe spécifique.
 
 - slug: milestone
   en:
