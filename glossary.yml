@@ -137,8 +137,8 @@
   en:
     term: "absolute error"
     def: >
-      The total value  of the difference between the observed and correct value.
-      The absolute error is typically less useful than [relative error](#relative_error).
+      The difference between the measured or inferred value of a quantity and its actual value, 
+      sometimes with the absolute value taken. 
   id:
     term: "kesalahan absolut"
     def: >
@@ -459,7 +459,6 @@
 
       Accuracy and precision are both ways to measure results. Accuracy measures how close results are
       to the true or known value. Precision, on the other hand, measures how close results are to one another.
-
   es:
     term: "precisión"
     def: >
@@ -830,6 +829,12 @@
     def: >
       Resultados repetibles que muestran un sesgo, o un tratamiento sesgado, encontrado en un [algoritmo](#algorithm).
       Por ejemplo, algoritmos de redes sociales pueden priorizar o estigmatizar contenido de ciertos grupos de usuarios.
+
+  sw:
+    term: "upendeleo wa algorithm"
+    def: >
+      Matokeo yanayojirudia yanayoonyesha upendeleo, au matibabu yasiyo sawa, yanayopatikana katika [algorithms](#algorithm).
+      Kwa mfano, algorithms za mitandao ya kijamii zinaweza kuipa kipaumbele au kuashiria maudhui kutoka kwa vikundi fulani vya watumiaji.
 
 
 - slug: aliasing
@@ -1317,6 +1322,19 @@
       wakalimani chini ya hali ya uboreshaji. Kutumia madai kwa uthibitishaji wa data kwa hivyo kunaweza kuanzisha hatari za usalama.
       Tofauti na lugha nyingi, R haina taarifa ya `assert` ambayo inaweza kuzimwa,
       na kwa hivyo matumizi ya [package](#package) kama vile `assertr` kwa uthibitishaji wa data haileti mashimo ya usalama.
+  uk:
+    term: "припущення"
+    def: >
+      [Булевий вираз](#boolean), який повинен бути [істинним](#true) під час його обчислення у програмі.
+      Припущення можуть бути вбудованими в мову програмування (наприклад, оператор `assert` у [Python](#python))
+      або надаватися як функції (наприклад, `stopifnot` в [R](#r_language)).
+      Припущення часто використовуються розробниками під час тестування, але також можуть бути постійно
+      залишені у коді для перевірки подальшої правильності його виконання.
+      У багатьох мовах програмування припущення не слід використовувати для перевірки даних,
+      оскільки компілятори та інтерпретатори можуть їх пропускати під час оптимізації.
+      Використання припущень для перевірки даних може, таким чином, створити ризики безпеки.
+      Але на відміну від багатьох мов, R не має оператора `assert`, який можна вимкнути, тому
+      використання такого [пакета](#package) як `assertr` для перевірки даних є безпечним.
 
 - slug: associative_array
   en:
@@ -1793,6 +1811,11 @@
     def: >
       Auch systematische Abweichung genannt. Ein Messwert wird dann als verzerrt beschrieben, wenn er
       systematisch von dem wahren Wert einer Messgröße abweicht.
+  sw:
+    term: "upendeleo"
+    def: >
+      Takwimu ni upendeleo ikiwa ni tofauti kwa mfumo au kwa kawaida na vigezo inavyopaswa kukadiria.
+      Takwimu inachukuliwa kuwa na upendeleo ikiwa inapotosha au kupotoka kwa njia ya mara kwa mara au ya kudumu kutoka kwa kigezo halisi inachopaswa kukadiria.
   am:
     term: ወገንተኝነት
     def: >
@@ -2061,6 +2084,11 @@
       A [comment](#comment) that spans multiple lines. Block comments may be marked
       with special start and end symbols, like `/*` and `*/` in C and its descendents,
       or each line may be prefixed with a marker like `#`.
+  af:
+    term: "blokkommentaar"
+    def: >
+      Kommentaar in rekenaarprogrammeerkode wat oor meer as een lyn strek. Blokkomentaar word gewoonlik aangedui 
+      deur begin- en eindsimbole, bv. /* en */ in C en soortgelyke tale, of elke lyn word begin met 'n simbool bv. #
   pt:
     term: "bloco de comentário"
     def: >
@@ -2548,7 +2576,10 @@
     term: "call stack"
     def: >
       Sebuah struktur data yang berguna untuk menyimpan informasi mengenai subrutin aktif yang sedang dijalankan.
-
+  fr:
+    term: "pile d'exécution"
+    def: >
+      aussi appelée pile d'appels, il s'agit d'une structure de données qui enregistre des informations sur les sous-routines qui sont actuellement exécutées. 
   am:
     term: የጥሪ ቁልል
     def: "የተተገበሩ  ንቁ ንዑስ አንቀጾች መረጃን የሚያከማች የውሂብ መዋቅር ።\t\n"
@@ -2687,6 +2718,11 @@
     term: causation
     def: >
       አንድ ክስተት ተጠያቂ ነው ተብሎ በሚነገርበት በልዩ ልዩ ክስተቶች መካከል ያለው ግንኙነት በሌላው ላይ ለውጥ መፍጠር ወይም ተፅዕኖ ማሳደር።
+  uk:
+    term: "причинно-наслідковий зв'язок"
+    def: >
+      Взаємозв’язок між окремими подіями, за якого одна подія розглядається як причина, що зумовлює 
+      виникнення, зміну чи наслідки іншої події.
 
 - slug: cc_0
   en:
@@ -2710,7 +2746,12 @@
       Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche den
       Verzicht auf sämtliche Schutzrechte erklärt und das Werk in die
       Gemeinfreiheit überführt.
-
+  uk:
+    term: "CC-0"
+    def: >
+      Різновид ліцензії [Creative Commons](#cc_license), який дозволяє
+      автору добровільно відмовитися від усіх авторських прав на
+      свій твір і передати його у суспільне надбання без жодних умов чи обмежень.
   am:
     term: ሲሲ-0
     def: >
@@ -2733,7 +2774,12 @@
       Eine [Creative-Commons](#cc_license) [Lizenz](#license) welche eine
       Namensnennung der Urheber verlangt aber sonst keine weiteren
       Restriktionen auferlegt.
-
+  uk:
+    term: "CC-BY"
+    def: >
+      [Creative Commons](#cc_license) - Attribution [license](#license):
+      ліцензія, яка дозволяє вільно використовувати, змінювати і поширювати
+      твір за умови обов'язкового зазначення авторства, без інших обмежень.
   am:
     term: ሲሲ-ባይ
     def: >
@@ -2756,6 +2802,22 @@
     term: የፈጠራ ኮመንስ ፍቃድ
     def: >
       ለህትመት ሥራ ሊመለከቱ የሚችሉ [ፍቃዶች](#license) እያንዳንዳቸው ፍቃድ ሚመሰረተው የ '-ባይ' (Attribution) ተጠቃሚዎችን አንድ ወይም ከዚያ በላይ በመመደብ ነው must cite cite the original source; '-SA' (ShareAlike) ተጠቃሚዎች የራሳቸውን ማጋራት አለባቸው በተመሳሳይ ፈቃድ ሥራ መሥራት፤ '-ኤን ሲ' (NonCommercial) ስራ ላይውል ይችላል ያለ ፈጣሪ ፈቃድ የንግድ ዓላማዎች፤ '-ND' (NoDerivatives) አይደለም የተዋሕዶ ስራዎች (ለምሳሌ፣ ትርጉሞች) ያለ ፈጣሪ ሊፈጠሩ ይችላሉ ፍቃድ። በመሆኑም 'CC-BY-ኤንሲ' ማለት"ተጠቃሚዎች ባህሪ መስጠት አለባቸው እና መጠቀም አይችሉም ለንግድ ያለ ፈቃድ". 'ሲሲ-0' (ዜሮ እንጂ ፊደል 'ኦ' አይደለም) የሚለው ቃል ነው አንዳንድ ጊዜ"እገዳ የለም"ማለትም ሥራው በሕዝብ ክልል ውስጥ ይገኛል።
+  uk:
+    term: Creative Commons license
+    def: >
+      Набір ліцензій, які можна застосовувати до опублікованого твору.
+      Кожна ліцензія формується шляхом конкатенації одного або кількох із
+      -BY (зазначення авторства): користувачі повинні цитувати першоджерело;
+      -SA (ShareAlike): користувачі повинні ділитися власними творами
+      за аналогічною ліцензією;
+      -NC (некомерційний): твір не може використовуватися в комерційних
+      цілях без дозволу автора;
+      -ND (NoDerivatives): жодні похідні твори (наприклад, переклади)
+      не можуть бути створені без дозволу автора.
+      Таким чином, CC-BY-NC означає, що "користувачі повинні вказати
+      авторство та не можуть використовувати в комерційних цілях без дозволу".
+      Термін CC-0 (нуль, а не літера "О") іноді використовується для
+      позначення "немає обмежень, тобто твір є суспільним надбанням.
 
 - slug: centroid
   en:
@@ -2887,6 +2949,12 @@
     term: ትዕዛዝ-መስመር አገናኝ
     def: >
       ኢንተርፌት በ[ዛጎል](#shell) ውስጥ ለመሮጥ ትዕዛዞች እና ውጤቶች ለማግኘት በጽሁፍ ላይ ብቻ የሚደገፍ  ።
+  uk:
+    term: інтерфейс командного рядка
+    def: >
+      Інтерфейс користувача, який повністю покладається на текст
+      для введення команд та виведення результатів їх виконання.
+      Зазвичай використовується у [командній оболонці](#shell).
 
 - slug: client
   en:
@@ -3384,7 +3452,11 @@
     def: >
       Kituo cha kompyuta ambapo mtumiaji anaweza kuingiza amri, au programu, kama vile shell
       ambayo huiga kifaa kama hicho.
-
+  uk:
+    term: "консоль"
+    def: >
+      Комп'ютерний термінал, де користувач може вводити команди, або програма,
+      яка імітує такий пристрій, наприклад, [командна оболонка](#shell).
 
 - slug: confusion_matrix
   en:
@@ -3395,7 +3467,7 @@
       represents the predicted classes. For a binary classification model the confusion matrix
       gives the True Positives (TP), False Negatives (FN), False Positives (FP) and True Negatives
       (TN) in the 1st, 2nd, 3rd and 4th quadrants, respectively. The table can be used to calculate
-      Accuracy, Sensitivity and Specificity amongst other measures of the model.
+      [Accuracy](#accuracy), [Sensitivity](#sensitivity) and [Specificity](#specificity) amongst other measures of the model.
 
 - slug: constant
   en:
@@ -3675,6 +3747,11 @@
   am:
     term: ሁሉን አቀፍ R መዝገብ ቤት አውታረ መረብ
     def: የ [R](#r_language) ጥቅሎች የህዝብ ማከማቻ።
+  uk:
+    term: "CRAN (Comprehensive R Archive Network)"
+    acronym: "CRAN"
+    def: >
+      Публічний репозиторій для пакетів мовою програмування [R](#r_language).
 
 - slug: cross_join
   ref:
@@ -3893,7 +3970,6 @@
     term: "Uchimbaji data"
     def: >
       Mchakato wa kuchimba na kugundua mifumo katika seti kubwa za data kwa kutumia tarakilishi.
-
   am:
     term: መረጃ ማውጣት
     def: >
@@ -3910,12 +3986,10 @@
     def: >
       'n Sagtewarepakket wat meestal net data bevat. Word gebruik om dit eenvoudiger te maak
       om data te versprei vir makliker gebruik.
-
   am:
     term: የውሂብ ጥቅል
     def: >
       የሶፍትዌር ፓኬጅ ፣ በአብዛኛው ፣ መረጃዎችን ብቻ የያዘ። ለመሥራት ያገለገለ ነው ለቀላል አጠቃቀም መረጃን ለማሰራጨት የበለጠ ቀላል ነው።
-
   sw:
     term: "Kifurushi cha data"
     def: >
@@ -3948,11 +4022,15 @@
     term: "επιστήμη δεδομένων"
     def: >
       Ο συνδυασμός στατιστικής, προγραμματισμού και σκληρής δουλειάς που χρειάζεται για να εξαχθούν συμπεράσματα από δεδομένα.
-
   am:
     term: የውሂብ ሳይንስ
     def: >
       ጥቅም ላይ የዋለው የስታቲስቲክስ ፣ የፕሮግራም እና ከባድ ሥራ ጥምረት ከመረጃ ዕውቀትን ያውጡ።
+  uk:
+    term: "наука про дані"
+    def: >
+      Міждисциплінарна галузь, що поєднує статистику, математику, програмування, машинне навчання та інші методи
+      для розуміння даних і виявлення прихованих закономірностей.
 
 - slug: data_scientist
   en:
@@ -3979,11 +4057,15 @@
     term: "επιστήμονας δεδομένων"
     def: >
       Ένα άτομο που χρησιμοποιεί προγραμματισμό για να λύσει προβλήματα στατιστικής.
-
   am:
     term: የውሂብ ሳይንቲስት
     def: >
       የስታቲስቲክስ ችግሮችን ለመፍታት የፕሮግራም ችሎታን የሚጠቀም ሰው ፡፡
+  uk:
+    term: "спеціаліст з обробки даних"
+    def: >
+      Фахівець, який поєднує знання з програмування, статистики та машинного навчання для аналізу даних,
+      виявлення закономірностей і формулювання висновків, що допомагають приймати обґрунтовані рішення.
 
 - slug: data_structure
   en:
@@ -4000,6 +4082,10 @@
       kubainisha thamani ya seti za data na uwakilishi wao (au [encoding](#character_encoding)),
       uhusiano kati ya thamana, na njia za kufikia au kuendesha data hizo, kama vile
       kusoma, kubadilisha, au kuandika.
+  uk:
+    term: "структура даних"
+    def: >
+      Спосіб організації та зберігання даних у комп’ютері, який забезпечує ефективний доступ і зміну цих даних.
 
 - slug: data_visualization
   en:
@@ -4007,18 +4093,19 @@
     def: >
       The creation of charts, maps, graphs, or infographics to translate datasets into something visual.
       Sometimes called "dataviz" or "data viz."
-
-
   am:
     term: የውሂብ መዋቅር
     def: >
       ለድርጅቱ ቅርጸት ፣ አስተዳደር እና ቀልጣፋ ተደራሽነት መረጃ በተለምዶ ያደርገዋል የውሂብ እሴቶችን ስብስብ እና የእነሱ ውክልና (ወይም።) [ኢንኮዲንግ](#character_encoding)) ፣ በእሴቶች መካከል ያሉ ግንኙነቶች እና ለመድረስ ወይም ለማታለል መንገዶች እነዚያ መረጃዎች ፣ እንደ ማንበብ ፣ መለወጥ ወይም መጻፍ ፡፡
-
   sw:
     term: "taswira ya data"
     def: >
       Uundaji wa chati, ramani, grafu, au infographics ili kutafsiri seti za data kuwa kitu kinachoonekana.
       Wakati mwingine huitwa "dataviz" au "data viz."
+  uk:
+    term: "візуалізація даних"
+    def: >
+      Процес представлення даних у вигляді графіків, діаграм, карт або інших візуальних форм, що дозволяє легше сприймати та аналізувати інформацію.
 
 - slug: data_wrangling
   en:
@@ -4496,7 +4583,10 @@
     term: "down-vote"
     def: >
       A vote against something.
-
+  af:
+    term: "afstem"
+    def: >
+      Om teen iets te stem.
   am:
     term: ወደታች ድምጽ መስጠት
     def: >
@@ -4848,6 +4938,11 @@
       Un método de desarrollo de software en el cual los requerimientos emergen o cambian
       a medida que el software es escrito, frecuentemente en respuesta a resultados de
       corridas previas.
+  af:
+    term: "verkennende programmering"
+    def: >
+      Hierdie is 'n sagteware-ontwikkelingsmetodologie waarin vereistes ontstaan of verander terwyl die sagteware geskryf word, dikwels in reaksie op 
+      resultate van vroeë toetslopies.
 
   am:
     term: ተመራማሪ መርሃግብር
@@ -6909,7 +7004,11 @@
     term: "Lizenz"
     def: >
       Ein Rechtsdokument, das beschreibt, wie etwas verwendet werden kann und von wem.
-
+  uk:
+    term: "ліцензія"
+    def: >
+      Офіційний дозвіл, який регламентує умови використання об'єкта
+      інтелектуальної власності третіми особами.
 
 - slug: lifecycle
   en:
@@ -7682,6 +7781,10 @@
     term: "Modus"
     def: >
       Auch Modalwert genannt. Gibt den Wert oder die Werte an, die am häufigsten in einem Datensatz vorkommen.
+  am:
+    term: "المنوال"
+    def: >
+      القيمة أو القيم الأكثر تكراراً في مجموعة البيانات.
 
 
 - slug: model
@@ -7741,7 +7844,7 @@
     def: >
       Capable of performing several operations simultaneously. Multi-threaded programs
       are usually more efficient than [single-threaded](#single_threaded) ones, but
-      also harder to understand and debug.
+      also harder to understand and [debug](#debug).
 
 
 - slug: mutable_type
@@ -7839,7 +7942,10 @@
     term: "Nano (editor)"
     def: >
       A very simple text editor found on most Unix systems.
-
+  uk:
+    term: "Nano (редактор)"
+    def: >
+      Простий текстовий редактор, який можна знайти у багатьох системах Unix.
 
 - slug: negative_selection
   en:
@@ -8098,7 +8204,13 @@
       Una [licencia](#license) que permite reuso en general, tal como la [Licencia MIT](#mit_license)
       o [GPL](#gpl) para software y [CC-BY](#cc_by) o
       [CC-0](#cc_0) para datos, prosas u otros productos creativos.
-
+  uk:
+    term: "відкрита ліцензія"
+    def: >
+      [Ліцензія](#license), яка дозволяє загальне повторне використання творів,
+      наприклад, ліцензія [MIT](#mit_license) або [GPL](#gpl) для програмного
+      забезпечення та [CC-BY](#cc_by) або [CC-0](#cc_0) для даних, прози
+      чи інших творчих результатів.
 
 - slug: open_science
   en:
@@ -9184,7 +9296,7 @@
     def: >
       An interactive program that reads a command typed in by a user, executes it,
       prints the result, and then waits patiently for the next command. REPLs are
-      often used to explore new ideas, or for debugging.
+      often used to explore new ideas, or for [debugging](#debug).
 
 
 - slug: repository
@@ -9591,7 +9703,12 @@
     def: >
       A [command-line interface](#cli) that allows a user to interact with the
       [operating system](#operating_system), such as Bash (for Unix and MacOS) or PowerShell (for Windows).
-
+  uk:
+    term: "командна оболонка"
+    def: >
+      [Інтерфейс командного рядка](#cli), який дозволяє користувачеві взаємодіяти з
+      [операційною системою](#operating_system), наприклад Bash (для Unix та MacOS)
+      або PowerShell (для Windows).
 
 - slug: shell_script
   en:

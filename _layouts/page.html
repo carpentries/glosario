@@ -5,8 +5,11 @@
     <title>{{site.title}}</title>
     <link href="{{ '/static/site.css' | relative_url }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/glossary.css' | relative_url }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% include matomo.html %}
+
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <main>
@@ -20,7 +23,7 @@
             {% for lang in site.languages %}
                 <font color="white" size="5px" face="arial">
                     <a class="lang_links"
-                       href="#{{lang.name}}">{{lang.name}}</>
+                       href="{{'/' | append: lang.key | relative_url}}">{{lang.name}}
                     </a>
                     <br>
                 </font>
