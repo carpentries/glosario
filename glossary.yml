@@ -9962,9 +9962,9 @@
       A predefined communication channel for a [process](#process), typically used for
       error messages.
   es:
-    term: "error estandar"
+    term: "error estándar"
     def: >
-      Un canal de communication predefinido para un [proceso](#process), usado típicamente 
+      Un canal de comunicación predefinido para un [proceso](#process), usado típicamente 
       para mensajes de error.
 
 - slug: stdin
@@ -9977,9 +9977,9 @@
       A predefined communication channel for a [process](#process), typically used to
       read input from the keyboard or from the previous process in a [pipe](#pipe_shell).
   es:
-    term: "entrada estandar"
+    term: "entrada estándar"
     def: >
-      Un canal de communication predefinido para un [proceso](#process), usado típicamente para
+      Un canal de comunicación predefinido para un [proceso](#process), usado típicamente para
       leer la entrada desde el teclado o desde el proceso anterior en el flujo de trabajo.
 
 - slug: stdout
@@ -9992,9 +9992,9 @@
       A predefined communication channel for a [process](#process), typically used to
       send output to the screen or to the next process in a [pipe](#pipe_shell).
   es:
-    term: "salida estandar"
+    term: "salida estándar"
     def: >
-      Un canal de communication predefinido para un [proceso](#process), usado típicamente typically para
+      Un canal de communication predefinido para un [proceso](#process), usado típicamente para
       enviar la salida a la pantalla o al proceso siguiente en un flujo de trabajo.
 
 
@@ -10006,7 +10006,7 @@
   es:
     term: "muestra estratificada"
     def: >
-      Selecionar valores dividiendo la población general en grupos [homogeneos](#homogeneous)
+      Selecionar valores dividiendo la población general en grupos [homogéneos](#homogeneous)
       y tomando luego una muestra aleatoria de cada grupo. 
 
 
@@ -10019,7 +10019,7 @@
   es:
     term: "flujo"
     def: >
-      Un flujo sequential de datos, como los [bits](#bit) que llegan a travéz de una conexión de red 
+      Un flujo secuencial de datos, como los [bits](#bit) que llegan a través de una conexión de red 
       o los bytes que see lean desde un archivo.
 
 - slug: string
