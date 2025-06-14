@@ -3693,7 +3693,17 @@
       Mesure à quel point deux variables sont en accord l'une avec l'autre.
       Le [coefficient de corrélation](#correlation_coefficient) est une mesure
       normalisée de la covariance.
-
+  uk:
+    term: "коваріація"
+    def: >
+      Cтатистичний показник, що відображає, як змінюються дві величини одночасно.
+      Якщо обидві зростають чи зменшуються разом - коваріація додатна, якщо одна
+      зростає, а інша зменшується - від’ємна.
+      Коваріація використовується для виявлення зв’язку між змінними, але не
+      нормується, тому не дозволяє точно оцінити силу цього зв’язку без
+      додаткових перетворень, наприклад, розрахунку
+      [коефіцієнта кореляції](#correlation_coefficient),
+      який є нормалізованим показником коваріації.
 - slug: cpu
   ref:
     - gpu
@@ -7651,6 +7661,13 @@
       'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
       gee dikwels 'n beter idee van wat tipies is vir die datastel as die
       [mediaan](#mean), wat beïnvloed kan word deur 'n klein aantal ekstreme uitskieters.
+  uk:
+    term: "медіана"
+    def: >
+      Значення, що розділяє верхню та нижню половини відсортованого набору даних.
+      Медіана часто дає краще уявлення про те, що є типовим для набору даних, ніж [середнє](#mean),
+      на яке може впливати невелика кількість екстремальних значень. Якщо набір даних
+      містить парну кількість елементів, це є середнім значенням двох центральних елементів.
 
   am:
     term: መካከለኛ
@@ -7785,7 +7802,12 @@
     term: "المنوال"
     def: >
       القيمة أو القيم الأكثر تكراراً في مجموعة البيانات.
-
+  uk:
+    term: "мода"
+    def: >
+      Мода - одне чи декілька значень, які найчастіше зустрічаються в наборі даних.
+      Якщо декілька значень мають однакову найвищу частоту, то набір має декілька
+      мод, і такий розподіл називається мультимодальним.
 
 - slug: model
   en:
@@ -8916,8 +8938,13 @@
       called a quantile. For example, if there are five groups, each is called a
       *quintile*; the bottom quintile contains the lowest 20% of the values, while the
       top quintile contains the highest 20%.
-
-
+  uk:
+    term: "квантиль"
+    def: >
+      Квантиль - це загальний термін для значень, що ділять відсортований
+      набір даних на рівні частини. При поділі на чотири групи використовують
+      квартилі, на п’ять - квінтилі, на десять - децилі. Нижній квінтиль,
+      наприклад, містить найнижчі 20% значень.
 - slug: query_string
   en:
     term: "query string"
