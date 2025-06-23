@@ -2614,12 +2614,6 @@
 
       '
     term: mock object
-- slug: mode
-  ar:
-    def: 'The value, or values, that occurs most frequently in a dataset.
-
-      '
-    term: mode
 - slug: model
   ar:
     def: 'A specification of the mathematical relationship between different variables.
