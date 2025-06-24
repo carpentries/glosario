@@ -2392,6 +2392,12 @@
       результат роботи коду чи програми, або несподівану помилку чи попередження.
       Ця інформація використовується для допомоги у виявленні та виправленні [дефектів](#bug)
       у програмі.
+  es:
+    term: "Reporte de errores"
+    def: > 
+      Conjunto de archivos, registros (logs) o información relacionada que describe un resultado inesperado de 
+      un programa o código, o bien un error o advertencia imprevista. Esta información se utiliza para ayudar 
+      a identificar y corregir errores (bugs) en el software.
       
 - slug: bug_tracker
   en:
@@ -2955,6 +2961,11 @@
       Інтерфейс користувача, який повністю покладається на текст
       для введення команд та виведення результатів їх виконання.
       Зазвичай використовується у [командній оболонці](#shell).
+  es:
+    term: "Interfaz de línea de comandos"
+    def: > 
+      Interfaz de usuario que depende únicamente del texto para ingresar comandos y mostrar resultados, 
+      y que normalmente se ejecuta en una consola o shell.
 
 - slug: client
   en:
@@ -3833,7 +3844,6 @@
       A text format for tabular data in which each [record](#record) is one row and [fields](#field) are
       separated by commas. There are many minor variations, particularly around
       quoting of [strings](#string).
-
   am:
     term: ሲ.ኤስ.ቪ.
     def: >
@@ -3845,6 +3855,12 @@
       Текстовий формат для табличних даних, в якому кожен [запис](#record) - один рядок, а [поля](#field)
       розділені комами. Має багато незначних варіацій, особливо щодо використання лапок навколо
       [рядків](#string).
+  es:
+    term: "Valores separados por comas"
+    def: >
+      Formato de texto para datos tabulares en el cual cada fila representa un registro y los campos están 
+      separados por comas. Existen muchas variantes menores, especialmente en torno al uso de comillas para 
+      cadenas de texto.
 
 - slug: current_working_directory
   en:
@@ -11200,6 +11216,13 @@
       A class of artificial neural network that is primarily used to analyze images. A CNN has layers
       that perform convolutions, where a filter is shifted over the data, instead of the general
       matrix multiplications that we see in fully connected neural network layers.
+  es:
+    term: "Red neuronal convolucional (CNN)"
+    def: >
+      Clase de red neuronal artificial utilizada principalmente para analizar imágenes. 
+      Una CNN (red neuronal convolucional) tiene capas que realizan convoluciones, donde un filtro se 
+      desplaza sobre los datos, en lugar de emplear las multiplicaciones de matrices generales que se 
+      utilizan en las capas totalmente conectadas de una red neuronal.
 
 
 - slug: rnn
