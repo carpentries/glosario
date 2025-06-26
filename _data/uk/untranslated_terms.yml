@@ -552,13 +552,6 @@
 
       '
     term: copy-on-modify
-- slug: covariance
-  uk:
-    def: 'How well two variables agree with each other. The [correlation coefficient](#correlation_coefficient)
-      is a normalized measure of covariance.
-
-      '
-    term: covariance
 - slug: cross_join
   uk:
     def: 'A [join](#join) that produces all possible combinations of rows from two
@@ -2036,16 +2029,6 @@
 
       '
     term: mean squared error
-- slug: median
-  uk:
-    def: 'A value separating the upper and lower halves of a sorted dataset. The median
-      often gives a better idea of what is typical of the dataset than the [mean](#mean),
-      which can be influenced by a small number of extreme [outliers](#outlier). If
-      the dataset contains an even number of elements, this is the average of the
-      two central elements.
-
-      '
-    term: median
 - slug: merge_git
   uk:
     def: 'See [Git merge](#git_merge)
@@ -2108,12 +2091,6 @@
 
       '
     term: mock object
-- slug: mode
-  uk:
-    def: 'The value, or values, that occurs most frequently in a dataset.
-
-      '
-    term: mode
 - slug: model
   uk:
     def: 'A specification of the mathematical relationship between different variables.
@@ -2743,15 +2720,6 @@
 
       '
     term: Python Software Foundation
-- slug: quantile
-  uk:
-    def: 'If a set of sorted values are divided into groups of each size, each group
-      is called a quantile. For example, if there are five groups, each is called
-      a *quintile*; the bottom quintile contains the lowest 20% of the values, while
-      the top quintile contains the highest 20%.
-
-      '
-    term: quantile
 - slug: query_string
   uk:
     def: 'The portion of a [URL](#url) after the question mark `?` that specifies
