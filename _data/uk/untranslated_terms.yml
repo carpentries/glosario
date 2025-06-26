@@ -279,16 +279,6 @@
 
       '
     term: browser cache
-- slug: build_manager
-  uk:
-    def: 'A program that keeps track of how files depend on one another and runs commands
-      to update any files that are out-of-date. Build managers were invented to [compile](#compile)
-      only those parts of programs that had changed, but are now often used to implement
-      workflows in which plots depend on results files, which in turn depend on raw
-      data files or configuration files.
-
-      '
-    term: build manager
 - slug: build_recipe
   uk:
     def: 'The part of a [build rule](#build_rule) that describes how to update something
@@ -296,20 +286,6 @@
 
       '
     term: build recipe
-- slug: build_rule
-  uk:
-    def: 'A specification for a [build manager](#build_manager) that describes how
-      some files depend on others and what to do if those files are out-of-date.
-
-      '
-    term: build rule
-- slug: build_target
-  uk:
-    def: 'The file(s) that a [build rule](#build_rule) will update if they are out-of-date
-      compared to their [dependencies](#dependency).
-
-      '
-    term: build target
 - slug: byte_code
   uk:
     def: 'A set of instructions designed to be executed efficiently by an [interpreter](#interpreter).
@@ -712,12 +688,6 @@
 
       '
     term: Delegate pattern
-- slug: dependency
-  uk:
-    def: 'See [prerequisite](#prerequisite).
-
-      '
-    term: dependency
 - slug: dependent_variable
   uk:
     def: 'A variable whose value depends on the value of another variable, which is
@@ -2562,12 +2532,6 @@
 
       '
     term: preamble
-- slug: prerequisite
-  uk:
-    def: 'Something that a [build target](#build_target) depends on.
-
-      '
-    term: prerequisite
 - slug: principal_component_analysis
   uk:
     def: 'An algorithm that find the axis along which data varies most, then the axis
