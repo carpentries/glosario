@@ -8276,7 +8276,7 @@
      
 - slug: openrefine
   ref:
-    - tidy data
+    - tidy_data
   en:
     term: "OpenRefine"
     def: >

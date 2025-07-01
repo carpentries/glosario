@@ -3464,7 +3464,7 @@
       '
     term: OpenRefine
   ref:
-  - tidy data
+  - tidy_data
 - slug: operating_system
   en:
     def: 'A program that provides a standard interface to whatever hardware it is
