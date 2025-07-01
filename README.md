@@ -380,6 +380,7 @@ We now show credit for four types of contributions:
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ahmedunshur"><img src="https://avatars.githubusercontent.com/u/6027258?v=4?s=100" width="100px;" alt="Ahmed Unshur"/><br /><sub><b>Ahmed Unshur</b></sub></a><br /><a href="#translation-ahmedunshur" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/eor"><img src="https://avatars.githubusercontent.com/u/6682226?v=4?s=100" width="100px;" alt="Fabian"/><br /><sub><b>Fabian</b></sub></a><br /><a href="#translation-eor" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yexpp"><img src="https://avatars.githubusercontent.com/u/201125696?v=4?s=100" width="100px;" alt="yexpp"/><br /><sub><b>yexpp</b></sub></a><br /><a href="#review-yexpp" title="Reviewed Pull Requests">👀</a> <a href="#question-yexpp" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
