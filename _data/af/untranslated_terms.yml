@@ -445,7 +445,7 @@
 
       '
     term: conditional expression
-- slug: configuration file
+- slug: configuration_file
   af:
     def: 'A file that specifies the parameters and initial settings of a software
       program. Configuration, or config, files are often used for information subject
@@ -3191,7 +3191,7 @@
 
       '
     term: Secure Shell
-- slug: selecting on the dependent variable bias
+- slug: selecting_on_the_dependent_variable_bias
   af:
     def: 'A study that only includes cases where the dependent variable shows the
       same value, instead of cases with different values in the dependent variable,
@@ -3415,7 +3415,7 @@
 
       '
     term: specificity
-- slug: spectral analysis
+- slug: spectral_analysis
   af:
     def: 'From a finite record of a stationary data sequence, estimate how the total
       power is distributed over frequency. See also "spectrum analysis problem".

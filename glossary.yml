@@ -3438,7 +3438,7 @@
     def: >
       Діапазон, в якому з заданою ймовірністю знаходиться реальне значення оцінки.
   
-- slug: configuration file
+- slug: configuration_file
   en:
     term: "configuration file"
     def: >
@@ -9655,7 +9655,7 @@
     def: >
       Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
 
-- slug: selecting on the dependent variable bias
+- slug: selecting_on_the_dependent_variable_bias
   en:
     term: "selecting on the dependent variable bias"
     def: >
@@ -9963,11 +9963,11 @@
       For example, the proportion of people who do not have a disease that test negative.
       Calculated as Specificity = TN/(TN+FP).
 
-- slug: spectral analysis
+- slug: spectral_analysis
   ref:
     - python
-    - data analysis
-    - bayesian statistics
+    - data_analysis
+    - bayesian_statistics
   en:
     term: "spectral analysis"
     def: >

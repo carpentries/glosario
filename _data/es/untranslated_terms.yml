@@ -492,7 +492,7 @@
 
       '
     term: confidence interval
-- slug: configuration file
+- slug: configuration_file
   es:
     def: 'A file that specifies the parameters and initial settings of a software
       program. Configuration, or config, files are often used for information subject
@@ -3276,7 +3276,7 @@
 
       '
     term: specificity
-- slug: spectral analysis
+- slug: spectral_analysis
   es:
     def: 'From a finite record of a stationary data sequence, estimate how the total
       power is distributed over frequency. See also "spectrum analysis problem".

@@ -875,7 +875,7 @@
     term: "sesgo algor\xEDtmico"
   ref:
   - algorithm
-- slug: selecting on the dependent variable bias
+- slug: selecting_on_the_dependent_variable_bias
   es:
     def: "Un estudio que solamente incluye casos en los que la variable dependiente\
       \ tiene el mismo valor, en lugar de casos con variaci\xF3n en la variable dependiente,\

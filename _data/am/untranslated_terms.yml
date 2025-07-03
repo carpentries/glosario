@@ -1744,7 +1744,7 @@
 
       '
     term: select
-- slug: selecting on the dependent variable bias
+- slug: selecting_on_the_dependent_variable_bias
   am:
     def: 'A study that only includes cases where the dependent variable shows the
       same value, instead of cases with different values in the dependent variable,
@@ -1975,7 +1975,7 @@
 
       '
     term: specificity
-- slug: spectral analysis
+- slug: spectral_analysis
   am:
     def: 'From a finite record of a stationary data sequence, estimate how the total
       power is distributed over frequency. See also "spectrum analysis problem".
