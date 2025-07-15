@@ -38,7 +38,7 @@
                     Definition
                 </th>
                 <th
-                  colspan="2"
+                  colspan="3"
                   data-valign="middle">
                     Contribute
                 </th>
@@ -59,11 +59,21 @@
 
                 {% assign gform_url = gform_base_url | append: gform_lang_term | append: gform_lang_name %}
 
+                {% assign email_subject = "Contribution%20to%20Glosario.%20Term:%20" | append: uterm[language].term | append: ".%20Language:%20" | append: language %}
+                {% assign email_body_term =  "What%20is%20the%20English%20name%20of%20the%20term%20you%20are%20translating%3F%0A" | append: uterm[language].term | append: "%0A%0A" %}
+                {% assign email_body_lang = "What%20language%20are%20you%20translating%20into%3F%0A" | append: language | append: "%0A%0A" %}
+                {% assign email_body_new_term = "What%20is%20the%20term%20in%20the%20language%20you%20are%20translating%20into%3F%0A%5BFill%20this%5D%0A%0A" %}
+                {% assign email_body_transl = "Add%20your%20translation%20here%3A%0A%5BFill%20this%5D" %}
+                {% assign email_body = email_body_term | append: email_body_lang | append: email_body_new_term | append: email_body_transl %}
+                                
+                {% assign email_url = "mailto:community@carpentries.org?subject=" | append: email_subject | append: "&amp;body=" | append: email_body %}
+
                 <tr class="untranslated_term">
                   <td><a href="/en/#{{uterm.slug}}">{{uterm[language].term}}</a></td>
                   <td>{{uterm[language].def | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</td>
                   <td><a target="_blank" href="{{gform_url}}"><i class="fa fa-google" style="font-size:30px; color: grey;"></i></a></td>
                   <td><a target="_blank" href="{{gh_url}}"><i class="fa fa-github" style="font-size:30px; color: grey;"></i></a></td>
+                  <td><a target="_blank" href="{{email_url}}"><i class="fa fa-envelope" style="font-size:30px; color: grey;"></i></a></td>
                 </tr>
               {%- endfor -%}
             </tbody>

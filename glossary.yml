@@ -1213,6 +1213,24 @@
       Обчислюється для набору з n чисел шляхом знаходження їх суми та ділення результату на n.
       [Див. також середнє значення](#mean).
 
+- slug: artificial_intelligence
+  ref:
+    - nlp
+    - machine_learning
+  en:
+    term: "artificial intelligence (AI)"
+    def: >
+      Intelligence demonstrated by machines, as opposed to humans or other animals. AI can be
+      exhibited through perceiving, synthesizing and inference of information. Example tasks include
+      [natural language processing](#nlp), computer vision, and [machine learning]
+      (#machine_learning).
+  uk:
+    term: "штучний інтелект (ШІ)"
+    def: >
+      Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
+      через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
+      комп'ютерний зір та [машинне навчання](#machine_learning).
+
 - slug: ascii
   en:
     term: "ASCII"
@@ -3449,7 +3467,7 @@
     def: >
       Діапазон, в якому з заданою ймовірністю знаходиться реальне значення оцінки.
   
-- slug: configuration file
+- slug: configuration_file
   en:
     term: "configuration file"
     def: >
@@ -9671,7 +9689,7 @@
     def: >
       Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
 
-- slug: selecting on the dependent variable bias
+- slug: selecting_on_the_dependent_variable_bias
   en:
     term: "selecting on the dependent variable bias"
     def: >
@@ -9979,11 +9997,11 @@
       For example, the proportion of people who do not have a disease that test negative.
       Calculated as Specificity = TN/(TN+FP).
 
-- slug: spectral analysis
+- slug: spectral_analysis
   ref:
     - python
-    - data analysis
-    - bayesian statistics
+    - data_analysis
+    - bayesian_statistics
   en:
     term: "spectral analysis"
     def: >
@@ -11239,24 +11257,6 @@
     def: >
       A branch of statistical tests which do not assume a known distribution of the population which the samples were taken from (Kruskal-Wallis and Dunn test are examples of non-parametric tests).
 
-
-- slug: artificial_intelligence
-  ref:
-    - nlp
-    - machine_learning
-  en:
-    term: "artificial intelligence (AI)"
-    def: >
-      Intelligence demonstrated by machines, as opposed to humans or other animals. AI can be
-      exhibited through perceiving, synthesizing and inference of information. Example tasks include
-      [natural language processing](#nlp), computer vision, and [machine learning]
-      (#machine_learning).
-  uk:
-    term: "штучний інтелект (ШІ)"
-    def: >
-      Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
-      через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
-      комп'ютерний зір та [машинне навчання](#machine_learning).
 
 - slug: cnn
   ref:
