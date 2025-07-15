@@ -3,11 +3,18 @@
 
 @import "bootstrap/scss/bootstrap.scss";
 
+$glosgrey: #757575;
+
 body {
     background-attachment: fixed;
     overflow: auto;
     overflow-x: hidden;
     width: 100%;
+}
+
+header div {
+    background-color: $glosgrey !important;
+    color: white;
 }
 
 .lang_blurb {
@@ -45,7 +52,7 @@ a:hover {
 
 .glos-main-nav {
     margin-left: -12px;
-    background-color: grey !important;
+    background-color: $glosgrey !important;
 }
 
 .glos-main-nav .nav-link {
@@ -103,11 +110,11 @@ a:hover {
     }
 
     .sticky-nav a {
-        color: grey;
+        color: $glosgrey;
     }
 
     .sticky-nav a:hover {
-        color: grey;
+        color: $glosgrey;
         text-decoration: underline;
     }
 
@@ -115,7 +122,7 @@ a:hover {
     .sticky-ltr,
     .sticky-rtl {
         z-index: 0;
-        background-color: grey;
+        background-color: $glosgrey;
         color: white;
         text-align: center;
     }
@@ -146,8 +153,8 @@ a:hover {
         align-items: center;
         justify-content: center;
         font-size: 20px;
-        border: 1px solid grey;
-        background-color: grey;
+        border: 1px solid $glosgrey;
+        background-color: $glosgrey;
         color: white;
     }
 
@@ -253,7 +260,7 @@ a:hover {
     .sticky-ltr,
     .sticky-rtl {
         z-index: 0;
-        background-color: grey;
+        background-color: $glosgrey;
         color: white;
         text-align: center;
     }
@@ -276,11 +283,11 @@ a:hover {
     }
 
     .sticky-nav a {
-        color: grey;
+        color: $glosgrey;
     }
 
     .sticky-nav a:hover {
-        color: grey;
+        color: $glosgrey;
         text-decoration: underline;
     }
 
@@ -289,8 +296,8 @@ a:hover {
         align-items: center;
         justify-content: center;
         font-size: 14px;
-        border: 1px solid grey;
-        background-color: grey;
+        border: 1px solid $glosgrey;
+        background-color: $glosgrey;
         color: white;
     }
 
