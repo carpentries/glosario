@@ -388,6 +388,7 @@ We now show credit for four types of contributions:
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AngeliqueV"><img src="https://avatars.githubusercontent.com/u/69516258?v=4?s=100" width="100px;" alt="AngeliqueV"/><br /><sub><b>AngeliqueV</b></sub></a><br /><a href="#translation-AngeliqueV" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ajneil-gh"><img src="https://avatars.githubusercontent.com/u/75391698?v=4?s=100" width="100px;" alt="ajneil-gh"/><br /><sub><b>ajneil-gh</b></sub></a><br /><a href="#translation-ajneil-gh" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
