@@ -1984,6 +1984,15 @@
         "review",
         "question"
       ]
+    },
+    {
+      "login": "za",
+      "name": "za",
+      "avatar_url": "https://avatars.githubusercontent.com/u/409455?v=4",
+      "profile": "https://za.github.io",
+      "contributions": [
+        "translation"
+      ]
     }
   ]
 }
