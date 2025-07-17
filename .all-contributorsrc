@@ -2011,6 +2011,18 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "froggleston",
+      "name": "Robert Davey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1872302?v=4",
+      "profile": "https://orcid.org/0000-0002-5589-7754",
+      "contributions": [
+        "doc",
+        "review",
+        "question",
+        "translation"
+      ]
     }
   ]
 }
