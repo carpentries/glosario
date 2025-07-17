@@ -383,6 +383,7 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/yexpp"><img src="https://avatars.githubusercontent.com/u/201125696?v=4?s=100" width="100px;" alt="yexpp"/><br /><sub><b>yexpp</b></sub></a><br /><a href="#review-yexpp" title="Reviewed Pull Requests">👀</a> <a href="#question-yexpp" title="Answering Questions">💬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://za.github.io"><img src="https://avatars.githubusercontent.com/u/409455?v=4?s=100" width="100px;" alt="za"/><br /><sub><b>za</b></sub></a><br /><a href="#translation-za" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://adryan.de"><img src="https://avatars.githubusercontent.com/u/6317446?v=4?s=100" width="100px;" alt="Boris Adryan"/><br /><sub><b>Boris Adryan</b></sub></a><br /><a href="#translation-badryan" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/VScharf7"><img src="https://avatars.githubusercontent.com/u/73226085?v=4?s=100" width="100px;" alt="vanessa.scharf"/><br /><sub><b>vanessa.scharf</b></sub></a><br /><a href="#review-VScharf7" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
