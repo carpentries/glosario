@@ -386,6 +386,9 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/VScharf7"><img src="https://avatars.githubusercontent.com/u/73226085?v=4?s=100" width="100px;" alt="vanessa.scharf"/><br /><sub><b>vanessa.scharf</b></sub></a><br /><a href="#review-VScharf7" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://orcid.org/0000-0002-5589-7754"><img src="https://avatars.githubusercontent.com/u/1872302?v=4?s=100" width="100px;" alt="Robert Davey"/><br /><sub><b>Robert Davey</b></sub></a><br /><a href="#doc-froggleston" title="Documentation">📖</a> <a href="#review-froggleston" title="Reviewed Pull Requests">👀</a> <a href="#question-froggleston" title="Answering Questions">💬</a> <a href="#translation-froggleston" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AngeliqueV"><img src="https://avatars.githubusercontent.com/u/69516258?v=4?s=100" width="100px;" alt="AngeliqueV"/><br /><sub><b>AngeliqueV</b></sub></a><br /><a href="#translation-AngeliqueV" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 
