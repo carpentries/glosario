@@ -80,12 +80,11 @@
     term: aliasing
 - slug: anaconda
   it:
-    def: 'Anaconda is a [software distribution] (#software_distribution) of R and
-      Python. It is also a [repository] (#repository) of open-source Python and R
-      programs for data science, packaged using the [conda](#conda) [package manager]
-      (#package_manager). Anaconda also creates Anaconda Navigator, a suite of desktop
-      tools including an [IDE] (#ide) and the [Jupyter Notebook](#jupyter_notebook)
-      application.
+    def: 'Anaconda is a [software distribution](#software_distribution) of R and Python.
+      It is also a [repository](#repository) of open-source Python and R programs
+      for data science, packaged using the [conda](#conda) [package manager](#package_manager).
+      Anaconda also creates Anaconda Navigator, a suite of desktop tools including
+      an [IDE](#ide) and the [Jupyter Notebook](#jupyter_notebook) application.
 
       '
     term: Anaconda
