@@ -3435,7 +3435,7 @@
   en:
     term: "conda"
     def: >
-      A [package manager] (#package_manager) and environment management system, particularly popular for Python programs.
+      A [package manager](#package_manager) and environment management system, particularly popular for Python programs.
 
 
 - slug: condition

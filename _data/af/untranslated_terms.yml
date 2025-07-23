@@ -376,7 +376,7 @@
     term: compute shader
 - slug: conda
   af:
-    def: 'A [package manager] (#package_manager) and environment management system,
+    def: 'A [package manager](#package_manager) and environment management system,
       particularly popular for Python programs.
 
       '

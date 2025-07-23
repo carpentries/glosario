@@ -949,7 +949,7 @@
   - right_join
 - slug: conda
   en:
-    def: 'A [package manager] (#package_manager) and environment management system,
+    def: 'A [package manager](#package_manager) and environment management system,
       particularly popular for Python programs.
 
       '
