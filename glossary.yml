@@ -890,13 +890,13 @@
       Після встановлення, Anaconda створює Anaconda Navigator, набір інструментів для робочого столу,
       включаючи [IDE] (#ide) та застосунок [Jupyter Notebook](#jupyter_notebook).
     af:
-    term: "Anaconda"
-    def: >
-      Anaconda is ’n [sagtewareverspreiding](#software_distribution) van R en Python.
-      Dit is ook ’n [bewaarplek](#repository) van oopbron-programme in Python en R vir datawetenskap,
-      saamgestel met behulp van die [conda](#conda) [pakketbestuurder](#package_manager).
-      Anaconda sluit ook Anaconda Navigator in, ’n stel lessenaartoepassingsinsluitend ’n [IDE](#ide)
-      en die [Jupyter Notebook](#jupyter_notebook) toepassing.
+      term: "Anaconda"
+      def: >
+        Anaconda is ’n [sagtewareverspreiding](#software_distribution) van R en Python.
+        Dit is ook ’n [bewaarplek](#repository) van oopbron-programme in Python en R vir datawetenskap,
+        saamgestel met behulp van die [conda](#conda) [pakketbestuurder](#package_manager).
+        Anaconda sluit ook Anaconda Navigator in, ’n stel lessenaartoepassingsinsluitend ’n [IDE](#ide)
+        en die [Jupyter Notebook](#jupyter_notebook) toepassing.
 
 - slug: anchor
   en:
@@ -1238,7 +1238,7 @@
       Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
       через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
       комп'ютерний зір та [машинне навчання](#machine_learning).
-   af:
+  af:
     term: "kunsmatige intelligensie (KI)"
     def: >
       Intelligensie wat deur masjiene getoon word, in teenstelling met mense of ander diere.
@@ -2275,7 +2275,7 @@
       Цей термін походить від імені Джорджа Буля, математика 19-го століття. Двійкові системи, як і всі комп'ютери, 
       будуються на основі системи логічного обчислення між станами істини та хибності (1 або 0).
 
-   af:
+  af:
     term: "Booleaans"
     def: >
       Verwys na ’n veranderlike of datatipe wat ’n logiese waarde van [waar](#true) of [vals](#false) kan hê. Die term is vernoem na George Boole,
@@ -2302,7 +2302,7 @@
     def: >
       Дивіться [гілка Git](#git_branch).
 
-   af:
+  af:
     term: "tak"
     def: >
       Sien [Git-tak](#git_branch).
