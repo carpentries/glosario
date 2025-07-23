@@ -889,6 +889,14 @@
       побудований на базі [менеджеру пакетів](#package_manager) [conda](#conda).
       Після встановлення, Anaconda створює Anaconda Navigator, набір інструментів для робочого столу,
       включаючи [IDE] (#ide) та застосунок [Jupyter Notebook](#jupyter_notebook).
+    af:
+    term: "Anaconda"
+    def: >
+      Anaconda is ’n [sagtewareverspreiding](#software_distribution) van R en Python.
+      Dit is ook ’n [bewaarplek](#repository) van oopbron-programme in Python en R vir datawetenskap,
+      saamgestel met behulp van die [conda](#conda) [pakketbestuurder](#package_manager).
+      Anaconda sluit ook Anaconda Navigator in, ’n stel lessenaartoepassingsinsluitend ’n [IDE](#ide)
+      en die [Jupyter Notebook](#jupyter_notebook) toepassing.
 
 - slug: anchor
   en:
@@ -1230,6 +1238,13 @@
       Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
       через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
       комп'ютерний зір та [машинне навчання](#machine_learning).
+   af:
+    term: "kunsmatige intelligensie (KI)"
+    def: >
+      Intelligensie wat deur masjiene getoon word, in teenstelling met mense of ander diere.
+      KI kan manifesteer deur waarneming, sintese en afleiding van inligting.
+      Voorbeelde van sulke take sluit in [natuurlike taalverwerking](#nlp),
+      rekenaarvisie, en [masjienleer](#machine_learning).
 
 - slug: ascii
   en:
@@ -2000,6 +2015,13 @@
     def: >
       እዚያ ሲኖር የሚነሳ አንድ [ፕሮባቢሊቲ ስርጭት](#probability_distribution) እነዚህ እያንዳንዳቸው ከሁለት ውጤቶች አንዱን ሊያወጡ የሚችሉ የተወሰኑ የሙከራ ሙከራዎች ናቸው የእነዚህ ውጤቶች ዕድል አይለወጥም ፡፡ እንደ ሙከራዎች ብዛት ይጨምራል ፣ የሁለትዮሽ ስርጭት አንድ [መደበኛ ስርጭት](#normal_distribution) በግምት። የተስተካከለ የሙከራ ቁጥር ሲኖር የሚነሳ አንድ [ፕሮባቢሊቲ ስርጭት](#probability_distribution) እያንዳንዳቸው ከሁለቱ ውጤቶች አንዱን ሊያመጣ ይችላል ፣ እናም የእነዚህ ውጤቶች ዕድል አይቀየርም። የሙከራዎች ቁጥር እየጨመረ በሄደ መጠን የሁለትዮሽ ማሰራጫው ወደ [መደበኛ ስርጭት](#normal_distribution) በግምት
 
+  af:
+    term: "binomiale verspreiding"
+    def: >
+      ’n [Waarskynlikheidsverspreiding](#probability_distribution) wat ontstaan wanneer daar ’n vaste aantal proewe is, en elke proef kan een van twee uitkomste lewer,
+      met konstante waarskynlikhede. Soos die aantal proewe toeneem, benader die binomiale verspreiding ’n [normale verspreiding](#normal_distribution).
+
+
 - slug: bit
   ref:
     - binary
@@ -2171,6 +2193,13 @@
     def: >
       በሕጋዊ ኮንትራቶች ፣ ፈቃዶች ፣ ወዘተ ውስጥ የተካተተ መደበኛ ጽሑፍ ፡፡
 
+  af:
+    term: "boilerplate"
+    def: >
+      Standaardteks wat in regsverdrae, lisensies en soortgelyke dokumente ingesluit word. Dit verwys ook na dele van bronkode wat baie gereeld herhaal moet word om basiese funksionaliteit te verkry.
+      In [objekgeoriënteerde programme](#oop) word hierdie segmente gebruik om veranderlikes van voorwerpe te enkapsuleer. Sommige programmeertale, soos Java, vereis baie van hierdie stellings en word daarom as boilerplate-tale beskou,
+      wat beteken dat sulke kode dikwels outomaties gegenereer word of met behulp van [outovoltooiing](#auto_completion).
+
 - slug: boolean
   ref:
     - truthy
@@ -2245,6 +2274,13 @@
       Пов'язаний зі змінною або типом даних, які можуть мати логічне значення [істини](#true) або [хибності](#false). 
       Цей термін походить від імені Джорджа Буля, математика 19-го століття. Двійкові системи, як і всі комп'ютери, 
       будуються на основі системи логічного обчислення між станами істини та хибності (1 або 0).
+
+   af:
+    term: "Booleaans"
+    def: >
+      Verwys na ’n veranderlike of datatipe wat ’n logiese waarde van [waar](#true) of [vals](#false) kan hê. Die term is vernoem na George Boole,
+      ’n Wiskundige uit die 19de eeu. Binêre stelsels, soos alle rekenaars, is gebou op hierdie fondasie van logiese evaluasies tussen toestande van waar en vals, 1 of 0.
+
     
 - slug: branch
   en:
@@ -2265,6 +2301,11 @@
     term: "гілка"
     def: >
       Дивіться [гілка Git](#git_branch).
+
+   af:
+    term: "tak"
+    def: >
+      Sien [Git-tak](#git_branch).
 
 - slug: branch_per_feature_workflow
   en:
