@@ -121,6 +121,18 @@
     def: "Om twee of meer verwysing na dieselfde ding te h\xEA, soos byvoorbeeld meer\
       \ as een verwysing na 'n datastruktuur in geheue of na 'n l\xEAer op 'n skyf.\n"
     term: aliasering
+- slug: anaconda
+  af:
+    def: "Anaconda is \u2019n [sagtewareverspreiding](#software_distribution) van\
+      \ R en Python. Dit is ook \u2019n [bewaarplek](#repository) van oopbron-programme\
+      \ in Python en R vir datawetenskap, saamgestel met behulp van die [conda](#conda)\
+      \ [pakketbestuurder](#package_manager). Anaconda sluit ook Anaconda Navigator\
+      \ in, \u2019n stel lessenaartoepassingsinsluitend \u2019n [IDE](#ide) en die\
+      \ [Jupyter Notebook](#jupyter_notebook) toepassing.\n"
+    term: Anaconda
+  ref:
+  - pip
+  - conda
 - slug: anchor
   af:
     def: 'In ''n [gewone (reguliere) uitdrukking](#regular_expression), is ''n anker
@@ -302,6 +314,16 @@
   - left_join
   - right_join
   - self_join
+- slug: binomial_distribution
+  af:
+    def: "\u2019n [Waarskynlikheidsverspreiding](#probability_distribution) wat ontstaan\
+      \ wanneer daar \u2019n vaste aantal proewe is, en elke proef kan een van twee\
+      \ uitkomste lewer, met konstante waarskynlikhede. Soos die aantal proewe toeneem,\
+      \ benader die binomiale verspreiding \u2019n [normale verspreiding](#normal_distribution).\n"
+    term: binomiale verspreiding
+  ref:
+  - discrete_random_variable
+  - histogram
 - slug: bit
   af:
     def: '''n Eenheid van inligting wat alternatiewe voorstel, ja/nee, waar/vals.
@@ -320,6 +342,28 @@
 
       '
     term: blokkommentaar
+- slug: boilerplate
+  af:
+    def: "Standaardteks wat in regsverdrae, lisensies en soortgelyke dokumente ingesluit\
+      \ word. Dit verwys ook na dele van bronkode wat baie gereeld herhaal moet word\
+      \ om basiese funksionaliteit te verkry. In [objekgeori\xEBnteerde programme](#oop)\
+      \ word hierdie segmente gebruik om veranderlikes van voorwerpe te enkapsuleer.\
+      \ Sommige programmeertale, soos Java, vereis baie van hierdie stellings en word\
+      \ daarom as boilerplate-tale beskou, wat beteken dat sulke kode dikwels outomaties\
+      \ gegenereer word of met behulp van [outovoltooiing](#auto_completion).\n"
+    term: boilerplate
+- slug: boolean
+  af:
+    def: "Verwys na \u2019n veranderlike of datatipe wat \u2019n logiese waarde van\
+      \ [waar](#true) of [vals](#false) kan h\xEA. Die term is vernoem na George Boole,\
+      \ \u2019n Wiskundige uit die 19de eeu. Bin\xEAre stelsels, soos alle rekenaars,\
+      \ is gebou op hierdie fondasie van logiese evaluasies tussen toestande van waar\
+      \ en vals, 1 of 0.\n"
+    term: Booleaans
+  ref:
+  - truthy
+  - falsy
+  - binary
 - slug: bug
   af:
     def: '''n Ontbrekende of ongewenste kenmerk van ''n stuk sagteware; die digitale
@@ -561,6 +605,18 @@
   - left_join
   - right_join
   - self_join
+- slug: artificial_intelligence
+  af:
+    def: 'Intelligensie wat deur masjiene getoon word, in teenstelling met mense of
+      ander diere. KI kan manifesteer deur waarneming, sintese en afleiding van inligting.
+      Voorbeelde van sulke take sluit in [natuurlike taalverwerking](#nlp), rekenaarvisie,
+      en [masjienleer](#machine_learning).
+
+      '
+    term: kunsmatige intelligensie (KI)
+  ref:
+  - nlp
+  - machine_learning
 - slug: empty_vector
   af:
     def: "'n Vektor wat geen elemente bevat nie. Le\xEB vektore het 'n tipe soos logies\
@@ -745,6 +801,12 @@
     term: Sentrale verwerkingseenheid
   ref:
   - gpu
+- slug: branch
+  af:
+    def: 'Sien [Git-tak](#git_branch).
+
+      '
+    term: tak
 - slug: backward_compatible
   af:
     def: '''n Eienskap van ''n stelsel, hardeware of sagteware wat dit moontlik maak
