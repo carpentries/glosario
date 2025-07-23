@@ -889,7 +889,7 @@
       побудований на базі [менеджеру пакетів](#package_manager) [conda](#conda).
       Після встановлення, Anaconda створює Anaconda Navigator, набір інструментів для робочого столу,
       включаючи [IDE] (#ide) та застосунок [Jupyter Notebook](#jupyter_notebook).
-    af:
+  af:
       term: "Anaconda"
       def: >
         Anaconda is ’n [sagtewareverspreiding](#software_distribution) van R en Python.
