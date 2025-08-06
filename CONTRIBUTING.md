@@ -10,7 +10,7 @@ please take a moment to read the guidance below.
 When you are making your contribution(s) to Glosario, please adhere to the following guidance:
 
 1. **check the [open Issues][issues] and [Pull Requests][pulls]** to see what terms and definitions other contributors are already working on. This will help you avoid accidentally spending time writing the same term(s)/definition(s) as someone else.
-2. **add one or a small number of related new terms or definitions per Pull Request.** We woud love to receive multiple contributions from you but please keep each new term or set of terms and definitions in a distinct Pull Request. This makes it much easier for the Glosario maintainers/editors to review your contributions. By [creating a new branch][github-branches] from the `master` branch and making a new Pull Request each time, you also reduce the chance of accidentally combining multiple contributions.
+2. **add one or a small number of related new terms or definitions per Pull Request.** We woud love to receive multiple contributions from you but please keep each new term or set of terms and definitions in a distinct Pull Request. This makes it much easier for the Glosario maintainers/editors to review your contributions. By [creating a new branch][github-branches] from the `main` branch and making a new Pull Request each time, you also reduce the chance of accidentally combining multiple contributions.
 3. If you plan to contribute a larger number of terms e.g. to cover a new domain, **[open an Issue][issues]** with a title in the format "[language]/domain" e.g. "Romanian/relational database terms." This will help others avoid devoting time to writing the same terms/definitions as you.
 
 In the sections below, we detail common ways you can contribute to glosario.
@@ -150,7 +150,7 @@ ENTRY_LANGUAGE_KEYS = {'af', 'am', 'ar', 'bn', 'de', 'en', 'es', 'fr', 'he', 'it
 
 [forking-guide]: https://guides.github.com/activities/forking/
 [github-branches]: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches
-[glossary]: https://github.com/carpentries/glosario/blob/master/glossary.yml
+[glossary]: https://github.com/carpentries/glosario/blob/main/glossary.yml
 [iso639-table-en]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 [issues]: https://github.com/carpentries/glosario/issues
 [new issue]: https://github.com/carpentries/glosario/issues/new
