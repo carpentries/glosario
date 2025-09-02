@@ -1149,6 +1149,11 @@
 
       '
     term: filter
+- slug: fine_tuning
+  es:
+    def: "Fine-tuning is an approach to transfer learning in which a pre-trained network\
+      \ is adapted to the  specifics of a new dataset. \n"
+    term: fine-tuning (deep learning)
 - slug: fixture
   es:
     def: 'The thing on which a test is run, such as the [parameters](#parameter) to
@@ -3541,6 +3546,17 @@
 
       '
     term: training data
+- slug: transfer_learning
+  es:
+    def: 'Transfer learning is a specific form of deep learning that has 2 stages.
+      First, in the pre-training  phase, a neural network is trained on a (typically
+      large) generic dataset. Second, the  fine-tuning phase, the neural network is
+      adapted to the specifics of a (typically smaller) new  dataset. The idea is
+      that the network will capture generic knowledge in the pre-training phase  that
+      is relevant for learning in the fine-tuning task.
+
+      '
+    term: transfer learning (deep learning)
 - slug: transitive_dependency
   es:
     def: 'If A depends on B and B depends on C, C is a transitive dependency of A.
