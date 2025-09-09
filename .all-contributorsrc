@@ -2059,6 +2059,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "brownsarahm",
+      "name": "Sarah Brown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10656079?v=4",
+      "profile": "http://sarahmbrown.org",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }

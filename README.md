@@ -391,6 +391,7 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ajneil-gh"><img src="https://avatars.githubusercontent.com/u/75391698?v=4?s=100" width="100px;" alt="ajneil-gh"/><br /><sub><b>ajneil-gh</b></sub></a><br /><a href="#translation-ajneil-gh" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/erindfoster/"><img src="https://avatars.githubusercontent.com/u/14339093?v=4?s=100" width="100px;" alt="Erin Foster"/><br /><sub><b>Erin Foster</b></sub></a><br /><a href="#translation-edfoster10" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://carschno.github.io/"><img src="https://avatars.githubusercontent.com/u/4696228?v=4?s=100" width="100px;" alt="Carsten Schnober"/><br /><sub><b>Carsten Schnober</b></sub></a><br /><a href="#translation-carschno" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sarahmbrown.org"><img src="https://avatars.githubusercontent.com/u/10656079?v=4?s=100" width="100px;" alt="Sarah Brown"/><br /><sub><b>Sarah Brown</b></sub></a><br /><a href="#doc-brownsarahm" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
