@@ -6,10 +6,10 @@ title: Setup
 ## Requirements
 
 * A GitHub account
-* A working [Python 3.4+](https://www.python.org) environment to run the lesson initialization
-  script
-* (Optional) A local install of [bundler](https://bundler.io/) which will require the Ruby
-  language to be installed.
+* A working [Python 3.10+](https://www.python.org) environment
+* A working [Ruby 3.0+](https://www.ruby-lang.org) environment
+* A local install of [bundler](https://bundler.io) which will require the Ruby
+  language to be installed
 
 ## Setup for local rendering of the lessons (optional)
 
@@ -65,7 +65,7 @@ the Git Bash terminal (see the optional section below for more info).
 
 With these instructions, you'll be able to use the `make` commands and render all lessons
 including those that use R. However, you won't be able to do so from the Git Bash terminal, but
-from the other terminals (Windows Powershell, cmd.exe, or the Command Prompt with Ruby).
+from the other terminals (WSL, Windows Powershell, cmd.exe, or the Command Prompt with Ruby).
 
 1. In the File Explorer, right-click on "This PC" icon, and click on
   "Properties". Click on "Advanced System Settings", and click on the button
@@ -143,7 +143,7 @@ installing Homebrew will look something like:
     be on your system):
 
     ```bash
-    sudo apt-get install ruby ruby-dev build-essential libxml2-dev
+    sudo apt-get install ruby ruby-dev build-essential libxml2-dev yamllint
     ```
 
 2. **[bundler](https://bundler.io/)**
@@ -160,19 +160,16 @@ installing Homebrew will look something like:
 
 ### For Everyone
 
-1. **The GitHub Pages Ruby Gem**
-
-    Make sure there is a `Gemfile` at the root of your lesson repository. This
-    file should only contain:
+0. **Clone the Glosario repository**
 
     ```bash
-    source 'https://rubygems.org'
-    gem 'github-pages', group: :jekyll_plugins
+    git clone git@github.com:carpentries/glosario.git
+    cd glosario
     ```
 
-    If you don't have it, create it and the two lines above to it.
+1. **The GitHub Pages Ruby Gem**
 
-    At the root of your repository type
+    At the root of the Glosario repository type
 
     ```bash
     bundle update
@@ -218,20 +215,19 @@ install.packages('remotes', repos = 'https://cran.rstudio.com')
    ruby -v
    ```
 
-   You need Ruby 2.1.0 or later (currently GitHub pages uses Ruby 2.7.1). If you
-   have an older version of Ruby, if possible upgrade your operating system to a
-   more recent version. If it's not possible, consider using
-   [rbenv](https://github.com/rbenv/rbenv).
+   You need Ruby 3 or later. If you have an older version of Ruby, 
+   if possible upgrade your operating system to a more recent version.
+   If it's not possible, consider using [rbenv](https://github.com/rbenv/rbenv):
 
     ```bash
-    rbenv install 2.7.1
+    rbenv install 3.3.5
     ```
 
     And then instructing `rbenv` to use it in your lesson development process by
     executing the following command from your lesson directory:
 
     ```bash
-    rbenv local 2.7.1
+    rbenv local 3.3.5
     ```
 
 2.  **[RubyGems](https://rubygems.org/pages/download/)**
@@ -242,5 +238,5 @@ install.packages('remotes', repos = 'https://cran.rstudio.com')
     gem --version
     ```
 
-3. If you want to run `bin/lesson_check.py` (which is invoked by `make lesson-check`)
-you will need the [PyYAML](https://pypi.org/project/PyYAML/) module for Python 3.
+3. If you want to run `bin/check_glossary.py` (which is invoked by `make check`)
+you will need the [PyYAML](https://pypi.org/project/PyYAML/) and [pyicu](https://pypi.org/project/pyicu) modules for Python 3.
