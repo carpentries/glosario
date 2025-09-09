@@ -13,7 +13,7 @@ _data/glossary.yml : ./glossary.yml
 ## sort : sort the glossary file and build _data glossary file per language
 sort-glossary : _data/glossary.yml
 	@yamllint glossary.yml
-	@python utils/sort-glossary.py
+	@python3 utils/sort-glossary.py
 
 ## site : rebuild GitHub Pages site locally.
 site :
@@ -46,8 +46,8 @@ clean :
 ## check : check glossary consistency.
 check :
 	@yamllint glossary.yml
-	@python utils/check-glossary.py _config.yml glossary.yml
+	@python3 utils/check-glossary.py _config.yml glossary.yml
 
 ## checkall : check glossary consistency including missing terms in all languages.
 checkall :
-	@python utils/check-glossary.py -A _config.yml glossary.yml
+	@python3 utils/check-glossary.py -A _config.yml glossary.yml
