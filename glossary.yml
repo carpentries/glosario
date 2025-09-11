@@ -2278,12 +2278,6 @@
     def: >
       Verwys na ’n veranderlike of datatipe wat ’n logiese waarde van [waar](#true) of [vals](#false) kan hê. Die term is vernoem na George Boole,
       ’n Wiskundige uit die 19de eeu. Binêre stelsels, soos alle rekenaars, is gebou op hierdie fondasie van logiese evaluasies tussen toestande van waar en vals, 1 of 0.
-
-- slug: boxplot
-  en:
-    term: "boxplot"
-    def: >
-      A graphical representation of the distribution of a set of numeric data, usually as a vertical or horizontal bar. It displays the quartiles, median, and possible outliers. 
     
 - slug: branch
   en:
@@ -8890,7 +8884,7 @@
     term: "profiling"
     def: >
       The process of measuring where run time is spent in the code (e.g. in which function or associated with which line number).
-      Memory profiling looks at the amount of data mover from and to memory. 
+      Memory profiling looks at the amount of data moved from and to memory. 
 
 
 - slug: project_manager
