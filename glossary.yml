@@ -8879,7 +8879,7 @@
       code from test code, deployment infrastructure, and everything else that
       programmers write along the way.
 
-- slug:profiling
+- slug: profiling
   en:
     term: "profiling"
     def: >
