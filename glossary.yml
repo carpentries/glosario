@@ -895,6 +895,12 @@
       Anaconda is ’n [sagtewareverspreiding](#software_distribution) van R en Python. Dit is ook ’n [bewaarplek](#repository) van oopbron-programme in Python en R vir datawetenskap,
       saamgestel met behulp van die [conda](#conda) [pakketbestuurder](#package_manager). Anaconda sluit ook Anaconda Navigator in, ’n stel lessenaartoepassingsinsluitend ’n [IDE](#ide)
       en die [Jupyter Notebook](#jupyter_notebook) toepassing.
+  pt:
+    term: "Anaconda"
+    def: >
+      'Anaconda' é uma [software distribution](#software_distribution) de R e Python. É também um [repositório](#repository) de programas R e Python para ciência de dados, usando o [conda](#conda) [package manager](#package_manager). Anaconda cria também o Anaconda Navigator, uma compilação de 
+      ferramentas desktop que incluem uma interface gráfica de usuário assim como a aplicação [Jupyter Notebook](#jupyter_notebook).
+
 
 - slug: anchor
   en:
@@ -6797,6 +6803,10 @@
     term: "join"
     def: >
       One of several operations that combine values from two [tables](#table).
+  pt:
+    term: "juntar"
+    def: >
+      Uma de várias operações que combinam valores de duas tabelas [tables](#table).
 
   am:
     term: ተቀላቀል
@@ -8710,6 +8720,10 @@
     term: "+1"
     def: >
       Om ten gunste van iets te stem.
+  pt:
+    term: "+1"
+    def: >
+      Um voto a favor de algo.  
 
 - slug: pointcloud
   en:
@@ -9711,6 +9725,10 @@
     term: "kies"
     def: >
       Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
+  pt:
+    term: "selecionar"     
+    def: >
+      Selecionar colunas ou linhas inteiras de uma tabela por nome ou localização.  
 
 - slug: selecting_on_the_dependent_variable_bias
   en:
