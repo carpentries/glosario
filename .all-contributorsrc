@@ -1974,6 +1974,100 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "yexpp",
+      "name": "yexpp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/201125696?v=4",
+      "profile": "https://github.com/yexpp",
+      "contributions": [
+        "review",
+        "question"
+      ]
+    },
+    {
+      "login": "za",
+      "name": "za",
+      "avatar_url": "https://avatars.githubusercontent.com/u/409455?v=4",
+      "profile": "https://za.github.io",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "badryan",
+      "name": "Boris Adryan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6317446?v=4",
+      "profile": "http://adryan.de",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "VScharf7",
+      "name": "vanessa.scharf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73226085?v=4",
+      "profile": "https://github.com/VScharf7",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "froggleston",
+      "name": "Robert Davey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1872302?v=4",
+      "profile": "https://orcid.org/0000-0002-5589-7754",
+      "contributions": [
+        "doc",
+        "review",
+        "question",
+        "translation"
+      ]
+    },
+    {
+      "login": "AngeliqueV",
+      "name": "AngeliqueV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69516258?v=4",
+      "profile": "https://github.com/AngeliqueV",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "ajneil-gh",
+      "name": "ajneil-gh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75391698?v=4",
+      "profile": "https://github.com/ajneil-gh",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "edfoster10",
+      "name": "Erin Foster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14339093?v=4",
+      "profile": "https://www.linkedin.com/in/erindfoster/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "carschno",
+      "name": "Carsten Schnober",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4696228?v=4",
+      "profile": "https://carschno.github.io/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "brownsarahm",
+      "name": "Sarah Brown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10656079?v=4",
+      "profile": "http://sarahmbrown.org",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }

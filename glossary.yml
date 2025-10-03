@@ -888,7 +888,7 @@
   en:
     term: "Anaconda"
     def: >
-      Anaconda is a [software distribution] (#software_distribution) of R and Python. It is also a [repository] (#repository) of open-source Python and R programs for data science, packaged using the [conda](#conda) [package manager] (#package_manager). Anaconda also creates Anaconda Navigator, a suite of desktop tools including an [IDE] (#ide) and the [Jupyter Notebook](#jupyter_notebook) application.
+      Anaconda is a [software distribution](#software_distribution) of R and Python. It is also a [repository](#repository) of open-source Python and R programs for data science, packaged using the [conda](#conda) [package manager](#package_manager). Anaconda also creates Anaconda Navigator, a suite of desktop tools including an [IDE](#ide) and the [Jupyter Notebook](#jupyter_notebook) application.
   uk:
     term: "Anaconda"
     def: >
@@ -898,6 +898,12 @@
       побудований на базі [менеджеру пакетів](#package_manager) [conda](#conda).
       Після встановлення, Anaconda створює Anaconda Navigator, набір інструментів для робочого столу,
       включаючи [IDE] (#ide) та застосунок [Jupyter Notebook](#jupyter_notebook).
+  af:
+    term: "Anaconda"
+    def: >
+      Anaconda is ’n [sagtewareverspreiding](#software_distribution) van R en Python. Dit is ook ’n [bewaarplek](#repository) van oopbron-programme in Python en R vir datawetenskap,
+      saamgestel met behulp van die [conda](#conda) [pakketbestuurder](#package_manager). Anaconda sluit ook Anaconda Navigator in, ’n stel lessenaartoepassingsinsluitend ’n [IDE](#ide)
+      en die [Jupyter Notebook](#jupyter_notebook) toepassing.
 
 - slug: anchor
   en:
@@ -1217,10 +1223,35 @@
       Imehesabiwa kutoka kwa seti ya nambari za n kwa kujumlisha nambari hizo,
       na kugawanya matokeo na
   uk:
-    term: "арифметичне середнє"
+    term: "середнє арифметичне"
     def: >
-      Для набору з n чисел, обчислюється шляхом знаходження їх суми та ділення результату на n.
+      Обчислюється для набору з n чисел шляхом знаходження їх суми та ділення результату на n.
       [Див. також середнє значення](#mean).
+
+- slug: artificial_intelligence
+  ref:
+    - nlp
+    - machine_learning
+  en:
+    term: "artificial intelligence (AI)"
+    def: >
+      Intelligence demonstrated by machines, as opposed to humans or other animals. AI can be
+      exhibited through perceiving, synthesizing and inference of information. Example tasks include
+      [natural language processing](#nlp), computer vision, and [machine learning]
+      (#machine_learning).
+  uk:
+    term: "штучний інтелект (ШІ)"
+    def: >
+      Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
+      через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
+      комп'ютерний зір та [машинне навчання](#machine_learning).
+  af:
+    term: "kunsmatige intelligensie (KI)"
+    def: >
+      Intelligensie wat deur masjiene getoon word, in teenstelling met mense of ander diere.
+      KI kan manifesteer deur waarneming, sintese en afleiding van inligting.
+      Voorbeelde van sulke take sluit in [natuurlike taalverwerking](#nlp),
+      rekenaarvisie, en [masjienleer](#machine_learning).
 
 - slug: ascii
   en:
@@ -1885,7 +1916,7 @@
   uk:
     term: "великі дані (big data)"
     def: >
-      Збірки даних, які до недавнього часу були занадто великими для обробки на одному комп'ютері
+      Будь-які дані, що до недавнього часу були занадто великими для обробки на одному комп'ютері
       через обмежені можливості апаратного та програмного забезпечення.
 
 - slug: binary
@@ -1929,11 +1960,11 @@
     def: >
       Un système qui peut avoir l'un des deux états possibles. En informatique souvent représenté comme étant à l'état 0 ou 1. Représenté en logique booléenne comme faux (0) ou vrai (1). Les ordinateurs sont construits sur des systèmes qui stockent les 0 et les 1 sous forme de bits.
   uk:
-    term: "бінарний"
+    term: "бінарна (система)"
     def: >
       Система, яка може мати один з двох можливих станів. В інформатиці часто
-      представлена як 0 або 1. У [булевій](#boolean)
-      логіці представлена як [хибність](#false) (0) або [істина](#true) (1). Комп'ютери побудовані на системах,
+      представлена як 0 або 1, у [булевій](#boolean)
+      логіці - як [хибність](#false) (0) або [істина](#true) (1). Комп'ютери побудовані на системах,
       які зберігають 0 та 1 як [біти](#bit).
 
 - slug: binary_expression
@@ -1990,6 +2021,13 @@
     term: ቢኖሚያል ስርጭት
     def: >
       እዚያ ሲኖር የሚነሳ አንድ [ፕሮባቢሊቲ ስርጭት](#probability_distribution) እነዚህ እያንዳንዳቸው ከሁለት ውጤቶች አንዱን ሊያወጡ የሚችሉ የተወሰኑ የሙከራ ሙከራዎች ናቸው የእነዚህ ውጤቶች ዕድል አይለወጥም ፡፡ እንደ ሙከራዎች ብዛት ይጨምራል ፣ የሁለትዮሽ ስርጭት አንድ [መደበኛ ስርጭት](#normal_distribution) በግምት። የተስተካከለ የሙከራ ቁጥር ሲኖር የሚነሳ አንድ [ፕሮባቢሊቲ ስርጭት](#probability_distribution) እያንዳንዳቸው ከሁለቱ ውጤቶች አንዱን ሊያመጣ ይችላል ፣ እናም የእነዚህ ውጤቶች ዕድል አይቀየርም። የሙከራዎች ቁጥር እየጨመረ በሄደ መጠን የሁለትዮሽ ማሰራጫው ወደ [መደበኛ ስርጭት](#normal_distribution) በግምት
+
+  af:
+    term: "binomiale verspreiding"
+    def: >
+      ’n [Waarskynlikheidsverspreiding](#probability_distribution) wat ontstaan wanneer daar ’n vaste aantal proewe is, en elke proef kan een van twee uitkomste lewer,
+      met konstante waarskynlikhede. Soos die aantal proewe toeneem, benader die binomiale verspreiding ’n [normale verspreiding](#normal_distribution).
+
 
 - slug: bit
   ref:
@@ -2162,6 +2200,13 @@
     def: >
       በሕጋዊ ኮንትራቶች ፣ ፈቃዶች ፣ ወዘተ ውስጥ የተካተተ መደበኛ ጽሑፍ ፡፡
 
+  af:
+    term: "boilerplate"
+    def: >
+      Standaardteks wat in regsverdrae, lisensies en soortgelyke dokumente ingesluit word. Dit verwys ook na dele van bronkode wat baie gereeld herhaal moet word om basiese funksionaliteit te verkry.
+      In [objekgeoriënteerde programme](#oop) word hierdie segmente gebruik om veranderlikes van voorwerpe te enkapsuleer. Sommige programmeertale, soos Java, vereis baie van hierdie stellings en word daarom as boilerplate-tale beskou,
+      wat beteken dat sulke kode dikwels outomaties gegenereer word of met behulp van [outovoltooiing](#auto_completion).
+
 - slug: boolean
   ref:
     - truthy
@@ -2236,6 +2281,12 @@
       Пов'язаний зі змінною або типом даних, які можуть мати логічне значення [істини](#true) або [хибності](#false). 
       Цей термін походить від імені Джорджа Буля, математика 19-го століття. Двійкові системи, як і всі комп'ютери, 
       будуються на основі системи логічного обчислення між станами істини та хибності (1 або 0).
+
+  af:
+    term: "Booleaans"
+    def: >
+      Verwys na ’n veranderlike of datatipe wat ’n logiese waarde van [waar](#true) of [vals](#false) kan hê. Die term is vernoem na George Boole,
+      ’n Wiskundige uit die 19de eeu. Binêre stelsels, soos alle rekenaars, is gebou op hierdie fondasie van logiese evaluasies tussen toestande van waar en vals, 1 of 0.
     
 - slug: branch
   en:
@@ -2256,6 +2307,11 @@
     term: "гілка"
     def: >
       Дивіться [гілка Git](#git_branch).
+
+  af:
+    term: "tak"
+    def: >
+      Sien [Git-tak](#git_branch).
 
 - slug: branch_per_feature_workflow
   en:
@@ -2299,9 +2355,9 @@
   uk:
     term: "навігаційні стежки (хлібні крихти)"
     def: >
-      Група навігаційних посилань на багатьох веб-сайтах, які знаходяться на багатьох веб-сайтах та зазвичай містяться у 
-      верхній частині сторінки. Навігаці́йні стежки показують користувачам, де вони знаходяться відносно решти веб-сайту. 
-      Термін походить від казки "Гензель і Гретель", в якій діти залишають за собою слід з хлібних крихт, щоб знайти дорогу додому.
+      Набір навігаційних посилань на багатьох веб-сайтах, які зазвичай розміщуються у
+      верхній частині сторінки. Навігаці́йні стежки показують користувачам, де вони знаходяться відносно поточної сторінки веб-сайту.
+      Термін походить від казки "Гензель і Гретель", в якій діти залишали за собою слід з хлібних крихт, щоб знайти дорогу додому.
 
 - slug: breadth_first
   ref:
@@ -2436,6 +2492,15 @@
     term: የግንባታ ሥራ አስኪያጅ
     def: >
       ፋይሎች እንዴት እርስ በእርስ እንደሚተያዩ የሚከታተል እና ትዕዛዞችን የሚያከናውን ፕሮግራም ጊዜ ያለፈባቸውን ማናቸውንም ፋይሎች ለማዘመን ፡፡ የግንባታ ሥራ አስኪያጆች ተፈለሰፉባቸው እነዚያን የተለወጡ የፕሮግራሞቹን ክፍሎች ብቻ ያጠናቅሩ (ግን ያጠናቅሩ) ፣ ግን አሁን ናቸው ሴራዎች በውጤቶች ፋይሎች ላይ የሚመረኮዙባቸውን የሥራ ፍሰቶች ለመተግበር ብዙ ጊዜ ጥቅም ላይ ይውላሉ በምላሹ በጥሬ መረጃ ፋይሎች ወይም በውቅር ፋይሎች ላይ የተመሠረተ ነው። ጊዜ ያለፈባቸውን ማናቸውንም ፋይሎች ለማዘመን ፋይሎች እንዴት እርስ በእርስ እንደሚተያዩ የሚከታተል እና ትዕዛዞችን የሚያከናውን ፕሮግራም  ፡፡  የግንባታ ሥራ አስኪያጆች ተፈለሰፉባቸው እነዚያን የተለወጡ የፕሮግራሞቹን ክፍሎች ብቻ ያጠናቅሩ (ግን ያጠናቅሩ) ፣ ግን አሁን ናቸው ሴራዎች በውጤቶች ፋይሎች ላይ የሚመረኮዙባቸውን የሥራ ፍሰቶች ለመተግበር ብዙ ጊዜ ጥቅም ላይ ይውላሉ በምላሹ በጥሬ መረጃ ፋይሎች ወይም በውቅር ፋይሎች ላይ የተመሠረተ ነው።
+  uk:
+    term: "менеджер збірок"
+    def: >
+      Програма, яка відстежує залежність файлів один від одного та виконує
+      дії лише з тими файлами, які змінилися після попереднього виклику програми.
+      Менеджери збірок були винайдені для [компіляції](#compile) лише тих частин
+      програм, які змінилися, але зараз часто використовуються для автоматизації
+      процесів обробки даних, у яких графіки залежать від файлів результатів, які,
+      у свою чергу, залежать від файлів з вихідними даними або файлів конфігурації.
 
 - slug: build_recipe
   en:
@@ -2458,6 +2523,11 @@
     term: ደንብ ይገንቡ
     def: >
       የተወሰኑትን እንዴት እንደሚገልፅ ለ [የግንባታ ሥራ አስኪያጅ](#build_manager) ዝርዝር ፋይሎች በሌሎች ላይ ይወሰናሉ እና እነዚያ ፋይሎች ጊዜው ያለፈባቸው ከሆኑ ምን ማድረግ እንዳለባቸው ፡፡ የተወሰኑትን ፋይሎች በሌሎች ላይ ይወሰናሉ  እና እነዚያ ፋይሎች ጊዜው ያለፈባቸው ከሆኑ ምን ማድረግ እንዳለባቸው የሚገልፅ [የግንባታ ሥራ አስኪያጅ](#build_manager) ዝርዝር ነዉ ::
+  uk:
+    term: "правило збірки"
+    def: >
+      Інструкція для [менеджера збірок](#build_manager), яка описує як деякі
+      файли залежать від інших, та що робити, якщо вони застаріли.
 
 - slug: build_stale
   en:
@@ -2483,6 +2553,11 @@
     term: ግንባታ ዒላ ግንባታ ዒላማ
     def: >
       ጊዜው ያለፈባቸው ከሆኑ [የግንባታ ደንብ](#build_rule) የሚዘመኑ ፋይሎች (ሎች) ከእነሱ [ጥገኞች] ጋር ሲነፃፀር[dependencies](#dependency)።
+  uk:
+    term: "мета (у менеджері збірок)"
+    def: >
+      Один чи декілька файлів, які будуть оновлені у відповідності із
+      [правилом збірки](#build_rule), якщо вони старіші ніж їх [залежності](#dependency).
 
 - slug: byte
   en:
@@ -2558,8 +2633,8 @@
     def: >
       Програмний або апаратний механізм, що зберігає копії даних, щоб майбутні запити до них могли бути виконані швидше.
       Центральний процесор в комп'ютері використовує апаратний кеш для зберігання
-      нещодавно доступних значень; багато програм покладаються на програмний кеш для зменшення мережевого
-      трафіку та затримок. Перевірка, чи містить кеш застарілі дані, які потрібно оновити, є однією з
+      нещодавно доступних значень; багато програм використовують програмний кеш для зменшення мережевого
+      трафіку та затримок. Перевірка того, чи містить кеш застарілі дані, які потрібно оновити, є однією з
       [двох найскладніших проблем в інформатиці](#two_hard_problems).
 
 - slug: caching
@@ -2658,8 +2733,8 @@
     term: "верблюдячий регістр (camel case)"
     def: >
       Стиль написання коду, який передбачає іменування змінних та об'єктів без пробілів, 
-      символів підкреслення (_), крапки (.) або тире (-). Кожне слово, іноді, за 
-      вийнятком першого слова, пишеться з великої літери, наприклад: CalculateSum та findPattern.
+      символів підкреслення (`_`), крапки (`.`) або тире (`-`). Кожне слово пишеться з великої літери.
+      Перше слово може писатися з маленької літери. Наприклад: `CalculateSum`, `findPattern`.
 
 - slug: catch_exception
   ref:
@@ -3375,7 +3450,7 @@
   en:
     term: "conda"
     def: >
-      A [package manager] (#package_manager) and environment management system, particularly popular for Python programs.
+      A [package manager](#package_manager) and environment management system, particularly popular for Python programs.
 
 
 - slug: condition
@@ -3435,7 +3510,7 @@
     def: >
       Діапазон, в якому з заданою ймовірністю знаходиться реальне значення оцінки.
   
-- slug: configuration file
+- slug: configuration_file
   en:
     term: "configuration file"
     def: >
@@ -3709,7 +3784,17 @@
       Mesure à quel point deux variables sont en accord l'une avec l'autre.
       Le [coefficient de corrélation](#correlation_coefficient) est une mesure
       normalisée de la covariance.
-
+  uk:
+    term: "коваріація"
+    def: >
+      Cтатистичний показник, що відображає, як змінюються дві величини одночасно.
+      Якщо обидві зростають чи зменшуються разом - коваріація додатна, якщо одна
+      зростає, а інша зменшується - від’ємна.
+      Коваріація використовується для виявлення зв’язку між змінними, але не
+      нормується, тому не дозволяє точно оцінити силу цього зв’язку без
+      додаткових перетворень, наприклад, розрахунку
+      [коефіцієнта кореляції](#correlation_coefficient),
+      який є нормалізованим показником коваріації.
 - slug: cpu
   ref:
     - gpu
@@ -4320,6 +4405,10 @@
   am:
     term: ጥገኝነት
     def: "[ቅድመ ሁኔታ](#prerequisite) ን ይመልከቱ \n"
+  uk:
+    term: "залежність"
+    def: >
+      Див. [передумова](#prerequisite).
 
 - slug: dependent_variable
   en:
@@ -6095,12 +6184,13 @@
       harmonic, [geometric](#geometric_mean), and [arithmetic](#arithmetic_mean)
       means respectively.
   uk:
-    term: "гармонійне середнє"
+    term: "середнє гармонійне"
     def: >
-      Для набору з n чисел, обчислюється як n, поділене на суму обернених цих чисел.
+      Обчислюється для набору з n чисел шляхом обчислення суми обернених величин цих чисел,
+      а потім ділення n на отриману суму.
       Його також можна обчислити як обернене від арифметичного середнього обернених значень. 
       Гармонійне середнє використовується для оцінки середніх швидкостей зміни або інших 
-      коефіцієнтів. Для набору позитивних чисел, які не всі рівні між собою (або одне одному) виконується наступна нерівність: 
+      коефіцієнтів. Для набору додатних чисел, які не всі рівні між собою (або одне одному) виконується наступна нерівність:
       Мінімальне значення < Гармонійне середнє < Геометричне середнє < Арифметичне середнє < Максимальне значення.
 
 - slug: hash_function
@@ -7667,6 +7757,13 @@
       'n Waarde wat die boonste en onderste helfte van 'n gesorteerde datastel skei. Die mediaan
       gee dikwels 'n beter idee van wat tipies is vir die datastel as die
       [mediaan](#mean), wat beïnvloed kan word deur 'n klein aantal ekstreme uitskieters.
+  uk:
+    term: "медіана"
+    def: >
+      Значення, що розділяє верхню та нижню половини відсортованого набору даних.
+      Медіана часто дає краще уявлення про те, що є типовим для набору даних, ніж [середнє](#mean),
+      на яке може впливати невелика кількість екстремальних значень. Якщо набір даних
+      містить парну кількість елементів, це є середнім значенням двох центральних елементів.
 
   am:
     term: መካከለኛ
@@ -7797,11 +7894,16 @@
     term: "Modus"
     def: >
       Auch Modalwert genannt. Gibt den Wert oder die Werte an, die am häufigsten in einem Datensatz vorkommen.
-  am:
+  ar:
     term: "المنوال"
     def: >
       القيمة أو القيم الأكثر تكراراً في مجموعة البيانات.
-
+  uk:
+    term: "мода"
+    def: >
+      Мода - одне чи декілька значень, які найчастіше зустрічаються в наборі даних.
+      Якщо декілька значень мають однакову найвищу частоту, то набір має декілька
+      мод, і такий розподіл називається мультимодальним.
 
 - slug: model
   en:
@@ -8223,9 +8325,10 @@
   uk:
     term: "відкрита ліцензія"
     def: >
-      [Ліцензія](#license), яка дозволяє загальне повторне використання творів,
-      наприклад, ліцензія [MIT](#mit_license) або [GPL](#gpl) для програмного
-      забезпечення та [CC-BY](#cc_by) або [CC-0](#cc_0) для даних, прози
+      [Ліцензія](#license), що дозволяє загальне повторне використання творів,
+      наприклад, ліцензії [MIT](#mit_license), [GPL](#gpl) для програмного
+      забезпечення або [CC-BY](#cc_by), [CC-0](#cc_0) для даних чи будь-яких
+      творчих результатів, що виражені в матеріальній формі.
       чи інших творчих результатів.
 
 - slug: open_science
@@ -8245,7 +8348,7 @@
      
 - slug: openrefine
   ref:
-    - tidy data
+    - tidy_data
   en:
     term: "OpenRefine"
     def: >
@@ -8291,11 +8394,10 @@
       An Open Researcher and Contributor ID that uniquely and persistently identifies
       an author of scholarly works. ORCIDs are for people what [DOIs](#doi) are for documents.
   uk:
-    term: "відкритий ідентифікатор дослідника і співавтора"
-    acronym: "ORCID"
+    term: "ORCID (Open Researcher and Contributor ID)"
     def: > 
-      ORCID зазначає "Open Researcher and Contributor ID", тобто "відкритий ідентифікатор 
-      дослідника і співавтора". Він унікально ідентифікує автора наукових праць. ORCID 
+      Відкритий ідентифікатор
+      дослідника і співавтора, що унікально ідентифікує автора наукових праць. ORCID
       для науковців є еквівалентом [DOI](#doi) для документів.
 
 - slug: orthogonality
@@ -8702,6 +8804,10 @@
     term: "prerequisite"
     def: >
       Something that a [build target](#build_target) depends on.
+  uk:
+    term: "передумова"
+    def: >
+      Умова, від якої залежить [мета](#build_target) у [менеджері збірок](#build_manager).
 
 
 - slug: principal_component_analysis
@@ -8788,6 +8894,13 @@
       Software that is delivered to an end user. The term is used to distinguish such
       code from test code, deployment infrastructure, and everything else that
       programmers write along the way.
+
+- slug: profiling
+  en:
+    term: "profiling"
+    def: >
+      The process of measuring where run time is spent in the code (e.g. in which function or associated with which line number).
+      Memory profiling looks at the amount of data moved from and to memory. 
 
 
 - slug: project_manager
@@ -8932,8 +9045,13 @@
       called a quantile. For example, if there are five groups, each is called a
       *quintile*; the bottom quintile contains the lowest 20% of the values, while the
       top quintile contains the highest 20%.
-
-
+  uk:
+    term: "квантиль"
+    def: >
+      Квантиль - це загальний термін для значень, що ділять відсортований
+      набір даних на рівні частини. При поділі на чотири групи використовують
+      квартилі, на п’ять - квінтилі, на десять - децилі. Нижній квінтиль,
+      наприклад, містить найнижчі 20% значень.
 - slug: query_string
   en:
     term: "query string"
@@ -9301,7 +9419,7 @@
     def: >
       [Репозиторій](#repository), розташований на іншому сервері або пристрої. За допомогою 
       системи контролю версій, такої як Git, можна синхронізувати локальні та віддалені 
-      репозиторії, що дозволяє спільну роботу.  
+      репозиторії, що дозволяє спільну роботу над їх вмістом.
 
 - slug: repl
   ref:
@@ -9616,7 +9734,7 @@
     def: >
       Om volledige kolomme of rye in 'n tabel volgens naam of plek te kies (selekteer).
 
-- slug: selecting on the dependent variable bias
+- slug: selecting_on_the_dependent_variable_bias
   en:
     term: "selecting on the dependent variable bias"
     def: >
@@ -9924,11 +10042,11 @@
       For example, the proportion of people who do not have a disease that test negative.
       Calculated as Specificity = TN/(TN+FP).
 
-- slug: spectral analysis
+- slug: spectral_analysis
   ref:
     - python
-    - data analysis
-    - bayesian statistics
+    - data_analysis
+    - bayesian_statistics
   en:
     term: "spectral analysis"
     def: >
@@ -11185,24 +11303,6 @@
       A branch of statistical tests which do not assume a known distribution of the population which the samples were taken from (Kruskal-Wallis and Dunn test are examples of non-parametric tests).
 
 
-- slug: artificial_intelligence
-  ref:
-    - nlp
-    - machine_learning
-  en:
-    term: "artificial intelligence (AI)"
-    def: >
-      Intelligence demonstrated by machines, as opposed to humans or other animals. AI can be
-      exhibited through perceiving, synthesizing and inference of information. Example tasks include
-      [natural language processing](#nlp), computer vision, and [machine learning]
-      (#machine_learning).
-  uk:
-    term: "штучний інтелект (ШІ)"
-    def: >
-      Інтелект, який демонструють машини, на відміну від людей або інших тварин. ШІ може проявлятися
-      через сприйняття, синтезування та виведення інформації. Серед завдань можна виділити [обробку природної мови](#nlp),
-      комп'ютерний зір та [машинне навчання](#machine_learning).
-
 - slug: cnn
   ref:
     - deep_learning
@@ -11231,7 +11331,6 @@
       A class of [artificial neural networks](#neural_network) where connections between nodes can
       create a cycle. This allows the network to exhibit behavior that is dynamic over time. This
       type of network is applicable to tasks like speech and handwriting recognition.
-
 
 - slug: epoch_dl
   ref:
@@ -11328,3 +11427,30 @@
       es un gráfico que muestra el desempeño de un clasificador binario con diferentes umbrales de [clasificación](#classification)
       La curva se obtiene graficando la tasa de verdaderos positivos (también conocida como Recall o [Sensibilidad](#sensitivity))
       a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.
+
+- slug: fine_tuning
+  ref:
+    - deep_learning
+    - neural_network
+    - transfer_learning
+  
+  en:
+    term: fine-tuning (deep learning)
+    def: >
+      Fine-tuning is an approach to transfer learning in which a pre-trained network is adapted to the 
+      specifics of a new dataset. 
+
+- slug: transfer_learning
+  ref: 
+    - deep_learning
+    - transfer_learning
+  
+  en:
+    term: transfer learning (deep learning)
+    def: >
+      Transfer learning is a specific form of deep learning that has 2 stages. First, in the pre-training 
+      phase, a neural network is trained on a (typically large) generic dataset. Second, the 
+      fine-tuning phase, the neural network is adapted to the specifics of a (typically smaller) new 
+      dataset. The idea is that the network will capture generic knowledge in the pre-training phase 
+      that is relevant for learning in the fine-tuning task.
+      

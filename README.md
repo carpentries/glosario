@@ -6,7 +6,6 @@
 
 - [Contributing](#contributing)
 - [Structure of Glossary](#structure-of-glossary)
-- [Glosario FAQ](#glosario-faq)
 - [Funding and Collaborators](#funding-and-collaborators)
 - [Credits](#credits)
 - [Contributors](#contributors)
@@ -72,100 +71,6 @@ A glossary entry is structured like this:
         and/or links to outside sources.
 
 You can access the glossary.yml dataset and citation information by clicking on the following DOI badge: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13589476.svg)](https://doi.org/10.5281/zenodo.13589476)
-
-## Glosario FAQ
-
-#### What is Glosario?
-**Glosario** is an open-source, multilingual glossary of data science terms. Lesson authors can use glossary keys in lesson metadata to clarify what is taught, what learners need to know, and where that knowledge can be found. The libraries also allow insertion of consistent hyperlinks to term definitions across several human languages.
-
----
-
-#### Why not just link to Wikipedia?
-While Wikipedia provides **explanations**, Glosario provides **concise definitions**. Our aim is to support clarity and consistency across lessons—not to replace encyclopedic references.
-
----
-
-#### What formats are used to build Glosario?
-The master glossary is maintained in a `glossary.yml` file. While YAML can be challenging to edit, it's preferred because it better supports complex relationships than other formats like JSON or CSV.
-
----
-
-#### How can I view or use Glosario online?
-Glosario is deployed as a **GitHub Pages** site using **Jekyll**—the default site generator for GitHub Pages. The glossary is also available as installable packages for **R** and **Python**.
-
----
-
-#### What does a glossary entry look like?
-
-```yaml
-- slug: cran
-  ref:
-    - base_r
-    - tidyverse
-  en:
-    term: "Comprehensive R Archive Network"
-    acronym: "CRAN"
-    def: >
-      A public repository of R [packages](#package).
-
-```
-
-Each entry includes:
-
-- A unique slug
-- Optional related term references
-- Definitions in one or more ISO 639 languages (e.g., en, es, fr)
-- An optional acronym
-- Definitions may include links to other glossary terms or external sources
-
----
-
-#### How can I contribute?
-
-There are two main ways:
-
-- [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeWrUOM3SWFVtErDzWQugKmVY4gmpqNLpnB7QJioVBCLnEa7g/viewform) – No technical knowledge needed.  
-- [GitHub](https://docs.google.com/document/d/18oxYd6D9heESqw2gw9cbtxiCfkb4wlxazERFBIDCoeM/edit?tab=t.0#heading=h.wsi1psxc3n64) – If you're familiar with GitHub’s web interface, you can contribute directly.
-
-Check out our short YouTube tutorials:
-
-- [Recording in English](https://www.youtube.com/watch?v=ew1eb1ug-Q8)
-- [Recording in Español](https://www.youtube.com/watch?v=f9K5wYq0dQM&t=23s)  
-(Use YouTube’s auto-translate feature for other languages)
-
----
-
-#### Can I contribute in any language?
-
-Yes! Contributions are welcome in **all languages**, even those not currently represented in the glossary.
-
----
-
-#### Where can I get help or ask questions?
-
-- Join the `#glosario` channel in **The Carpentries Slack**
-- Email us at [community@carpentries.org](mailto:community@carpentries.org)
-- Need Slack access? [Request it here](https://carpentries.org/slack/)
-
----
-
-#### What is the structure behind Glosario?
-
-- The core glossary is stored in `glossary.yml`
-- Built into a **GitHub Pages** site using **Jekyll**
-
----
-
-#### Who funds and collaborates on Glosario?
-
-- **SADiLaR** supports expansion into African languages.
-- The **Andrew W. Mellon Foundation** has provided funding from **November 2023 to December 2025** for upgrades and ongoing development.
-
----
-
-#### Who gets credit for contributing?
-
-At The Carpentries, every contribution matters. See [All Contributors](https://github.com/carpentries/glosario/graphs/contributors) for a list of contributions. 
 
 
 ## Funding and Collaborators
@@ -475,6 +380,18 @@ We now show credit for four types of contributions:
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ahmedunshur"><img src="https://avatars.githubusercontent.com/u/6027258?v=4?s=100" width="100px;" alt="Ahmed Unshur"/><br /><sub><b>Ahmed Unshur</b></sub></a><br /><a href="#translation-ahmedunshur" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/eor"><img src="https://avatars.githubusercontent.com/u/6682226?v=4?s=100" width="100px;" alt="Fabian"/><br /><sub><b>Fabian</b></sub></a><br /><a href="#translation-eor" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yexpp"><img src="https://avatars.githubusercontent.com/u/201125696?v=4?s=100" width="100px;" alt="yexpp"/><br /><sub><b>yexpp</b></sub></a><br /><a href="#review-yexpp" title="Reviewed Pull Requests">👀</a> <a href="#question-yexpp" title="Answering Questions">💬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://za.github.io"><img src="https://avatars.githubusercontent.com/u/409455?v=4?s=100" width="100px;" alt="za"/><br /><sub><b>za</b></sub></a><br /><a href="#translation-za" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://adryan.de"><img src="https://avatars.githubusercontent.com/u/6317446?v=4?s=100" width="100px;" alt="Boris Adryan"/><br /><sub><b>Boris Adryan</b></sub></a><br /><a href="#translation-badryan" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/VScharf7"><img src="https://avatars.githubusercontent.com/u/73226085?v=4?s=100" width="100px;" alt="vanessa.scharf"/><br /><sub><b>vanessa.scharf</b></sub></a><br /><a href="#review-VScharf7" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://orcid.org/0000-0002-5589-7754"><img src="https://avatars.githubusercontent.com/u/1872302?v=4?s=100" width="100px;" alt="Robert Davey"/><br /><sub><b>Robert Davey</b></sub></a><br /><a href="#doc-froggleston" title="Documentation">📖</a> <a href="#review-froggleston" title="Reviewed Pull Requests">👀</a> <a href="#question-froggleston" title="Answering Questions">💬</a> <a href="#translation-froggleston" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AngeliqueV"><img src="https://avatars.githubusercontent.com/u/69516258?v=4?s=100" width="100px;" alt="AngeliqueV"/><br /><sub><b>AngeliqueV</b></sub></a><br /><a href="#translation-AngeliqueV" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ajneil-gh"><img src="https://avatars.githubusercontent.com/u/75391698?v=4?s=100" width="100px;" alt="ajneil-gh"/><br /><sub><b>ajneil-gh</b></sub></a><br /><a href="#translation-ajneil-gh" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/erindfoster/"><img src="https://avatars.githubusercontent.com/u/14339093?v=4?s=100" width="100px;" alt="Erin Foster"/><br /><sub><b>Erin Foster</b></sub></a><br /><a href="#translation-edfoster10" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://carschno.github.io/"><img src="https://avatars.githubusercontent.com/u/4696228?v=4?s=100" width="100px;" alt="Carsten Schnober"/><br /><sub><b>Carsten Schnober</b></sub></a><br /><a href="#translation-carschno" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sarahmbrown.org"><img src="https://avatars.githubusercontent.com/u/10656079?v=4?s=100" width="100px;" alt="Sarah Brown"/><br /><sub><b>Sarah Brown</b></sub></a><br /><a href="#doc-brownsarahm" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
