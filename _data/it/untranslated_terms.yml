@@ -3347,6 +3347,12 @@
 
       '
     term: production code
+- slug: profiling
+  it:
+    def: "The process of measuring where run time is spent in the code (e.g. in which\
+      \ function or associated with which line number). Memory profiling looks at\
+      \ the amount of data moved from and to memory. \n"
+    term: profiling
 - slug: project_manager
   it:
     def: 'The person responsible for ensuring that a project moves forward.
