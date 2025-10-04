@@ -1776,6 +1776,11 @@
       Una ecuación para calcular la probabilidad de que algo sea [verdadero](#true) si algo    
       relacionado con ello es verdadero. Si P(X) es la probabilidad de que X is verdadero y P(X`|`Y) es    
       la probabilidad de que X es verdadero dado que Y sea verdadero, entonces P(X`|`Y) = P(Y`|`X) * P(X) / P(Y).
+  de:
+    term: Satz von Bayes
+    def: >
+      Eine Gleichung zur Berechnung der Wahrscheinlichkeit, dass etwas wahr ist, wenn etwas damit Zusammenhängendes wahr ist. Wenn P(X) die Wahrscheinlichkeit ist, dass X wahr ist, und P(X|Y) die Wahrscheinlichkeit, dass X wahr ist, gegeben dass Y wahr ist, dann gilt:
+      P(X|Y) = P(Y|X) * P(X) / P(Y).
 
 
 - slug: bayesian_network
@@ -1801,6 +1806,10 @@
     term: Bayesian-netwerk
     def: >
       'n Grafiek wat die verhoudings tussen lukrake veranderlikes vir 'n gegewe probleem verteenwoordig.
+  de:
+    term: Bayessches Netz
+    def: > 
+      Ein Graph, der die Beziehungen zwischen Zufallsvariablen für ein gegebenes Problem darstellt.
 
 - slug: bias
   ref:
@@ -2943,6 +2952,10 @@
     term: ቺ-እስኬር ፈተና
     def: >
       በመስቀል ጠረፍ ውስጥ ሁለት ተለዋዋጭ ዎችን ለመገመት የሚያስችል አሃዛዊ ዘዴ (#correlation) ናቸው።  የቺ-ካሬ ስርጭት ከ[የተለመደ) የስርጭት ](#normal_distribution) ይለያያል በ[ዲግሪ)  ነፃነት](#degrees_of_freedom) መሰረት ለማስላት ይጠቀሙበት ነበር።
+  de:
+    term: Chi-Quadrat-Test
+    def: >
+      Eine statistische Methode zur Abschätzung, ob ein signifikanter Zusammenhang zwischen zwei kategorialen Variablen besteht.
 
 - slug: child_class
   en:
@@ -3014,6 +3027,10 @@
     def: >
       El proceso de identificar a que categoría predefinida pertenece un objeto, como, por ejemplo, decidir si un mensaje de correo electrónico es spam o no.
       Muchos algoritmos de [machine learning](#machine_learning) realizan clasificación.
+  de:
+    term: Klassifikation
+    def: >
+      Der Prozess der Zuordnung eines Elements zu einer vordefinierten Kategorie, zum Beispiel die Entscheidung, ob eine E-Mail Spam ist oder nicht. Viele Machine-Learning-Algorithmen führen Klassifikation durch.
 
 - slug: cli
   en:
@@ -3079,6 +3096,10 @@
     term: "kugawanya"
     def: >
       Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa mapema.
+  de:
+    term: Clustering
+    def: >
+      Der Prozess, Datenpunkte anhand ihrer Ähnlichkeit in Gruppen (Cluster) einzuteilen, ohne dass die Gruppenzugehörigkeiten im Voraus bekannt sind.
 
 - slug: code_coverage
   en:
@@ -3215,6 +3236,10 @@
     term: "аргумент командного рядка"
     def: >
       Назва файлу, опція або інша інформація, яку передають програмі під час її запуску через інтерфейс командного рядка.
+  de:
+    term: Kommandozeilenargument
+    def: >
+      Eine Datei, Option oder ein Parameter, der einem Programm beim Start über die Kommandozeile übergeben wird.
 
 - slug: comment
   en:
@@ -3532,6 +3557,10 @@
     def: >
       Комп'ютерний термінал, де користувач може вводити команди, або програма,
       яка імітує такий пристрій, наприклад, [командна оболонка](#shell).
+  de:
+    term: Konsole
+    def: > 
+      Eine Computerschnittstelle, über die ein Benutzer textbasierte Befehle eingeben kann, häufig über ein Terminal oder ein Programm, das ein solches simuliert, wie etwa eine Shell.
 
 - slug: confusion_matrix
   en:
@@ -4116,6 +4145,10 @@
     def: >
       Міждисциплінарна галузь, що поєднує статистику, математику, програмування, машинне навчання та інші методи
       для розуміння даних і виявлення прихованих закономірностей.
+  de:
+    term: Data Science
+    def: >
+      Ein interdisziplinäres Feld, das Statistik, Programmierung und Fachwissen kombiniert, um Erkenntnisse und Wissen aus Daten zu gewinnen.
 
 - slug: data_scientist
   en:
@@ -4151,6 +4184,10 @@
     def: >
       Фахівець, який поєднує знання з програмування, статистики та машинного навчання для аналізу даних,
       виявлення закономірностей і формулювання висновків, що допомагають приймати обґрунтовані рішення.
+  de:
+    term: Data Scientist
+    def: >
+      Eine Fachperson, die statistische Methoden, Programmierung und Fachwissen einsetzt, um Daten zu analysieren und daraus relevante Erkenntnisse zu gewinnen.
 
 - slug: data_structure
   en:
@@ -4272,11 +4309,14 @@
     term: "decrementar"
     def: >
       Uma operação unária que diminui o valor de uma variável, geralmente em um.
-
   sw:
     term: "kupunguza"
     def: >
       Operesheni isiyo ya kawaida ambayo hupunguza thamani ya kigezo, kwa kawaida kwa 1.
+  de:
+    term: Dekrement
+    def: >
+      Eine Operation, die den Wert einer einzelnen Variablen verringert, typischerweise um 1.
 
 
 - slug: deep_learning
@@ -4850,17 +4890,19 @@
     def: >
       The process of putting a sequence of characters such as letters, numbers, punctuation,
       and certain symbols, into a specialized format for efficient transmission or storage.
-
   af:
     term: "kodering"
     def: >
       Die proses waardeur 'n reeks karakters, soos letters, syfers, interpunktiewe tekens en sekere simbole, in 'n gespesialiseerde formaat geplaas word vir doeltreffende oordrag of berging
-
   uk:
     term: "кодування"
     def: >
       Процес переробки послідовності символів, таких як літери, цифри, знаки пунктуації та
       інші спеціальні символи, у інший формат, який передбачає їх ефективну передачу чи зберігання.
+  de:
+    term: Kodierung
+    def: >
+      Der Prozess, eine Zeichenfolge (wie Buchstaben, Zahlen und Symbole) in ein bestimmtes Format umzuwandeln, um sie effizient zu speichern oder zu übertragen.
 
 - slug: environment
   en:
