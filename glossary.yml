@@ -2313,6 +2313,14 @@
       created for work on each new feature or each [bug](#bug) fix and merged when that work
       is completed. This isolates changes from one another until they are completed.
 
+  af:
+    term: "tak-per-kenmerk werkstroom"
+    def: >
+      'n Algemene strategie om werk in [Git](#git), en ander [weergawe beheerstelsels](#version_control_system),
+      te organiseer, deur 'n afgesonderde [tak](#git_branch) te skep vir elke nuwe kenmerk of [bug](#bug)-korreksie.
+      Die tak word dan saamgesmelt wanneer die werk voltooi is. Die werkstroom isoleer verskillende veranderinge 
+      van mekaar totdat hulle voltooi is.
+
   am:
     term: የቅርንጫፍ-በእያንዳንዱ-ባህርይ የስራ ፍሰት
     def: >
