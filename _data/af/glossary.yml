@@ -807,6 +807,16 @@
 
       '
     term: tak
+- slug: branch_per_feature_workflow
+  af:
+    def: '''n Algemene strategie om werk in [Git](#git), en ander [weergawe beheerstelsels](#version_control_system),
+      te organiseer, deur ''n afgesonderde [tak](#git_branch) te skep vir elke nuwe
+      kenmerk of [bug](#bug)-korreksie. Die tak word dan saamgesmelt wanneer die werk
+      voltooi is. Die werkstroom isoleer verskillende veranderinge  van mekaar totdat
+      hulle voltooi is.
+
+      '
+    term: tak-per-kenmerk werkstroom
 - slug: backward_compatible
   af:
     def: '''n Eienskap van ''n stelsel, hardeware of sagteware wat dit moontlik maak
