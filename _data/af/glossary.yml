@@ -364,6 +364,16 @@
   - truthy
   - falsy
   - binary
+- slug: breadcrumbs
+  af:
+    def: 'n Ontwerppatroon vir webwerwe wat bykomende navigasieskakels plaas, gewoonlik
+      bo-aan die  bladsy. Broodkrummel-navigasieskakels wys die gebruiker waar hulle,
+      relatief tot die res van  die webwerf, is. Die term is gebaseer op die sprokie
+      Hansie en Grietjie, waarin die kinders  ''n spoor van broodkrummels agterlaat
+      om hul pad terug huis toe te vind.
+
+      '
+    term: broodkrummels
 - slug: bug
   af:
     def: '''n Ontbrekende of ongewenste kenmerk van ''n stuk sagteware; die digitale

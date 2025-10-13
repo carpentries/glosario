@@ -2327,6 +2327,13 @@
       ሥራን በ [Git](#git) እና በሌሎች [ስሪት ቁጥጥር] ጋር ለማስተዳደር የተለመደ ስልት ስርዓቶች] (#version_control_system) የተለየ [ቅርንጫፍ](#git_branch) ባለበት ለእያንዳንዱ አዲስ ባህሪ ወይም ለእያንዳንዱ [ሳንካ](#git) ጥገና እና ሥራ ሲሠራ ተዋህዷል ተጠናቅቋል ፡፡ ይህ እስኪጠናቀቁ ድረስ ለውጦች እርስ በእርስ ይለየዋቸዋል።
 
 - slug: breadcrumbs
+  af:
+    term: "broodkrummels"
+    def: >
+      n Ontwerppatroon vir webwerwe wat bykomende navigasieskakels plaas, gewoonlik bo-aan die 
+      bladsy. Broodkrummel-navigasieskakels wys die gebruiker waar hulle, relatief tot die res van 
+      die webwerf, is. Die term is gebaseer op die sprokie Hansie en Grietjie, waarin die kinders 
+      'n spoor van broodkrummels agterlaat om hul pad terug huis toe te vind.
   en:
     term: "breadcrumbs"
     def: >
