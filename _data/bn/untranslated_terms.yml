@@ -4277,7 +4277,6 @@
 - slug: stratified_sampling
   bn:
     def: 'Selecting values by dividing the overall population into [homogeneous](#homogeneous)
-      groups and then taking a random sample from each group.
 
       '
     term: stratified sampling

@@ -3329,41 +3329,6 @@
 
       '
     term: stale (in build)
-- slug: stderr
-  es:
-    def: 'A predefined communication channel for a [process](#process), typically
-      used for error messages.
-
-      '
-    term: standard error
-- slug: stdin
-  es:
-    def: 'A predefined communication channel for a [process](#process), typically
-      used to read input from the keyboard or from the previous process in a [pipe](#pipe_shell).
-
-      '
-    term: standard input
-- slug: stdout
-  es:
-    def: 'A predefined communication channel for a [process](#process), typically
-      used to send output to the screen or to the next process in a [pipe](#pipe_shell).
-
-      '
-    term: standard output
-- slug: stratified_sampling
-  es:
-    def: 'Selecting values by dividing the overall population into [homogeneous](#homogeneous)
-      groups and then taking a random sample from each group.
-
-      '
-    term: stratified sampling
-- slug: stream
-  es:
-    def: 'A sequential flow of data, such as the [bits](#bit) arriving across a network
-      connection or the bytes read from a file.
-
-      '
-    term: stream
 - slug: string_interpolation
   es:
     def: 'The process of inserting text corresponding to specified values into a [string](#string),

@@ -386,6 +386,15 @@
 
       '
     term: entorno virtual
+- slug: stdin
+  es:
+    def: "Un canal de comunicaci\xF3n predefinido para un [proceso](#process), usado\
+      \ t\xEDpicamente para leer la entrada desde el teclado o desde el proceso anterior\
+      \ en el flujo de trabajo.\n"
+    term: "entrada est\xE1ndar"
+  ref:
+  - stderr
+  - stdout
 - slug: epoch_dl
   es:
     def: "En [aprendizaje profundo](#deep_learning), un epoch es un ciclo completo\
@@ -421,6 +430,14 @@
     term: "error cuadr\xE1tico medio"
   ref:
   - root_mean_squared_error
+- slug: stderr
+  es:
+    def: "Un canal de comunicaci\xF3n predefinido para un [proceso](#process), usado\
+      \ t\xEDpicamente  para mensajes de error.\n"
+    term: "error est\xE1ndar"
+  ref:
+  - stdin
+  - stdout
 - slug: relative_error
   es:
     def: "El valor absoluto de la diferencia entre el valor observado y el valor correcto,\
@@ -465,6 +482,11 @@
       \ el s\xEDmbolo '>' (mayor que). La l\xEDnea 2 contiene la secuencia gen\xF3\
       mica o de amino\xE1cidos utilizando c\xF3digos de una sola letra.\n"
     term: FASTA
+- slug: stream
+  es:
+    def: "Un flujo secuencial de datos, como los [bits](#bit) que llegan a trav\xE9\
+      s de una conexi\xF3n de red  o los bytes que see lean desde un archivo.\n"
+    term: flujo
 - slug: anonymous_function
   es:
     def: "Es una funci\xF3n que no tiene asignado un nombre. Las funciones an\xF3\
@@ -618,6 +640,11 @@
   es:
     def: "un paquete de software reutilizable, tambi\xE9n se llama una [biblioteca](#library).\n"
     term: "m\xF3dulo"
+- slug: stratified_sampling
+  es:
+    def: "Selecionar valores dividiendo la poblaci\xF3n general en grupos [homog\xE9\
+      neos](#homogeneous) y tomando luego una muestra aleatoria de cada grupo. \n"
+    term: muestra estratificada
 - slug: node
   es:
     def: "Un elemento de un grafo que est\xE1 conectado a otros nodos por aristas.\
@@ -839,6 +866,15 @@
   es:
     def: "Un entorno para la [programaci\xF3n orientada a objetos](#oop) en [R](#r_language).\n"
     term: S3
+- slug: stdout
+  es:
+    def: "Un canal de communication predefinido para un [proceso](#process), usado\
+      \ t\xEDpicamente para enviar la salida a la pantalla o al proceso siguiente\
+      \ en un flujo de trabajo.\n"
+    term: "salida est\xE1ndar"
+  ref:
+  - stderr
+  - stdin
 - slug: string
   es:
     def: 'Bloque de texto en un programa.
