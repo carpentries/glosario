@@ -8783,6 +8783,12 @@
     def: >
       A naming style that separates the parts of a name with underscores, as in `first_second_third`.
 
+- slug: precision
+  en:
+    term: "precision"
+    def: >
+      A proportional measure of how often a model correctly identifies positive instances (e.g. true positives).
+
 - slug: preamble
   ref:
     - latex
