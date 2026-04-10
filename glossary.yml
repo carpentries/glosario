@@ -1979,6 +1979,11 @@
     term: "Tlhaloso ka go tlhakanya dilo tse pedi."
     def: >
       Ke tlhaloso e e supagalang mo diemong tse pedi.sekai...go ka tlhakanngwa bongwe le bobedi.
+      
+  es:
+    term: "expresión binaria"
+    def: >
+      Una expresión que tiene dos parámetros y toma dos argumentos, como por ejemplo `1 + 2`.
 
   am:
     term: ሁለትዮሽ አገላለጽ
@@ -2018,7 +2023,12 @@
     def: >
       ’n [Waarskynlikheidsverspreiding](#probability_distribution) wat ontstaan wanneer daar ’n vaste aantal proewe is, en elke proef kan een van twee uitkomste lewer,
       met konstante waarskynlikhede. Soos die aantal proewe toeneem, benader die binomiale verspreiding ’n [normale verspreiding](#normal_distribution).
-
+      
+  es:
+    term: "distribución binomial"
+    def: >
+      La distribución de probabilidad que se genera cuando hay un número fijo de pruebas, cada una de las cuales puede producir uno de dos posibles resultados, y la probabilidad de esos resultados no cambia. 
+      A medida que el número de pruebas aumenta, la distribución binomial se aproxima a una distribución normal.
 
 - slug: bit
   ref:
@@ -2102,7 +2112,14 @@
     def: >
       Data wat in 'n databasis gestoor word sonder om op enige manier geïnterpreteer te word, soos 'n 
       klanklêer. Die term word ook nou gebruik om te verwys na data wat oor 'n netwerk oorgedra word 
-      of in 'n [weergawebeheerstelsel-repository](#version_control_system) as ongeïnterpreteerde bis gestoor word.      
+      of in 'n [weergawebeheerstelsel-repository](#version_control_system) as ongeïnterpreteerde bis gestoor word. 
+      
+  es:
+    term: "objeto binario grande"
+    def: > 
+      Datos que son almacenados en una base de datos sin ser interpretados de ninguna forma, tal como un archivo de audio. 
+      El término también es utilizado actualmente para referirse a datos transferidos a través de una red o almacenados en un 
+      repositorio de control de versiones como bits sin interpretar.
 
 
   sw:
@@ -3024,6 +3041,7 @@
     term: መደብ
     def: >
       አንድ ዕቃ ከየትኛው ቅድመ ምድብ ጋር እንደሆነ የመለየት ሂደት, ለምሳሌ የኢሜይል መልዕክት የመልዕክት መልዕክት እስፓም ወይም አይደለም መወሰን. ብዙ [ማሽን መማር](#machine_learning) አልጎሪቶች የመደብ ልዩነትን ያከናውናሉ።
+  
   es:
     term: "clasificación"
     def: >
@@ -3094,6 +3112,10 @@
     term: "kugawanya"
     def: >
       Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa mapema.
+  en: 
+    term: "Clusterización"
+    def: > 
+      Proceso de dividir datos en grupos cuando los grupos en sí mismos no son conocidos de antemano.
 
 - slug: code_coverage
   en:
@@ -3183,9 +3205,14 @@
     def: >
       An instruction telling a computer program to perform a specific task.
   af:
-    term: bevel
+    term: "bevel"
     def: >
       'n Instruksie wat 'n rekenaarprogram opdrag gee om 'n spesifieke taak uit te voer.
+      
+  es:
+    term: "comando"
+    def: > 
+      Una instrucción que le indica a un programa que realice una tarea específica.
 
   am:
     term: ትዕዛዝ
@@ -3547,6 +3574,11 @@
     def: >
       Комп'ютерний термінал, де користувач може вводити команди, або програма,
       яка імітує такий пристрій, наприклад, [командна оболонка](#shell).
+      
+  es:
+    term: "consola"
+    def: >
+      Terminal de una computadora donde el usuario puede escribir comandos, o ejecutar un programa, tal como una shell que simula dicho dispositivo.
 
 - slug: confusion_matrix
   en:
@@ -3624,6 +3656,11 @@
     def: >
       A software development practice in which changes are automatically merged as
       soon as they become available.
+      
+  es:
+    term: "integración continua"
+    def: > 
+      Una práctica del desarrollo de software en la cual los cambios se integran automáticamente tan pronto como están disponibles.
 
 
 - slug: continuous_random_variable
@@ -3972,9 +4009,15 @@
   en:
     term: "data collison"
     def: >
-      Occurs when  when two or more devices or nodes try to transmit signals at the same time on
+      Occurs when two or more devices or nodes try to transmit signals at the same time on
       the same network. Similarly a data collision can also occur when [hashing](#hash_function)
       if two distinct pieces of data have the same hash value.
+      
+  es:
+    term: "colisión de datos"
+    def: > 
+      Ocurre cuando dos o más dispositivos o nodos tratan de transmitir señales al mismo tiempo en la misma red. 
+      De manera similar, una colisión de datos también puede ocurrir al aplicar una función hash si dos datos distintos tienen el mismo valor hash
 
 - slug: data_engineer
   ref:
@@ -3985,11 +4028,16 @@
     def: >
       Someone who sets up and runs data analyses. Data engineers are often responsible
       for installing software, managing databases, generating reports, and archiving results.
-
   am:
     term: የውሂብ መሐንዲስ
     def: >
       መረጃ ትንታኔዎችን የሚያዘጋጅ እና የሚያከናውን ሰው ፡፡ የመረጃ መሐንዲሶች ብዙውን ጊዜ ናቸው ሶፍትዌርን ለመጫን ፣ የውሂብ ጎታዎችን ለማስተዳደር ፣ ሪፖርቶችን ለማመንጨት እና ውጤቶችን በማህደር ማስቀመጥ።
+      
+  es: 
+    term: "ingeniera o ingeniero de datos"
+    def: >
+      Alguien que configura y ejecuta análisis de datos. A menudo, las ingenieras e ingenieros de datos son 
+      responsables de la instalación de software, el manejo de bases de datos, la generación de reportes y el archivado de resultados
 
 - slug: data_engineering
   ref:
@@ -4074,6 +4122,11 @@
     term: መረጃ ማውጣት
     def: >
       በትላልቅ የውሂብ ስብስቦች ውስጥ ቅጦችን ለመፈለግ የኮምፒተር አጠቃቀም። ዘ ቃል [ዳታ ሳይንስ](#data_science) አሁን በብዛት ጥቅም ላይ ውሏል ፡፡
+      
+  es:
+    term: "mineria de datos"
+    def: >
+     El uso de computadoras para buscar patrones en grandes conjuntos de datos. Hoy en día se utiliza más comúnmente el término [data science](#data_science)
 
 - slug: data_package
   en:
@@ -4257,6 +4310,11 @@
     term: የውሳኔ ዛፍ
     def: >
       [አንጓዎቹ](#node) ጥያቄዎቹ እና [ቅርንጫፎቹ](#branch) ውሎ አድሮ ወደ ውሳኔ ወይም [ምደባ](#classification) የሚወስድ ዛፍ።
+      
+  es:
+    term: "árbol de decisiones"
+    def: >
+      Un árbol cuyos nodos son preguntas y cuyas ramas eventualmente llevan a una decisión(#branch) o clasificación(#classification).
 
 - slug: decorator_pattern
   en:
