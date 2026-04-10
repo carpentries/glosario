@@ -3112,7 +3112,7 @@
     term: "kugawanya"
     def: >
       Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa mapema.
-  en: 
+  es: 
     term: "Clusterización"
     def: > 
       Proceso de dividir datos en grupos cuando los grupos en sí mismos no son conocidos de antemano.
