@@ -71,6 +71,13 @@
   ref:
   - unsupervised_learning
   - reinforcement_learning
+- slug: decision_tree
+  es:
+    def: "Un \xE1rbol cuyos nodos son preguntas y cuyas ramas eventualmente llevan\
+      \ a una decisi\xF3n(#branch) o clasificaci\xF3n(#classification).\n"
+    term: "\xE1rbol de decisiones"
+  ref:
+  - random_forests
 - slug: argument
   es:
     def: "El t\xE9rmino no debe ser confundido con, ni es sin\xF3nimo de, [par\xE1\
@@ -258,11 +265,33 @@
   ref:
   - supervised_learning
   - clustering
+- slug: clustering
+  es:
+    def: "Proceso de dividir datos en grupos cuando los grupos en s\xED mismos no\
+      \ son conocidos de antemano.\n"
+    term: "Clusterizaci\xF3n"
+  ref:
+  - centroid
+  - classification
+  - supervised_learning
+  - unsupervised_learning
 - slug: character_encoding
   es:
     def: "Especificaci\xF3n sobre c\xF3mo los caracteres est\xE1n guardados como bytes.\
       \ En la actualidad, la codificaci\xF3n m\xE1s utilizada es [UTF-8](#utf_8).\n"
     term: "codificaci\xF3n de caracteres"
+- slug: data_collison
+  es:
+    def: "Ocurre cuando dos o m\xE1s dispositivos o nodos tratan de transmitir se\xF1\
+      ales al mismo tiempo en la misma red.  De manera similar, una colisi\xF3n de\
+      \ datos tambi\xE9n puede ocurrir al aplicar una funci\xF3n hash si dos datos\
+      \ distintos tienen el mismo valor hash\n"
+    term: "colisi\xF3n de datos"
+- slug: command
+  es:
+    def: "Una instrucci\xF3n que le indica a un programa que realice una tarea espec\xED\
+      fica.\n"
+    term: comando
 - slug: high_performance_computing
   es:
     def: "M\xE9todo que utiliza procesadores poderosos, usualmente trabajando en paralelo,\
@@ -279,6 +308,13 @@
   - aggregation
   - left_join
   - right_join
+- slug: console
+  es:
+    def: 'Terminal de una computadora donde el usuario puede escribir comandos, o
+      ejecutar un programa, tal como una shell que simula dicho dispositivo.
+
+      '
+    term: consola
 - slug: constant
   es:
     def: "Una constante en programaci\xF3n es un nombre asociado con un valor que\
@@ -361,6 +397,17 @@
     def: "Un objeto dentro de un [sistema de archivos](#filesystem) que contiene archivos\
       \ y otros directorios. Tambi\xE9n conocido como un [folder](#folder).\n"
     term: directorio
+- slug: binomial_distribution
+  es:
+    def: "La distribuci\xF3n de probabilidad que se genera cuando hay un n\xFAmero\
+      \ fijo de pruebas, cada una de las cuales puede producir uno de dos posibles\
+      \ resultados, y la probabilidad de esos resultados no cambia.  A medida que\
+      \ el n\xFAmero de pruebas aumenta, la distribuci\xF3n binomial se aproxima a\
+      \ una distribuci\xF3n normal.\n"
+    term: "distribuci\xF3n binomial"
+  ref:
+  - discrete_random_variable
+  - histogram
 - slug: standard_normal_distribution
   es:
     def: "Una [distribuci\xF3n normal](#normal_distribution) con una [media](#mean)\
@@ -451,6 +498,15 @@
       \ no existen en [R](#r_language); los valores que parecen ser escalares son\
       \ en realidad vectores de largo uno.\n"
     term: escalar
+- slug: binary_expression
+  es:
+    def: "Una expresi\xF3n que tiene dos par\xE1metros y toma dos argumentos, como\
+      \ por ejemplo `1 + 2`.\n"
+    term: "expresi\xF3n binaria"
+  ref:
+  - nullary_expression
+  - ternary_expression
+  - unary_expression
 - slug: regular_expression
   es:
     def: "Un patr\xF3n para buscar coincidencias en texto, que est\xE1n a su vez escritas\
@@ -532,6 +588,16 @@
     term: incrementar
   ref:
   - decrement
+- slug: data_engineer
+  es:
+    def: "Alguien que configura y ejecuta an\xE1lisis de datos. A menudo, las ingenieras\
+      \ e ingenieros de datos son  responsables de la instalaci\xF3n de software,\
+      \ el manejo de bases de datos, la generaci\xF3n de reportes y el archivado de\
+      \ resultados\n"
+    term: ingeniera o ingeniero de datos
+  ref:
+  - data_scientist
+  - data_wrangling
 - slug: global_installation
   es:
     def: "El acto de instalar un paquete en una ubicaci\xF3n donde pueda ser accedido\
@@ -546,6 +612,11 @@
     term: "instalaci\xF3n local"
   ref:
   - global_installation
+- slug: continuous_integration
+  es:
+    def: "Una pr\xE1ctica del desarrollo de software en la cual los cambios se integran\
+      \ autom\xE1ticamente tan pronto como est\xE1n disponibles.\n"
+    term: "integraci\xF3n continua"
 - slug: api
   es:
     def: "Un conjunto de funciones y procedimientos proporcionados por una libreria\
@@ -629,6 +700,11 @@
       \ en una [superclase](#parent_class) para especificar operaciones que las [subclases](#child_class)\
       \ deber\xE1n proveer.\n"
     term: "m\xE9todo abstracto"
+- slug: data_mining
+  es:
+    def: "El uso de computadoras para buscar patrones en grandes conjuntos de datos.\
+      \ Hoy en d\xEDa se utiliza m\xE1s com\xFAnmente el t\xE9rmino [data science](#data_science)\n"
+    term: mineria de datos
 - slug: mode
   es:
     def: "El valor que ocurre con m\xE1s frecuencia en un conjunto de datos.\n"
@@ -678,6 +754,14 @@
       \ que son capaces de realizar estos objetos est\xE1n definidas por los [m\xE9\
       todos](#method) de la clase.\n"
     term: objeto
+- slug: blob
+  es:
+    def: "Datos que son almacenados en una base de datos sin ser interpretados de\
+      \ ninguna forma, tal como un archivo de audio.  El t\xE9rmino tambi\xE9n es\
+      \ utilizado actualmente para referirse a datos transferidos a trav\xE9s de una\
+      \ red o almacenados en un  repositorio de control de versiones como bits sin\
+      \ interpretar.\n"
+    term: objeto binario grande
 - slug: pandas
   es:
     def: "Es un paquete de Python de c\xF3digo abierto que ofrece estructuras de datos\

@@ -286,7 +286,7 @@
     def: "Data wat in 'n databasis gestoor word sonder om op enige manier ge\xEFnterpreteer\
       \ te word, soos 'n  klankl\xEAer. Die term word ook nou gebruik om te verwys\
       \ na data wat oor 'n netwerk oorgedra word  of in 'n [weergawebeheerstelsel-repository](#version_control_system)\
-      \ as onge\xEFnterpreteerde bis gestoor word.      \n"
+      \ as onge\xEFnterpreteerde bis gestoor word. \n"
     term: "bin\xEAre groot voorwerp"
 - slug: binary_expression
   af:

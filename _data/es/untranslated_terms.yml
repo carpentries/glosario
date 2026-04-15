@@ -76,31 +76,6 @@
 
       '
     term: Bayes' Rule
-- slug: binary_expression
-  es:
-    def: 'An expression which has two parameters and takes two arguments, such as
-      `1 + 2`.
-
-      '
-    term: binary expression
-- slug: blob
-  es:
-    def: 'Data that is stored in a database without being interpreted in any way,
-      such as an audio file. The term is also now used to refer to data transferred
-      over a network or stored in a [version control](#version_control_system) [repository](#repository)
-      as uninterpreted bits.
-
-      '
-    term: binary large object
-- slug: binomial_distribution
-  es:
-    def: 'A [probability distribution](#probability_distribution) that arises when
-      there are a fixed number of trials, each of which can produce one of two outcomes,
-      and the probability of those outcomes does not change. As the number of trials
-      increases, the binomial distribution approximates a [normal distribution](#normal_distribution).
-
-      '
-    term: binomial distribution
 - slug: block_comment
   es:
     def: 'A [comment](#comment) that spans multiple lines. Block comments may be marked
@@ -318,13 +293,6 @@
 
       '
     term: closure
-- slug: clustering
-  es:
-    def: 'The process of dividing data into groups when the groups themselves are
-      not known in advance.
-
-      '
-    term: clustering
 - slug: code_coverage
   es:
     def: 'How much of a [library](#library) or program is executed when tests run.
@@ -364,12 +332,6 @@
 
       '
     term: comma-separated values
-- slug: command
-  es:
-    def: 'An instruction telling a computer program to perform a specific task.
-
-      '
-    term: command
 - slug: command_history
   es:
     def: 'An automatically created list of previously executed commands. Most read-eval-print
@@ -512,13 +474,6 @@
 
       '
     term: confusion matrix
-- slug: console
-  es:
-    def: 'A computer terminal where a user may enter commands, or a program, such
-      as a shell that simulates such a device.
-
-      '
-    term: console
 - slug: continuation_prompt
   es:
     def: 'A [prompt](#prompt) that indicates that the command currently being typed
@@ -526,13 +481,6 @@
 
       '
     term: continuation prompt
-- slug: continuous_integration
-  es:
-    def: 'A software development practice in which changes are automatically merged
-      as soon as they become available.
-
-      '
-    term: continuous integration
 - slug: continuous_random_variable
   es:
     def: 'A [variable](#variable_data) whose value can be any real value, either within
@@ -625,23 +573,6 @@
 
       '
     term: current working directory
-- slug: data_collison
-  es:
-    def: 'Occurs when  when two or more devices or nodes try to transmit signals at
-      the same time on the same network. Similarly a data collision can also occur
-      when [hashing](#hash_function) if two distinct pieces of data have the same
-      hash value.
-
-      '
-    term: data collison
-- slug: data_engineer
-  es:
-    def: 'Someone who sets up and runs data analyses. Data engineers are often responsible
-      for installing software, managing databases, generating reports, and archiving
-      results.
-
-      '
-    term: data engineer
 - slug: data_engineering
   es:
     def: 'The pragmatic steps taken to make data usable, such as writing short programs
@@ -657,13 +588,6 @@
 
       '
     term: data masking
-- slug: data_mining
-  es:
-    def: 'The use of computers to search for patterns in large datasets. The term
-      [data science](#data_science) is now more commonly used.
-
-      '
-    term: data mining
 - slug: data_package
   es:
     def: 'A software package that, mostly, contains only data. Is used to make it
@@ -700,13 +624,6 @@
 
       '
     term: debug
-- slug: decision_tree
-  es:
-    def: 'A tree whose [nodes](#node) are questions and whose [branches](#branch)
-      eventually lead to a decision or [classification](#classification).
-
-      '
-    term: decision tree
 - slug: decorator_pattern
   es:
     def: 'A [design pattern](#design_pattern) in which a function adds additional
