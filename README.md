@@ -31,9 +31,8 @@ This project implements a glossary of data science and data engineering terms as
 
 1.  The master copy of the glossary lives in `glossary.yml`.
     Its format is described below.
-1.  This file is turned into a single-page GitHub Pages site using Jekyll.
-1.  It is also turned into a [Python package](https://github.com/carpentries/glosario-py) called `glosario`
-    and an [R package](https://github.com/carpentries/glosario-r) with the same name.
+2.  This file is turned into a single-page GitHub Pages site using Jekyll.
+   
 
 A glossary entry is structured like this:
 
