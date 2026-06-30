@@ -394,6 +394,9 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mariameraz"><img src="https://avatars.githubusercontent.com/u/72315459?v=4?s=100" width="100px;" alt="María Alejandra Meraz"/><br /><sub><b>María Alejandra Meraz</b></sub></a><br /><a href="#translation-mariameraz" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/kiranphalke-neuro-embedded-software-engineer"><img src="https://avatars.githubusercontent.com/u/39145949?v=4?s=100" width="100px;" alt="Kiran Phalke"/><br /><sub><b>Kiran Phalke</b></sub></a><br /><a href="#translation-kiranphalke50" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/beki123-321"><img src="https://avatars.githubusercontent.com/u/67184521?v=4?s=100" width="100px;" alt="Bereket Tilahun"/><br /><sub><b>Bereket Tilahun</b></sub></a><br /><a href="#translation-beki123-321" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 
