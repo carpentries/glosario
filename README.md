@@ -397,6 +397,7 @@ We now show credit for four types of contributions:
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/beki123-321"><img src="https://avatars.githubusercontent.com/u/67184521?v=4?s=100" width="100px;" alt="Bereket Tilahun"/><br /><sub><b>Bereket Tilahun</b></sub></a><br /><a href="#translation-beki123-321" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://ovlasovets.netlify.app/"><img src="https://avatars.githubusercontent.com/u/15620919?v=4?s=100" width="100px;" alt="Oleg"/><br /><sub><b>Oleg</b></sub></a><br /><a href="#translation-Vlasovets" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.brookewolford.com"><img src="https://avatars.githubusercontent.com/u/8811378?v=4?s=100" width="100px;" alt="Brooke Wolford"/><br /><sub><b>Brooke Wolford</b></sub></a><br /><a href="#translation-bnwolford" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
