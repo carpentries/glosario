@@ -2096,6 +2096,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "Vlasovets",
+      "name": "Oleg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15620919?v=4",
+      "profile": "https://ovlasovets.netlify.app/",
+      "contributions": [
+        "translation"
+      ]
     }
   ]
 }
