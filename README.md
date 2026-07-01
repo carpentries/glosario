@@ -399,6 +399,7 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="https://ovlasovets.netlify.app/"><img src="https://avatars.githubusercontent.com/u/15620919?v=4?s=100" width="100px;" alt="Oleg"/><br /><sub><b>Oleg</b></sub></a><br /><a href="#translation-Vlasovets" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.brookewolford.com"><img src="https://avatars.githubusercontent.com/u/8811378?v=4?s=100" width="100px;" alt="Brooke Wolford"/><br /><sub><b>Brooke Wolford</b></sub></a><br /><a href="#translation-bnwolford" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/prithvidineshchandra"><img src="https://avatars.githubusercontent.com/u/207481667?v=4?s=100" width="100px;" alt="prithvidineshchandra"/><br /><sub><b>prithvidineshchandra</b></sub></a><br /><a href="#translation-prithvidineshchandra" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lunafazio"><img src="https://avatars.githubusercontent.com/u/26548493?v=4?s=100" width="100px;" alt="Luna Fazio"/><br /><sub><b>Luna Fazio</b></sub></a><br /><a href="#review-lunafazio" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
