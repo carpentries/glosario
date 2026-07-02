@@ -4005,6 +4005,18 @@
     def: >
       ፕሮግራሙ የሚሠራበትን [አቃፊ](#folder) ወይም ማውጫ ቦታ። ማንኛውም እርምጃ የተወሰደው በፕሮግራሙ የተወሰደው ከዚህ ማውጫ አንጻር ነው ፡፡
 
+- slug: data_cleaning
+  ref:
+    - tidy_data
+    - tidyverse
+    - openrefine
+  en:
+    term: "data cleaning"
+    def: >
+      The process of transforming messy data into a structured and machine-readable format.
+      This often occurs in the form of detecting, correcting and removing corrupt, inaccurate, incomplete, or
+      incorrectly formatted records from a dataset.
+
 - slug: data_collison
   en:
     term: "data collison"
