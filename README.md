@@ -31,9 +31,8 @@ This project implements a glossary of data science and data engineering terms as
 
 1.  The master copy of the glossary lives in `glossary.yml`.
     Its format is described below.
-1.  This file is turned into a single-page GitHub Pages site using Jekyll.
-1.  It is also turned into a [Python package](https://github.com/carpentries/glosario-py) called `glosario`
-    and an [R package](https://github.com/carpentries/glosario-r) with the same name.
+2.  This file is turned into a single-page GitHub Pages site using Jekyll.
+   
 
 A glossary entry is structured like this:
 
@@ -393,6 +392,15 @@ We now show credit for four types of contributions:
       <td align="center" valign="top" width="14.28%"><a href="https://carschno.github.io/"><img src="https://avatars.githubusercontent.com/u/4696228?v=4?s=100" width="100px;" alt="Carsten Schnober"/><br /><sub><b>Carsten Schnober</b></sub></a><br /><a href="#translation-carschno" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://sarahmbrown.org"><img src="https://avatars.githubusercontent.com/u/10656079?v=4?s=100" width="100px;" alt="Sarah Brown"/><br /><sub><b>Sarah Brown</b></sub></a><br /><a href="#doc-brownsarahm" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mariameraz"><img src="https://avatars.githubusercontent.com/u/72315459?v=4?s=100" width="100px;" alt="María Alejandra Meraz"/><br /><sub><b>María Alejandra Meraz</b></sub></a><br /><a href="#translation-mariameraz" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/kiranphalke-neuro-embedded-software-engineer"><img src="https://avatars.githubusercontent.com/u/39145949?v=4?s=100" width="100px;" alt="Kiran Phalke"/><br /><sub><b>Kiran Phalke</b></sub></a><br /><a href="#translation-kiranphalke50" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/beki123-321"><img src="https://avatars.githubusercontent.com/u/67184521?v=4?s=100" width="100px;" alt="Bereket Tilahun"/><br /><sub><b>Bereket Tilahun</b></sub></a><br /><a href="#translation-beki123-321" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://ovlasovets.netlify.app/"><img src="https://avatars.githubusercontent.com/u/15620919?v=4?s=100" width="100px;" alt="Oleg"/><br /><sub><b>Oleg</b></sub></a><br /><a href="#translation-Vlasovets" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.brookewolford.com"><img src="https://avatars.githubusercontent.com/u/8811378?v=4?s=100" width="100px;" alt="Brooke Wolford"/><br /><sub><b>Brooke Wolford</b></sub></a><br /><a href="#translation-bnwolford" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/prithvidineshchandra"><img src="https://avatars.githubusercontent.com/u/207481667?v=4?s=100" width="100px;" alt="prithvidineshchandra"/><br /><sub><b>prithvidineshchandra</b></sub></a><br /><a href="#translation-prithvidineshchandra" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lunafazio"><img src="https://avatars.githubusercontent.com/u/26548493?v=4?s=100" width="100px;" alt="Luna Fazio"/><br /><sub><b>Luna Fazio</b></sub></a><br /><a href="#review-lunafazio" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jen-reeve"><img src="https://avatars.githubusercontent.com/u/31419037?v=4?s=100" width="100px;" alt="Jen Reeve"/><br /><sub><b>Jen Reeve</b></sub></a><br /><a href="#review-jen-reeve" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
