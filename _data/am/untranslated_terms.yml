@@ -241,6 +241,14 @@
 
       '
     term: convolutional neural network (cnn)
+- slug: data_cleaning
+  am:
+    def: 'The process of transforming messy data into a structured and machine-readable
+      format. This often occurs in the form of detecting, correcting and removing
+      corrupt, inaccurate, incomplete, or incorrectly formatted records from a dataset.
+
+      '
+    term: data cleaning
 - slug: data_collison
   am:
     def: 'Occurs when two or more devices or nodes try to transmit signals at the
