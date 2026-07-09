@@ -2922,6 +2922,25 @@
 
       '
     term: preamble
+- slug: precision
+  pt:
+    def: 'Precision measures how close repeated results are to one another, regardless
+      of whether they are close to the true value.  In classification, precision is
+      the proportion of how often a model''s positive predictions are correct (e.g.,
+      true positives).
+
+      Precision = (TP)/(TP+FP).
+
+      - TP = True Positive - FP = False Positive - FN = False Negative - TN = True
+      Negative
+
+      Precision is the counterpart of [accuracy](https://glosario.carpentries.org/en/#accuracy).
+      Accuracy captures how close results are to the true or known value, whereas
+      precision captures their consistency, so a set of results can be precise without
+      being accurate, and vice versa.
+
+      '
+    term: precision
 - slug: prerequisite
   pt:
     def: 'Something that a [build target](#build_target) depends on.
