@@ -8,6 +8,7 @@ Usage: check-glossary.py [-A] [-c LL] yaml-config-file glossary-file
 Flags:
 -   `-A`: report all missing definitions for all languages.
 -   `-c LL`: report missing definitions for language with code `LL` (e.g., 'fr').
+-   `-r`: check consistency of cross-references within definitions.
 
 Checks always performed:
 -   Only languages listed in `_config.yml` appear in glossary.
@@ -73,7 +74,7 @@ LINK_PAT = re.compile(r'\[.+?\]\(#(.+?)\)')
 
 def main():
     '''Main driver.'''
-    checkLang, configFile, glossaryFile = parseArgs()
+    checkLang, checkEmbeddedRefs, configFile, glossaryFile = parseArgs()
     with open(configFile, 'r') as reader:
         config = yaml.load(reader, Loader=yaml.SafeLoader)
     with open(glossaryFile, 'r') as reader:
@@ -81,7 +82,9 @@ def main():
 
     checkLanguages(config)
     for entry in gloss:
-        checkEntry(entry)
+        embedded = checkEntry(entry)
+        if checkEmbeddedRefs:
+            checkEmbedded(entry, embedded)
     checkSlugs(gloss)
     checkDuplicates(gloss)
     checkCrossRef(gloss)
@@ -104,7 +107,7 @@ def parseArgs():
     a known 2-letter language code.
     '''
     try:
-        options, filenames = getopt.getopt(sys.argv[1:], 'Ac:')
+        options, filenames = getopt.getopt(sys.argv[1:], 'Ac:r')
     except getopt.GetoptError as error:
         print(f'Unknown flag {error.opt}', file=sys.stderr)
         sys.exit(1)
@@ -115,6 +118,7 @@ def parseArgs():
     configFile, glossFile = filenames
 
     checkLang = None
+    checkEmbeddedRefs = False
     for (opt, arg) in options:
         if opt == '-A':
             checkLang = 'ALL'
@@ -123,8 +127,10 @@ def parseArgs():
             if checkLang not in ENTRY_LANGUAGE_KEYS:
                 print(f'Unknown language {checkLang}', file=sys.stderr)
                 sys.exit(1)
+        elif opt == '-r':
+            checkEmbeddedRefs = True
 
-    return checkLang, configFile, glossFile
+    return checkLang, checkEmbeddedRefs, configFile, glossFile
 
 
 def checkLanguages(config):
@@ -139,7 +145,7 @@ def checkLanguages(config):
 def checkEntry(entry):
     '''
     Check structure of individual entries, returning a language-to-set
-    dictionary of terms references in the body.
+    dictionary of terms referenced in the body.
     '''
     keys = set(entry.keys())
     missing = [k for k in ENTRY_REQUIRED_KEYS if k not in keys]
@@ -215,6 +221,18 @@ def checkCrossRef(gloss):
                 unknown = [slug for slug in entry['ref'] if slug not in known]
                 if unknown:
                     print(f'{entry["slug"]} has unknown crossref(s) {", ".join(unknown)}')
+
+
+def checkEmbedded(entry, embedded):
+    """Check consistency of embedded cross-references."""
+    slug = entry["slug"]
+    all_refs = set()
+    for r in embedded.values():
+        all_refs |= r
+    missing = [(k, v) for k, v in embedded.items() if v != all_refs]
+    if missing:
+        combined = [f'"{k}": {", ".join(sorted(all_refs - v))}' for k, v in missing]
+        print(f'{entry["slug"]} missing embedded cross-references in {", ".join(combined)}')
 
 
 def checkMissingDefs(lang, gloss):

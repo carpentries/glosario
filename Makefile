@@ -46,7 +46,7 @@ clean :
 ## check : check glossary consistency.
 check :
 	@yamllint glossary.yml
-	@python3 utils/check-glossary.py _config.yml glossary.yml
+	@python3 utils/check-glossary.py -r _config.yml glossary.yml
 
 ## checkall : check glossary consistency including missing terms in all languages.
 checkall :
