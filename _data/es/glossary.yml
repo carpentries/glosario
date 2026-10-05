@@ -617,6 +617,11 @@
     def: "Una pr\xE1ctica del desarrollo de software en la cual los cambios se integran\
       \ autom\xE1ticamente tan pronto como est\xE1n disponibles.\n"
     term: "integraci\xF3n continua"
+- slug: cli
+  es:
+    def: "Interfaz de usuario que depende \xFAnicamente del texto para ingresar comandos\
+      \ y mostrar resultados,  y que normalmente se ejecuta en una consola o shell.\n"
+    term: "Interfaz de l\xEDnea de comandos"
 - slug: api
   es:
     def: "Un conjunto de funciones y procedimientos proporcionados por una libreria\
@@ -883,6 +888,20 @@
   - deep_learning
   - backpropagation
   - perceptron
+- slug: cnn
+  es:
+    def: "Clase de red neuronal artificial utilizada principalmente para analizar\
+      \ im\xE1genes.  Una CNN (red neuronal convolucional) tiene capas que realizan\
+      \ convoluciones, donde un filtro se  desplaza sobre los datos, en lugar de emplear\
+      \ las multiplicaciones de matrices generales que se  utilizan en las capas totalmente\
+      \ conectadas de una red neuronal.\n"
+    term: Red neuronal convolucional (CNN)
+  ref:
+  - deep_learning
+  - backpropagation
+  - perceptron
+  - neural_network
+  - machine_learning
 - slug: 68_95_997_rule
   es:
     def: "Expresa el hecho de que el 68% de los valores se encuentran dentro de una\
@@ -891,6 +910,13 @@
       \ aproximadamente el 0,3% de los valores se encuentran m\xE1s de tres desviaciones\
       \ est\xE1ndar por encima o por debajo de la media en la mayor\xEDa de los casos.\n"
     term: regla 68-95-99.7
+- slug: bug_report
+  es:
+    def: "Conjunto de archivos, registros (logs) o informaci\xF3n relacionada que\
+      \ describe un resultado inesperado de  un programa o c\xF3digo, o bien un error\
+      \ o advertencia imprevista. Esta informaci\xF3n se utiliza para ayudar  a identificar\
+      \ y corregir errores (bugs) en el software.\n"
+    term: Reporte de errores
 - slug: repository
   es:
     def: "Lugar en el que un [sistema de control de versi\xF3n](#version_control_system)\
@@ -1092,6 +1118,12 @@
     term: UNIX
   ref:
   - operating_system
+- slug: csv
+  es:
+    def: "Formato de texto para datos tabulares en el cual cada fila representa un\
+      \ registro y los campos est\xE1n  separados por comas. Existen muchas variantes\
+      \ menores, especialmente en torno al uso de comillas para  cadenas de texto.\n"
+    term: Valores separados por comas
 - slug: variable_program
   es:
     def: "Un nombre en un programa que tiene algunos datos asociados. El valor de\

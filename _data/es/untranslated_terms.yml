@@ -129,15 +129,6 @@
 
       '
     term: browser cache
-- slug: bug_report
-  es:
-    def: 'A collection of files, [logs](#log), or related information that describes
-      either an unexpected output of some code or program, or an unexpected error
-      or warning. This information is used to help find and fix a [bug](#bug) in the
-      program or code.
-
-      '
-    term: bug report
 - slug: bug_tracker
   es:
     def: 'A system that tracks and manages [reported bugs](#bug_report) for a software
@@ -324,14 +315,6 @@
 
       '
     term: collection
-- slug: csv
-  es:
-    def: 'A text format for tabular data in which each [record](#record) is one row
-      and [fields](#field) are separated by commas. There are many minor variations,
-      particularly around quoting of [strings](#string).
-
-      '
-    term: comma-separated values
 - slug: command_history
   es:
     def: 'An automatically created list of previously executed commands. Most read-eval-print
@@ -346,13 +329,6 @@
 
       '
     term: command-line argument
-- slug: cli
-  es:
-    def: 'A user interface that relies solely on text for commands and output, typically
-      running in a [shell](#shell).
-
-      '
-    term: command-line interface
 - slug: comment
   es:
     def: 'Text written in a script that is not treated as code to be run, but rather
@@ -496,15 +472,6 @@
 
       '
     term: control flow
-- slug: cnn
-  es:
-    def: 'A class of artificial neural network that is primarily used to analyze images.
-      A CNN has layers that perform convolutions, where a filter is shifted over the
-      data, instead of the general matrix multiplications that we see in fully connected
-      neural network layers.
-
-      '
-    term: convolutional neural network (cnn)
 - slug: copy_on_modify
   es:
     def: 'The practice of creating a new copy of aliased data whenever there is an
