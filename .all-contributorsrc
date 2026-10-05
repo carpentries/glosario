@@ -555,7 +555,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/1097787?v=4",
       "profile": "http://nicoguaro.github.io",
       "contributions": [
-        "translation"
+        "translation",
+        "review"
       ]
     },
     {
@@ -2049,6 +2050,96 @@
       "profile": "https://www.linkedin.com/in/erindfoster/",
       "contributions": [
         "translation"
+      ]
+    },
+    {
+      "login": "carschno",
+      "name": "Carsten Schnober",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4696228?v=4",
+      "profile": "https://carschno.github.io/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "brownsarahm",
+      "name": "Sarah Brown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10656079?v=4",
+      "profile": "http://sarahmbrown.org",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "mariameraz",
+      "name": "María Alejandra Meraz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72315459?v=4",
+      "profile": "https://github.com/mariameraz",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "kiranphalke50",
+      "name": "Kiran Phalke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39145949?v=4",
+      "profile": "http://www.linkedin.com/in/kiranphalke-neuro-embedded-software-engineer",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "beki123-321",
+      "name": "Bereket Tilahun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67184521?v=4",
+      "profile": "https://github.com/beki123-321",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "Vlasovets",
+      "name": "Oleg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15620919?v=4",
+      "profile": "https://ovlasovets.netlify.app/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "bnwolford",
+      "name": "Brooke Wolford",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8811378?v=4",
+      "profile": "http://www.brookewolford.com",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "prithvidineshchandra",
+      "name": "prithvidineshchandra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207481667?v=4",
+      "profile": "https://github.com/prithvidineshchandra",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "lunafazio",
+      "name": "Luna Fazio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26548493?v=4",
+      "profile": "https://github.com/lunafazio",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "jen-reeve",
+      "name": "Jen Reeve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31419037?v=4",
+      "profile": "https://github.com/jen-reeve",
+      "contributions": [
+        "review"
       ]
     }
   ]

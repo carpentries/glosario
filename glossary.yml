@@ -1979,6 +1979,11 @@
     term: "Tlhaloso ka go tlhakanya dilo tse pedi."
     def: >
       Ke tlhaloso e e supagalang mo diemong tse pedi.sekai...go ka tlhakanngwa bongwe le bobedi.
+      
+  es:
+    term: "expresión binaria"
+    def: >
+      Una expresión que tiene dos parámetros y toma dos argumentos, como por ejemplo `1 + 2`.
 
   am:
     term: ሁለትዮሽ አገላለጽ
@@ -2018,7 +2023,12 @@
     def: >
       ’n [Waarskynlikheidsverspreiding](#probability_distribution) wat ontstaan wanneer daar ’n vaste aantal proewe is, en elke proef kan een van twee uitkomste lewer,
       met konstante waarskynlikhede. Soos die aantal proewe toeneem, benader die binomiale verspreiding ’n [normale verspreiding](#normal_distribution).
-
+      
+  es:
+    term: "distribución binomial"
+    def: >
+      La distribución de probabilidad que se genera cuando hay un número fijo de pruebas, cada una de las cuales puede producir uno de dos posibles resultados, y la probabilidad de esos resultados no cambia. 
+      A medida que el número de pruebas aumenta, la distribución binomial se aproxima a una distribución normal.
 
 - slug: bit
   ref:
@@ -2102,7 +2112,14 @@
     def: >
       Data wat in 'n databasis gestoor word sonder om op enige manier geïnterpreteer te word, soos 'n 
       klanklêer. Die term word ook nou gebruik om te verwys na data wat oor 'n netwerk oorgedra word 
-      of in 'n [weergawebeheerstelsel-repository](#version_control_system) as ongeïnterpreteerde bis gestoor word.      
+      of in 'n [weergawebeheerstelsel-repository](#version_control_system) as ongeïnterpreteerde bis gestoor word. 
+      
+  es:
+    term: "objeto binario grande"
+    def: > 
+      Datos que son almacenados en una base de datos sin ser interpretados de ninguna forma, tal como un archivo de audio. 
+      El término también es utilizado actualmente para referirse a datos transferidos a través de una red o almacenados en un 
+      repositorio de control de versiones como bits sin interpretar.
 
 
   sw:
@@ -2278,7 +2295,6 @@
     def: >
       Verwys na ’n veranderlike of datatipe wat ’n logiese waarde van [waar](#true) of [vals](#false) kan hê. Die term is vernoem na George Boole,
       ’n Wiskundige uit die 19de eeu. Binêre stelsels, soos alle rekenaars, is gebou op hierdie fondasie van logiese evaluasies tussen toestande van waar en vals, 1 of 0.
-
     
 - slug: branch
   en:
@@ -2314,12 +2330,27 @@
       created for work on each new feature or each [bug](#bug) fix and merged when that work
       is completed. This isolates changes from one another until they are completed.
 
+  af:
+    term: "tak-per-kenmerk werkstroom"
+    def: >
+      'n Algemene strategie om werk in [Git](#git), en ander [weergawe beheerstelsels](#version_control_system),
+      te organiseer, deur 'n afgesonderde [tak](#git_branch) te skep vir elke nuwe kenmerk of [bug](#bug)-korreksie.
+      Die tak word dan saamgesmelt wanneer die werk voltooi is. Die werkstroom isoleer verskillende veranderinge 
+      van mekaar totdat hulle voltooi is.
+
   am:
     term: የቅርንጫፍ-በእያንዳንዱ-ባህርይ የስራ ፍሰት
     def: >
       ሥራን በ [Git](#git) እና በሌሎች [ስሪት ቁጥጥር] ጋር ለማስተዳደር የተለመደ ስልት ስርዓቶች] (#version_control_system) የተለየ [ቅርንጫፍ](#git_branch) ባለበት ለእያንዳንዱ አዲስ ባህሪ ወይም ለእያንዳንዱ [ሳንካ](#git) ጥገና እና ሥራ ሲሠራ ተዋህዷል ተጠናቅቋል ፡፡ ይህ እስኪጠናቀቁ ድረስ ለውጦች እርስ በእርስ ይለየዋቸዋል።
 
 - slug: breadcrumbs
+  af:
+    term: "broodkrummels"
+    def: >
+      n Ontwerppatroon vir webwerwe wat bykomende navigasieskakels plaas, gewoonlik bo-aan die 
+      bladsy. Broodkrummel-navigasieskakels wys die gebruiker waar hulle, relatief tot die res van 
+      die webwerf, is. Die term is gebaseer op die sprokie Hansie en Grietjie, waarin die kinders 
+      'n spoor van broodkrummels agterlaat om hul pad terug huis toe te vind.
   en:
     term: "breadcrumbs"
     def: >
@@ -3016,6 +3047,7 @@
     term: መደብ
     def: >
       አንድ ዕቃ ከየትኛው ቅድመ ምድብ ጋር እንደሆነ የመለየት ሂደት, ለምሳሌ የኢሜይል መልዕክት የመልዕክት መልዕክት እስፓም ወይም አይደለም መወሰን. ብዙ [ማሽን መማር](#machine_learning) አልጎሪቶች የመደብ ልዩነትን ያከናውናሉ።
+  
   es:
     term: "clasificación"
     def: >
@@ -3091,6 +3123,10 @@
     term: "kugawanya"
     def: >
       Mchakato wa kugawanya data katika vikundi wakati vikundi vyenyewe bado havijagunduliwa mapema.
+  es: 
+    term: "Clusterización"
+    def: > 
+      Proceso de dividir datos en grupos cuando los grupos en sí mismos no son conocidos de antemano.
 
 - slug: code_coverage
   en:
@@ -3180,9 +3216,14 @@
     def: >
       An instruction telling a computer program to perform a specific task.
   af:
-    term: bevel
+    term: "bevel"
     def: >
       'n Instruksie wat 'n rekenaarprogram opdrag gee om 'n spesifieke taak uit te voer.
+      
+  es:
+    term: "comando"
+    def: > 
+      Una instrucción que le indica a un programa que realice una tarea específica.
 
   am:
     term: ትዕዛዝ
@@ -3544,6 +3585,11 @@
     def: >
       Комп'ютерний термінал, де користувач може вводити команди, або програма,
       яка імітує такий пристрій, наприклад, [командна оболонка](#shell).
+      
+  es:
+    term: "consola"
+    def: >
+      Terminal de una computadora donde el usuario puede escribir comandos, o ejecutar un programa, tal como una shell que simula dicho dispositivo.
 
 - slug: confusion_matrix
   en:
@@ -3621,6 +3667,11 @@
     def: >
       A software development practice in which changes are automatically merged as
       soon as they become available.
+      
+  es:
+    term: "integración continua"
+    def: > 
+      Una práctica del desarrollo de software en la cual los cambios se integran automáticamente tan pronto como están disponibles.
 
 
 - slug: continuous_random_variable
@@ -3970,13 +4021,31 @@
     def: >
       ፕሮግራሙ የሚሠራበትን [አቃፊ](#folder) ወይም ማውጫ ቦታ። ማንኛውም እርምጃ የተወሰደው በፕሮግራሙ የተወሰደው ከዚህ ማውጫ አንጻር ነው ፡፡
 
+- slug: data_cleaning
+  ref:
+    - tidy_data
+    - tidyverse
+    - openrefine
+  en:
+    term: "data cleaning"
+    def: >
+      The process of transforming messy data into a structured and machine-readable format.
+      This often occurs in the form of detecting, correcting and removing corrupt, inaccurate, incomplete, or
+      incorrectly formatted records from a dataset.
+
 - slug: data_collison
   en:
     term: "data collison"
     def: >
-      Occurs when  when two or more devices or nodes try to transmit signals at the same time on
+      Occurs when two or more devices or nodes try to transmit signals at the same time on
       the same network. Similarly a data collision can also occur when [hashing](#hash_function)
       if two distinct pieces of data have the same hash value.
+      
+  es:
+    term: "colisión de datos"
+    def: > 
+      Ocurre cuando dos o más dispositivos o nodos tratan de transmitir señales al mismo tiempo en la misma red. 
+      De manera similar, una colisión de datos también puede ocurrir al aplicar una función hash si dos datos distintos tienen el mismo valor hash
 
 - slug: data_engineer
   ref:
@@ -3987,11 +4056,16 @@
     def: >
       Someone who sets up and runs data analyses. Data engineers are often responsible
       for installing software, managing databases, generating reports, and archiving results.
-
   am:
     term: የውሂብ መሐንዲስ
     def: >
       መረጃ ትንታኔዎችን የሚያዘጋጅ እና የሚያከናውን ሰው ፡፡ የመረጃ መሐንዲሶች ብዙውን ጊዜ ናቸው ሶፍትዌርን ለመጫን ፣ የውሂብ ጎታዎችን ለማስተዳደር ፣ ሪፖርቶችን ለማመንጨት እና ውጤቶችን በማህደር ማስቀመጥ።
+      
+  es: 
+    term: "ingeniera o ingeniero de datos"
+    def: >
+      Alguien que configura y ejecuta análisis de datos. A menudo, las ingenieras e ingenieros de datos son 
+      responsables de la instalación de software, el manejo de bases de datos, la generación de reportes y el archivado de resultados
 
 - slug: data_engineering
   ref:
@@ -4076,6 +4150,11 @@
     term: መረጃ ማውጣት
     def: >
       በትላልቅ የውሂብ ስብስቦች ውስጥ ቅጦችን ለመፈለግ የኮምፒተር አጠቃቀም። ዘ ቃል [ዳታ ሳይንስ](#data_science) አሁን በብዛት ጥቅም ላይ ውሏል ፡፡
+      
+  es:
+    term: "mineria de datos"
+    def: >
+     El uso de computadoras para buscar patrones en grandes conjuntos de datos. Hoy en día se utiliza más comúnmente el término [data science](#data_science)
 
 - slug: data_package
   en:
@@ -4259,6 +4338,11 @@
     term: የውሳኔ ዛፍ
     def: >
       [አንጓዎቹ](#node) ጥያቄዎቹ እና [ቅርንጫፎቹ](#branch) ውሎ አድሮ ወደ ውሳኔ ወይም [ምደባ](#classification) የሚወስድ ዛፍ።
+      
+  es:
+    term: "árbol de decisiones"
+    def: >
+      Un árbol cuyos nodos son preguntas y cuyas ramas eventualmente llevan a una decisión(#branch) o clasificación(#classification).
 
 - slug: decorator_pattern
   en:
@@ -8785,6 +8869,23 @@
     def: >
       A naming style that separates the parts of a name with underscores, as in `first_second_third`.
 
+- slug: precision
+  en:
+    term: "precision"
+    def: >
+      Precision measures how close repeated results are to one another, regardless of whether they are close to the true value. 
+      In classification, precision is the proportion of how often a model's positive predictions are correct (e.g., true positives).
+
+      Precision = (TP)/(TP+FP).
+
+      - TP = True Positive
+      - FP = False Positive
+      - FN = False Negative
+      - TN = True Negative
+
+      Precision is the counterpart of [accuracy](https://glosario.carpentries.org/en/#accuracy). Accuracy captures how close results are to the true or
+      known value, whereas precision captures their consistency, so a set of results can be precise without being accurate, and vice versa.
+
 - slug: preamble
   ref:
     - latex
@@ -8895,6 +8996,13 @@
       Software that is delivered to an end user. The term is used to distinguish such
       code from test code, deployment infrastructure, and everything else that
       programmers write along the way.
+
+- slug: profiling
+  en:
+    term: "profiling"
+    def: >
+      The process of measuring where run time is spent in the code (e.g. in which function or associated with which line number).
+      Memory profiling looks at the amount of data moved from and to memory. 
 
 
 - slug: project_manager
@@ -10206,7 +10314,11 @@
     def: >
       A predefined communication channel for a [process](#process), typically used for
       error messages.
-
+  es:
+    term: "error estándar"
+    def: >
+      Un canal de comunicación predefinido para un [proceso](#process), usado típicamente 
+      para mensajes de error.
 
 - slug: stdin
   ref:
@@ -10217,7 +10329,11 @@
     def: >
       A predefined communication channel for a [process](#process), typically used to
       read input from the keyboard or from the previous process in a [pipe](#pipe_shell).
-
+  es:
+    term: "entrada estándar"
+    def: >
+      Un canal de comunicación predefinido para un [proceso](#process), usado típicamente para
+      leer la entrada desde el teclado o desde el proceso anterior en el flujo de trabajo.
 
 - slug: stdout
   ref:
@@ -10228,6 +10344,11 @@
     def: >
       A predefined communication channel for a [process](#process), typically used to
       send output to the screen or to the next process in a [pipe](#pipe_shell).
+  es:
+    term: "salida estándar"
+    def: >
+      Un canal de communication predefinido para un [proceso](#process), usado típicamente para
+      enviar la salida a la pantalla o al proceso siguiente en un flujo de trabajo.
 
 
 - slug: stratified_sampling
@@ -10235,7 +10356,11 @@
     term: "stratified sampling"
     def: >
       Selecting values by dividing the overall population into [homogeneous](#homogeneous)
-      groups and then taking a random sample from each group.
+  es:
+    term: "muestra estratificada"
+    def: >
+      Selecionar valores dividiendo la población general en grupos [homogéneos](#homogeneous)
+      y tomando luego una muestra aleatoria de cada grupo. 
 
 
 - slug: stream
@@ -10244,7 +10369,11 @@
     def: >
       A sequential flow of data, such as the [bits](#bit) arriving across a network connection
       or the bytes read from a file.
-
+  es:
+    term: "flujo"
+    def: >
+      Un flujo secuencial de datos, como los [bits](#bit) que llegan a través de una conexión de red 
+      o los bytes que see lean desde un archivo.
 
 - slug: string
   en:
@@ -11318,7 +11447,6 @@
       desplaza sobre los datos, en lugar de emplear las multiplicaciones de matrices generales que se 
       utilizan en las capas totalmente conectadas de una red neuronal.
 
-
 - slug: rnn
   ref:
     - deep_learning
@@ -11332,7 +11460,6 @@
       A class of [artificial neural networks](#neural_network) where connections between nodes can
       create a cycle. This allows the network to exhibit behavior that is dynamic over time. This
       type of network is applicable to tasks like speech and handwriting recognition.
-
 
 - slug: epoch_dl
   ref:
@@ -11429,3 +11556,30 @@
       es un gráfico que muestra el desempeño de un clasificador binario con diferentes umbrales de [clasificación](#classification)
       La curva se obtiene graficando la tasa de verdaderos positivos (también conocida como Recall o [Sensibilidad](#sensitivity))
       a lo largo del eje vertical y la taza de falsos positivos a lo largo del eje horizontal.
+
+- slug: fine_tuning
+  ref:
+    - deep_learning
+    - neural_network
+    - transfer_learning
+  
+  en:
+    term: fine-tuning (deep learning)
+    def: >
+      Fine-tuning is an approach to transfer learning in which a pre-trained network is adapted to the 
+      specifics of a new dataset. 
+
+- slug: transfer_learning
+  ref: 
+    - deep_learning
+    - transfer_learning
+  
+  en:
+    term: transfer learning (deep learning)
+    def: >
+      Transfer learning is a specific form of deep learning that has 2 stages. First, in the pre-training 
+      phase, a neural network is trained on a (typically large) generic dataset. Second, the 
+      fine-tuning phase, the neural network is adapted to the specifics of a (typically smaller) new 
+      dataset. The idea is that the network will capture generic knowledge in the pre-training phase 
+      that is relevant for learning in the fine-tuning task.
+      
